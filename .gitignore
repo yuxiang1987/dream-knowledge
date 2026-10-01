@@ -1,0 +1,13 @@
+# This repository contains knowledge-base source only.
+/*
+!/.gitignore
+!/AGENTS.md
+!/README.md
+!/raw/
+!/wiki/
+!/templates/
+!/scripts/
+**/__pycache__/
+**/*.pyc
+**/.DS_Store
+**/Thumbs.db
