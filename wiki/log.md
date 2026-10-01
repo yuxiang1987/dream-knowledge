@@ -274,3 +274,8 @@
 - 来源为本会话用户反馈、截图、录屏与外部定稿；未归档 raw 的新页 sources 留空并解释依据，raw 不修改。
 - 准备将 raw/wiki/templates/scripts 和维护说明提交新建私有 GitHub 仓库，排除临时项目、输出及技能副本。
 - 已创建并推送至私有仓库 https://github.com/yuxiang1987/dream-knowledge，默认分支 main；知识库体检通过，新页无 raw 来源的提示已在正文解释。
+
+## [2026-10-01] schema | 增加提交与测试要求
+
+- 在知识库与 dream-skills 的 AGENTS.md 中加入每次改动必须提交 Git Commit、编写更新测试并通过全部验证的要求，保留原有规范。
+- 新增维护规则自动检查脚本。
