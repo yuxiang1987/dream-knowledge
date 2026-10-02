@@ -26,6 +26,17 @@
 
 把 `E:\code\webchat` 作为仓库（vault）打开，就能用双链、图谱视图和关系网查看整个知识库。`wiki/index.md` 是入口。
 
+## 工作空间公众号技能
+
+项目级技能安装在 `.agents/skills/`，来源为 https://github.com/yuxiang1987/dream-skills，安装版本 `08267413a872aaf2a389cff65c29848497287afc`。
+
+- `wechat-article-writing`：公众号案例策划、正文写作和改稿。
+- `gzh-final-check`：最终定稿检查。
+- `gzh-webchat-cover`：公众号横版封面。
+- `md-wechat-layout`：Markdown 转微信公众号富文本排版；首次使用前在技能目录运行 `npm ci` 安装依赖。
+
+这些目录是工作空间安装副本，技能源码仍由 dream-skills 仓库维护。可通过 `$技能名` 调用。
+
 ## 注意
 
 这个文件夹现在专门用作知识库，不建议再往里放无关代码项目，否则 `AGENTS.md` 的维护规范会跟着生效。

@@ -7,6 +7,10 @@
 !/wiki/
 !/templates/
 !/scripts/
+!/.agents/
+/.agents/*
+!/.agents/skills/
+**/node_modules/
 **/__pycache__/
 **/*.pyc
 **/.DS_Store
