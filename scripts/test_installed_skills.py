@@ -19,6 +19,18 @@ class InstalledSkillsTest(unittest.TestCase):
                 self.assertIn("description:", text)
                 self.assertTrue((folder / "agents/openai.yaml").is_file())
 
+    def test_final_review_regression_resource(self):
+        folder = ROOT / ".agents/skills/gzh-final-check"
+        text = (folder / "SKILL.md").read_text(encoding="utf-8")
+        import re
+        for target in re.findall(r"\]\((tests/[^)]+)\)", text):
+            with self.subTest(reference=target):
+                resource = folder / target
+                self.assertTrue(resource.is_file())
+                self.assertTrue(resource.read_text(encoding="utf-8").strip())
+        manifest = json.loads((ROOT / "scripts/installed_skills.json").read_text(encoding="utf-8"))
+        self.assertIn("gzh-final-check/tests/review-cases.md", manifest["sha256"])
+
     def test_upstream_files_unchanged(self):
         manifest = json.loads((ROOT / "scripts/installed_skills.json").read_text(encoding="utf-8"))
         for relative, expected in manifest["sha256"].items():

@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/yuxiang1987/dream-skills",
-  "commit": "08267413a872aaf2a389cff65c29848497287afc",
+  "commit": "eb1fa7aa10a815dd0a5ffbbc43f5801999243333",
   "skills": [
     "gzh-webchat-cover",
     "md-wechat-layout",
@@ -36,11 +36,12 @@
     "md-wechat-layout/SKILL.md": "364237691088dd6383f3341791aa7e39fa02679bb8489b327b20bd5e2806b6ed",
     "md-wechat-layout/tests/render.test.mjs": "cd432870e990a03c2158184a31948f48498f7632193cdd8754c16cc4852a5b29",
     "gzh-final-check/agents/openai.yaml": "0ee6d338d8cf4c66f1b257e13853c02e754381e3f4aee8974fde8a3b2c3fbf95",
-    "gzh-final-check/SKILL.md": "bd3df759692b8decf1d11a2e21e37bfa953d1327661a19c15524df5634e6b05c",
+    "gzh-final-check/SKILL.md": "638a0aabda2e49b13ed9e2821a913152eb821158177c75ea7db032a640d30554",
     "wechat-article-writing/agents/openai.yaml": "2e647145adc4943a3c46c44aeed729568057dbdc0b1f3018d8eca2f9b00e196a",
     "wechat-article-writing/references/benchmark-methods.md": "af3a070f4f63a1a36b2bbccae90fc99b6775f0f9bcefac12851c608f211f12ae",
     "wechat-article-writing/references/case-and-hook-selection.md": "bb91c5bd11a19d4a5e9d1aed6dbbc393517a6c446feca9d452c1f87120834ca0",
     "wechat-article-writing/references/draft-and-final-review.md": "5984cd4aba44ec6ccb5bcbd278fd69c4e9ef37b72842a9aa0f9a117925dad7c5",
-    "wechat-article-writing/SKILL.md": "fa0191878029601a6d7a2e5dadec7839e9fd17369eb526f704a228002dfc64b9"
+    "wechat-article-writing/SKILL.md": "fa0191878029601a6d7a2e5dadec7839e9fd17369eb526f704a228002dfc64b9",
+    "gzh-final-check/tests/review-cases.md": "e6a9dace3023bc89e8cdbdeabfc7cb01037f2a7b6b884ce124a647c7c017ec73"
   }
 }
