@@ -39,4 +39,6 @@
 
 ## 注意
 
+另已安装本地 WorkBuddy 技能 `$wechat-viral-topic`（10万+爆款选题制造机），目录为 `.agents/skills/wechat-viral-topic/`，用于选题、标题与内容策划。来源为 `C:\Users\Administrator\.workbuddy\skills\wechat-viral-topic`，本次原样安装，未优化技能。
+
 这个文件夹现在专门用作知识库，不建议再往里放无关代码项目，否则 `AGENTS.md` 的维护规范会跟着生效。

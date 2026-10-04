@@ -1,0 +1,16 @@
+{
+  "source": "C:\\Users\\Administrator\\.workbuddy\\skills\\wechat-viral-topic",
+  "version": "1.0.0",
+  "sha256": {
+    "_icon.svg": "765e0290c1cbe6cfb1ff166ee3b3fd001c146d0fc0ce5f781ae82ad86e94092a",
+    "_skillhub_meta.json": "c85f64bde68b93308edfe17cddbcf1e1761782849c730163c71f5efd9df92ab6",
+    "references/content-formats.md": "8a427ff990950fb912b0a379c9d7987ad50bd3bd71ea8f90f8e357d8d3c95f4a",
+    "references/core-principles.md": "e837aba2ba2e473f544d48be661f0d156117788d09f84c4d8c88f9d50daf5b20",
+    "references/four-genes.md": "ba0c24ced4207f20e0c03c347a0d056423d893bb17526075c33dd96e3f0d5add",
+    "references/risk-checklist.md": "8ab7523d4dba510543514c03d8a0dad80685ec8c513f08fed2709dc82257470a",
+    "references/scoring-card.md": "f8c8c5dbf857f09ae35d8cd536aefe97742c813c659f449d714b1d1c628a0ef5",
+    "references/title-formulas.md": "907f5c6e3cbda23c6cd686e631d4a3e100b0eeff384671d3f8ef4a6c12c56864",
+    "SKILL.md": "931bac8fb91ac8056e984cab8f0fdff7a5d91345c8582bbcb5c04f9d7b782642",
+    "templates/output-template.md": "be1886cae6b8971d9407e3d212613d03e8e855fe0e07c7791deefea824dcc5f8"
+  }
+}

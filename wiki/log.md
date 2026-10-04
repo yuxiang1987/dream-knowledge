@@ -1,5 +1,11 @@
 # 操作日志
 
+## [2026-10-04] install | 安装本地爆款选题技能
+
+- 从 `C:\Users\Administrator\.workbuddy\skills\wechat-viral-topic` 原样安装到 `.agents/skills/wechat-viral-topic/`，包含参考资料、输出模板和原有元数据；未修改源技能。
+- 更新 `README.md`，新增 `scripts/wechat_viral_topic_install.json` 来源校验记录和 `scripts/test_wechat_viral_topic_install.py` 安装验证，检查文件一致性、入口和引用资源。
+- 本次为安装操作，提交到知识库仓库；不包含工作区已有的其他技能修改或 raw 新资料。
+
 > 按时间追加，格式：`## [YYYY-MM-DD] 操作类型 | 标题`
 
 ## [2026-09-29] init | 知识库初始化
