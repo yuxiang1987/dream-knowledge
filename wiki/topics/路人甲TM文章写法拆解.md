@@ -3,19 +3,22 @@ title: 路人甲TM文章写法拆解
 type: topic
 tags: [公众号, 文章拆解, 路人甲TM]
 status: 进行中
-sources: [raw/article/lurenjiaTM/AI办公智能体增速第一，我给百度搭子出了三道题.md, raw/article/lurenjiaTM/GPT-6 Atsra终于开放，连测12小时！AGI到底有多猛？.md, raw/article/lurenjiaTM/Qwen-Image-3.0实测，国产生图模型这次夯爆了.md, raw/article/lurenjiaTM/WorkBuddy最新教程，看完我奶奶也会用了.md, raw/article/lurenjiaTM/阿里Qwen3.8-27B疯了：笔记本就能跑，能力却直逼Opus4.6.md, raw/article/lurenjiaTM/熬夜猛肝3万星的开源黑马Buzz，多Agent协作最全实操，手把手教会你.md, raw/article/lurenjiaTM/把B站干崩的《凡人修仙传》名场面，我用Pixmax尝试做了一遍.md, raw/article/lurenjiaTM/半夜秃袭，GPT Image2.5真的变强了，草图生图功能确实夯.md, raw/article/lurenjiaTM/不睡觉连肝三小时，deepseek原生harness首批实测来了!.md, raw/article/lurenjiaTM/拆解爆火的天才机甲师：AI短剧进入工业化时代，一个人如何完成机甲大片创作？.md, raw/article/lurenjiaTM/豆包爱学这次，做了个有点浪漫的东西.md, raw/article/lurenjiaTM/还在靠抽卡做视频？我用updream预演台告别抽卡.md, raw/article/lurenjiaTM/美图，不止美图秀秀.md, raw/article/lurenjiaTM/全新Qoder实测，阿里这一年的Coding确实没白做.md, raw/article/lurenjiaTM/实测豆包Seed-Evolving，写代码比我预期能打太多了.md, raw/article/lurenjiaTM/手机、电脑无缝衔接跑任务，这才是Vibecoding的完全体.md, raw/article/lurenjiaTM/为了让AI拍完长视频大片，我手搓了个Skill.md, raw/article/lurenjiaTM/我给DeepSeek Harness搭了个插件市场，这篇教你装，也教你做.md, raw/article/lurenjiaTM/我给iPhone Duo手搓了一整套配件，苹果看了都得直摇头.md, raw/article/lurenjiaTM/我让腾讯Miora帮我开了家火锅店，做到最后，我有点膨胀了.md, raw/article/lurenjiaTM/这就是AGI？GPT-6 Astra一夜刷屏，真实效果太夸张了.md, raw/article/lurenjiaTM/只用五分钟，Seko让一条国产AI短剧活了三次.md]
+sources: [raw/article/lurenjiaTM/AI办公智能体增速第一，我给百度搭子出了三道题.md, raw/article/lurenjiaTM/GPT-6 Atsra终于开放，连测12小时！AGI到底有多猛？.md, raw/article/lurenjiaTM/Qwen-Image-3.0实测，国产生图模型这次夯爆了.md, raw/article/lurenjiaTM/WorkBuddy最新教程，看完我奶奶也会用了.md, raw/article/lurenjiaTM/阿里Qwen3.8-27B疯了：笔记本就能跑，能力却直逼Opus4.6.md, raw/article/lurenjiaTM/熬夜猛肝3万星的开源黑马Buzz，多Agent协作最全实操，手把手教会你.md, raw/article/lurenjiaTM/把B站干崩的《凡人修仙传》名场面，我用Pixmax尝试做了一遍.md, raw/article/lurenjiaTM/半夜秃袭，GPT Image2.5真的变强了，草图生图功能确实夯.md, raw/article/lurenjiaTM/不睡觉连肝三小时，deepseek原生harness首批实测来了!.md, raw/article/lurenjiaTM/拆解爆火的天才机甲师：AI短剧进入工业化时代，一个人如何完成机甲大片创作？.md, raw/article/lurenjiaTM/豆包爱学这次，做了个有点浪漫的东西.md, raw/article/lurenjiaTM/还在靠抽卡做视频？我用updream预演台告别抽卡.md, raw/article/lurenjiaTM/美图，不止美图秀秀.md, raw/article/lurenjiaTM/全新Qoder实测，阿里这一年的Coding确实没白做.md, raw/article/lurenjiaTM/实测豆包Seed-Evolving，写代码比我预期能打太多了.md, raw/article/lurenjiaTM/手机、电脑无缝衔接跑任务，这才是Vibecoding的完全体.md, raw/article/lurenjiaTM/为了让AI拍完长视频大片，我手搓了个Skill.md, raw/article/lurenjiaTM/我给DeepSeek Harness搭了个插件市场，这篇教你装，也教你做.md, raw/article/lurenjiaTM/我给iPhone Duo手搓了一整套配件，苹果看了都得直摇头.md, raw/article/lurenjiaTM/我让腾讯Miora帮我开了家火锅店，做到最后，我有点膨胀了.md, raw/article/lurenjiaTM/这就是AGI？GPT-6 Astra一夜刷屏，真实效果太夸张了.md, raw/article/lurenjiaTM/只用五分钟，Seko让一条国产AI短剧活了三次.md, raw/article/lurenjiaTM/手把手教你用WorkBuddy做微信小程序并上线，看完就会！（附真实案例）.md]
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-16
 ---
 
 # 路人甲TM文章写法拆解
 
-本页逐篇累积观察，待样本足够时再总结标题、结构、开头钩子、测评观点和结尾的常见写法。当前分析二十二篇，本批清单已全部拆解完成；以下不是对作者全部文章的统计结论。原始文章位于 `raw/article/lurenjiaTM/`。
+本页逐篇累积观察，待样本足够时再总结标题、结构、开头钩子、测评观点和结尾的常见写法。2026-10-16 已覆盖本地二十三篇，新增小程序教程；以下不是对作者全部文章的统计结论。原始文章位于 `raw/article/lurenjiaTM/`。产品、品牌与类型台账见 [[topics/AI公众号产品选题与客户地图]]。
+
+新增商业依据：录音约21:00作者自述自己的账号内容100%商单，整理商业产品池时应保留该账号级自述。以下早期条目中的「推广特征」是基于当时正文的判断，不等于否认新增自述；具体文章的付费主体与当前需求仍需分开核对。
 
 ## 已拆解文章
 
 | 文章 | 主类型 | 标题结构 | 开头钩子 | 推进方式 | 结尾 |
 | --- | --- | --- | --- | --- | --- |
+| [[sources/WorkBuddy小程序教程文章拆解]] | 教程＋实战＋解决问题 | 产品＋完整路径＋真实案例 | 开发痛点＋先给成果 | 记账原型→试用发布→改账单→网页迁移→正式版边界 | 回到小需求与试错成本 |
 | [[sources/百度搭子三道题文章拆解]] | 新品实测 | 热点数据＋第一人称测试＋数量悬念 | 热点引入＋现实痛点＋标准待验证 | 三项不同任务共用「交付是否可用」标准 | 回到验收标准，保留人工判断 |
 | [[sources/GPT-6-Astra连测文章拆解]] | 新模型首发实测 | 上线热点＋投入时长＋AGI 疑问 | 时效消息＋个人强判断＋五案例预告 | 五项跨能力案例，含一次成功后加测失败 | 承认 AGI 未证实，转向成本与安全问题 |
 | [[sources/Qwen-Image-3实测文章拆解]] | 生图模型多场景实测 | 产品＋实测＋强情绪结论 | 低预期反差＋成品先行＋疑问 | 中文信息图→长文图谱→海报→UI→分镜，局部失败后调整 | 分维度肯定强项与短板，含超出证据的排名判断 |

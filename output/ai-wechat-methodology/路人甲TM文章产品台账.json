@@ -1,0 +1,891 @@
+{
+  "updated": "2026-10-16",
+  "coverage": "本地现有23篇；不是账号全部历史",
+  "account_claim": {
+    "source": "https://www.biji.com/note/share_note/7gvozqXeM4Lmb",
+    "timestamp": "21:00",
+    "claim": "作者自述自己的账号内容100%商单",
+    "scope": "口述时点的账号级自述；不替代每篇付费主体与当前预算核对"
+  },
+  "classification_source": "录音41:44与44:00；主类型为综合归类，整活为表现标签",
+  "content_types": [
+    "实战型",
+    "解决问题型",
+    "整合型",
+    "教程型",
+    "观点型",
+    "资讯型"
+  ],
+  "products": [
+    {
+      "id": "workbuddy",
+      "name": "WorkBuddy",
+      "directions": [
+        "AI Agent",
+        "Coding"
+      ],
+      "level": "应用/Agent",
+      "brand_in_material": "腾讯（材料语境）",
+      "task_examples": "新手上手、文件任务、小程序",
+      "own_portfolio": "已有3篇自主作品",
+      "article_ids": [
+        "LRJ-004",
+        "LRJ-023"
+      ],
+      "brand_verification": "据历史材料记录，未独立核实当前公司/商务主体",
+      "official_contact": null,
+      "budget_status": "未知"
+    },
+    {
+      "id": "baidu_dazi",
+      "name": "百度搭子",
+      "directions": [
+        "AI Agent"
+      ],
+      "level": "办公Agent",
+      "brand_in_material": "百度（材料名称）",
+      "task_examples": "直播材料、内容工作流、数据报告",
+      "own_portfolio": "暂无同产品已发布样本",
+      "article_ids": [
+        "LRJ-001"
+      ],
+      "brand_verification": "据历史材料记录，未独立核实当前公司/商务主体",
+      "official_contact": null,
+      "budget_status": "未知"
+    },
+    {
+      "id": "buzz",
+      "name": "Buzz",
+      "directions": [
+        "AI Agent",
+        "Coding"
+      ],
+      "level": "多Agent协作平台",
+      "brand_in_material": "Block（原文自述，当前主体待核）",
+      "task_examples": "共享上下文、角色分工、交接",
+      "own_portfolio": "暂无同产品已发布样本",
+      "article_ids": [
+        "LRJ-006"
+      ],
+      "brand_verification": "据历史材料记录，未独立核实当前公司/商务主体",
+      "official_contact": null,
+      "budget_status": "未知"
+    },
+    {
+      "id": "deepseek_harness",
+      "name": "DeepSeek Harness / DSH",
+      "directions": [
+        "AI Agent",
+        "Coding"
+      ],
+      "level": "Harness与插件生态",
+      "brand_in_material": "DeepSeek（材料语境）",
+      "task_examples": "同模型换外壳、插件与执行约束",
+      "own_portfolio": "暂无同产品已发布样本",
+      "article_ids": [
+        "LRJ-009",
+        "LRJ-018"
+      ],
+      "brand_verification": "据历史材料记录，未独立核实当前公司/商务主体",
+      "official_contact": null,
+      "budget_status": "未知"
+    },
+    {
+      "id": "qoder",
+      "name": "Qoder",
+      "directions": [
+        "Coding",
+        "AI Agent"
+      ],
+      "level": "开发工具/产品线",
+      "brand_in_material": "阿里（原文标题）",
+      "task_examples": "照片、草图、音频转应用",
+      "own_portfolio": "暂无同产品已发布样本",
+      "article_ids": [
+        "LRJ-014"
+      ],
+      "brand_verification": "据历史材料记录，未独立核实当前公司/商务主体",
+      "official_contact": null,
+      "budget_status": "未知"
+    },
+    {
+      "id": "gpt6_astra",
+      "name": "GPT-6 Astra（材料命名）",
+      "directions": [
+        "Coding",
+        "AI Agent"
+      ],
+      "level": "模型及使用端",
+      "brand_in_material": "OpenAI（材料语境，命名/版本未独立核实）",
+      "task_examples": "空间、程序、电脑操作与成本",
+      "own_portfolio": "已有湖景房与游戏实测；另有替补选题",
+      "article_ids": [
+        "LRJ-002",
+        "LRJ-021"
+      ],
+      "brand_verification": "据历史材料记录，未独立核实当前公司/商务主体",
+      "official_contact": null,
+      "budget_status": "未知"
+    },
+    {
+      "id": "qwen38",
+      "name": "Qwen3.8-27B（材料命名）",
+      "directions": [
+        "Coding"
+      ],
+      "level": "模型",
+      "brand_in_material": "阿里（原文标题）",
+      "task_examples": "本地/云端部署、硬件和任务表现",
+      "own_portfolio": "暂无同产品已发布样本",
+      "article_ids": [
+        "LRJ-005"
+      ],
+      "brand_verification": "据历史材料记录，未独立核实当前公司/商务主体",
+      "official_contact": null,
+      "budget_status": "未知"
+    },
+    {
+      "id": "seed_evolving",
+      "name": "豆包 Seed-Evolving（材料命名）",
+      "directions": [
+        "Coding",
+        "AI Agent"
+      ],
+      "level": "模型",
+      "brand_in_material": "豆包产品线（材料命名，商务主体待核）",
+      "task_examples": "长程任务、推理与核查",
+      "own_portfolio": "暂无同产品已发布样本",
+      "article_ids": [
+        "LRJ-015"
+      ],
+      "brand_verification": "据历史材料记录，未独立核实当前公司/商务主体",
+      "official_contact": null,
+      "budget_status": "未知"
+    },
+    {
+      "id": "qwen_image",
+      "name": "Qwen-Image-3.0（材料命名）",
+      "directions": [
+        "AI视频相关素材"
+      ],
+      "level": "图像模型",
+      "brand_in_material": "Qwen产品线（材料语境）",
+      "task_examples": "中文图像、海报、分镜",
+      "own_portfolio": "暂无同产品已发布样本",
+      "article_ids": [
+        "LRJ-003"
+      ],
+      "brand_verification": "据历史材料记录，未独立核实当前公司/商务主体",
+      "official_contact": null,
+      "budget_status": "未知"
+    },
+    {
+      "id": "gpt_image",
+      "name": "GPT Image2.5（材料命名）",
+      "directions": [
+        "AI视频相关素材"
+      ],
+      "level": "图像模型/编辑",
+      "brand_in_material": "OpenAI（材料语境，命名/版本未独立核实）",
+      "task_examples": "草图、生图、局部编辑与前后对照",
+      "own_portfolio": "已有1篇自主实测",
+      "article_ids": [
+        "LRJ-008"
+      ],
+      "brand_verification": "据历史材料记录，未独立核实当前公司/商务主体",
+      "official_contact": null,
+      "budget_status": "未知"
+    },
+    {
+      "id": "pixmax",
+      "name": "Pixmax",
+      "directions": [
+        "AI视频"
+      ],
+      "level": "视频制作平台",
+      "brand_in_material": "Pixmax产品品牌；公司主体待核",
+      "task_examples": "短片制作、成本和团队协作",
+      "own_portfolio": "暂无同产品已发布样本",
+      "article_ids": [
+        "LRJ-007"
+      ],
+      "brand_verification": "据历史材料记录，未独立核实当前公司/商务主体",
+      "official_contact": null,
+      "budget_status": "未知"
+    },
+    {
+      "id": "wanxing",
+      "name": "万兴剧厂",
+      "directions": [
+        "AI视频"
+      ],
+      "level": "视频制作平台",
+      "brand_in_material": "万兴产品线（原文命名，签约主体待核）",
+      "task_examples": "剧本、分镜、资产到机甲短片",
+      "own_portfolio": "暂无同产品已发布样本",
+      "article_ids": [
+        "LRJ-010"
+      ],
+      "brand_verification": "据历史材料记录，未独立核实当前公司/商务主体",
+      "official_contact": null,
+      "budget_status": "未知"
+    },
+    {
+      "id": "updream",
+      "name": "updream预演台",
+      "directions": [
+        "AI视频"
+      ],
+      "level": "预演/空间控制工具",
+      "brand_in_material": "updream产品品牌；公司主体待核",
+      "task_examples": "白模、机位、走位与运镜",
+      "own_portfolio": "暂无同产品已发布样本",
+      "article_ids": [
+        "LRJ-012"
+      ],
+      "brand_verification": "据历史材料记录，未独立核实当前公司/商务主体",
+      "official_contact": null,
+      "budget_status": "未知"
+    },
+    {
+      "id": "libtv",
+      "name": "LibTV",
+      "directions": [
+        "AI视频"
+      ],
+      "level": "视频平台/Skill宿主",
+      "brand_in_material": "LibTV产品品牌；公司主体待核",
+      "task_examples": "长视频节点与连续性Skill",
+      "own_portfolio": "暂无同产品已发布样本",
+      "article_ids": [
+        "LRJ-017"
+      ],
+      "brand_verification": "据历史材料记录，未独立核实当前公司/商务主体",
+      "official_contact": null,
+      "budget_status": "未知"
+    },
+    {
+      "id": "seko",
+      "name": "Seko",
+      "directions": [
+        "AI视频"
+      ],
+      "level": "视频Agent/转绘工具",
+      "brand_in_material": "Seko产品品牌；公司主体待核",
+      "task_examples": "存量短片本地化与剧本适配",
+      "own_portfolio": "暂无同产品已发布样本",
+      "article_ids": [
+        "LRJ-022"
+      ],
+      "brand_verification": "据历史材料记录，未独立核实当前公司/商务主体",
+      "official_contact": null,
+      "budget_status": "未知"
+    },
+    {
+      "id": "miora",
+      "name": "Miora",
+      "directions": [
+        "AI Agent",
+        "AI视频相关素材"
+      ],
+      "level": "设计Agent",
+      "brand_in_material": "腾讯（原文标题）",
+      "task_examples": "Logo、品牌物料、视频与界面",
+      "own_portfolio": "暂无同产品已发布样本",
+      "article_ids": [
+        "LRJ-020"
+      ],
+      "brand_verification": "据历史材料记录，未独立核实当前公司/商务主体",
+      "official_contact": null,
+      "budget_status": "未知"
+    },
+    {
+      "id": "uu_remote",
+      "name": "UU远程",
+      "directions": [
+        "Coding配套工具"
+      ],
+      "level": "远程控制工具",
+      "brand_in_material": "网易资深团队（原文表述，签约主体待核）",
+      "task_examples": "离开电脑继续任务、移动操作",
+      "own_portfolio": "暂无同产品已发布样本",
+      "article_ids": [
+        "LRJ-016"
+      ],
+      "brand_verification": "据历史材料记录，未独立核实当前公司/商务主体",
+      "official_contact": null,
+      "budget_status": "未知"
+    },
+    {
+      "id": "doubao_aixue",
+      "name": "豆包爱学",
+      "directions": [
+        "邻接样本"
+      ],
+      "level": "教育应用",
+      "brand_in_material": "豆包产品线（材料命名，商务主体待核）",
+      "task_examples": "诗词的地理、人物与知识联系",
+      "own_portfolio": "非本账号默认主线",
+      "article_ids": [
+        "LRJ-011"
+      ],
+      "brand_verification": "据历史材料记录，未独立核实当前公司/商务主体",
+      "official_contact": null,
+      "budget_status": "未知"
+    },
+    {
+      "id": "meitu",
+      "name": "美图",
+      "directions": [
+        "邻接样本"
+      ],
+      "level": "公司/产品组合",
+      "brand_in_material": "美图（原文对象）",
+      "task_examples": "公司转型与产品结构分析",
+      "own_portfolio": "非本账号默认主线",
+      "article_ids": [
+        "LRJ-013"
+      ],
+      "brand_verification": "据历史材料记录，未独立核实当前公司/商务主体",
+      "official_contact": null,
+      "budget_status": "未知"
+    },
+    {
+      "id": "unspecified_design",
+      "name": "原文未明确的AI设计/建模工具",
+      "directions": [
+        "AI视频相关素材"
+      ],
+      "level": "具体工具未明",
+      "brand_in_material": "待核实；不得将苹果当作已确认客户",
+      "task_examples": "配件概念设计与3D展示",
+      "own_portfolio": "暂无可对应的具体产品样本",
+      "article_ids": [
+        "LRJ-019"
+      ],
+      "brand_verification": "据历史材料记录，未独立核实当前公司/商务主体",
+      "official_contact": null,
+      "budget_status": "未知"
+    }
+  ],
+  "articles": [
+    {
+      "id": "LRJ-001",
+      "title": "AI办公智能体增速第一，我给百度搭子出了三道题",
+      "raw_path": "raw/article/lurenjiaTM/AI办公智能体增速第一，我给百度搭子出了三道题.md",
+      "source_page": "wiki/sources/百度搭子三道题文章拆解.md",
+      "public_url": "https://mp.weixin.qq.com/s/uBeveDtFxrhKKV2fJZXNSw",
+      "primary_product_ids": [
+        "baidu_dazi"
+      ],
+      "direction": "AI Agent",
+      "primary_type": "实战型",
+      "secondary_tags": [
+        "实测",
+        "多案例"
+      ],
+      "case": "发布会材料、内容链路、财报核查",
+      "commercial_evidence": "作者账号级100%商单自述；该篇付费主体未单核",
+      "sponsor_id": null,
+      "current_budget": null,
+      "contact": null,
+      "raw_sha256": "f0de8325275d117be887da874be56a2903f6f4dad829a2236d2267613ad29512"
+    },
+    {
+      "id": "LRJ-002",
+      "title": "GPT-6 Atsra终于开放，连测12小时！AGI到底有多猛？",
+      "raw_path": "raw/article/lurenjiaTM/GPT-6 Atsra终于开放，连测12小时！AGI到底有多猛？.md",
+      "source_page": "wiki/sources/GPT-6-Astra连测文章拆解.md",
+      "public_url": "https://mp.weixin.qq.com/s/-1En2JDvHACFsAswql_EQQ",
+      "primary_product_ids": [
+        "gpt6_astra"
+      ],
+      "direction": "Coding",
+      "primary_type": "实战型",
+      "secondary_tags": [
+        "实测",
+        "多案例"
+      ],
+      "case": "五项跨能力任务与加测失败",
+      "commercial_evidence": "作者账号级100%商单自述；该篇付费主体未单核",
+      "sponsor_id": null,
+      "current_budget": null,
+      "contact": null,
+      "raw_sha256": "6f389befe53537fd9996cfadb328b795b74be96e6a1f22150ecdcc8d2617ebb1"
+    },
+    {
+      "id": "LRJ-003",
+      "title": "Qwen-Image-3.0实测，国产生图模型这次夯爆了",
+      "raw_path": "raw/article/lurenjiaTM/Qwen-Image-3.0实测，国产生图模型这次夯爆了.md",
+      "source_page": "wiki/sources/Qwen-Image-3实测文章拆解.md",
+      "public_url": "https://mp.weixin.qq.com/s/w77WikUGOjdt0ZSUMcTHKg",
+      "primary_product_ids": [
+        "qwen_image"
+      ],
+      "direction": "AI视频相关素材",
+      "primary_type": "实战型",
+      "secondary_tags": [
+        "实测",
+        "对照"
+      ],
+      "case": "中文图像、海报、UI和分镜",
+      "commercial_evidence": "作者账号级100%商单自述；该篇付费主体未单核",
+      "sponsor_id": null,
+      "current_budget": null,
+      "contact": null,
+      "raw_sha256": "e003e0dfaa0c7d008afcbbac2139e7018f89cce6c40eb3f470205ab92d6d248e"
+    },
+    {
+      "id": "LRJ-004",
+      "title": "WorkBuddy最新教程，看完我奶奶也会用了",
+      "raw_path": "raw/article/lurenjiaTM/WorkBuddy最新教程，看完我奶奶也会用了.md",
+      "source_page": "wiki/sources/WorkBuddy入门教程文章拆解.md",
+      "public_url": "https://mp.weixin.qq.com/s/QhftEBlgcpCt5BUsuV0H1g",
+      "primary_product_ids": [
+        "workbuddy"
+      ],
+      "direction": "AI Agent",
+      "primary_type": "教程型",
+      "secondary_tags": [
+        "实战",
+        "新手上手"
+      ],
+      "case": "生活工作台与PDF文件匹配",
+      "commercial_evidence": "作者账号级100%商单自述；该篇付费主体未单核",
+      "sponsor_id": null,
+      "current_budget": null,
+      "contact": null,
+      "raw_sha256": "c4a82d6c4007b4a68462fa8f1ac91d99b908f4db3671826217de186f47ead9df"
+    },
+    {
+      "id": "LRJ-005",
+      "title": "阿里Qwen3.8-27B疯了：笔记本就能跑，能力却直逼Opus4.6",
+      "raw_path": "raw/article/lurenjiaTM/阿里Qwen3.8-27B疯了：笔记本就能跑，能力却直逼Opus4.6.md",
+      "source_page": "wiki/sources/Qwen3.8-27B本地模型实测文章拆解.md",
+      "public_url": "https://mp.weixin.qq.com/s/sStDNbM8GMlbSZFBl8iUWg",
+      "primary_product_ids": [
+        "qwen38"
+      ],
+      "direction": "Coding",
+      "primary_type": "实战型",
+      "secondary_tags": [
+        "实测",
+        "部署条件"
+      ],
+      "case": "规则、文档应用与空间算法",
+      "commercial_evidence": "作者账号级100%商单自述；该篇付费主体未单核",
+      "sponsor_id": null,
+      "current_budget": null,
+      "contact": null,
+      "raw_sha256": "badee959e3d60b3b0f6604c327b351ffccf02bc0c79213cdbf94e890f829b160"
+    },
+    {
+      "id": "LRJ-006",
+      "title": "熬夜猛肝3万星的开源黑马Buzz，多Agent协作最全实操，手把手教会你",
+      "raw_path": "raw/article/lurenjiaTM/熬夜猛肝3万星的开源黑马Buzz，多Agent协作最全实操，手把手教会你.md",
+      "source_page": "wiki/sources/Buzz多Agent协作文章拆解.md",
+      "public_url": "https://mp.weixin.qq.com/s/9LHLhJ-sXuke-ZfmGmp4hQ",
+      "primary_product_ids": [
+        "buzz"
+      ],
+      "direction": "AI Agent",
+      "primary_type": "教程型",
+      "secondary_tags": [
+        "实战",
+        "解决问题",
+        "翻车复盘"
+      ],
+      "case": "多Agent开发数据分析工具",
+      "commercial_evidence": "作者账号级100%商单自述；该篇付费主体未单核",
+      "sponsor_id": null,
+      "current_budget": null,
+      "contact": null,
+      "raw_sha256": "1a1b4a73ff028ea34bba0d9ade8786e256ad3d1306c9cfc8e10d4ad117a344e8"
+    },
+    {
+      "id": "LRJ-007",
+      "title": "把B站干崩的《凡人修仙传》名场面，我用Pixmax尝试做了一遍",
+      "raw_path": "raw/article/lurenjiaTM/把B站干崩的《凡人修仙传》名场面，我用Pixmax尝试做了一遍.md",
+      "source_page": "wiki/sources/Pixmax修仙短剧文章拆解.md",
+      "public_url": "https://mp.weixin.qq.com/s/1E5PWbkedbmt4fYNT_7EZQ",
+      "primary_product_ids": [
+        "pixmax"
+      ],
+      "direction": "AI视频",
+      "primary_type": "实战型",
+      "secondary_tags": [
+        "整活",
+        "作品复刻",
+        "成本"
+      ],
+      "case": "自有角色制作凝结元婴短片",
+      "commercial_evidence": "作者账号级100%商单自述；该篇付费主体未单核",
+      "sponsor_id": null,
+      "current_budget": null,
+      "contact": null,
+      "raw_sha256": "66a1ac419c1dbaa15c1cb17b16f0f39edeb15b0326d08576837b79508eea150b"
+    },
+    {
+      "id": "LRJ-008",
+      "title": "半夜秃袭，GPT Image2.5真的变强了，草图生图功能确实夯",
+      "raw_path": "raw/article/lurenjiaTM/半夜秃袭，GPT Image2.5真的变强了，草图生图功能确实夯.md",
+      "source_page": "wiki/sources/GPT-Image2.5草图生图文章拆解.md",
+      "public_url": "https://mp.weixin.qq.com/s/Gbdzh-8VKGEcTiETGxUlPw",
+      "primary_product_ids": [
+        "gpt_image"
+      ],
+      "direction": "AI视频相关素材",
+      "primary_type": "实战型",
+      "secondary_tags": [
+        "实测",
+        "对照",
+        "整活"
+      ],
+      "case": "草图、品牌物料与图像编辑",
+      "commercial_evidence": "作者账号级100%商单自述；该篇付费主体未单核",
+      "sponsor_id": null,
+      "current_budget": null,
+      "contact": null,
+      "raw_sha256": "73c58e89eda44f9b737d066f4e47e85652327ebbb0bcb5000b6bbd1de039abc2"
+    },
+    {
+      "id": "LRJ-009",
+      "title": "不睡觉连肝三小时，deepseek原生harness首批实测来了!",
+      "raw_path": "raw/article/lurenjiaTM/不睡觉连肝三小时，deepseek原生harness首批实测来了!.md",
+      "source_page": "wiki/sources/DeepSeek原生Harness文章拆解.md",
+      "public_url": "https://mp.weixin.qq.com/s/2O2nLCXXnIyUovNvP1NOnA",
+      "primary_product_ids": [
+        "deepseek_harness"
+      ],
+      "direction": "Coding",
+      "primary_type": "实战型",
+      "secondary_tags": [
+        "实测",
+        "对照"
+      ],
+      "case": "固定模型改变Harness进行三组测试",
+      "commercial_evidence": "作者账号级100%商单自述；该篇付费主体未单核",
+      "sponsor_id": null,
+      "current_budget": null,
+      "contact": null,
+      "raw_sha256": "055dd10b33d81a908fa276339cb17f0840364916ce964fd8f1995c0b3d84926d"
+    },
+    {
+      "id": "LRJ-010",
+      "title": "拆解爆火的天才机甲师：AI短剧进入工业化时代，一个人如何完成机甲大片创作？",
+      "raw_path": "raw/article/lurenjiaTM/拆解爆火的天才机甲师：AI短剧进入工业化时代，一个人如何完成机甲大片创作？.md",
+      "source_page": "wiki/sources/天才机甲师拆解文章拆解.md",
+      "public_url": "https://mp.weixin.qq.com/s/Z-BXrvX3pfpQhtadIur3Tg",
+      "primary_product_ids": [
+        "wanxing"
+      ],
+      "direction": "AI视频",
+      "primary_type": "实战型",
+      "secondary_tags": [
+        "教程",
+        "整活",
+        "第三方素材混合"
+      ],
+      "case": "自有机甲短片的分镜、资产、机位与组接",
+      "commercial_evidence": "作者账号级100%商单自述；该篇付费主体未单核",
+      "sponsor_id": null,
+      "current_budget": null,
+      "contact": null,
+      "raw_sha256": "7621bf551c5d68fd5863c35d19deee75427a56c795eebcf0f623f1b2869ca43c"
+    },
+    {
+      "id": "LRJ-011",
+      "title": "豆包爱学这次，做了个有点浪漫的东西",
+      "raw_path": "raw/article/lurenjiaTM/豆包爱学这次，做了个有点浪漫的东西.md",
+      "source_page": "wiki/sources/豆包爱学诗词山河文章拆解.md",
+      "public_url": "https://mp.weixin.qq.com/s/_MdarL3lwcxSZqoNeqQJVw",
+      "primary_product_ids": [
+        "doubao_aixue"
+      ],
+      "direction": "邻接样本",
+      "primary_type": "观点型",
+      "secondary_tags": [
+        "产品体验",
+        "价值判断"
+      ],
+      "case": "诗词与地点、诗人轨迹连接的体验",
+      "commercial_evidence": "作者账号级100%商单自述；该篇付费主体未单核",
+      "sponsor_id": null,
+      "current_budget": null,
+      "contact": null,
+      "raw_sha256": "911dd82916833a064cfbc9c3426eb081eb6b1d87ca9eabf31dbb0478566fbd91"
+    },
+    {
+      "id": "LRJ-012",
+      "title": "还在靠抽卡做视频？我用updream预演台告别抽卡",
+      "raw_path": "raw/article/lurenjiaTM/还在靠抽卡做视频？我用updream预演台告别抽卡.md",
+      "source_page": "wiki/sources/updream预演台文章拆解.md",
+      "public_url": "https://mp.weixin.qq.com/s/PjTgkaflEG1nnzRzMg-2Yg",
+      "primary_product_ids": [
+        "updream"
+      ],
+      "direction": "AI视频",
+      "primary_type": "解决问题型",
+      "secondary_tags": [
+        "实测",
+        "对照",
+        "作品"
+      ],
+      "case": "白模控制静态、简单与复杂运镜",
+      "commercial_evidence": "作者账号级100%商单自述；该篇付费主体未单核",
+      "sponsor_id": null,
+      "current_budget": null,
+      "contact": null,
+      "raw_sha256": "a7096b8adbe8a36b736fab052167c254dcd9979d9bbc58fccff49b0cf4ce91ec"
+    },
+    {
+      "id": "LRJ-013",
+      "title": "美图，不止美图秀秀",
+      "raw_path": "raw/article/lurenjiaTM/美图，不止美图秀秀.md",
+      "source_page": "wiki/sources/美图公司分析文章拆解.md",
+      "public_url": "https://mp.weixin.qq.com/s/VFNItHeiCDCmdyBESRufig",
+      "primary_product_ids": [
+        "meitu"
+      ],
+      "direction": "邻接样本",
+      "primary_type": "观点型",
+      "secondary_tags": [
+        "公司分析",
+        "无实测"
+      ],
+      "case": "产品组合与公司转型解释",
+      "commercial_evidence": "作者账号级100%商单自述；该篇付费主体未单核",
+      "sponsor_id": null,
+      "current_budget": null,
+      "contact": null,
+      "raw_sha256": "0edf4b346486416e1231f98634e142cce8e8436427aadd7b694ddcd9e6baf486"
+    },
+    {
+      "id": "LRJ-014",
+      "title": "全新Qoder实测，阿里这一年的Coding确实没白做",
+      "raw_path": "raw/article/lurenjiaTM/全新Qoder实测，阿里这一年的Coding确实没白做.md",
+      "source_page": "wiki/sources/全新Qoder实测文章拆解.md",
+      "public_url": "https://mp.weixin.qq.com/s/3rq8LPTqHOB3ZdfTIDu0oA",
+      "primary_product_ids": [
+        "qoder"
+      ],
+      "direction": "Coding",
+      "primary_type": "实战型",
+      "secondary_tags": [
+        "实测",
+        "多输入"
+      ],
+      "case": "照片、草图与录音转成可运行项目",
+      "commercial_evidence": "作者账号级100%商单自述；该篇付费主体未单核",
+      "sponsor_id": null,
+      "current_budget": null,
+      "contact": null,
+      "raw_sha256": "c6b7764253b5d07f04f58d3e833245465416c78d290fb73b3ec2fa46993e408c"
+    },
+    {
+      "id": "LRJ-015",
+      "title": "实测豆包Seed-Evolving，写代码比我预期能打太多了",
+      "raw_path": "raw/article/lurenjiaTM/实测豆包Seed-Evolving，写代码比我预期能打太多了.md",
+      "source_page": "wiki/sources/豆包Seed-Evolving实测文章拆解.md",
+      "public_url": "https://mp.weixin.qq.com/s/X_4EGbWcS6vdP_y6tmPGQg",
+      "primary_product_ids": [
+        "seed_evolving"
+      ],
+      "direction": "Coding",
+      "primary_type": "实战型",
+      "secondary_tags": [
+        "实测",
+        "事实核查"
+      ],
+      "case": "知识图谱、游戏与交叉核查",
+      "commercial_evidence": "作者账号级100%商单自述；该篇付费主体未单核",
+      "sponsor_id": null,
+      "current_budget": null,
+      "contact": null,
+      "raw_sha256": "e4e73b2725b7aad4d15d7ca6f7fadaf2d99a28263845853f643bfed2ea5b7e31"
+    },
+    {
+      "id": "LRJ-016",
+      "title": "手机、电脑无缝衔接跑任务，这才是Vibecoding的完全体",
+      "raw_path": "raw/article/lurenjiaTM/手机、电脑无缝衔接跑任务，这才是Vibecoding的完全体.md",
+      "source_page": "wiki/sources/UU远程Vibecoding文章拆解.md",
+      "public_url": "https://mp.weixin.qq.com/s/uXK8Ot30AnrlanI5OK0hbg",
+      "primary_product_ids": [
+        "uu_remote"
+      ],
+      "direction": "Coding配套工具",
+      "primary_type": "解决问题型",
+      "secondary_tags": [
+        "实测",
+        "场景"
+      ],
+      "case": "手机继续Coding、办公应急与游戏",
+      "commercial_evidence": "作者账号级100%商单自述；该篇付费主体未单核",
+      "sponsor_id": null,
+      "current_budget": null,
+      "contact": null,
+      "raw_sha256": "9afa85d386d08f8ae9e35389c7048ef42a8727ff158a6ab614594422e41f2e90"
+    },
+    {
+      "id": "LRJ-017",
+      "title": "为了让AI拍完长视频大片，我手搓了个Skill",
+      "raw_path": "raw/article/lurenjiaTM/为了让AI拍完长视频大片，我手搓了个Skill.md",
+      "source_page": "wiki/sources/长视频导演Skill文章拆解.md",
+      "public_url": "https://mp.weixin.qq.com/s/kAO14KDfIRgapmsljv3smw",
+      "primary_product_ids": [
+        "libtv"
+      ],
+      "direction": "AI视频",
+      "primary_type": "解决问题型",
+      "secondary_tags": [
+        "实战",
+        "对照",
+        "自建Skill"
+      ],
+      "case": "长视频导演Skill与节点连续性对照",
+      "commercial_evidence": "作者账号级100%商单自述；该篇付费主体未单核",
+      "sponsor_id": null,
+      "current_budget": null,
+      "contact": null,
+      "raw_sha256": "fd4307787fab8ee1b5c679e09992d5e175ca0ec1af56eae1b039219496cf8678"
+    },
+    {
+      "id": "LRJ-018",
+      "title": "我给DeepSeek Harness搭了个插件市场，这篇教你装，也教你做",
+      "raw_path": "raw/article/lurenjiaTM/我给DeepSeek Harness搭了个插件市场，这篇教你装，也教你做.md",
+      "source_page": "wiki/sources/DSH插件市场文章拆解.md",
+      "public_url": "https://mp.weixin.qq.com/s/KvUdaaNcdcRPMn3DlRWAfQ",
+      "primary_product_ids": [
+        "deepseek_harness"
+      ],
+      "direction": "AI Agent",
+      "primary_type": "整合型",
+      "secondary_tags": [
+        "教程",
+        "实战",
+        "自建工具"
+      ],
+      "case": "插件资源整理与自建使用量面板",
+      "commercial_evidence": "作者账号级100%商单自述；该篇付费主体未单核",
+      "sponsor_id": null,
+      "current_budget": null,
+      "contact": null,
+      "raw_sha256": "96f33edb1411112e058190be4dee2759d9256c396fcafb5a5951abaaf1b36d7f"
+    },
+    {
+      "id": "LRJ-019",
+      "title": "我给iPhone Duo手搓了一整套配件，苹果看了都得直摇头",
+      "raw_path": "raw/article/lurenjiaTM/我给iPhone Duo手搓了一整套配件，苹果看了都得直摇头.md",
+      "source_page": "wiki/sources/iPhoneDuo配件设计文章拆解.md",
+      "public_url": "https://mp.weixin.qq.com/s/zokup7FWX18WQ3cZgQAVyA",
+      "primary_product_ids": [
+        "unspecified_design"
+      ],
+      "direction": "AI视频相关素材",
+      "primary_type": "实战型",
+      "secondary_tags": [
+        "整活",
+        "概念设计",
+        "非实物"
+      ],
+      "case": "手机壳、手写笔、支架概念方案与3D展示",
+      "commercial_evidence": "作者账号级100%商单自述；该篇付费主体未单核",
+      "sponsor_id": null,
+      "current_budget": null,
+      "contact": null,
+      "raw_sha256": "67ebaaaf8de20e946a69380c90147122a39cc1fc8e53b5ea754179d6a8cb04de"
+    },
+    {
+      "id": "LRJ-020",
+      "title": "我让腾讯Miora帮我开了家火锅店，做到最后，我有点膨胀了",
+      "raw_path": "raw/article/lurenjiaTM/我让腾讯Miora帮我开了家火锅店，做到最后，我有点膨胀了.md",
+      "source_page": "wiki/sources/Miora火锅店品牌全案文章拆解.md",
+      "public_url": "https://mp.weixin.qq.com/s/suGP5GIAMlpZ1WDgmU_fCw",
+      "primary_product_ids": [
+        "miora"
+      ],
+      "direction": "AI Agent",
+      "primary_type": "实战型",
+      "secondary_tags": [
+        "整活",
+        "完整项目",
+        "品牌设计"
+      ],
+      "case": "虚构火锅店Logo、包装、海报、视频和界面",
+      "commercial_evidence": "作者账号级100%商单自述；该篇付费主体未单核",
+      "sponsor_id": null,
+      "current_budget": null,
+      "contact": null,
+      "raw_sha256": "378ce028529cb558fa2f439fa100fde3c85daadd50bedd15e91147d685c7cddd"
+    },
+    {
+      "id": "LRJ-021",
+      "title": "这就是AGI？GPT-6 Astra一夜刷屏，真实效果太夸张了",
+      "raw_path": "raw/article/lurenjiaTM/这就是AGI？GPT-6 Astra一夜刷屏，真实效果太夸张了.md",
+      "source_page": "wiki/sources/GPT-6-Astra演示汇总文章拆解.md",
+      "public_url": "https://mp.weixin.qq.com/s/JA-UI7hV1GJeMaoctrK5Dg",
+      "primary_product_ids": [
+        "gpt6_astra"
+      ],
+      "direction": "Coding",
+      "primary_type": "整合型",
+      "secondary_tags": [
+        "资讯",
+        "观点",
+        "第三方演示",
+        "无亲测"
+      ],
+      "case": "公开演示汇总与拒绝轻率宣布胜负",
+      "commercial_evidence": "作者账号级100%商单自述；该篇付费主体未单核",
+      "sponsor_id": null,
+      "current_budget": null,
+      "contact": null,
+      "raw_sha256": "ebb033226960cec60601aa3a5965ffd672556dbafb01f2b569c73740bb2a61a1"
+    },
+    {
+      "id": "LRJ-022",
+      "title": "只用五分钟，Seko让一条国产AI短剧活了三次",
+      "raw_path": "raw/article/lurenjiaTM/只用五分钟，Seko让一条国产AI短剧活了三次.md",
+      "source_page": "wiki/sources/Seko出海转绘文章拆解.md",
+      "public_url": "https://mp.weixin.qq.com/s/wnBKJ7bHxuhRZ0lnudlqdQ",
+      "primary_product_ids": [
+        "seko"
+      ],
+      "direction": "AI视频",
+      "primary_type": "解决问题型",
+      "secondary_tags": [
+        "实测",
+        "作品",
+        "版本对照"
+      ],
+      "case": "52秒自有短片的多地区版本与剧本适配",
+      "commercial_evidence": "作者账号级100%商单自述；该篇付费主体未单核",
+      "sponsor_id": null,
+      "current_budget": null,
+      "contact": null,
+      "raw_sha256": "433c840dd5de9f15b7ade4e03a49ac782bec06ee245f5cfb686e1b122a0709d5"
+    },
+    {
+      "id": "LRJ-023",
+      "title": "手把手教你用WorkBuddy做微信小程序并上线，看完就会！（附真实案例）",
+      "raw_path": "raw/article/lurenjiaTM/手把手教你用WorkBuddy做微信小程序并上线，看完就会！（附真实案例）.md",
+      "source_page": "wiki/sources/WorkBuddy小程序教程文章拆解.md",
+      "public_url": "https://mp.weixin.qq.com/s/ZkI8xg3MzLMjB1Im1nap9A",
+      "primary_product_ids": [
+        "workbuddy"
+      ],
+      "direction": "AI Agent",
+      "primary_type": "教程型",
+      "secondary_tags": [
+        "实战",
+        "解决问题"
+      ],
+      "case": "家庭记账试用小程序、改账单与网站转小程序",
+      "commercial_evidence": "作者账号级100%商单自述；该篇付费主体未单核",
+      "sponsor_id": null,
+      "current_budget": null,
+      "contact": null,
+      "raw_sha256": "ce21e1cfb1c07af4a49a9a06dcc1196f56d6bf8cd518d9aa267878621fe7c81f"
+    }
+  ]
+}
