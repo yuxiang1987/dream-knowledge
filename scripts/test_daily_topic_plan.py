@@ -82,6 +82,20 @@ class DailyTopicPlanTest(unittest.TestCase):
         self.assertIn("不凭名称直接判断", product)
         self.assertIn("用户在2026-10-16确认", product)
 
+    def test_user_rejection_demotes_old_plan_without_inventing_new_results(self):
+        decision = (ROOT / "wiki/topics/公众号每日选题决策.md").read_text(encoding="utf-8")
+        plan = (PACK / "选题与实操安排.md").read_text(encoding="utf-8")
+        self.assertIn("具体题目尚未确认，均未实操", decision)
+        self.assertIn("不继续作为明日主推", decision)
+        self.assertIn("本方案已降为备选", plan)
+        self.assertIn("没有核实各平台2026双11档期", decision)
+        self.assertIn("https://www.doubao.com/legal/DoubaoAgentModeNotice", decision)
+        target = PACK / "../../../wiki/topics/公众号每日选题决策.md"
+        self.assertTrue(target.resolve().is_file())
+        for name in ("消费者：", "商家：", "互动作品："):
+            self.assertIn(name, decision)
+        self.assertIn("待填写", (PACK / "实测记录.md").read_text(encoding="utf-8"))
+
 
 if __name__ == "__main__":
     unittest.main()
