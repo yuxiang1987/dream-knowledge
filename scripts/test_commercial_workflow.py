@@ -27,13 +27,13 @@ class CommercialWorkflowTest(unittest.TestCase):
 
     def test_sources_and_uncertainty_are_explicit(self):
         self.assertIn("sources: []", self.text)
-        self.assertIn("status: 草稿", self.text)
+        self.assertIn("status: 进行中", self.text)
         for evidence in (
             "https://www.biji.com/note/share_note/7gvozqXeM4Lmb",
             "E:/work/note/笔记/笔记/易洋-AI公众号商单.md",
             "不是两项独立验证", "不是 30 天接单承诺",
             "未在本次独立核实", "统计口径未对齐",
-            "未复制、修改原始材料", "尚未在",
+            "未复制、修改原始材料", "完整商业闭环尚未验证",
         ):
             with self.subTest(evidence=evidence):
                 self.assertIn(evidence, self.text)
