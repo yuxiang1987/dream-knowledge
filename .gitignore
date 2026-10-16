@@ -7,6 +7,12 @@
 !/wiki/
 !/templates/
 !/scripts/
+!/output/
+/output/*
+!/output/ai-wechat-methodology/
+!/output/pdf/
+/output/pdf/*
+!/output/pdf/AI垂类公众号经营全流程.pdf
 !/.agents/
 /.agents/*
 !/.agents/skills/

@@ -203,6 +203,8 @@ updated: 2026-10-16
 
 ## 相关页面
 
+完整的 Agent 阅读资料已独立输出为[《AI垂类公众号经营方法论》](../../output/ai-wechat-methodology/AI垂类公众号经营方法论.md)，用于知识库后续摄入；涵盖来源归因、选题到复购、证据规则和阶段诊断。给人速览的[流程图](../../output/ai-wechat-methodology/AI垂类公众号经营全流程.png)另行交付，保留[可编辑 SVG](../../output/ai-wechat-methodology/AI垂类公众号经营全流程.svg)与[PDF](../../output/pdf/AI垂类公众号经营全流程.pdf)。原始资料未写入或修改 `raw/`。
+
 - [[entities/程序员拾梦]]
 - [[topics/公众号内容生产线]]
 - [[topics/公众号文章切入点方法]]
