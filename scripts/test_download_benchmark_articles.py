@@ -1,5 +1,6 @@
 """不消耗付费接口；验证分页、身份隔离及原始资料保护。"""
 import hashlib
+import io
 from pathlib import Path
 import tempfile
 import unittest
@@ -24,10 +25,23 @@ def item(i):
 
 
 class DownloadTest(unittest.TestCase):
+    def test_requests_use_compatible_headers_and_retry_connection_errors(self):
+        with patch.object(mod, "urlopen", side_effect=[mod.URLError("connection reset"),
+                  io.StringIO('{"code":200,"data":{"ok":true}}')]) as call, \
+                patch.object(mod.time, "sleep"):
+            data = mod.TikHubClient("test-secret").post("wechat_mp/v2/fetch_account_articles", {})
+            self.assertTrue(data["ok"])
+            self.assertEqual(call.call_count, 2)
+            request = call.call_args.args[0]
+            self.assertEqual(request.get_header("User-agent"), "Mozilla/5.0")
+            self.assertEqual(request.get_header("Authorization"), "Bearer test-secret")
+            self.assertEqual(call.call_args.kwargs["timeout"], 45)
+
     def test_public_urls_strip_tracking_and_reject_other_hosts(self):
         self.assertEqual(mod.clean_url("https://mp.weixin.qq.com/s?mid=12&idx=1&poc_token=secret#abc"),
                          "https://mp.weixin.qq.com/s?mid=12&idx=1")
-        for url in ("https://mp.weixin.qq.com.evil/s/a", "http://mp.weixin.qq.com/s/a",
+        self.assertEqual(mod.clean_url("http://mp.weixin.qq.com/s/a"), "https://mp.weixin.qq.com/s/a")
+        for url in ("https://mp.weixin.qq.com.evil/s/a", "ftp://mp.weixin.qq.com/s/a",
                     "https://user@mp.weixin.qq.com/s/a", "https://mp.weixin.qq.com/settings"):
             with self.assertRaises(ValueError):
                 mod.clean_url(url)

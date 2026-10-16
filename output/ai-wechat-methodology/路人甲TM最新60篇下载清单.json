@@ -1,0 +1,550 @@
+{
+  "account": "路人甲TM",
+  "account_username": "gh_d516081071ec",
+  "requested": 60,
+  "acquired_at": "2026-10-16T15:30:42+08:00",
+  "complete": true,
+  "scope": "公众号文章栏目最新去重图文；保留原始HTML正文与媒体链接，未下载媒体文件",
+  "articles": [
+    {
+      "id": "2247523536:1",
+      "title": "太强了，特斯拉真的能飞起来了，马斯克诚不我欺",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247523536&idx=1&sn=e267e3cdec41f73dd4499ab8b3da747a",
+      "published": "2026-10-16 12:56",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/太强了，特斯拉真的能飞起来了，马斯克诚不我欺-a1521b7e-4b5a6d0993.md",
+      "body_sha256": "4b5a6d099334825af1f819c586d93da8b7e8368ce4d60a652c97a4d441bf2c05"
+    },
+    {
+      "id": "2247523424:1",
+      "title": "WorkBuddy打通企微，现在它能自己翻群聊、找文件了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247523424&idx=1&sn=8e71db64eaf133beea64068901b707d8",
+      "published": "2026-10-14 21:04",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/WorkBuddy打通企微，现在它能自己翻群聊、找文件了！-a5611f15-1824ee778a.md",
+      "body_sha256": "1824ee778a21182c2fb00477db0fd4fc4676baa59a55a6304e42d98eb4c4a107"
+    },
+    {
+      "id": "2247523210:1",
+      "title": "实测OiiOii最新Skill，这套电商组合堪称双十一王炸！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247523210&idx=1&sn=5fa41db732f26cd4d58c91dfc158845e",
+      "published": "2026-10-13 17:32",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/实测OiiOii最新Skill，这套电商组合堪称双十一王炸！-f506c17c-e4d51add77.md",
+      "body_sha256": "e4d51add77302835316d3c5ccaa246b1873aed05b5b4958d1e4ecc4b76e2621c"
+    },
+    {
+      "id": "2247523083:1",
+      "title": "视频模型又杀出一个狠角色，Vidu这么久没动静，原来是在憋大招",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247523083&idx=1&sn=c866d1b29c60f8f3351634b26417b03a",
+      "published": "2026-10-10 14:25",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/视频模型又杀出一个狠角色，Vidu这么久没动静，原来是在憋大招-6e151b81-ea26c0aaf6.md",
+      "body_sha256": "ea26c0aaf6e0a3c5dea58b18da866c1e78a60e900ed282e258328393dbbf8287"
+    },
+    {
+      "id": "2247523078:1",
+      "title": "手把手教你用WorkBuddy做微信小程序并上线，看完就会！（附真实案例）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247523078&idx=1&sn=6915beba105fd156a1fc455f3d3d839e",
+      "published": "2026-10-09 23:09",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/手把手教你用WorkBuddy做微信小程序并上线，看完就会！（附真实案例）-44e73498-9d06ebb533.md",
+      "body_sha256": "9d06ebb533915d49aad8c9ea3490f5991953b7e7a9e32f4ab71a015e33dd669c"
+    },
+    {
+      "id": "2247523024:1",
+      "title": "WorkBuddy又整活了，独立浏览器功能、自动化能力，真的让人用爽了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247523024&idx=1&sn=6099d537d2324dc9301b8c2db82ba809",
+      "published": "2026-10-08 18:27",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/WorkBuddy又整活了，独立浏览器功能、自动化能力，真的让人用爽了-cfea2b98-fee6f955ef.md",
+      "body_sha256": "fee6f955efbd9b1c554770c5d485a1f86ba99a74a2e1d2bcf8a08d6819e31b08"
+    },
+    {
+      "id": "2247522859:1",
+      "title": "企业AI知识库到底是不是伪需求，试了一大圈后我有了答案",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247522859&idx=1&sn=0dfce022109da32c4c2eae93010a2db1",
+      "published": "2026-09-28 17:26",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/企业AI知识库到底是不是伪需求，试了一大圈后我有了答案-07786f97-5bab54eb9a.md",
+      "body_sha256": "5bab54eb9a5fdad56d91806312ad499e8590cbd3a1edf96fdebaccd1e489d0be"
+    },
+    {
+      "id": "2247522854:1",
+      "title": "匿名模型三天登顶，我让它跟DeepSeek和GLM来一轮硬核实测",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247522854&idx=1&sn=ebaba4adc960964dde60610c5effb28b",
+      "published": "2026-09-27 21:15",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/匿名模型三天登顶，我让它跟DeepSeek和GLM来一轮硬核实测-ecddcb0d-ff06eff5f2.md",
+      "body_sha256": "ff06eff5f299df7bd6874ac288658b4a5f8e4d3418c5e522a66ab16fe2de4c87"
+    },
+    {
+      "id": "2247522803:1",
+      "title": "从修照片到做海报，腾讯Hy Image3.5 preview到底有多能打？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247522803&idx=1&sn=843477fa4cc41eeb6a68a1832be675e9",
+      "published": "2026-09-25 21:00",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/从修照片到做海报，腾讯Hy Image3.5 preview到底有多能打？-afe54d71-30db80a06e.md",
+      "body_sha256": "30db80a06e69ef2f1800d6d14be4db5489b683fa9c17c3aed3f4152c24583044"
+    },
+    {
+      "id": "2247522746:1",
+      "title": "中国双榜第一背后：WorkBuddy背后的Harness能力有多强？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247522746&idx=1&sn=4369d47fd0b503808da4da6ee605845b",
+      "published": "2026-09-24 22:45",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/中国双榜第一背后：WorkBuddy背后的Harness能力有多强？-4c5dc0a7-c80c5f3aef.md",
+      "body_sha256": "c80c5f3aef0a2ed8b79e5f29a9ffbcdfbf2bbc4be7f13800e2c1b6bdcaa21313"
+    },
+    {
+      "id": "2247522631:1",
+      "title": "千问办公QwenNote A2开箱实测，别说，有点惊喜",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247522631&idx=1&sn=9c849df72a14d7f9eb2ec56880163275",
+      "published": "2026-09-23 23:40",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/千问办公QwenNote A2开箱实测，别说，有点惊喜-edf3b1c2-08cb3ddc87.md",
+      "body_sha256": "08cb3ddc8748b7572f0c85213918551c75c0f55f68bd532f85225c983fb502c5"
+    },
+    {
+      "id": "2247522594:1",
+      "title": "一个人，一支 AI 营销团队，这样做品牌营销效果太绝了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247522594&idx=1&sn=d399954533f937d0358dcaa2a8a0e5ad",
+      "published": "2026-09-23 16:15",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/一个人，一支 AI 营销团队，这样做品牌营销效果太绝了-16a79fab-c84c81a968.md",
+      "body_sha256": "c84c81a9680b2d882128f3c1f6bf52eada53cb646bdf9678afab997001a94660"
+    },
+    {
+      "id": "2247522593:1",
+      "title": "腾讯Marvis火出圈之后，我终于看懂了什么叫AI管家",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247522593&idx=1&sn=e9ca5fa2848460bb92d1bbbdef67da92",
+      "published": "2026-09-22 21:24",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/腾讯Marvis火出圈之后，我终于看懂了什么叫AI管家-f46ffe0e-6ab0e166b0.md",
+      "body_sha256": "6ab0e166b076cef5616559c4a6224b384e2faf661fb3423e8c76eb01a0b7d130"
+    },
+    {
+      "id": "2247522471:1",
+      "title": "我用 MVLAND 给《甲乙丙丁》拍了一支 MV，有点上头了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247522471&idx=1&sn=ec53bdfa5ac0ca421afaf757cbe90872",
+      "published": "2026-09-21 20:03",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/我用 MVLAND 给《甲乙丙丁》拍了一支 MV，有点上头了-17efc0c3-54e2487990.md",
+      "body_sha256": "54e2487990dc1cc96d0fd6b9202e89c6198a09a19b4a813ff7dc48fab459137d"
+    },
+    {
+      "id": "2247522399:1",
+      "title": "Jev凭什么刷爆AI圈？连夜测完我终于看明白了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247522399&idx=1&sn=4269428c70e86adfa1eae44f3583f185",
+      "published": "2026-09-21 08:27",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/Jev凭什么刷爆AI圈？连夜测完我终于看明白了！-fa7297a8-53ffc74549.md",
+      "body_sha256": "53ffc74549dc3aa2b28db082154af797f4e837abec8a8262e1e9444f738ed483"
+    },
+    {
+      "id": "2247522363:1",
+      "title": "实测Qoder新功能！复刻实时联机球球大作战，域名服务器都不用",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247522363&idx=1&sn=5cc1150e9e8fca428c3d87aa43e1d3a8",
+      "published": "2026-09-20 23:11",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/实测Qoder新功能！复刻实时联机球球大作战，域名服务器都不用-777f8091-ed666a9960.md",
+      "body_sha256": "ed666a9960471de3c5843fff6bc7513e4ee8f60fe033797978585e7e13da6d94"
+    },
+    {
+      "id": "2247522107:1",
+      "title": "AI视频竟然能实时互动了，我用Vidu S2复活了《奥德赛》的奥德修斯",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247522107&idx=1&sn=0421afbf115dd2643212f1c8e132496c",
+      "published": "2026-09-16 19:40",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/AI视频竟然能实时互动了，我用Vidu S2复活了《奥德赛》的奥德修斯-86236b17-d0f3c4bb1b.md",
+      "body_sha256": "d0f3c4bb1bbd0867b74cb89c4ebfcd5070ef250b9aca7ad06bf9d5ed43917a4d"
+    },
+    {
+      "id": "2247521899:1",
+      "title": "把B站干崩的《凡人修仙传》名场面，我用Pixmax尝试做了一遍",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247521899&idx=1&sn=26613da2724949f4f38e785dbe095ab7",
+      "published": "2026-09-14 16:42",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/把B站干崩的《凡人修仙传》名场面，我用Pixmax尝试做了一遍-7d32a23c-7263e3ed12.md",
+      "body_sha256": "7263e3ed126a6f080f05d14fe6dd2d1d9167fe5b31b72ed46f5bd4ed4547d7cb"
+    },
+    {
+      "id": "2247521712:1",
+      "title": "我给iPhone Duo手搓了一整套配件，苹果看了都得直摇头",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247521712&idx=1&sn=6a8746134808e730a98fdf13f39bdc77",
+      "published": "2026-09-12 10:32",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/我给iPhone Duo手搓了一整套配件，苹果看了都得直摇头-34f8b34b-bc0b68eda4.md",
+      "body_sha256": "bc0b68eda4672394b5a4afdfc5a653075e4343bea113d293c79f86979fb2a9f4"
+    },
+    {
+      "id": "2247521658:1",
+      "title": "公司里用AI，终于不再是乱糟糟的了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247521658&idx=1&sn=f3e141eca9008c202a5c6a1458e1048d",
+      "published": "2026-09-10 18:28",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/公司里用AI，终于不再是乱糟糟的了-4374e8a9-85f5663efd.md",
+      "body_sha256": "85f5663efd63821b9cdd00a6bcfd19e359affd684eeb554d5b3a6c82ad476c04"
+    },
+    {
+      "id": "2247521547:1",
+      "title": "半夜秃袭，GPT Image2.5真的变强了，草图生图功能确实夯",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247521547&idx=1&sn=92df0bc77297d670d4485f2431fbdf14",
+      "published": "2026-09-09 16:40",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/半夜秃袭，GPT Image2.5真的变强了，草图生图功能确实夯-ab853b96-81145ecc45.md",
+      "body_sha256": "81145ecc4500c07ed819b0fa100e5139b9b89c012b7f29ec42762dd52f21adca"
+    },
+    {
+      "id": "2247521447:1",
+      "title": "为了让AI拍完长视频大片，我手搓了个Skill",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247521447&idx=1&sn=bd85f3c542d58308cc9cc47b4d99326b",
+      "published": "2026-09-08 18:06",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/为了让AI拍完长视频大片，我手搓了个Skill-8f853bd9-2ae7584655.md",
+      "body_sha256": "2ae758465564e013b691c531e90547c035220511cd12eb1e1de7cfc04fcd719a"
+    },
+    {
+      "id": "2247521438:1",
+      "title": "手机、电脑无缝衔接跑任务，这才是Vibecoding的完全体",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247521438&idx=1&sn=c16f8c94f0bee40fbf4a9966e8cbf031",
+      "published": "2026-09-07 18:45",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/手机、电脑无缝衔接跑任务，这才是Vibecoding的完全体-2b200195-cfe31f131d.md",
+      "body_sha256": "cfe31f131d25e9a0b2792b36cbcefa339666ce4605d7cd4e1d09174fdbab36c4"
+    },
+    {
+      "id": "2247521347:1",
+      "title": "胡楚靓可能不知道，她随口一句话帮我解决了爸妈的旅行",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247521347&idx=1&sn=b92938b292e4f89fee11bdb1de6ba657",
+      "published": "2026-09-06 18:55",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/胡楚靓可能不知道，她随口一句话帮我解决了爸妈的旅行-55d5af8b-4baebf3432.md",
+      "body_sha256": "4baebf343265ddd80c13145dc4a67399681d222e319e2df4603708435296c363"
+    },
+    {
+      "id": "2247521332:1",
+      "title": "GPT-6 Atsra终于开放，连测12小时！AGI到底有多猛？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247521332&idx=1&sn=81c12b56f88a36c5a42db7693fcb54c2",
+      "published": "2026-09-05 18:24",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/GPT-6 Atsra终于开放，连测12小时！AGI到底有多猛？-3ec7a919-c68bc392a3.md",
+      "body_sha256": "c68bc392a3477ae60973a72388304e2b994f634b774b36ed33d2a1565eb95605"
+    },
+    {
+      "id": "2247521220:1",
+      "title": "只用五分钟，Seko让一条国产AI短剧活了三次",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247521220&idx=1&sn=82d31051ca029d2168381df0b3f2dd70",
+      "published": "2026-09-04 20:46",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/只用五分钟，Seko让一条国产AI短剧活了三次-57966ab8-c8b0346988.md",
+      "body_sha256": "c8b0346988bbf3197717b964f0a1ef6e4b1bbfdda3b7dfe97097c4b4ef2f8ee6"
+    },
+    {
+      "id": "2247521207:1",
+      "title": "这就是AGI？GPT-6 Astra一夜刷屏，真实效果太夸张了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247521207&idx=1&sn=0a03ebc12d282cf3e59a61a1013f1ae5",
+      "published": "2026-09-04 12:34",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/这就是AGI？GPT-6 Astra一夜刷屏，真实效果太夸张了-b2bf6f01-93ad5ac5e6.md",
+      "body_sha256": "93ad5ac5e68be1bb661a9c03de4e281ddb59ff5529f99ca89549971caa3fbec1"
+    },
+    {
+      "id": "2247521028:1",
+      "title": "实测豆包Seed-Evolving，写代码比我预期能打太多了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247521028&idx=1&sn=677505134f4b9dd1be8e060ed961f905",
+      "published": "2026-09-02 10:52",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/实测豆包Seed-Evolving，写代码比我预期能打太多了-d30bf9b9-19a9d70aed.md",
+      "body_sha256": "19a9d70aed5837f2629dad62d7d8b2d4bd60eb17c722f0f23ab7adc6fd3c6952"
+    },
+    {
+      "id": "2247520956:1",
+      "title": "450万点赞、上亿播放，AI自媒体链路终于被跑通了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247520956&idx=1&sn=3632d76bde2279856a18aec523bbad45",
+      "published": "2026-09-01 20:30",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/450万点赞、上亿播放，AI自媒体链路终于被跑通了！-e6e948b7-38d1c3c9e7.md",
+      "body_sha256": "38d1c3c9e795ad4ec83c3421869e78a086c6b38c8ede8ee1b5e790509d55d5db"
+    },
+    {
+      "id": "2247520846:1",
+      "title": "全新Qoder实测，阿里这一年的Coding确实没白做",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247520846&idx=1&sn=a5e87b65fab25044f2377ca377f255e1",
+      "published": "2026-08-31 19:50",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/全新Qoder实测，阿里这一年的Coding确实没白做-9180eb9e-e33761fbc9.md",
+      "body_sha256": "e33761fbc9f5b6b7153f7a1c1333dc58c7f28341dbefb2f34c6b54f8d7c42bd8"
+    },
+    {
+      "id": "2247520764:1",
+      "title": "实测腾讯Hy4 preview，这一次，模型变强终于不只是参数上的变化",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247520764&idx=1&sn=a63cc92ab4c66a9c6523abfab1820266",
+      "published": "2026-08-29 22:48",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/实测腾讯Hy4 preview，这一次，模型变强终于不只是参数上的变化-b8f47b2a-415ac6dc3c.md",
+      "body_sha256": "415ac6dc3c590b8f6565324935392e1bc582bf963ac77a6060638e22d7464d62"
+    },
+    {
+      "id": "2247520661:1",
+      "title": "AI办公智能体增速第一，我给百度搭子出了三道题",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247520661&idx=1&sn=2ebbb8fe5d29468aa6bf73bc1ac65aa6",
+      "published": "2026-08-28 17:59",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/AI办公智能体增速第一，我给百度搭子出了三道题-c906e5b0-60b7936d15.md",
+      "body_sha256": "60b7936d15438d8daf28d36fdfad0745cd56f8400da281d5e330d8d79f9e0a2a"
+    },
+    {
+      "id": "2247520619:1",
+      "title": "WorkBuddy最新教程，看完我奶奶也会用了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247520619&idx=1&sn=38eb491d06f79b2131da48c9437e00b2",
+      "published": "2026-08-28 15:35",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/WorkBuddy最新教程，看完我奶奶也会用了-fbf15f81-76af170d49.md",
+      "body_sha256": "76af170d495e47a00581a1f6ab7d380d5acc3c560f4643d7b8bb5a0c6dca183c"
+    },
+    {
+      "id": "2247520617:1",
+      "title": "美图，不止美图秀秀",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247520617&idx=1&sn=7b0bc3a93d6f494a2d79da7c87e51e37",
+      "published": "2026-08-27 18:33",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/美图，不止美图秀秀-a79970c8-fe51f430d5.md",
+      "body_sha256": "fe51f430d55b25b6f3862fd61c71a6ac2b8075bdff57d6d3373a09c138ce94ad"
+    },
+    {
+      "id": "2247520594:1",
+      "title": "我把几个难拍的脑洞交给MiniMax Design，结果竟然都很能打",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247520594&idx=1&sn=72b2078bffea6fe25dc815ae45de01b2",
+      "published": "2026-08-26 22:02",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/我把几个难拍的脑洞交给MiniMax Design，结果竟然都很能打-678abd3a-597fa649e2.md",
+      "body_sha256": "597fa649e27e023d49bcc795a416256888c342cc2f8e563833c2ae592d120a9d"
+    },
+    {
+      "id": "2247520431:1",
+      "title": "拆解爆火的天才机甲师：AI短剧进入工业化时代，一个人如何完成机甲大片创作？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247520431&idx=1&sn=599b29ec4f9cd2cd4e4ec87f42206e8c",
+      "published": "2026-08-24 21:13",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/拆解爆火的天才机甲师：AI短剧进入工业化时代，一个人如何完成机甲大片创作？-5a5c4922-52425bc7fc.md",
+      "body_sha256": "52425bc7fc8e318117c57e705a6e4003ce485bffb915615c07a8c7a8f6fd78df"
+    },
+    {
+      "id": "2247520340:1",
+      "title": "带货视频还在找人做？在RunningHub一份产品PPT就能直接生成视频",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247520340&idx=1&sn=5f4affb6f8c02373afb07ff69f1a2d6a",
+      "published": "2026-08-23 22:14",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/带货视频还在找人做？在RunningHub一份产品PPT就能直接生成视频-a583d7bc-3df594d0a0.md",
+      "body_sha256": "3df594d0a05c7e5d70e52d9e23d3a4cb46c82f9d39e52ce5264a64f122627420"
+    },
+    {
+      "id": "2247520109:1",
+      "title": "阿里Qwen3.8-27B疯了：笔记本就能跑，能力却直逼Opus4.6",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247520109&idx=1&sn=905f0c5a078059a0a74a810b3b17565f",
+      "published": "2026-08-22 22:56",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/阿里Qwen3.8-27B疯了：笔记本就能跑，能力却直逼Opus4.6-302e1225-82a551ba17.md",
+      "body_sha256": "82a551ba1706ae4b35d529563db223d12d879f89ff626aa7565014d099ea7ef7"
+    },
+    {
+      "id": "2247520081:1",
+      "title": "视频模型到底怎么选？实测三大热门模型后我终于清楚了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247520081&idx=1&sn=928831b1dd451936f8d737164a99a582",
+      "published": "2026-08-21 12:03",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/视频模型到底怎么选？实测三大热门模型后我终于清楚了-b6c5dc18-2eb86e11ff.md",
+      "body_sha256": "2eb86e11ff8891db9998c06b73bf948ff86e77ab9f3b18a32668fae72537139e"
+    },
+    {
+      "id": "2247520011:1",
+      "title": "我给DeepSeek Harness搭了个插件市场，这篇教你装，也教你做",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247520011&idx=1&sn=670622535c10a50ef6066e8ee817020a",
+      "published": "2026-08-20 19:44",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/我给DeepSeek Harness搭了个插件市场，这篇教你装，也教你做-e2cd27db-de7c385eae.md",
+      "body_sha256": "de7c385eae983e688692b8e50da9b29db52d2c5daf54e8e2495ba23d7b2d126e"
+    },
+    {
+      "id": "2247519967:1",
+      "title": "豆包爱学这次，做了个有点浪漫的东西",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247519967&idx=1&sn=5558447a8f902b237c9d664a3f5b06f4",
+      "published": "2026-08-20 12:17",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/豆包爱学这次，做了个有点浪漫的东西-a218f18a-3443ea587a.md",
+      "body_sha256": "3443ea587a82cb9e6ff5908d9fc8d63d76aeb2530addc53e5e54b331732bbf1b"
+    },
+    {
+      "id": "2247519957:1",
+      "title": "豆包越来越像Codex，电脑关了它还在干活",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247519957&idx=1&sn=ddf7d60ddeb68c5d8a37411a41c644c6",
+      "published": "2026-08-19 21:29",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/豆包越来越像Codex，电脑关了它还在干活-324c99c3-a7d6fa9f52.md",
+      "body_sha256": "a7d6fa9f52dbba95e100410ea4a14cca7701c6ce7fd0546ca54932b0da3ec481"
+    },
+    {
+      "id": "2247519871:1",
+      "title": "还在靠抽卡做视频？我用updream预演台告别抽卡",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247519871&idx=1&sn=9a95c59c130fce789635704ff4ba1fd9",
+      "published": "2026-08-18 20:37",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/还在靠抽卡做视频？我用updream预演台告别抽卡-6bc98512-61c2ab5b47.md",
+      "body_sha256": "61c2ab5b47d2fe50e4cf385704cee0a945be311cf876b1bcd02895cbb2614df8"
+    },
+    {
+      "id": "2247519870:1",
+      "title": "WorkBuddy又双叒升级了，一部手机就能控制多台电脑干活，用完直呼太香了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247519870&idx=1&sn=4a7456b928083af5e9c282f2c702e421",
+      "published": "2026-08-17 21:36",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/WorkBuddy又双叒升级了，一部手机就能控制多台电脑干活，用完直呼太香了-31d2048c-1ed26f95bc.md",
+      "body_sha256": "1ed26f95bcfe6a216632aa93d45d7b7640a347489a1125e0a5609d7f818d2e37"
+    },
+    {
+      "id": "2247519675:1",
+      "title": "熬夜猛肝3万星的开源黑马Buzz，多Agent协作最全实操，手把手教会你",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247519675&idx=1&sn=b5e514f9d7f1b6bab963816062cb3961",
+      "published": "2026-08-15 14:42",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/熬夜猛肝3万星的开源黑马Buzz，多Agent协作最全实操，手把手教会你-79c5d8f4-ff0efe6b2d.md",
+      "body_sha256": "ff0efe6b2d325932905c8c36e4fbd942773778b05c81bbceb750e297069e4ffb"
+    },
+    {
+      "id": "2247519663:1",
+      "title": "大厂之外，EvoX让我看到了Agent的另一种可能",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247519663&idx=1&sn=58d244b034970653df2b1a211cd174a1",
+      "published": "2026-08-14 18:13",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/大厂之外，EvoX让我看到了Agent的另一种可能-547c65d4-97ffa63be2.md",
+      "body_sha256": "97ffa63be2ecf6ca468fb555e63c03d29e26e2bc7dc0981704f00a3b93fce7ff"
+    },
+    {
+      "id": "2247519585:1",
+      "title": "不睡觉连肝三小时，deepseek原生harness首批实测来了!",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247519585&idx=1&sn=f34ecca1491bdf6c8a4026059a795eb1",
+      "published": "2026-08-14 01:21",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/不睡觉连肝三小时，deepseek原生harness首批实测来了!-9d204e4c-53d56fe55f.md",
+      "body_sha256": "53d56fe55fa710bf3549082ea6c8f6b10f4ff6e874f74a59075a67cf2b67d5c8"
+    },
+    {
+      "id": "2247519542:1",
+      "title": "WorkBuddy刚更新完，AI生成的网页，同事竟然能跟我一起改了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247519542&idx=1&sn=f2ea825d3cf74db36f32e4043f56be2d",
+      "published": "2026-08-13 21:08",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/WorkBuddy刚更新完，AI生成的网页，同事竟然能跟我一起改了-15060335-0f35be90d6.md",
+      "body_sha256": "0f35be90d6b0e66e02760359320035e6c05a8bc0f4b3d658299fdb150308cbb5"
+    },
+    {
+      "id": "2247519502:1",
+      "title": "阿里Wan3.0一次直出30秒，PDF和网页也能直接喂",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247519502&idx=1&sn=c8a840dfff17adb3b6f5ccdd1abf2768",
+      "published": "2026-08-11 21:33",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/阿里Wan3.0一次直出30秒，PDF和网页也能直接喂-e36094d0-edb4ffe9e5.md",
+      "body_sha256": "edb4ffe9e5e2cd17c2af86dbf7fb6d50c1a364224853c0273c7c7d73c2ed4e03"
+    },
+    {
+      "id": "2247519458:1",
+      "title": "Seedance 2.5最强能力，在Flova这套工作流里终于发挥出来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247519458&idx=1&sn=9a22622814963c73da112a8702962bb7",
+      "published": "2026-08-10 19:39",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/Seedance 2.5最强能力，在Flova这套工作流里终于发挥出来了-5d25bf1e-5b5669c80e.md",
+      "body_sha256": "5b5669c80e6fce12a7aa5e96e702aa1f6f9cc5b9624fad905db2eafbe5315882"
+    },
+    {
+      "id": "2247519369:1",
+      "title": "Seedance2.5很强，但LibTV这套玩法更有意思",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247519369&idx=1&sn=43bcb0a9018f85401e5ba72b0e324337",
+      "published": "2026-08-08 17:53",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/Seedance2.5很强，但LibTV这套玩法更有意思-84b00f74-451feceee5.md",
+      "body_sha256": "451feceee516f654c4d8d861a7a3713b57cf83388eeb89e42ec1f26929933f11"
+    },
+    {
+      "id": "2247519248:1",
+      "title": "Agent多到眼花缭乱，到底哪个最好用",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247519248&idx=1&sn=e05b0aa347ebab961a464e1490b86e31",
+      "published": "2026-08-06 14:29",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/Agent多到眼花缭乱，到底哪个最好用-309baa68-b1990734e1.md",
+      "body_sha256": "b1990734e160d51c919729e6a33e276f14dccf703738c1ca33a96e28574f1055"
+    },
+    {
+      "id": "2247519168:1",
+      "title": "MiniMax H3一手实测：杀疯了！追平Seedance2.5，不抽卡还便宜",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247519168&idx=1&sn=b12bae9d60ae21ec099497f4dadbc3a4",
+      "published": "2026-08-04 11:07",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/MiniMax H3一手实测：杀疯了！追平Seedance2.5，不抽卡还便宜-1abd0ddf-514a76f71f.md",
+      "body_sha256": "514a76f71fc3311aeb664cd744dbd30a52e193a4377b7fe80ac05edf488f900b"
+    },
+    {
+      "id": "2247519151:1",
+      "title": "不会写提示词也能拍短剧？一个小白的Seko通关记录",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247519151&idx=1&sn=35a68b55d7a9eb5bf466ef44b49b64e5",
+      "published": "2026-08-03 12:44",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/不会写提示词也能拍短剧？一个小白的Seko通关记录-63f7a76b-3d617156fb.md",
+      "body_sha256": "3d617156fb583f5cf1be15051c65a885dcd090da05ffaeb9ac0b5bff408ec2c0"
+    },
+    {
+      "id": "2247519149:1",
+      "title": "SD2终于有对手了？我在LibTV测了一整夜MiniMax H3",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247519149&idx=1&sn=787932d165be012de15055b14c19a966",
+      "published": "2026-08-01 20:42",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/SD2终于有对手了？我在LibTV测了一整夜MiniMax H3-2b115ddc-17c521d147.md",
+      "body_sha256": "17c521d14770abe18f59a5eed92951c284c3adb764a3be2e0023b1700a3e8bd9"
+    },
+    {
+      "id": "2247519023:1",
+      "title": "AI视频竟然可以实时互动了，Vivix有点厉害",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247519023&idx=1&sn=8c56642e42e0df9cbd1158ea7c3b4638",
+      "published": "2026-07-30 22:44",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/AI视频竟然可以实时互动了，Vivix有点厉害-bdc4937e-973724b900.md",
+      "body_sha256": "973724b900338163883d6405c1e34ebd4496c09b9a304b9dc05e7354e9d01cec"
+    },
+    {
+      "id": "2247518948:1",
+      "title": "我把一部中文悬疑短剧，几步变成海外版：中小工作室春天来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247518948&idx=1&sn=1b75f5d7601d25a45f9369ded2fe7dba",
+      "published": "2026-07-28 19:06",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/我把一部中文悬疑短剧，几步变成海外版：中小工作室春天来了-2e96d92a-6883d4f2e2.md",
+      "body_sha256": "6883d4f2e2f7a8e7a33366132b23d83a152ce8fe765eb47bdf8ffcd66423064c"
+    },
+    {
+      "id": "2247518914:1",
+      "title": "我让腾讯Miora帮我开了家火锅店，做到最后，我有点膨胀了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247518914&idx=1&sn=146a7db41d133e1e7d473fd723e14e12",
+      "published": "2026-07-27 18:43",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/我让腾讯Miora帮我开了家火锅店，做到最后，我有点膨胀了-03c374aa-dcb66e7911.md",
+      "body_sha256": "dcb66e7911e40770dcaad71dd3a36db5a1a5f0d6e1c3f736f9a9849f6f4d18e0"
+    },
+    {
+      "id": "2247518822:1",
+      "title": "请证明你不是AI，我用WeaveFox做的这个游戏有点意思！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247518822&idx=1&sn=661806db0831270b96f084efa23aaa22",
+      "published": "2026-07-24 12:28",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/请证明你不是AI，我用WeaveFox做的这个游戏有点意思！-993ea99c-eeec5ee25c.md",
+      "body_sha256": "eeec5ee25c6f4fd91d7672bf517da54b8d5ace69201410654b2475b2c188fd56"
+    },
+    {
+      "id": "2247518813:1",
+      "title": "被这个开源项目惊喜到了，用MonkeyCode做网站跟呼吸一样简单",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247518813&idx=1&sn=004a6f5d1d34079b24259081c51f92f5",
+      "published": "2026-07-22 18:13",
+      "status": "downloaded",
+      "raw_path": "raw/article/lurenjiaTM/最新60篇下载/被这个开源项目惊喜到了，用MonkeyCode做网站跟呼吸一样简单-ab9f65e3-69b65bf304.md",
+      "body_sha256": "69b65bf304fadd40ba3c1f0a8bf6974824a9cb68d370d49f4f08e0085601409b"
+    }
+  ]
+}

@@ -15,7 +15,7 @@ import os
 from pathlib import Path
 import re
 import time
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 from urllib.parse import parse_qs, urlencode, urlsplit, urlunsplit
 from urllib.request import Request, urlopen
 
@@ -45,12 +45,13 @@ def read_key(key_file=None):
 
 def clean_url(url):
     parts = urlsplit(html.unescape(url))
-    if (parts.scheme != "https" or parts.netloc != "mp.weixin.qq.com"
+    if (parts.scheme not in ("http", "https") or parts.netloc != "mp.weixin.qq.com"
             or not re.fullmatch(r"/s(?:/[A-Za-z0-9_-]+)?", parts.path)):
         raise ValueError("文章链接不是有效的微信公众号HTTPS链接")
     query = parse_qs(parts.query)
     keep = {k: query[k][0] for k in ("__biz", "mid", "idx", "sn") if k in query}
-    return urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(keep), ""))
+    # 账号列表返回HTTP原链时升级为HTTPS，后续请求不使用明文连接。
+    return urlunsplit(("https", parts.netloc, parts.path, urlencode(keep), ""))
 
 
 def article_id(item):
@@ -77,8 +78,9 @@ class TikHubClient:
         request = Request(API + endpoint,
                           data=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
                           headers={"Authorization": "Bearer " + self.key,
-                                   "Content-Type": "application/json"}, method="POST")
-        for attempt in range(2):
+                                   "Content-Type": "application/json",
+                                   "User-Agent": "Mozilla/5.0"}, method="POST")
+        for attempt in range(3):
             try:
                 with urlopen(request, timeout=45) as response:
                     result = json.load(response)
@@ -88,11 +90,16 @@ class TikHubClient:
                     raise RuntimeError("TikHub返回的数据结构不完整")
                 return result["data"]
             except HTTPError as error:
-                if attempt == 0 and error.code in (429, 500, 502, 503, 504):
+                if attempt < 2 and error.code in (429, 500, 502, 503, 504):
                     time.sleep(2)
                     continue
                 # 不输出完整响应或请求，避免其中回显凭据。
                 raise RuntimeError(f"TikHub请求失败，HTTP {error.code}") from None
+            except (URLError, TimeoutError):
+                if attempt < 2:
+                    time.sleep(2)
+                    continue
+                raise RuntimeError("TikHub连接中断或超时，重试后仍未恢复") from None
         raise RuntimeError("TikHub请求未完成")
 
 
