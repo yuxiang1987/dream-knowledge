@@ -49,6 +49,19 @@ class MethodologyDeliverableTest(unittest.TestCase):
         self.assertIn("反馈回流", "".join(svg_texts))
         self.assertIn("成交与回款待验证", pdf_text)
 
+    def test_benchmark_selection_keeps_demand_and_evidence_checks(self):
+        section = self.text.split("### 5.5 ", 1)[1].split("## 6.", 1)[0]
+        for requirement in (
+            "对标产品线索 → 读者适配 → 未解决的问题 → 自己的最小实测",
+            "已明确合作/疑似合作/关系未知", "不要求全面胜过原文",
+            "评论区是需求线索", "当前版本", "评论是假设示例",
+            "没有该产品的已发布测评，也可能获得询价",
+            "不推断用户从未使用该产品", "免费制作完整长文",
+            "商务沟通可与研究并行",
+        ):
+            with self.subTest(requirement=requirement):
+                self.assertIn(requirement, section)
+
     def test_rendered_dimensions_and_embedded_fonts(self):
         with Image.open(OUT / "AI垂类公众号经营全流程.png") as rendered:
             self.assertEqual(rendered.size, (1200, 2200))
