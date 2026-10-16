@@ -50,6 +50,17 @@ class EntrypointEvidenceTest(unittest.TestCase):
         self.assertIn("[[topics/公众号每日选题决策]]", self.section)
         self.assertIn("[[topics/公众号文章切入点方法]]", (ROOT / "wiki/index.md").read_text(encoding="utf-8"))
 
+    def test_data_source_plan_does_not_claim_a_nonexistent_installed_skill_or_collection(self):
+        installed = json.loads((ROOT / "scripts/installed_skills.json").read_text(encoding="utf-8"))
+        self.assertIn("wechat-article-writing", installed["skills"])
+        self.assertTrue((ROOT / ".agents/skills/wechat-article-writing/references/case-and-hook-selection.md").is_file())
+        self.assertNotIn("gzh-entrypoint", installed["skills"])
+        self.assertFalse((ROOT / "skills/gzh-entrypoint").exists())
+        self.assertIn("不能据旧记录声称它目前可调用", self.text)
+        self.assertIn("不代表已接通任何来源、已采评论或已安排持续监控", self.text)
+        self.assertIn("尚未修改或新建Skill", self.text)
+        self.assertIn("不必先开发API或自动采集", self.text)
+
 
 if __name__ == "__main__":
     unittest.main()
