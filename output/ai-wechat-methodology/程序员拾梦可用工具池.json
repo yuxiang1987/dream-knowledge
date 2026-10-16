@@ -1,0 +1,35 @@
+{
+  "updated": "2026-10-16",
+  "scope": "个人实操资源；不改变对标60篇的历史产品统计，也不是合作客户名单",
+  "products": [
+    {
+      "name": "WorkBuddy",
+      "evidence": "已有用户亲自制作并发布的教程、知识库与小程序文章",
+      "access_status": "有使用经验，当前版本与权益待具体实操核对",
+      "content_constraint": "演示案例避开公众号选题、写作和排版生产场景",
+      "actual_sponsor": null
+    },
+    {
+      "name": "豆包电脑版",
+      "evidence": "用户于2026-10-16确认已领取一个月免费会员",
+      "membership_duration_user_reported": "一个月",
+      "membership_tier": null,
+      "expires_at": null,
+      "quota": null,
+      "task_mode_verified": false,
+      "cloud_mode_verified": false,
+      "historical_related_name": "豆包工作",
+      "relationship_status": "历史材料称谓与当前桌面入口的映射待实操核对，不直接当两个独立产品或无条件合并",
+      "historical_article_ids": ["LRJ60-24", "LRJ60-42", "LRJ60-52"],
+      "homepage_in_official_material": "https://www.doubao.com/download/desktop",
+      "actual_sponsor": null,
+      "public_offer_verified": false
+    }
+  ],
+  "availability": {
+    "user_reported_test_window": "2026-10-16晚上及2026-10-17上午",
+    "target_publish_date": "2026-10-17",
+    "target_publish_time": "约21:00 Asia/Shanghai",
+    "automatic_publication_authorized": false
+  }
+}
