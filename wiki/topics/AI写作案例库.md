@@ -3,7 +3,7 @@ title: AI写作案例库
 type: topic
 tags: [公众号, 案例, 实测, 写作]
 status: 进行中
-sources: [raw/article/lurenjiaTM/AI办公智能体增速第一，我给百度搭子出了三道题.md, raw/article/lurenjiaTM/GPT-6 Atsra终于开放，连测12小时！AGI到底有多猛？.md, raw/article/lurenjiaTM/Qwen-Image-3.0实测，国产生图模型这次夯爆了.md, raw/article/lurenjiaTM/WorkBuddy最新教程，看完我奶奶也会用了.md, raw/article/lurenjiaTM/阿里Qwen3.8-27B疯了：笔记本就能跑，能力却直逼Opus4.6.md, raw/article/lurenjiaTM/熬夜猛肝3万星的开源黑马Buzz，多Agent协作最全实操，手把手教会你.md, raw/article/lurenjiaTM/把B站干崩的《凡人修仙传》名场面，我用Pixmax尝试做了一遍.md, raw/article/lurenjiaTM/半夜秃袭，GPT Image2.5真的变强了，草图生图功能确实夯.md, raw/article/lurenjiaTM/不睡觉连肝三小时，deepseek原生harness首批实测来了!.md, raw/article/lurenjiaTM/拆解爆火的天才机甲师：AI短剧进入工业化时代，一个人如何完成机甲大片创作？.md, raw/article/lurenjiaTM/豆包爱学这次，做了个有点浪漫的东西.md, raw/article/lurenjiaTM/还在靠抽卡做视频？我用updream预演台告别抽卡.md, raw/article/lurenjiaTM/全新Qoder实测，阿里这一年的Coding确实没白做.md, raw/article/lurenjiaTM/实测豆包Seed-Evolving，写代码比我预期能打太多了.md, raw/article/lurenjiaTM/手机、电脑无缝衔接跑任务，这才是Vibecoding的完全体.md, raw/article/lurenjiaTM/为了让AI拍完长视频大片，我手搓了个Skill.md, raw/article/lurenjiaTM/我给DeepSeek Harness搭了个插件市场，这篇教你装，也教你做.md, raw/article/lurenjiaTM/我给iPhone Duo手搓了一整套配件，苹果看了都得直摇头.md, raw/article/lurenjiaTM/我让腾讯Miora帮我开了家火锅店，做到最后，我有点膨胀了.md, raw/article/lurenjiaTM/这就是AGI？GPT-6 Astra一夜刷屏，真实效果太夸张了.md, raw/article/lurenjiaTM/只用五分钟，Seko让一条国产AI短剧活了三次.md, raw/article/lurenjiaTM/手把手教你用WorkBuddy做微信小程序并上线，看完就会！（附真实案例）.md]
+sources: [raw/article/lurenjiaTM/AI办公智能体增速第一，我给百度搭子出了三道题.md, raw/article/lurenjiaTM/GPT-6 Atsra终于开放，连测12小时！AGI到底有多猛？.md, raw/article/lurenjiaTM/Qwen-Image-3.0实测，国产生图模型这次夯爆了.md, raw/article/lurenjiaTM/WorkBuddy最新教程，看完我奶奶也会用了.md, raw/article/lurenjiaTM/阿里Qwen3.8-27B疯了：笔记本就能跑，能力却直逼Opus4.6.md, raw/article/lurenjiaTM/熬夜猛肝3万星的开源黑马Buzz，多Agent协作最全实操，手把手教会你.md, raw/article/lurenjiaTM/把B站干崩的《凡人修仙传》名场面，我用Pixmax尝试做了一遍.md, raw/article/lurenjiaTM/半夜秃袭，GPT Image2.5真的变强了，草图生图功能确实夯.md, raw/article/lurenjiaTM/不睡觉连肝三小时，deepseek原生harness首批实测来了!.md, raw/article/lurenjiaTM/拆解爆火的天才机甲师：AI短剧进入工业化时代，一个人如何完成机甲大片创作？.md, raw/article/lurenjiaTM/豆包爱学这次，做了个有点浪漫的东西.md, raw/article/lurenjiaTM/还在靠抽卡做视频？我用updream预演台告别抽卡.md, raw/article/lurenjiaTM/全新Qoder实测，阿里这一年的Coding确实没白做.md, raw/article/lurenjiaTM/实测豆包Seed-Evolving，写代码比我预期能打太多了.md, raw/article/lurenjiaTM/手机、电脑无缝衔接跑任务，这才是Vibecoding的完全体.md, raw/article/lurenjiaTM/为了让AI拍完长视频大片，我手搓了个Skill.md, raw/article/lurenjiaTM/我给DeepSeek Harness搭了个插件市场，这篇教你装，也教你做.md, raw/article/lurenjiaTM/我给iPhone Duo手搓了一整套配件，苹果看了都得直摇头.md, raw/article/lurenjiaTM/我让腾讯Miora帮我开了家火锅店，做到最后，我有点膨胀了.md, raw/article/lurenjiaTM/这就是AGI？GPT-6 Astra一夜刷屏，真实效果太夸张了.md, raw/article/lurenjiaTM/只用五分钟，Seko让一条国产AI短剧活了三次.md, raw/article/lurenjiaTM/手把手教你用WorkBuddy做微信小程序并上线，看完就会！（附真实案例）.md, raw/article/lurenjiaTM/最新60篇下载/WorkBuddy打通企微，现在它能自己翻群聊、找文件了！-a5611f15-1824ee778a.md, raw/article/lurenjiaTM/最新60篇下载/企业AI知识库到底是不是伪需求，试了一大圈后我有了答案-07786f97-5bab54eb9a.md, raw/article/lurenjiaTM/最新60篇下载/WorkBuddy又双叒升级了，一部手机就能控制多台电脑干活，用完直呼太香了-31d2048c-1ed26f95bc.md, raw/article/lurenjiaTM/最新60篇下载/Seedance2.5很强，但LibTV这套玩法更有意思-84b00f74-451feceee5.md, raw/article/lurenjiaTM/最新60篇下载/Jev凭什么刷爆AI圈？连夜测完我终于看明白了！-fa7297a8-53ffc74549.md, raw/article/lurenjiaTM/最新60篇下载/实测Qoder新功能！复刻实时联机球球大作战，域名服务器都不用-777f8091-ed666a9960.md]
 created: 2026-09-29
 updated: 2026-10-16
 ---
@@ -559,3 +559,18 @@ updated: 2026-10-16
 | 落沙物理沙盒 | 材料规则入口，观察运动算法与相互作用 | 沙、水、酸液、墙及橡皮擦均有；沙下沉、墙腐蚀后材料继续落 | 未继续修改，耗时未提供；大量沙出现蓝色颗粒、底部边线被腐蚀，两项保留 |
 
 优先复用任务原型和观察点，换输入后重新测试；不要继承本次成功、耗时或满意结论。
+
+## 最新60篇新增的任务原型
+
+完整入口为 [[topics/路人甲TM文章经营全景]]。以下迁移是策划，未由本账号完成实测；文中结果仍属于原作者自述。
+
+| 案例原型 | 必备材料和最小观察 | 自己迁移时保留的限制 | 来源 |
+| --- | --- | --- | --- |
+| 群聊材料回收并回传 | 获准的脱敏群与已知资料清单；核漏项、链接和发送前确认 | 没有企微权限就不选；不能由找到几条证明找全 | [[sources/WorkBuddy企微互通文章拆解]] |
+| 新旧口径冲突与溯源 | 两份矛盾版本及对应原件；问同一问题，看是否标冲突与出处 | 检测冲突不等于知道哪方正确 | [[sources/腾讯乐享知识治理文章拆解]] |
+| 异地续接误改与回滚 | 自有项目、明确目标文件与备份；手机追加一个小修改 | 区分目标电脑在线和云端常驻，不沿用完全授权的技巧 | [[sources/WorkBuddy多端续接文章拆解]] |
+| 成片只改一处 | 自有短片；选一个道具或文字，保留未改片段作对照 | 精确计时不一定适合生成模型，别反复烧积分 | [[sources/LibTV局部返修与剪辑文章拆解]] |
+| 将高频小选择交给分类模型 | 原文是跑酷动作选择；迁移可用人工标注的选题做分类 | 选题分类是本库提案，不能说原作者已用Jev证明选题效果 | [[sources/Jev快判断案例文章拆解]] |
+| 用户试玩推动在线应用改动 | 已有小工具；真实可访问链接、一项数据保存和同链接更新 | 共享榜单与同步实时对战分开验收 | [[sources/QoderSites在线应用文章拆解]] |
+
+先使用自己的现成项目，再为一个新问题补最少材料。同一成果可以研究不同问题，不能重复包装成多次独立测试。

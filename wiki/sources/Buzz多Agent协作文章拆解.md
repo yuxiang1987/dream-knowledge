@@ -3,9 +3,9 @@ title: Buzz多Agent协作文章拆解
 type: source
 tags: [公众号, 文章拆解, 路人甲TM, Agent, 多Agent, 教程]
 status: 稳定
-sources: [raw/article/lurenjiaTM/熬夜猛肝3万星的开源黑马Buzz，多Agent协作最全实操，手把手教会你.md]
+sources: [raw/article/lurenjiaTM/熬夜猛肝3万星的开源黑马Buzz，多Agent协作最全实操，手把手教会你.md, raw/article/lurenjiaTM/最新60篇下载/熬夜猛肝3万星的开源黑马Buzz，多Agent协作最全实操，手把手教会你-79c5d8f4-ff0efe6b2d.md]
 created: 2026-09-30
-updated: 2026-09-30
+updated: 2026-10-16
 ---
 
 # Buzz多Agent协作文章拆解
@@ -67,3 +67,7 @@ updated: 2026-09-30
 - [[topics/路人甲TM文章写法拆解]]：第六个样本，也是目前「教程＋翻车复盘」结合最完整的样本。
 - [[topics/AI写作案例库]]、[[topics/测评问题与实战技巧库]]：角色设计、独立验收与故障修复的具体用法。
 - [[topics/文章标题库]]、[[topics/文章写法库]]、[[topics/观点与表达库]]、[[topics/选题问题库]]、[[topics/证据与边界库]]：分维度条目。
+
+## 最新归档批次的关联
+
+2026-10-16按标题与账号核对到最新60篇批次的同篇快照：`raw/article/lurenjiaTM/最新60篇下载/熬夜猛肝3万星的开源黑马Buzz，多Agent协作最全实操，手把手教会你-79c5d8f4-ff0efe6b2d.md`。原有拆解及其历史证据保留；统一研究记录 LRJ60-45 见 [[topics/路人甲TM文章经营全景]]。本次未重新观看媒体，不把原作者测试改写为自己的实测。

@@ -3,9 +3,9 @@ title: 豆包Seed-Evolving实测文章拆解
 type: source
 tags: [公众号, 文章拆解, 路人甲TM, AI模型, 实测, 事实核查]
 status: 稳定
-sources: [raw/article/lurenjiaTM/实测豆包Seed-Evolving，写代码比我预期能打太多了.md]
+sources: [raw/article/lurenjiaTM/实测豆包Seed-Evolving，写代码比我预期能打太多了.md, raw/article/lurenjiaTM/最新60篇下载/实测豆包Seed-Evolving，写代码比我预期能打太多了-d30bf9b9-19a9d70aed.md]
 created: 2026-09-30
-updated: 2026-09-30
+updated: 2026-10-16
 ---
 
 # 豆包Seed-Evolving实测文章拆解
@@ -59,3 +59,7 @@ updated: 2026-09-30
 - [[topics/路人甲TM文章写法拆解]]：第十五个样本；中断次数、缓存命中率与人工复核是新增的评估维度。
 - [[topics/AI写作案例库]]、[[topics/测评问题与实战技巧库]]：三组案例与「截图反馈」「表格核对数字」的具体做法。
 - [[topics/文章标题库]]、[[topics/文章写法库]]、[[topics/观点与表达库]]、[[topics/选题问题库]]、[[topics/证据与边界库]]：分维度条目。
+
+## 最新归档批次的关联
+
+2026-10-16按标题与账号核对到最新60篇批次的同篇快照：`raw/article/lurenjiaTM/最新60篇下载/实测豆包Seed-Evolving，写代码比我预期能打太多了-d30bf9b9-19a9d70aed.md`。原有拆解及其历史证据保留；统一研究记录 LRJ60-28 见 [[topics/路人甲TM文章经营全景]]。本次未重新观看媒体，不把原作者测试改写为自己的实测。

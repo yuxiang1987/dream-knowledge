@@ -3,9 +3,9 @@ title: DSH插件市场文章拆解
 type: source
 tags: [公众号, 文章拆解, 路人甲TM, 插件生态, 教程, Agent]
 status: 稳定
-sources: [raw/article/lurenjiaTM/我给DeepSeek Harness搭了个插件市场，这篇教你装，也教你做.md]
+sources: [raw/article/lurenjiaTM/我给DeepSeek Harness搭了个插件市场，这篇教你装，也教你做.md, raw/article/lurenjiaTM/最新60篇下载/我给DeepSeek Harness搭了个插件市场，这篇教你装，也教你做-e2cd27db-de7c385eae.md]
 created: 2026-09-30
-updated: 2026-09-30
+updated: 2026-10-16
 ---
 
 # DSH插件市场文章拆解
@@ -68,3 +68,7 @@ updated: 2026-09-30
 - [[topics/路人甲TM文章写法拆解]]：第十八个样本；「翻译成大白话」「主动回应质疑」与六条执行约束是本篇的主要贡献。
 - [[topics/AI写作案例库]]、[[topics/测评问题与实战技巧库]]：三步前置流程、约束提示词与安全审查指令的具体做法。
 - [[topics/文章标题库]]、[[topics/文章写法库]]、[[topics/观点与表达库]]、[[topics/选题问题库]]、[[topics/证据与边界库]]：分维度条目。
+
+## 最新归档批次的关联
+
+2026-10-16按标题与账号核对到最新60篇批次的同篇快照：`raw/article/lurenjiaTM/最新60篇下载/我给DeepSeek Harness搭了个插件市场，这篇教你装，也教你做-e2cd27db-de7c385eae.md`。原有拆解及其历史证据保留；统一研究记录 LRJ60-40 见 [[topics/路人甲TM文章经营全景]]。本次未重新观看媒体，不把原作者测试改写为自己的实测。

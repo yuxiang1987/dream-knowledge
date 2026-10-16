@@ -3,9 +3,9 @@ title: WorkBuddy入门教程文章拆解
 type: source
 tags: [公众号, 文章拆解, 路人甲TM, Agent, 教程]
 status: 稳定
-sources: [raw/article/lurenjiaTM/WorkBuddy最新教程，看完我奶奶也会用了.md]
+sources: [raw/article/lurenjiaTM/WorkBuddy最新教程，看完我奶奶也会用了.md, raw/article/lurenjiaTM/最新60篇下载/WorkBuddy最新教程，看完我奶奶也会用了-fbf15f81-76af170d49.md]
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-16
 ---
 
 # WorkBuddy入门教程文章拆解
@@ -49,3 +49,7 @@ updated: 2026-09-29
 ## 与其他页面的关系
 
 这篇是 [[topics/路人甲TM文章写法拆解]] 的第四个样本。两个任务及建议的验收方式编入 [[topics/AI写作案例库]]；标题、教程结构、选题问题、观点与证据边界分别见 [[topics/文章标题库]]、[[topics/文章写法库]]、[[topics/选题问题库]]、[[topics/观点与表达库]]、[[topics/证据与边界库]]。
+
+## 最新归档批次的关联
+
+2026-10-16按标题与账号核对到最新60篇批次的同篇快照：`raw/article/lurenjiaTM/最新60篇下载/WorkBuddy最新教程，看完我奶奶也会用了-fbf15f81-76af170d49.md`。原有拆解及其历史证据保留；统一研究记录 LRJ60-33 见 [[topics/路人甲TM文章经营全景]]。本次未重新观看媒体，不把原作者测试改写为自己的实测。

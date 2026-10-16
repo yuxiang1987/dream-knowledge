@@ -3,7 +3,7 @@ title: WorkBuddy小程序教程文章拆解
 type: source
 tags: [公众号, 路人甲TM, 教程, Agent, Coding]
 status: 稳定
-sources: [raw/article/lurenjiaTM/手把手教你用WorkBuddy做微信小程序并上线，看完就会！（附真实案例）.md]
+sources: [raw/article/lurenjiaTM/手把手教你用WorkBuddy做微信小程序并上线，看完就会！（附真实案例）.md, raw/article/lurenjiaTM/最新60篇下载/手把手教你用WorkBuddy做微信小程序并上线，看完就会！（附真实案例）-44e73498-9d06ebb533.md]
 created: 2026-10-16
 updated: 2026-10-16
 ---
@@ -46,3 +46,7 @@ updated: 2026-10-16
 - [[topics/AI公众号产品选题与客户地图]]：产品、类型、案例与合作线索入口。
 - [[topics/公众号文章切入点方法]]：从能力更新转成读者可执行的任务。
 - [[topics/证据与边界库]]：试用版本与正式交付、亲测与资料转述的区别。
+
+## 最新归档批次的关联
+
+2026-10-16按标题与账号核对到最新60篇批次的同篇快照：`raw/article/lurenjiaTM/最新60篇下载/手把手教你用WorkBuddy做微信小程序并上线，看完就会！（附真实案例）-44e73498-9d06ebb533.md`。原有拆解及其历史证据保留；统一研究记录 LRJ60-05 见 [[topics/路人甲TM文章经营全景]]。本次未重新观看媒体，不把原作者测试改写为自己的实测。

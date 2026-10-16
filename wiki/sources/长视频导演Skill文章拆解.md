@@ -3,9 +3,9 @@ title: 长视频导演Skill文章拆解
 type: source
 tags: [公众号, 文章拆解, 路人甲TM, AI视频, Skill, 实测]
 status: 稳定
-sources: [raw/article/lurenjiaTM/为了让AI拍完长视频大片，我手搓了个Skill.md]
+sources: [raw/article/lurenjiaTM/为了让AI拍完长视频大片，我手搓了个Skill.md, raw/article/lurenjiaTM/最新60篇下载/为了让AI拍完长视频大片，我手搓了个Skill-8f853bd9-2ae7584655.md]
 created: 2026-09-30
-updated: 2026-09-30
+updated: 2026-10-16
 ---
 
 # 长视频导演Skill文章拆解
@@ -62,3 +62,7 @@ updated: 2026-09-30
 - [[topics/路人甲TM文章写法拆解]]：第十七个样本；与第七篇、第十二篇共同构成「AI 视频如何减少抽卡」的系列观察。
 - [[topics/AI写作案例库]]、[[topics/测评问题与实战技巧库]]：导演执行包、锚点图、节点化局部返修、转场设计与控制粒度的具体做法。
 - [[topics/文章标题库]]、[[topics/文章写法库]]、[[topics/观点与表达库]]、[[topics/选题问题库]]、[[topics/证据与边界库]]：分维度条目。
+
+## 最新归档批次的关联
+
+2026-10-16按标题与账号核对到最新60篇批次的同篇快照：`raw/article/lurenjiaTM/最新60篇下载/为了让AI拍完长视频大片，我手搓了个Skill-8f853bd9-2ae7584655.md`。原有拆解及其历史证据保留；统一研究记录 LRJ60-22 见 [[topics/路人甲TM文章经营全景]]。本次未重新观看媒体，不把原作者测试改写为自己的实测。

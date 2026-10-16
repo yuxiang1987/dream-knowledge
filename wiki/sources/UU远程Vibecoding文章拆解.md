@@ -3,9 +3,9 @@ title: UU远程Vibecoding文章拆解
 type: source
 tags: [公众号, 文章拆解, 路人甲TM, 远程控制, 场景实测, 商单特征]
 status: 稳定
-sources: [raw/article/lurenjiaTM/手机、电脑无缝衔接跑任务，这才是Vibecoding的完全体.md]
+sources: [raw/article/lurenjiaTM/手机、电脑无缝衔接跑任务，这才是Vibecoding的完全体.md, raw/article/lurenjiaTM/最新60篇下载/手机、电脑无缝衔接跑任务，这才是Vibecoding的完全体-2b200195-cfe31f131d.md]
 created: 2026-09-30
-updated: 2026-09-30
+updated: 2026-10-16
 ---
 
 # UU远程Vibecoding文章拆解
@@ -62,3 +62,7 @@ updated: 2026-09-30
 - [[topics/路人甲TM文章写法拆解]]：第十六个样本，与第七、十篇同属带推广特征的样本。
 - [[topics/AI写作案例库]]、[[topics/测评问题与实战技巧库]]：会话接续、独立输入框、多会话与「换场景测延迟」的具体做法。
 - [[topics/文章标题库]]、[[topics/文章写法库]]、[[topics/观点与表达库]]、[[topics/选题问题库]]、[[topics/证据与边界库]]：分维度条目。
+
+## 最新归档批次的关联
+
+2026-10-16按标题与账号核对到最新60篇批次的同篇快照：`raw/article/lurenjiaTM/最新60篇下载/手机、电脑无缝衔接跑任务，这才是Vibecoding的完全体-2b200195-cfe31f131d.md`。原有拆解及其历史证据保留；统一研究记录 LRJ60-23 见 [[topics/路人甲TM文章经营全景]]。本次未重新观看媒体，不把原作者测试改写为自己的实测。

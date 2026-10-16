@@ -3,9 +3,9 @@ title: GPT-6 Astra连测文章拆解
 type: source
 tags: [公众号, 文章拆解, 路人甲TM, AI模型]
 status: 稳定
-sources: [raw/article/lurenjiaTM/GPT-6 Atsra终于开放，连测12小时！AGI到底有多猛？.md]
+sources: [raw/article/lurenjiaTM/GPT-6 Atsra终于开放，连测12小时！AGI到底有多猛？.md, raw/article/lurenjiaTM/最新60篇下载/GPT-6 Atsra终于开放，连测12小时！AGI到底有多猛？-3ec7a919-c68bc392a3.md]
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-16
 ---
 
 # GPT-6 Astra连测文章拆解
@@ -63,3 +63,7 @@ updated: 2026-09-29
 - [[topics/路人甲TM文章写法拆解]]：第二篇样本，用于比较多案例文章的标题与开头。
 - [[topics/AI写作案例库]]：提取五个案例的设计方式和使用门槛。
 - [[concepts/公众号写作风格DNA]]：为「案例要有观察点、结果和边界」提供一正一反的具体样本。
+
+## 最新归档批次的关联
+
+2026-10-16按标题与账号核对到最新60篇批次的同篇快照：`raw/article/lurenjiaTM/最新60篇下载/GPT-6 Atsra终于开放，连测12小时！AGI到底有多猛？-3ec7a919-c68bc392a3.md`。原有拆解及其历史证据保留；统一研究记录 LRJ60-25 见 [[topics/路人甲TM文章经营全景]]。本次未重新观看媒体，不把原作者测试改写为自己的实测。

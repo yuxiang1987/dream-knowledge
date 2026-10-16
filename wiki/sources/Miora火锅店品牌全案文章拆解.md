@@ -3,9 +3,9 @@ title: Miora火锅店品牌全案文章拆解
 type: source
 tags: [公众号, 文章拆解, 路人甲TM, 品牌设计, 实测, 推广特征]
 status: 稳定
-sources: [raw/article/lurenjiaTM/我让腾讯Miora帮我开了家火锅店，做到最后，我有点膨胀了.md]
+sources: [raw/article/lurenjiaTM/我让腾讯Miora帮我开了家火锅店，做到最后，我有点膨胀了.md, raw/article/lurenjiaTM/最新60篇下载/我让腾讯Miora帮我开了家火锅店，做到最后，我有点膨胀了-03c374aa-dcb66e7911.md]
 created: 2026-09-30
-updated: 2026-09-30
+updated: 2026-10-16
 ---
 
 # Miora火锅店品牌全案文章拆解
@@ -68,3 +68,7 @@ updated: 2026-09-30
 - [[topics/路人甲TM文章写法拆解]]：第二十个样本；提示词密度最高，且首次出现「内容含AI生成图片」标注与自设品牌免责声明。
 - [[topics/AI写作案例库]]、[[topics/测评问题与实战技巧库]]：品牌全案的分步提示词骨架与局部重生成做法。
 - [[topics/文章标题库]]、[[topics/文章写法库]]、[[topics/观点与表达库]]、[[topics/选题问题库]]、[[topics/证据与边界库]]：分维度条目。
+
+## 最新归档批次的关联
+
+2026-10-16按标题与账号核对到最新60篇批次的同篇快照：`raw/article/lurenjiaTM/最新60篇下载/我让腾讯Miora帮我开了家火锅店，做到最后，我有点膨胀了-03c374aa-dcb66e7911.md`。原有拆解及其历史证据保留；统一研究记录 LRJ60-58 见 [[topics/路人甲TM文章经营全景]]。本次未重新观看媒体，不把原作者测试改写为自己的实测。

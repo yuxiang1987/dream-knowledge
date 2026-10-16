@@ -3,9 +3,9 @@ title: Qwen3.8-27B本地模型实测文章拆解
 type: source
 tags: [公众号, 文章拆解, 路人甲TM, 本地模型, 开源]
 status: 稳定
-sources: [raw/article/lurenjiaTM/阿里Qwen3.8-27B疯了：笔记本就能跑，能力却直逼Opus4.6.md]
+sources: [raw/article/lurenjiaTM/阿里Qwen3.8-27B疯了：笔记本就能跑，能力却直逼Opus4.6.md, raw/article/lurenjiaTM/最新60篇下载/阿里Qwen3.8-27B疯了：笔记本就能跑，能力却直逼Opus4.6-302e1225-82a551ba17.md]
 created: 2026-09-30
-updated: 2026-09-30
+updated: 2026-10-16
 ---
 
 # Qwen3.8-27B本地模型实测文章拆解
@@ -53,3 +53,7 @@ updated: 2026-09-30
 - [[topics/路人甲TM文章写法拆解]]：第五个样本。
 - [[topics/AI写作案例库]]、[[topics/测评问题与实战技巧库]]：三个案例与验收方法。
 - [[topics/文章标题库]]、[[topics/文章写法库]]、[[topics/观点与表达库]]、[[topics/选题问题库]]、[[topics/证据与边界库]]：分维度条目。
+
+## 最新归档批次的关联
+
+2026-10-16按标题与账号核对到最新60篇批次的同篇快照：`raw/article/lurenjiaTM/最新60篇下载/阿里Qwen3.8-27B疯了：笔记本就能跑，能力却直逼Opus4.6-302e1225-82a551ba17.md`。原有拆解及其历史证据保留；统一研究记录 LRJ60-38 见 [[topics/路人甲TM文章经营全景]]。本次未重新观看媒体，不把原作者测试改写为自己的实测。
