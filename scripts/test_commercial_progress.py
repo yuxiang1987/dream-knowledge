@@ -45,7 +45,7 @@ class CommercialProgressTest(unittest.TestCase):
     def test_inbound_lead_is_not_a_completed_order(self):
         for fact in ("7 篇文章均已发布", "7 篇都使用了加热", "客户主动联系",
                      "入站询价", "提报", "尚未见最终合作确认",
-                     "不等于客户接受价格", "本机复盘文件"):
+                     "不等于客户接受价格", "本机复盘文件", "不能断定已完成提报"):
             self.assertIn(fact, self.text)
 
     def test_current_pages_point_to_progress(self):
