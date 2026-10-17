@@ -146,6 +146,18 @@ class DailyTopicPlanTest(unittest.TestCase):
         self.assertIn("不要编造", first_prompt)
         self.assertIn("不将其描述为该键盘的真实声音", plan)
 
+    def test_keyboard_image_request_delivers_one_main_and_six_distinct_details(self):
+        plan = (OUT / "豆包双11商品素材实操方案.md").read_text(encoding="utf-8")
+        prompt = plan.split("下面是可以先执行的键盘图片提示词", 1)[1].split("## 接着做两种用途", 1)[0]
+        self.assertIn("1张主图＋6屏详情图，共7张独立图片", prompt)
+        self.assertIn("不要只给文案", prompt)
+        details = re.findall(r"^详情第([1-6])屏，([^。]+)。", prompt, re.MULTILINE)
+        self.assertEqual([n for n, _ in details], list("123456"))
+        self.assertEqual(len({focus for _, focus in details}), 6)
+        self.assertNotIn("请制作以下3张图", prompt)
+        decision = (ROOT / "wiki/topics/公众号每日选题决策.md").read_text(encoding="utf-8")
+        self.assertIn("1张主图＋6屏详情图，共7张独立图片", decision)
+
 
 if __name__ == "__main__":
     unittest.main()
