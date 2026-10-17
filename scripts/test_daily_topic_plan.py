@@ -118,19 +118,33 @@ class DailyTopicPlanTest(unittest.TestCase):
     def test_current_direction_is_confirmed_while_results_remain_pending(self):
         decision = (ROOT / "wiki/topics/公众号每日选题决策.md").read_text(encoding="utf-8")
         current = decision.split("## 2026-10-17确认方向", 1)[1].split("## 旧候选", 1)[0]
-        self.assertIn("具体商品待选，待实操", current)
+        self.assertIn("商品已选机械键盘，待实操", current)
         self.assertIn("不是用户的实测记录", current)
         product = (ROOT / "wiki/entities/豆包电脑版.md").read_text(encoding="utf-8")
         self.assertIn("## 当前研究问题（2026-10-17）", product)
+        self.assertNotIn("当前商品待选", product)
         plan = (OUT / "豆包双11商品素材实操方案.md").read_text(encoding="utf-8")
         self.assertIn("待实操", plan)
         self.assertIn("未观看链接视频", plan)
         self.assertIn("不是实际输入记录", plan)
-        rows = re.findall(r"\| (商品与入口|商品图|产品宣传视频|带货视频) \| ([^|]+) \| ([^|]+) \|", plan)
-        self.assertEqual(len(rows), 4)
+        rows = re.findall(r"\| (商品图|产品宣传视频|带货视频) \| ([^|]+) \| ([^|]+) \|", plan)
+        self.assertEqual(len(rows), 3)
         for _, status, result in rows:
             self.assertIn(status.strip(), ("待确认", "待实操"))
             self.assertEqual(result.strip(), "待填写")
+
+    def test_selected_keyboard_input_is_archived_without_claiming_generated_output(self):
+        photo = OUT / "豆包双11键盘素材/键盘原始实拍.jpg"
+        self.assertEqual(hashlib.sha256(photo.read_bytes()).hexdigest(),
+                         "3a876561840f202776841051cacd903b1df46d6b6c09bf063dcf51b53053820b")
+        plan = (OUT / "豆包双11商品素材实操方案.md").read_text(encoding="utf-8")
+        self.assertIn("不是豆包生成结果", plan)
+        self.assertIn("商品已选，入口待确认", plan)
+        first_prompt = plan.split("下面是可以先执行的键盘图片提示词", 1)[1].split("## 接着做两种用途", 1)[0]
+        self.assertNotIn("【粘贴", first_prompt)
+        self.assertIn("不增加、删减或重排按键", first_prompt)
+        self.assertIn("不要编造", first_prompt)
+        self.assertIn("不将其描述为该键盘的真实声音", plan)
 
 
 if __name__ == "__main__":
