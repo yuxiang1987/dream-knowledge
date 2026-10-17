@@ -161,12 +161,12 @@ class DailyTopicPlanTest(unittest.TestCase):
         decision = (ROOT / "wiki/topics/公众号每日选题决策.md").read_text(encoding="utf-8")
         self.assertIn("1张主图＋6屏详情图，共7张独立图片", decision)
 
-    def test_first_image_run_has_five_evidence_files_and_no_invented_cost_or_video(self):
+    def test_image_runs_have_six_evidence_files_and_no_invented_cost_or_video(self):
         evidence_dir = OUT / "豆包双11键盘素材"
         record_path = evidence_dir / "首轮商品图实测记录.md"
         record = record_path.read_text(encoding="utf-8")
         screenshots = re.findall(r"!\[[^]]*\]\(([^)]+\.png)\)", record)
-        self.assertEqual(len(set(screenshots)), 5)
+        self.assertEqual(len(set(screenshots)), 6)
         for filename in screenshots:
             self.assertTrue((evidence_dir / filename).read_bytes().startswith(b"\x89PNG\r\n\x1a\n"))
         for expected in ("创意设计", "4分18秒", "3.77%", "右下角", "右上角",
@@ -176,17 +176,22 @@ class DailyTopicPlanTest(unittest.TestCase):
         self.assertIn("| 商品图 | 已执行，原尺寸细节待核 |", plan)
         self.assertIn("商品外观以原始实拍图为准", plan)
 
-    def test_proportion_feedback_keeps_first_run_and_does_not_claim_repair_success(self):
+    def test_proportion_feedback_and_accepted_repair_preserve_observation_limits(self):
         record = (OUT / "豆包双11键盘素材/首轮商品图实测记录.md").read_text(encoding="utf-8")
         self.assertIn("好像不对，细看显得太宽了", record)
         self.assertIn("主图不计入", record)
         self.assertIn("未测量原尺寸成品", record)
-        self.assertIn("不是用户已经发送的内容", record)
+        self.assertIn("用户随后实际发送", record)
         self.assertIn("只修改这两张，其他图片不要改", record)
-        self.assertIn("额外用时和额度消耗均待返回", record)
+        self.assertIn("1分3秒", record)
+        self.assertIn("1.08%", record)
+        self.assertIn("这版修改好了", record)
+        self.assertIn("未取得前后所有独立文件进行比较", record)
         for path in (OUT / "豆包双11商品素材实操方案.md",
                      ROOT / "wiki/topics/公众号每日选题决策.md"):
-            self.assertIn("返修待执行", path.read_text(encoding="utf-8"))
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("返修已执行", text)
+            self.assertNotIn("返修待执行", text)
 
 
 if __name__ == "__main__":
