@@ -1,5 +1,6 @@
 """核对个人工具状态、明日计划与模拟材料；不填造产品实测结果。"""
 import json
+import hashlib
 from pathlib import Path
 import re
 import unittest
@@ -95,6 +96,41 @@ class DailyTopicPlanTest(unittest.TestCase):
         for name in ("消费者：", "商家：", "互动作品："):
             self.assertIn(name, decision)
         self.assertIn("待填写", (PACK / "实测记录.md").read_text(encoding="utf-8"))
+
+    def test_double11_plan_preserves_supplied_sources_and_resolves_local_links(self):
+        sources = {
+            "raw/article/管三/没花一分钱！一张实拍图，「豆包工作」帮我做出主图、详情页和3条带货视频.md":
+                "58a0db0743c9b08dbac656956f2b23a4a460303e5834e5edf52231b80c8e89bd",
+            "raw/article/lurenjiaTM/实测OiiOii最新Skill，这套电商组合堪称双十一王炸！.md":
+                "87a1a719f3db6a4a45b51d8ee05e92990bdac3b9467445366668424453febeff",
+            "raw/article/lurenjiaTM/真正的双11来了！天猫预售居然免定金！.md":
+                "48c9b1442073d9b6bc5139caf26d8a39b217d295592142b453e8484b085845ab",
+        }
+        plan_path = OUT / "豆包双11商品素材实操方案.md"
+        text = plan_path.read_text(encoding="utf-8")
+        for path, expected in sources.items():
+            self.assertEqual(hashlib.sha256((ROOT / path).read_bytes()).hexdigest(), expected)
+            self.assertIn("../../" + path, text)
+        for target in re.findall(r"\]\(([^)]+)\)", text):
+            if not target.startswith(("https://", "http://")):
+                self.assertTrue((plan_path.parent / target).resolve().is_file(), target)
+
+    def test_current_direction_is_confirmed_while_results_remain_pending(self):
+        decision = (ROOT / "wiki/topics/公众号每日选题决策.md").read_text(encoding="utf-8")
+        current = decision.split("## 2026-10-17确认方向", 1)[1].split("## 旧候选", 1)[0]
+        self.assertIn("具体商品待选，待实操", current)
+        self.assertIn("不是用户的实测记录", current)
+        product = (ROOT / "wiki/entities/豆包电脑版.md").read_text(encoding="utf-8")
+        self.assertIn("## 当前研究问题（2026-10-17）", product)
+        plan = (OUT / "豆包双11商品素材实操方案.md").read_text(encoding="utf-8")
+        self.assertIn("待实操", plan)
+        self.assertIn("未观看链接视频", plan)
+        self.assertIn("不是实际输入记录", plan)
+        rows = re.findall(r"\| (商品与入口|商品图|产品宣传视频|带货视频) \| ([^|]+) \| ([^|]+) \|", plan)
+        self.assertEqual(len(rows), 4)
+        for _, status, result in rows:
+            self.assertIn(status.strip(), ("待确认", "待实操"))
+            self.assertEqual(result.strip(), "待填写")
 
 
 if __name__ == "__main__":
