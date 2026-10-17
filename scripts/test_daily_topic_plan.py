@@ -117,10 +117,10 @@ class DailyTopicPlanTest(unittest.TestCase):
             if not target.startswith(("https://", "http://")):
                 self.assertTrue((plan_path.parent / target).resolve().is_file(), target)
 
-    def test_image_task_is_recorded_while_video_results_remain_pending(self):
+    def test_product_video_is_recorded_while_presenter_video_remains_pending(self):
         decision = (ROOT / "wiki/topics/公众号每日选题决策.md").read_text(encoding="utf-8")
         current = decision.split("## 2026-10-17确认方向", 1)[1].split("## 旧候选", 1)[0]
-        self.assertIn("首轮商品图已执行并返回5张截图，视频待实操", current)
+        self.assertIn("产品宣传视频已生成两轮并收到饱满版MP4，人物带货视频待实操", current)
         self.assertIn("不是用户的实测记录", current)
         product = (ROOT / "wiki/entities/豆包电脑版.md").read_text(encoding="utf-8")
         self.assertIn("## 当前研究问题（2026-10-17）", product)
@@ -129,8 +129,8 @@ class DailyTopicPlanTest(unittest.TestCase):
         self.assertIn("待实操", plan)
         self.assertIn("未观看链接视频", plan)
         self.assertIn("本轮实际执行的键盘图片提示词", plan)
-        rows = re.findall(r"\| (产品宣传视频|带货视频) \| ([^|]+) \| ([^|]+) \|", plan)
-        self.assertEqual(len(rows), 2)
+        rows = re.findall(r"\| (带货视频) \| ([^|]+) \| ([^|]+) \|", plan)
+        self.assertEqual(len(rows), 1)
         for _, status, result in rows:
             self.assertIn(status.strip(), ("待确认", "待实操"))
             self.assertEqual(result.strip(), "待填写")
@@ -141,7 +141,7 @@ class DailyTopicPlanTest(unittest.TestCase):
                          "3a876561840f202776841051cacd903b1df46d6b6c09bf063dcf51b53053820b")
         plan = (OUT / "豆包双11商品素材实操方案.md").read_text(encoding="utf-8")
         self.assertIn("不是豆包生成结果", plan)
-        self.assertIn("商品已选，图片入口已见", plan)
+        self.assertIn("商品已选，图片及视频入口已见", plan)
         first_prompt = plan.split("本轮实际执行的键盘图片提示词", 1)[1].split("## 首轮真实结果", 1)[0]
         self.assertNotIn("【粘贴", first_prompt)
         self.assertIn("保持商品外观一致", first_prompt)
@@ -192,6 +192,26 @@ class DailyTopicPlanTest(unittest.TestCase):
             text = path.read_text(encoding="utf-8")
             self.assertIn("返修已执行", text)
             self.assertNotIn("返修待执行", text)
+
+    def test_video_file_is_preserved_and_inspection_scope_is_explicit(self):
+        folder = OUT / "豆包双11键盘素材"
+        video = folder / "产品宣传视频-饱满版.mp4"
+        self.assertEqual(hashlib.sha256(video.read_bytes()).hexdigest(),
+                         "4544ebe1e47436c91267f24a1cae9b5080044fb3ec2dfceba2c58e6cbd8bb200")
+        meta = json.loads((folder / "宣传视频媒体信息.json").read_text(encoding="utf-8"))
+        self.assertEqual((meta["width"], meta["height"]), (720, 1280))
+        self.assertAlmostEqual(meta["duration_seconds"], 15.071995, places=5)
+        self.assertEqual(len(meta["sampled_frame_times"]), 17)
+        record_path = folder / "产品宣传视频实测记录.md"
+        record = record_path.read_text(encoding="utf-8")
+        for target in re.findall(r"\]\(([^)]+)\)", record):
+            self.assertTrue((folder / target).resolve().is_file(), target)
+        for observation in ("4分29秒", "3分59秒", "104.14%", "104.17%",
+                            "未独立试听", "画面太空了", "品牌附近字母有变形", "人物出镜带货视频仍待执行"):
+            self.assertIn(observation, record)
+        plan = (OUT / "豆包双11商品素材实操方案.md").read_text(encoding="utf-8")
+        self.assertIn("| 产品宣传视频 | 已生成及重做，继续修改中 |", plan)
+        self.assertIn("不要编造使用经历、规格和优惠", plan)
 
 
 if __name__ == "__main__":
