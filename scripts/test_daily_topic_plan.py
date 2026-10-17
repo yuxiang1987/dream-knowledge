@@ -117,10 +117,10 @@ class DailyTopicPlanTest(unittest.TestCase):
             if not target.startswith(("https://", "http://")):
                 self.assertTrue((plan_path.parent / target).resolve().is_file(), target)
 
-    def test_current_direction_is_confirmed_while_results_remain_pending(self):
+    def test_image_task_is_recorded_while_video_results_remain_pending(self):
         decision = (ROOT / "wiki/topics/公众号每日选题决策.md").read_text(encoding="utf-8")
         current = decision.split("## 2026-10-17确认方向", 1)[1].split("## 旧候选", 1)[0]
-        self.assertIn("商品已选机械键盘，待实操", current)
+        self.assertIn("首轮商品图已执行并返回5张截图，视频待实操", current)
         self.assertIn("不是用户的实测记录", current)
         product = (ROOT / "wiki/entities/豆包电脑版.md").read_text(encoding="utf-8")
         self.assertIn("## 当前研究问题（2026-10-17）", product)
@@ -128,9 +128,9 @@ class DailyTopicPlanTest(unittest.TestCase):
         plan = (OUT / "豆包双11商品素材实操方案.md").read_text(encoding="utf-8")
         self.assertIn("待实操", plan)
         self.assertIn("未观看链接视频", plan)
-        self.assertIn("不是实际输入记录", plan)
-        rows = re.findall(r"\| (商品图|产品宣传视频|带货视频) \| ([^|]+) \| ([^|]+) \|", plan)
-        self.assertEqual(len(rows), 3)
+        self.assertIn("本轮实际执行的键盘图片提示词", plan)
+        rows = re.findall(r"\| (产品宣传视频|带货视频) \| ([^|]+) \| ([^|]+) \|", plan)
+        self.assertEqual(len(rows), 2)
         for _, status, result in rows:
             self.assertIn(status.strip(), ("待确认", "待实操"))
             self.assertEqual(result.strip(), "待填写")
@@ -141,8 +141,8 @@ class DailyTopicPlanTest(unittest.TestCase):
                          "3a876561840f202776841051cacd903b1df46d6b6c09bf063dcf51b53053820b")
         plan = (OUT / "豆包双11商品素材实操方案.md").read_text(encoding="utf-8")
         self.assertIn("不是豆包生成结果", plan)
-        self.assertIn("商品已选，入口待确认", plan)
-        first_prompt = plan.split("下面是可以先执行的键盘图片提示词", 1)[1].split("## 接着做两种用途", 1)[0]
+        self.assertIn("商品已选，图片入口已见", plan)
+        first_prompt = plan.split("本轮实际执行的键盘图片提示词", 1)[1].split("## 首轮真实结果", 1)[0]
         self.assertNotIn("【粘贴", first_prompt)
         self.assertIn("保持商品外观一致", first_prompt)
         self.assertIn("不要编造", first_prompt)
@@ -150,7 +150,7 @@ class DailyTopicPlanTest(unittest.TestCase):
 
     def test_keyboard_image_request_is_brief_and_keeps_requested_deliverables(self):
         plan = (OUT / "豆包双11商品素材实操方案.md").read_text(encoding="utf-8")
-        prompt = plan.split("下面是可以先执行的键盘图片提示词", 1)[1].split("## 接着做两种用途", 1)[0]
+        prompt = plan.split("本轮实际执行的键盘图片提示词", 1)[1].split("## 首轮真实结果", 1)[0]
         body = re.search(r"```text\n(.*?)\n```", prompt, re.DOTALL).group(1)
         for deliverable in ("商品标题", "1张主图", "详情页文案", "6屏详情图"):
             self.assertIn(deliverable, body)
@@ -160,6 +160,21 @@ class DailyTopicPlanTest(unittest.TestCase):
         self.assertNotIn("请制作以下3张图", prompt)
         decision = (ROOT / "wiki/topics/公众号每日选题决策.md").read_text(encoding="utf-8")
         self.assertIn("1张主图＋6屏详情图，共7张独立图片", decision)
+
+    def test_first_image_run_has_five_evidence_files_and_no_invented_cost_or_video(self):
+        evidence_dir = OUT / "豆包双11键盘素材"
+        record_path = evidence_dir / "首轮商品图实测记录.md"
+        record = record_path.read_text(encoding="utf-8")
+        screenshots = re.findall(r"!\[[^]]*\]\(([^)]+\.png)\)", record)
+        self.assertEqual(len(set(screenshots)), 5)
+        for filename in screenshots:
+            self.assertTrue((evidence_dir / filename).read_bytes().startswith(b"\x89PNG\r\n\x1a\n"))
+        for expected in ("创意设计", "4分18秒", "3.77%", "右下角", "右上角",
+                         "金属旋钮", "未取得7张独立原尺寸图片", "现金费用", "均待实操"):
+            self.assertIn(expected, record)
+        plan = (OUT / "豆包双11商品素材实操方案.md").read_text(encoding="utf-8")
+        self.assertIn("| 商品图 | 已执行，原尺寸细节待核 |", plan)
+        self.assertIn("商品外观以原始实拍图为准", plan)
 
 
 if __name__ == "__main__":
