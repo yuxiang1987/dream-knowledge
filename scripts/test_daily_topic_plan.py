@@ -213,6 +213,18 @@ class DailyTopicPlanTest(unittest.TestCase):
         self.assertIn("| 产品宣传视频 | 已生成及重做，继续修改中 |", plan)
         self.assertIn("不要编造使用经历、规格和优惠", plan)
 
+    def test_new_text_and_voice_revision_is_proposed_without_claiming_execution(self):
+        record = (OUT / "豆包双11键盘素材/产品宣传视频实测记录.md").read_text(encoding="utf-8")
+        section = record.split("## 开头字幕与旁白修改建议（待执行）", 1)[1].split("## 下一步", 1)[0]
+        self.assertIn("尚未收到用户实际发送截图或第三轮成片", section)
+        prompt = re.search(r"```text\n(.*?)\n```", section, re.DOTALL).group(1)
+        self.assertLess(len(prompt), 200)
+        self.assertIn("开头字幕改成「让桌面亮起来」", prompt)
+        self.assertIn("不要念品牌名，也不要加品牌字幕", prompt)
+        self.assertIn("其他镜头和音乐保持不变", prompt)
+        self.assertNotIn("98", prompt)
+        self.assertNotIn("AULA", prompt)
+
 
 if __name__ == "__main__":
     unittest.main()
