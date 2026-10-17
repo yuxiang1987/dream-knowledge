@@ -104,12 +104,14 @@ class DailyTopicPlanTest(unittest.TestCase):
             "raw/article/lurenjiaTM/实测OiiOii最新Skill，这套电商组合堪称双十一王炸！.md":
                 "87a1a719f3db6a4a45b51d8ee05e92990bdac3b9467445366668424453febeff",
             "raw/article/lurenjiaTM/真正的双11来了！天猫预售居然免定金！.md":
-                "48c9b1442073d9b6bc5139caf26d8a39b217d295592142b453e8484b085845ab",
+                "3e85ce75877576f08d4eb30b535f886663aa8ddce5289bb16c1dac367f235c14",
         }
         plan_path = OUT / "豆包双11商品素材实操方案.md"
         text = plan_path.read_text(encoding="utf-8")
         for path, expected in sources.items():
-            self.assertEqual(hashlib.sha256((ROOT / path).read_bytes()).hexdigest(), expected)
+            # Windows编辑器及Git可能转换换行，仍严格验证原文内容。
+            body = (ROOT / path).read_bytes().replace(b"\r\n", b"\n")
+            self.assertEqual(hashlib.sha256(body).hexdigest(), expected)
             self.assertIn("../../" + path, text)
         for target in re.findall(r"\]\(([^)]+)\)", text):
             if not target.startswith(("https://", "http://")):
@@ -142,18 +144,19 @@ class DailyTopicPlanTest(unittest.TestCase):
         self.assertIn("商品已选，入口待确认", plan)
         first_prompt = plan.split("下面是可以先执行的键盘图片提示词", 1)[1].split("## 接着做两种用途", 1)[0]
         self.assertNotIn("【粘贴", first_prompt)
-        self.assertIn("不增加、删减或重排按键", first_prompt)
+        self.assertIn("保持商品外观一致", first_prompt)
         self.assertIn("不要编造", first_prompt)
         self.assertIn("不将其描述为该键盘的真实声音", plan)
 
-    def test_keyboard_image_request_delivers_one_main_and_six_distinct_details(self):
+    def test_keyboard_image_request_is_brief_and_keeps_requested_deliverables(self):
         plan = (OUT / "豆包双11商品素材实操方案.md").read_text(encoding="utf-8")
         prompt = plan.split("下面是可以先执行的键盘图片提示词", 1)[1].split("## 接着做两种用途", 1)[0]
-        self.assertIn("1张主图＋6屏详情图，共7张独立图片", prompt)
-        self.assertIn("不要只给文案", prompt)
-        details = re.findall(r"^详情第([1-6])屏，([^。]+)。", prompt, re.MULTILINE)
-        self.assertEqual([n for n, _ in details], list("123456"))
-        self.assertEqual(len({focus for _, focus in details}), 6)
+        body = re.search(r"```text\n(.*?)\n```", prompt, re.DOTALL).group(1)
+        for deliverable in ("商品标题", "1张主图", "详情页文案", "6屏详情图"):
+            self.assertIn(deliverable, body)
+        self.assertLess(len(body), 240)
+        self.assertNotRegex(body, r"详情第\d屏|我是一个淘宝卖家")
+        self.assertIn("没有提供的规格、功能和优惠信息不要编造", body)
         self.assertNotIn("请制作以下3张图", prompt)
         decision = (ROOT / "wiki/topics/公众号每日选题决策.md").read_text(encoding="utf-8")
         self.assertIn("1张主图＋6屏详情图，共7张独立图片", decision)
