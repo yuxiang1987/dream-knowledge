@@ -176,6 +176,18 @@ class DailyTopicPlanTest(unittest.TestCase):
         self.assertIn("| 商品图 | 已执行，原尺寸细节待核 |", plan)
         self.assertIn("商品外观以原始实拍图为准", plan)
 
+    def test_proportion_feedback_keeps_first_run_and_does_not_claim_repair_success(self):
+        record = (OUT / "豆包双11键盘素材/首轮商品图实测记录.md").read_text(encoding="utf-8")
+        self.assertIn("好像不对，细看显得太宽了", record)
+        self.assertIn("主图不计入", record)
+        self.assertIn("未测量原尺寸成品", record)
+        self.assertIn("不是用户已经发送的内容", record)
+        self.assertIn("只修改这两张，其他图片不要改", record)
+        self.assertIn("额外用时和额度消耗均待返回", record)
+        for path in (OUT / "豆包双11商品素材实操方案.md",
+                     ROOT / "wiki/topics/公众号每日选题决策.md"):
+            self.assertIn("返修待执行", path.read_text(encoding="utf-8"))
+
 
 if __name__ == "__main__":
     unittest.main()
