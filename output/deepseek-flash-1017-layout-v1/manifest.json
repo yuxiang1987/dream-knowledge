@@ -1,0 +1,13 @@
+{
+  "source": "raw/article/程序员拾梦/实测DeepSeek V4.1 Flash-1017：许愿式编程，还真有点东西.md",
+  "source_sha256": "05b16cf30301925a27692cb20d916b1f5b6bebd829c7c37e564fd62669d7d46e",
+  "theme": "mist-blue",
+  "files": {
+    "实测DeepSeek V4.1 Flash-1017：许愿式编程，还真有点东西.preview.html": "5fe29c9bdb5c9a886b08e5664d436d7b212a500f5f892aa9fe41dad927569d50",
+    "实测DeepSeek V4.1 Flash-1017：许愿式编程，还真有点东西.report.json": "ca690d318c87a956dfde76a9c0a7d38d3df247cde98ee0fb4157af63d2d34ec0",
+    "实测DeepSeek V4.1 Flash-1017：许愿式编程，还真有点东西.wechat.html": "83592807ff57871e8424840b6e891a0f1c9f4a97d5af545cb019b033b4391197"
+  },
+  "visual_review": "浏览器安全策略阻止本地file预览，未完成视觉验收",
+  "official_cli": "npm包未公开发布，未完成官方CLI检测",
+  "media": "9张图片内嵌，4段视频需后台插入"
+}
