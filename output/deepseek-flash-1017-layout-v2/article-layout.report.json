@@ -1,0 +1,21 @@
+{
+  "input": "E:\\work\\note\\dream-knowledge\\output\\deepseek-flash-1017-layout-v2\\article-layout.md",
+  "theme": "雾蓝气泡",
+  "fragment": "E:\\work\\note\\dream-knowledge\\output\\deepseek-flash-1017-layout-v2\\article-layout.wechat.html",
+  "preview": "E:\\work\\note\\dream-knowledge\\output\\deepseek-flash-1017-layout-v2\\article-layout.preview.html",
+  "warnings": [
+    "未展开嵌入文件：动效.mp4，请在公众号后台处理。",
+    "未展开嵌入文件：深夜拉面.avi，请在公众号后台处理。",
+    "未展开嵌入文件：复古收音机.avi，请在公众号后台处理。",
+    "未展开嵌入文件：小镇.avi，请在公众号后台处理。",
+    "本地图片已内嵌：images/01-image.jpg；粘贴后检查微信是否成功转存。",
+    "本地图片已内嵌：images/02-image.jpg；粘贴后检查微信是否成功转存。",
+    "本地图片已内嵌：images/03-image.jpg；粘贴后检查微信是否成功转存。",
+    "本地图片已内嵌：images/04-official-cases.gif；粘贴后检查微信是否成功转存。",
+    "本地图片已内嵌：images/06-image.jpg；粘贴后检查微信是否成功转存。",
+    "本地图片已内嵌：images/08-image.jpg；粘贴后检查微信是否成功转存。",
+    "本地图片已内嵌：images/09-image.jpg；粘贴后检查微信是否成功转存。",
+    "本地图片已内嵌：images/11-image.jpg；粘贴后检查微信是否成功转存。",
+    "本地图片已内嵌：images/13-image.jpg；粘贴后检查微信是否成功转存。"
+  ]
+}
