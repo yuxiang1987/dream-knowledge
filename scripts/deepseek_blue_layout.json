@@ -45,9 +45,9 @@
   ],
   "files": {
     "article-layout.md": "90afefcc792b93803ca9cfe3ed307cabf79c1e0597784b5f35f86cbf05f07f16",
-    "article-layout.wechat.html": "7440a331209b1b0466adbb909788f97e99de3a01ddea69e7d9e9a0daa78543c2",
-    "article-layout.preview.html": "e633460117b51fa90fdd737946032d217a382a7113ba96a202258181929dcd38",
+    "article-layout.wechat.html": "7c877ec1f0133b985fb1734330a054d69c30739856508190591c804520267a91",
+    "article-layout.preview.html": "4de32a3000b6e2955a6e1fab41a2f055c9914d928f90a3f1a0713534faac9c62",
     "article-layout.report.json": "288d394457339ad8fb1536327a0ada4844c555f9ff48a1b24a38b0f59ea1e1fc"
   },
-  "visual_review": "本地浏览器查看编号、提示词窗口及截图；微信实际粘贴待验收"
+  "visual_review": "独立合成布局测试在677px和343px容器均测得左右32px；当前file预览标签未读取，微信实际粘贴待验收"
 }
