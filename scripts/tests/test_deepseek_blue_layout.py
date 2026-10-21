@@ -86,7 +86,8 @@ class DeepSeekBlueLayout(unittest.TestCase):
         self.assertEqual(html.count('<hr'), len(re.findall(r'^---\s*$', source, re.M)))
         self.assertEqual(len(parsed.images), 9)
         for style in parsed.image_styles:
-            self.assertIn('width:auto;height:auto;max-width:92%;margin:1.2em auto;', style)
+            self.assertIn('width:auto;height:auto;max-width:100%;margin:0 auto;', style)
+        self.assertEqual(html.count('padding:0 4%;box-sizing:border-box;'), len(parsed.images))
         for encoded, image in zip(parsed.images, self.receipt['images']):
             self.assertTrue(encoded.startswith('data:image/'))
             self.assertEqual(base64.b64decode(encoded.split(',', 1)[1]), (self.out / image['file']).read_bytes())
