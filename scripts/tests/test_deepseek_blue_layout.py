@@ -76,11 +76,17 @@ class DeepSeekBlueLayout(unittest.TestCase):
             self.assertEqual(base64.b64decode(encoded.split(',', 1)[1]), (self.out / image['file']).read_bytes())
         for name in ['动效.mp4', '深夜拉面.avi', '复古收音机.avi', '小镇.avi']:
             self.assertIn(f'（嵌入文件：{name}）', html)
-        self.assertIn('color:#91bfe3', html)
+        self.assertIn('color:#7dccff', html)
+        self.assertIn('font-size:16px;line-height:25.6px', html)
+        self.assertIn('&quot;PingFang SC NEW&quot;,system-ui', html)
         self.assertNotIn('**', html)
         self.assertNotIn('<script', html)
-        # The draft contains no ==markers==, so ordinary bold remains bold.
-        self.assertNotIn('<mark', html)
+        highlights = re.findall(r'==([^=\n]+)==', source)
+        self.assertEqual(html.count('<mark '), len(highlights))
+        for phrase in highlights:
+            self.assertIn(phrase, html)
+        if highlights:
+            self.assertIn('background-color:#e3f4ff', html)
 
 
 if __name__ == '__main__':

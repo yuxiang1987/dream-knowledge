@@ -1,6 +1,6 @@
 {
   "source": "raw/article/程序员拾梦/实测DeepSeek V4.1 Flash-1017：许愿式编程，还真有点东西.md",
-  "source_sha256": "05b16cf30301925a27692cb20d916b1f5b6bebd829c7c37e564fd62669d7d46e",
+  "source_sha256": "1472fa135d503380e8ce79a57acc82cb793979b7adb2cf7ba2a13936cd0933e1",
   "output": "output/deepseek-flash-1017-blue-journal",
   "theme": "晴蓝手记",
   "bold_repairs": 5,
@@ -43,9 +43,9 @@
     }
   ],
   "files": {
-    "article-layout.md": "069d4caf4bdfe883b81a9ad408391bbe62da265e6c3d666992e45ff0bee530ac",
-    "article-layout.wechat.html": "d5467ad21c1ddb1a5887c692edc0b6659a75f50448f0c5281e6200fcd1ef2e05",
-    "article-layout.preview.html": "4b63bb6a3485ed0a9f031ac0975fe5837fa1f59e8aebec830bbbfdde9377dfac",
+    "article-layout.md": "73cbb09132297895e62d09752439890571f76edc9aa8d4e9ae7e049c23dfd029",
+    "article-layout.wechat.html": "2e51da94f78bb4de216308d28d23b7cf20001074d19899a481c7874c4e5398ee",
+    "article-layout.preview.html": "279b0302a3f68a9da36dfd0f395c11b02cf347e1a860305f6e44107f804e681c",
     "article-layout.report.json": "a855cb618760e4e4b9a5434477205305fee4c9e6530d0b6c0d0c5f1390b9e20b"
   },
   "visual_review": "本地浏览器查看编号、提示词窗口及截图；微信实际粘贴待验收"
