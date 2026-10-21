@@ -1,0 +1,52 @@
+{
+  "source": "raw/article/程序员拾梦/实测DeepSeek V4.1 Flash-1017：许愿式编程，还真有点东西.md",
+  "source_sha256": "05b16cf30301925a27692cb20d916b1f5b6bebd829c7c37e564fd62669d7d46e",
+  "output": "output/deepseek-flash-1017-blue-journal",
+  "theme": "晴蓝手记",
+  "bold_repairs": 5,
+  "images": [
+    {
+      "file": "images/01-image.jpg",
+      "sha256": "4a00c766223fa3f73b1291a262af246393b49d389306f4d8602087357647459f"
+    },
+    {
+      "file": "images/02-image.jpg",
+      "sha256": "46079477cab91a785a87a177a93c6eb9fd07a4acd589319382eefdfdc4d352fd"
+    },
+    {
+      "file": "images/03-image.jpg",
+      "sha256": "feb6a62700a04dabd10b5eee4f2b12f184adfc2e878d80b5424a8dc21f518134"
+    },
+    {
+      "file": "images/04-official-cases.gif",
+      "sha256": "dcd774d62175751b73e1555e9d5eaff6c4e8946483f5a2fb1ff4e18a530e7686"
+    },
+    {
+      "file": "images/06-image.jpg",
+      "sha256": "ce5d788153d03faf992ec26a904046daeeabd0f130b4cc17e5ebe08c46abba47"
+    },
+    {
+      "file": "images/08-image.jpg",
+      "sha256": "d9b7c352bcd78ceca673252446c34a7af9b98a5258a819381774b4cc80dd1846"
+    },
+    {
+      "file": "images/09-image.jpg",
+      "sha256": "184b7650dc771128e020c68b0fe3ecf0c1a825888f06a9629523077d1369b7d5"
+    },
+    {
+      "file": "images/11-image.jpg",
+      "sha256": "4f89ec6cf839143046344a03031bfe163711e89d30529154b58befeda8ccd882"
+    },
+    {
+      "file": "images/13-image.jpg",
+      "sha256": "22fa43d9f81643855ec6725d9406271103cf9d1478428b102956df952ecbec8b"
+    }
+  ],
+  "files": {
+    "article-layout.md": "069d4caf4bdfe883b81a9ad408391bbe62da265e6c3d666992e45ff0bee530ac",
+    "article-layout.wechat.html": "d5467ad21c1ddb1a5887c692edc0b6659a75f50448f0c5281e6200fcd1ef2e05",
+    "article-layout.preview.html": "4b63bb6a3485ed0a9f031ac0975fe5837fa1f59e8aebec830bbbfdde9377dfac",
+    "article-layout.report.json": "a855cb618760e4e4b9a5434477205305fee4c9e6530d0b6c0d0c5f1390b9e20b"
+  },
+  "visual_review": "本地浏览器查看编号、提示词窗口及截图；微信实际粘贴待验收"
+}
