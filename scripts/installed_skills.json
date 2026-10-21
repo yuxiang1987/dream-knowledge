@@ -27,13 +27,13 @@
     "gzh-webchat-cover/SKILL.md": "0892b8ce3f050a1d8194fc348a4b126bd29619375ac2c46d91080b886083b698",
     "md-wechat-layout/agents/openai.yaml": "20c4b54839a39f7d2b3f465c40a7443889f72fb0c079fc94912d57e9b82b25d3",
     "md-wechat-layout/assets/upstream/LICENSE": "1de0cbe909c44265daf7ec79c69204df11d003d4fad3f82a33e7a8aa1d38ae45",
-    "md-wechat-layout/assets/upstream/renderer.js": "1877becad970cd9b23fc86b3281bfdb0535e791aef0f419db998b56882fd5fc9",
+    "md-wechat-layout/assets/upstream/renderer.js": "2b29560019809df4191b293ea85549366c727b235dc8056805f8be2152fa214b",
     "md-wechat-layout/assets/upstream/themes.js": "561f077c92e612c2e3e8dad1f1c867092d3534aa386e0c3768ae54920c684e5e",
     "md-wechat-layout/package-lock.json": "3bde6ac3194a701b2ec2a039c8df51b75c7183b562159a032546c7724ff767f7",
     "md-wechat-layout/package.json": "44a0afb8597f6297dfc25017e57d93a40e6641244b57a8a07e8a3492165fadb5",
     "md-wechat-layout/references/upstream.md": "a9556a9a37ebf721d2b071ac950881fcbb5cf6b1db7fdda79b29d4c573c5159f",
     "md-wechat-layout/scripts/render.mjs": "a3ee694dcc0972ef87311a1de78e4a43e0bc65a4b81712059ab373bd7df5bfc1",
-    "md-wechat-layout/SKILL.md": "0960621f3fc67d53f0b2f2f976ba04dc59da53e415ba3fd46946c7998ecc9316",
+    "md-wechat-layout/SKILL.md": "8ed03fda07bb2e9532392838048106000d9001627eb0254615354a35c8f89568",
     "md-wechat-layout/tests/render.test.mjs": "373b59ef823ca50f0d0e9783d87459dfa9e508f8f824ca1da92f7d2e2cb397a9",
     "gzh-final-check/agents/openai.yaml": "0ee6d338d8cf4c66f1b257e13853c02e754381e3f4aee8974fde8a3b2c3fbf95",
     "gzh-final-check/SKILL.md": "638a0aabda2e49b13ed9e2821a913152eb821158177c75ea7db032a640d30554",
@@ -44,11 +44,11 @@
     "wechat-article-writing/SKILL.md": "fa0191878029601a6d7a2e5dadec7839e9fd17369eb526f704a228002dfc64b9",
     "gzh-final-check/tests/review-cases.md": "e6a9dace3023bc89e8cdbdeabfc7cb01037f2a7b6b884ce124a647c7c017ec73",
     "md-wechat-layout/assets/blue-journal-demo.md": "e5c44345994a1835576e21fa6dc836cd4a572dfc3909dcdc6c09edd9eab386fb",
-    "md-wechat-layout/references/blue-journal.md": "7086c93e804765375b9375209b86a0079bd1314fedabd3ce7b42d5c721f78ee8",
-    "md-wechat-layout/scripts/blue-journal.mjs": "dbb4d8c0e35635eb6c1d4877beaa340f8961078cb1f982547f8f6d2f30c78649",
-    "md-wechat-layout/tests/blue-journal.test.mjs": "454b4c703abe1133bc756595507a0754705c44e649bd48eae55bda7a331a78da"
+    "md-wechat-layout/references/blue-journal.md": "80589a2f1a8568f838145cefd933a34aa4447c4cc617c5f2a74c88c68f7c68d3",
+    "md-wechat-layout/scripts/blue-journal.mjs": "93ada1a8e0f6190b7033d45c46b79a9a0b7b4cc51b8c56364b58cd0f63baec44",
+    "md-wechat-layout/tests/blue-journal.test.mjs": "2acfe4159ed722bcdf4dc80a06bdaa918cada899f2824f3631f245ea1645a3c7"
   },
   "skill_commits": {
-    "md-wechat-layout": "10b51a1e85373f149c7476bcf7d5d48720fabb0a"
+    "md-wechat-layout": "3a2100e58178b1f0813ae99bf93cbdaa831d665b"
   }
 }

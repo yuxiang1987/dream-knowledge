@@ -78,7 +78,7 @@ class DeepSeekBlueLayout(unittest.TestCase):
         parsed = ArticleHTML()
         parsed.feed(html)
         self.assertEqual(parsed.headings, re.findall(r'^## (.+)$', source, re.M))
-        self.assertEqual(parsed.numbers, ['01', '02', '03', '04', '05'])
+        self.assertEqual(parsed.numbers, ['01', '02', '03', '04', 'END'])
         self.assertEqual(html.count('<hr'), len(re.findall(r'^---\s*$', source, re.M)))
         self.assertEqual(len(parsed.images), 9)
         for encoded, image in zip(parsed.images, self.receipt['images']):
@@ -97,7 +97,7 @@ class DeepSeekBlueLayout(unittest.TestCase):
         normalize = lambda text: re.sub(r'\s+', '', text.replace('**', ''))
         self.assertEqual([normalize(text) for text in parsed.highlights], [normalize(text) for text in highlights])
         if highlights:
-            self.assertIn('background-color:#e8f7ff', html)
+            self.assertIn('background-color:#8dd6ff', html)
 
 
 if __name__ == '__main__':
