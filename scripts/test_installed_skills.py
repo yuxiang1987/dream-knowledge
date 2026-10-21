@@ -8,6 +8,21 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class InstalledSkillsTest(unittest.TestCase):
+    def test_layout_theme_snapshot(self):
+        """Verify the complete layout installation separately from other skills."""
+        manifest = json.loads((ROOT / "scripts/installed_skills.json").read_text(encoding="utf-8"))
+        commit = manifest["skill_commits"]["md-wechat-layout"]
+        self.assertRegex(commit, r"^[0-9a-f]{40}$")
+        files = {key: value for key, value in manifest["sha256"].items()
+                 if key.startswith("md-wechat-layout/")}
+        for resource in ("scripts/blue-journal.mjs", "references/blue-journal.md",
+                         "assets/blue-journal-demo.md", "tests/blue-journal.test.mjs"):
+            self.assertIn("md-wechat-layout/" + resource, files)
+        for relative, expected in files.items():
+            with self.subTest(file=relative):
+                data = (ROOT / ".agents/skills" / relative).read_bytes()
+                self.assertEqual(hashlib.sha256(data).hexdigest(), expected)
+
     def test_skill_entrypoints(self):
         manifest = json.loads((ROOT / "scripts/installed_skills.json").read_text(encoding="utf-8"))
         for name in manifest["skills"]:

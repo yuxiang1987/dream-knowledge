@@ -25,16 +25,16 @@
     "gzh-webchat-cover/references/style-dna.md": "0b8b779690a40c71c2b1c4864a96ebfb8fe516b78814ebcbf3e28a75d30f1402",
     "gzh-webchat-cover/scripts/compose_cover.py": "d8c52a94ce987a04db0c298436f187c781f7187cf706f59333f5e4f4e7803374",
     "gzh-webchat-cover/SKILL.md": "0892b8ce3f050a1d8194fc348a4b126bd29619375ac2c46d91080b886083b698",
-    "md-wechat-layout/agents/openai.yaml": "990c4e0fa1eb0ec2967d3813843d8d0718c85d0aca8509d168de8b34e0ab9f0f",
+    "md-wechat-layout/agents/openai.yaml": "20c4b54839a39f7d2b3f465c40a7443889f72fb0c079fc94912d57e9b82b25d3",
     "md-wechat-layout/assets/upstream/LICENSE": "1de0cbe909c44265daf7ec79c69204df11d003d4fad3f82a33e7a8aa1d38ae45",
-    "md-wechat-layout/assets/upstream/renderer.js": "df552ed840166a44e13c1e85b1cc8dd16fb3e32c6736c5ee2d42dddda16e9764",
+    "md-wechat-layout/assets/upstream/renderer.js": "1877becad970cd9b23fc86b3281bfdb0535e791aef0f419db998b56882fd5fc9",
     "md-wechat-layout/assets/upstream/themes.js": "561f077c92e612c2e3e8dad1f1c867092d3534aa386e0c3768ae54920c684e5e",
     "md-wechat-layout/package-lock.json": "3bde6ac3194a701b2ec2a039c8df51b75c7183b562159a032546c7724ff767f7",
     "md-wechat-layout/package.json": "44a0afb8597f6297dfc25017e57d93a40e6641244b57a8a07e8a3492165fadb5",
-    "md-wechat-layout/references/upstream.md": "b04fb7d5541197e371f9a843af1e314a938f89a5f0f52b3f267f9553be749c0b",
-    "md-wechat-layout/scripts/render.mjs": "d67d1348b1b4e7f749970f1a62f838600aaa53c29063d404de7647a0f4216136",
-    "md-wechat-layout/SKILL.md": "364237691088dd6383f3341791aa7e39fa02679bb8489b327b20bd5e2806b6ed",
-    "md-wechat-layout/tests/render.test.mjs": "cd432870e990a03c2158184a31948f48498f7632193cdd8754c16cc4852a5b29",
+    "md-wechat-layout/references/upstream.md": "a9556a9a37ebf721d2b071ac950881fcbb5cf6b1db7fdda79b29d4c573c5159f",
+    "md-wechat-layout/scripts/render.mjs": "76341837c1de171165eb5c954985f2b8174983378f37527d9c51cab471323bd4",
+    "md-wechat-layout/SKILL.md": "dfb70b6f74907950e4c4f4f09f437936bfe2280711e1037b8613691369943302",
+    "md-wechat-layout/tests/render.test.mjs": "373b59ef823ca50f0d0e9783d87459dfa9e508f8f824ca1da92f7d2e2cb397a9",
     "gzh-final-check/agents/openai.yaml": "0ee6d338d8cf4c66f1b257e13853c02e754381e3f4aee8974fde8a3b2c3fbf95",
     "gzh-final-check/SKILL.md": "638a0aabda2e49b13ed9e2821a913152eb821158177c75ea7db032a640d30554",
     "wechat-article-writing/agents/openai.yaml": "2e647145adc4943a3c46c44aeed729568057dbdc0b1f3018d8eca2f9b00e196a",
@@ -42,6 +42,13 @@
     "wechat-article-writing/references/case-and-hook-selection.md": "bb91c5bd11a19d4a5e9d1aed6dbbc393517a6c446feca9d452c1f87120834ca0",
     "wechat-article-writing/references/draft-and-final-review.md": "5984cd4aba44ec6ccb5bcbd278fd69c4e9ef37b72842a9aa0f9a117925dad7c5",
     "wechat-article-writing/SKILL.md": "fa0191878029601a6d7a2e5dadec7839e9fd17369eb526f704a228002dfc64b9",
-    "gzh-final-check/tests/review-cases.md": "e6a9dace3023bc89e8cdbdeabfc7cb01037f2a7b6b884ce124a647c7c017ec73"
+    "gzh-final-check/tests/review-cases.md": "e6a9dace3023bc89e8cdbdeabfc7cb01037f2a7b6b884ce124a647c7c017ec73",
+    "md-wechat-layout/assets/blue-journal-demo.md": "e5c44345994a1835576e21fa6dc836cd4a572dfc3909dcdc6c09edd9eab386fb",
+    "md-wechat-layout/references/blue-journal.md": "4a2f2140c78a4063b511995520c7020dfe7bc2250d7c192e998503741b477748",
+    "md-wechat-layout/scripts/blue-journal.mjs": "d27efea9120c91a693824786e512d91399be8a9def47ca3d70a58a04d1f42c1e",
+    "md-wechat-layout/tests/blue-journal.test.mjs": "1994cd1eaa078f3f43302f4711c54f6459ed90a620370a13a8581d29ee0198f5"
+  },
+  "skill_commits": {
+    "md-wechat-layout": "6ddb95956773178cc247a7a24601fb8a9c1466a1"
   }
 }
