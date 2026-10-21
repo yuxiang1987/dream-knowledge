@@ -79,6 +79,7 @@ class DeepSeekBlueLayout(unittest.TestCase):
         parsed.feed(html)
         self.assertEqual(parsed.headings, re.findall(r'^## (.+)$', source, re.M))
         self.assertEqual(parsed.numbers, ['01', '02', '03', '04', '05'])
+        self.assertEqual(html.count('<hr'), len(re.findall(r'^---\s*$', source, re.M)))
         self.assertEqual(len(parsed.images), 9)
         for encoded, image in zip(parsed.images, self.receipt['images']):
             self.assertTrue(encoded.startswith('data:image/'))
