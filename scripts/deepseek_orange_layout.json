@@ -1,0 +1,16 @@
+{
+  "source": "raw/article/程序员拾梦/实测DeepSeek V4.1 Flash-1017：许愿式编程，还真有点东西.md",
+  "source_sha256": "2221344c13e263671b5baba3a97ffc9d5eb43932ec3473b240138cc282dd0c1a",
+  "base_fragment": "output/deepseek-flash-1017-blue-journal/article-layout.wechat.html",
+  "base_sha256": "7c877ec1f0133b985fb1734330a054d69c30739856508190591c804520267a91",
+  "output": "output/deepseek-flash-1017-orange-journal",
+  "colors": {
+    "#8dd6ff": "#f2784b",
+    "#e8f7ff": "#fff0e8"
+  },
+  "files": {
+    "article-layout.wechat.html": "e1483235ca16adf6c598a02268e8e0da3e404a2151cd837e9cf5ceea29011044",
+    "article-layout.preview.html": "461dc223accab675cddccc10d764027ea05dbea4ea68def3a09ab47129312607"
+  },
+  "validation": "仅颜色试排，未改默认主题，微信实际粘贴待确认"
+}
