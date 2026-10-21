@@ -45,8 +45,8 @@
   ],
   "files": {
     "article-layout.md": "90afefcc792b93803ca9cfe3ed307cabf79c1e0597784b5f35f86cbf05f07f16",
-    "article-layout.wechat.html": "fe4e55817389b37bb952b031a3053addf82b9051eb93ff2dda26176d71912182",
-    "article-layout.preview.html": "02674f409a4eb05ee967c738c9d114059b7bcf7f583a5ba54843f6766131c102",
+    "article-layout.wechat.html": "7ec6e567a59c2f983f37bbad328f22d9f961c16d2812a34ea51b0e994a1e1c71",
+    "article-layout.preview.html": "34bfca213c63c74938d88b9407cace5a258a6accc73e8713e1a4e7a508b781cf",
     "article-layout.report.json": "288d394457339ad8fb1536327a0ada4844c555f9ff48a1b24a38b0f59ea1e1fc"
   },
   "visual_review": "本地浏览器查看编号、提示词窗口及截图；微信实际粘贴待验收"

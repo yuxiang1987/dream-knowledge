@@ -14,6 +14,7 @@ class ArticleHTML(HTMLParser):
     def __init__(self):
         super().__init__()
         self.images = []
+        self.image_styles = []
         self.headings = []
         self.numbers = []
         self.highlights = []
@@ -25,6 +26,7 @@ class ArticleHTML(HTMLParser):
         attrs = dict(attrs)
         if tag == 'img':
             self.images.append(attrs['src'])
+            self.image_styles.append(attrs.get('style', ''))
         if tag == 'h2':
             self._heading = True
         if tag == 'mark':
@@ -79,8 +81,12 @@ class DeepSeekBlueLayout(unittest.TestCase):
         parsed.feed(html)
         self.assertEqual(parsed.headings, re.findall(r'^## (.+)$', source, re.M))
         self.assertEqual(parsed.numbers, ['01', '02', '03', '04', 'END'])
+        self.assertRegex(html, r'<p[^>]*font-size:60px;line-height:72px[^>]*>END</p>')
+        self.assertRegex(html, r'<p[^>]*font-size:72px;line-height:84px[^>]*>01</p>')
         self.assertEqual(html.count('<hr'), len(re.findall(r'^---\s*$', source, re.M)))
         self.assertEqual(len(parsed.images), 9)
+        for style in parsed.image_styles:
+            self.assertIn('width:auto;height:auto;max-width:92%;margin:1.2em auto;', style)
         for encoded, image in zip(parsed.images, self.receipt['images']):
             self.assertTrue(encoded.startswith('data:image/'))
             self.assertEqual(base64.b64decode(encoded.split(',', 1)[1]), (self.out / image['file']).read_bytes())
@@ -97,7 +103,7 @@ class DeepSeekBlueLayout(unittest.TestCase):
         normalize = lambda text: re.sub(r'\s+', '', text.replace('**', ''))
         self.assertEqual([normalize(text) for text in parsed.highlights], [normalize(text) for text in highlights])
         if highlights:
-            self.assertIn('background-color:#8dd6ff', html)
+            self.assertIn('background-color:#e8f7ff', html)
 
 
 if __name__ == '__main__':
