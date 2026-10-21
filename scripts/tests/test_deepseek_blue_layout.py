@@ -16,6 +16,8 @@ class ArticleHTML(HTMLParser):
         self.images = []
         self.headings = []
         self.numbers = []
+        self.highlights = []
+        self._highlight = None
         self._heading = False
         self._number = False
 
@@ -25,16 +27,23 @@ class ArticleHTML(HTMLParser):
             self.images.append(attrs['src'])
         if tag == 'h2':
             self._heading = True
+        if tag == 'mark':
+            self._highlight = ''
         if tag == 'p' and attrs.get('aria-hidden') == 'true':
             self._number = True
 
     def handle_data(self, data):
+        if self._highlight is not None:
+            self._highlight += data
         if self._heading:
             self.headings.append(data)
         if self._number:
             self.numbers.append(data)
 
     def handle_endtag(self, tag):
+        if tag == 'mark':
+            self.highlights.append(self._highlight)
+            self._highlight = None
         if tag == 'h2':
             self._heading = False
         if tag == 'p':
@@ -76,17 +85,18 @@ class DeepSeekBlueLayout(unittest.TestCase):
             self.assertEqual(base64.b64decode(encoded.split(',', 1)[1]), (self.out / image['file']).read_bytes())
         for name in ['动效.mp4', '深夜拉面.avi', '复古收音机.avi', '小镇.avi']:
             self.assertIn(f'（嵌入文件：{name}）', html)
-        self.assertIn('color:#7dccff', html)
+        self.assertIn('color:#8dd6ff', html)
+        self.assertEqual(html.count('background-color:#e1f3ff'), 3)
         self.assertIn('font-size:16px;line-height:25.6px', html)
         self.assertIn('&quot;PingFang SC NEW&quot;,system-ui', html)
         self.assertNotIn('**', html)
         self.assertNotIn('<script', html)
         highlights = re.findall(r'==([^=\n]+)==', source)
         self.assertEqual(html.count('<mark '), len(highlights))
-        for phrase in highlights:
-            self.assertIn(phrase, html)
+        normalize = lambda text: re.sub(r'\s+', '', text.replace('**', ''))
+        self.assertEqual([normalize(text) for text in parsed.highlights], [normalize(text) for text in highlights])
         if highlights:
-            self.assertIn('background-color:#e3f4ff', html)
+            self.assertIn('background-color:#e8f7ff', html)
 
 
 if __name__ == '__main__':
