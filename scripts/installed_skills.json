@@ -36,19 +36,22 @@
     "md-wechat-layout/SKILL.md": "e3eb451f793571eb715f0294092b43bf55d490a924226cf7a1716ff524d2f3f2",
     "md-wechat-layout/tests/render.test.mjs": "050312aab98582bb6759d49cc025f5b658b5df24631eb6eebb7e41bb2040f173",
     "gzh-final-check/agents/openai.yaml": "0ee6d338d8cf4c66f1b257e13853c02e754381e3f4aee8974fde8a3b2c3fbf95",
-    "gzh-final-check/SKILL.md": "638a0aabda2e49b13ed9e2821a913152eb821158177c75ea7db032a640d30554",
+    "gzh-final-check/SKILL.md": "10097f7b61464ee72ca8102867cc6c3692644d5c17c7cca8311ad4779a739b5d",
     "wechat-article-writing/agents/openai.yaml": "2e647145adc4943a3c46c44aeed729568057dbdc0b1f3018d8eca2f9b00e196a",
     "wechat-article-writing/references/benchmark-methods.md": "af3a070f4f63a1a36b2bbccae90fc99b6775f0f9bcefac12851c608f211f12ae",
     "wechat-article-writing/references/case-and-hook-selection.md": "bb91c5bd11a19d4a5e9d1aed6dbbc393517a6c446feca9d452c1f87120834ca0",
     "wechat-article-writing/references/draft-and-final-review.md": "5984cd4aba44ec6ccb5bcbd278fd69c4e9ef37b72842a9aa0f9a117925dad7c5",
-    "wechat-article-writing/SKILL.md": "fa0191878029601a6d7a2e5dadec7839e9fd17369eb526f704a228002dfc64b9",
-    "gzh-final-check/tests/review-cases.md": "e6a9dace3023bc89e8cdbdeabfc7cb01037f2a7b6b884ce124a647c7c017ec73",
+    "wechat-article-writing/SKILL.md": "c733ec1cf43e1ba57cf369b2de7f5c6fab14f6cb7e57dbccc269235ad135b3b5",
+    "gzh-final-check/tests/review-cases.md": "b086de9e1e551636ae25977e706647377a60e513e419f6f40b6ff2a0575bfed9",
     "md-wechat-layout/assets/blue-journal-demo.md": "e5c44345994a1835576e21fa6dc836cd4a572dfc3909dcdc6c09edd9eab386fb",
     "md-wechat-layout/references/blue-journal.md": "86284b2d390aafa0504ddc7d00f28f40119ed167a8264e11905504f774e64faf",
     "md-wechat-layout/scripts/blue-journal.mjs": "45353265fa2697e11bb3d6e79daf21b7403fbe9d17b13786486dbe491ccb5a77",
-    "md-wechat-layout/tests/blue-journal.test.mjs": "66e7fd7e31da67aa14a60d881c8aee8818f1c38a3f18a9e8a998af274ec24246"
+    "md-wechat-layout/tests/blue-journal.test.mjs": "66e7fd7e31da67aa14a60d881c8aee8818f1c38a3f18a9e8a998af274ec24246",
+    "wechat-article-writing/tests/editorial-cases.md": "e0ccbff1bd1abb2270ae31bdab1c4e70a74af5d99919729924c0c3faae6b0d9f"
   },
   "skill_commits": {
-    "md-wechat-layout": "7137fdc76015cc3e5ced9df6ebf15c1acdf4c7dd"
+    "md-wechat-layout": "7137fdc76015cc3e5ced9df6ebf15c1acdf4c7dd",
+    "wechat-article-writing": "0d7f6ab2e2c896da96b9a825a166bdee080fae19",
+    "gzh-final-check": "0d7f6ab2e2c896da96b9a825a166bdee080fae19"
   }
 }

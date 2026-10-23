@@ -8,6 +8,29 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class InstalledSkillsTest(unittest.TestCase):
+    def test_editorial_skill_snapshots(self):
+        """Both editorial skills pin a complete, discoverable upstream snapshot."""
+        import re
+        manifest = json.loads((ROOT / "scripts/installed_skills.json").read_text(encoding="utf-8"))
+        for name in ("wechat-article-writing", "gzh-final-check"):
+            with self.subTest(skill=name):
+                self.assertRegex(manifest["skill_commits"][name], r"^[0-9a-f]{40}$")
+                folder = ROOT / ".agents/skills" / name
+                recorded = {key for key in manifest["sha256"] if key.startswith(name + "/")}
+                actual = {name + "/" + path.relative_to(folder).as_posix()
+                          for path in folder.rglob("*") if path.is_file()
+                          and "__pycache__" not in path.parts}
+                self.assertEqual(recorded, actual)
+                for page in folder.rglob("*.md"):
+                    for target in re.findall(r"\]\(([^)]+)\)", page.read_text(encoding="utf-8")):
+                        if "://" not in target and not target.startswith("#"):
+                            self.assertTrue((page.parent / target.split("#")[0]).is_file(), target)
+                entry = (folder / "SKILL.md").read_text(encoding="utf-8")
+                cases = list((folder / "tests").glob("*.md"))
+                self.assertTrue(cases)
+                for case in cases:
+                    self.assertIn(f"]({case.relative_to(folder).as_posix()})", entry)
+
     def test_layout_theme_snapshot(self):
         """Verify the complete layout installation separately from other skills."""
         manifest = json.loads((ROOT / "scripts/installed_skills.json").read_text(encoding="utf-8"))
