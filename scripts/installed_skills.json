@@ -40,18 +40,18 @@
     "wechat-article-writing/agents/openai.yaml": "2e647145adc4943a3c46c44aeed729568057dbdc0b1f3018d8eca2f9b00e196a",
     "wechat-article-writing/references/benchmark-methods.md": "af3a070f4f63a1a36b2bbccae90fc99b6775f0f9bcefac12851c608f211f12ae",
     "wechat-article-writing/references/case-and-hook-selection.md": "bb91c5bd11a19d4a5e9d1aed6dbbc393517a6c446feca9d452c1f87120834ca0",
-    "wechat-article-writing/references/draft-and-final-review.md": "5984cd4aba44ec6ccb5bcbd278fd69c4e9ef37b72842a9aa0f9a117925dad7c5",
-    "wechat-article-writing/SKILL.md": "c733ec1cf43e1ba57cf369b2de7f5c6fab14f6cb7e57dbccc269235ad135b3b5",
+    "wechat-article-writing/references/draft-and-final-review.md": "dbd73f5034030b65b1e46de0e5867cf50bec25b32c8dca11b3bfc296f2eafb97",
+    "wechat-article-writing/SKILL.md": "dd14f43ae4d624ebb7c2adce511ac1cd8b91390dc29997f785c9b5848afa697a",
     "gzh-final-check/tests/review-cases.md": "b086de9e1e551636ae25977e706647377a60e513e419f6f40b6ff2a0575bfed9",
     "md-wechat-layout/assets/blue-journal-demo.md": "e5c44345994a1835576e21fa6dc836cd4a572dfc3909dcdc6c09edd9eab386fb",
     "md-wechat-layout/references/blue-journal.md": "86284b2d390aafa0504ddc7d00f28f40119ed167a8264e11905504f774e64faf",
     "md-wechat-layout/scripts/blue-journal.mjs": "45353265fa2697e11bb3d6e79daf21b7403fbe9d17b13786486dbe491ccb5a77",
     "md-wechat-layout/tests/blue-journal.test.mjs": "66e7fd7e31da67aa14a60d881c8aee8818f1c38a3f18a9e8a998af274ec24246",
-    "wechat-article-writing/tests/editorial-cases.md": "e0ccbff1bd1abb2270ae31bdab1c4e70a74af5d99919729924c0c3faae6b0d9f"
+    "wechat-article-writing/tests/editorial-cases.md": "e61947ab6594adfdba7f4e1058c43b15250450a0871d7612bcc1bf6c6078b9d7"
   },
   "skill_commits": {
     "md-wechat-layout": "7137fdc76015cc3e5ced9df6ebf15c1acdf4c7dd",
-    "wechat-article-writing": "0d7f6ab2e2c896da96b9a825a166bdee080fae19",
+    "wechat-article-writing": "31126dbb823f5229447c52e08e520e1349e0c898",
     "gzh-final-check": "0d7f6ab2e2c896da96b9a825a166bdee080fae19"
   }
 }

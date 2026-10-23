@@ -24,7 +24,10 @@ class InstalledSkillsTest(unittest.TestCase):
                 for page in folder.rglob("*.md"):
                     for target in re.findall(r"\]\(([^)]+)\)", page.read_text(encoding="utf-8")):
                         if "://" not in target and not target.startswith("#"):
-                            self.assertTrue((page.parent / target.split("#")[0]).is_file(), target)
+                            resource = (page.parent / target.split("#")[0]).resolve()
+                            self.assertTrue(resource.is_relative_to(folder.resolve()),
+                                            "Installed skill links must stay self-contained")
+                            self.assertTrue(resource.is_file(), target)
                 entry = (folder / "SKILL.md").read_text(encoding="utf-8")
                 cases = list((folder / "tests").glob("*.md"))
                 self.assertTrue(cases)
