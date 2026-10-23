@@ -1,11 +1,12 @@
 {
   "repository": "https://github.com/yuxiang1987/dream-skills",
-  "commit": "eb1fa7aa10a815dd0a5ffbbc43f5801999243333",
+  "commit": "cf7258784d38648924aa20852553a214f58ff73b",
   "skills": [
     "gzh-webchat-cover",
     "md-wechat-layout",
     "gzh-final-check",
-    "wechat-article-writing"
+    "wechat-article-writing",
+    "gzh-daily-pipeline"
   ],
   "sha256": {
     "gzh-webchat-cover/agents/openai.yaml": "bfecbb6470ab75fb9dabf2acb6fab4e0c4ee64b09a977718bc85606ca5625d40",
@@ -47,11 +48,27 @@
     "md-wechat-layout/references/blue-journal.md": "86284b2d390aafa0504ddc7d00f28f40119ed167a8264e11905504f774e64faf",
     "md-wechat-layout/scripts/blue-journal.mjs": "45353265fa2697e11bb3d6e79daf21b7403fbe9d17b13786486dbe491ccb5a77",
     "md-wechat-layout/tests/blue-journal.test.mjs": "66e7fd7e31da67aa14a60d881c8aee8818f1c38a3f18a9e8a998af274ec24246",
-    "wechat-article-writing/tests/editorial-cases.md": "e61947ab6594adfdba7f4e1058c43b15250450a0871d7612bcc1bf6c6078b9d7"
+    "wechat-article-writing/tests/editorial-cases.md": "e61947ab6594adfdba7f4e1058c43b15250450a0871d7612bcc1bf6c6078b9d7",
+    "gzh-daily-pipeline/agents/openai.yaml": "7e246f780e8bf5d7171414436934830d7b15546ae79b3d6c9bb3f49cafb320e3",
+    "gzh-daily-pipeline/references/handoff-contract.md": "97eed72f76da4e86384880d39d5209fbce0ef6246e32be29add493a9fe5d9d06",
+    "gzh-daily-pipeline/references/stage-checklists.md": "62364336e1ba8b0efe2bf3993dc07822021fc191be0af0b2a3b4569d1e316783",
+    "gzh-daily-pipeline/scripts/pipeline.py": "81322bec1acfa791549ae377ca5f3c36da9849468283a4a260137538a7860114",
+    "gzh-daily-pipeline/SKILL.md": "977f2ba987942c84a94b381741207b7fa694707fb3d914a2fc0890b7e0227753",
+    "gzh-daily-pipeline/templates/00_style.md": "7fb11621fffc6fcda9ddcf9da7696bd21a65d0e3cc90bb68196859b540bfedce",
+    "gzh-daily-pipeline/templates/01_选题卡.md": "7c162ebc18602c3c79c49a0033fe45715a41ca6303fe0f302c31ee7721973c13",
+    "gzh-daily-pipeline/templates/02_案例决策卡.md": "b601851231c755a3128dad81403a5f14a5e23b0958f8b3c2658d4653e11b57ad",
+    "gzh-daily-pipeline/templates/03_证据与实测.md": "c9d3280ab82b9521a09babccb9fd5db0c05b9ad3430a3f22062c89f6466f5dbe",
+    "gzh-daily-pipeline/templates/04_正文.md": "c906818831fa76b1dec165e86642be637bc3715a9425b6f6a113d1e55ab06700",
+    "gzh-daily-pipeline/templates/05_检查报告.md": "91e39e953942910ea28863429bf3e6eb0b075800cce8f7d2381027c3f2088f4e",
+    "gzh-daily-pipeline/templates/06_标题.md": "8f8269b4a7a81f5e85142e566b78eb0c02071d7d98bc2fae6b3afee5207a9326",
+    "gzh-daily-pipeline/templates/09_发布记录.md": "8397c50661f6b4b076c0925b71429d399a19c121e9ef501a45d47ece700f2c4b",
+    "gzh-daily-pipeline/tests/pipeline-cases.md": "7f6d8e896e983e1e75049aa46c7196c5b603e6546db7f5328e00746008133d58",
+    "gzh-daily-pipeline/tests/test_pipeline.py": "bfccec31f28aad4e5f166fb80a96f68e02229a0cd3d35807373b7e4f6a8174ee"
   },
   "skill_commits": {
     "md-wechat-layout": "7137fdc76015cc3e5ced9df6ebf15c1acdf4c7dd",
     "wechat-article-writing": "31126dbb823f5229447c52e08e520e1349e0c898",
-    "gzh-final-check": "0d7f6ab2e2c896da96b9a825a166bdee080fae19"
+    "gzh-final-check": "0d7f6ab2e2c896da96b9a825a166bdee080fae19",
+    "gzh-daily-pipeline": "cf7258784d38648924aa20852553a214f58ff73b"
   }
 }

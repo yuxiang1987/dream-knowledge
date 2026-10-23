@@ -676,3 +676,12 @@
 
 - 暂存后检查发现3篇新作者topic文末多余空行，主内容提交a78b76c已创建；以独立后续提交修正，不改写已有提交。正文、原文和分析结论均未变化。
 - 批次导航验收补充作者页文末格式校验。批次5项与仓库规范3项检查、知识库体检及本轮完整知识库差异格式检查通过，保留4项既有空来源警告；两个提交一并推送。
+
+## [2026-10-23] workflow-design | 把公众号 Skill 串成七阶段流水线
+
+- 用户提供飞书文档「第三阶段：Skill进阶实操（选学）」，通读后按其七阶段骨架，把本账号已有的公众号 Skill 串成总调度 Skill `gzh-daily-pipeline`：S0 定盘、S1 选题、S2 案例与实测、S3 写作、S4 定稿检查、S5 标题封面排版、S6 发布与回流，四个人工关口。飞书文档只读到约八成（Step 0 至 Step 5 正文与完整目录树），Step 5 尾部、第九节与第十节正文未读，相关内容按目录标题记录并标注未核实。
+- 新增 `raw/公众号方法论/飞书Skill进阶实操第三阶段.md` 存结构记录，新增 source 页与 topic 页 `wiki/topics/公众号Skill流水线设计.md`，对照表逐段记录取舍理由，并列出已知差距：缺正文配图 Skill、没有多平台分发、选题打分阈值未校准、`00_style.md` 尚未正式落库。证据关口与知识库驱动回流是与飞书流程的主要差异。
+- 修正 `wiki/topics/公众号内容生产线.md`：入口统一改记为 `gzh-daily-pipeline`，原记的 `wechat-content-pipeline`、`gzh-design`、`article-breakdown` 本机并不存在，工具清单改为本机实际安装的六个 Skill，工作目录改为 `E:\work\wechat-assistant\pipeline`。
+- 技能源码在 dream-skills 仓库新增 `gzh-daily-pipeline/`：SKILL.md、交接契约与阶段清单两份 references、九份模板、`scripts/pipeline.py`（init／check／status）、回归样例与 15 项单元测试，并更新中英文 README 技能列表。源码提交 `cf7258784d38648924aa20852553a214f58ff73b`，已推送至 dream-skills main。
+- 知识库安装副本 `.agents/skills/gzh-daily-pipeline/` 同步 15 个文件，`scripts/installed_skills.json` 补记技能名、逐文件哈希与独立版本字段；新增 `scripts/test_gzh_daily_pipeline.py`（清单哈希、入口与调度链、本地资源可达、契约字段、脚手架与校验器往返、同名目录不覆盖共 6 项），`scripts/test_installed_skills.py` 的快照校验范围扩到新技能。
+- 流水线尚未跑通一整篇真实文章，未在公众号后台验证发布效果，也未新增阅读与转化数据；飞书文档提到的 8 平台改写、定时任务与批量矩阵尚未实现。本次不改文章原稿、封面与排版 Skill，保留其他工作区改动；两个仓库的提交与推送结果在交付消息中分别报告。

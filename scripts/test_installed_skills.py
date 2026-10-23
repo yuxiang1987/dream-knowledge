@@ -9,10 +9,10 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class InstalledSkillsTest(unittest.TestCase):
     def test_editorial_skill_snapshots(self):
-        """Both editorial skills pin a complete, discoverable upstream snapshot."""
+        """Editorial skills pin a complete, discoverable upstream snapshot."""
         import re
         manifest = json.loads((ROOT / "scripts/installed_skills.json").read_text(encoding="utf-8"))
-        for name in ("wechat-article-writing", "gzh-final-check"):
+        for name in ("wechat-article-writing", "gzh-final-check", "gzh-daily-pipeline"):
             with self.subTest(skill=name):
                 self.assertRegex(manifest["skill_commits"][name], r"^[0-9a-f]{40}$")
                 folder = ROOT / ".agents/skills" / name
