@@ -58,6 +58,8 @@ class NewBenchmarkBatchTest(unittest.TestCase):
         comparison = (ROOT / "wiki/comparisons/公众号对标三位新增作者写法对比.md").read_text(encoding="utf-8")
         for author in ("大鼻哥嘚巴嘚", "洛洛AI说", "小林coding"):
             self.assertIn(f"[[topics/{author}文章写法拆解]]", comparison)
+            topic_text = (ROOT / f"wiki/topics/{author}文章写法拆解.md").read_text(encoding="utf-8")
+            self.assertEqual(topic_text, topic_text.rstrip() + "\n")
         count = sum(p.name not in ("index.md", "log.md") for p in (ROOT / "wiki").rglob("*.md"))
         self.assertEqual(int(re.search(r"知识页：(\d+) 页", index).group(1)), count)
 
