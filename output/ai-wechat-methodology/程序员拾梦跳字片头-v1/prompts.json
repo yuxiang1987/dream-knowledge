@@ -1,0 +1,6 @@
+{
+  "tool": "image_gen",
+  "reference": "../程序员拾梦像素片头-v1/avatar-pixel.png",
+  "transparent_background": true,
+  "prompt": "Use case: style-transfer, identity-preserve, outpainting. Edit target: the supplied pixel avatar. Turn this same character into one complete full-body pixel sprite for a jumping-on-letters animation. Preserve the exact recognizable tousled black hair, big round black glasses, large brown eyes, happy open smile, peach cheeks and plain bright blue T-shirt. Extend the body naturally with short charcoal trousers and small blue-and-white sneakers. Cute compact chibi body, head about half total height, entire head/hair/hands/feet visible. Frontal three-quarter-neutral pose facing slightly right, arms slightly bent outward, feet together with flat soles on the same baseline, ready to hop. Authentic crisp stepped 16-bit pixel art with coarse visible square pixels, no smooth outlines or painterly background. Single isolated standing full-body sprite, centered, tightly framed with only small transparent margins. Genuine transparent background, no checkerboard, no cast shadow, no text, no watermark, no new accessories. Do not create multiple poses, sprite sheet, scenery or layout."
+}
