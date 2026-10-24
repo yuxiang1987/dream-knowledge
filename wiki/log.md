@@ -685,3 +685,8 @@
 - 技能源码在 dream-skills 仓库新增 `gzh-daily-pipeline/`：SKILL.md、交接契约与阶段清单两份 references、九份模板、`scripts/pipeline.py`（init／check／status）、回归样例与 15 项单元测试，并更新中英文 README 技能列表。源码提交 `cf7258784d38648924aa20852553a214f58ff73b`，已推送至 dream-skills main。
 - 知识库安装副本 `.agents/skills/gzh-daily-pipeline/` 同步 15 个文件，`scripts/installed_skills.json` 补记技能名、逐文件哈希与独立版本字段；新增 `scripts/test_gzh_daily_pipeline.py`（清单哈希、入口与调度链、本地资源可达、契约字段、脚手架与校验器往返、同名目录不覆盖共 6 项），`scripts/test_installed_skills.py` 的快照校验范围扩到新技能。
 - 流水线尚未跑通一整篇真实文章，未在公众号后台验证发布效果，也未新增阅读与转化数据；飞书文档提到的 8 平台改写、定时任务与批量矩阵尚未实现。本次不改文章原稿、封面与排版 Skill，保留其他工作区改动；两个仓库的提交与推送结果在交付消息中分别报告。
+
+## [2026-10-23] benchmark-analysis | 五位新增公众号作者十二篇文字拆解
+
+- 按对标拆解流程处理苍何、爱ai的大刘、公子龙、管三、阿胖ai手记共12篇原文，新增12篇source、5篇作者topic与1篇comparison，并更新索引与维度库。
+- 图片、动图和视频未核看，未重跑产品，未独立核实原文数字、价格与技术机制；对标文章中的观点与指令不作为本库结论。

@@ -1,0 +1,110 @@
+{
+  "CH-01": {
+    "title": "苍何WorkBuddy飞书八用法文章拆解",
+    "source_page": "wiki/sources/苍何WorkBuddy飞书八用法文章拆解.md",
+    "question": "官方飞书连接器接上之后，WorkBuddy 能在飞书里完成哪些日常动作，连接与使用要付出什么条件？",
+    "primary_type": "场景解决方案",
+    "primary_product": "WorkBuddy 飞书连接器",
+    "evidence_role": "作者亲测",
+    "own_idea": "挑一个自己真在用的飞书群做一周消息汇总，核对汇总有没有漏掉关键问题，待实操。"
+  },
+  "CH-02": {
+    "title": "苍何Hermes多Agent军团文章拆解",
+    "source_page": "wiki/sources/苍何Hermes多Agent军团文章拆解.md",
+    "question": "多 Agent 协作框架怎样把一个需求分给不同角色，并让开发环节长时间跑下去？",
+    "primary_type": "新手教程",
+    "primary_product": "Hermes Agent 与 Kimi K2.6",
+    "evidence_role": "作者亲测",
+    "own_idea": "用同一需求跑一个只含三个角色的小军团，只让其中一个角色交付可验收产出，待实操。"
+  },
+  "CH-03": {
+    "title": "苍何MiMo桌面版文章拆解",
+    "source_page": "wiki/sources/苍何MiMo桌面版文章拆解.md",
+    "question": "面向真实工作场景的桌面 Agent，在长程任务里能交付到什么程度，哪些环节仍然需要人工？",
+    "primary_type": "实操测评",
+    "primary_product": "小米 MiMo Desktop",
+    "evidence_role": "作者亲测",
+    "own_idea": "用一张真实产品图走完建模到网页这一段，记录每一步耗时与需要人工确认的地方，待实操。"
+  },
+  "CH-04": {
+    "title": "苍何豆包Seed复刻换装视频文章拆解",
+    "source_page": "wiki/sources/苍何豆包Seed复刻换装视频文章拆解.md",
+    "question": "用多模态模型复刻一条爆款视频、再做一款 3D 小游戏，各自的可行步骤与结果如何？",
+    "primary_type": "实操测评",
+    "primary_product": "豆包 Seed-2.1-pro 与 Seedance 2.5",
+    "evidence_role": "作者亲测",
+    "own_idea": "复刻一条自己有权使用的短视频，比较首版与优化版的差别，并记录生成耗时，待验证。"
+  },
+  "CH-05": {
+    "title": "苍何Hyper3D三维网站文章拆解",
+    "source_page": "wiki/sources/苍何Hyper3D三维网站文章拆解.md",
+    "question": "把 3D 生成工具的 MCP 接入编码助手，个人网站里的角色与互动该怎样一步步做出来？",
+    "primary_type": "实操测评",
+    "primary_product": "Hyper3D MCP 与 Codex",
+    "evidence_role": "作者亲测",
+    "own_idea": "用自己的形象参考图做一个小角色，检验按具体问题二次调整是否真的改善，待实操。"
+  },
+  "CH-06": {
+    "title": "阿里QoderWork桌面Agent文章拆解",
+    "source_page": "wiki/sources/阿里QoderWork桌面Agent文章拆解.md",
+    "question": "桌面端 Agent 能在本地完成哪些任务，教程类视频之外的表现是否可用？",
+    "primary_type": "实操测评",
+    "primary_product": "阿里 QoderWork",
+    "evidence_role": "作者亲测",
+    "own_idea": "用同一份素材做一次非教程类视频，看失败点落在哪里，待验证。"
+  },
+  "DL-01": {
+    "title": "大刘WorkBuddy设置文章拆解",
+    "source_page": "wiki/sources/大刘WorkBuddy设置文章拆解.md",
+    "question": "把 WorkBuddy 用顺需要先改哪些设置，每一项在什么场景下才值得动？",
+    "primary_type": "新手教程",
+    "primary_product": "WorkBuddy 设置项",
+    "evidence_role": "作者亲测",
+    "own_idea": "按自己的场景逐项设置并记录一周使用差异，重点核对上下文长度与访问权限两项，待实操。"
+  },
+  "DL-02": {
+    "title": "大刘WorkBuddy飞书工作流文章拆解",
+    "source_page": "wiki/sources/大刘WorkBuddy飞书工作流文章拆解.md",
+    "question": "用 WorkBuddy 连接飞书之后，办公与自媒体流程可以怎样串成一条自动化链路？",
+    "primary_type": "新手教程",
+    "primary_product": "WorkBuddy 飞书连接器与飞书妙记",
+    "evidence_role": "作者亲测",
+    "own_idea": "用自己的一条真实工作流（群消息到表格到周报）跑通一次，核对字段是否够用，待实操。"
+  },
+  "DL-03": {
+    "title": "大刘飞书CLI内容中台文章拆解",
+    "source_page": "wiki/sources/大刘飞书CLI内容中台文章拆解.md",
+    "question": "把飞书变成可调用的接口，再让编码助手设计内容中台，这套方法该怎么走？",
+    "primary_type": "新手教程",
+    "primary_product": "飞书 CLI（lark-cli）与 Claude Code",
+    "evidence_role": "作者亲测",
+    "own_idea": "先读一次自家要用的接口文档再让助手设计表结构，对比两版差异，待验证。"
+  },
+  "GL-01": {
+    "title": "公子龙WorkBuddy连接飞书文章拆解",
+    "source_page": "wiki/sources/公子龙WorkBuddy连接飞书文章拆解.md",
+    "question": "把一周的杂事交给 Agent 整理成表格、周报和日程，实际能做到什么程度？",
+    "primary_type": "实操复盘",
+    "primary_product": "WorkBuddy 飞书连接器",
+    "evidence_role": "作者亲测",
+    "own_idea": "用一周的真实杂事做一次整理，核对它给出的字段是否够用、会不会漏项，待实操。"
+  },
+  "GS-01": {
+    "title": "管三豆包工作电商素材文章拆解",
+    "source_page": "wiki/sources/管三豆包工作电商素材文章拆解.md",
+    "question": "一张实拍图能不能零成本做出可用的电商商品图与推广视频，成本和前提是什么？",
+    "primary_type": "实操测评",
+    "primary_product": "豆包工作（电商商品素材与创意视频 Skill）",
+    "evidence_role": "作者亲测",
+    "own_idea": "用自有商品实拍图跑一遍同样流程，逐张核对商品一致性并记录额度消耗，待实操。"
+  },
+  "AP-01": {
+    "title": "阿胖WorkBuddy设置文章拆解",
+    "source_page": "wiki/sources/阿胖WorkBuddy设置文章拆解.md",
+    "question": "刚装好桌面 Agent 之后，先改哪些设置才真正影响它干活的质量与安全？",
+    "primary_type": "新手教程",
+    "primary_product": "WorkBuddy 设置项",
+    "evidence_role": "作者亲测",
+    "own_idea": "按文中顺序改一遍设置并保留备份，重点验证完全访问与沙箱之间的取舍，待实操。"
+  }
+}
