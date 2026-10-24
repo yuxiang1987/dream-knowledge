@@ -25,7 +25,11 @@ class WorkBuddyArticleArchiveTest(unittest.TestCase):
 
     def test_draft_provenance_and_pending_evidence(self):
         self.assertRegex(self.text, r"(?m)^status: 草稿$")
-        self.assertIn("sources: []", self.text)
+        for raw in ("raw/article/阿胖ai手记/刚装好workbuddy别急着聊天，花2分钟做好这6类设置，让你的workbuddy聪明10倍（附详细步骤）.md",
+                    "raw/article/爱ai的大刘/WorkBuddy 可以直接复制的简单设置，立刻让你的 WorkBuddy 比别人聪明百倍。（附提示词）.md"):
+            with self.subTest(raw=raw):
+                self.assertIn(raw, self.text)
+                self.assertTrue((ROOT / raw).is_file())
         self.assertIn("本次聊天", self.text)
         for boundary in ("未重新联网核实", "当前均未实测", "当前没有实际媒体附件",
                          "不是用户已执行的历史输入"):
