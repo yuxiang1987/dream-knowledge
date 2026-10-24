@@ -1,0 +1,119 @@
+{
+  "reviewed_at": "2026-10-24T16:22:34+08:00",
+  "share_url": "https://workbuddy.link/p/QhcaqcCGjiwgotFcviKRHL",
+  "scope": "读取用户分享记录中的用户消息、可见回复和工具结果，并只读核对本机最终报告及脚本；不保存模型推理、凭据、会话个人标识或无关文件内容。",
+  "actual_prompt": "帮我检查这台 Windows 电脑上，WorkBuddy 的工作空间、\n后台数据和缓存分别存在哪里，各占多少空间。\n\n先只检查，不移动或删除文件。区分哪些目录适合在设置中\n修改位置，哪些需要通过目录联接迁移，不要直接套用网上路径。\n\n根据实际检查结果，生成一个可双击运行的 .bat 迁移脚本：\n1. 目标位置由我指定，只处理确认过的 WorkBuddy 相关目录。\n2. 检查客户端是否完全退出、目标盘空间是否足够。\n3. 先复制并验证，保留可恢复的原数据，再建立目录联接。\n4. 任何一步失败就停止，记录原因，不继续删除。\n5. 提供使用说明、执行日志和恢复方法。\n\n最后告诉我，重新打开 WorkBuddy 后，怎样验证旧任务正常、\n新任务写入目标盘，以及 C 盘实际释放了多少空间。",
+  "reported_environment": {
+    "workbuddy_version": "5.8.3",
+    "application_drive": "D:",
+    "measurement_note": "以下容量来自WorkBuddy的不同时间点扫描与最终报告，并非Codex重新全盘测量；GB/MB按原报告保留，正文优先写约数。"
+  },
+  "reported_directories": [
+    {
+      "name": ".workbuddy",
+      "bytes_in_report": 2133842473,
+      "reported_size": "1.99 GiB",
+      "role": "主数据，包含运行时、插件、日志、会话等，不能整体称作可删除缓存。"
+    },
+    {
+      "name": "@genieworkbuddy-desktop-updater",
+      "reported_size": "420.7 MB",
+      "role": "更新器安装包，未在本轮执行清理。"
+    },
+    {
+      "name": "WorkBuddy",
+      "reported_size": "1.9 MB",
+      "role": "默认工作空间，本次迁移脚本不负责搬动；新任务路径需要另外核对。"
+    },
+    {
+      "name": ".workbuddy-key-fallback",
+      "reported_size": "32 B",
+      "role": "凭据回退数据，不能当作普通缓存清空。"
+    }
+  ],
+  "state": {
+    "real_migration_verified": false,
+    "real_space_released_verified": false,
+    "bat_entry_executed_in_shared_record": false,
+    "ps1_fixture_test_reported": true,
+    "local_main_directory_is_reparsepoint": false,
+    "note": "本机只读属性核对显示主数据目录为普通目录；未执行任何迁移脚本。分享中的成功输出来自临时模拟目录。"
+  },
+  "artifacts": [
+    {
+      "name": "cleanup-backup.bat",
+      "sha256": "62f14ef0704bc2cb3c90708326d06e076b4971eb84297594ad910107e06ce343"
+    },
+    {
+      "name": "inspect-workbuddy.bat",
+      "sha256": "98a6a3201ea74b39790eba8415c8efdfc684771d2428ca7d86a3122d7bd55b43"
+    },
+    {
+      "name": "migrate-workbuddy.bat",
+      "sha256": "fb44fe21e5c083a7f45a940271708fa7e8a5a8a8660fccb9adb2e037d8b474e6"
+    },
+    {
+      "name": "restore-workbuddy.bat",
+      "sha256": "e5e8fdf1c6d433e95e22612de3a916ef35ff3f1dd0e0be61b18bd680798f0f9d"
+    },
+    {
+      "name": "wb-cleanup.ps1",
+      "sha256": "7bd59c806aa1871c61b34a357fd6637f7bdec1cb798b72c0900ecdd680c5baa8"
+    },
+    {
+      "name": "wb-inspect.ps1",
+      "sha256": "83a160e174a5b7adf65f926d2c448e484d61eafd4ceac6a4ae743fb21a2a535e"
+    },
+    {
+      "name": "wb-migrate.ps1",
+      "sha256": "77a0291ee9677375297ce0be6832788191d7ec5378e8ebbcabb10acc393abd01"
+    },
+    {
+      "name": "wb-restore.ps1",
+      "sha256": "85150439c0a467a7de59bed6505863b447be49e0536ff2f0504410d8d33314d9"
+    },
+    {
+      "name": "检查报告.md",
+      "sha256": "f593c60bb771bd23336e2f327be9ffb0aeb3f842397a918102ea7888d4e3c3ac"
+    },
+    {
+      "name": "迁移说明.md",
+      "sha256": "8d61cc15eb0c9dc5c0f7d6bae956f0e9b881226a8f8095062d44970b72918ddc"
+    }
+  ],
+  "findings": [
+    {
+      "id": "rollback_rename",
+      "file": "wb-migrate.ps1",
+      "line": 278,
+      "evidence": [
+        "$l = Split-Path -Leaf $rb.Backup",
+        "Rename-Item -LiteralPath $rb.Backup -NewName $l -ErrorAction SilentlyContinue"
+      ],
+      "conclusion": "失败分支取备份名作为新名字，未恢复原目录名，却继续提示已自动恢复。仅静态核对，未触发真实迁移。"
+    },
+    {
+      "id": "double_count",
+      "file": "迁移说明.md",
+      "line": 270,
+      "conclusion": "主数据目录容量已包含logs/traces，整目录迁移收益与其中日志清理收益重叠，不能叠加成2.7GB。"
+    },
+    {
+      "id": "bat_validation",
+      "file": "检查报告.md",
+      "line": 234,
+      "conclusion": "报告将编码检查写成cmd可正常解析；分享最终回复承认BAT入口没有实跑，不能称端到端入口已验证。"
+    },
+    {
+      "id": "workspace_scope",
+      "file": "wb-migrate.ps1",
+      "conclusion": "脚本只迁主数据与密钥回退目录；工作空间另由设置处理，不能承诺以后所有任务产物都自动落到目标盘。"
+    }
+  ],
+  "next_evidence": [
+    "修正失败回滚逻辑，并对模拟数据触发建联接失败，确认原目录名确实恢复。",
+    "在独立模拟目录实际运行BAT入口，不只运行PS1；不要为测试故意改动真实数据。",
+    "作者自行执行真实迁移后，回传日志、主目录联接目标与新旧任务使用结果。",
+    "作者确认正常并处理备份后，再记录可用空间变化；不将备份仍在C盘时的迁移称作已释放。"
+  ]
+}

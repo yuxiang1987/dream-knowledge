@@ -56,6 +56,25 @@ class StorageResearchTest(unittest.TestCase):
         self.assertGreaterEqual(outline.count("【待补："), 4)
         self.assertNotIn("释放了8.5", outline)
 
+    def test_returned_material_is_not_reported_as_real_migration(self):
+        path = DATA.with_name("WorkBuddy迁移脚本材料核对.json")
+        data = json.loads(path.read_text(encoding="utf-8"))
+        self.assertFalse(data["state"]["real_migration_verified"])
+        self.assertFalse(data["state"]["real_space_released_verified"])
+        self.assertFalse(data["state"]["bat_entry_executed_in_shared_record"])
+        self.assertFalse(data["state"]["local_main_directory_is_reparsepoint"])
+        self.assertIn("先只检查，不移动或删除文件", data["actual_prompt"])
+        names = {a["name"] for a in data["artifacts"]}
+        self.assertIn("wb-migrate.ps1", names)
+        self.assertIn("migrate-workbuddy.bat", names)
+        self.assertTrue(all(re.fullmatch(r"[a-f0-9]{64}", a["sha256"]) for a in data["artifacts"]))
+        findings = {a["id"] for a in data["findings"]}
+        self.assertTrue({"rollback_rename", "double_count", "bat_validation", "workspace_scope"} <= findings)
+        page = PAGE.read_text(encoding="utf-8")
+        self.assertIn("还没有运行迁移 BAT", page)
+        self.assertIn("不能将约2GB主数据写成已经释放的空间", page)
+        self.assertIn(path.name, page)
+
 
 if __name__ == "__main__":
     unittest.main()
