@@ -1,7 +1,9 @@
 """不消耗付费接口；验证分页、身份隔离及原始资料保护。"""
 import hashlib
 import io
+import os
 from pathlib import Path
+import subprocess
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -25,6 +27,38 @@ def item(i):
 
 
 class DownloadTest(unittest.TestCase):
+    def test_local_credential_cannot_be_tracked_by_default(self):
+        root = Path(__file__).resolve().parents[1]
+        ignored = subprocess.run(["git", "check-ignore", "--quiet", ".local/tikhub.json"], cwd=root)
+        self.assertEqual(ignored.returncode, 0)
+        tracked = subprocess.run(["git", "ls-files", "--", ".local/tikhub.json"],
+                                 cwd=root, capture_output=True, text=True, check=True)
+        self.assertEqual(tracked.stdout, "")
+
+    def test_local_key_fallback_and_explicit_precedence(self):
+        with tempfile.TemporaryDirectory() as tmp, patch.object(mod, "ROOT", Path(tmp)), \
+                patch.dict(os.environ, {}, clear=True):
+            folder = Path(tmp) / ".local"
+            folder.mkdir()
+            (folder / "tikhub.json").write_text('{"api_key":"local-test"}', encoding="utf-8")
+            explicit = Path(tmp) / "explicit.json"
+            explicit.write_text('{"api_key":"explicit-test"}', encoding="utf-8")
+            self.assertEqual(mod.read_key(), "local-test")
+            with patch.dict(os.environ, {"TIKHUB_API_KEY": "env-test"}):
+                self.assertEqual(mod.read_key(), "env-test")
+                self.assertEqual(mod.read_key(explicit), "explicit-test")
+
+    def test_missing_or_invalid_keys_do_not_disclose_contents(self):
+        with tempfile.TemporaryDirectory() as tmp, patch.object(mod, "ROOT", Path(tmp)), \
+                patch.dict(os.environ, {}, clear=True):
+            with self.assertRaises(ValueError):
+                mod.read_key()
+            path = Path(tmp) / "invalid.json"
+            path.write_text('{"api_key":"sensitive invalid"}', encoding="utf-8")
+            with self.assertRaises(ValueError) as caught:
+                mod.read_key(path)
+            self.assertNotIn("sensitive", str(caught.exception))
+
     def test_requests_use_compatible_headers_and_retry_connection_errors(self):
         with patch.object(mod, "urlopen", side_effect=[mod.URLError("connection reset"),
                   io.StringIO('{"code":200,"data":{"ok":true}}')]) as call, \

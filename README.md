@@ -22,6 +22,12 @@
 
 脚本输出为 UTF-8。在 Windows PowerShell 5.1 里如果看到乱码，先执行 `chcp 65001` 再运行。
 
+## TikHub 本机凭据
+
+公众号采集脚本 `scripts/download_benchmark_articles.py` 的凭据读取顺序为：显式 `--key-file`、`TIKHUB_API_KEY` 环境变量、本仓库 `.local/tikhub.json`。本机配置使用 JSON 对象，字段名为 `api_key`，值为用户自己的令牌。
+
+`.local/tikhub.json` 仅保存在当前电脑，已加入 Git 忽略，禁止提交或在日志中记录令牌。后续在本知识库调用 TikHub 时，可复用脚本中的 `read_key()`；换电脑需要重新配置。可用 `git check-ignore .local/tikhub.json` 检查忽略规则。采集脚本默认目标是路人甲账号，不要用它的默认下载命令采集其他账号。
+
 ## 在 Obsidian 里看
 
 把 `E:\code\webchat` 作为仓库（vault）打开，就能用双链、图谱视图和关系网查看整个知识库。`wiki/index.md` 是入口。

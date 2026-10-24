@@ -21,3 +21,4 @@
 **/*.pyc
 **/.DS_Store
 **/Thumbs.db
+/.local/tikhub.json

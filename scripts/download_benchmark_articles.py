@@ -1,6 +1,7 @@
 """下载用户指定账号最新60篇图文；密钥只从环境或用户指定的本机文件读取。
 
-python scripts/download_benchmark_articles.py --key-file <本机凭据文件>
+python scripts/download_benchmark_articles.py [--key-file <本机凭据文件>]
+默认使用TIKHUB_API_KEY环境变量，其次使用本机.local/tikhub.json（禁止提交）。
 不会覆盖已有raw文件；不采集互动、评论或另行下载视频等媒体。
 """
 from __future__ import annotations
@@ -25,6 +26,10 @@ API = "https://api.tikhub.io/api/v1/"
 
 
 def read_key(key_file=None):
+    if key_file is None and not os.environ.get("TIKHUB_API_KEY"):
+        local_file = ROOT / ".local" / "tikhub.json"
+        if local_file.is_file():
+            key_file = local_file
     if key_file:
         content = Path(key_file).read_text(encoding="utf-8-sig").strip()
         try:
@@ -39,7 +44,7 @@ def read_key(key_file=None):
     else:
         key = os.environ.get("TIKHUB_API_KEY")
     if not isinstance(key, str) or not key.strip() or any(c.isspace() for c in key.strip()):
-        raise ValueError("缺少有效TikHub配置；需提供TIKHUB_API_KEY环境变量或--key-file路径")
+        raise ValueError("缺少有效TikHub配置；需配置.local/tikhub.json、TIKHUB_API_KEY环境变量或--key-file路径")
     return key.strip()
 
 

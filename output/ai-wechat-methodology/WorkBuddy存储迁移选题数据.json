@@ -1,0 +1,240 @@
+{
+  "acquired_at": "2026-10-24T15:24:21+08:00",
+  "provider": "TikHub WeChat MP V2",
+  "article": {
+    "title": "WorkBuddy 越用越吃 C 盘？用这个方法可以搞定",
+    "nick_name": "小L在校园",
+    "user_name": "gh_2364635a0f3f",
+    "create_time": "2026-09-10 20:19",
+    "link": "https://mp.weixin.qq.com/s?__biz=MzIzNzY5MjExMA==&mid=2247484408&idx=1&sn=42f3bb88ab2f2274256ba97e107bf294#rd"
+  },
+  "short_url": "https://mp.weixin.qq.com/s/Yb5SahObHriXnV66CTTb6A",
+  "stats": {
+    "read_num": 32962,
+    "like_count": 258,
+    "old_like_count": 555,
+    "share_count": 4372,
+    "collect_count": 1533,
+    "comment_count": 102,
+    "star_num": 100
+  },
+  "field_note": "like_count为接口点赞字段；old_like_count为wow/旧在看字段，不能和截图中点赞标签直接混用。",
+  "baseline_scope": "从两页账号列表返回项中取第一页8篇及第二页前4篇；不是完整历史或按发布后相同时长对比。",
+  "baseline": [
+    {
+      "title": "WorkBuddy怎么自动签到领积分",
+      "id": "2247484754",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNzY5MjExMA%3D%3D&mid=2247484754&idx=1&sn=e0ec20c6eb12d0b2cad66fa66db2ad2e",
+      "published": "2026-10-22T15:07:02+08:00",
+      "error": "TimeoutError"
+    },
+    {
+      "title": "用AI其实很简单",
+      "id": "2247484745",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNzY5MjExMA%3D%3D&mid=2247484745&idx=1&sn=94ab2f14327307925e839a6f0019bfea",
+      "published": "2026-10-22T09:41:50+08:00",
+      "stats": {
+        "read_num": 47,
+        "like_count": 0,
+        "old_like_count": 1,
+        "share_count": 1,
+        "collect_count": 0,
+        "comment_count": 0,
+        "star_num": 0
+      }
+    },
+    {
+      "title": "把 WorkBuddy 这些设置先调一下，更聪明，也更省积分",
+      "id": "2247484732",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNzY5MjExMA%3D%3D&mid=2247484732&idx=1&sn=2fc192e5cc508fd46dfdccb27ee7ec15",
+      "published": "2026-10-21T16:31:54+08:00",
+      "stats": {
+        "read_num": 387,
+        "like_count": 5,
+        "old_like_count": 12,
+        "share_count": 47,
+        "collect_count": 20,
+        "comment_count": 0,
+        "star_num": 4
+      }
+    },
+    {
+      "title": "一次完整的用WorkBuddy辅助写投标文件的实践",
+      "id": "2247484509",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNzY5MjExMA%3D%3D&mid=2247484509&idx=1&sn=926cef48117e6505d381b093f3812b06",
+      "published": "2026-10-14T16:28:52+08:00",
+      "stats": {
+        "read_num": 1428,
+        "like_count": 13,
+        "old_like_count": 17,
+        "share_count": 218,
+        "collect_count": 76,
+        "comment_count": 2,
+        "star_num": 4
+      }
+    },
+    {
+      "title": "AI 生成的 PPT，为什么总有红色波浪线？",
+      "id": "2247484492",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNzY5MjExMA%3D%3D&mid=2247484492&idx=1&sn=a24e1a37842c0a12badd732a3433e89e",
+      "published": "2026-10-08T16:01:44+08:00",
+      "stats": {
+        "read_num": 119,
+        "like_count": 2,
+        "old_like_count": 2,
+        "share_count": 8,
+        "collect_count": 3,
+        "comment_count": 0,
+        "star_num": 0
+      }
+    },
+    {
+      "title": "写在国庆，我已经很久没有发朋友圈了",
+      "id": "2247484481",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNzY5MjExMA%3D%3D&mid=2247484481&idx=1&sn=dff869ea30721f1ed875eafc2d9c902a",
+      "published": "2026-10-01T16:59:58+08:00",
+      "stats": {
+        "read_num": 91,
+        "like_count": 0,
+        "old_like_count": 3,
+        "share_count": 2,
+        "collect_count": 0,
+        "comment_count": 2,
+        "star_num": 0
+      }
+    },
+    {
+      "title": "去AI味儿写作技能，我推荐这5个",
+      "id": "2247484475",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNzY5MjExMA%3D%3D&mid=2247484475&idx=1&sn=4206aeaff6522b8a06f879b556ae039d",
+      "published": "2026-09-23T18:19:47+08:00",
+      "stats": {
+        "read_num": 145,
+        "like_count": 1,
+        "old_like_count": 2,
+        "share_count": 17,
+        "collect_count": 6,
+        "comment_count": 0,
+        "star_num": 1
+      }
+    },
+    {
+      "title": "我让 WorkBuddy 整理 6 年的下载文件夹，看看它到底能做到什么程度",
+      "id": "2247484460",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNzY5MjExMA%3D%3D&mid=2247484460&idx=1&sn=0e9d987e77d59836129969d70e362d07",
+      "published": "2026-09-22T18:58:47+08:00",
+      "stats": {
+        "read_num": 157,
+        "like_count": 2,
+        "old_like_count": 4,
+        "share_count": 18,
+        "collect_count": 2,
+        "comment_count": 0,
+        "star_num": 1
+      }
+    },
+    {
+      "title": "Codex PPT技能在WorkBuddy上的安装应用实践",
+      "id": "2247484302",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNzY5MjExMA%3D%3D&mid=2247484302&idx=1&sn=38b1cefd7f5ab1bb7b4212a345da7bcd",
+      "published": "2026-09-01T19:30:41+08:00",
+      "stats": {
+        "read_num": 192,
+        "like_count": 1,
+        "old_like_count": 2,
+        "share_count": 19,
+        "collect_count": 15,
+        "comment_count": 0,
+        "star_num": 0
+      }
+    },
+    {
+      "title": "2026办公智能体怎么选？这6款的免费额度和价格，我全查了一遍",
+      "id": "2247484222",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNzY5MjExMA%3D%3D&mid=2247484222&idx=1&sn=f057d1f569547ef43c1da411bd7a7581",
+      "published": "2026-08-27T17:59:18+08:00",
+      "stats": {
+        "read_num": 69,
+        "like_count": 0,
+        "old_like_count": 1,
+        "share_count": 4,
+        "collect_count": 0,
+        "comment_count": 0,
+        "star_num": 0
+      }
+    },
+    {
+      "title": "TraeWork与新的“豆包工作”研究对比报告",
+      "id": "2247484188",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNzY5MjExMA%3D%3D&mid=2247484188&idx=1&sn=330cf3a2657e4fbea78716fd09e6deca",
+      "published": "2026-08-26T12:39:37+08:00",
+      "stats": {
+        "read_num": 2042,
+        "like_count": 7,
+        "old_like_count": 18,
+        "share_count": 70,
+        "collect_count": 23,
+        "comment_count": 9,
+        "star_num": 4
+      }
+    },
+    {
+      "title": "被 AI \"鸡\"了两天：1000多积分换来一个半成品工作台",
+      "id": "2247484152",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNzY5MjExMA%3D%3D&mid=2247484152&idx=1&sn=686525a9bf8be28f583bfeb7c3f12693",
+      "published": "2026-08-25T17:40:08+08:00",
+      "stats": {
+        "read_num": 35,
+        "like_count": 0,
+        "old_like_count": 1,
+        "share_count": 1,
+        "collect_count": 0,
+        "comment_count": 0,
+        "star_num": 1
+      }
+    }
+  ],
+  "comparison": {
+    "requested": 12,
+    "succeeded": 11,
+    "median_read_num": 145,
+    "target_vs_median": 227.32413793103447,
+    "max_sample_read_num": 2042
+  },
+  "comments_scope": {
+    "elected_total": 48,
+    "total_count": 102,
+    "retrieved": 20,
+    "has_more": true,
+    "includes_ai_replies": true,
+    "note": "只读一页精选评论及接口附带回复；未翻完，未独立验证评论者体验；不保留昵称、地域或个人标识。"
+  },
+  "comment_findings": [
+    {
+      "kind": "需求",
+      "paraphrase": "用户希望交给WorkBuddy生成脚本自动搬运，而不是自己敲命令。"
+    },
+    {
+      "kind": "障碍",
+      "paraphrase": "部分用户迁移时遇到权限不足或文件无法移走。"
+    },
+    {
+      "kind": "验证",
+      "paraphrase": "迁移后原路径和属性容量仍显示在C盘，用户不确定是否成功。"
+    },
+    {
+      "kind": "边界",
+      "paraphrase": "用户混淆安装位置、工作空间和后台数据位置，并询问能否直接清空目录。"
+    },
+    {
+      "kind": "已有供给",
+      "paraphrase": "作者置顶评论指向下一篇答疑，已覆盖自动搬运、权限、迁移后仍显示C盘等问题。"
+    }
+  ],
+  "limits": [
+    "未取得粉丝量、后台流量来源、付费加热或推荐来源。",
+    "截图显示文章被置顶，累计阅读受时间与曝光位置影响，不能由阅读倍数推导因果。",
+    "未在用户电脑执行迁移、删除或清理，未验证当前WorkBuddy版本路径。",
+    "分享与收藏是接口计数，不能视为独立用户比例。"
+  ]
+}
