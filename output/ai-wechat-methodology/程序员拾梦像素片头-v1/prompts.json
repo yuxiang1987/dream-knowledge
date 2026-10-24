@@ -1,0 +1,15 @@
+{
+  "mode": "built-in image_gen",
+  "edits": [
+    {
+      "output": "avatar-clean.png",
+      "transparent_background": false,
+      "prompt": "Use case: precise-object-edit. Edit target: the attached cartoon avatar supplied by its user. Remove ONLY the small white Doubao AI / 豆包AI生成 watermark in the lower right corner, reconstructing the white background cleanly. Preserve the same character, black tousled hair, large black round glasses, eye highlights, peach cheeks, smiling open mouth, blue T-shirt, pose, crop, white background, linework and proportions. Do not convert to pixel art yet. Do not add text, logos, borders, signatures or other watermarks. Deliver one clean square avatar."
+    },
+    {
+      "output": "avatar-pixel.png",
+      "transparent_background": true,
+      "prompt": "Use case: style-transfer, identity-preserve. Edit target: the clean cartoon avatar. Create one professional pixel-art bust sprite of exactly this same recognizable character for a small WeChat article intro banner. Preserve tousled black hair, huge round black glasses, dark brown eyes with white highlights, peach skin, blush cheeks, cheerful open smile, and plain bright blue T-shirt. Keep the original head-and-upper-body pose and proportions; no added props or text. Authentic carefully hand-placed 16-bit pixel art, logical coarse pixel grid approximately 96 by 96 then enlarged using hard nearest-neighbor edges. Compact flat palette about 18 colors, clear dark stepped outlines, intentional square pixels, NO blur, NO antialiasing, NO smooth vector curves, NO gradients or dither. Center the entire bust with small transparent margins; top hair and side ears fully inside canvas. Genuine transparent background outside character, no white rectangle, no checkerboard pattern. No text, watermark, signature or logos. One isolated sprite only."
+    }
+  ]
+}
