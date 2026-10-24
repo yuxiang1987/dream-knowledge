@@ -24,3 +24,7 @@
 需要 Node.js、`@napi-rs/canvas`、ffmpeg，以及 Windows 的微软雅黑粗体。源码中的字体路径对应本机，换系统需改为可用中文字体。设置 Node 包搜索路径后执行 `node build.cjs`，会重建本目录动画与预览。中间帧在 `_frames/`，已加入 Git 忽略。
 
 参考形式来自用户指定文章：<https://mp.weixin.qq.com/s/gFnRQIwtVoBargkfc3lFFQ>。参考代码仅用于确认4秒循环、像素文字、粒子、透视网格与立方体的形式；本版独立实现为6秒循环。
+
+## 右侧动效候选
+
+新增三款候选见 [对比预览](variants/preview.html) 与 [文件说明](variants/README.md)：代码窗口、文件夹与数据流、像素火花汇聚。共用本版头像、文案和节奏，原版旋转方块成品保留。由 `build-variants.cjs` 独立生成。

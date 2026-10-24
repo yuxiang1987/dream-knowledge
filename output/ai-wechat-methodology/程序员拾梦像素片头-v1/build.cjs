@@ -66,6 +66,7 @@ function makeSvg(image){
   s+=`<rect x="${p.x}" y="${p.y}" width="${fmt(p.s)}" height="${fmt(p.s)}" fill="${p.color}"><animateTransform attributeName="transform" type="translate" values="0 0;0 0;${p.dx} ${p.dy};${p.dx} ${p.dy};0 0;0 0" keyTimes="${knots.join(';')}" dur="6s" repeatCount="indefinite" ${spline}/></rect>`;
  }
  s+='</g>';
+ s+='<!--right-motion:start-->';
  const times=Array.from({length:121},(_,i)=>i/120),ts=times.map(u=>u*DURATION);
  s+='<g opacity="0">'+anim('opacity',ts.map(cubeOpacity),times);
  for(const [a,b]of grid)s+=`<path d="M${a.join(' ')}L${b.join(' ')}" fill="none" stroke="#cddae8" stroke-width="1"/>`;
@@ -84,6 +85,7 @@ function makeSvg(image){
   s+=anim('points',ts.map(t=>points([project(verts[a],t),project(verts[b],t)])),times);
   s+=anim('opacity',ts.map(t=>fmt(cubeOpacity(t)*(1-smooth((t-2.65)/.35)))),times)+'</polyline>';
  }
+ s+='<!--right-motion:end-->';
  // A tiny cursor keeps the identity frame recognizably about coding.
  s+='<g fill="#43aceb"><rect x="1128" y="82" width="7" height="40">'+anim('opacity',[1,1,0,0,1,1])+'</rect></g></svg>';
  return s;
@@ -131,4 +133,5 @@ async function main(){
  fs.writeFileSync(path.join(OUT,'manifest.json'),JSON.stringify({width:W,height:H,duration_seconds:DURATION,fps:FPS,frames:DURATION*FPS,text:['程序员拾梦','折腾 AI，分享实用玩法'],avatar_tool:'built-in image_gen',mobile_wechat_verified:false,dots:dots.length},null,2)+'\n');
  console.log(JSON.stringify({width:W,height:H,frames:DURATION*FPS,dots:dots.length,gif_bytes:fs.statSync(path.join(OUT,'intro.gif')).size}));
 }
-main().catch(e=>{console.error(e);process.exit(1)});
+if(require.main===module)main().catch(e=>{console.error(e);process.exit(1)});
+module.exports={dots,blend,cubeOpacity,makeSvg};

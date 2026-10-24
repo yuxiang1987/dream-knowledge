@@ -1,0 +1,38 @@
+[
+  {
+    "id": "code-window",
+    "name": "代码窗口",
+    "description": "窗口展开，代码逐行刷出，光标闪动。",
+    "width": 1246,
+    "height": 220,
+    "duration_seconds": 6,
+    "fps": 20,
+    "frames": 120,
+    "gif_bytes": 1471386,
+    "mobile_wechat_verified": false
+  },
+  {
+    "id": "file-flow",
+    "name": "文件夹与数据流",
+    "description": "像素文件从一个文件夹流向另一个文件夹。",
+    "width": 1246,
+    "height": 220,
+    "duration_seconds": 6,
+    "fps": 20,
+    "frames": 120,
+    "gif_bytes": 1583306,
+    "mobile_wechat_verified": false
+  },
+  {
+    "id": "spark-orbit",
+    "name": "像素火花汇聚",
+    "description": "像素粒子环绕、聚拢，形成蓝色四芒火花。",
+    "width": 1246,
+    "height": 220,
+    "duration_seconds": 6,
+    "fps": 20,
+    "frames": 120,
+    "gif_bytes": 1613487,
+    "mobile_wechat_verified": false
+  }
+]

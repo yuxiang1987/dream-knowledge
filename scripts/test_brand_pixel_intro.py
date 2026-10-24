@@ -61,6 +61,60 @@ class BrandPixelIntroTest(unittest.TestCase):
         self.assertIn("375px", (ART / "preview.html").read_text(encoding="utf-8"))
         self.assertIn("尚未在公众号后台", (ART / "README.md").read_text(encoding="utf-8"))
 
+    def test_three_variants_are_standalone_svg_with_the_same_avatar(self):
+        folder = ART / "variants"
+        manifest = json.loads((folder / "manifest.json").read_text(encoding="utf-8"))
+        self.assertEqual({v["id"] for v in manifest}, {"code-window", "file-flow", "spark-orbit"})
+        ns = "{http://www.w3.org/2000/svg}"
+        href = "{http://www.w3.org/1999/xlink}href"
+        base_avatar = ET.parse(ART / "intro.svg").getroot().find(ns + "image").attrib[href]
+        for variant in manifest:
+            with self.subTest(variant=variant["id"]):
+                root = ET.parse(folder / (variant["id"] + ".svg")).getroot()
+                self.assertEqual(root.attrib["viewBox"], "0 0 1246 220")
+                self.assertEqual(root.find(ns + "image").attrib[href], base_avatar)
+                for node in root.iter():
+                    self.assertNotIn(node.tag.rsplit("}", 1)[-1].lower(), ("script", "foreignobject"))
+                    for key, value in node.attrib.items():
+                        self.assertFalse(key.lower().startswith("on"))
+                        if key.rsplit("}", 1)[-1] == "href":
+                            self.assertTrue(value.startswith("data:image/png;base64,"))
+                    if "keyTimes" in node.attrib:
+                        self.assertEqual(len(node.attrib["keyTimes"].split(";")),
+                                         len(node.attrib["values"].split(";")))
+                self.assertFalse(variant["mobile_wechat_verified"])
+
+    def test_variant_gifs_close_their_loops(self):
+        for name in ("code-window", "file-flow", "spark-orbit"):
+            with self.subTest(variant=name), Image.open(ART / "variants" / (name + ".gif")) as gif:
+                self.assertEqual(gif.size, (1246, 220))
+                self.assertEqual(gif.n_frames, 120)
+                self.assertEqual(gif.info["loop"], 0)
+                first = gif.convert("RGB")
+                duration = 0
+                for i in range(gif.n_frames):
+                    gif.seek(i)
+                    duration += gif.info["duration"]
+                self.assertEqual(duration, 6000)
+                self.assertIsNone(ImageChops.difference(first, gif.convert("RGB")).getbbox())
+                self.assertLess((ART / "variants" / (name + ".gif")).stat().st_size, 3_000_000)
+
+    def test_only_right_motion_changes_and_three_scenes_differ(self):
+        with Image.open(ART / "poster.png") as im:
+            poster = im.convert("RGB")
+        stills = []
+        for name in ("code-window", "file-flow", "spark-orbit"):
+            with Image.open(ART / "variants" / (name + "-poster.png")) as im:
+                self.assertIsNone(ImageChops.difference(poster, im.convert("RGB")).getbbox())
+            with Image.open(ART / "variants" / (name + "-still.png")) as im:
+                still = im.convert("RGB")
+            self.assertIsNone(ImageChops.difference(poster.convert("RGB").crop((0, 0, 235, 220)),
+                                                   still.crop((0, 0, 235, 220))).getbbox())
+            stills.append(still.crop((600, 0, 1246, 220)))
+        for i in range(len(stills)):
+            for j in range(i + 1, len(stills)):
+                self.assertIsNotNone(ImageChops.difference(stills[i], stills[j]).getbbox())
+
 
 if __name__ == "__main__":
     unittest.main()
