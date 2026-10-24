@@ -47,6 +47,15 @@ class StorageResearchTest(unittest.TestCase):
         self.assertIn("本轮未向 raw 写入", page)
         self.assertIn(DATA.name, page)
 
+    def test_outline_keeps_results_and_actual_prompts_pending(self):
+        outline = PAGE.read_text(encoding="utf-8").split("## 文章框架（待实测）", 1)[1]
+        self.assertIn("不是已发生的实测记录", outline)
+        self.assertIn("真实使用过的提示词与事后整理版分别标记", outline)
+        self.assertIn("目标盘以用户实际选择为准", outline)
+        self.assertIn("实际没有做的检查继续留空", outline)
+        self.assertGreaterEqual(outline.count("【待补："), 4)
+        self.assertNotIn("释放了8.5", outline)
+
 
 if __name__ == "__main__":
     unittest.main()
