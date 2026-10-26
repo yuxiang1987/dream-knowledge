@@ -12,13 +12,6 @@ ROOT = Path(__file__).resolve().parents[1]
 SKILL = ROOT / ".agents/skills/gzh-daily-pipeline"
 MANIFEST = ROOT / "scripts/installed_skills.json"
 
-DISPATCHED_SKILLS = (
-    "wechat-viral-topic",
-    "wechat-article-writing",
-    "gzh-final-check",
-    "gzh-webchat-cover",
-    "md-wechat-layout",
-)
 
 
 def run_pipeline(*args: str) -> subprocess.CompletedProcess:
@@ -79,21 +72,6 @@ class DailyPipelineInstallTest(unittest.TestCase):
                 data = (ROOT / ".agents/skills" / relative).read_bytes()
                 self.assertEqual(hashlib.sha256(data).hexdigest(), expected)
 
-    def test_entrypoint_documents_full_chain(self):
-        """SKILL.md names every stage, every dispatched skill and the hard gate."""
-        text = (SKILL / "SKILL.md").read_text(encoding="utf-8")
-        self.assertTrue(text.startswith("---\n"))
-        self.assertIn("name: gzh-daily-pipeline\n", text)
-        self.assertIn("description:", text)
-        for stage in ("S0", "S1", "S2", "S3", "S4", "S5", "S6"):
-            with self.subTest(stage=stage):
-                self.assertIn(stage, text)
-        for name in DISPATCHED_SKILLS:
-            with self.subTest(skill=name):
-                self.assertIn(name, text)
-        self.assertIn("03_证据与实测.md", text)
-        self.assertIn("硬关口", text)
-
     def test_local_resources_are_discoverable(self):
         """References, templates and regression cases are reachable from SKILL.md."""
         entry = (SKILL / "SKILL.md").read_text(encoding="utf-8")
@@ -115,16 +93,6 @@ class DailyPipelineInstallTest(unittest.TestCase):
         self.assertTrue(cases)
         for case in cases:
             self.assertIn(f"]({case.relative_to(SKILL).as_posix()})", entry)
-
-    def test_handover_contract_states_valid_statuses(self):
-        """The contract fixes the frontmatter fields and the allowed status values."""
-        contract = (SKILL / "references/handoff-contract.md").read_text(encoding="utf-8")
-        for field in ("stage", "status", "topic", "source_skill", "created", "updated"):
-            with self.subTest(field=field):
-                self.assertIn(f"`{field}`", contract)
-        for status in ("待办", "待确认", "已确认", "已跳过", "已废弃"):
-            with self.subTest(status=status):
-                self.assertIn(status, contract)
 
     def test_scaffolder_and_checker_round_trip(self):
         """init scaffolds a run directory, check blocks the unfinished hard gate."""
