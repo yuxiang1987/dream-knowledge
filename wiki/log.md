@@ -929,3 +929,10 @@
 - 源码提交已推送，安装副本与 `installed_skills.json` 同步；未选定选题、未开始实测、未替作者判断优先级。
 - 验证：`python scripts/wiki_lint.py` 通过（442页，仅5项既有空sources警告）；`test_installed_skills.py` 5项、`test_distillation_coverage.py` 2项通过。
 
+## [2026-10-26] topic | 候选改为分块四行，出处直接给原文
+
+- 作者反馈表格挤在一起看不懂，并要求出处给原文而非分析页。`gzh-topic-planning` 默认交付改为**每条候选独立成块**：候选／切入角度／对标出处／日期四行，不用表格；出处同时给账号、原文标题与 raw 路径或链接；时效只在过期或有截止日时补一行，材料与缺口放推荐题展开。补1行回归用例。
+- [[topics/公众号每日选题决策]] 候选区同步改为分块，四条附原文路径与日期；推荐题仍为「给 Agent 写常驻规矩，看会不会少改超范围」。
+- 源码提交已推送，安装副本与 `installed_skills.json` 同步。未选定选题、未开始实测。
+- 验证：`python scripts/wiki_lint.py` 通过（442页，仅5项既有空sources警告）；`test_installed_skills.py` 5项、`test_distillation_coverage.py` 2项通过。
+
