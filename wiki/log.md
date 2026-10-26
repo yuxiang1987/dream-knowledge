@@ -852,3 +852,13 @@
 - 阅读范围为全文文字和原始HTML；未观看媒体、重跑产品、取得同口径互动基线、核当前价格或商业付款。不把作者亲测陈述记成本库亲测，不把推广入口记为已付款，不认定爆文或承诺收益。
 - 最终验证：`python scripts/wiki_lint.py` 通过，扫描438页（含索引和日志），仅5项既有空sources警告；`test_recent_benchmark_acquisition.py` 5项、`test_distillation_coverage.py` 2项、`test_installed_skills.py` 5项全部通过。对拟提交文件进行本机凭据精确字节扫描，无密钥泄漏；提交包含本批300份新增raw，不包含任何既有raw修改。完整命令记录在批次 `verification.json`，提交号与推送结果由最终交付消息报告。
 - Git暂存烟测发现自动换行转换会改变新原文的归档字节；新增仅匹配本批300份哈希文件名的 `.gitattributes` 规则并重新暂存。已逐个读取真实Git blob核对SHA-256，300/300与原文件一致；155份既有raw均不受新规则影响，未修改任何原文。
+
+## [2026-10-26] research | 十账号拆解后的公众号技能优化评估
+
+- 用户要求依据新完成的十账号300条拆解，判断现有公众号Skill是否需要优化。本轮只调研与隔离行为验证，未修改任何Skill、安装副本、源码或安装清单，未安装、未重抓文章、未运行产品。
+- 新增 [[comparisons/十账号拆解后的公众号技能优化评估]]，从 [[topics/公众号Skill流水线设计]] 与 `wiki/index.md` 可达。结论：不把300篇编成规则集、不重构流水线；需修4处具体缺陷，其中2处已在隔离执行中复现。
+- 已复现：加载现行 `gzh-final-check` 后，模型把「虚构委托、无真实客户」推成「合作披露与前文矛盾」并列入必须修改，混同客户身份与产品方合作身份。另一次加载现行 `wechat-article-writing` 的定向改稿，保留了授权范围，却新增「前面的镜头没有问题」与把备份并入结果因果的越界表述。
+- 文档缺陷：写作Skill末尾指向未安装的 `wechat-article-titles`、`wechat-article-covers`、`gzh-entrypoint`，与实装 `gzh-webchat-cover` 不符；两份对标reference仍写死22篇与失效绝对路径；暂停中的 `gzh-benchmark-deconstruct` 链接不存在的 `references/source-map.md`，且页面契约与入口对媒体／comparison要求冲突。
+- 已覆盖不重复建议：脚本确认与版本回退、输入覆盖与遗漏、模型初稿人工取舍、局部改参不牵连、证据身份、实测硬关口、微信预览不等于本地通过。S1选题两项隔离演练（含父代理实际执行一次）表现符合要求，封面与排版缺新视觉证据，均明确不改。
+- 证据：`local://skill-review-planning-smoke.json`、`local://writing-audit-input-coverage-input.json` 与 `-output.txt`、`local://writing-audit-fotor-local-revision-input.json` 与 `-output.txt`、`local://audit-review-pipeline-inputs.json` 与 `-outputs.json`；均标注为合成隔离输入，单次 slow 调用不构成稳定失败率。
+- 未验证项：改动后是否真的消除混同需重跑对照；封面降级风险来自文档交叉核对，未真实触发；未核媒体、后台数据与商业付款。修复须同步回 dream-skills 源码仓库并分别验证推送，本轮未做。
