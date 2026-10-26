@@ -1,0 +1,39 @@
+{
+  "batch": "output/ai-wechat-methodology/雷达-2026-10-26",
+  "stats_dir": "output/ai-wechat-methodology/雷达-2026-10-26/stats-2026-10-26",
+  "baseline": [
+    {
+      "account": "沉默王二",
+      "n": 1,
+      "median": 1274,
+      "min": 1274,
+      "max": 1274,
+      "median_like": 0,
+      "median_share": 9,
+      "median_comment": 0
+    },
+    {
+      "account": "郭震AI",
+      "n": 1,
+      "median": 2681,
+      "min": 2681,
+      "max": 2681,
+      "median_like": 37,
+      "median_share": 329,
+      "median_comment": 32
+    }
+  ],
+  "anomalies": [],
+  "event_clusters": [],
+  "raw_without_source": [
+    "raw/article/lurenjiaTM/实测OiiOii最新Skill，这套电商组合堪称双十一王炸！.md",
+    "raw/article/lurenjiaTM/真正的双11来了！天猫预售居然免定金！.md",
+    "raw/article/郭震AI/雷达-2026-10-26/终于有知识库打通了WorkBuddy，能查询你电脑里的上万文件，非常方便！-ac4f368c55.md",
+    "raw/article/chenmowanger/雷达-2026-10-26/宇宙厂员工：三年了，今年晋升+涨薪，火山方舟侧业绩不错，但新老板只打了m，同时争取到涨薪，这是正常的还是我想太多（附Agent面试题）-582e45efe8.md"
+  ],
+  "case_candidates": [],
+  "median_by_account": {
+    "沉默王二": 1274,
+    "郭震AI": 2681
+  }
+}

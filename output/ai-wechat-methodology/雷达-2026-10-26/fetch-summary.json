@@ -1,0 +1,111 @@
+{
+  "acquired_at": "2026-10-26T16:52:26+08:00",
+  "accounts": [
+    {
+      "account": "路人甲TM",
+      "username": "gh_d516081071ec",
+      "fetched": 1,
+      "added": 0,
+      "skipped_existing": 1,
+      "failed": 0,
+      "directory": "raw/article/lurenjiaTM/雷达-2026-10-26",
+      "added_articles": []
+    },
+    {
+      "account": "摸鱼小李",
+      "username": "gh_3923025946c5",
+      "fetched": 1,
+      "added": 0,
+      "skipped_existing": 1,
+      "failed": 0,
+      "directory": "raw/article/摸鱼小李/雷达-2026-10-26",
+      "added_articles": []
+    },
+    {
+      "account": "小林coding",
+      "username": "gh_fc46cf2353fc",
+      "fetched": 1,
+      "added": 0,
+      "skipped_existing": 1,
+      "failed": 0,
+      "directory": "raw/article/小林coding/雷达-2026-10-26",
+      "added_articles": []
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "username": "gh_1421d5e48ca9",
+      "fetched": 1,
+      "added": 0,
+      "skipped_existing": 1,
+      "failed": 0,
+      "directory": "raw/article/卡尔的AI沃茨/雷达-2026-10-26",
+      "added_articles": []
+    },
+    {
+      "account": "苍何",
+      "username": "gh_fdb597c42fa4",
+      "fetched": 1,
+      "added": 0,
+      "skipped_existing": 1,
+      "failed": 0,
+      "directory": "raw/article/苍何/雷达-2026-10-26",
+      "added_articles": []
+    },
+    {
+      "account": "沉默王二",
+      "username": "gh_f0ee5948865f",
+      "fetched": 1,
+      "added": 1,
+      "skipped_existing": 0,
+      "failed": 0,
+      "directory": "raw/article/chenmowanger/雷达-2026-10-26",
+      "added_articles": [
+        {
+          "id": "2247551372:1",
+          "title": "宇宙厂员工：三年了，今年晋升+涨薪，火山方舟侧业绩不错，但新老板只打了m，同时争取到涨薪，这是正常的还是我想太多（附Agent面试题）",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247551372&idx=1&sn=29c15577aadd8b26f9884adeb85e9d90",
+          "published": "2026-10-26 15:57",
+          "raw_path": "raw/article/chenmowanger/雷达-2026-10-26/宇宙厂员工：三年了，今年晋升+涨薪，火山方舟侧业绩不错，但新老板只打了m，同时争取到涨薪，这是正常的还是我想太多（附Agent面试题）-582e45efe8.md"
+        }
+      ]
+    },
+    {
+      "account": "洛洛AI说",
+      "username": "gh_426cd27710df",
+      "fetched": 1,
+      "added": 0,
+      "skipped_existing": 1,
+      "failed": 0,
+      "directory": "raw/article/洛洛AI说/雷达-2026-10-26",
+      "added_articles": []
+    },
+    {
+      "account": "郭震AI",
+      "username": "gh_ce69fa698e90",
+      "fetched": 1,
+      "added": 1,
+      "skipped_existing": 0,
+      "failed": 0,
+      "directory": "raw/article/郭震AI/雷达-2026-10-26",
+      "added_articles": [
+        {
+          "id": "2247525763:1",
+          "title": "终于有知识库打通了WorkBuddy，能查询你电脑里的上万文件，非常方便！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247525763&idx=1&sn=7a3dfccfb105b81f2bc234e307a45f93",
+          "published": "2026-10-26 14:23",
+          "raw_path": "raw/article/郭震AI/雷达-2026-10-26/终于有知识库打通了WorkBuddy，能查询你电脑里的上万文件，非常方便！-ac4f368c55.md"
+        }
+      ]
+    },
+    {
+      "account": "西羊石AI视频",
+      "username": "gh_f5c1e588b297",
+      "fetched": 1,
+      "added": 0,
+      "skipped_existing": 1,
+      "failed": 0,
+      "directory": "raw/article/西羊石AI视频/雷达-2026-10-26",
+      "added_articles": []
+    }
+  ]
+}

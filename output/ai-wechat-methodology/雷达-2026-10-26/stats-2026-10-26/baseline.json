@@ -1,0 +1,22 @@
+[
+  {
+    "account": "沉默王二",
+    "n": 1,
+    "median": 1274,
+    "min": 1274,
+    "max": 1274,
+    "median_like": 0,
+    "median_share": 9,
+    "median_comment": 0
+  },
+  {
+    "account": "郭震AI",
+    "n": 1,
+    "median": 2681,
+    "min": 2681,
+    "max": 2681,
+    "median_like": 37,
+    "median_share": 329,
+    "median_comment": 32
+  }
+]

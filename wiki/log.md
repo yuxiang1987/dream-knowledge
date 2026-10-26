@@ -985,3 +985,13 @@
 - 验证：雷达脚本离线回归 6 项通过（含案例候选只识别不代写、单账号不算事件簇、dry-run 不发请求、缺凭据报错）；`test_installed_skills.py` 5 项、`test_distillation_coverage.py` 2 项、`wiki_lint.py`（446页，仅5项既有空sources警告）通过。
 - 未做：定时调度未接；评论未翻页；radar 的 fetch/stats 未在真实账号上跑过新一轮（本轮数据来自此前批次），只做了离线与 dry-run 验证。
 
+## [2026-10-26] automation | 建 Orca 每日 9:30 对标雷达自动化并实跑
+
+- 用 `orca automations create` 建立自动化「对标雷达每日9:30」（id `fa599685-8d80-4390-802c-6fced296cd61`），trigger daily、timezone Asia/Shanghai、next run 2026-10-27T01:30Z（即北京时间 9:30），provider omp，绑定已有工作区 `8c18d9e0-…::E:/work/note/dream-knowledge`；`--repo path:` 形式因"工作区归属不同仓库"被拒，改用 `--workspace` 标识成功。
+- 为让定时任务一条命令跑完，`scripts/ingest.py` 增加 `daily`（盘点→采集新增→只统计新增→汇总→简报）与 `brief`（用已有批次产物写简报）两个子命令，默认每号最多 5 篇以控制费用；`fetch` 记录新增明细，`stats --from-fetch` 只统计本轮新增，静默日近零花费。
+- 首次实跑（每号 1 篇）暴露两个真实缺陷并已修复：①`stats` 在无 manifest 时直接报错中断；②`report` 的案例候选扫描全库 255 篇、事件簇无数据。修复后 `stats` 支持 `--from-fetch` 免 manifest，`report` 在有 `fetch-summary.json` 时只扫本轮新增，简报对 n<3 的基线标注「样本不足，不作判断」。
+- 实跑结果：9 个账号，沉默王二与郭震AI 各新增 1 篇（其余 7 个号最近一篇已在库中，按链接去重跳过），统计成功 2 篇、失败 0；简报 `output/ai-wechat-methodology/雷达-2026-10-26/雷达简报-2026-10-26.md`。新采的两篇分别为 1274 与 2681 阅读，样本不足不作基线判断。
+- 顺带查出 2 份历史残留原文从未有 source 页：`raw/article/lurenjiaTM/实测OiiOii最新Skill…`、`raw/article/lurenjiaTM/真正的双11来了…`，已在简报「未入库原文」列出，未擅自补拆。
+- 验证：雷达离线回归 7 项通过；`test_installed_skills.py` 5 项、`test_distillation_coverage.py` 2 项、`wiki_lint.py` 通过。用户原文中的面试题类新增文章（沉默王二那条）不会进候选，符合题材口径。
+- 未做：自动化尚未到点触发（next run 为次日 9:30），本轮为手动实跑验证；评论未翻页；调度是否真按 Asia/Shanghai 执行需次日观察。
+

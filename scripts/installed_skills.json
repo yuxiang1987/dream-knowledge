@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/yuxiang1987/dream-skills",
-  "commit": "e78e17df181682500b6725707bcddd2b3c0968d0",
+  "commit": "9c8e68d69632ba65973d198682457dccbf7c7a68",
   "skills": [
     "gzh-webchat-cover",
     "md-wechat-layout",
@@ -83,9 +83,9 @@
     "gzh-benchmark-radar/agents/openai.yaml": "cf01d00ef7d4953e998c936a71e3c85b73fb63f5ed11434d55ddcdaa96664776",
     "gzh-benchmark-radar/references/accounts.example.json": "2459f57d2c6671ac0445ce302487665259cfe1585a79bd8ec25c7fc6c633ad41",
     "gzh-benchmark-radar/references/selection-rules.md": "0fcaa30463adbab1d0f44c5c09d42ab246bac9b9c1e7aa5dd7298f0b5aabed06",
-    "gzh-benchmark-radar/scripts/ingest.py": "2261ed8ccb778d4f8a15f5e4409bf72eef1d7ec89c54a2f74dc353ef3466e037",
+    "gzh-benchmark-radar/scripts/ingest.py": "336ce9cb255783f096bbf9ca7d6a3134afcfd225759d6ff639447cd2c1adb37d",
     "gzh-benchmark-radar/tests/cases.md": "1c823aac03d94dbe77e2c32a89e8e6cd00889dabd0d46c11774ffd34614b2636",
-    "gzh-benchmark-radar/tests/test_ingest.py": "c871ca07f6261605e64f63d9b79f02c292f4768b12c9bb3d2042a803e2033cd6"
+    "gzh-benchmark-radar/tests/test_ingest.py": "d0d3ce7f028ccb8662b2e36755f27191829bc4d80fdc7ff5dcb0c3dc49357da0"
   },
   "skill_commits": {
     "md-wechat-layout": "7137fdc76015cc3e5ced9df6ebf15c1acdf4c7dd",
@@ -94,6 +94,6 @@
     "gzh-daily-pipeline": "2c868c6eac05d3b0373a614f2fdb6d8bc350ce7a",
     "gzh-topic-planning": "e78e17df181682500b6725707bcddd2b3c0968d0",
     "gzh-benchmark-deconstruct": "e78e17df181682500b6725707bcddd2b3c0968d0",
-    "gzh-benchmark-radar": "e78e17df181682500b6725707bcddd2b3c0968d0"
+    "gzh-benchmark-radar": "9c8e68d69632ba65973d198682457dccbf7c7a68"
   }
 }

@@ -34,12 +34,15 @@
 
 ## 工作空间公众号技能
 
-项目级技能安装在 `.agents/skills/`，来源为 https://github.com/yuxiang1987/dream-skills，安装版本 `08267413a872aaf2a389cff65c29848497287afc`。
+项目级技能安装在 `.agents/skills/`，来源为 https://github.com/yuxiang1987/dream-skills，各技能独立版本与全文件哈希见 `scripts/installed_skills.json`。
 
 - `wechat-article-writing`：公众号案例策划、正文写作和改稿。
 - `gzh-final-check`：最终定稿检查。
 - `gzh-webchat-cover`：公众号横版封面。
 - `md-wechat-layout`：Markdown 转微信公众号富文本排版；首次使用前在技能目录运行 `npm ci` 安装依赖。
+- `gzh-topic-planning`：选题编辑，六类来源＋八类切入点，至多3候选推荐1个。
+- `gzh-benchmark-deconstruct`：对标文章拆解，逐篇 source＋案例卡，默认增量入库。
+- `gzh-benchmark-radar`：对标雷达，采集未入库文章、算阅读基线、聚同题事件、出候选素材；每日 9:30 由 Orca 自动化 `对标雷达每日9:30` 调用 `scripts/ingest.py daily`。
 
 这些目录是工作空间安装副本，技能源码仍由 dream-skills 仓库维护。可通过 `$技能名` 调用。
 
