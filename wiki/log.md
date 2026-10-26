@@ -922,3 +922,10 @@
 - `gzh-topic-planning` 筛候选一步补题材口径（面试问答、薪资职级、人物八卦、纯资讯转述不进候选），新增1行回归用例；源码提交 `d9000be` 已推送，安装副本与清单同步。
 - 验证：`python scripts/wiki_lint.py` 通过（442页，仅5项既有空sources警告）；`test_installed_skills.py` 5项、`test_distillation_coverage.py` 2项通过。
 
+## [2026-10-26] topic | 候选表改为四列并重排当前候选
+
+- 作者反馈候选表列太多、看不懂。`gzh-topic-planning` 默认交付改为固定四列：候选／切入角度／对标出处／日期；时效、材料、条件与缺口不再塞进表内，时效只在过期或有截止日时表下补一行，材料与缺口放进推荐题展开。补1行回归用例。
+- [[topics/公众号每日选题决策]] 候选表按新格式重写，四条附真实 source 链接与原文日期；推荐题改为「给 Agent 写常驻规矩，看会不会少改超范围」，含目标读者、最小实测两轮对照、可展示证据、退出条件与待核项。
+- 源码提交已推送，安装副本与 `installed_skills.json` 同步；未选定选题、未开始实测、未替作者判断优先级。
+- 验证：`python scripts/wiki_lint.py` 通过（442页，仅5项既有空sources警告）；`test_installed_skills.py` 5项、`test_distillation_coverage.py` 2项通过。
+
