@@ -827,4 +827,15 @@
 - 按用户指令创建 [[entities/卡尔的AI沃茨]]，纳入 [[topics/公众号每日选题决策]] 对标范围，保留已有账号，与资讯来源分工区分；更新索引入口及页数。
 - 未检索到库内对应文章资料，依据本次用户指令登记，sources留空并说明依据。账号唯一身份、文章与互动基线待核验，不登记为已采集或拆解。
 - 未修改raw或Skill，未调用付费接口；仅提交本轮4份wiki文件，保留无关改动。
-- 验证：`python scripts/wiki_lint.py` 通过，扫描175页（含索引与日志）；9项空sources警告，新增账号因仅有用户指令明确留空，其余8项既有。`python -m unittest discover -s scripts -p test_distillation_coverage.py` 两项通过。复用结构与来源覆盖验证，不新增绑定名称或正文措辞的测试；提交推送结果在交付消息报告。
+- 验证：`python scripts/wiki_lint.py` 通过，扫描175页（含索引和日志）；9项空sources警告，新增账号因仅有用户指令明确留空，其余8项既有。`python -m unittest discover -s scripts -p test_distillation_coverage.py` 两项通过。复用结构与真实来源覆盖验证，不新增绑定名称或正文措辞的测试；提交推送结果在交付消息报告。
+
+## [2026-10-26] research | 公众号流水线多Agent化改造评估
+
+- 用户要求调研 omp 的多Agent协作工作流，并判断现有公众号工作流Skill改造成多Agent是否更好、难度在哪、是否更方便。本轮只做调研与评估，不改造 Skill、不新建 `.omp/agents/`、不改流水线脚本。
+- 新增 [[comparisons/公众号流水线多Agent化改造评估]]，更新 [[topics/公众号Skill流水线设计]]（增加多Agent化改造评估小节与相关页面链接）与 `wiki/index.md`（新增对比入口，页数173改174）。
+- 结论：只改两处——S1选题改为按来源类别并行只读搜集、S4定稿检查改为按层并行检查；S0、S2实测、S3写作、S5排版、S6入库保持单代理顺序执行，四个人工关口不动。
+- 库内取证来自 [[sources/Buzz多Agent协作文章拆解]]、[[sources/苍何Hermes多Agent军团文章拆解]]、[[sources/EvoX蜂群与经验复用文章拆解]]、[[sources/小林GraphEngineering文章拆解]]、[[sources/豆包Seed-Evolving实测文章拆解]]；协调成本、token差、墙钟差与人工介入次数均未实测，页面标为未验证项，不据此推断发布节奏或收益。
+- 本次会话做了只读探针：验证子代理可调 `web_search`、可读 `skill://gzh-topic-planning`、可读 `E:/work/wechat-assistant/pipeline` 下真实运行产物；并实跑两路并行的 S1 选题搜集（外部官方变化一路、库内旧文延伸一路），两路均守住「不凑候选数、不编造读者反馈、不把官方宣称写成亲测」边界。探针未修改任何文件、Skill或配置。
+- 新增 `scripts/test_multiagent_evaluation.py`，校验评估页的 frontmatter、来源文件真实存在、内部双链可解析、从索引与流水线设计页可达，并禁止出现未经测量的收益断言。
+- 验证：`python scripts/wiki_lint.py` 通过，扫描176页（含索引和日志），仅9项既有空sources警告。`python -m unittest discover -s scripts -p test_multiagent_evaluation.py` 四项通过；`test_repository_rules.py` 三项、`test_gzh_daily_pipeline.py` 四项通过。`test_distillation_coverage.py` 的原始资料覆盖项在本轮之前已因工作区新增的 `raw/article/chenmowanger/最新30篇采集-2026-10-26/` 等未入库资料而失败，与本轮改动无关，未修改该测试。
+- 未修改 raw，未纳入工作区已有的其他 raw 改动与无关临时脚本；提交仅含本轮知识页、索引、日志与验收脚本，推送结果在交付消息报告。
