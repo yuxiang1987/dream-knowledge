@@ -1,0 +1,1804 @@
+{
+  "policy": "list_create_time用于选取与排序；published保留详情时间；差异不静默修正，见timestamp-differences.json",
+  "differences": [
+    {
+      "account": "路人甲TM",
+      "rank": 1,
+      "id": "2247523699:1",
+      "detail_published": "2026-10-21 21:24",
+      "list_time": "2026-10-21 21:22"
+    },
+    {
+      "account": "路人甲TM",
+      "rank": 2,
+      "id": "2247523656:1",
+      "detail_published": "2026-10-20 18:26",
+      "list_time": "2026-10-20 18:25"
+    },
+    {
+      "account": "路人甲TM",
+      "rank": 3,
+      "id": "2247523573:1",
+      "detail_published": "2026-10-19 09:41",
+      "list_time": "2026-10-19 09:39"
+    },
+    {
+      "account": "路人甲TM",
+      "rank": 4,
+      "id": "2247523536:1",
+      "detail_published": "2026-10-16 12:56",
+      "list_time": "2026-10-16 12:55"
+    },
+    {
+      "account": "路人甲TM",
+      "rank": 5,
+      "id": "2247523424:1",
+      "detail_published": "2026-10-14 21:04",
+      "list_time": "2026-10-14 21:03"
+    },
+    {
+      "account": "路人甲TM",
+      "rank": 6,
+      "id": "2247523210:1",
+      "detail_published": "2026-10-13 17:32",
+      "list_time": "2026-10-13 17:31"
+    },
+    {
+      "account": "路人甲TM",
+      "rank": 7,
+      "id": "2247523083:1",
+      "detail_published": "2026-10-10 14:25",
+      "list_time": "2026-10-10 14:24"
+    },
+    {
+      "account": "路人甲TM",
+      "rank": 8,
+      "id": "2247523078:1",
+      "detail_published": "2026-10-09 23:09",
+      "list_time": "2026-10-09 23:08"
+    },
+    {
+      "account": "路人甲TM",
+      "rank": 9,
+      "id": "2247523024:1",
+      "detail_published": "2026-10-08 18:27",
+      "list_time": "2026-10-08 18:26"
+    },
+    {
+      "account": "路人甲TM",
+      "rank": 10,
+      "id": "2247522859:1",
+      "detail_published": "2026-09-28 17:26",
+      "list_time": "2026-09-28 17:25"
+    },
+    {
+      "account": "路人甲TM",
+      "rank": 11,
+      "id": "2247522854:1",
+      "detail_published": "2026-09-27 21:15",
+      "list_time": "2026-09-27 21:14"
+    },
+    {
+      "account": "路人甲TM",
+      "rank": 12,
+      "id": "2247522803:1",
+      "detail_published": "2026-09-25 21:00",
+      "list_time": "2026-09-25 20:43"
+    },
+    {
+      "account": "路人甲TM",
+      "rank": 13,
+      "id": "2247522746:1",
+      "detail_published": "2026-09-24 22:45",
+      "list_time": "2026-09-24 22:44"
+    },
+    {
+      "account": "路人甲TM",
+      "rank": 14,
+      "id": "2247522631:1",
+      "detail_published": "2026-09-23 23:40",
+      "list_time": "2026-09-23 23:39"
+    },
+    {
+      "account": "路人甲TM",
+      "rank": 16,
+      "id": "2247522593:1",
+      "detail_published": "2026-09-22 21:24",
+      "list_time": "2026-09-22 21:23"
+    },
+    {
+      "account": "路人甲TM",
+      "rank": 17,
+      "id": "2247522471:1",
+      "detail_published": "2026-09-21 20:03",
+      "list_time": "2026-09-21 20:00"
+    },
+    {
+      "account": "路人甲TM",
+      "rank": 19,
+      "id": "2247522363:1",
+      "detail_published": "2026-09-20 23:11",
+      "list_time": "2026-09-20 23:10"
+    },
+    {
+      "account": "路人甲TM",
+      "rank": 21,
+      "id": "2247521899:1",
+      "detail_published": "2026-09-14 16:42",
+      "list_time": "2026-09-14 16:41"
+    },
+    {
+      "account": "路人甲TM",
+      "rank": 22,
+      "id": "2247521712:1",
+      "detail_published": "2026-09-12 10:32",
+      "list_time": "2026-09-12 10:31"
+    },
+    {
+      "account": "路人甲TM",
+      "rank": 23,
+      "id": "2247521658:1",
+      "detail_published": "2026-09-10 18:28",
+      "list_time": "2026-09-10 18:27"
+    },
+    {
+      "account": "路人甲TM",
+      "rank": 24,
+      "id": "2247521547:1",
+      "detail_published": "2026-09-09 16:40",
+      "list_time": "2026-09-09 16:39"
+    },
+    {
+      "account": "路人甲TM",
+      "rank": 25,
+      "id": "2247521447:1",
+      "detail_published": "2026-09-08 18:06",
+      "list_time": "2026-09-08 18:04"
+    },
+    {
+      "account": "路人甲TM",
+      "rank": 26,
+      "id": "2247521438:1",
+      "detail_published": "2026-09-07 18:45",
+      "list_time": "2026-09-07 18:44"
+    },
+    {
+      "account": "摸鱼小李",
+      "rank": 1,
+      "id": "2247491350:1",
+      "detail_published": "2026-10-25 22:08",
+      "list_time": "2026-10-25 22:07"
+    },
+    {
+      "account": "摸鱼小李",
+      "rank": 2,
+      "id": "2247491310:1",
+      "detail_published": "2026-10-24 08:44",
+      "list_time": "2026-10-24 08:43"
+    },
+    {
+      "account": "摸鱼小李",
+      "rank": 3,
+      "id": "2247491264:1",
+      "detail_published": "2026-10-23 21:15",
+      "list_time": "2026-10-23 21:14"
+    },
+    {
+      "account": "摸鱼小李",
+      "rank": 4,
+      "id": "2247491235:1",
+      "detail_published": "2026-10-21 16:43",
+      "list_time": "2026-10-21 16:41"
+    },
+    {
+      "account": "摸鱼小李",
+      "rank": 5,
+      "id": "2247491136:1",
+      "detail_published": "2026-10-20 17:45",
+      "list_time": "2026-10-20 17:44"
+    },
+    {
+      "account": "摸鱼小李",
+      "rank": 6,
+      "id": "2247491103:1",
+      "detail_published": "2026-10-19 09:24",
+      "list_time": "2026-10-19 09:23"
+    },
+    {
+      "account": "摸鱼小李",
+      "rank": 7,
+      "id": "2247491050:1",
+      "detail_published": "2026-10-10 20:09",
+      "list_time": "2026-10-10 20:08"
+    },
+    {
+      "account": "摸鱼小李",
+      "rank": 8,
+      "id": "2247491022:1",
+      "detail_published": "2026-10-09 23:31",
+      "list_time": "2026-10-09 23:30"
+    },
+    {
+      "account": "摸鱼小李",
+      "rank": 9,
+      "id": "2247490883:1",
+      "detail_published": "2026-10-08 09:30",
+      "list_time": "2026-10-08 09:29"
+    },
+    {
+      "account": "摸鱼小李",
+      "rank": 10,
+      "id": "2247490028:1",
+      "detail_published": "2026-09-24 18:21",
+      "list_time": "2026-09-24 18:20"
+    },
+    {
+      "account": "摸鱼小李",
+      "rank": 11,
+      "id": "2247489980:1",
+      "detail_published": "2026-09-22 20:43",
+      "list_time": "2026-09-22 20:42"
+    },
+    {
+      "account": "摸鱼小李",
+      "rank": 12,
+      "id": "2247489823:1",
+      "detail_published": "2026-09-20 19:01",
+      "list_time": "2026-09-20 19:00"
+    },
+    {
+      "account": "摸鱼小李",
+      "rank": 13,
+      "id": "2247489775:1",
+      "detail_published": "2026-09-17 09:59",
+      "list_time": "2026-09-17 09:58"
+    },
+    {
+      "account": "摸鱼小李",
+      "rank": 15,
+      "id": "2247489587:1",
+      "detail_published": "2026-09-09 22:06",
+      "list_time": "2026-09-09 22:05"
+    },
+    {
+      "account": "摸鱼小李",
+      "rank": 16,
+      "id": "2247489515:1",
+      "detail_published": "2026-09-04 16:52",
+      "list_time": "2026-09-04 16:51"
+    },
+    {
+      "account": "摸鱼小李",
+      "rank": 17,
+      "id": "2247489417:1",
+      "detail_published": "2026-09-03 23:47",
+      "list_time": "2026-09-03 23:46"
+    },
+    {
+      "account": "摸鱼小李",
+      "rank": 18,
+      "id": "2247489369:1",
+      "detail_published": "2026-09-02 16:14",
+      "list_time": "2026-09-02 16:13"
+    },
+    {
+      "account": "摸鱼小李",
+      "rank": 19,
+      "id": "2247489187:1",
+      "detail_published": "2026-09-01 16:30",
+      "list_time": "2026-09-01 16:29"
+    },
+    {
+      "account": "摸鱼小李",
+      "rank": 20,
+      "id": "2247489132:1",
+      "detail_published": "2026-08-31 22:54",
+      "list_time": "2026-08-31 22:53"
+    },
+    {
+      "account": "摸鱼小李",
+      "rank": 22,
+      "id": "2247488758:1",
+      "detail_published": "2026-08-25 15:33",
+      "list_time": "2026-08-25 15:32"
+    },
+    {
+      "account": "摸鱼小李",
+      "rank": 23,
+      "id": "2247488675:1",
+      "detail_published": "2026-08-21 17:37",
+      "list_time": "2026-08-21 17:35"
+    },
+    {
+      "account": "摸鱼小李",
+      "rank": 24,
+      "id": "2247488643:1",
+      "detail_published": "2026-08-19 19:53",
+      "list_time": "2026-08-19 19:50"
+    },
+    {
+      "account": "摸鱼小李",
+      "rank": 25,
+      "id": "2247488597:1",
+      "detail_published": "2026-08-18 20:53",
+      "list_time": "2026-08-18 20:52"
+    },
+    {
+      "account": "摸鱼小李",
+      "rank": 27,
+      "id": "2247488501:1",
+      "detail_published": "2026-08-15 12:14",
+      "list_time": "2026-08-15 12:13"
+    },
+    {
+      "account": "摸鱼小李",
+      "rank": 28,
+      "id": "2247488466:1",
+      "detail_published": "2026-08-07 21:31",
+      "list_time": "2026-08-07 21:30"
+    },
+    {
+      "account": "摸鱼小李",
+      "rank": 29,
+      "id": "2247488398:1",
+      "detail_published": "2026-07-31 22:11",
+      "list_time": "2026-07-31 22:10"
+    },
+    {
+      "account": "摸鱼小李",
+      "rank": 30,
+      "id": "2247488245:1",
+      "detail_published": "2026-07-27 11:58",
+      "list_time": "2026-07-27 11:57"
+    },
+    {
+      "account": "小林coding",
+      "rank": 1,
+      "id": "2247565696:1",
+      "detail_published": "2026-10-24 17:15",
+      "list_time": "2026-10-24 16:47"
+    },
+    {
+      "account": "小林coding",
+      "rank": 2,
+      "id": "2247565416:1",
+      "detail_published": "2026-10-23 14:12",
+      "list_time": "2026-10-22 14:36"
+    },
+    {
+      "account": "小林coding",
+      "rank": 3,
+      "id": "2247565416:2",
+      "detail_published": "2026-10-23 14:12",
+      "list_time": "2026-10-22 14:36"
+    },
+    {
+      "account": "小林coding",
+      "rank": 4,
+      "id": "2247565385:1",
+      "detail_published": "2026-10-21 16:12",
+      "list_time": "2026-10-21 15:59"
+    },
+    {
+      "account": "小林coding",
+      "rank": 5,
+      "id": "2247565305:1",
+      "detail_published": "2026-10-19 21:06",
+      "list_time": "2026-10-19 20:53"
+    },
+    {
+      "account": "小林coding",
+      "rank": 6,
+      "id": "2247565254:1",
+      "detail_published": "2026-10-20 15:26",
+      "list_time": "2026-10-19 11:33"
+    },
+    {
+      "account": "小林coding",
+      "rank": 7,
+      "id": "2247565251:1",
+      "detail_published": "2026-10-18 10:46",
+      "list_time": "2026-10-18 10:29"
+    },
+    {
+      "account": "小林coding",
+      "rank": 8,
+      "id": "2247565110:1",
+      "detail_published": "2026-10-17 15:26",
+      "list_time": "2026-10-16 14:12"
+    },
+    {
+      "account": "小林coding",
+      "rank": 9,
+      "id": "2247565015:2",
+      "detail_published": "2026-10-16 14:12",
+      "list_time": "2026-10-15 16:51"
+    },
+    {
+      "account": "小林coding",
+      "rank": 10,
+      "id": "2247565006:1",
+      "detail_published": "2026-10-15 14:12",
+      "list_time": "2026-10-15 13:35"
+    },
+    {
+      "account": "小林coding",
+      "rank": 11,
+      "id": "2247565001:1",
+      "detail_published": "2026-10-14 17:06",
+      "list_time": "2026-10-14 16:55"
+    },
+    {
+      "account": "小林coding",
+      "rank": 12,
+      "id": "2247564880:1",
+      "detail_published": "2026-10-13 10:42",
+      "list_time": "2026-10-12 21:07"
+    },
+    {
+      "account": "小林coding",
+      "rank": 13,
+      "id": "2247564842:1",
+      "detail_published": "2026-10-12 14:12",
+      "list_time": "2026-10-12 10:17"
+    },
+    {
+      "account": "小林coding",
+      "rank": 14,
+      "id": "2247564808:2",
+      "detail_published": "2026-10-10 14:12",
+      "list_time": "2026-10-09 13:54"
+    },
+    {
+      "account": "小林coding",
+      "rank": 15,
+      "id": "2247564796:1",
+      "detail_published": "2026-10-09 14:12",
+      "list_time": "2026-10-08 14:23"
+    },
+    {
+      "account": "小林coding",
+      "rank": 16,
+      "id": "2247564791:1",
+      "detail_published": "2026-10-05 14:12",
+      "list_time": "2026-10-04 14:16"
+    },
+    {
+      "account": "小林coding",
+      "rank": 17,
+      "id": "2247564705:1",
+      "detail_published": "2026-10-01 22:02",
+      "list_time": "2026-10-01 21:42"
+    },
+    {
+      "account": "小林coding",
+      "rank": 18,
+      "id": "2247564483:1",
+      "detail_published": "2026-09-30 14:12",
+      "list_time": "2026-09-30 12:27"
+    },
+    {
+      "account": "小林coding",
+      "rank": 19,
+      "id": "2247564423:1",
+      "detail_published": "2026-09-29 10:42",
+      "list_time": "2026-09-26 22:32"
+    },
+    {
+      "account": "小林coding",
+      "rank": 20,
+      "id": "2247564422:1",
+      "detail_published": "2026-09-27 15:16",
+      "list_time": "2026-09-26 22:29"
+    },
+    {
+      "account": "小林coding",
+      "rank": 21,
+      "id": "2247564379:1",
+      "detail_published": "2026-09-25 15:56",
+      "list_time": "2026-09-25 15:53"
+    },
+    {
+      "account": "小林coding",
+      "rank": 22,
+      "id": "2247564277:2",
+      "detail_published": "2026-09-28 14:12",
+      "list_time": "2026-09-24 17:13"
+    },
+    {
+      "account": "小林coding",
+      "rank": 23,
+      "id": "2247564264:1",
+      "detail_published": "2026-09-24 15:15",
+      "list_time": "2026-09-24 12:47"
+    },
+    {
+      "account": "小林coding",
+      "rank": 24,
+      "id": "2247564224:1",
+      "detail_published": "2026-09-23 22:02",
+      "list_time": "2026-09-23 21:56"
+    },
+    {
+      "account": "小林coding",
+      "rank": 25,
+      "id": "2247564174:2",
+      "detail_published": "2026-09-22 14:12",
+      "list_time": "2026-09-21 17:17"
+    },
+    {
+      "account": "小林coding",
+      "rank": 26,
+      "id": "2247564161:1",
+      "detail_published": "2026-09-21 10:42",
+      "list_time": "2026-09-20 21:33"
+    },
+    {
+      "account": "小林coding",
+      "rank": 27,
+      "id": "2247564058:2",
+      "detail_published": "2026-09-20 14:12",
+      "list_time": "2026-09-19 19:13"
+    },
+    {
+      "account": "小林coding",
+      "rank": 28,
+      "id": "2247563930:1",
+      "detail_published": "2026-09-18 17:55",
+      "list_time": "2026-09-18 17:54"
+    },
+    {
+      "account": "小林coding",
+      "rank": 29,
+      "id": "2247563808:1",
+      "detail_published": "2026-09-17 10:12",
+      "list_time": "2026-09-16 21:51"
+    },
+    {
+      "account": "小林coding",
+      "rank": 30,
+      "id": "2247563726:2",
+      "detail_published": "2026-09-16 14:12",
+      "list_time": "2026-09-15 20:19"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 1,
+      "id": "2247512453:1",
+      "detail_published": "2026-10-22 19:01",
+      "list_time": "2026-10-22 18:56"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 2,
+      "id": "2247512425:1",
+      "detail_published": "2026-10-20 11:24",
+      "list_time": "2026-10-20 11:20"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 3,
+      "id": "2247512399:1",
+      "detail_published": "2026-10-19 18:26",
+      "list_time": "2026-10-19 18:21"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 4,
+      "id": "2247512359:1",
+      "detail_published": "2026-10-16 09:54",
+      "list_time": "2026-10-16 03:22"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 5,
+      "id": "2247512337:1",
+      "detail_published": "2026-10-14 17:25",
+      "list_time": "2026-10-14 17:24"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 6,
+      "id": "2247512309:1",
+      "detail_published": "2026-10-14 14:03",
+      "list_time": "2026-10-14 13:58"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 7,
+      "id": "2247512301:1",
+      "detail_published": "2026-10-13 12:24",
+      "list_time": "2026-10-13 12:19"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 8,
+      "id": "2247512286:1",
+      "detail_published": "2026-10-10 09:45",
+      "list_time": "2026-10-10 02:39"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 10,
+      "id": "2247512215:1",
+      "detail_published": "2026-10-08 20:44",
+      "list_time": "2026-10-08 20:39"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 11,
+      "id": "2247512190:1",
+      "detail_published": "2026-10-02 18:07",
+      "list_time": "2026-10-02 18:06"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 12,
+      "id": "2247512022:1",
+      "detail_published": "2026-09-30 07:07",
+      "list_time": "2026-09-30 03:43"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 13,
+      "id": "2247512007:1",
+      "detail_published": "2026-09-29 19:38",
+      "list_time": "2026-09-29 19:33"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 14,
+      "id": "2247511963:1",
+      "detail_published": "2026-09-26 17:00",
+      "list_time": "2026-09-26 15:22"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 15,
+      "id": "2247511896:1",
+      "detail_published": "2026-09-24 20:30",
+      "list_time": "2026-09-24 20:25"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 16,
+      "id": "2247511745:1",
+      "detail_published": "2026-09-23 18:45",
+      "list_time": "2026-09-23 18:44"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 17,
+      "id": "2247511677:1",
+      "detail_published": "2026-09-23 07:07",
+      "list_time": "2026-09-23 06:05"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 18,
+      "id": "2247511621:1",
+      "detail_published": "2026-09-22 11:27",
+      "list_time": "2026-09-22 11:26"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 19,
+      "id": "2247511578:1",
+      "detail_published": "2026-09-21 16:20",
+      "list_time": "2026-09-21 16:19"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 20,
+      "id": "2247511489:1",
+      "detail_published": "2026-09-19 12:04",
+      "list_time": "2026-09-19 12:03"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 21,
+      "id": "2247511475:1",
+      "detail_published": "2026-09-17 13:08",
+      "list_time": "2026-09-17 13:07"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 22,
+      "id": "2247511361:1",
+      "detail_published": "2026-09-16 15:18",
+      "list_time": "2026-09-16 15:16"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 23,
+      "id": "2247511249:1",
+      "detail_published": "2026-09-14 22:03",
+      "list_time": "2026-09-14 22:02"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 24,
+      "id": "2247511178:1",
+      "detail_published": "2026-09-13 17:08",
+      "list_time": "2026-09-13 15:19"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 25,
+      "id": "2247511119:1",
+      "detail_published": "2026-09-11 12:24",
+      "list_time": "2026-09-11 12:23"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 26,
+      "id": "2247510998:1",
+      "detail_published": "2026-09-10 18:18",
+      "list_time": "2026-09-10 18:13"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 27,
+      "id": "2247510920:1",
+      "detail_published": "2026-09-09 23:31",
+      "list_time": "2026-09-09 23:26"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 28,
+      "id": "2247510824:1",
+      "detail_published": "2026-09-09 08:27",
+      "list_time": "2026-09-09 08:15"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 29,
+      "id": "2247510740:1",
+      "detail_published": "2026-09-08 11:30",
+      "list_time": "2026-09-08 11:29"
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rank": 30,
+      "id": "2247510661:1",
+      "detail_published": "2026-09-07 14:34",
+      "list_time": "2026-09-07 14:30"
+    },
+    {
+      "account": "苍何",
+      "rank": 1,
+      "id": "2247500617:1",
+      "detail_published": "2026-10-25 17:08",
+      "list_time": "2026-10-25 16:58"
+    },
+    {
+      "account": "苍何",
+      "rank": 2,
+      "id": "2247500606:1",
+      "detail_published": "2026-10-21 09:08",
+      "list_time": "2026-10-20 22:31"
+    },
+    {
+      "account": "苍何",
+      "rank": 3,
+      "id": "2247500589:1",
+      "detail_published": "2026-10-16 15:58",
+      "list_time": "2026-10-16 15:53"
+    },
+    {
+      "account": "苍何",
+      "rank": 4,
+      "id": "2247500554:1",
+      "detail_published": "2026-10-14 09:08",
+      "list_time": "2026-10-14 01:43"
+    },
+    {
+      "account": "苍何",
+      "rank": 5,
+      "id": "2247500549:1",
+      "detail_published": "2026-10-12 20:23",
+      "list_time": "2026-10-12 20:22"
+    },
+    {
+      "account": "苍何",
+      "rank": 6,
+      "id": "2247500510:1",
+      "detail_published": "2026-10-10 15:18",
+      "list_time": "2026-10-10 15:02"
+    },
+    {
+      "account": "苍何",
+      "rank": 7,
+      "id": "2247500501:1",
+      "detail_published": "2026-10-09 14:08",
+      "list_time": "2026-10-09 12:32"
+    },
+    {
+      "account": "苍何",
+      "rank": 8,
+      "id": "2247500467:1",
+      "detail_published": "2026-10-04 14:08",
+      "list_time": "2026-10-04 12:40"
+    },
+    {
+      "account": "苍何",
+      "rank": 10,
+      "id": "2247500450:1",
+      "detail_published": "2026-09-27 10:08",
+      "list_time": "2026-09-26 22:23"
+    },
+    {
+      "account": "苍何",
+      "rank": 12,
+      "id": "2247500394:1",
+      "detail_published": "2026-09-21 19:08",
+      "list_time": "2026-09-21 18:59"
+    },
+    {
+      "account": "苍何",
+      "rank": 13,
+      "id": "2247500394:2",
+      "detail_published": "2026-09-21 19:08",
+      "list_time": "2026-09-21 18:59"
+    },
+    {
+      "account": "苍何",
+      "rank": 14,
+      "id": "2247500369:1",
+      "detail_published": "2026-09-20 14:32",
+      "list_time": "2026-09-20 14:27"
+    },
+    {
+      "account": "苍何",
+      "rank": 15,
+      "id": "2247500362:1",
+      "detail_published": "2026-09-19 14:08",
+      "list_time": "2026-09-19 13:26"
+    },
+    {
+      "account": "苍何",
+      "rank": 16,
+      "id": "2247500349:1",
+      "detail_published": "2026-09-17 09:08",
+      "list_time": "2026-09-16 20:36"
+    },
+    {
+      "account": "苍何",
+      "rank": 17,
+      "id": "2247500313:1",
+      "detail_published": "2026-09-16 17:00",
+      "list_time": "2026-09-16 16:37"
+    },
+    {
+      "account": "苍何",
+      "rank": 18,
+      "id": "2247500259:1",
+      "detail_published": "2026-09-15 21:21",
+      "list_time": "2026-09-15 21:20"
+    },
+    {
+      "account": "苍何",
+      "rank": 19,
+      "id": "2247500226:1",
+      "detail_published": "2026-09-14 09:08",
+      "list_time": "2026-09-14 00:45"
+    },
+    {
+      "account": "苍何",
+      "rank": 21,
+      "id": "2247500167:1",
+      "detail_published": "2026-09-12 09:08",
+      "list_time": "2026-09-11 19:27"
+    },
+    {
+      "account": "苍何",
+      "rank": 22,
+      "id": "2247500129:1",
+      "detail_published": "2026-09-11 09:08",
+      "list_time": "2026-09-10 19:57"
+    },
+    {
+      "account": "苍何",
+      "rank": 23,
+      "id": "2247500092:1",
+      "detail_published": "2026-09-09 15:08",
+      "list_time": "2026-09-09 14:47"
+    },
+    {
+      "account": "苍何",
+      "rank": 24,
+      "id": "2247500075:1",
+      "detail_published": "2026-09-08 14:08",
+      "list_time": "2026-09-08 12:30"
+    },
+    {
+      "account": "苍何",
+      "rank": 25,
+      "id": "2247500006:1",
+      "detail_published": "2026-09-07 12:08",
+      "list_time": "2026-09-07 11:27"
+    },
+    {
+      "account": "苍何",
+      "rank": 26,
+      "id": "2247499973:1",
+      "detail_published": "2026-09-06 09:08",
+      "list_time": "2026-09-06 03:35"
+    },
+    {
+      "account": "苍何",
+      "rank": 27,
+      "id": "2247499759:1",
+      "detail_published": "2026-09-01 16:30",
+      "list_time": "2026-09-01 15:44"
+    },
+    {
+      "account": "苍何",
+      "rank": 28,
+      "id": "2247499748:1",
+      "detail_published": "2026-08-31 17:30",
+      "list_time": "2026-08-31 17:29"
+    },
+    {
+      "account": "苍何",
+      "rank": 29,
+      "id": "2247499732:1",
+      "detail_published": "2026-08-30 18:20",
+      "list_time": "2026-08-30 18:19"
+    },
+    {
+      "account": "苍何",
+      "rank": 30,
+      "id": "2247499700:1",
+      "detail_published": "2026-08-28 14:37",
+      "list_time": "2026-08-28 14:36"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 1,
+      "id": "2247551357:1",
+      "detail_published": "2026-10-23 15:18",
+      "list_time": "2026-10-23 15:14"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 2,
+      "id": "2247551340:1",
+      "detail_published": "2026-10-21 14:23",
+      "list_time": "2026-10-21 13:18"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 3,
+      "id": "2247551326:1",
+      "detail_published": "2026-10-22 14:13",
+      "list_time": "2026-10-20 19:14"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 4,
+      "id": "2247551277:1",
+      "detail_published": "2026-10-20 15:00",
+      "list_time": "2026-10-20 14:55"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 5,
+      "id": "2247551257:1",
+      "detail_published": "2026-10-19 14:16",
+      "list_time": "2026-10-19 13:06"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 6,
+      "id": "2247551236:1",
+      "detail_published": "2026-10-16 14:23",
+      "list_time": "2026-10-16 10:44"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 7,
+      "id": "2247551222:1",
+      "detail_published": "2026-10-15 14:21",
+      "list_time": "2026-10-15 12:40"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 8,
+      "id": "2247551206:1",
+      "detail_published": "2026-10-14 14:15",
+      "list_time": "2026-10-13 20:29"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 9,
+      "id": "2247551101:1",
+      "detail_published": "2026-10-13 15:32",
+      "list_time": "2026-10-13 15:28"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 10,
+      "id": "2247551087:1",
+      "detail_published": "2026-10-12 14:17",
+      "list_time": "2026-10-12 09:57"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 11,
+      "id": "2247551052:1",
+      "detail_published": "2026-10-10 14:24",
+      "list_time": "2026-10-09 20:21"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 12,
+      "id": "2247550986:1",
+      "detail_published": "2026-10-08 16:24",
+      "list_time": "2026-10-08 16:20"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 13,
+      "id": "2247550968:1",
+      "detail_published": "2026-10-09 14:15",
+      "list_time": "2026-10-08 07:57"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 14,
+      "id": "2247550967:1",
+      "detail_published": "2026-09-30 15:49",
+      "list_time": "2026-09-30 15:44"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 15,
+      "id": "2247550841:1",
+      "detail_published": "2026-09-29 14:55",
+      "list_time": "2026-09-29 14:50"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 16,
+      "id": "2247550817:1",
+      "detail_published": "2026-09-28 14:15",
+      "list_time": "2026-09-28 13:47"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 17,
+      "id": "2247550793:1",
+      "detail_published": "2026-09-24 14:16",
+      "list_time": "2026-09-24 12:27"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 18,
+      "id": "2247550753:1",
+      "detail_published": "2026-09-22 14:16",
+      "list_time": "2026-09-22 14:12"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 19,
+      "id": "2247550733:1",
+      "detail_published": "2026-09-23 14:04",
+      "list_time": "2026-09-22 10:20"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 20,
+      "id": "2247550704:1",
+      "detail_published": "2026-09-21 14:23",
+      "list_time": "2026-09-20 20:42"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 21,
+      "id": "2247550642:1",
+      "detail_published": "2026-09-19 16:57",
+      "list_time": "2026-09-19 16:52"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 22,
+      "id": "2247550608:1",
+      "detail_published": "2026-09-18 16:46",
+      "list_time": "2026-09-18 16:43"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 23,
+      "id": "2247550559:1",
+      "detail_published": "2026-09-20 14:24",
+      "list_time": "2026-09-17 15:29"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 24,
+      "id": "2247550509:1",
+      "detail_published": "2026-09-16 14:24",
+      "list_time": "2026-09-16 12:57"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 25,
+      "id": "2247550419:1",
+      "detail_published": "2026-09-15 16:02",
+      "list_time": "2026-09-15 15:57"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 26,
+      "id": "2247550391:1",
+      "detail_published": "2026-09-17 14:24",
+      "list_time": "2026-09-14 16:15"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 27,
+      "id": "2247550347:1",
+      "detail_published": "2026-09-14 15:19",
+      "list_time": "2026-09-14 15:14"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 28,
+      "id": "2247550292:1",
+      "detail_published": "2026-09-11 14:24",
+      "list_time": "2026-09-11 12:20"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 29,
+      "id": "2247550252:1",
+      "detail_published": "2026-09-10 15:28",
+      "list_time": "2026-09-10 15:23"
+    },
+    {
+      "account": "沉默王二",
+      "rank": 30,
+      "id": "2247550192:1",
+      "detail_published": "2026-09-09 14:24",
+      "list_time": "2026-09-09 11:46"
+    },
+    {
+      "account": "洛洛AI说",
+      "rank": 1,
+      "id": "2247488618:1",
+      "detail_published": "2026-10-23 16:46",
+      "list_time": "2026-10-23 16:44"
+    },
+    {
+      "account": "洛洛AI说",
+      "rank": 2,
+      "id": "2247488578:1",
+      "detail_published": "2026-10-22 14:52",
+      "list_time": "2026-10-22 14:51"
+    },
+    {
+      "account": "洛洛AI说",
+      "rank": 3,
+      "id": "2247488491:1",
+      "detail_published": "2026-10-20 16:56",
+      "list_time": "2026-10-20 16:55"
+    },
+    {
+      "account": "洛洛AI说",
+      "rank": 4,
+      "id": "2247488399:1",
+      "detail_published": "2026-10-10 17:04",
+      "list_time": "2026-10-10 17:03"
+    },
+    {
+      "account": "洛洛AI说",
+      "rank": 5,
+      "id": "2247488270:1",
+      "detail_published": "2026-09-17 10:58",
+      "list_time": "2026-09-17 10:57"
+    },
+    {
+      "account": "洛洛AI说",
+      "rank": 6,
+      "id": "2247487610:1",
+      "detail_published": "2026-09-14 15:05",
+      "list_time": "2026-09-14 15:04"
+    },
+    {
+      "account": "洛洛AI说",
+      "rank": 7,
+      "id": "2247487451:1",
+      "detail_published": "2026-09-10 22:00",
+      "list_time": "2026-09-10 21:59"
+    },
+    {
+      "account": "洛洛AI说",
+      "rank": 8,
+      "id": "2247487401:1",
+      "detail_published": "2026-09-04 18:28",
+      "list_time": "2026-09-04 18:27"
+    },
+    {
+      "account": "洛洛AI说",
+      "rank": 12,
+      "id": "2247486766:1",
+      "detail_published": "2026-08-28 13:55",
+      "list_time": "2026-08-28 13:52"
+    },
+    {
+      "account": "洛洛AI说",
+      "rank": 13,
+      "id": "2247486196:1",
+      "detail_published": "2026-08-24 07:00",
+      "list_time": "2026-08-23 21:51"
+    },
+    {
+      "account": "洛洛AI说",
+      "rank": 14,
+      "id": "2247486175:1",
+      "detail_published": "2026-08-22 07:00",
+      "list_time": "2026-08-21 23:29"
+    },
+    {
+      "account": "洛洛AI说",
+      "rank": 15,
+      "id": "2247486103:1",
+      "detail_published": "2026-08-20 14:51",
+      "list_time": "2026-08-20 14:50"
+    },
+    {
+      "account": "洛洛AI说",
+      "rank": 18,
+      "id": "2247485825:1",
+      "detail_published": "2026-08-05 09:00",
+      "list_time": "2026-08-05 08:51"
+    },
+    {
+      "account": "洛洛AI说",
+      "rank": 19,
+      "id": "2247485760:1",
+      "detail_published": "2026-08-04 16:43",
+      "list_time": "2026-08-04 16:42"
+    },
+    {
+      "account": "洛洛AI说",
+      "rank": 21,
+      "id": "2247485394:1",
+      "detail_published": "2026-07-11 22:17",
+      "list_time": "2026-07-11 22:16"
+    },
+    {
+      "account": "洛洛AI说",
+      "rank": 22,
+      "id": "2247485349:1",
+      "detail_published": "2026-07-01 23:32",
+      "list_time": "2026-07-01 23:31"
+    },
+    {
+      "account": "洛洛AI说",
+      "rank": 23,
+      "id": "2247485086:1",
+      "detail_published": "2026-06-26 21:58",
+      "list_time": "2026-06-26 21:57"
+    },
+    {
+      "account": "洛洛AI说",
+      "rank": 24,
+      "id": "2247484917:1",
+      "detail_published": "2026-06-24 06:13",
+      "list_time": "2026-06-24 06:12"
+    },
+    {
+      "account": "洛洛AI说",
+      "rank": 25,
+      "id": "2247484871:1",
+      "detail_published": "2026-06-22 17:45",
+      "list_time": "2026-06-22 17:44"
+    },
+    {
+      "account": "洛洛AI说",
+      "rank": 27,
+      "id": "2247484605:1",
+      "detail_published": "2026-06-17 16:16",
+      "list_time": "2026-06-17 16:15"
+    },
+    {
+      "account": "洛洛AI说",
+      "rank": 29,
+      "id": "2247484341:1",
+      "detail_published": "2026-06-08 06:00",
+      "list_time": "2026-06-07 09:41"
+    },
+    {
+      "account": "洛洛AI说",
+      "rank": 30,
+      "id": "2247484062:1",
+      "detail_published": "2026-06-07 06:00",
+      "list_time": "2026-06-07 03:43"
+    },
+    {
+      "account": "郭震AI",
+      "rank": 1,
+      "id": "2247525604:1",
+      "detail_published": "2026-10-22 20:09",
+      "list_time": "2026-10-22 20:07"
+    },
+    {
+      "account": "郭震AI",
+      "rank": 2,
+      "id": "2247525554:1",
+      "detail_published": "2026-10-19 14:29",
+      "list_time": "2026-10-19 14:28"
+    },
+    {
+      "account": "郭震AI",
+      "rank": 3,
+      "id": "2247525523:1",
+      "detail_published": "2026-10-15 14:23",
+      "list_time": "2026-10-15 14:22"
+    },
+    {
+      "account": "郭震AI",
+      "rank": 4,
+      "id": "2247525475:1",
+      "detail_published": "2026-10-14 11:22",
+      "list_time": "2026-10-14 11:21"
+    },
+    {
+      "account": "郭震AI",
+      "rank": 7,
+      "id": "2247525363:1",
+      "detail_published": "2026-09-24 10:50",
+      "list_time": "2026-09-24 10:49"
+    },
+    {
+      "account": "郭震AI",
+      "rank": 8,
+      "id": "2247525362:1",
+      "detail_published": "2026-09-23 14:30",
+      "list_time": "2026-09-23 14:29"
+    },
+    {
+      "account": "郭震AI",
+      "rank": 9,
+      "id": "2247525270:1",
+      "detail_published": "2026-09-20 13:11",
+      "list_time": "2026-09-20 13:10"
+    },
+    {
+      "account": "郭震AI",
+      "rank": 10,
+      "id": "2247525208:1",
+      "detail_published": "2026-09-10 10:10",
+      "list_time": "2026-09-10 09:57"
+    },
+    {
+      "account": "郭震AI",
+      "rank": 13,
+      "id": "2247524901:1",
+      "detail_published": "2026-09-01 10:49",
+      "list_time": "2026-09-01 10:48"
+    },
+    {
+      "account": "郭震AI",
+      "rank": 14,
+      "id": "2247524834:1",
+      "detail_published": "2026-08-31 11:10",
+      "list_time": "2026-08-31 11:09"
+    },
+    {
+      "account": "郭震AI",
+      "rank": 15,
+      "id": "2247524735:1",
+      "detail_published": "2026-08-30 22:43",
+      "list_time": "2026-08-30 22:42"
+    },
+    {
+      "account": "郭震AI",
+      "rank": 16,
+      "id": "2247524731:1",
+      "detail_published": "2026-08-28 22:07",
+      "list_time": "2026-08-28 22:06"
+    },
+    {
+      "account": "郭震AI",
+      "rank": 17,
+      "id": "2247524681:1",
+      "detail_published": "2026-08-27 21:35",
+      "list_time": "2026-08-27 21:34"
+    },
+    {
+      "account": "郭震AI",
+      "rank": 19,
+      "id": "2247524519:1",
+      "detail_published": "2026-08-17 11:03",
+      "list_time": "2026-08-17 11:02"
+    },
+    {
+      "account": "郭震AI",
+      "rank": 20,
+      "id": "2247524376:1",
+      "detail_published": "2026-08-09 21:48",
+      "list_time": "2026-08-09 21:47"
+    },
+    {
+      "account": "郭震AI",
+      "rank": 21,
+      "id": "2247524275:1",
+      "detail_published": "2026-08-07 16:54",
+      "list_time": "2026-08-07 16:53"
+    },
+    {
+      "account": "郭震AI",
+      "rank": 22,
+      "id": "2247524213:1",
+      "detail_published": "2026-08-05 12:04",
+      "list_time": "2026-08-05 12:01"
+    },
+    {
+      "account": "郭震AI",
+      "rank": 23,
+      "id": "2247524147:1",
+      "detail_published": "2026-08-04 10:22",
+      "list_time": "2026-08-04 10:21"
+    },
+    {
+      "account": "郭震AI",
+      "rank": 25,
+      "id": "2247523873:1",
+      "detail_published": "2026-07-31 19:29",
+      "list_time": "2026-07-31 19:28"
+    },
+    {
+      "account": "郭震AI",
+      "rank": 26,
+      "id": "2247523780:1",
+      "detail_published": "2026-07-28 23:34",
+      "list_time": "2026-07-28 23:33"
+    },
+    {
+      "account": "郭震AI",
+      "rank": 28,
+      "id": "2247523600:1",
+      "detail_published": "2026-07-10 13:49",
+      "list_time": "2026-07-10 13:48"
+    },
+    {
+      "account": "郭震AI",
+      "rank": 30,
+      "id": "2247523515:1",
+      "detail_published": "2026-07-06 13:55",
+      "list_time": "2026-07-06 13:54"
+    },
+    {
+      "account": "西羊石AI视频",
+      "rank": 1,
+      "id": "2247545209:1",
+      "detail_published": "2026-10-24 17:52",
+      "list_time": "2026-10-24 17:51"
+    },
+    {
+      "account": "西羊石AI视频",
+      "rank": 2,
+      "id": "2247545164:1",
+      "detail_published": "2026-10-23 20:10",
+      "list_time": "2026-10-23 20:09"
+    },
+    {
+      "account": "西羊石AI视频",
+      "rank": 3,
+      "id": "2247545120:1",
+      "detail_published": "2026-10-20 12:26",
+      "list_time": "2026-10-20 12:24"
+    },
+    {
+      "account": "西羊石AI视频",
+      "rank": 4,
+      "id": "2247545061:1",
+      "detail_published": "2026-10-16 19:00",
+      "list_time": "2026-10-15 19:46"
+    },
+    {
+      "account": "西羊石AI视频",
+      "rank": 5,
+      "id": "2247545030:1",
+      "detail_published": "2026-10-14 08:00",
+      "list_time": "2026-10-13 21:38"
+    },
+    {
+      "account": "西羊石AI视频",
+      "rank": 6,
+      "id": "2247544978:1",
+      "detail_published": "2026-10-10 08:00",
+      "list_time": "2026-10-08 20:53"
+    },
+    {
+      "account": "西羊石AI视频",
+      "rank": 8,
+      "id": "2247543667:1",
+      "detail_published": "2026-09-23 20:00",
+      "list_time": "2026-09-23 15:09"
+    },
+    {
+      "account": "西羊石AI视频",
+      "rank": 9,
+      "id": "2247543529:1",
+      "detail_published": "2026-09-20 17:00",
+      "list_time": "2026-09-20 14:59"
+    },
+    {
+      "account": "西羊石AI视频",
+      "rank": 10,
+      "id": "2247543467:1",
+      "detail_published": "2026-09-16 20:03",
+      "list_time": "2026-09-16 20:00"
+    },
+    {
+      "account": "西羊石AI视频",
+      "rank": 11,
+      "id": "2247543404:1",
+      "detail_published": "2026-09-15 09:21",
+      "list_time": "2026-09-15 09:20"
+    },
+    {
+      "account": "西羊石AI视频",
+      "rank": 12,
+      "id": "2247543298:1",
+      "detail_published": "2026-09-14 16:45",
+      "list_time": "2026-09-14 16:44"
+    },
+    {
+      "account": "西羊石AI视频",
+      "rank": 13,
+      "id": "2247543234:1",
+      "detail_published": "2026-09-11 20:00",
+      "list_time": "2026-09-11 15:03"
+    },
+    {
+      "account": "西羊石AI视频",
+      "rank": 14,
+      "id": "2247543110:1",
+      "detail_published": "2026-09-10 08:00",
+      "list_time": "2026-09-10 02:39"
+    },
+    {
+      "account": "西羊石AI视频",
+      "rank": 16,
+      "id": "2247542825:1",
+      "detail_published": "2026-09-01 18:49",
+      "list_time": "2026-09-01 18:48"
+    },
+    {
+      "account": "西羊石AI视频",
+      "rank": 17,
+      "id": "2247542756:1",
+      "detail_published": "2026-08-31 17:17",
+      "list_time": "2026-08-31 17:16"
+    },
+    {
+      "account": "西羊石AI视频",
+      "rank": 18,
+      "id": "2247542663:1",
+      "detail_published": "2026-08-27 20:53",
+      "list_time": "2026-08-27 20:52"
+    },
+    {
+      "account": "西羊石AI视频",
+      "rank": 19,
+      "id": "2247542530:1",
+      "detail_published": "2026-08-25 10:23",
+      "list_time": "2026-08-25 10:22"
+    },
+    {
+      "account": "西羊石AI视频",
+      "rank": 20,
+      "id": "2247542529:1",
+      "detail_published": "2026-08-24 20:15",
+      "list_time": "2026-08-24 20:14"
+    },
+    {
+      "account": "西羊石AI视频",
+      "rank": 21,
+      "id": "2247542303:1",
+      "detail_published": "2026-08-21 10:00",
+      "list_time": "2026-08-20 23:23"
+    },
+    {
+      "account": "西羊石AI视频",
+      "rank": 22,
+      "id": "2247542207:1",
+      "detail_published": "2026-08-20 11:55",
+      "list_time": "2026-08-20 11:54"
+    },
+    {
+      "account": "西羊石AI视频",
+      "rank": 25,
+      "id": "2247541869:1",
+      "detail_published": "2026-08-10 20:47",
+      "list_time": "2026-08-10 20:46"
+    },
+    {
+      "account": "西羊石AI视频",
+      "rank": 26,
+      "id": "2247541806:1",
+      "detail_published": "2026-08-09 20:47",
+      "list_time": "2026-08-09 20:46"
+    },
+    {
+      "account": "西羊石AI视频",
+      "rank": 29,
+      "id": "2247541619:1",
+      "detail_published": "2026-08-04 20:53",
+      "list_time": "2026-08-04 20:52"
+    },
+    {
+      "account": "西羊石AI视频",
+      "rank": 30,
+      "id": "2247541563:1",
+      "detail_published": "2026-08-01 21:44",
+      "list_time": "2026-08-01 21:43"
+    },
+    {
+      "account": "爱ai的大刘",
+      "rank": 1,
+      "id": "2247487432:1",
+      "detail_published": "2026-10-23 16:04",
+      "list_time": "2026-10-23 16:01"
+    },
+    {
+      "account": "爱ai的大刘",
+      "rank": 2,
+      "id": "2247487404:1",
+      "detail_published": "2026-10-22 14:15",
+      "list_time": "2026-10-22 14:13"
+    },
+    {
+      "account": "爱ai的大刘",
+      "rank": 3,
+      "id": "2247487375:1",
+      "detail_published": "2026-10-14 14:25",
+      "list_time": "2026-10-14 14:24"
+    },
+    {
+      "account": "爱ai的大刘",
+      "rank": 4,
+      "id": "2247487305:1",
+      "detail_published": "2026-09-30 16:04",
+      "list_time": "2026-09-30 16:03"
+    },
+    {
+      "account": "爱ai的大刘",
+      "rank": 5,
+      "id": "2247487281:1",
+      "detail_published": "2026-09-28 15:17",
+      "list_time": "2026-09-28 15:16"
+    },
+    {
+      "account": "爱ai的大刘",
+      "rank": 6,
+      "id": "2247487261:1",
+      "detail_published": "2026-09-20 14:37",
+      "list_time": "2026-09-20 14:36"
+    },
+    {
+      "account": "爱ai的大刘",
+      "rank": 7,
+      "id": "2247487166:1",
+      "detail_published": "2026-09-17 17:35",
+      "list_time": "2026-09-17 17:34"
+    },
+    {
+      "account": "爱ai的大刘",
+      "rank": 8,
+      "id": "2247487080:1",
+      "detail_published": "2026-09-15 14:27",
+      "list_time": "2026-09-15 14:26"
+    },
+    {
+      "account": "爱ai的大刘",
+      "rank": 9,
+      "id": "2247487028:1",
+      "detail_published": "2026-09-14 14:27",
+      "list_time": "2026-09-14 14:26"
+    },
+    {
+      "account": "爱ai的大刘",
+      "rank": 10,
+      "id": "2247486882:1",
+      "detail_published": "2026-09-09 17:04",
+      "list_time": "2026-09-09 17:02"
+    },
+    {
+      "account": "爱ai的大刘",
+      "rank": 11,
+      "id": "2247486797:1",
+      "detail_published": "2026-09-07 14:22",
+      "list_time": "2026-09-07 14:21"
+    },
+    {
+      "account": "爱ai的大刘",
+      "rank": 12,
+      "id": "2247486773:1",
+      "detail_published": "2026-08-31 17:24",
+      "list_time": "2026-08-31 17:23"
+    },
+    {
+      "account": "爱ai的大刘",
+      "rank": 13,
+      "id": "2247486720:1",
+      "detail_published": "2026-08-28 14:29",
+      "list_time": "2026-08-28 14:28"
+    },
+    {
+      "account": "爱ai的大刘",
+      "rank": 14,
+      "id": "2247486679:1",
+      "detail_published": "2026-08-27 14:20",
+      "list_time": "2026-08-27 13:42"
+    },
+    {
+      "account": "爱ai的大刘",
+      "rank": 15,
+      "id": "2247486629:1",
+      "detail_published": "2026-08-17 14:36",
+      "list_time": "2026-08-17 14:35"
+    },
+    {
+      "account": "爱ai的大刘",
+      "rank": 18,
+      "id": "2247486263:1",
+      "detail_published": "2026-07-22 21:25",
+      "list_time": "2026-07-22 21:24"
+    },
+    {
+      "account": "爱ai的大刘",
+      "rank": 19,
+      "id": "2247486183:1",
+      "detail_published": "2026-07-17 14:43",
+      "list_time": "2026-07-17 14:42"
+    },
+    {
+      "account": "爱ai的大刘",
+      "rank": 22,
+      "id": "2247486102:1",
+      "detail_published": "2026-07-01 14:22",
+      "list_time": "2026-07-01 14:21"
+    },
+    {
+      "account": "爱ai的大刘",
+      "rank": 23,
+      "id": "2247486075:1",
+      "detail_published": "2026-06-29 14:33",
+      "list_time": "2026-06-29 14:32"
+    },
+    {
+      "account": "爱ai的大刘",
+      "rank": 27,
+      "id": "2247485527:1",
+      "detail_published": "2026-06-04 14:42",
+      "list_time": "2026-06-04 14:41"
+    },
+    {
+      "account": "爱ai的大刘",
+      "rank": 28,
+      "id": "2247485503:1",
+      "detail_published": "2026-06-02 15:25",
+      "list_time": "2026-06-02 15:24"
+    },
+    {
+      "account": "爱ai的大刘",
+      "rank": 29,
+      "id": "2247485473:1",
+      "detail_published": "2026-05-27 11:00",
+      "list_time": "2026-05-27 10:48"
+    },
+    {
+      "account": "爱ai的大刘",
+      "rank": 30,
+      "id": "2247485427:1",
+      "detail_published": "2026-05-21 11:02",
+      "list_time": "2026-05-21 10:57"
+    }
+  ]
+}

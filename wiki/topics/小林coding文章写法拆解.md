@@ -5,7 +5,7 @@ tags: [公众号, 对标拆解, 小林coding]
 status: 进行中
 sources: ["raw/article/小林coding/WorkBuddy拿下双榜第一！腾讯这次把Harness玩明白了.md", "raw/article/小林coding/腾讯 WorkBuddy 重大更新来了，夯爆了！.md", "raw/article/小林coding/DeepSeek Harness发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Loop Engineering 已死，Graph Engineering 永生.md", "raw/article/小林coding/我反问面试官：“你知道Codex记忆机制是怎么实现的吗？”，他：“不知道”，我：“我教你，我看过源码”.md", "raw/article/小林coding/梁圣杀回来了！DeepSeek新模型发布，爆肝实测一天，性价比杀穿全场.md", "raw/article/小林coding/Gemini 4 Argon 震撼上线！拳打Opus 5.5，脚踢GPT-6 Astra，再也不是哈基米了。.md", "raw/article/小林coding/GLM-5.3发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Qwen3.8-Flash发布，新斩杀线！熬夜爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/面试官皱眉：“你看过 Claude Opus 5 系统提示词吗？”，我笑了：“刚看过，需要向我请教什么？”，他：“来，开始你的表演”.md"]
 created: 2026-10-23
-updated: 2026-10-23
+updated: 2026-10-26
 ---
 
 # 小林coding文章写法拆解
@@ -70,3 +70,40 @@ GLM自审发现并非穷尽风险；正文后来查出的前端问题正说明�
 ## 后续使用
 
 横向取舍见[[comparisons/公众号对标三位新增作者写法对比]]，原文定位和校验锚点见[本批拆解台账](../../output/ai-wechat-methodology/三位新增作者拆解台账.json)。新反馈应附实际稿件或效果记录，不把一次观察直接写成全局写作限制。
+
+## 最近30篇批次入口（2026-10-26）
+
+以下按本批列表顺序编号，与原有XL编号独立；保留上文历史分析。本批完整文字由SLOW分析，媒体未核看，不独立确认产品能力、排名及传播表现。第9与30篇同题不同文章ID，复用同页但分别保留采集记录。
+
+1. [[sources/小林把普通任务改写成高野心AI任务文章拆解]]
+2. [[sources/小林Agent就业保薪课程推广文章拆解]]
+3. [[sources/小林大规模Agent工具路由设计文章拆解]]
+4. [[sources/小林意图模型接入与多场景测试文章拆解]]
+5. [[sources/小林AI辅助逆向的机制与边界文章拆解]]
+6. [[sources/小林无限画布制作剧本杀物料文章拆解]]
+7. [[sources/小林DeepSeek新模型九案例文章拆解]]
+8. [[sources/小林Anthropic源码管理Scion解析文章拆解]]
+9. [[sources/小林Agent工具调用容错设计文章拆解]]
+10. [[sources/小林Codex多Agent协作机制拆解文章拆解]]
+11. [[sources/小林GeminiArgon公开案例文章拆解]]
+12. [[sources/小林豆包工作调研淘宝AI商机文章拆解]]
+13. [[sources/小林AI改造遗留系统的七步准备文章拆解]]
+14. [[sources/小林LangChain与LlamaIndex选型边界文章拆解]]
+15. [[sources/小林Codex记忆机制文章拆解]]
+16. [[sources/小林DevFlow AI多智能体研发项目课程文章拆解]]
+17. [[sources/小林GPT-6.1 Sol多场景生成实测文章拆解]]
+18. [[sources/小林WorkBuddy零代码生成微信小程序文章拆解]]
+19. [[sources/小林Claude Opus 5.5 长任务协作手册文章拆解]]
+20. [[sources/小林昇腾 CANN 易用化与开源生态文章拆解]]
+21. [[sources/小林GPT-6 Sol 与 Astra 成品对比文章拆解]]
+22. [[sources/小林LangChain与LangGraph分层选型文章拆解]]
+23. [[sources/小林Qoder云端客服Agent搭建文章拆解]]
+24. [[sources/小林WorkBuddy长任务与注入文章拆解]]
+25. [[sources/小林大规模工具路由设计文章拆解]]
+26. [[sources/小林Step 5 Preview 编程实测文章拆解]]
+27. [[sources/小林Deep Research 架构解析文章拆解]]
+28. [[sources/小林Xing4.0模型接入与办公实测文章拆解]]
+29. [[sources/小林KV Cache分层管理与Intel方案文章拆解]]
+30. [[sources/小林Agent工具调用容错设计文章拆解]]
+
+具体可迁移维度和每篇待实操方案：`output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/dimension-candidates.json`。新增可用观察包括：表格全量/抽样核验覆盖率、官方与亲测分层、错误outcome状态机、导出后重开验收；均需自己的输入与实操证据，不直接继承作者结论。

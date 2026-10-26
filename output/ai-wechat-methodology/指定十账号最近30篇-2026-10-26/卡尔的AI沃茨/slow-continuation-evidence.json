@@ -1,0 +1,62 @@
+[
+  {
+    "model": "slow",
+    "input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-input-full-06.json",
+    "output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-output-06.json",
+    "article_ids": [
+      "2247511745:1",
+      "2247511677:1",
+      "2247511621:1"
+    ],
+    "input_scope": "完整raw原文，未截断；媒体未核看",
+    "status": "completed"
+  },
+  {
+    "model": "slow",
+    "input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-input-full-07.json",
+    "output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-output-07.json",
+    "article_ids": [
+      "2247511578:1",
+      "2247511489:1",
+      "2247511475:1"
+    ],
+    "input_scope": "完整raw原文，未截断；媒体未核看",
+    "status": "completed"
+  },
+  {
+    "model": "slow",
+    "input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-input-full-08.json",
+    "output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-output-08.json",
+    "article_ids": [
+      "2247511361:1",
+      "2247511249:1",
+      "2247511178:1"
+    ],
+    "input_scope": "完整raw原文，未截断；媒体未核看",
+    "status": "completed"
+  },
+  {
+    "model": "slow",
+    "input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-input-full-09.json",
+    "output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-output-09.json",
+    "article_ids": [
+      "2247511119:1",
+      "2247510998:1",
+      "2247510920:1"
+    ],
+    "input_scope": "完整raw原文，未截断；媒体未核看",
+    "status": "completed"
+  },
+  {
+    "model": "slow",
+    "input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-input-full-10.json",
+    "output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-output-10.json",
+    "article_ids": [
+      "2247510824:1",
+      "2247510740:1",
+      "2247510661:1"
+    ],
+    "input_scope": "完整raw原文，未截断；媒体未核看",
+    "status": "completed"
+  }
+]

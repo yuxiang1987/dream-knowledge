@@ -1,0 +1,548 @@
+{
+  "model": "slow",
+  "article_count": 30,
+  "input_scope": "每组三篇完整正文文字，不截断；原始HTML留存在raw和detail",
+  "media_scope": "未观看图片视频；未执行原文指令或重跑产品",
+  "checks": [
+    {
+      "rank": 1,
+      "raw_path": "raw/article/洛洛AI说/终于找到适合做孕期管理的AI助理，还免费！-a524a52c-dc3919423e.md",
+      "anchors": [
+        {
+          "text": "我一共有 24 张病历和检查报告单，但是一次只能上传 10 张。",
+          "location": "“如何进行孕期管理？”中段，上传限制与识别遗漏段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "“主动”但不“瞎动”才是它最可贵的地方。",
+          "location": "孕期报告介绍后，转入主动提醒能力的段落",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "raw_path": "raw/article/洛洛AI说/AI 长剧的春天来了，RunningHub AIGC 大赛116 部入围作品全网曝光破10亿-344e3b12-1b67446857.md",
+      "anchors": [
+        {
+          "text": "116 部入围先导片只是入场券，完整成片，才是真刀真枪的考验。",
+          "location": "“洛洛有话说”开头",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "通过 RunningHub 重制全片，投入有望降低到几万元。",
+          "location": "“资深导演入局”中《无名火》案例段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "raw_path": "raw/article/洛洛AI说/Fotor Agent能做带MG动画的商业视频和自媒体视频，效果顶还便宜-3b0d0e97-d31dcc498d.md",
+      "anchors": [
+        {
+          "text": "它采用AI驱动的“代码生成视频”技术路线",
+          "location": "介绍Fotor Agent原理的段落",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "Fotor Agent生成的是可再次编辑的视频工程文件",
+          "location": "“MG动画宠物玩具广告”案例中段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "raw_path": "raw/article/洛洛AI说/Opus 5.5 视频刷屏外网，10个场景知晓能力上限-28efd240-838cd3fa9d.md",
+      "anchors": [
+        {
+          "text": "素材全部由代码生成，没有一张外部素材",
+          "location": "“十大经典场景”case3：沉浸式数字艺术体验段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "但这些案例都不是一键神话。上千字指令、审美判断、方向取舍，决定作品分量。",
+          "location": "“洛洛有话说”结尾段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "raw_path": "raw/article/洛洛AI说/从电商选品到引流，豆包Seed-2.1-pro升级后全给我包了-2a05cce6-2c337a0b57.md",
+      "anchors": [
+        {
+          "text": "唯一可以优化的点是自动匹配的热门标签时效性不足，需要人工小幅更新",
+          "location": "“第五步：批量生成小红书种草笔记”结果段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "各位读者老师，试过用豆包处理工作了吗？",
+          "location": "全文文字第3段；原始HTML正文行13",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "raw_path": "raw/article/洛洛AI说/GPT-6：快速上手+横评案例+省Token指南（一篇讲清）-7517842e-e9b745697b.md",
+      "anchors": [
+        {
+          "text": "给目标、检查关键节点，还得人来。",
+          "location": "“洛洛有话说”结尾段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "这东西我该怎么用？它到底强在哪？怎么用才能少烧Token、少花冤枉钱？",
+          "location": "全文文字第4段；原始HTML正文行13",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "raw_path": "raw/article/洛洛AI说/Running Hub发起全球首个AIGC长片大赛，单项奖金高达百万-9293782e-8de5ad1c22.md",
+      "anchors": [
+        {
+          "text": "大约十几分钟，9万多字的小说就分拆成了剧本",
+          "location": "“把科幻小说做成电影”小节，导入小说后的剧本拆分段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "报名只需要提交2分钟的预告片，入围之后才需要提交完整的作品",
+          "location": "“AIGC长片创作大赛来了”小节，报名门槛段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "raw_path": "raw/article/洛洛AI说/2分钱_秒，1分钟做1集短剧，OiiOii × Fal H3 Max 做视频太太太快了！（附全流程）-4f0a7a42-585b145047.md",
+      "anchors": [
+        {
+          "text": "我自己掐表测了好几组，速度表现确实超出预期。",
+          "location": "“最快3秒出片”小节，两个操作入口之后",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "最多可以同时运行40个项目",
+          "location": "“1分钟不到搓1集短剧”小节，并发能力段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "raw_path": "raw/article/洛洛AI说/豆包只会聊天？用上豆包工作，我效率直接炸了-06098661-d0e77f02df.md",
+      "anchors": [
+        {
+          "text": "创建任务和发消息之前，先把清单发给我确认",
+          "location": "“第三步：会后建任务”小节，提示词注意事项",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "数据抓取耗时偏长，建议搭配云电脑运行，额度消耗也不低",
+          "location": "“洛洛有话说”小节，局限说明段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "raw_path": "raw/article/洛洛AI说/10分钟复刻大片经典动作，LibTV这两个新功能太顶了！-bafe602a-a592618d54.md",
+      "anchors": [
+        {
+          "text": "简单说就是，只学动作和运镜，不学画面和画风。",
+          "location": "“高难度武打动作复刻”中段，解释深度动态视频作用处",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "原本1-2小时的剪辑工作量，现在十几分钟就能搞定",
+          "location": "“自媒体量产神器”前后对比段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "raw_path": "raw/article/洛洛AI说/终于找到最懂设计师 AI 了，用过去1_10时间搞定宠物品牌全案（保姆级教程）-9fdca859-132d281230.md",
+      "anchors": [
+        {
+          "text": "两组电商详情页，从找参考到出图微调，只用了 40 分钟",
+          "location": "全文开头，展示两款宠物品牌详情页之后",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "7 组设计跑下来，从 Logo 到线下活动主视觉再到后面的两组插画设计",
+          "location": "“洛洛有话说”开头",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "raw_path": "raw/article/洛洛AI说/实测 Kimi K3、DeepSeek‑V4‑Pro、GLM‑5.3 三款国产顶流，DeepSeek竟是倒数第一？-97ffbfa7-3159cd8d6e.md",
+      "anchors": [
+        {
+          "text": "材料如果太模板化，模型不读也能编出一份方案",
+          "location": "case1“读材料出方案”题目设计说明段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "回归真实业务场景才是检验大模型硬实力最有效的试金石。",
+          "location": "“洛洛有话说”开头",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "raw_path": "raw/article/洛洛AI说/爆火的《八仙》AI漫剧赛道，我用 Seedance2.5 特调版闯进去了！（附全流程）-67de303a-d527a90cf2.md",
+      "anchors": [
+        {
+          "text": "平台会自动过滤劣质片段，不合格镜头自动重抽",
+          "location": "步骤3“一键成片，局部修改”中段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "输入原片选择风格、目标语言和比例。这次我选择的是日语、二维动漫风中的上美画风。",
+          "location": "步骤4“一键转绘”前半段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "raw_path": "raw/article/洛洛AI说/别只盯着 Seedance2.5！批量做商业视频该选谁？（顶流视频模型横评）-720cf535-7b3fe8a2e4.md",
+      "anchors": [
+        {
+          "text": "我统一锁定 720P 分辨率，从成片效果、生成速度、实际使用成本三个维度",
+          "location": "开头测试设计段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "整体来看，这个场景各有优劣。",
+          "location": "场景二“AI眼镜广告”结尾",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "raw_path": "raw/article/洛洛AI说/MiniMax亲自下场做视频Agent，一句话手搓商业大片，这5个场景实力很强-266502ef-9016ebd9a2.md",
+      "anchors": [
+        {
+          "text": "整个 Agent 不是直接一次性生成视频，中途会多次跟我确认画面方向、风格细节",
+          "location": "场景一“科普视频”中段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "内测阶段不要对精细口型抱过高期待。",
+          "location": "场景二“说唱MV”后半段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "raw_path": "raw/article/洛洛AI说/实测 Sd2.5｜普通人也能AI造星了：拍戏、打歌、做账号再接代言（附全流程）-fa235315-8139a0c463.md",
+      "anchors": [
+        {
+          "text": "遇到表演、画面不满意，直接选中局部片段就可以重拍",
+          "location": "“第一步：拍摄剧集”末段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "本次局部重拍耗时10分钟，仅消耗200多个积分。",
+          "location": "“第二步：追加打歌舞台MV片段”末段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "raw_path": "raw/article/洛洛AI说/实测全网最低价！在RunningHub用满血Sd2.5，0基础1天搞定顶级国风漫剧（保姆级教程）-26612e0c-5289adda86.md",
+      "anchors": [
+        {
+          "text": "短短两分钟，平台就输出了完整分集剧本。",
+          "location": "“第一步：AI智能拆解剧本”中段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "创作过程中我首次生成灵鸟绛雪时，模型出现识别偏差",
+          "location": "“第二步：锁定画风人设”末段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "raw_path": "raw/article/洛洛AI说/OiiOii 把 MiniMax H3 打到 0.1 元_秒，一天能做8集3D动漫（附全流程 ）-39233b2b-037d4b1403.md",
+      "anchors": [
+        {
+          "text": "这次一共有8个角色。在设计角色的时候，可以提供图文或者具体的文字描述",
+          "location": "角色设计师Agent段落",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "下一步直接做分镜，这次连续制作了19个镜头。",
+          "location": "分镜生成段落开头",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "raw_path": "raw/article/洛洛AI说/MiniMax H3 杀疯了，能力对标 Seedance 2.5，“白菜价”0.23 元_秒-cd114e68-fbc1bda4a2.md",
+      "anchors": [
+        {
+          "text": "只有能做到精准控制，才能实现真正商用",
+          "location": "开头总论，“多模态、可控以及商用”之后",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "我跑了6个商业场景的视频，各位读者老师看完就明白效果如何。",
+          "location": "开头总论末段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "raw_path": "raw/article/洛洛AI说/Agent卷到视频生成领域了，LibTV支持100+Skill ！-c7ed96e6-e5b3bf6faf.md",
+      "anchors": [
+        {
+          "text": "我只输入了一段提示词，整个工作流就串好了。",
+          "location": "“做个有爆款潜力的女频短剧”小节中部",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "故事板让我可以对短片有一个整体的把控",
+          "location": "女频短剧小节，双视图编辑说明段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "raw_path": "raw/article/洛洛AI说/7月最新汇总：国内外Token羊毛大合集（建议收藏）！-758b409a-23071880e1.md",
+      "anchors": [
+        {
+          "text": "小提醒，你可能会发现免费模型是滚动更新的",
+          "location": "【3】OpenCode小节",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "先把能领的免费额度都领到手，拿真实任务去跑",
+          "location": "“洛洛有话说”结尾建议段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "raw_path": "raw/article/洛洛AI说/告别千篇一律的AI脸，这或许才是短剧创作者的第一选择-a49ed849-aa89066ee6.md",
+      "anchors": [
+        {
+          "text": "整个使用的过程就是把原图拖进LibTV画布",
+          "location": "案例一“拒绝AI脸，拉回真人感”操作段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "一整组7个分镜图几分钟全出了。",
+          "location": "案例三“从剧本到分镜一个晚上跑完”结果段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "raw_path": "raw/article/洛洛AI说/横评4大顶流模型，哪个更适合办公室白领？-b9c77a30-f126614475.md",
+      "anchors": [
+        {
+          "text": "这些场景大模型表现如何，光看跑分根本选不出来。",
+          "location": "开头测试方法说明段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "我不怕大模型读不清，就怕它读不清还瞎编。",
+          "location": "第一步MiniMax M3评价段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "raw_path": "raw/article/洛洛AI说/万亿智谱，实力如何？ GLM-5.2 横评 Claude Opus 4.8、GPT-5.5 、 DeepSeek V4 pro、Kimi 2.7 Code-a3c29b5d-a45dfdf50e.md",
+      "anchors": [
+        {
+          "text": "从 0 写一个小工具，看基础交付能力",
+          "location": "案例实测Case 1标题",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "工程审慎更细：明确说不动 types.ts / data / ArticleDetail.tsx",
+          "location": "Case 3的GLM-5.2评价段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "raw_path": "raw/article/洛洛AI说/6月额度翻倍！连肝24小时的 Kimi Work 帮了我大忙-1f6c0f13-5cc5935b9a.md",
+      "anchors": [
+        {
+          "text": "几百个文件，不到半小时全改完，名字工工整整。",
+          "location": "Case 1结果段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "要的是 10 万字，实际给了约 26 万字",
+          "location": "Case 3长报告结果段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 26,
+      "raw_path": "raw/article/洛洛AI说/百度办公Agent实测：成本降了75%，能力依旧在线-81a8766f-51a53957e1.md",
+      "anchors": [
+        {
+          "text": "Token 消耗降低 75% 真正的看点，是 Agent 的工程能力",
+          "location": "开头升级说明段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "报告里的具体数字和关键事实，建议人工再核一遍",
+          "location": "竞品调研案例结尾",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "raw_path": "raw/article/洛洛AI说/实测办公小浣熊桌面端2.0，打工人必备神器！-90df86e2-865ee3c536.md",
+      "anchors": [
+        {
+          "text": "我给自己定了个小目标，让 AI 每天早上8点",
+          "location": "开头产品与目标段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "大约5分钟左右，就产出一份近一周的 AI 动态清单",
+          "location": "第三步热点抓取结果段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 28,
+      "raw_path": "raw/article/洛洛AI说/AI 看得越多越焦虑？6 本书 + 3 门课，帮你把认知一次补齐-114d15b7-3b4b6a97c5.md",
+      "anchors": [
+        {
+          "text": "我刻意避开了两类内容，一类是门槛过高的专业教材",
+          "location": "开头，第6段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "地图替不了脚下的路，但能让您少走弯路。",
+          "location": "“写在最后”中后段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "raw_path": "raw/article/洛洛AI说/国内六大顶流大模型，谁是第一？DeepSeek竟成倒数（万字长文）-da46df22-20ea21009c.md",
+      "anchors": [
+        {
+          "text": "本次测试统一接入的是 OpenCode ，使用 build 模式",
+          "location": "开头，测试方法段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "真正重要的不是追着榜单换模型，而是根据任务选择最合适的工具。",
+          "location": "“写在最后”第2段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "raw_path": "raw/article/洛洛AI说/马斯克、哈萨比斯都绕不开的15部AI影片，看完聊AI不再外行（建议收藏）-25011f2b-ce5021fe93.md",
+      "anchors": [
+        {
+          "text": "其实最快的祛魅方式，或许是看片。",
+          "location": "开头，第3段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "最好的AI电影，落点从来都在人身上。",
+          "location": "“写在最后”开头",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    }
+  ]
+}

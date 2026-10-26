@@ -1,0 +1,186 @@
+{
+  "account": "洛洛AI说",
+  "basis": "30篇全文SLOW分析，图片视频未核看，未实测产品，无同账号同口径传播基线",
+  "candidates": [
+    {
+      "rank": 1,
+      "source_page": "wiki/sources/洛洛AI说：洛洛：Today AI孕期管理实测.md",
+      "candidate": "做一次“脱敏报告识别完整性测试”：仅适用于可取得医生复核的健康资料场景，给10份编号报告，统计文件漏识、日期/指标误读和无来源建议，并在医生确认后才评价可用性。",
+      "source_link": "[[sources/洛洛AI说：洛洛：Today AI孕期管理实测]]"
+    },
+    {
+      "rank": 2,
+      "source_page": "wiki/sources/洛洛AI说：洛洛：RunningHub长片赛与工作流.md",
+      "candidate": "做“同脚本90秒长片管线对照测评”：适用于能固定角色设定和交付规格的小团队，同时记录RunningHub与既有流程的生成次数、人工小时、角色漂移镜头数、单分钟总成本和盲评得分。",
+      "source_link": "[[sources/洛洛AI说：洛洛：RunningHub长片赛与工作流]]"
+    },
+    {
+      "rank": 3,
+      "source_page": "wiki/sources/洛洛AI说：洛洛：Fotor Agent MG视频实测.md",
+      "candidate": "做“60秒数据科普局改压力测试”：适用于文字、图表较多且有确认版数据源的内容，同一工程连续修改数字、字体、配色和旁白，记录错误率、受牵连轨道、重渲染时间、人工分钟及实际账单。",
+      "source_link": "[[sources/洛洛AI说：洛洛：Fotor Agent MG视频实测]]"
+    },
+    {
+      "rank": 4,
+      "source_page": "wiki/sources/洛洛Opus外网十案例文章拆解.md",
+      "candidate": "适用于案例汇编稿：把十例改编成“来源身份—输入资产—工具链—交付物—人工工时—验证方式”六列表，并删降所有无源码或无验收基准支撑的“工程可用”表述。",
+      "source_link": "[[sources/洛洛Opus外网十案例文章拆解]]"
+    },
+    {
+      "rank": 5,
+      "source_page": "wiki/sources/洛洛AI说：洛洛：豆包电商全链路实测.md",
+      "candidate": "适用于电商Agent测评：增加“人工分钟数+重试次数+可直接上线/需修改/不可用”三级验收表，并用真实平台审核与小额投放结果替代纯视觉自评。",
+      "source_link": "[[sources/洛洛AI说：洛洛：豆包电商全链路实测]]"
+    },
+    {
+      "rank": 6,
+      "source_page": "wiki/sources/洛洛GPT上手横评与额度文章拆解.md",
+      "candidate": "适用于Agent横评：固定提示词、工具权限、硬件与最大运行预算，每模型至少复跑3次，并以自动测试通过率、人工修复分钟数和单位成功交付额度作主指标。",
+      "source_link": "[[sources/洛洛GPT上手横评与额度文章拆解]]"
+    },
+    {
+      "rank": 7,
+      "source_page": "wiki/sources/洛洛AI说：洛洛：RunningHub长片赛与《智盾》实测.md",
+      "candidate": "在拥有合法文本版权且能导出日志时，做一次“1万字小说到3分钟成片”的全链路审计：记录遗漏情节、资产一致性、重拍次数、人工工时与每分钟总成本。",
+      "source_link": "[[sources/洛洛AI说：洛洛：RunningHub长片赛与《智盾》实测]]"
+    },
+    {
+      "rank": 8,
+      "source_page": "wiki/sources/洛洛OiiOii极速视频文章拆解.md",
+      "candidate": "在同账号、同队列时段、同提示词和同种子条件下，对 H3、H3 Max、Turbo 各跑至少三轮，统计端到端时延、可用率、盲评质量和含重试的每条成本。",
+      "source_link": "[[sources/洛洛OiiOii极速视频文章拆解]]"
+    },
+    {
+      "rank": 9,
+      "source_page": "wiki/sources/洛洛AI说：洛洛&anan：豆包工作全流程实战.md",
+      "candidate": "在脱敏飞书沙箱中设置人工金标准，端到端测试“读群聊—建任务—发消息”，重点测结论召回率、负责人和日期错误率、审批遵守率及实际额度消耗。",
+      "source_link": "[[sources/洛洛AI说：洛洛&anan：豆包工作全流程实战]]"
+    },
+    {
+      "rank": 10,
+      "source_page": "wiki/sources/洛洛AI说：洛洛：LibTV动作捕捉与口播剪辑实测.md",
+      "candidate": "建立“复杂动作迁移验收表”：在适用于单人、全身可见且镜头运动明显的参考片段时，逐项记录肢体关键点偏移、走位轨迹、镜头运动、风格泄漏和总人工分钟数，并与普通视频参考模式做同素材A/B。",
+      "source_link": "[[sources/洛洛AI说：洛洛：LibTV动作捕捉与口播剪辑实测]]"
+    },
+    {
+      "rank": 11,
+      "source_page": "wiki/sources/洛洛AI说：洛洛：Lovart宠物品牌全案教程.md",
+      "candidate": "做一次“六SKU一致性压力测试”：适用于已有首款合格包装和明确品牌规范时，把首款封装为个人Skill，批量生成其余五款，并逐项核对Logo比例、字体、信息层级、色差、可编辑文本、导出规格与人工返工分钟数。",
+      "source_link": "[[sources/洛洛AI说：洛洛：Lovart宠物品牌全案教程]]"
+    },
+    {
+      "rank": 12,
+      "source_page": "wiki/sources/洛洛AI说：洛洛&anan：三款国产模型五轮业务横评.md",
+      "candidate": "建立“硬约束与返工成本盲评”：适用于模型版本、工具权限和输入完全一致的业务选型，每模型重复运行至少5次，由不知模型身份的评审统计红线错误、约束通过率、可运行率、修复分钟数与成本，再按预先公开权重排名。",
+      "source_link": "[[sources/洛洛AI说：洛洛&anan：三款国产模型五轮业务横评]]"
+    },
+    {
+      "rank": 13,
+      "source_page": "wiki/sources/洛洛AI说：洛洛&sunny：巨日禄国风漫剧流程.md",
+      "candidate": "用同一份90秒、3角色国风剧本做“巨日禄自动链路 vs 手工拆镜生成”对照，逐镜记录一致性、重抽次数、人工分钟数和每可用秒成本；适用于团队准备量产连载漫剧且能取得后台日志与账单时。",
+      "source_link": "[[sources/洛洛AI说：洛洛&sunny：巨日禄国风漫剧流程]]"
+    },
+    {
+      "rank": 14,
+      "source_page": "wiki/sources/洛洛AI说：洛洛&Sunny：Seedance与H3量产横评.md",
+      "candidate": "建立三类固定商业脚本，各模型重复生成10次并按首轮可用率、返工分钟数和每条可交付成本排名；适用于关注规模交付而非单条Demo极限画质的团队。",
+      "source_link": "[[sources/洛洛AI说：洛洛&Sunny：Seedance与H3量产横评]]"
+    },
+    {
+      "rank": 15,
+      "source_page": "wiki/sources/洛洛MiniMaxDesign五场景文章拆解.md",
+      "candidate": "同一60秒脚本分别用“自动模式”和“逐步确认模式”各跑5次，比较人工介入时间、一次通过率与逐镜错误数；适用于需要判断Agent问询是否真正降低返工的商业创作者。",
+      "source_link": "[[sources/洛洛MiniMaxDesign五场景文章拆解]]"
+    },
+    {
+      "rank": 16,
+      "source_page": "wiki/sources/洛洛AI说：洛洛：Seedance 2.5＋LibTV造星闭环.md",
+      "candidate": "编辑时新增“证据分层成本表”：仅在能导出taskid与积分记录时，逐环节列输入素材、生成次数、人工分钟、算力成本和发布结果，并把平台主张与作者实测分栏。",
+      "source_link": "[[sources/洛洛AI说：洛洛：Seedance 2.5＋LibTV造星闭环]]"
+    },
+    {
+      "rank": 17,
+      "source_page": "wiki/sources/洛洛AI说：洛洛：RunningHub国风漫剧实测.md",
+      "candidate": "做同提示词A/B测评：仅在两平台可选相同模型、分辨率与时长时，固定故事、参考图和镜头表，比较含失败重试的每可用秒成本、角色一致性盲评分及人工返工分钟。",
+      "source_link": "[[sources/洛洛AI说：洛洛：RunningHub国风漫剧实测]]"
+    },
+    {
+      "rank": 18,
+      "source_page": "wiki/sources/洛洛OiiOii国风漫剧文章拆解.md",
+      "candidate": "建立“八集产能复核”：仅在每集目标时长和质量门槛相同的条件下，连续制作8集，逐集记录人机工时、失败重试、有效镜头率、角色一致性盲评分与含重试成本。",
+      "source_link": "[[sources/洛洛OiiOii国风漫剧文章拆解]]"
+    },
+    {
+      "rank": 19,
+      "source_page": "wiki/sources/洛洛AI说：洛洛&Sunny：MiniMax H3六场景商用测评.md",
+      "candidate": "在可访问成片与同规格竞品的条件下，执行“同素材各生成10次+逐帧OCR/主体一致性检查+人工返工计时”的商用可控性横评。",
+      "source_link": "[[sources/洛洛AI说：洛洛&Sunny：MiniMax H3六场景商用测评]]"
+    },
+    {
+      "rank": 20,
+      "source_page": "wiki/sources/洛洛AI说：洛洛：LibTV Agent与Skill五片实测.md",
+      "candidate": "适用于需要周更同类带货内容的账号：固定同一产品与规则，用自建Skill连续生成30条，统计包装文字正确率、字幕断句错误率、风格漂移和单条返工分钟数。",
+      "source_link": "[[sources/洛洛AI说：洛洛：LibTV Agent与Skill五片实测]]"
+    },
+    {
+      "rank": 21,
+      "source_page": "wiki/sources/洛洛AI说：星辰&洛洛：7月免费Token盘点.md",
+      "candidate": "适用于发布时效型资源清单：逐平台实际注册并发起一次标准API请求，记录核验日期、余额变化、期限、限速、实名/绑卡和错误码，每周自动复查失效项。",
+      "source_link": "[[sources/洛洛AI说：星辰&洛洛：7月免费Token盘点]]"
+    },
+    {
+      "rank": 22,
+      "source_page": "wiki/sources/洛洛AI说：洛洛：LibTV短剧工作流实测.md",
+      "candidate": "用同一张AI定妆图、同一段7镜头剧本分别跑LibTV与一个竞品，逐镜记录身份一致率、站位遵循率、返工分钟数和实际费用；适用于能导出完整生成记录且两端使用相同输入的短剧工具评测。",
+      "source_link": "[[sources/洛洛AI说：洛洛：LibTV短剧工作流实测]]"
+    },
+    {
+      "rank": 23,
+      "source_page": "wiki/sources/洛洛AI说：洛洛：四大白领模型横评.md",
+      "candidate": "为四模型各重复3次生成同一单文件HTML，用自动脚本检查能否打开、移动端溢出、按钮可用、控制台错误和Lighthouse指标，再由隐藏模型名的营销人员评审品牌匹配；适用于可保存源码并锁定模型版本与联网条件时。",
+      "source_link": "[[sources/洛洛AI说：洛洛：四大白领模型横评]]"
+    },
+    {
+      "rank": 24,
+      "source_page": "wiki/sources/洛洛AI说：yuye&洛洛：GLM-5.2代码横评.md",
+      "candidate": "把五模型接入同一公开React仓库，各自提交可执行Git补丁并在统一CI中跑类型检查、单测、构建和回归测试，按通过率、修改文件数及人工审查分钟数评分；适用于模型可使用相同工具权限且版本能够锁定时。",
+      "source_link": "[[sources/洛洛AI说：yuye&洛洛：GLM-5.2代码横评]]"
+    },
+    {
+      "rank": 25,
+      "source_page": "wiki/sources/洛洛AI说：洛洛：Kimi Work整理资料实测.md",
+      "candidate": "用100个含PDF、截图和重复件的脱敏文件做盲测，记录命名准确率、OCR错误率、去重误报率与人工修正分钟数；适用于准备把桌面Agent接入正式资料库之前。",
+      "source_link": "[[sources/洛洛AI说：洛洛：Kimi Work整理资料实测]]"
+    },
+    {
+      "rank": 26,
+      "source_page": "wiki/sources/洛洛AI说：洛洛：百度DuMate长链办公实测.md",
+      "candidate": "对同一脱敏数据和固定提示词做升级前后或竞品对照，记录Token、积分、耗时、清洗召回率、误修率及盲评质量；适用于验证“降耗不降质”的采购或续费决策。",
+      "source_link": "[[sources/洛洛AI说：洛洛：百度DuMate长链办公实测]]"
+    },
+    {
+      "rank": 27,
+      "source_page": "wiki/sources/洛洛AI说：洛洛：办公小浣熊2.0选题流实测.md",
+      "candidate": "连续四周对自动选题清单做来源有效率、热点召回率、重复率、人工采纳率和准时送达率记录；适用于已有历史内容数据、且选题主要来自公开信息源的内容团队。",
+      "source_link": "[[sources/洛洛AI说：洛洛：办公小浣熊2.0选题流实测]]"
+    },
+    {
+      "rank": 28,
+      "source_page": "wiki/sources/洛洛AI说：潘达&洛洛：AI通识书课地图.md",
+      "candidate": "给每本书和每门课补做一张“是否亲自完成、所需时长、更新时间、学习产出”证据卡；适用于资源清单以“路径有效”而非仅“值得收藏”为核心承诺时。",
+      "source_link": "[[sources/洛洛AI说：潘达&洛洛：AI通识书课地图]]"
+    },
+    {
+      "rank": 29,
+      "source_page": "wiki/sources/洛洛AI说：yuye&洛洛：六大国模七案横评.md",
+      "candidate": "把七个case各复跑3次并公开原始产物、评分rubric与失败日志，以“硬约束通过率和人工修正分钟数”重排名次；适用于模型输出有随机性且文章声称综合冠军时。",
+      "source_link": "[[sources/洛洛AI说：yuye&洛洛：六大国模七案横评]]"
+    },
+    {
+      "rank": 30,
+      "source_page": "wiki/sources/洛洛AI说：潘达&洛洛：15部AI影片祛魅.md",
+      "candidate": "把15部影片重编为5部最小学习路径，并为每部添加“现实事实/艺术虚构/核验来源”三栏观影卡；适用于面向零基础读者且要防止把科幻设定当现实能力时。",
+      "source_link": "[[sources/洛洛AI说：潘达&洛洛：15部AI影片祛魅]]"
+    }
+  ]
+}

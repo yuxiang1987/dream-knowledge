@@ -1,0 +1,186 @@
+{
+  "account": "郭震AI",
+  "basis": "30篇全文SLOW分析，图片视频未核看，未实测产品，无同账号同口径传播基线",
+  "candidates": [
+    {
+      "rank": 1,
+      "source_page": "wiki/sources/郭震AI：郭震：豆包自媒体军师Skill.md",
+      "candidate": "做一次“引用可追溯性抽检”：适用于知识蒸馏型教程，随机抽取Skill输出的20条建议，逐条核对原文、发布日期、上下文和规则有效期，并公开准确率与冲突率。",
+      "source_link": "[[sources/郭震AI：郭震：豆包自媒体军师Skill]]"
+    },
+    {
+      "rank": 2,
+      "source_page": "wiki/sources/郭震AI：郭震：DeepLocals V3.5.3实测.md",
+      "candidate": "建立“100题跨格式金标准测评”：适用于本地资料超过1000份且格式混杂的团队，同硬件下测召回率、答案正确率、引用定位精度、首次索引耗时及敏感数据网络流向。",
+      "source_link": "[[sources/郭震AI：郭震：DeepLocals V3.5.3实测]]"
+    },
+    {
+      "rank": 3,
+      "source_page": "wiki/sources/郭震AI：郭震：豆包副业军师Skill.md",
+      "candidate": "增加“推荐到首单”闭环测评：适用于副业推荐工具，选3类真实用户各执行首选方案7天，统一记录样品工时、有效询盘、返工、成交与净收益，并与普通模型建议对照。",
+      "source_link": "[[sources/郭震AI：郭震：豆包副业军师Skill]]"
+    },
+    {
+      "rank": 4,
+      "source_page": "wiki/sources/郭震AI：郭震：DeepLocals本地知识库实测.md",
+      "candidate": "用同一批500份分层文档和30道带标准答案的问题，对DeepLocals做解析成功率、证据召回率、答案正确率、端到端延迟及人工复核时长测评；适用于有明确硬件配置、可合法导入且能人工标注答案的场景。",
+      "source_link": "[[sources/郭震AI：郭震：DeepLocals本地知识库实测]]"
+    },
+    {
+      "rank": 5,
+      "source_page": "wiki/sources/郭震AI：郭震：豆包Agent隔夜写书实测.md",
+      "candidate": "先用同一资料让豆包分别采用“单提示直写”和“总纲＋术语表＋逐章验收”生成3章，再盲评事实准确率、术语一致率、跨章重复率与人工修订时长；适用于有权威源文档和领域评审人的长文项目。",
+      "source_link": "[[sources/郭震AI：郭震：豆包Agent隔夜写书实测]]"
+    },
+    {
+      "rank": 6,
+      "source_page": "wiki/sources/郭震AI：郭震：Qoder微信文件地图实测.md",
+      "candidate": "在脱敏隔离目录中执行“只读安全回归”：记录开发前后所有原文件哈希与文件系统写入日志，并测试扫描、索引、预览、去重及所谓删除功能；适用于处理聊天附件等敏感目录且产品声称不改动原件的场景。",
+      "source_link": "[[sources/郭震AI：郭震：Qoder微信文件地图实测]]"
+    },
+    {
+      "rank": 7,
+      "source_page": "wiki/sources/郭震AI：郭震：4个Skill搭建自媒体工作台.md",
+      "candidate": "做一次连续两周的稳定性编辑测评：同一资讯录制 Skill 至少运行10次，逐次记录成功率、漏项/重复项、网站变化后的恢复方式及人工修订分钟数；适用于固定网站和固定筛选规则的高频采集任务。",
+      "source_link": "[[sources/郭震AI：郭震：4个Skill搭建自媒体工作台]]"
+    },
+    {
+      "rank": 8,
+      "source_page": "wiki/sources/郭震AI：郭震：实测商汤U1 Pro交付级生图.md",
+      "candidate": "建立“局部修改稳定性”盲测：固定10张含重复参数的中文长图，逐张要求跨区域同步改值，用OCR和像素差异图统计目标命中率、非目标区域变化率；适用于声称可进入严谨商业工作流的改图模型。",
+      "source_link": "[[sources/郭震AI：郭震：实测商汤U1 Pro交付级生图]]"
+    },
+    {
+      "rank": 9,
+      "source_page": "wiki/sources/郭震AI：郭震：豆包工作打通Excel与PPT.md",
+      "candidate": "增加“跨文件数值一致性审计”：生成PPT后，从Excel抽取20个关键指标逐页反查数值、口径和图表范围，并检查公式及可编辑对象是否保留；适用于多sheet经营表转管理汇报的场景。",
+      "source_link": "[[sources/郭震AI：郭震：豆包工作打通Excel与PPT]]"
+    },
+    {
+      "rank": 10,
+      "source_page": "wiki/sources/郭震AI：郭震：豆包Agent三段式视频工作流.md",
+      "candidate": "统一输入规格后做一次端到端复现审计：适用于评估Agent视频流水线时，记录每步等待时间、人工干预、重试和素材通过率，并核查竖屏需求是否被后续16:9设置意外覆盖。",
+      "source_link": "[[sources/郭震AI：郭震：豆包Agent三段式视频工作流]]"
+    },
+    {
+      "rank": 11,
+      "source_page": "wiki/sources/郭震AI：郭震：LibTV深度动捕与口播剪辑实测.md",
+      "candidate": "做固定参数的多次A/B逐帧测评：适用于比较原视频直参和深度动作参考，至少各生成三次，并以人体关键点轨迹、镜头距离、额外元素和身份一致性量化，而非用“1:1”主观判断。",
+      "source_link": "[[sources/郭震AI：郭震：LibTV深度动捕与口播剪辑实测]]"
+    },
+    {
+      "rank": 12,
+      "source_page": "wiki/sources/郭震AI：郭震：Seko 3.0短剧本地化四链路.md",
+      "candidate": "建立逐镜本地化验收表并做母语盲评：适用于短剧跨地区改编，分别记录剧情保留、角色一致性、翻译准确、口型同步、文化自然度、人工分钟和积分成本。",
+      "source_link": "[[sources/郭震AI：郭震：Seko 3.0短剧本地化四链路]]"
+    },
+    {
+      "rank": 13,
+      "source_page": "wiki/sources/郭震AI：郭震：Seed-Evolving多模态Coding实测.md",
+      "candidate": "在同一台机器、同一 Claude Code 版本和同一提示词下，让 Seed-Evolving 与一个对照模型各完成“截图生成→项目重构”，用构建通过率、视觉像素差、人工修改行数、总时长和调用成本评分；适用于能提供可公开截图、固定依赖及验收脚本的前端项目。",
+      "source_link": "[[sources/郭震AI：郭震：Seed-Evolving多模态Coding实测]]"
+    },
+    {
+      "rank": 14,
+      "source_page": "wiki/sources/郭震AI：郭震：Lovart八组设计工作流实测.md",
+      "candidate": "选定同一品牌简报，用 Lovart 的 Reference+Skill 流程与“纯文本提示生图”各生成六张系列海报，盲评主体正确率、跨图风格一致性、文字错误率、人工返修分钟数和可交付格式；适用于拥有合法参考素材与明确品牌规范的内容团队。",
+      "source_link": "[[sources/郭震AI：郭震：Lovart八组设计工作流实测]]"
+    },
+    {
+      "rank": 15,
+      "source_page": "wiki/sources/郭震AI：郭震：豆包Agent四个自媒体工作流.md",
+      "candidate": "固定同一账号定位和近7天时间窗，连续五天让豆包工作与人工各产出10个选题，逐条核验发布日期、一手来源、重复率和可写性，并记录总耗时与复核耗时；适用于有明确垂类、来源白名单和人工编辑可做盲评的公众号团队。",
+      "source_link": "[[sources/郭震AI：郭震：豆包Agent四个自媒体工作流]]"
+    },
+    {
+      "rank": 16,
+      "source_page": "wiki/sources/郭震AI：郭震：Seedance 2.5五条视频实测.md",
+      "candidate": "建立“同一商品图×三个入口×各3次”的九宫格测评，在目标时长与文案完全一致、能够保留全部原始输出和费用日志时，逐镜评分商品一致性、手部、字幕、连续性与单条可用率。",
+      "source_link": "[[sources/郭震AI：郭震：Seedance 2.5五条视频实测]]"
+    },
+    {
+      "rank": 17,
+      "source_page": "wiki/sources/郭震AI：郭震：Qwen3.8-Flash性价比实测.md",
+      "candidate": "把同一公开Excel任务对每个模型重复运行5次，并在可固定温度、版本和调用渠道且能取得API账单时，用自动测试计算首轮通过率、数值正确率、回归错误、总Token与人工修复分钟数，再绘制能力—总成本Pareto图。",
+      "source_link": "[[sources/郭震AI：郭震：Qwen3.8-Flash性价比实测]]"
+    },
+    {
+      "rank": 18,
+      "source_page": "wiki/sources/郭震AI：郭震：Seedance 2.5短剧全流程实测.md",
+      "candidate": "用同一授权剧本和锁定资产生成连续两段30秒短剧，在模型参数一致且能保留所有初稿、重生记录和积分账单时，逐镜统计角色一致性、跨段衔接、台词准确率、首轮通过率及人工审核分钟数。",
+      "source_link": "[[sources/郭震AI：郭震：Seedance 2.5短剧全流程实测]]"
+    },
+    {
+      "rank": 19,
+      "source_page": "wiki/sources/郭震AI：郭震：EvoX拆解Harness实测.md",
+      "candidate": "在同一陌生仓库、同一问题集和同一总Token预算下，对比单Agent与EvoX蜂群的源码路径命中率、错误率、耗时及人工修订分钟数；适用于可提供标准答案或由维护者盲评的开源项目。",
+      "source_link": "[[sources/郭震AI：郭震：EvoX拆解Harness实测]]"
+    },
+    {
+      "rank": 20,
+      "source_page": "wiki/sources/郭震AI：郭震：LibTV长视频工作流实测.md",
+      "candidate": "用同一3分钟脚本比较“LibTV整片直出后局部重拍”与“30秒分段生成后人工剪辑”，逐镜统计角色漂移、接缝错误、废片次数、费用和人工工时；适用于有固定角色锚点与可逐镜验收脚本的团队。",
+      "source_link": "[[sources/郭震AI：郭震：LibTV长视频工作流实测]]"
+    },
+    {
+      "rank": 21,
+      "source_page": "wiki/sources/郭震AI：郭震：MiniMax H3三天实测.md",
+      "candidate": "对10个真实SKU采用同图、同提示词、同分辨率，让H3与SD2.5各重复生成5次，并盲评产品形变、品牌文字、首5秒卖点、废片率和单位可用片成本；适用于有品牌规范且能保存全部候选结果的电商团队。",
+      "source_link": "[[sources/郭震AI：郭震：MiniMax H3三天实测]]"
+    },
+    {
+      "rank": 22,
+      "source_page": "wiki/sources/郭震AI：郭震：Seko视频行业实测.md",
+      "candidate": "增加“行业可用性验收表”：适用于宣称AI视频可进入教学、自媒体或商业项目时，逐条记录事实准确率、角色一致性、人工修订分钟数、单片总成本及真实发布/客户验收结果。",
+      "source_link": "[[sources/郭震AI：郭震：Seko视频行业实测]]"
+    },
+    {
+      "rank": 23,
+      "source_page": "wiki/sources/郭震AI：郭震：Agent Memory省Token实测.md",
+      "candidate": "补做随机交叉Token基准：适用于宣称记忆插件节省成本时，在固定模型、提示词和工具输出下开关插件各重复5次，并同时报告总Token、插件处理开销、时延和任务正确率。",
+      "source_link": "[[sources/郭震AI：郭震：Agent Memory省Token实测]]"
+    },
+    {
+      "rank": 24,
+      "source_page": "wiki/sources/郭震AI：郭震：H3对比SD2视频实测.md",
+      "candidate": "建立“每条合格成片总成本”测评：适用于比较低价视频模型时，将同题多次生成、废片、人工挑选、续写与后期费用全部计入，再以盲评合格数折算成本。",
+      "source_link": "[[sources/郭震AI：郭震：H3对比SD2视频实测]]"
+    },
+    {
+      "rank": 25,
+      "source_page": "wiki/sources/郭震AI：郭震：语音操控Qoder做App.md",
+      "candidate": "在同一台电脑、同一模型和同一小工具需求下，分别用语音与键盘完成任务，记录首个可运行版本耗时、打断后需求保持率、转写错误数和人工修订分钟数；适用于评估语音Agent是否真正提升并行办公效率。",
+      "source_link": "[[sources/郭震AI：郭震：语音操控Qoder做App]]"
+    },
+    {
+      "rank": 26,
+      "source_page": "wiki/sources/郭震AI：郭震：百条SFT仿Kimi K3.md",
+      "candidate": "对基座Qwen3.5-4B、微调模型和K3 API做同一套隐藏测试集盲评，同时测答案正确率、推理文本风格相似度与资源消耗；适用于判断小样本SFT究竟迁移了能力还是只模仿了表述。",
+      "source_link": "[[sources/郭震AI：郭震：百条SFT仿Kimi K3]]"
+    },
+    {
+      "rank": 27,
+      "source_page": "wiki/sources/郭震AI：郭震：实测LibTV视频Agent.md",
+      "candidate": "用同一30秒商品脚本连续生成5次，逐镜统计商品还原、字幕事实错误、角色一致性、重生成次数、人工剪辑分钟数和积分成本；适用于判断端到端视频Agent是否达到真实商业交付标准。",
+      "source_link": "[[sources/郭震AI：郭震：实测LibTV视频Agent]]"
+    },
+    {
+      "rank": 28,
+      "source_page": "wiki/sources/郭震AI：郭震：GPT-5.6接入Codex实测.md",
+      "candidate": "在同一提示词、同一Excel测试集和同一Codex版本下重复运行3次，按首次成功率、数据正确率、UI盲评分、人工修复时长和总成本对比；适用于判断“质量提升是否值得更长耗时”的模型升级稿。",
+      "source_link": "[[sources/郭震AI：郭震：GPT-5.6接入Codex实测]]"
+    },
+    {
+      "rank": 29,
+      "source_page": "wiki/sources/郭震AI：郭震：Hy3、V4-Pro与Qwen性价比实测.md",
+      "candidate": "计算三模型“成功交付一次的期望成本”：目录价乘实际token并叠加失败重跑与人工修复时间；适用于价格差大、但首次完成率和返工量可能不同的Agent横评。",
+      "source_link": "[[sources/郭震AI：郭震：Hy3、V4-Pro与Qwen性价比实测]]"
+    },
+    {
+      "rank": 30,
+      "source_page": "wiki/sources/郭震AI：郭震：Qwen3.5 9B配Hermes本地实测.md",
+      "candidate": "在8G、12G、16G显卡上用同一量化版本跑统一图像、OCR、Excel与20轮记忆测试，记录准确率、TTFT、吞吐、峰值显存和功耗；适用于验证“本地甜点位”及最低硬件门槛。",
+      "source_link": "[[sources/郭震AI：郭震：Qwen3.5 9B配Hermes本地实测]]"
+    }
+  ]
+}

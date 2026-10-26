@@ -1,0 +1,19 @@
+{
+  "accounts": [
+    "路人甲TM",
+    "摸鱼小李",
+    "小林coding",
+    "卡尔的AI沃茨",
+    "苍何",
+    "沉默王二",
+    "洛洛AI说",
+    "郭震AI",
+    "西洋石AI视频",
+    "爱AI的大刘"
+  ],
+  "per_account_limit": 30,
+  "order": "latest",
+  "raw_root": "raw/article",
+  "requested_at": "2026-10-26",
+  "western_account_identity": "用户确认第二张截图：西羊石AI视频，xiyangshi666，gh_f5c1e588b297；首张羊羊AI视频截图用户声明发错，不在范围"
+}

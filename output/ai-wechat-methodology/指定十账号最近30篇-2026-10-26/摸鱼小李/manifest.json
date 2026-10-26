@@ -1,0 +1,808 @@
+{
+  "requested_name": "摸鱼小李",
+  "resolved_name": "摸鱼小李",
+  "username": "gh_3923025946c5",
+  "alias": "aimoyu001",
+  "requested_count": 30,
+  "acquired_at": "2026-10-26T10:53:28+08:00",
+  "article_list_request_ids": [
+    "6e8a1660-a1fb-4532-9f60-b4f38c3f379b",
+    "07d8c5bb-e1e9-4384-ab72-e69855d1c6ed",
+    "2e960c56-70ea-461c-81f6-4fb9c9a6ef0d"
+  ],
+  "list_complete": true,
+  "articles": [
+    {
+      "rank": 1,
+      "id": "2247491350:1",
+      "title": "听了一天亚马逊 AI 创业路演，我看到一人公司的新玩法",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247491350&idx=1&sn=c1749402901926eaf199b600bf9be5bc",
+      "published": "2026-10-25 22:08",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/听了一天亚马逊 AI 创业路演，我看到一人公司的新玩法-8b89a9f7-e4d3d519cc.md",
+      "raw_sha256": "38b91d39144374428645a1c5115396ffc3273c637a0ea7ab3b65ed4ab198c111",
+      "source_page": "wiki/sources/摸鱼小李_AI路演与一人公司.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "142e645f-c254-489f-ab2d-a320ca4b17bc",
+      "anchors": [
+        {
+          "text": "这些关系理顺了，智能体才接得上",
+          "location": "01「跨境电商数字员工」案例，流程分工段末"
+        },
+        {
+          "text": "一个人也可以先把产品发出来，边做边和用户聊",
+          "location": "03「产品做出来了，还得让人找到」，四步建议之后"
+        }
+      ],
+      "body_sha256": "e4d3d519cca7c042f57da07f75280bc8569dfe18e68ec67d748719fec4f900cb",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-01-04.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-01-04.json"
+    },
+    {
+      "rank": 2,
+      "id": "2247491310:1",
+      "title": "Kimi K3.1 国模一哥回来了！实测追平GPT 6 Astra，价格便宜80%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247491310&idx=1&sn=69dc1e0d31e1bc0e05234154b1d6773b",
+      "published": "2026-10-24 08:44",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/Kimi K3.1 国模一哥回来了！实测追平GPT 6 Astra，价格便宜80%-69808313-e86e579e09.md",
+      "raw_sha256": "d9d1e120e0312b8176db49d897fc0b75694cee35fd8cd774684c5321f97ed5bf",
+      "source_page": "wiki/sources/摸鱼小李_Kimi K3.1六项3D测试.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "96fb4d5a-51eb-4f15-ade9-ce0d046697a7",
+      "anchors": [
+        {
+          "text": "一次只看一件事",
+          "location": "CASE 05「星舰猛禽发动机」，五种模式说明之后"
+        },
+        {
+          "text": "最难的不是展开，是合上",
+          "location": "CASE 06「立体书」案例结尾"
+        }
+      ],
+      "body_sha256": "e86e579e0984a051442cb8903c3362367ed092a3c2dc4aa919b40ec017538310",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-01-04.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-01-04.json"
+    },
+    {
+      "rank": 3,
+      "id": "2247491264:1",
+      "title": "AI小镇太烧钱，这个新开源模型给了解法",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247491264&idx=1&sn=7620b2e9a00da96d78e686e2bae96933",
+      "published": "2026-10-23 21:15",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/AI小镇太烧钱，这个新开源模型给了解法-4cb4cb90-9dde8ee8c9.md",
+      "raw_sha256": "2dd585fe171fb8c68db40a33a2b0a317ab7b1601f8151beb6cebafe27972ed01",
+      "source_page": "wiki/sources/摸鱼小李_意图模型接入四款游戏.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "96e2ffc7-f60c-4462-8a55-217166c71c68",
+      "anchors": [
+        {
+          "text": "把一句话变成系统能执行的一张单子",
+          "location": "「写在最后」首段总结"
+        },
+        {
+          "text": "意图和字段要定义清楚",
+          "location": "结尾「注意」中的第01条接入建议"
+        }
+      ],
+      "body_sha256": "9dde8ee8c90e9db5eebe50b5c1586070277b03b34ac28dc9b7c173b0ce2cfde2",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-01-04.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-01-04.json"
+    },
+    {
+      "rank": 4,
+      "id": "2247491235:1",
+      "title": "我在陆家嘴咖啡季，给店主搭了 5 个 AI 工具",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247491235&idx=1&sn=d7c296648b8587d782b8e6073c41938d",
+      "published": "2026-10-21 16:43",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/我在陆家嘴咖啡季，给店主搭了 5 个 AI 工具-201ed167-562d14da19.md",
+      "raw_sha256": "0086542809c4992cf817db7172d1b1ae5286ba7f3b392b6e149d75495d18a600",
+      "source_page": "wiki/sources/摸鱼小李_咖啡店五个AI工具.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "40a52f70-a126-4ff9-92eb-8225f33f7470",
+      "anchors": [
+        {
+          "text": "很难根据自己的个性化需求随时加功能",
+          "location": "02「为什么交给纳米Work」开头，传统管理系统对比段"
+        },
+        {
+          "text": "咖啡店只是一个切口",
+          "location": "03「咖啡节开幕式」，从吧台办公扩展到其他小店处"
+        }
+      ],
+      "body_sha256": "562d14da1919f265a5335ca2881b9ab9c2ed4d5d793f587edc3c71df7e96b831",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-01-04.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-01-04.json"
+    },
+    {
+      "rank": 5,
+      "id": "2247491136:1",
+      "title": "我和 STEPX共创的 AI DJ 台，上了 Tomorrowland 现场",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247491136&idx=1&sn=6c155839fe958699d8c653e57df68468",
+      "published": "2026-10-20 17:45",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/我和 STEPX共创的 AI DJ 台，上了 Tomorrowland 现场-9427ee03-a4ac8bfec2.md",
+      "raw_sha256": "044b5136efabb5d644f0bc281ac55d56daf1050e986128dae8526d0c02b8f32f",
+      "source_page": "wiki/sources/摸鱼小李_STEPX共创AI电音台.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "a961c0c4-766e-4cb4-a867-a4f664418611",
+      "anchors": [
+        {
+          "text": "打开阶跃 Amoo，告诉它你想要什么样的音乐",
+          "location": "02 一起共创的 AI DJ 台，中段操作说明"
+        },
+        {
+          "text": "不会写代码，也能把一个想法做成 App 或者智能体",
+          "location": "01 参加发布会，Step Studio 介绍段"
+        }
+      ],
+      "body_sha256": "a4ac8bfec2db99e6e9acdf09c2412d6bc6e0dd0023073508753ac65373bf74b1",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-05-08.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-05-08.json"
+    },
+    {
+      "rank": 6,
+      "id": "2247491103:1",
+      "title": "Lovart 2.0 发布 ｜设计界的Personal Agent，用了回不去了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247491103&idx=1&sn=fe4a80df078b91333e32aab8c1acfb42",
+      "published": "2026-10-19 09:24",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/Lovart 2.0 发布 ｜设计界的Personal Agent，用了回不去了-81adc69c-686a5ef5dd.md",
+      "raw_sha256": "f83db403fecf6530b5dec30efa2c7da54f7a2f93e3cf29835f8de683583d8ba3",
+      "source_page": "wiki/sources/摸鱼小李_Lovart2.0设计委托实测.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "c96a4e39-a074-4206-8f05-de18a333d421",
+      "anchors": [
+        {
+          "text": "委托是把一整件事交出去",
+          "location": "CASE 02 后的“设计委托”理解段"
+        },
+        {
+          "text": "改不改由我来定",
+          "location": "CASE 01 画布巡检段"
+        }
+      ],
+      "body_sha256": "686a5ef5dd838aa560028d63a2b6951218a075d0bdacc15a7d35f256f8f6e5a4",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-05-08.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-05-08.json"
+    },
+    {
+      "rank": 7,
+      "id": "2247491050:1",
+      "title": "右键一下，WorkBuddy 让电脑里文件都有了 AI",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247491050&idx=1&sn=1b1836b2b5f6cb817dd72e29148fb8f0",
+      "published": "2026-10-10 20:09",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/右键一下，WorkBuddy 让电脑里文件都有了 AI-df9cd2c2-d586b1f807.md",
+      "raw_sha256": "eca47ca29f2baefa0e6c3b1aa2e82bbcd326afc63abb9ae525e615174a1d7518",
+      "source_page": "wiki/sources/摸鱼小李_WorkBuddy本地文件AI实测.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "6741b273-b47d-4d08-aa9c-f43e3b875078",
+      "anchors": [
+        {
+          "text": "在本地文件上点右键，选择「打开方式」，找到 WorkBuddy",
+          "location": "01 AI + 文档编辑器，右键入口说明段"
+        },
+        {
+          "text": "现在 PDF 暂时还不能编辑，只能查看",
+          "location": "CASE 02 英文 PDF 翻译结尾"
+        }
+      ],
+      "body_sha256": "d586b1f807459bf5c82bd1ab4cfbfc1bc0df88407b845ab61fbb86ae84f9b508",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-05-08.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-05-08.json"
+    },
+    {
+      "rank": 8,
+      "id": "2247491022:1",
+      "title": "豆包工作也做设计画布了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247491022&idx=1&sn=0ccea01fd18b2989578a9864d1b0afb4",
+      "published": "2026-10-09 23:31",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/豆包工作也做设计画布了-967be9ae-ba9e08e3ee.md",
+      "raw_sha256": "5947eef7897b2939e568556b1b0f7a4910c82079ad3f1ed0383e5408dd6efd89",
+      "source_page": "wiki/sources/摸鱼小李_豆包设计画布应援实测.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "6e4a065c-3e37-4fa3-a3dd-447e8b05a8e6",
+      "anchors": [
+        {
+          "text": "它先把能做的品类摆出来，我从里面挑就行",
+          "location": "初音应援案例，物料清单说明段"
+        },
+        {
+          "text": "参考图、中间稿和成品都摆在一起",
+          "location": "STEP 01 人物参考与设计方向段"
+        }
+      ],
+      "body_sha256": "ba9e08e3ee92f6544e7393f4837ae98fad0790da73c93ae7fd120d41a5cfc4ad",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-05-08.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-05-08.json"
+    },
+    {
+      "rank": 9,
+      "id": "2247490883:1",
+      "title": "Intelligent UI 来了，Personal Agent 还缺另一半",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247490883&idx=1&sn=d2011f2a1ec32c18c4e598eb92455a0a",
+      "published": "2026-10-08 09:30",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/Intelligent UI 来了，Personal Agent 还缺另一半-5458011d-b0075c1636.md",
+      "raw_sha256": "5d72703e6c1f58a9964b5a86104db74b6c70087b1cf4262e61426442c5d7bdec",
+      "source_page": "wiki/sources/摸鱼小李_Eazo完整产品链.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "be0dee48-e496-4f50-b72a-4d489e0e02c8",
+      "anchors": [
+        {
+          "text": "每一步，都是完整产品",
+          "location": "开头末段，并在第04节标题后再次回扣"
+        },
+        {
+          "text": "交付时说清楚验证了什么、还有什么限制",
+          "location": "第04节“支撑 4/4 做完自己验收”段"
+        }
+      ],
+      "body_sha256": "b0075c1636400b64ae9fbfcb3f6667deba204faca3be66c14fca2f9547591ddd",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-09-12.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-09-12.json"
+    },
+    {
+      "rank": 10,
+      "id": "2247490028:1",
+      "title": "性价比拉爆！4.59元，我用百度千帆Token Plan个人版做了4款游戏",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247490028&idx=1&sn=e5446143d699043e8bde3400faab51bc",
+      "published": "2026-09-24 18:21",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/性价比拉爆！4.59元，我用百度千帆Token Plan个人版做了4款游戏-b9a87121-0ebe42169b.md",
+      "raw_sha256": "bd70da07391ab424721e49424acf6c0cc66682f7f47a31abf00a35966212b44b",
+      "source_page": "wiki/sources/摸鱼小李_千帆四款游戏成本实测.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "bc367c26-7b9b-4526-b02d-bdbe0fe64d5e",
+      "anchors": [
+        {
+          "text": "末尾不要带斜杠",
+          "location": "第01节“四步接入”第二步"
+        },
+        {
+          "text": "缓存命中的部分最便宜",
+          "location": "第03节“做了四个游戏，算算账”缓存解释段"
+        }
+      ],
+      "body_sha256": "0ebe42169bb439933fae470ee3f45dff1e549eed8c76243bea0835337b566ea1",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-09-12.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-09-12.json"
+    },
+    {
+      "rank": 11,
+      "id": "2247489980:1",
+      "title": "13K Star开源项目，一键复刻千万网红爆款视频",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247489980&idx=1&sn=bc2a0e2ccf38bef94017b8d0b84b141d",
+      "published": "2026-09-22 20:43",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/13K Star开源项目，一键复刻千万网红爆款视频-09ed06fb-485c3783af.md",
+      "raw_sha256": "d4d4064c5a0401dc984fb3cd4885bb4ae9d0fd58b4944c160715f7a5831ddb76",
+      "source_page": "wiki/sources/摸鱼小李_Hypit克隆视频框架.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "e7f41030-d446-41e7-9539-e6fef45ab70c",
+      "anchors": [
+        {
+          "text": "说句实话，它做不到一键出片",
+          "location": "第01节末尾 WARN 段"
+        },
+        {
+          "text": "你改一句词，整条自己重排",
+          "location": "第01节工作台与台词挂载机制说明段"
+        }
+      ],
+      "body_sha256": "485c3783af72023c001cfb644d659ee8efc2c27ebaa0449cb7dc951bde5c6e83",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-09-12.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-09-12.json"
+    },
+    {
+      "rank": 12,
+      "id": "2247489823:1",
+      "title": "启元机器人发售——Tim同款！个人机器人价格屠夫",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247489823&idx=1&sn=e0f87f1e4b79f5a6a4958c7ebd66ad87",
+      "published": "2026-09-20 19:01",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/启元机器人发售——Tim同款！个人机器人价格屠夫-519c7665-15d01266ff.md",
+      "raw_sha256": "0eb00b57ebe6bd3ba1d832ed580d852841d8bddf93aaca4ab27566237e1fe425",
+      "source_page": "wiki/sources/摸鱼小李_启元个人机器人发布会.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "b40e928c-e8af-4fc3-afc0-0e3d203812df",
+      "anchors": [
+        {
+          "text": "不是能力问题，是价格问题",
+          "location": "第02节“价格屠夫”开头论证段"
+        },
+        {
+          "text": "最终要靠交付兑现",
+          "location": "第04节“交付同步推进”段"
+        }
+      ],
+      "body_sha256": "15d01266ff25fb6c79b6fbd23a0e69d320ff379fca1a4259ead13d6bb34e729e",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-09-12.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-09-12.json"
+    },
+    {
+      "rank": 13,
+      "id": "2247489775:1",
+      "title": "Seed 2.1 pro升级实测，字节基模的后劲来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247489775&idx=1&sn=39b7ef055f583cb49d2cfb2bcc753c6c",
+      "published": "2026-09-17 09:59",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/Seed 2.1 pro升级实测，字节基模的后劲来了-e8cd93ed-fade39e074.md",
+      "raw_sha256": "451193a1a79b16b2ab678f122f96ea2bb7159330d36285866b6744f541d4d51c",
+      "source_page": "wiki/sources/摸鱼小李_Seed2.1Pro多任务实测.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "4a37e094-99d3-4d22-8789-35789dcb4da1",
+      "anchors": [
+        {
+          "text": "所以，我想动手实测一下，这几个月的进步",
+          "location": "开头，介绍 Seed-2.1-pro 0915 后的测试动机段"
+        },
+        {
+          "text": "人要花多少时间盯着、纠错",
+          "location": "结尾 SEED / EVOLVING 部分，讨论 Agent 进入组织的段落"
+        }
+      ],
+      "body_sha256": "fade39e0743f546fee5009a5e9bea4c10737276d8f69ad2b672f9c505044a518",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-13-16.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-13-16.json"
+    },
+    {
+      "rank": 14,
+      "id": "2247489627:1",
+      "title": "开源！40万字讲透开源模型实战指南",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247489627&idx=1&sn=d39cabaca603bbe84bce9792cb9d9f63",
+      "published": "2026-09-16 18:53",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/开源！40万字讲透开源模型实战指南-20aec21e-434c0ef6e1.md",
+      "raw_sha256": "48b948cf1838afa8db5130fe79dae0712fe88d9c561cfb4de8c5fbbd8d7f75d7",
+      "source_page": "wiki/sources/摸鱼小李_魔搭紫皮书发布说明.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "647951ed-73c9-4516-aed9-e21ee386b55b",
+      "anchors": [
+        {
+          "text": "把选型、部署、微调和评测讲清楚",
+          "location": "开头，说明撰写《魔搭紫皮书》起点的段落"
+        },
+        {
+          "text": "把一人的用法，变成更多人用得上的方法",
+          "location": "结尾，回顾系列蓝皮书并邀请加入社区的段落"
+        }
+      ],
+      "body_sha256": "434c0ef6e103ce089942f83abd35ffd2ceb595adb837050fd186f4afc2061953",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-13-16.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-13-16.json"
+    },
+    {
+      "rank": 15,
+      "id": "2247489587:1",
+      "title": "把做AI游戏流程录成Skill，你真的可以教豆包干活了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247489587&idx=1&sn=0218b2285605c19ab2e3a8894dec2c2f",
+      "published": "2026-09-09 22:06",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/把做AI游戏流程录成Skill，你真的可以教豆包干活了！-89994d8a-a4c5875bfd.md",
+      "raw_sha256": "d7e15c1359c030f04bbc5deef292cbd8f53cc98417b0e87435bdb4fc1241c51b",
+      "source_page": "wiki/sources/摸鱼小李_录制浏览器Skill实测.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "d7dcfeeb-0c35-4bc5-8ea1-81a5a4f465cf",
+      "anchors": [
+        {
+          "text": "你演示一遍自己怎么做",
+          "location": "01 TEACH / RECORD，解释浏览器录制原理的段落"
+        },
+        {
+          "text": "录制的动作能复用，但离完全省心还有一段距离",
+          "location": "02 REUSE / ORGANIZE，B站收藏案例结果后的总结段"
+        }
+      ],
+      "body_sha256": "a4c5875bfd77889dbadc32bd93dede57406cd6e791da26b6a062a5766401b600",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-13-16.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-13-16.json"
+    },
+    {
+      "rank": 16,
+      "id": "2247489515:1",
+      "title": "AI时代最稀缺的，是有人为你的小事鼓掌",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247489515&idx=1&sn=99a273a74c6e39f4723cc11610d6b444",
+      "published": "2026-09-04 16:52",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/AI时代最稀缺的，是有人为你的小事鼓掌-10e7d577-ea7368a848.md",
+      "raw_sha256": "a5664200812edb2938324b31fb80e2836ee2c9e38b5c85e9928fde9e1d72f4f5",
+      "source_page": "wiki/sources/摸鱼小李_小红花公益入口随笔.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "0e6f6534-d72e-446c-8707-9d52ed14ce9d",
+      "anchors": [
+        {
+          "text": "缺的不是想捐的心，是那个刚好在眼前的入口。",
+          "location": "03 INTENT / ACCESS，作者由个人经历抽象入口价值的段落"
+        },
+        {
+          "text": "普通人一点点来就行",
+          "location": "04 ONE POINT / ONE GOOD DEED，反驳只有大额才算公益的段落"
+        }
+      ],
+      "body_sha256": "ea7368a848191f76f9f488f9d3c12641e566cad3d03fc4c8ab6729e0bbe642ae",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-13-16.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-13-16.json"
+    },
+    {
+      "rank": 17,
+      "id": "2247489417:1",
+      "title": "用了全新Qoder回不去了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247489417&idx=1&sn=81f5668480d1c3a1bfe76d53955cc860",
+      "published": "2026-09-03 23:47",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/用了全新Qoder回不去了-7abd9f92-892e1577d1.md",
+      "raw_sha256": "8f6c67cb1d0b0562101921aace6baa060082748a5aec650fd2e05527b84932ba",
+      "source_page": "wiki/sources/摸鱼小李_Qoder无代码产品实测.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "ba3a1445-b1f6-4c6f-8fd8-5a51016aff30",
+      "anchors": [
+        {
+          "text": "先把想法变成一个能点的 demo",
+          "location": "01“这个东西是怎么做出来的”首段"
+        },
+        {
+          "text": "我点了头它才动手",
+          "location": "01 后端搭建与修改计划段"
+        },
+        {
+          "text": "不合成他的声音，不做照片动脸，不做能聊天的“数字人”",
+          "location": "02“先把不做什么说死”段"
+        }
+      ],
+      "body_sha256": "892e1577d199cd1ee475b2209e20e67a3969e9ee744a89c2b5482d7e84d214ca",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-17-20.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-17-20.json"
+    },
+    {
+      "rank": 18,
+      "id": "2247489369:1",
+      "title": "飞书可能是豆包工作Work Agent之战中的最大胜负手",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247489369&idx=1&sn=c307b5af60bd212d421ac6930a10b46e",
+      "published": "2026-09-02 16:14",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/飞书可能是豆包工作Work Agent之战中的最大胜负手-6fb74df0-a2c7f49987.md",
+      "raw_sha256": "aec3772e918bfbe77992818e7809912417df0e5204b20ed1689688d65c9b70e9",
+      "source_page": "wiki/sources/摸鱼小李_飞书底座与豆包工作.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "53b819f4-45b5-4bc3-9c87-95563599bae0",
+      "anchors": [
+        {
+          "text": "先立一份「制度」",
+          "location": "01“开张”开头"
+        },
+        {
+          "text": "写入后必须回读",
+          "location": "01“几个坑”第02项"
+        },
+        {
+          "text": "不需要把 24 张图重新发一遍",
+          "location": "04“智库 + Skill”案例中段"
+        }
+      ],
+      "body_sha256": "a2c7f499879b6aa35cf522051457658d54623fe439b363344f10b5a0908d5271",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-17-20.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-17-20.json"
+    },
+    {
+      "rank": 19,
+      "id": "2247489187:1",
+      "title": "开源！16万字的“豆包工作” 蓝皮书",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247489187&idx=1&sn=64a934e27704fa46b82ade6e89569b86",
+      "published": "2026-09-01 16:30",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/开源！16万字的“豆包工作” 蓝皮书-062fa0e4-8354cb616a.md",
+      "raw_sha256": "3a05f643b97206e0d0cd4c98c6ef4c8a66d0647037454201d56ab21151c445d5",
+      "source_page": "wiki/sources/摸鱼小李_豆包工作蓝皮书开源.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "04663999-ca8f-41fe-8d60-68f853b6ee87",
+      "anchors": [
+        {
+          "text": "让更多人把 Agent 用进真实工作，去解决真实问题",
+          "location": "导语使命句"
+        },
+        {
+          "text": "一条从第一步到跑通的完整路径",
+          "location": "01“继续开源”用户需求段"
+        },
+        {
+          "text": "每个任务都是真实跑通的，才写进去的",
+          "location": "02“蓝皮书里有什么”场景篇之后"
+        }
+      ],
+      "body_sha256": "8354cb616a878d45a1b54bcc0eef21484167c58e142ca1c4d7e158373a4325fd",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-17-20.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-17-20.json"
+    },
+    {
+      "rank": 20,
+      "id": "2247489132:1",
+      "title": "100个Skill踏破AI设计门槛，Lovart 国区上线",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247489132&idx=1&sn=85d870dad1f1decae9d2716fa90e979c",
+      "published": "2026-08-31 22:54",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/100个Skill踏破AI设计门槛，Lovart 国区上线-1d9b5103-95aabb73ca.md",
+      "raw_sha256": "41694ce26b9c7f5bad1b628c2ca415815d0c9440f361b0f27d9de8e745ae3074",
+      "source_page": "wiki/sources/摸鱼小李_Lovart品牌全案实测.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "adc00f61-6e02-4b57-ae09-cb67b9d98d89",
+      "anchors": [
+        {
+          "text": "Skill 不是模板，模板是固定版式改改文字颜色就完了。Skill 是一段方法：明确设计意图 → 选择细分 Skill → 分阶段生成 → 中途纠偏 → 满意了还能保存为个人 Skill。",
+          "location": "01「Skill：我传了两个自己做的」概念说明段，支持“Skill是可纠偏、可保存复用的方法而非固定模板”的判断。"
+        },
+        {
+          "text": "下一步，生成淘宝电商头图。第一版跑出来不太行，排版和配色有点生硬。这时候 Lovart 的灵感采集就派上用场了。",
+          "location": "02「KPA 品牌全案」电商头图首次生成结果段，支持作者明确展示失败版本并进行后续参考图纠偏的判断。"
+        }
+      ],
+      "body_sha256": "95aabb73cae7d138c74c31eadd424f4a873853b8fcdd9a10029d88d58057f839",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-17-20.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-20-20.json"
+    },
+    {
+      "rank": 21,
+      "id": "2247488831:1",
+      "title": "实测腾讯 Hy4 preview｜杀回开源模型第一梯队，WorkBuddy免费用！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247488831&idx=1&sn=0d5bb8d851dabb453789eb32c553f940",
+      "published": "2026-08-28 23:00",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/实测腾讯 Hy4 preview｜杀回开源模型第一梯队，WorkBuddy免费用！-2b025cbf-db07b2945e.md",
+      "raw_sha256": "13b4cc5714743ab112ab3cfd1579e81b87b0adb379a289c701f410c049b269b2",
+      "source_page": "wiki/sources/摸鱼小李_Hy4游戏长任务实测.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "0b5fb86c-3d36-42f5-92af-a823580befca",
+      "anchors": [
+        {
+          "text": "Hy3 这版就翻车了，没办法正常运行游戏",
+          "location": "01「同一提示词，差距藏不住」MINI VICE对照段，支持该次测试中Hy3版本无法正常运行、而文章据此比较两代完成度的判断。"
+        },
+        {
+          "text": "它当然还不完美。个别任务里，Hy4 会陷入死循环，需要临时切换其他模型救场。",
+          "location": "04「写在最后」局限披露段，支持Hy4仍可能死循环且需要人工切换模型救场的证据边界判断。"
+        }
+      ],
+      "body_sha256": "db07b2945e32a333a2801dda5aa3f67e4d83e2302d408bb6ae6d14a6d0174c35",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-21-24.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-21-21.json"
+    },
+    {
+      "rank": 22,
+      "id": "2247488758:1",
+      "title": "研究了千万级博主的AI口播变现思路，我发现了普通人的新机会",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247488758&idx=1&sn=fe1bfae24c72665bf55454fc70a1a133",
+      "published": "2026-08-25 15:33",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/研究了千万级博主的AI口播变现思路，我发现了普通人的新机会-2acb200f-edf518b62f.md",
+      "raw_sha256": "263a2622ec4fe1d39ceb6c2032962d74f036c96eaf4570ed7709382557e6af2f",
+      "source_page": "wiki/sources/摸鱼小李_AI口播四路径拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "64da7128-5f20-445d-a149-884871128315",
+      "anchors": [
+        {
+          "text": "把这条从“想讲”到“发出去”的路跑顺",
+          "location": "01「路子之前，先把流程跑顺」工作流总结段"
+        },
+        {
+          "text": "很多副业不是输在不会，而是一直在等准备好",
+          "location": "02 CASE 02「金三」案例结尾"
+        }
+      ],
+      "body_sha256": "edf518b62f99dc1837df6b685dec174108b8474c0face36bf82c64aae5559dfd",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-21-24.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-21-24.json"
+    },
+    {
+      "rank": 23,
+      "id": "2247488675:1",
+      "title": "真正的适合打工人的 Work Agent，不该只会写 PPT",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247488675&idx=1&sn=818e649110b62ed777494188cd8cdd19",
+      "published": "2026-08-21 17:37",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/真正的适合打工人的 Work Agent，不该只会写 PPT-d2cdd5dc-8bc951cd86.md",
+      "raw_sha256": "9340675c05ec0f1694d5678e2d42eb98640c9b85e1f7be39123588cb5fc942da",
+      "source_page": "wiki/sources/摸鱼小李_办公小浣熊活动全链路实测.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "cb4af7fa-982e-411c-8b88-de16abb94f99",
+      "anchors": [
+        {
+          "text": "没检到数英那篇同名报告，就老实标注用获奖案例替代。不编数据，只拿当时能抓到的。",
+          "location": "01「调研和分析不能省」抓情报结果段，支持Agent在未检索到指定报告时标注替代来源、而非虚构数据的作者观察。"
+        },
+        {
+          "text": "三个赛道：AI 学习搭子、社团搞事、校园搞钱。我填了条测试数据，顺利拿到搭子编号DZ-MONEY-35695。",
+          "location": "03「提案能看，落地能跑」报名H5测试段，支持作者实际提交一条测试数据并跑通单次报名路径的判断。"
+        }
+      ],
+      "body_sha256": "8bc951cd86baff44a7e73e7cdf80cba0dfcafedbc30118e73d94cf78a8eb4bcf",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-21-24.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-23-23.json"
+    },
+    {
+      "rank": 24,
+      "id": "2247488643:1",
+      "title": "我让豆包指挥Codex、Claude、Grok一起干活",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247488643&idx=1&sn=4f6b1d08e211a1b79be86b0c171edaea",
+      "published": "2026-08-19 19:53",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/我让豆包指挥Codex、Claude、Grok一起干活-033dd5c8-c7d7d09687.md",
+      "raw_sha256": "002e2f980b21f122a2e168a4deeb4c7ec1a31592da82aad0c47512d410dfbe8f",
+      "source_page": "wiki/sources/摸鱼小李_豆包远控多工具实测.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "a23cc50a-1021-44af-85d1-8cf45984cbd3",
+      "anchors": [
+        {
+          "text": "遥控归遥控，活儿到底干成啥样，还得细说",
+          "location": "02「复刻牛来」开头转场段"
+        },
+        {
+          "text": "试验田管「试」，不管「养」云电脑最爽的地方：它随时能没",
+          "location": "04「一次性试验田」限制总结段"
+        }
+      ],
+      "body_sha256": "c7d7d09687a0a817eb1eb7dc9fd35f3107f98d4101594b2484b29b36303913bb",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-21-24.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-24-24.json"
+    },
+    {
+      "rank": 25,
+      "id": "2247488597:1",
+      "title": "Seedance 2.5 商业 TVC 怎么少抽卡——提示词和方法论全放出来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247488597&idx=1&sn=4c24f43b997fb35f2dc63b83c4923ec0",
+      "published": "2026-08-18 20:53",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/Seedance 2.5 商业 TVC 怎么少抽卡——提示词和方法论全放出来了-7f411a2b-5bc9b20410.md",
+      "raw_sha256": "a191a1e02d01af4cd14c7f75950007d95f11f608743f0cc6ffa6d8623d10b9a8",
+      "source_page": "wiki/sources/摸鱼小李_Seedance2.5商业TVC少抽卡.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "4fdfa54b-9fff-467e-8d31-1a73053df66d",
+      "anchors": [
+        {
+          "text": "分镜的核心单位是节拍——一次有意义的变化",
+          "location": "01「别写电影感，写清怎么拍」中“一、节拍与景别”首段，支持正文关于节拍是分镜方法论最小单位的判断。"
+        },
+        {
+          "text": "模型能照着执行\"缓慢前推至他的指尖\"，但不会告诉你这一拍为什么要推",
+          "location": "文末「写在最后」第二段，支持正文关于模型负责执行、创作者负责判断镜头动机的边界判断。"
+        }
+      ],
+      "body_sha256": "5bc9b20410bde870752e742c9277fd54118725299c9a18163571e27025078c37",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-25-28.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-25-25.json"
+    },
+    {
+      "rank": 26,
+      "id": "2247488537:1",
+      "title": "这才是打工人想要的 work Agent",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247488537&idx=1&sn=b6a3889e5da070dde2e98e89dbae05b5",
+      "published": "2026-08-16 09:32",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/这才是打工人想要的 work Agent-b4407920-c121075134.md",
+      "raw_sha256": "67ce71b5bd7cbd2f5c7c1822a594d2b39ef0cd6af02838df8e9b1fed4a444ef5",
+      "source_page": "wiki/sources/摸鱼小李_灵犀专业版交付实测.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "b1d563a6-dd12-42aa-b950-e7e7a934c3bd",
+      "anchors": [
+        {
+          "text": "我把过去一年发过的8 篇公众号文章交给灵犀，让它整理《2026 年 AI 提示词实战指南》书稿、做宣传 PPT，最后用 Remotion 生成了这支 1080P 视频。",
+          "location": "开头 VIDEO 01 成片说明后的段落，支持正文对实测输入、任务链和视频输出的概括。"
+        },
+        {
+          "text": "真正的 AI 办公，应从交付内容走向交付结果。",
+          "location": "04「底座在，文件才交得出去」后半段、进入「写在最后」之前，支持正文所述全文的核心判断标准。"
+        }
+      ],
+      "body_sha256": "c12107513404788e1b6222902ede86ca286cba3da9f25fa314ff3748baafbdce",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-25-28.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-26-26.json"
+    },
+    {
+      "rank": 27,
+      "id": "2247488501:1",
+      "title": "实测GLM 5.3｜重回开源国模一哥",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247488501&idx=1&sn=cefaa4765777bca19d20bac5d6e88841",
+      "published": "2026-08-15 12:14",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/实测GLM 5.3｜重回开源国模一哥-ed270830-adf3dee993.md",
+      "raw_sha256": "f6b0f8c03b633566ee4bd33261bcdf079f2d3c128b3b14ab9288a45368a585af",
+      "source_page": "wiki/sources/摸鱼小李_GLM5.3长程交付实测.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "35b2b856-2690-477f-8bc8-743f6d6506c7",
+      "anchors": [
+        {
+          "text": "让 AI 自己把一件大事，拆成很多步，一步一步做完",
+          "location": "导语对长程调度的通俗解释段"
+        },
+        {
+          "text": "Loop 的关键不是提示词写得花哨",
+          "location": "04「设计loop提示词」五条建议后的总结段"
+        }
+      ],
+      "body_sha256": "adf3dee993c836901871e37d60fed220baa6d22cc3ba7fcc7e95497259cd7309",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-25-28.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-25-28.json"
+    },
+    {
+      "rank": 28,
+      "id": "2247488466:1",
+      "title": "Seedance 2.5 火力全开，只需要一个 LibTV（附提示词）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247488466&idx=1&sn=0f3f77c2219d60048101a6b61b7e4756",
+      "published": "2026-08-07 21:31",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/Seedance 2.5 火力全开，只需要一个 LibTV（附提示词）-98d5074f-5b458b3c8d.md",
+      "raw_sha256": "55b631576bfbc8ff548ded1261e83e74bd6c111e4aa38863dfb9a2c275b873c4",
+      "source_page": "wiki/sources/摸鱼小李_LibTV榨干Seedance2.5.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "4f732f84-822a-4fbd-8572-244ade00fe12",
+      "anchors": [
+        {
+          "text": "真正拼的是产品力——模型出到哪，功能就适配到哪",
+          "location": "导语第二段介绍 LibTV 为 Seedance 2.5 增加新功能处，支持正文关于平台价值在于把模型能力转化为适配功能的判断。"
+        },
+        {
+          "text": "复刻如果看起来太像原片，别人会以为你在洗片。",
+          "location": "03「逐帧拉片，把爆款拆成参考」末段，支持正文关于参考迁移存在相似性与版权识别风险的判断。"
+        }
+      ],
+      "body_sha256": "5b458b3c8da5eb6e3563542e02cc4921bb0a21223a1af0fa2c3c8b11ed363cf8",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-25-28.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-28-28.json"
+    },
+    {
+      "rank": 29,
+      "id": "2247488398:1",
+      "title": "这可能就是 OPC 真正需要的 AI 视频工具",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247488398&idx=1&sn=6e1bbc3dc8d469d888ac3f0eb5b7123b",
+      "published": "2026-07-31 22:11",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/这可能就是 OPC 真正需要的 AI 视频工具-3e37d3c8-3b7b429efb.md",
+      "raw_sha256": "674c92c6d59f641ba3845686dbcc63550ec4438548331084a2440b4973b058f0",
+      "source_page": "wiki/sources/摸鱼小李_Seko3.0四类视频工作流.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "5a12a2e1-b83f-45d4-becd-d884eecfd410",
+      "anchors": [
+        {
+          "text": "片段加入网页编辑器后，可以直接拖动、排序和做基础剪辑。",
+          "location": "01「一条英语短剧，试试出海」末段"
+        },
+        {
+          "text": "基地给的是入口，不是自动接单",
+          "location": "03「OPC 基地，等待你的加入」中段"
+        }
+      ],
+      "body_sha256": "3b7b429efb7b0023cb0ba0e98c93b527b6b4555666e9d7d307a598d666a14fa9",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-29-30.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-29-30.json"
+    },
+    {
+      "rank": 30,
+      "id": "2247488245:1",
+      "title": "Qwen3.8 强的有点出乎意料",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247488245&idx=1&sn=8e13905ec4504f24db67a3ff193c4573",
+      "published": "2026-07-27 11:58",
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/Qwen3.8 强的有点出乎意料-abf89993-61a1b2d7f1.md",
+      "raw_sha256": "9de0f4b4a8eedb5760aa83228dc8d75c685499b17b202268213f3df06109f21f",
+      "source_page": "wiki/sources/摸鱼小李_Qwen3.8四项目实测.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "c0381d25-bae3-4eec-a99a-1ebd08de0cf8",
+      "anchors": [
+        {
+          "text": "整个过程都在小红书页面里完成，不用来回切。",
+          "location": "01「小红书里直接出片」中段"
+        },
+        {
+          "text": "模型生成成功了，不代表手机跑得动，面数太大还得再压一版。",
+          "location": "02「会动的冰箱贴」故障说明段"
+        }
+      ],
+      "body_sha256": "61a1b2d7f1373ec080b6399032c1b5ff223728c5e51d0fd9d0d5ee0278b0a4e0",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-input-29-30.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/摸鱼小李/slow-output-29-30.json"
+    }
+  ]
+}

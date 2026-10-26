@@ -1,0 +1,548 @@
+{
+  "model": "slow",
+  "article_count": 30,
+  "input_scope": "每组三篇完整正文文字，不截断；原始HTML留存在raw和detail",
+  "media_scope": "未观看图片视频；未执行原文指令或重跑产品",
+  "checks": [
+    {
+      "rank": 1,
+      "raw_path": "raw/article/郭震AI/我让豆包工作读完 150 篇自媒体文章，蒸馏出了一个自媒体军师 Skill（技能），真的太好用了！-ba547372-4240e93a31.md",
+      "anchors": [
+        {
+          "text": "做自媒体，先别急着学技巧，先搞清楚自己处在哪个阶段",
+          "location": "第一节中部，提出四阶段框架之前",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "现实预期只引用素材原话，门槛类数字统一提示以后台为准",
+          "location": "第三节末，封装Skill的硬规则处",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "raw_path": "raw/article/郭震AI/终于找到一个能学习电脑上万文件的 AI，真的太丝滑了！-cb5caa4a-a8b2b476e0.md",
+      "anchors": [
+        {
+          "text": "就可以做到不到1分钟从几千文件中找答案",
+          "location": "第一节中部，解释RAG价值处",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "最新版V3.5.3共覆盖69种文件格式",
+          "location": "全文开头，产品规模介绍处",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "raw_path": "raw/article/郭震AI/我让豆包Agent读完 100 篇副业文章，蒸馏出一个副业军师 Skill，非常实用！-f7b4b51a-5d925efa87.md",
+      "anchors": [
+        {
+          "text": "只需输入你所在行业，自动推荐适合你所在行业的副业和完整行动清单",
+          "location": "第1节开头，最终效果说明处",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "一共544行，25列",
+          "location": "第2节第一步末，副业库抽取结果处",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "raw_path": "raw/article/郭震AI/终于实现了！把你的几千个文件这样交给本地大模型，随便问，还不限次！-a0f357fc-dda193e26c.md",
+      "anchors": [
+        {
+          "text": "它的出现，就是专门为了解决以上这些问题",
+          "location": "第1节“通用智能体”末段，引出DeepLocals处",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "从思考到完整回复完成，只有48秒",
+          "location": "第2节“DeepLocals和LLM Wiki区别”中段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "raw_path": "raw/article/郭震AI/睡前给豆包Agent安排写一本书，第二天醒来写好了！-d8428ced-cb71fab277.md",
+      "anchors": [
+        {
+          "text": "所以这次我不让它一口气写完，而是先搭一套写书 Harness",
+          "location": "第1节末段，提出核心方法处",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "规则先定死，后面才不会跑偏",
+          "location": "第2节第一步“建立全书总纲”段落",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "raw_path": "raw/article/郭震AI/最新Qoder实测：Qwen3.8-Flash 直接用，我顺手做了个微信文件搜索神器！-269ab552-2897adceab.md",
+      "anchors": [
+        {
+          "text": "微信原始文件始终只读",
+          "location": "第2节十条需求前的总目标段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "某项验收失败时继续修正，不要把“代码已写完”当作任务完成",
+          "location": "第2节第10条需求末句",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "raw_path": "raw/article/郭震AI/豆包工作Agent接入这4个Skill，变成你的自媒体工作台！-af47ad9d-4fcc535ebc.md",
+      "anchors": [
+        {
+          "text": "我只演示一次，后面通过一句话就能重新调用",
+          "location": "第2节“素材获取Skill”结果段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "选题与观点依然由我把控，但它替我省掉了搜集、排版和拉时间线的重复消耗。",
+          "location": "“最后总结一下”第2段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "raw_path": "raw/article/郭震AI/告别抽卡！实测商汤 U1 Pro：AI生图终于进入“交付级”时代！-5a14897f-21bbdabb2f.md",
+      "anchors": [
+        {
+          "text": "三天三轮实测下来，我最大的感受是：U1 Pro 让 AI 生图从反复抽卡，开始走向真正干活。",
+          "location": "开头末段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "准确的问题自检与跨区域精确局部修正",
+          "location": "第3节“测试对复杂图的改图能力”结果分析段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "raw_path": "raw/article/郭震AI/豆包工作Agent实测：Excel和PPT竟然被打通了，现在可以互转！-a139850c-0f7f7fa361.md",
+      "anchors": [
+        {
+          "text": "电脑里已有的文件交给它，能不能接着分析，并做成能继续修改的汇报？",
+          "location": "开头第4段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "只要说清需求，豆包工作就能直接修改本地Excel，并把新增的“数据洞察”表写回原文件。",
+          "location": "第1节“实测13张Excel表”写回结果段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "raw_path": "raw/article/郭震AI/实测豆包Agent，我完整跑通了3个自媒体工作流，普通人也能上手！-95a46641-2895ee575d.md",
+      "anchors": [
+        {
+          "text": "本次只生成旁白稿、分镜表和素材清单，暂时不要生成图片或视频。",
+          "location": "第1节“旁白稿生成工作流”提示词末尾",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "我直接关掉了本地电脑，随后用手机打开同一个任务",
+          "location": "第3节“合成视频工作流”中后段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "raw_path": "raw/article/郭震AI/LibTV实测：现在爆款视频可以直接复刻了，人物动作 1_1 还原！-8d039915-b6b4ba8271.md",
+      "anchors": [
+        {
+          "text": "只学习动作和空间关系，不照搬原人物与画风",
+          "location": "第1节第一组舞蹈测试结果后",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "人物怎么动、往哪里走、镜头怎么跟",
+          "location": "第3节对深度动作捕捉的通俗解释",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "raw_path": "raw/article/郭震AI/视频 Agent 实测：从剧本到成片，一条短剧竟能这么重新拍！-e041377b-9692379251.md",
+      "anchors": [
+        {
+          "text": "可以在生成前单独修改，不用整条视频全部重做",
+          "location": "第1节拉片与分镜检查段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "不大幅改动原剧骨架，主要完成人物形象、台词语言和基础文化表达的本地化",
+          "location": "第2节初级裂变结果说明",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "raw_path": "raw/article/郭震AI/豆包再进化，Seed-Evolving 多模态 Coding 实测，结果有点惊喜！-178665bb-2a5585dec9.md",
+      "anchors": [
+        {
+          "text": "但这些能力不能只看介绍页，所以我把它们压到一个真实任务里测",
+          "location": "第1节末，测试设计段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "但要继续开发和维护，代码还需要进一步拆分",
+          "location": "第2节末，第一轮局限段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "raw_path": "raw/article/郭震AI/用 Lovart 做AI设计：我实测了8组工作流，真的省事！-a9c79a69-ece290b244.md",
+      "anchors": [
+        {
+          "text": "真正麻烦的是找灵感、整理参考、确定设计方向",
+          "location": "开头第2段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "整个过程里，我没有花时间拆解蜡笔笔触、纸张材质和配色规则",
+          "location": "第2节，潦草蜡笔画风案例末",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "raw_path": "raw/article/郭震AI/实测豆包Agent，我跑通了4个自媒体工作流，完整分享！-41ec3fc7-9230e0a90f.md",
+      "anchors": [
+        {
+          "text": "最吸引我的是，它不用把人一直绑在电脑前",
+          "location": "开头，核心价值引入段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "若没有告诉你选题，你直接终止不能往下走",
+          "location": "第2节，素材工作流提示词末",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "raw_path": "raw/article/郭震AI/我实测了5条 Seedance 2.5 视频，发现AI生成视频终于更自然了-0fc8d688-3339ad8eb2.md",
+      "anchors": [
+        {
+          "text": "你提供提示词的越有逻辑，最后生成的视频会越贴近你的想法。",
+          "location": "第一节，宠物提示词方法段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "商品卖点是可选，但我认为是重点，前面已经提及过了",
+          "location": "第三节，爆款复刻设置段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "raw_path": "raw/article/郭震AI/最新Qwen3.8-Flash 实测：接近Opus 4.8，性价比离谱！-8b5b410f-12735abc5f.md",
+      "anchors": [
+        {
+          "text": "这个任务不只考验代码生成，还涉及文件读取、数据分析、图表生成和页面交互",
+          "location": "第二节，任务定义段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "四款模型使用同一份Excel文件，生成结果不做人工修改",
+          "location": "第二节，实验控制段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "raw_path": "raw/article/郭震AI/从剧本直出到一键成片，我用Seedance2.5 跑了一遍AI短剧全流程！-510bb9e3-a4e76e7890.md",
+      "anchors": [
+        {
+          "text": "它需要能在统一人设的前提下，有稳定一致的画风",
+          "location": "开头，短剧需求定义段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "依次围绕输入剧本、资产详情、分镜管理、视频编辑4步骤完成。",
+          "location": "第一节，剧本直出流程段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "raw_path": "raw/article/郭震AI/自己会进化的Agent来了：用它20分钟拆解 DeepSeek Harness 整个项目！-6bda43bf-6fd24fe034.md",
+      "anchors": [
+        {
+          "text": "所有技术判断必须附上官方文档链接，或者对应的源码文件路径",
+          "location": "Case 1提示词末段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "部分子 Agent 因工具调用预算耗尽，没有按计划生成报告",
+          "location": "Case 1首轮执行结果段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "raw_path": "raw/article/郭震AI/终于有Agent可用SD2.5直出5分钟长视频了，还支持秒级重拍，实测真的靠谱！-1fc83602-86adaa5fa9.md",
+      "anchors": [
+        {
+          "text": "使用LibTV原生直出，再使用它家的片段重拍，做局部修改",
+          "location": "开头工作流概述段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "如果重新生成整条视频，不仅浪费时间和成本",
+          "location": "第4节片段重拍的问题说明段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "raw_path": "raw/article/郭震AI/实测 MiniMax H3 三天，生成的视频确实夯，Seedance 真要有危机感了！-bfa2eb5d-6f1a66ae37.md",
+      "anchors": [
+        {
+          "text": "SD2.5对键盘外观和产品结构的保持更加稳定",
+          "location": "第1节键盘对比结论段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "搭建了一整套微缩生产线",
+          "location": "第2节气泡水对比结果段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "raw_path": "raw/article/郭震AI/AI生成的视频到底用在哪些行业，实测3天后我终于找到了答案！-6e5492ac-d85ced37ae.md",
+      "anchors": [
+        {
+          "text": "真正能干活的AI视频工具，不能只靠一次惊艳",
+          "location": "第2节“我的更多实测case”末段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "产业资源、孵化支持和商业化通路形成闭环",
+          "location": "第3节“Agent + OPC”两个外部案例之后",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "raw_path": "raw/article/郭震AI/接入这个开源插件，让我Token直接省了50%，Hermes和OpenClaw都支持。-7d505d5f-dd35c9075b.md",
+      "anchors": [
+        {
+          "text": "只把当前真正需要的信息留在对话里",
+          "location": "全文开头第3段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "只在上下文中保留摘要和任务图，从而减少 Token 消耗",
+          "location": "第2节“三件事”第三点",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "raw_path": "raw/article/郭震AI/我又发现一个AI视频生成的新方法，实测真的靠谱！-269e6f50-530bdbb893.md",
+      "anchors": [
+        {
+          "text": "发送同样的提示词和同样的一张图给H3",
+          "location": "第1节“视频对比实测”首轮对比",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "H3可能没有在每个细节上都超过SD2",
+          "location": "“最后总结一下”首段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "raw_path": "raw/article/郭震AI/在这个国产Codex 里，说句话一个APP就出来了！-c6d71442-eb312df32b.md",
+      "anchors": [
+        {
+          "text": "手上改文档，嘴上让 Agent 干活",
+          "location": "最后总结，倒数第二段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "昨天公众号里看到Qoder Voice发布，是个语音交互Agent",
+          "location": "全文文字第3段；原始HTML正文行13",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 26,
+      "raw_path": "raw/article/郭震AI/我用这种方法，一句命令部署Kimi K3 到自己电脑！-a9973ddf-6eaa1a8083.md",
+      "anchors": [
+        {
+          "text": "两天4个小时搜集了100条数据，做SFT玩一下。",
+          "location": "第2节“微调教程”，数据规模说明段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "当然，100条数据只是玩一玩，距离真正的能力迁移还有差距",
+          "location": "最后总结，末段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "raw_path": "raw/article/郭震AI/终于找到个全能视频 Agent：选个 Skill，说句话，成片就出来了！-aee1c7eb-103484cffa.md",
+      "anchors": [
+        {
+          "text": "大家看到这就是它家的这个Agent，从任务规划，再到文本，图片，声音，视频，字幕一连串生成。",
+          "location": "第2节“从零制作短视频”，流程总结段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "哪里有问题就改哪里，用起来既省事，也保留了足够的控制空间。",
+          "location": "最后总结，末段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 28,
+      "raw_path": "raw/article/郭震AI/GPT-5.6 接入 Codex，实测结果超预期！-d1b90e18-2cc1c4d694.md",
+      "anchors": [
+        {
+          "text": "效果好不好，不能光看报道怎么说，得亲自去玩它",
+          "location": "第1节末、转入实测前",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "完成这个任务耗费了33分18秒",
+          "location": "第2节“构建完成截图”后",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "raw_path": "raw/article/郭震AI/最新混元Hy3，DeepSeek-V4-Pro，Qwen3.7-Max实测，谁才是性价比之王？-26bf138a-4944dde674.md",
+      "anchors": [
+        {
+          "text": "光看得分是不够的，必须得真正去大量使用下",
+          "location": "第1节末、实测前",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "这个任务测的是它能不能把一个前端交互需求拆成完整模块",
+          "location": "第2节提示词后",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "raw_path": "raw/article/郭震AI/Qwen3.5 9B + Hermes，这可能是本地电脑玩Agent最好的组合！-58f321c8-90c9684dca.md",
+      "anchors": [
+        {
+          "text": "它只需要16G内存+8G显卡，就能跑通。",
+          "location": "第1节硬件要求段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        },
+        {
+          "text": "首token延时（也就是TTFT）平均为 2.29s",
+          "location": "第1节10次测评结果段",
+          "exact_in_extracted_text": true,
+          "exact_in_raw_html": true
+        }
+      ]
+    }
+  ]
+}

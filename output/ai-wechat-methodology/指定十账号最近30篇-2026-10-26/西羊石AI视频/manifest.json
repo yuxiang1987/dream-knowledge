@@ -1,0 +1,1050 @@
+{
+  "requested_name": "西洋石AI视频",
+  "resolved_name": "西羊石AI视频",
+  "username": "gh_f5c1e588b297",
+  "alias": "xiyangshi666",
+  "identity_confirmation": "用户明确确认并提供正确账号截图；首张羊羊AI视频截图系发错，不纳入",
+  "acquired_at": "2026-10-26T11:00:50+08:00",
+  "list_count": 30,
+  "articles": [
+    {
+      "id": "2247545209:1",
+      "title": "反超GPT-6 Astra！Kimi K3.1 Pro杀回来了，到底有多猛？（附吐血实测）",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247545209&idx=1&sn=1b445a9663a1f67891fe15fe7c575b58",
+      "published": "2026-10-24 17:52",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/反超GPT-6 Astra！Kimi K3.1 Pro杀回来了，到底有多猛？（附吐血实测）-392b66db-b78efa42ee.md",
+      "body_sha256": "b78efa42ee04f2a61cbeb75f054222b144c534b1144216d746d78c8768ae4652",
+      "raw_sha256": "34ffb013ad2367ba22820ff5d9bb5c81f64ef3e865cc6a4579325733e0c5b3e4",
+      "request_id": "42c5c7a7-68bf-43e1-beaf-457137bcdadf",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 1,
+      "source_page": "wiki/sources/西羊石：Kimi K3.1 Pro 3D实测.md",
+      "anchors": [
+        {
+          "text": "分数高，能不能把我们要的东西做好，还得看作品。",
+          "location": "开头榜单评价段；全文文字偏移288",
+          "verified": true
+        },
+        {
+          "text": "这组都不是一遍过。",
+          "location": "iPhone Dou产品片案例；全文文字偏移1274",
+          "verified": true
+        },
+        {
+          "text": "我们这次没有用 CAD 或实物尺寸校准，镜头和铰链也做了简化。",
+          "location": "iPhone Dou产品片案例；全文文字偏移1448",
+          "verified": true
+        },
+        {
+          "text": "不是直接输入一句话就生成视频。",
+          "location": "结尾工作流披露；全文文字偏移2772",
+          "verified": true
+        }
+      ],
+      "detail_request_id": "42c5c7a7-68bf-43e1-beaf-457137bcdadf",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-01-05.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-01-05.json"
+    },
+    {
+      "id": "2247545164:1",
+      "title": "别让你的收藏夹再吃灰了！用豆包工作搭建个人知识库完整教程（附提示词）",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247545164&idx=1&sn=98eb4fdcf9b9ff5804cafa5c7007613e",
+      "published": "2026-10-23 20:10",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/别让你的收藏夹再吃灰了！用豆包工作搭建个人知识库完整教程（附提示词）-52906ac0-d4324cff0e.md",
+      "body_sha256": "d4324cff0e0570eed2334721c349281bc666d66dbfb2d23f89389350e0a5301b",
+      "raw_sha256": "9dba692f83f91edbf7e0b2e7831b12bf45bf80a38d50798458f7c9e7cfffaa09",
+      "request_id": "9a610692-193a-48d1-b847-3f568bd0fe36",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 2,
+      "source_page": "wiki/sources/西羊石：豆包工作个人知识库.md",
+      "anchors": [
+        {
+          "text": "下面从一个空文件夹开始，带大家搭一遍。",
+          "location": "开头教程承诺；全文文字偏移295",
+          "verified": true
+        },
+        {
+          "text": "本次先不修改知识页和原始资料，等我确认。",
+          "location": "第三步提炼可用知识；全文文字偏移3520",
+          "verified": true
+        },
+        {
+          "text": "未经验证的建议不要写成实测经验。",
+          "location": "第四步回写提示词；全文文字偏移5013",
+          "verified": true
+        },
+        {
+          "text": "资料会过时，AI 也可能理解错。",
+          "location": "写在最后；全文文字偏移5288",
+          "verified": true
+        }
+      ],
+      "detail_request_id": "9a610692-193a-48d1-b847-3f568bd0fe36",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-01-05.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-01-05.json"
+    },
+    {
+      "id": "2247545120:1",
+      "title": "代码驱动AI视频来了！小白也能用Fotor Agent交付可商用 MG 成片（附零基础教程）",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247545120&idx=1&sn=ae79b100a68dc625a0439dc1c64909d5",
+      "published": "2026-10-20 12:26",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/代码驱动AI视频来了！小白也能用Fotor Agent交付可商用 MG 成片（附零基础教程）-31161508-e54bd536e2.md",
+      "body_sha256": "e54bd536e2ad266dcbf137207f29292ebb2c2ec77e863d96a63cdf7af7d6ecff",
+      "raw_sha256": "68b7c3326db7487df2066fad3004625d702c04cd454e574bfcba9884649b34b6",
+      "request_id": "56b5505f-4f45-4505-b044-6047659863d0",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 3,
+      "source_page": "wiki/sources/西羊石：Fotor Agent代码MG成片.md",
+      "anchors": [
+        {
+          "text": "我觉得一些人形和圆弧还不够好，就接着让它去优化了。",
+          "location": "疫苗科普MG首版生成后的人工修正；全文文字偏移3003",
+          "verified": true
+        },
+        {
+          "text": "视频只有能持续迭代加工，才真正有交付价值。",
+          "location": "苏轼人生地图案例；全文文字偏移4108",
+          "verified": true
+        },
+        {
+          "text": "这个视频我从前期规划到后期调整，差不多一个多小时",
+          "location": "苏轼人生地图案例；全文文字偏移4371",
+          "verified": true
+        },
+        {
+          "text": "注意是Fotor Agent国内版，直接网页搜索就能使用上。",
+          "location": "写在最后；全文文字偏移4907",
+          "verified": true
+        }
+      ],
+      "detail_request_id": "56b5505f-4f45-4505-b044-6047659863d0",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-01-05.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-01-05.json"
+    },
+    {
+      "id": "2247545061:1",
+      "title": "实测豆包新出的创作画布，国内通用办公AI终于卷到点子上了（附提示词）",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247545061&idx=1&sn=23361f230d2d3028f35004e6da43a196",
+      "published": "2026-10-16 19:00",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/实测豆包新出的创作画布，国内通用办公AI终于卷到点子上了（附提示词）-ce3a38b7-39d9e221ea.md",
+      "body_sha256": "39d9e221eadaef4b49793c80238fa278fa1214b8f80533ce3628b1d10dd67a51",
+      "raw_sha256": "f94ce189085c5eca47575e8113cdf557c92f3a3fddd91b7a39f7274dcc855723",
+      "request_id": "51866c00-d435-47cd-91c0-24c17ed66c44",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 4,
+      "source_page": "wiki/sources/西羊石：豆包创作画布实测.md",
+      "anchors": [
+        {
+          "text": "AI可以做文章来源整理和排版，但是客观事实和自己的意思，还是得过一遍。",
+          "location": "结合内容做PPT分享；全文文字偏移882",
+          "verified": true
+        },
+        {
+          "text": "保留产品外观，不编价格、优惠和参数。",
+          "location": "小米18 Pro活动物料提示词；全文文字偏移1482",
+          "verified": true
+        },
+        {
+          "text": "标题改对了，不过书页和镜头里的反光也有一点变化",
+          "location": "图像设计修改测试；全文文字偏移1745",
+          "verified": true
+        },
+        {
+          "text": "至于书读完想通了什么、几版设计选哪一张，依然需要我们去判断。",
+          "location": "写在最后；全文文字偏移2996",
+          "verified": true
+        }
+      ],
+      "detail_request_id": "51866c00-d435-47cd-91c0-24c17ed66c44",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-01-05.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-01-05.json"
+    },
+    {
+      "id": "2247545030:1",
+      "title": "做设计还学一堆软件？直接在 WorkBuddy 里召唤 TapNow，一步到位（附全套提示词）",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247545030&idx=1&sn=40b40c5266b7950f82619f9e0a0aec75",
+      "published": "2026-10-14 08:00",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/做设计还学一堆软件？直接在 WorkBuddy 里召唤 TapNow，一步到位（附全套提示词）-eada0016-0e20050c8f.md",
+      "body_sha256": "0e20050c8fdd2d9e4d3dd10470f5afce97a65a44c68153012e97a9de94ea163c",
+      "raw_sha256": "64b1043bb82cec40fbc4c2e6864934b30ae6a86205b5708269e09afc3b1a8e10",
+      "request_id": "3acfd1bb-e300-447b-a514-18881346619a",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 5,
+      "source_page": "wiki/sources/西羊石：WorkBuddy调用TapNow.md",
+      "anchors": [
+        {
+          "text": "给谁看，拿去哪里用，必须保留什么，最后要什么文件。",
+          "location": "01 工具接入；全文文字偏移977",
+          "verified": true
+        },
+        {
+          "text": "原片生成完，我们人工还得挑选和剪辑，这两步省不了。",
+          "location": "踏浪而行案例；全文文字偏移2578",
+          "verified": true
+        },
+        {
+          "text": "后期清理了角落小字。",
+          "location": "桂花拿铁海报案例；全文文字偏移2906",
+          "verified": true
+        },
+        {
+          "text": "WorkBuddy的对话消耗和TapNow的积分是两回事",
+          "location": "05 最后；全文文字偏移3882",
+          "verified": true
+        }
+      ],
+      "detail_request_id": "3acfd1bb-e300-447b-a514-18881346619a",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-01-05.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-01-05.json"
+    },
+    {
+      "id": "2247544978:1",
+      "title": "动动嘴就能做AI教学影片，还能自动剪辑！豆包工作全流程教程（附提示词）",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247544978&idx=1&sn=9e452a9e796a8cac7c1458717d64a958",
+      "published": "2026-10-10 08:00",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/动动嘴就能做AI教学影片，还能自动剪辑！豆包工作全流程教程（附提示词）-64d8edaf-59ad975c99.md",
+      "body_sha256": "59ad975c9970ffd37ab1d9cf981da713ed5d88cf405df5dc14c5d67e70e08967",
+      "raw_sha256": "cb660324f51332aa9bcc487b924e7f476e9866fc91191a92a7332a9105231fdd",
+      "request_id": "9b19e49a-0157-4ac7-b458-323e3f48afa8",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 6,
+      "source_page": "wiki/sources/西羊石：豆包教学片双流程.md",
+      "anchors": [
+        {
+          "text": "只需要全程跟 AI 聊天，确认效果、提提修改意见，就能把片子做出来。",
+          "location": "“动动嘴皮子，搞定英语教学动画”小节开头，支持第一种方法以聊天确认和修改完成教学短片、面向无剪辑基础用户的判断。"
+        },
+        {
+          "text": "大概十三分钟，本地草稿就创建好了。豆包工作先编写并运行 Python 脚本，生成剪映能打开的工程，把时间轴搭好。",
+          "location": "“把语文课拍成短片，跟着苏轼淋一场雨”小节后段，调用 Jianying Editor 完成初剪后，支持第二种方法会生成可在剪映中继续修改的本地工程，以及十三分钟仅指草稿创建的判断。"
+        }
+      ],
+      "detail_request_id": "9b19e49a-0157-4ac7-b458-323e3f48afa8",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-06-10.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-06-10.json"
+    },
+    {
+      "id": "2247544926:1",
+      "title": "我用AI把华纳旗下的虚拟艺人吴爱花，爆改成了“邵氏武侠哈基米”！",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247544926&idx=1&sn=d7dd8614f91ab57d884252365d50c6c3",
+      "published": "2026-09-30 23:05",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/我用AI把华纳旗下的虚拟艺人吴爱花，爆改成了“邵氏武侠哈基米”！-eae56a89-84b8153010.md",
+      "body_sha256": "84b8153010ad4dfaaf58c3112abdd51d24f91fe13debc538af63294122aa9eed",
+      "raw_sha256": "fcf0360411dd81458b9ab9cd069bea8e76d341bbee73eebcbf9b490284e9c2b0",
+      "request_id": "5d2bebb4-7be9-4f9a-8078-ad2462f29706",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 7,
+      "source_page": "wiki/sources/西羊石：吴爱花武侠猫二创.md",
+      "anchors": [
+        {
+          "text": "现在AI工具这么好用了，做个漂亮角色已经不难，但想让人记住，还得有个性。",
+          "location": "“一个虚拟偶像，怎样让人记住”小节后段，支持文章将角色个性与反差感视为虚拟偶像辨识度核心的判断。"
+        },
+        {
+          "text": "把每一镜的起止动作写清楚。下一镜要接住上一镜的动作，别前面向右扑，后面突然换成向左飞了。",
+          "location": "“群猫对峙，把动作拆到能接得上”小节后段，支持通过拆分复杂动作并保持镜间动作方向连续来降低穿帮风险的判断。"
+        }
+      ],
+      "detail_request_id": "5d2bebb4-7be9-4f9a-8078-ad2462f29706",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-06-10.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-06-10.json"
+    },
+    {
+      "id": "2247543667:1",
+      "title": "LibTV 1.5居然这么猛？从剧本到后期，AI短剧卷出新高度！",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247543667&idx=1&sn=2a8d752f67b485e93bd514c3dd370112",
+      "published": "2026-09-23 20:00",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/LibTV 1.5居然这么猛？从剧本到后期，AI短剧卷出新高度！-ea4a40b8-773a48782d.md",
+      "body_sha256": "773a48782dc3a059ce02513a48995dba23635bebffe4fdf87780a1ca424388c2",
+      "raw_sha256": "c12c370b4837f41ff6317f5ecebd31b324e463dcf508f036b9e846ad68bda47b",
+      "request_id": "93c691ba-b16b-48b9-99be-96e2ed20c759",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 8,
+      "source_page": "wiki/sources/西羊石：LibTV短剧五功能实测.md",
+      "anchors": [
+        {
+          "text": "这些功能刚好完美适配短剧制作的全流程。",
+          "location": "开头介绍 LibTV 1.5 五大功能处；全文文字偏移215",
+          "verified": true
+        },
+        {
+          "text": "右边遇到不满意的，直接鼠标滑动文字，输入指令，就可以指哪改哪了。",
+          "location": "“原创编剧”小节剧本修改部分；全文文字偏移1162",
+          "verified": true
+        },
+        {
+          "text": "初版资产图，尤其是角色图，绝对有很多要调整的地方。",
+          "location": "“角色造型”小节；全文文字偏移1353",
+          "verified": true
+        },
+        {
+          "text": "把你想要做的效果用一两句话描述出来，尤其是那些运镜，不需要说得太专业，但要精准。",
+          "location": "“LibTV 3D-BOX”小节；全文文字偏移2634",
+          "verified": true
+        }
+      ],
+      "detail_request_id": "93c691ba-b16b-48b9-99be-96e2ed20c759",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-06-10.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-06-10.json"
+    },
+    {
+      "id": "2247543529:1",
+      "title": "打通桌面Office，豆包成为打工人办公神器？",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247543529&idx=1&sn=6bf682c2bd626dcb8d8dd507eee5b045",
+      "published": "2026-09-20 17:00",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/打通桌面Office，豆包成为打工人办公神器？-b9ce5400-9d6d830735.md",
+      "body_sha256": "9d6d8307351ae13e5b434e1f76818adb7b62ca206076cd3ef6f8ebe0c6567484",
+      "raw_sha256": "db68dcf831e3b3201d788c70f9aaf274236295e440e3364543200887db73dcfc",
+      "request_id": "a5584b71-2be6-49a3-9742-212e37d200a5",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 9,
+      "source_page": "wiki/sources/西羊石：豆包打通本地Office.md",
+      "anchors": [
+        {
+          "text": "本地的 PPT、Excel 可以直接用豆包工作打开，交给 AI 修改，保存后的改动与本地是丝滑同步的。",
+          "location": "正文开头提出本地 Office 更新之处，支持豆包工作可直接打开并修改本地 PPT、Excel，且保存结果同步到本地文件的核心功能判断。"
+        },
+        {
+          "text": "比起让AI再做一份新的，我们更需要的，往往是把手头这份改好。",
+          "location": "“豆包工作，在解决什么问题”小节中段，支持文章核心价值在于继续修改已有文件、减少反复新建版本，而非单纯重新生成文件的判断。"
+        }
+      ],
+      "detail_request_id": "a5584b71-2be6-49a3-9742-212e37d200a5",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-06-10.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-06-10.json"
+    },
+    {
+      "id": "2247543467:1",
+      "title": "绝了，做短剧最头疼的几件事，这次AI居然全包了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247543467&idx=1&sn=c80dc971c4dce5be1cef984f8c45db0e",
+      "published": "2026-09-16 20:03",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/绝了，做短剧最头疼的几件事，这次AI居然全包了！-fb2327b8-34141bd1cf.md",
+      "body_sha256": "34141bd1cf37550aa12315559eb53ebce20a15fb452fe29e46789754405e234d",
+      "raw_sha256": "157e32219ec0dd6bfc862242c6953e1844a947ffb50b642aa1a30c23e2fb4377",
+      "request_id": "5d328216-d9c9-4155-94b6-0a889511a92b",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 10,
+      "source_page": "wiki/sources/西羊石：momoLab短剧一站式.md",
+      "anchors": [
+        {
+          "text": "它能把剧本、资产和分镜交给不同的 Agent 协同处理，而我们创作者只需要在关键步骤进行选择和确认。",
+          "location": "正文开头介绍“超级导演一站式全自动流程”的段落；支持其以多 Agent 协同处理剧本、资产和分镜，但创作者仍需在关键步骤决策和确认的判断。"
+        },
+        {
+          "text": "我导入的 5 集剧本，被拆成了角色、场景、道具和特效四张表。角色在哪一集、哪一场出现，对应什么造型，都有记录得明明白白。",
+          "location": "“多集资产统一管理”小节中部；支持作者亲测前5集资产被分类拆解，并记录角色出场与造型信息的判断。"
+        }
+      ],
+      "detail_request_id": "5d328216-d9c9-4155-94b6-0a889511a92b",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-06-10.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-06-10.json"
+    },
+    {
+      "id": "2247543404:1",
+      "title": "一篇带你速通 AI 短剧：从分镜到成片，把试错成本压到地板价",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247543404&idx=1&sn=13fd5976a60de60c82b34adcfb097c43",
+      "published": "2026-09-15 09:21",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/一篇带你速通 AI 短剧：从分镜到成片，把试错成本压到地板价-8dabcbf2-75a4750ffd.md",
+      "body_sha256": "75a4750ffdba5a72e49bb17d9668c9fabcbad9cc81391e3749f049d4b8434102",
+      "raw_sha256": "04ec1369570b6f78422c101bb48e0ce908db93fb8492459371e1b5086b00a862",
+      "request_id": "51ecd27f-5fcd-4f8a-a5e0-f63b398f4d10",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 11,
+      "source_page": "wiki/sources/西羊石：Pixmax短剧全流程降试错.md",
+      "anchors": [
+        {
+          "text": "想法 → 剧本 → 风格测试 → 人物 / 场景 / 道具资产 → 视频生成 → 剪辑成片",
+          "location": "一、工作流总览；全文文字偏移878",
+          "verified": true
+        },
+        {
+          "text": "单次生成便宜一些，确实能多留出一点尝试空间",
+          "location": "Pixmax 简介总览／价格说明；全文文字偏移748",
+          "verified": true
+        },
+        {
+          "text": "如果镜头需要在空间里明显前进、后退或横向移动，仍然要单独检查透视和物体之间的遮挡关系，确认空间是否连贯。",
+          "location": "二、分镜生成／720°全景场景；全文文字偏移2649",
+          "verified": true
+        },
+        {
+          "text": "这样就不用为了改一个镜头反复抽卡，省下不少时间和积分。",
+          "location": "三、视频生成／关键帧修改；全文文字偏移4336",
+          "verified": true
+        }
+      ],
+      "detail_request_id": "51ecd27f-5fcd-4f8a-a5e0-f63b398f4d10",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-11-15.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-11-15.json"
+    },
+    {
+      "id": "2247543298:1",
+      "title": "输入剧本，就能做出短剧，AI制作到底能有多省事？",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247543298&idx=1&sn=8a2a7b42806357348e88a67ba1a1a979",
+      "published": "2026-09-14 16:45",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/输入剧本，就能做出短剧，AI制作到底能有多省事？-b0873143-10e0188fde.md",
+      "body_sha256": "10e0188fdefad5dc76301475bbf1a5c71a56564e39e055194daeaf404dcde10b",
+      "raw_sha256": "4d1381edc26d72e8388bd9c5ee1d7ca373a965c9a5b284048b35a73d9033944b",
+      "request_id": "77ca3e0f-0014-4499-aa53-73a379751a20",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 12,
+      "source_page": "wiki/sources/西羊石：巨日禄剧本直出短剧实测.md",
+      "anchors": [
+        {
+          "text": "我只在关键地方拿拿主意，就能把整集做出来？",
+          "location": "开头／需求提出；全文文字偏移372",
+          "verified": true
+        },
+        {
+          "text": "资产环节是最需要发挥人类的审美和创造力的环节。",
+          "location": "02 批量生成，精挑角色与场景；全文文字偏移1312",
+          "verified": true
+        },
+        {
+          "text": "虽然依然有一些穿帮镜头，但镜头组接更合理",
+          "location": "04 三档实测，效果差多少？；全文文字偏移2168",
+          "verified": true
+        },
+        {
+          "text": "一个镜头该留下还是重做，人物的情绪有没有到位，哪里需要多停一秒，这些选择里都有创作者自己的理解。",
+          "location": "写在最后；全文文字偏移3365",
+          "verified": true
+        }
+      ],
+      "detail_request_id": "77ca3e0f-0014-4499-aa53-73a379751a20",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-11-15.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-11-15.json"
+    },
+    {
+      "id": "2247543234:1",
+      "title": "手把手教你做AI短片：从0到1完整制作全流程（零基础入门版）",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247543234&idx=1&sn=fce4c0267791749eda5456f424a97dff",
+      "published": "2026-09-11 20:00",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/手把手教你做AI短片：从0到1完整制作全流程（零基础入门版）-8d5b9aab-f09dd8a7a1.md",
+      "body_sha256": "f09dd8a7a13d3c15833dce89e5094b229e3feebc1e2974b338072296892c2427",
+      "raw_sha256": "ad53dd5044fa133f375ceef08326dd9076a70acfc822ebaec274e474dc5bb919",
+      "request_id": "ad5cc5da-4756-45b6-b400-b31ac3f908bc",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 13,
+      "source_page": "wiki/sources/西羊石：零基础AI短片完整流程.md",
+      "anchors": [
+        {
+          "text": "题材会变，模型会变，但这套流程基本不会变。",
+          "location": "一、工作流总览；全文文字偏移672",
+          "verified": true
+        },
+        {
+          "text": "剧情逻辑顺不顺、画面能不能生成、台词像不像人话",
+          "location": "三、剧本：先把这一集发生的事讲清楚；全文文字偏移1515",
+          "verified": true
+        },
+        {
+          "text": "资产设计：整个流程最花时间的一步",
+          "location": "五、资产设计；全文文字偏移2936",
+          "verified": true
+        },
+        {
+          "text": "第一条不必追求完美，把流程完整跑通，比什么都重要。",
+          "location": "写在最后：先跑通，再谈完美；全文文字偏移5617",
+          "verified": true
+        }
+      ],
+      "detail_request_id": "ad5cc5da-4756-45b6-b400-b31ac3f908bc",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-11-15.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-11-15.json"
+    },
+    {
+      "id": "2247543110:1",
+      "title": "GPT Images 2.5越玩越上头，新玩法一篇速通",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247543110&idx=1&sn=e1e7c1f465960e9f9aed8df9979c63b6",
+      "published": "2026-09-10 08:00",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/GPT Images 2.5越玩越上头，新玩法一篇速通-198ea9eb-b978cfbba4.md",
+      "body_sha256": "b978cfbba4adc69bcc8f32136b395e64419ede8d4c27a230288762feb2d740ec",
+      "raw_sha256": "a235c98c2f60d99e6d12ed25487078a40ca03c624829610d07df5f210f23a29f",
+      "request_id": "97552beb-0c86-48cb-9a98-b0f2101e4f14",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 14,
+      "source_page": "wiki/sources/西羊石：GPT Images 2.5玩法测评.md",
+      "anchors": [
+        {
+          "text": "角色一致性到底有没有变得更好？",
+          "location": "开头／测试问题；全文文字偏移231",
+          "verified": true
+        },
+        {
+          "text": "虽然局部纹理还是能看到变化，但这组没有出现越改越跑偏的明显问题。",
+          "location": "多轮编辑一致性；全文文字偏移1529",
+          "verified": true
+        },
+        {
+          "text": "中途遇到任务失败，也可以让它接着完成剩下的部分。",
+          "location": "智能与风格的提升／透明背景素材；全文文字偏移2573",
+          "verified": true
+        },
+        {
+          "text": "个人感受是整体差距没有特别大。",
+          "location": "AI短剧人像细节的提升；全文文字偏移3070",
+          "verified": true
+        }
+      ],
+      "detail_request_id": "97552beb-0c86-48cb-9a98-b0f2101e4f14",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-11-15.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-11-15.json"
+    },
+    {
+      "id": "2247543011:1",
+      "title": "GPT-6 Astra这次真猛！我整理了4种高频实用玩法（附教程＋提示词）",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247543011&idx=1&sn=582d1a20fd72a52c1c015248abba0446",
+      "published": "2026-09-06 20:05",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/GPT-6 Astra这次真猛！我整理了4种高频实用玩法（附教程＋提示词）-c61ffb91-5955e5a4b7.md",
+      "body_sha256": "5955e5a4b75110dc1660cd6a5dfb9f5b9a84c87164e80d0f22e03ec271a13052",
+      "raw_sha256": "c8417981d8193f8b5a80ea8f9299ba71342f81f12bafa2604fb825c13ee838a7",
+      "request_id": "9ccebc5c-0394-46a7-a8aa-d0d8f08f923f",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 15,
+      "source_page": "wiki/sources/西羊石：GPT-6 Astra四类实用工作.md",
+      "anchors": [
+        {
+          "text": "最后别只收一张 PNG。",
+          "location": "做可编辑海报；全文文字偏移1527",
+          "verified": true
+        },
+        {
+          "text": "一开始我只说美化，它给我改得更朴素了。",
+          "location": "美化现有 PPT；全文文字偏移1623",
+          "verified": true
+        },
+        {
+          "text": "网页版花了约半小时给我做好了",
+          "location": "做一座能逛的 3D 深圳；全文文字偏移2019",
+          "verified": true
+        },
+        {
+          "text": "目标、参考、约束、交付标准，说明白就够了。",
+          "location": "模型变强以后，提示词反而可以更简单；全文文字偏移3537",
+          "verified": true
+        }
+      ],
+      "detail_request_id": "9ccebc5c-0394-46a7-a8aa-d0d8f08f923f",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-11-15.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-11-15.json",
+      "rejected_model_anchors": [
+        {
+          "text": "视频剪成了 1 分钟，实际用了80 分钟，消耗了约20% 的周额度",
+          "location": "Astra更会用电脑了"
+        }
+      ]
+    },
+    {
+      "id": "2247542825:1",
+      "title": "AI 长剧上湖南卫视了，我拿拖把试了 LibTV 深度动作捕捉，真 人演孙悟空",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247542825&idx=1&sn=2b82f1153ed230edb46ea60d9b9e83f9",
+      "published": "2026-09-01 18:49",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/AI 长剧上湖南卫视了，我拿拖把试了 LibTV 深度动作捕捉，真 人演孙悟空-cc38b495-4b25c38038.md",
+      "body_sha256": "4b25c38038f6f48f77915326ddbcb38fbc4a23a57ddf692c4da3a17bc253517e",
+      "raw_sha256": "14c4af6ced08a285f336ac3a6d4da9a9229365b6356e4c2924d370d7e4a34491",
+      "request_id": "48afe064-4bd8-4047-b5dd-3d4df8b8bade",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 16,
+      "source_page": "wiki/sources/西羊石：LibTV深度动作捕捉实测.md",
+      "anchors": [
+        {
+          "text": "替身是我，道具是一把拖把，片场是公司走廊。",
+          "location": "“我先给孙悟空找了个便宜替身”小节首段；全文文字偏移281",
+          "verified": true
+        },
+        {
+          "text": "素材越短，任务越明确，一次只改一个变量，通常比一口气堆满参考更省积分。",
+          "location": "“用了一万多积分以后，我总结成这四步”小节末段；全文文字偏移1933",
+          "verified": true
+        },
+        {
+          "text": "折腾完这一万多积分，我还是没有答案。",
+          "location": "“最后”小节；全文文字偏移2700",
+          "verified": true
+        }
+      ],
+      "detail_request_id": "48afe064-4bd8-4047-b5dd-3d4df8b8bade",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-16-20.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-16-20.json"
+    },
+    {
+      "id": "2247542756:1",
+      "title": "AI 设计竟然进化到这一步了，我只用一个 Logo，做出了 3 套品牌视觉全案",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247542756&idx=1&sn=4d60fa0d6f772f798f7b57e69a878268",
+      "published": "2026-08-31 17:17",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/AI 设计竟然进化到这一步了，我只用一个 Logo，做出了 3 套品牌视觉全案-0f83cacb-dc48365a52.md",
+      "body_sha256": "dc48365a5244e645eecae77ec6556c178abcde9d9e5728054ecd266bd5dec37a",
+      "raw_sha256": "74c7cd1a67193afb6c9ca45657b26038be9b2bfa3a16139baa13d4600dc447ac",
+      "request_id": "0e31ba22-ba3e-4eba-8a9d-80c27e107504",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 17,
+      "source_page": "wiki/sources/西羊石：Lovart品牌视觉全案.md",
+      "anchors": [
+        {
+          "text": "我没有先写 Prompt，而是先找灵感",
+          "location": "第一处小节标题；全文文字偏移322",
+          "verified": true
+        },
+        {
+          "text": "参考选错了，Prompt 写再长也救不回来。",
+          "location": "“我没有先写 Prompt，而是先找灵感”小节末段；全文文字偏移725",
+          "verified": true
+        },
+        {
+          "text": "少研究 AI，多专注设计。",
+          "location": "“写在最后”小节；全文文字偏移2678",
+          "verified": true
+        }
+      ],
+      "detail_request_id": "0e31ba22-ba3e-4eba-8a9d-80c27e107504",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-16-20.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-16-20.json"
+    },
+    {
+      "id": "2247542663:1",
+      "title": "用豆包 Agent 跑了几天日常办公，我终于把 AI 一人公司搭起来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247542663&idx=1&sn=ee5564c9ebb5ebd6c3ae45da90fbf642",
+      "published": "2026-08-27 20:53",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/用豆包 Agent 跑了几天日常办公，我终于把 AI 一人公司搭起来了-4f2f2139-6f5c7b51a8.md",
+      "body_sha256": "6f5c7b51a854d6e6183fe5a6924a5c692d48231abb94519ee5f5b5be209766d7",
+      "raw_sha256": "5200114191ea10a9b0f26a77e54bafbc36cf5b0264f9677d37ebfd63195a9342",
+      "request_id": "94c63678-f59d-4e33-8c7c-86bc919510da",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 18,
+      "source_page": "wiki/sources/西羊石：豆包Agent一人公司.md",
+      "anchors": [
+        {
+          "text": "有个周日，我人还躺在床上，临时要找几个 AI 选题。",
+          "location": "文章开头第一段；全文文字偏移0",
+          "verified": true
+        },
+        {
+          "text": "遇到需要登录、来源不明或暂时无法确认的内容，标记 “待核验”，不要猜。",
+          "location": "“我躺在床上，让豆包给我找选题”任务指令；全文文字偏移2514",
+          "verified": true
+        },
+        {
+          "text": "人负责目标、判断和审美，豆包把那些重复、琐碎、耗时间的过程往前推。",
+          "location": "“结语”小节；全文文字偏移4474",
+          "verified": true
+        }
+      ],
+      "detail_request_id": "94c63678-f59d-4e33-8c7c-86bc919510da",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-16-20.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-16-20.json"
+    },
+    {
+      "id": "2247542530:1",
+      "title": "H3、Wan 3.0 都来了，为什么批量生成视频我还是选Seedance 2.0 fast？",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247542530&idx=1&sn=88057dc3ee4104e7c9d3e2200a4f690f",
+      "published": "2026-08-25 10:23",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/H3、Wan 3.0 都来了，为什么批量生成视频我还是选Seedance 2.0 fast？-060d317a-5b54407793.md",
+      "body_sha256": "5b54407793c5d213eab5e47d061338cfe6417afe04f0a8748af8ddc4ad768a88",
+      "raw_sha256": "d1627a1e70777751e77fbe5e82bdaded35dbe38c8b09ecec22690c60312c56a5",
+      "request_id": "1dbeefa6-8931-4d5a-81fd-e91b741152ed",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 19,
+      "source_page": "wiki/sources/西羊石：Seedance Fast量产对比.md",
+      "anchors": [
+        {
+          "text": "每可用秒成本 = 总生成费用 ÷ 最终可用视频秒数",
+          "location": "“模型之间的价格”小节；全文文字偏移5683",
+          "verified": true
+        },
+        {
+          "text": "三组案例看下来，我判断模型时会先看整段能不能用，再看某一帧够不够漂亮。",
+          "location": "产品广告案例之后的总结段；全文文字偏移4846",
+          "verified": true
+        },
+        {
+          "text": "谁能用更少的时间和钱，稳定产出更多能交付的镜头，谁就更值得留在生产线上。",
+          "location": "“结语”末段；全文文字偏移6177",
+          "verified": true
+        }
+      ],
+      "detail_request_id": "1dbeefa6-8931-4d5a-81fd-e91b741152ed",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-16-20.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-16-20.json"
+    },
+    {
+      "id": "2247542529:1",
+      "title": "看完3亿播放《天才机甲师》，太上头了！我居然也做出了超酷机甲AI短剧",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247542529&idx=1&sn=18ae8284347a4eef0152e330e47c741f",
+      "published": "2026-08-24 20:15",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/看完3亿播放《天才机甲师》，太上头了！我居然也做出了超酷机甲AI短剧-ebdf925b-1d464ffc0c.md",
+      "body_sha256": "1d464ffc0cfda7d2a0e9b51cc15243e0a0f01b87ab1a0c92c5a8bb5ac1ae94c4",
+      "raw_sha256": "44e19ab90e4066e4ce6312fcce11ca84622a7ccf080e5c34aa387a2f4a2cd10f",
+      "request_id": "81522f85-1dc2-46d8-9ba3-9ce29058db9c",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 20,
+      "source_page": "wiki/sources/西羊石：万兴剧厂机甲短剧.md",
+      "anchors": [
+        {
+          "text": "拆分镜这里挺关键的，万兴剧厂有专门的分镜大师工作流，拆得是有专业的视听语言和背后的一套方法论的，视频提示词写得相对比较清晰，模型也能够比较好的理解，最后效果不错，基本上一个视频片段生成 1-2 次即可。",
+          "location": "“制片工坊中生成AI漫剧片段”小节后半；支持作者对分镜工作流、提示词效果及单个视频片段生成次数的亲测报告。"
+        },
+        {
+          "text": "还有一个要注意：它只是让站位、姿势和机位更可控，最后能不能完全还原，还是跟你选的模型和提示词有关。特别复杂的连续打斗，更建议先生成几张关键分镜图，再拿这些图去生成视频。",
+          "location": "“3D导演台”小节后半的使用边界说明；支持导演台只增强站位、姿势和机位可控性，最终还原仍受模型与提示词影响的限制判断。"
+        }
+      ],
+      "detail_request_id": "81522f85-1dc2-46d8-9ba3-9ce29058db9c",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-16-20.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-16-20.json"
+    },
+    {
+      "id": "2247542303:1",
+      "title": "不是Seedance 2.5买不起，而是MiniMax H3更有性价比",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247542303&idx=1&sn=e8b82ea076c6e679d03d9d2ad1661054",
+      "published": "2026-08-21 10:00",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/不是Seedance 2.5买不起，而是MiniMax H3更有性价比-c2947dfd-eb71dbe2fb.md",
+      "body_sha256": "eb71dbe2fb5d3b7e0cd94783a58b26ef9c1cb549141bddb37fe6510e4dd1a99f",
+      "raw_sha256": "4fb1d5d1582ae2deb1c9a0858fb540fa0b35aa1a832bb72853b3406f0b993309",
+      "request_id": "3e84a909-fe03-4d25-a203-1adf53037d93",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 21,
+      "source_page": "wiki/sources/西羊石：MiniMax H3性价比实测.md",
+      "anchors": [
+        {
+          "text": "其实这两条呈现的案例也都是我剪辑过的，每个模型各抽了两次，剪辑拼凑在一起的。",
+          "location": "四、15秒武戏，高难度动作表现；全文文字偏移5116",
+          "verified": true
+        },
+        {
+          "text": "模型只能决定你手里的工具有多锋利，最后这一刀往哪里落，还是看人。",
+          "location": "写在最后；全文文字偏移8463",
+          "verified": true
+        },
+        {
+          "text": "10秒的 Seedance 2.5 720P大约需要",
+          "location": "七、成本和价格优势；全文文字偏移8063",
+          "verified": true
+        }
+      ],
+      "detail_request_id": "3e84a909-fe03-4d25-a203-1adf53037d93",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-21-25.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-21-25.json"
+    },
+    {
+      "id": "2247542207:1",
+      "title": "没出门、没场地、没模特，我用AI做了3个博主，普通人冲百万粉的机会来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247542207&idx=1&sn=5de278dd0c34581ef22de5268b01a094",
+      "published": "2026-08-20 11:55",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/没出门、没场地、没模特，我用AI做了3个博主，普通人冲百万粉的机会来了-a395c29a-0506ff2ba8.md",
+      "body_sha256": "0506ff2ba8c5acd7bcc1e8b686a2621c99514e6ecbc3a1bc2df86ab91c5c0956",
+      "raw_sha256": "3e19b4ba3a435fb6b6341763251956c5b0dbc3346ae2284c1e4fb38d56c7846b",
+      "request_id": "ba5cad12-aad5-4432-8892-aa4511060c47",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 22,
+      "source_page": "wiki/sources/西羊石：AI虚拟博主三赛道实操.md",
+      "anchors": [
+        {
+          "text": "这几条视频里，旅行没有真的去，房子也不存在，穿搭同样没有重新实拍。",
+          "location": "开头任务设定；全文文字偏移593",
+          "verified": true
+        },
+        {
+          "text": "不过我最终也发现有个问题，如果我们要生成的视频比参考视频长，我们长的部分的画面就容易静止",
+          "location": "第二个，没有模特的穿搭博主；全文文字偏移2161",
+          "verified": true
+        },
+        {
+          "text": "爆不爆不知道，先做了再说。",
+          "location": "开头产品引入；全文文字偏移668",
+          "verified": true
+        }
+      ],
+      "detail_request_id": "ba5cad12-aad5-4432-8892-aa4511060c47",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-21-25.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-21-25.json"
+    },
+    {
+      "id": "2247542073:1",
+      "title": "10分钟学会DeepSeek Harness！零基础保姆级教程＋完整实测",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247542073&idx=1&sn=2506d2f508750e9a185e7a7eef37c705",
+      "published": "2026-08-14 23:00",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/10分钟学会DeepSeek Harness！零基础保姆级教程＋完整实测-6cf68143-587767eb7f.md",
+      "body_sha256": "587767eb7f8d36d14da3b57888d89916d28355d610f22768e7f69ce3bdcf380c",
+      "raw_sha256": "ba9d978524e083e019f682774ef5cf1b3baa032444b431ec5b934cb9820996e5",
+      "request_id": "2fe4f8a0-632c-4d5d-ae80-e6686d67e000",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 23,
+      "source_page": "wiki/sources/西羊石：DeepSeek Harness零基础实测.md",
+      "anchors": [
+        {
+          "text": "Agent = Model + Harness",
+          "location": "DeepSeek Harness 是什么？；全文文字偏移1278",
+          "verified": true
+        },
+        {
+          "text": "这次达到99%只代表当前任务。",
+          "location": "什么情况下，适合用DeepSeek Harness？；全文文字偏移1876",
+          "verified": true
+        },
+        {
+          "text": "别一上来把整个桌面交给它。",
+          "location": "③ 选好模型，先聊一句；全文文字偏移3531",
+          "verified": true
+        }
+      ],
+      "detail_request_id": "2fe4f8a0-632c-4d5d-ae80-e6686d67e000",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-21-25.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-21-25.json"
+    },
+    {
+      "id": "2247541993:1",
+      "title": "500万播放的“云上仙宫”火到海外，我用 wan3.0等 AI 模型成功做出来了！（附教程）",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247541993&idx=1&sn=16b1b1827b7526589ba0b6666015bd8e",
+      "published": "2026-08-12 22:47",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/500万播放的“云上仙宫”火到海外，我用 wan3.0等 AI 模型成功做出来了！（附教程）-4f195b12-529e1d8bc2.md",
+      "body_sha256": "529e1d8bc2b68458d23e7013fec57c478c825e7f4cbfa2c5b18cb5b6186cf665",
+      "raw_sha256": "0a89e6fb51e0360eae3533f04fa8eb3486b241102f47cafb0e6463415226bfaf",
+      "request_id": "c111e954-2ad4-4315-8ced-32f922d7e329",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 24,
+      "source_page": "wiki/sources/西羊石：云上仙宫多模型复刻.md",
+      "anchors": [
+        {
+          "text": "平均一条要花 4 到 5 个小时。",
+          "location": "开头创作者陈爱军案例；全文文字偏移392",
+          "verified": true
+        },
+        {
+          "text": "总之结果我不是很满意，过渡不是很自然，最后效果比单个生成的差很多。",
+          "location": "Seedance 2.0 和 2.5；全文文字偏移3476",
+          "verified": true
+        },
+        {
+          "text": "中间瀑布和海鸥的动效还行，但是整个过程中云没动。。。",
+          "location": "阿里Wan 3.0；全文文字偏移3690",
+          "verified": true
+        }
+      ],
+      "detail_request_id": "c111e954-2ad4-4315-8ced-32f922d7e329",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-21-25.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-21-25.json"
+    },
+    {
+      "id": "2247541869:1",
+      "title": "我用 Flova 跑通一条 AI 短剧自动生产线！终于不用每一集都从头再来",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247541869&idx=1&sn=97a7e7bfa76a42cfc6cf79530748d8da",
+      "published": "2026-08-10 20:47",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/我用 Flova 跑通一条 AI 短剧自动生产线！终于不用每一集都从头再来-2b9ac1a0-79b402b131.md",
+      "body_sha256": "79b402b13174717d0f87950b73b27b2780078619d026c96808bea6339b0cdd1c",
+      "raw_sha256": "5ff031eee981668d1d0ff663c66bfe7ee83b25afcdd282ca83cd439f86a82210",
+      "request_id": "6e35cdb8-c31a-4a98-976b-07a2be5f4764",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 25,
+      "source_page": "wiki/sources/西羊石：Flova短剧生产线复用.md",
+      "anchors": [
+        {
+          "text": "能批量生成，不代表能稳定生产。",
+          "location": "开头问题提出；全文文字偏移69",
+          "verified": true
+        },
+        {
+          "text": "基本上调整一两次就能够接着往下操作。",
+          "location": "资产搭建；全文文字偏移1212",
+          "verified": true
+        },
+        {
+          "text": "注：文中展示的图片与视频结果，均基于 AI 工具生成，并结合人工判断完成，仅代表个人实际使用体验。",
+          "location": "结尾披露；全文文字偏移3899",
+          "verified": true
+        }
+      ],
+      "detail_request_id": "6e35cdb8-c31a-4a98-976b-07a2be5f4764",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-21-25.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-21-25.json"
+    },
+    {
+      "id": "2247541806:1",
+      "title": "Seedance2.5很强，结合RunningHub做出海短剧夯爆了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247541806&idx=1&sn=8d76f79a14d66b970553f0d18f8f1310",
+      "published": "2026-08-09 20:47",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/Seedance2.5很强，结合RunningHub做出海短剧夯爆了！-7d2cdf23-a4d309bad9.md",
+      "body_sha256": "a4d309bad9488608e958ba9b3fc2d460031915d3e1d6ed86b3ce23b62cdaffe7",
+      "raw_sha256": "9a399f5ae1a1a3bc938856f12c9d0ab6188726d1c6e5288bf5b315808d0b412e",
+      "request_id": "5f302301-a861-4aab-929d-0d48e05989b6",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 26,
+      "source_page": "wiki/sources/西羊石：RHSTORY短剧流水线实测.md",
+      "anchors": [
+        {
+          "text": "这次我们直接把手头的出海短剧剧本放了进去，从剧本开始一路做到成片，完整跑了一遍制作流程。最后一集做下来，大约用了3个小时。",
+          "location": "引出RunningHub RHSTORY实测的段落；支持作者团队以现有出海短剧剧本完整跑通剧本到成片流程，并报告单集约3小时的判断。"
+        },
+        {
+          "text": "我这一集实际上只做了少量微调，没有大面积重写。如果觉得某个镜头太长或者拆得不合理，也可以直接手动拆分、合并镜头。",
+          "location": "“2. 更智能的分镜交互”小节中部；支持该次实测仅少量调整，同时系统允许人工拆分或合并镜头的判断。"
+        }
+      ],
+      "detail_request_id": "5f302301-a861-4aab-929d-0d48e05989b6",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-26-30.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-26-30.json"
+    },
+    {
+      "id": "2247541768:1",
+      "title": "看完 40 亿播放的 AI 短剧，眼馋的我，用 LibTV 给苏轼开了个 Vlog 账号",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247541768&idx=1&sn=dd4ab1a99b8e11491840d216faebc694",
+      "published": "2026-08-07 23:42",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/看完 40 亿播放的 AI 短剧，眼馋的我，用 LibTV 给苏轼开了个 Vlog 账号-6c749bff-1d4ceb4c13.md",
+      "body_sha256": "1d4ceb4c13a01af0f3684ed6f2083edb1325258f3fc85cc491212ae9eb60551a",
+      "raw_sha256": "ba974bd4de71377fabb43e0df5fc3fb21810616db7bef5d9e427f9a43e1ba80f",
+      "request_id": "1c44f7f5-5e06-42a7-b0a9-8f0def9c6e6d",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 27,
+      "source_page": "wiki/sources/西羊石：苏轼Vlog与LibTV功能串测.md",
+      "anchors": [
+        {
+          "text": "还好我发现LibTV里面有个 片段重拍 的新功能，不然我这一次性生成30s，都得重新生成我得肉疼死，目前相对即梦的视频编辑功能会更加节省成本。",
+          "location": "正文中部“逐帧拉片”之后的返工段，支持作者用“片段重拍”处理局部口型问题、避免整条30秒重新生成的判断。"
+        },
+        {
+          "text": "这次我从三部电影里拆镜头，给苏轼、张怀民他们准备人物资产，再到生成以后修掉出问题的片段，最后把一堆素材重新混剪。LibTV 的 逐帧拉片、智能引用、片段重拍和素材混剪，刚好都插在这些最容易嫌麻烦的地方。",
+          "location": "正文后部“模型越强，后面的活越不能靠手搓”小节，支持全文按拉片、资产准备、局部返工和混剪串联LibTV工作流的总结判断。"
+        }
+      ],
+      "detail_request_id": "1c44f7f5-5e06-42a7-b0a9-8f0def9c6e6d",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-26-30.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-26-30.json"
+    },
+    {
+      "id": "2247541646:1",
+      "title": "《被裁掉的女孩》播放超2亿，吸粉几十万，第一代AI明星出现了？",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247541646&idx=1&sn=0625cf29510bd086d104fbd634619e26",
+      "published": "2026-08-06 20:19",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/《被裁掉的女孩》播放超2亿，吸粉几十万，第一代AI明星出现了？-7c381904-2cb07cfec6.md",
+      "body_sha256": "2cb07cfec6792d4056cd00a61a2cb081d0b88ed9984a4dad1c33b5f8e6b2e126",
+      "raw_sha256": "115db04ceee8e0be6864e5510ed0ebb900783aa1e7c023f1f487c90d593b4828",
+      "request_id": "60251092-f920-4e7f-ae22-b53a5349aea3",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 28,
+      "source_page": "wiki/sources/西羊石：AI明星从角色到商单.md",
+      "anchors": [
+        {
+          "text": "AI 可以很快生成一段生活。创作者得先认真生活过，才知道哪些细节值得留下。",
+          "location": "“每天上千部 AI 短剧，为什么偏偏是桃子”；全文文字偏移1148",
+          "verified": true
+        },
+        {
+          "text": "一张脸可以非常便宜。让观众记住她、相信她，愿意继续看她生活，才是最有价值的部分。",
+          "location": "“AI 明星真的开始接广告了”；全文文字偏移1945",
+          "verified": true
+        },
+        {
+          "text": "技术可以做出一张面孔。一个角色最后能不能活下来，还要看人愿意给她怎样的命运。",
+          "location": "结尾；全文文字偏移4946",
+          "verified": true
+        }
+      ],
+      "detail_request_id": "60251092-f920-4e7f-ae22-b53a5349aea3",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-26-30.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-26-30.json"
+    },
+    {
+      "id": "2247541619:1",
+      "title": "看完《纸手机》，我用 Seko 3.0 做了一条关于爷爷的短片",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247541619&idx=1&sn=94c951440ad0f0a8e29661bb78ff583d",
+      "published": "2026-08-04 20:53",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/看完《纸手机》，我用 Seko 3.0 做了一条关于爷爷的短片-58b0eefa-3f6feea914.md",
+      "body_sha256": "3f6feea9148553c3d010bcecc5031173c15019d8bd9577a4d106b210ed553874",
+      "raw_sha256": "c41ea66117027888cf07ec86c55627aa11c5c037f6387180f3d19c96e6dea8fd",
+      "request_id": "1153740a-70a4-481a-81d5-e25d4c66f881",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 29,
+      "source_page": "wiki/sources/西羊石：Seko 3.0重做爷爷短片.md",
+      "anchors": [
+        {
+          "text": "AI技术可以把画面做得很真，真正让人难受的，还是生活里那些已经来不及补上的遗憾。",
+          "location": "开头：《纸手机》观后联想；全文文字偏移131",
+          "verified": true
+        },
+        {
+          "text": "生成视频，我建议大家先生成1个或者5个看看，没问题再接着往后生成，不然也容易浪费很多积分。",
+          "location": "继续上次未完成的故事；全文文字偏移1544",
+          "verified": true
+        },
+        {
+          "text": "Skill 可以给我一套更成熟的起手式，记忆里的话和真实情感经历还是得由我自己写。",
+          "location": "角色、场景与分镜制作部分；全文文字偏移1418",
+          "verified": true
+        }
+      ],
+      "detail_request_id": "1153740a-70a4-481a-81d5-e25d4c66f881",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-26-30.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-26-30.json"
+    },
+    {
+      "id": "2247541563:1",
+      "title": "字节Seedance 2.5杀疯了！我尝试了10 个逆天案例（附省积分秘诀）",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247541563&idx=1&sn=edbe5bdb366216a6b97d2147087fb5cf",
+      "published": "2026-08-01 21:44",
+      "status": "analyzed",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/字节Seedance 2.5杀疯了！我尝试了10 个逆天案例（附省积分秘诀）-09252ef2-197354e64b.md",
+      "body_sha256": "197354e64b969937a23bad9932a85d0017f642a085ba9cc28f11244309d0462b",
+      "raw_sha256": "9ce78e434ba170695158087b9a817a5fa2ae9a2432b701dfcc98db4c5f1bf463",
+      "request_id": "98d52155-cc55-42c7-94d8-4acb473f1ff9",
+      "reading_scope": "完整正文文字；HTML提取全文输入SLOW；图片视频未观看",
+      "rank": 30,
+      "source_page": "wiki/sources/西羊石：Seedance 2.5多案例压力测试.md",
+      "anchors": [
+        {
+          "text": "视频效果我没想到，居然没有一次性达到我的要求，前五秒他把我左右两边都变成一个角色了，如果我直接编辑视频要960积分。。",
+          "location": "案例03“两个武林高手，为最后一个插座打起来了”的结果段，支持角色重复这一明确失败及局部编辑成本较高的判断。"
+        },
+        {
+          "text": "之所以视频前几秒会这么卡，我上传的白模视频也是这样的，参考得还挺准的，所以我们找的参考视频一定要是相对质量高一点的，不然做出来的效果也很难好。",
+          "location": "案例07“白模视频参考”的结果段，支持模型会继承参考视频缺陷、因此输入素材需要预先质检的判断。"
+        }
+      ],
+      "detail_request_id": "98d52155-cc55-42c7-94d8-4acb473f1ff9",
+      "slow_input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-input-26-30.json",
+      "slow_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/西羊石AI视频/slow-output-26-30.json"
+    }
+  ],
+  "list_request_ids": [
+    "3ab8fcdf-a898-4ba1-b034-8a550e67aa18",
+    "9be254de-820c-4b1a-98c2-d9e3f9bc8a3c",
+    "da8c99c2-8ee4-4658-9906-bff6d275f710",
+    "2bec3fbb-91d7-4db7-9114-4b1bb22eb866"
+  ],
+  "requested_count": 30,
+  "article_list_request_ids": [
+    "3ab8fcdf-a898-4ba1-b034-8a550e67aa18",
+    "9be254de-820c-4b1a-98c2-d9e3f9bc8a3c",
+    "da8c99c2-8ee4-4658-9906-bff6d275f710",
+    "2bec3fbb-91d7-4db7-9114-4b1bb22eb866"
+  ],
+  "list_complete": true
+}

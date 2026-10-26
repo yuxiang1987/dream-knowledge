@@ -1,0 +1,818 @@
+{
+  "requested_name": "沉默王二",
+  "resolved_name": "沉默王二",
+  "username": "gh_f0ee5948865f",
+  "alias": "gh_f0ee5948865f",
+  "requested_count": 30,
+  "acquired_at": "2026-10-26T10:52:52+08:00",
+  "article_list_request_ids": [
+    "44705f96-30f6-4c13-8b32-d04f4fd37da2",
+    "cd7b115b-37e8-4b7e-b690-a43cc4edcb81",
+    "5efe95cb-da06-4b9a-a9e8-41a13174db1b"
+  ],
+  "list_complete": true,
+  "articles": [
+    {
+      "rank": 1,
+      "id": "2247551357_1",
+      "title": "携程员工：在互联网大厂里面算是比较 WLB 的，还可以爽用 Cursor 等。十点多上班，七八点下班，每周一天居家（附Agent面试题）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247551357&idx=1&sn=8554a58080c07702ccbd223b645b7607",
+      "published": "2026-10-23 15:18",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/携程员工：在互联网大厂里面算是比较 WLB 的，还可以爽用 Cursor 等。十点多上班，七八点下班，每周一天居家（附Agent面试题）-972919b1-cef8420d72.md",
+      "raw_sha256": "58f0bf7e2eafebcbe67edb1a040b5bba22ddc1a1c1bd66cdb3a1e4d859bfab90",
+      "source_page": "wiki/sources/携程职场引子与Agent编排问答拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "6ca23b64-0127-4629-8838-bcb530910785",
+      "anchors": [
+        {
+          "text": "刷到一位老哥分享自己的工作体感，说在互联网大厂里携程算是比较讲究工作生活平衡（WLB）的，平时十点多到岗，晚上七八点下班，每周还有一天居家办公，日常写代码还可以痛快使用 Cursor 这类 AI 编程工具。",
+          "location": "正文开头第一段；支持标题中的 WLB 信息只来自单个第三方帖子、缺少组织层面证据的判断。"
+        },
+        {
+          "text": "一旦 Agent 拥有了修改本地源码、执行终端脚本和调用外部 MCP 服务的写操作能力，权限控制就绝不能只靠系统提示词里的一句‘请谨慎操作’，因为提示词随时可能被外部网页或代码仓库里的提示词注入绕过。",
+          "location": "第05节开头；支持文章在写权限与提示词注入边界上给出了明确工程判断。"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2247551340_1",
+      "title": "PDD员工：冒昧问一下，现在还有古法编程吗？感觉AI在需求明确的情况下，一天干我一周的活没问题（附Agent面试题）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247551340&idx=1&sn=66d768fdca0f7d5b8ec839b93e94d6b4",
+      "published": "2026-10-21 14:23",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/PDD员工：冒昧问一下，现在还有古法编程吗？感觉AI在需求明确的情况下，一天干我一周的活没问题（附Agent面试题）-9d12b4df-6d910722db.md",
+      "raw_sha256": "fc6f3e324c276b5d16ed9f15771568b3857314a572c8c07df95186bf69df218f",
+      "source_page": "wiki/sources/PDD古法编程引子与Skill事务问答拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "65ba9d43-7c66-4b9d-9e55-fd3ec7a63122",
+      "anchors": [
+        {
+          "text": "刷到一位 PDD 老哥发的帖子，问现在还有没有古法编程，说感觉在需求明确的情况下，AI 一天就能完成他过去一周的工作量。",
+          "location": "正文开头；支持标题效率结论来自第三方主观帖子、缺乏可比基线的判断。"
+        },
+        {
+          "text": "大模型擅长意图理解、商品筛选和工具编排，但输出带有概率性，绝对不能让大模型去计算剩余库存，也不能直接更新库存表。",
+          "location": "第04节首段；支持文章最关键的模型职责与确定性交易边界判断。"
+        },
+        {
+          "text": "无论哪一层，事务状态与回滚补偿都必须由确定性的 Java 代码驱动，不能让大模型自己写回滚逻辑。",
+          "location": "第05节首段末尾；支持其分布式事务方案坚持由确定性代码托管的核心原则。"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2247551326_1",
+      "title": "要去大学讲课，我让豆包工作帮我备了两天课（PPT+视频制作）。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247551326&idx=1&sn=a8ef20d8be7244a052da6f1f1cf542a4",
+      "published": "2026-10-22 14:13",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/要去大学讲课，我让豆包工作帮我备了两天课（PPT+视频制作）。-7d136014-6bdde3ea1f.md",
+      "raw_sha256": "f631ed37d4a75fa9f666fc887f937dd8184895afac280ce99502bc89b4ee6aba",
+      "source_page": "wiki/sources/豆包工作两天课程备课文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "3844081d-e9c8-499b-9bce-4cd557764d8c",
+      "anchors": [
+        {
+          "text": "脚本 luoyang-lit-ai-bootcamp.md 是我提前在本地写好的，操作的时候只需要在豆包工作的输入框里用斜杠加载一下内置的 PPT Skill（技能），提示词很简单。",
+          "location": "第01节开头；支持案例已有高质量人工脚本作为关键输入，成果不能全部归因于工具。"
+        },
+        {
+          "text": "配音很快完成，豆包工作调用我本机的二哥音色按 1.1 倍速合成了音频，8 段旁白实测总时长 66.1 秒，每段的精确时长都列在了表格里。",
+          "location": "第03节中段；支持视频流程披露了具体操作参数与可量化结果。"
+        },
+        {
+          "text": "这里提醒一下，网页搜索「豆包工作」下载电脑端，限时领取 30 天会员权益。",
+          "location": "正文结尾倒数第二段；支持文章含产品权益引导、但商业关系未披露的判断。"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2247551277_1",
+      "title": "xiaom员工：15升16，一般的嫡系要满足在15级停留一年半的时间，嫡中嫡则完全不需要，不是嫡系那就很难升了（附Agent面试题）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247551277&idx=1&sn=d6cdee813a220766169eced768bfceaf",
+      "published": "2026-10-20 15:00",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/xiaom员工：15升16，一般的嫡系要满足在15级停留一年半的时间，嫡中嫡则完全不需要，不是嫡系那就很难升了（附Agent面试题）-4782f847-7f479f9fff.md",
+      "raw_sha256": "f2957e828051c68fd6f09f77afccc12205989f7014911eb3d0eb5035067fc5c9",
+      "source_page": "wiki/sources/小米晋升引子与Agent工程问答拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "d1411600-310d-4df7-8712-f39a11470f57",
+      "anchors": [
+        {
+          "text": "在已经运转多年的成熟业务部门里，团队架构稳定，上面的坑位早就满员了，所以每年的晋升名额就那么几个，评审时更看重资历年限、更看重是不是长期跟着重点项目攻坚的班底，这其实也是很多互联网公司存量部门的常态。",
+          "location": "正文开头职场判断段，支持文章把晋升困难归因于成熟部门的坑位和班底，但也显示其属于概括性判断。"
+        },
+        {
+          "text": "在做基线版本与候选版本的成对比较时，位置平衡评测器会把同一对答案送进模型评测两次，第一次按基线在前、候选在后排列，第二次把两者的位置对调。",
+          "location": "第01题LLM-as-Judge追问处，支持文章提供了位置偏见控制的具体操作机制。"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2247551257_1",
+      "title": "XX员工：同事觉得电脑太卡，我用Codex帮他修，结果不小心看到他正在写的辞职信还有已经到手的offer，该不该跟领导说呢（附Agent面试题）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247551257&idx=1&sn=e6bef3d74fbb2c9c7a6f9783a4b05446",
+      "published": "2026-10-19 14:16",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/XX员工：同事觉得电脑太卡，我用Codex帮他修，结果不小心看到他正在写的辞职信还有已经到手的offer，该不该跟领导说呢（附Agent面试题）-842edfb1-53462842e4.md",
+      "raw_sha256": "fd17dbf83c99790274f8a0b1c3066c624e04793a08e20c0dab960f3f373eb652",
+      "source_page": "wiki/sources/Codex辞职信引子与Agent安全问答拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "a91fae44-b17f-4da9-94a7-fb68e472e2a7",
+      "anchors": [
+        {
+          "text": "人家把电脑交给你排查，是因为拿你当信得过的同事。在正式发起离职审批之前，跳槽和 offer 属于个人最敏感的职场隐私。",
+          "location": "正文开头职场评论段，支持作者对标题问题给出的核心答案是保密。"
+        },
+        {
+          "text": "如果 1000 个沙箱每个分配 2 核 CPU 和 2GB 内存，全部常驻内存就要吃掉 2TB 物理内存，但 Coding Agent 的负载有很强的潮汐特征。",
+          "location": "第03题资源调度部分，支持其用容量估算引出冻结与休眠池方案，同时也表明这是设计推演。"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2247551236_1",
+      "title": "may员工：现在这些应届生，base开这么高，结果菜得不行，入职大半年了离了AI啥都不会干，怎么招的人，还自以为很厉害（附Agent面试题）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247551236&idx=1&sn=d6c1e235fca38fb1ca40cb8d2a4f3020",
+      "published": "2026-10-16 14:23",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/may员工：现在这些应届生，base开这么高，结果菜得不行，入职大半年了离了AI啥都不会干，怎么招的人，还自以为很厉害（附Agent面试题）-d4cae0a4-34c9267062.md",
+      "raw_sha256": "f160d178620e8cc493fd70ff5beab39c0f1e9d7ee2a9f74f183cae6010ce098d",
+      "source_page": "wiki/sources/应届生依赖AI引子与Agent问答拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "4910f7b0-2e8e-4a0b-a649-8b02d2335ada",
+      "anchors": [
+        {
+          "text": "拿到这三个数据之后，后台任务会自动定位问题出在哪一个阶段，打上对应的分类标签。定位清楚之后，高频出现或者具有代表性的点踩样本经过脱敏和人工编写参考答案，会补充进项目的 JSONL 离线评测集。",
+          "location": "第02题负向反馈闭环中段，支持文章描述了自动归因与人工制作评测答案并存的流程。"
+        },
+        {
+          "text": "模型偶尔还是会出现‘虚假引用’，也就是句子末尾规规矩矩标注了 (来源#1: 派聪明架构文档.pdf | 第3页)，但翻开第 3 页的分块一看，里面根本没写这句话。",
+          "location": "第05题引用核验部分开头，支持作者承认格式化引用仍可能缺乏事实支撑。"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2247551222_1",
+      "title": "张江芯片员工：32岁税前80个，没有互联网那么卷，现在国产卡都在招人，算是踩中这波算力红利了（附Agent面试题）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247551222&idx=1&sn=94f3368c5a78dedcdc8a0bbc5f4a5cd0",
+      "published": "2026-10-15 14:21",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/张江芯片员工：32岁税前80个，没有互联网那么卷，现在国产卡都在招人，算是踩中这波算力红利了（附Agent面试题）-de3aca33-666053947e.md",
+      "raw_sha256": "4fb38a8d69670e281df0957b3e73aed1cedead4e3959190bfcddb460cc787616",
+      "source_page": "wiki/sources/芯片薪资引子与Agent工程问答拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "c9f03d5f-0e47-437d-8538-05f124832cf2",
+      "anchors": [
+        {
+          "text": "看到标题这条帖子，32 岁在张江做芯片相关研发，税前 80 万，还没有互联网那么卷。",
+          "location": "正文开头第一段；支持薪资与工作强度只是帖子引子，缺少来源和构成说明。"
+        },
+        {
+          "text": "我没有亲手写过 MLIR 的 pass。我了解的是这套多层中间表示为什么要这么设计，以及排查问题时怎么把每一层的中间表示打印出来对照着看。",
+          "location": "第04节末部；支持作者明确承认未亲手开发MLIR pass，文章应界定为知识整理而非完整实战。"
+        },
+        {
+          "text": "论文里给的数字是，128 卡训练的吞吐最高能到 Megatron-LM 的 1.24 倍，推理的首字预填充阶段（prefill）和逐词生成阶段（decode）最高能到 vLLM 的 1.66 倍和 1.30 倍。",
+          "location": "第01节介绍Flux处；支持性能数字来自论文转述而非作者复测。"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2247551206_1",
+      "title": "用了豆包工作的无限画布，真回不去了。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247551206&idx=1&sn=8ab6546e2c7d59c9f249fe1d7f9b66c3",
+      "published": "2026-10-14 14:15",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/用了豆包工作的无限画布，真回不去了。-3bab09be-d5e7a3367f.md",
+      "raw_sha256": "df304e6c69db03710fb292a3519fa5a41e1df5d34c64e538a869bedb92c7d7d1",
+      "source_page": "wiki/sources/豆包工作无限画布创作流程拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "5bc0b51d-7365-43e3-9071-75ac8d70f67f",
+      "anchors": [
+        {
+          "text": "我用它给《王二讲Agent》做了一套宣传物料。从第一张海报到最后的宣传视频，全部由豆包工作完成。",
+          "location": "正文开头产品介绍后；支持文章核心案例范围，也提示需要拆解“全部完成”中的人工投入。"
+        },
+        {
+          "text": "为了让 Logo 完全符合预期，我先在画布里把人物 Logo 素材裁剪好。",
+          "location": "第三步调整海报细节处；支持作者亲自进行素材裁剪，并非全程零人工。"
+        },
+        {
+          "text": "第一次录完，豆包工作检查录屏内容，发现不符合要求。它回头排查原因，确认外接屏才是正确的采集目标，然后重新录了一遍。",
+          "location": "第四步视频制作中段；支持文中最关键的自动检查与返工叙述，但仍属于作者自述。"
+        },
+        {
+          "text": "这里提醒一下，网页搜索「豆包工作」下载电脑端，限时领取 30 天会员权益。",
+          "location": "结尾下载引导处；支持存在明确产品转化入口，但文章未披露商业关系。"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2247551101_1",
+      "title": "宇宙厂员工：不打算往上爬的话，苟在2-2/3性价比最高，尽量多存款多靠近AI，再往上，过程累、成功率30%左右（附Agent面试题）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247551101&idx=1&sn=deecf528dcb43bce01cbcf81ef305c5f",
+      "published": "2026-10-13 15:32",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/宇宙厂员工：不打算往上爬的话，苟在2-2_3性价比最高，尽量多存款多靠近AI，再往上，过程累、成功率30%左右（附Agent面试题）-1a29f94d-8f23524ee6.md",
+      "raw_sha256": "13f01ccace2559d2e1e18b3fd1098328ce76543f71d1dcbd5ddb7cfaafbb5d0d",
+      "source_page": "wiki/sources/宇宙厂职级引子与Agent问答拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "30696d3b-3b57-4d62-b3c2-c865635688ca",
+      "anchors": [
+        {
+          "text": "看到标题这样一段心声，感觉还挺有道理。他说如果不打算往上爬，苟在 2-2 到 3-1 这一段是性价比最高的，尽量多存款，多靠近 AI。",
+          "location": "正文开头；支持职级策略来自一段未给来源的“心声”，而非系统调研。"
+        },
+        {
+          "text": "这个字段的分数一定要和模式一起返回。0.02 这个数字，在精排模式下说明这篇文档几乎不相关，在 RRF 模式下却可能是排第一的结果，不带模式标记，谁拿到都会判断错。",
+          "location": "第04节中部；支持本文在不同评分量纲与接口设计上的核心工程判断。"
+        },
+        {
+          "text": "0.1 是用评测集测出来的。派聪明有一套 50 道题的评测集，每道题标了应该命中哪些文档和哪段证据，改任何检索参数都要重新测一遍。",
+          "location": "第04节阈值说明处；支持阈值来自作者所述离线评测，也暴露样本规模与复现材料边界。"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2247551087_1",
+      "title": "海康员工：机器人业务现在是双休，周一到周四，早九点到晚八点半，周五五点下班，海康真不卷（附Agent面试题）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247551087&idx=1&sn=17f902057ae161288146c7390cc8ae7f",
+      "published": "2026-10-12 14:17",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/海康员工：机器人业务现在是双休，周一到周四，早九点到晚八点半，周五五点下班，海康真不卷（附Agent面试题）-4a19ceb4-3b0265dd51.md",
+      "raw_sha256": "8a0e7d6b737b058cfa0948560d8570aadc3b9ca548ab11bf3ac456834629480e",
+      "source_page": "wiki/sources/海康工时引子与Agent工程问答拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "1ddcb868-52fa-4a42-9eac-56ccb2fadd93",
+      "anchors": [
+        {
+          "text": "至于机器人业务到底卷不卷，有知情的小伙伴可以评论区证明一波。",
+          "location": "正文开头第二段；直接表明作者未提供工时核验，支持标题中的“真不卷”没有在正文兑现。"
+        },
+        {
+          "text": "接下来，继续上我们的硬核内容，每天都接近全力给大家准备一些最常见的 Agent 题目，让大家能在一天最希望学习的时候吃到一些细糠。",
+          "location": "海康业务概述转入面试题之前；支持文章只是宣布换题，未建立海康岗位与后续题目的证据关系。"
+        },
+        {
+          "text": "我实测过。拿本地 5 个 Java 项目，一共 5874 个文件、58 万行代码，用和 PaiCLI 一样的配置，每个文件解析一遍，再取出所有类、方法和方法调用。机器是 M3 Max，JDK 21。",
+          "location": "第04题性能小节中部；支持JavaParser性能数据属于作者亲测叙述，并明确了输入规模和机器环境。"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "id": "2247551052_1",
+      "title": "OPPO员工：工位对面坐了一个O16职级的女孩，每天上班乐呵呵的，两口子每年100多万，确实没理由上班不乐呵（附Agent面试题）。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247551052&idx=1&sn=30971c04ca992d5d92d4ab24b9afe7bb",
+      "published": "2026-10-10 14:24",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/OPPO员工：工位对面坐了一个O16职级的女孩，每天上班乐呵呵的，两口子每年100多万，确实没理由上班不乐呵（附Agent面试题）。-6c59cece-42a7616ff2.md",
+      "raw_sha256": "252a4a7f89db00722e0d4f05b3e76cb6e47018f436f3573ec2709b370258b4a2",
+      "source_page": "wiki/sources/OPPO职级引子与Agent工程问答拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "2b3a1a90-5afc-4c27-9e2c-927b38a6753e",
+      "anchors": [
+        {
+          "text": "每年100多万收入，在一个口碑相对不错的公司，必须乐呵。",
+          "location": "正文开头职场话题处；支持作者只作情绪判断，没有提供收入、职级和员工身份核验。"
+        },
+        {
+          "text": "接下来，继续上科技狠活，有面试需求，或者想要继续深耕 Agent 知识的小伙伴记得认真读下去，非常肝，全文 9000 多字。",
+          "location": "手机Agent趋势段落与技术题之间；支持正文主体明确转为面试学习内容。"
+        },
+        {
+          "text": "有重试就可能出现重复消费。如果消费者处理到一半崩溃了，或者处理完了但还没来得及提交位移就重启了，Kafka 会认为这条消息没处理过，重启后再投递一遍。",
+          "location": "第01题消费失败小节；支持文章以具体故障链路解释Kafka至少一次投递下的重复处理风险。"
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "id": "2247550986_1",
+      "title": "轻量开源版 Muse 来了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247550986&idx=1&sn=ce50beb64ff503109735f33df1500980",
+      "published": "2026-10-08 16:24",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/轻量开源版 Muse 来了！-12f0de69-97fcb353cb.md",
+      "raw_sha256": "24a37f92e858983595c5739ef2d7fe9be8bb09a93b8d8352f0f01611823104c0",
+      "source_page": "wiki/sources/轻量开源Muse项目文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "b91fa508-013f-4750-916a-576cfb6de366",
+      "anchors": [
+        {
+          "text": "省流总结，OpenMuse 是一个带浏览器、终端和文件的Personal Agent 应用，委派给它的任务会在后台一直运行，中途需要人做决定时再停下来等用户确认。",
+          "location": "第01节开头；概括产品定位和人在回路机制，支持标题主体得到基本兑现。"
+        },
+        {
+          "text": "运行之前，有两处默认配置建议大家先看一眼。",
+          "location": "本地启动步骤之后；引出遥测与网页搜索的数据外发设置，支持文章不仅讲启动，也提示隐私边界。"
+        },
+        {
+          "text": "我发现，OpenMuse 在浏览器里只能做一件事，读网页。",
+          "location": "第05节浏览器测试之后；明确承认当前能力限制，支持其并非完整复刻Meta Muse。"
+        },
+        {
+          "text": "任务中断了要能自己接着执行，所以有租约和检查点。用户回来时要能看懂这段时间发生过什么，所以每个操作都要留下记录。",
+          "location": "结尾倒数第二段；回收全文的租约、检查点与审计设计主线。"
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "id": "2247550968_1",
+      "title": "我用豆包工作接管SSH轻松运维云服务器",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247550968&idx=1&sn=0e359a68eab25fa4b93f158ba5f8fac1",
+      "published": "2026-10-09 14:15",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/我用豆包工作接管SSH轻松运维云服务器-6a9d1d71-2654bf0f8e.md",
+      "raw_sha256": "952099511e76a1762909a47248853b57bf566f11e92cc601a659f20c70e12c9b",
+      "source_page": "wiki/sources/豆包工作SSH服务器运维文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "88c3b1b8-7fd7-40c1-bdb0-e0b8c4f68ef9",
+      "anchors": [
+        {
+          "text": "豆包工作返回了三条命令的实际结果，SSH 连接成功。这就说明，我们可以通过豆包工作远程操作生产服务器了。",
+          "location": "正文第一步只读 SSH 验证之后，支持作者确实叙述了亲自连接生产服务器，但没有展示可独立复核的原始结果。"
+        },
+        {
+          "text": "任何一步出错，脚本都会自动恢复旧的 JAR 包和前端，重新启动再验收一遍。",
+          "location": "正式发布的成功标准与回滚机制说明处，支持文章的安全性主要依赖既有脚本和自动恢复设计。"
+        },
+        {
+          "text": "现在，二十多分钟就搞定了，关键是所有的问题都一清二楚。以后项目发版我就交给豆包工作了。",
+          "location": "结尾个人感受部分，支持作者给出了时间结果和强烈采用结论，但没有披露对照测量与人工成本。"
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "id": "2247550967_1",
+      "title": "31岁罗福莉，晋升小米最高职级22级。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247550967&idx=1&sn=92d60efc7819d181b1aac53d6d15c792",
+      "published": "2026-09-30 15:49",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/31岁罗福莉，晋升小米最高职级22级。-5f2d4980-3fe6fb7000.md",
+      "raw_sha256": "c4755c7ed125a82c562752f04a87ae9841033a75ab6ad0b94731e7485287ea69",
+      "source_page": "wiki/sources/罗福莉晋升与技术人物文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "563ff989-cf3b-4273-98c3-f4f40fe3ecbe",
+      "anchors": [
+        {
+          "text": "于是我把 MiMo 从 2025 年 4 月到现在的技术报告、arXiv 论文、GitHub 仓库都翻了一遍。",
+          "location": "开头由晋升消息转入技术综述处，支持本文主要是公开资料梳理而非作者亲自训练或全面实测。"
+        },
+        {
+          "text": "RL 前后的差距很明显，编程 Agent 评测 DeepSWE 上 Flash 从 48.8 提到 65.7，Pro 从 58.4 提到 72.6。",
+          "location": "V2.6强化学习章节中部，支持文章用量化评测说明训练效果，但正文未给出完整复现条件。"
+        },
+        {
+          "text": "输入越长，Prefill 越慢，KV Cache 越占显存。",
+          "location": "HySparse2章节解释Agent长观察结果之后，支持作者用简洁因果句为架构改造建立问题背景。"
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "id": "2247550841_1",
+      "title": "Claude Opus 5.5 最新焚诀发布了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247550841&idx=1&sn=d24fe202a1d07011c01cd1213b31c32c",
+      "published": "2026-09-29 14:55",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/Claude Opus 5.5 最新焚诀发布了！-bda80733-6d8a35e7a0.md",
+      "raw_sha256": "bdba25b58d897895034413860fe4e8a2364d45f5ef2255345a80444995d97d8a",
+      "source_page": "wiki/sources/ClaudeOpus焚诀工作规范文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "a6212db0-1d3c-4721-8b81-0c23a1810d82",
+      "anchors": [
+        {
+          "text": "我顺手在自己电脑上搜了一遍。CLAUDE.md、rules 目录和装的所有 Skill 里，把这类指令都删掉了。",
+          "location": "第一节删除think carefully的建议之后，支持作者确实执行了配置清理，但没有披露清理后的量化结果。"
+        },
+        {
+          "text": "提示词里最该写清楚的，是做到什么程度算完成。",
+          "location": "第三节开头，概括全文最可迁移的方法：先定义任务终点，而不是堆叠泛化思考指令。"
+        },
+        {
+          "text": "每个服务交给一个单独的 Sub-agent。Sub-agent 汇报回来后，先核对它给的证据，再决定是否采纳。",
+          "location": "第五节并行审计示例中，支持文章并非只强调多Agent提速，也明确要求主Agent复核证据。"
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "id": "2247550817_1",
+      "title": "DeepSeek桌面版真不错，再见了WebUI。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247550817&idx=1&sn=73740aa878d4015231d685f5e3c89174",
+      "published": "2026-09-28 14:15",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/DeepSeek桌面版真不错，再见了WebUI。-81a4d657-6dfdd511c6.md",
+      "raw_sha256": "d79fd11085bda2790f3680ba996cba6283e3f630d62b477d8928e3bbdc56bcdf",
+      "source_page": "wiki/sources/DeepSeek桌面客户端文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "16fee197-a29a-4b1a-b968-1a0deebc0923",
+      "anchors": [
+        {
+          "text": "也就是说，Agent 还是那个 Agent，界面也还是那个界面。我们原来要在终端里执行 pnpm dsh web，再去浏览器里打开链接，这两步现在由桌面版替我们做了。",
+          "location": "正文“02、桌面版和 WebUI 的差别”中段；支持桌面版主要封装既有 WebUI 与本地服务，而非重写核心界面的判断。"
+        },
+        {
+          "text": "插件的服务端代码直接跑在 Agent 宿主进程里，在工作区沙箱之外，权限和 DSH 本身一样。",
+          "location": "正文“03、Everything is a Plugin”后半段；支持插件具有宿主级权限、安装推荐必须附带安全边界的判断。"
+        },
+        {
+          "text": "桌面版的界面和 WebUI 几乎一样，但对于非程序员的用户群体来说，可太友好了，双击安装运行才是生产力啊。",
+          "location": "结尾“说说我最真实的感受”段；支持标题实际兑现的是易安装、易运行体验，而非界面或 Agent 能力替代。"
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "id": "2247550793_1",
+      "title": "菊厂员工：朋友家的孩子，上海交大毕业后进入华子年薪42万，干了一年，OPPO来挖他做芯片，直接开到56万（附Agent面试题）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247550793&idx=1&sn=2bb9ffa836fa95fed4cb69a85d931ce9",
+      "published": "2026-09-24 14:16",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/菊厂员工：朋友家的孩子，上海交大毕业后进入华子年薪42万，干了一年，OPPO来挖他做芯片，直接开到56万（附Agent面试题）-595ef12d-68cccb5cc8.md",
+      "raw_sha256": "00c77f15b47620ce720c8d7f53be10a61f41c618a2564da283037a15a5f3adca",
+      "source_page": "wiki/sources/华为芯片薪资引子与Agent问答拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "d9ac0b02-79c6-4b56-adfe-adb203ed5c0f",
+      "anchors": [
+        {
+          "text": "有读者发来一张包浆的截图，问我是真是假。截图里的主人公上海交大毕业进了华子，年薪 42 万，干了一年被 OPPO 挖去做芯片，开到 56 万。",
+          "location": "正文开头；支持薪资故事来自读者截图、属于未核验第三方转述，也支持标题以职场八卦开场的判断。"
+        },
+        {
+          "text": "能做的是同一份文档抽取两次，两次结果不一致的字段，说明模型自己也拿不准，直接送人工复核。",
+          "location": "正文第9题“怎么保证处理结果稳定”中段；支持方案包含重复调用和人工复核成本，而正文未量化成本。"
+        },
+        {
+          "text": "评估要把检索和生成分开看。不然回答错了，分不清是没搜到，还是搜到了没用对。",
+          "location": "正文第10题开头；支持文章在评估方法上强调分层定位问题，是题库中可迁移性较强的原则。"
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "id": "2247550753_1",
+      "title": "给Codex装上Jev Skill，直接起飞。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247550753&idx=1&sn=c1d2cabb44b8894c6ccdceb04f0e0585",
+      "published": "2026-09-22 14:16",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/给Codex装上Jev Skill，直接起飞。-85baaa28-e0a62d5de7.md",
+      "raw_sha256": "c73f8b1b1bc9d3d6ad82ecb7d47d9d512cbe6d3fde5ab2172b380bef995d9265",
+      "source_page": "wiki/sources/Codex接入JevSkill文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "c50e7bc3-4810-4592-92ee-3644bb4c5e77",
+      "anchors": [
+        {
+          "text": "因为 confidence 0.99 远超 0.8 的阈值，Codex 直接执行了联网搜索。",
+          "location": "正文完整 Case 的结果解释段；支持作者跑通了按置信度阈值执行联网搜索的调用链。"
+        },
+        {
+          "text": "从 TypeSafe AI 官方给出的性能数据来看，Jev 比同类 LLM 快 40 到 200 倍，便宜 40 到 400 倍。",
+          "location": "正文回答“为什么要多引入一个 Jev”处；支持性能数字来自厂商官方信息，而非作者对照实测。"
+        },
+        {
+          "text": "Jev 最大的价值在于它把 Agent 的 “判断” 和 “执行” 拆开了。以前 Codex 既要判断该做什么又要去执行，现在把“该做什么” 这件事可以交给一个更快更便宜的专用模型来做。",
+          "location": "正文“说说我的真实感受”段；支持文章的核心产品价值判断是决策与执行解耦。"
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "id": "2247550733_1",
+      "title": "我用飞书+豆包工作，找到了最邪修的用法。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247550733&idx=1&sn=56223e23132573ffee24626e5f4633ca",
+      "published": "2026-09-23 14:04",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/我用飞书+豆包工作，找到了最邪修的用法。-f5776365-80feac25e8.md",
+      "raw_sha256": "a9224d3978b37ade08d4f10c6184bfa192c1becf4cf280262ea278614f906264",
+      "source_page": "wiki/sources/飞书豆包工作协同用法文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "e2519ead-95c8-4dbf-9225-f39bb7a795e3",
+      "anchors": [
+        {
+          "text": "今天早上看到朋友cxuan用AI搭了一个知识库，把自己写过的文章全部上传，然后让AI梳理知识脉络，看起来很有搞头。于是我就想把自己写过的内容，也用豆包工作+飞书搭了一个本地的知识库。",
+          "location": "正文开头院长对话之后，交代作者建库动机、语料来源和亲自尝试的起点。"
+        },
+        {
+          "text": "区别在这儿。收藏只是把东西从别人的网页挪进你的收藏夹，东西还是那些东西。入库加定期检索，是让豆包工作替你读一遍，然后告诉你你存了什么。前者是囤积，后者才算复盘。",
+          "location": "正文后半段定时任务场景中，用对照语言界定所谓“邪修”用法的核心价值。"
+        },
+        {
+          "text": "不过，有一点我不太满意，批量上传 200 多个文件的时候加载比较慢。但整体来说，瑕不掩瑜。",
+          "location": "结尾总体评价之前，是全文少数明确披露的负面体验和性能边界。"
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "id": "2247550704_1",
+      "title": "又一款国产大模型，性价比拉满。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247550704&idx=1&sn=9dda4fa2e54eb3ba356e8b7e924f6cbc",
+      "published": "2026-09-21 14:23",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/又一款国产大模型，性价比拉满。-8fe2eb59-16198d9ab6.md",
+      "raw_sha256": "67335e7fa471b24792e25d06d6c82ad5412fc653dd780ae3c5b4de3b205ec039",
+      "source_page": "wiki/sources/国产模型性价比体验文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "23e87ffe-d9ea-4fd8-9820-128dfff4e87c",
+      "anchors": [
+        {
+          "text": "所以这次我做了一件事，用 Kimi Code 作为统一的 Harness，让 Step 5 Preview 和 DeepSeek V4 Pro 做同题实测。三个场景，复刻经典游戏魂斗罗（Coding 场景）、做一个中秋互动页（前端场景）、完成一份经营分析报告（Work 场景）。提示词完全一样，素材和验收标准也统一，同时开跑。",
+          "location": "价格与榜单介绍之后的方法总述，支持文章确有统一载体、同题和同素材的横评设计。"
+        },
+        {
+          "text": "按 Artificial Analysis 的测算口径，完成同一个任务，Step 5 Preview 的成本是 GLM-5.3 和 Kimi K3 的 35%，Opus 5 的 12.5%。",
+          "location": "开头模型规格之后的成本论据，表明性价比结论依赖第三方测算口径。"
+        },
+        {
+          "text": "两个模型都交付了完整的五件套，Excel 有公式联动，PPT 里的图表都是原生 OOXML 图表，可以直接在 PowerPoint 里编辑数据。",
+          "location": "Work场景验收结果处，支持两模型均完成规定交付物，但不证明内容和公式完全正确。"
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "id": "2247550642_1",
+      "title": "MiniMax 版 Claude Code 开源，夯。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247550642&idx=1&sn=305826cd652d00649150e274c5f8f1ee",
+      "published": "2026-09-19 16:57",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/MiniMax 版 Claude Code 开源，夯。-ce47078d-462632c784.md",
+      "raw_sha256": "f216119fcd0ecddd2874da544c5666c98170e916c1ccacef53ee8363571f2d04",
+      "source_page": "wiki/sources/MiniMaxCode开源工作流文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "c04370f9-f452-4349-bd8a-1a0e3d053489",
+      "anchors": [
+        {
+          "text": "不过整体长程任务的处理还是不错的，我这个跑了 32 分钟，仍然没出问题。中间涉及文件读写、命令执行、多轮工具调用，没有出现卡死或上下文丢失的情况。能跑稳长任务，说明底层的 Turn Loop 和上下文管理是靠谱的。",
+          "location": "“上手体验”章节后半段，是作者对一次32分钟任务的亲测结果及由此作出的架构推断。"
+        },
+        {
+          "text": "第一个是每轮状态隔离。每次执行都会创建全新的 turn、agent、history 对象，上一轮的状态不会泄漏到下一轮。好处是天然线程安全，调试也方便，出了问题只需要看当前 turn 的状态。",
+          "location": "“核心循环”代码之后，概括作者认为重要的第一项设计及其工程收益。"
+        },
+        {
+          "text": "用了大半天跑 MiniMax Code CLI，又花了一个下午读源码。",
+          "location": "结尾开头，提供体验与源码阅读的人力投入，但未给更精确工时。"
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "id": "2247550608_1",
+      "title": "Kimi版Codex，干活有点猛啊。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247550608&idx=1&sn=9979beb552c6ab2112933b4222d5200e",
+      "published": "2026-09-18 16:46",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/Kimi版Codex，干活有点猛啊。-d48f9a8e-26cf9fb737.md",
+      "raw_sha256": "ebe5bdbb5fbeca43b68f7baaf90ed2795518bc4b5b7e53e78b02b5692cfa7d41",
+      "source_page": "wiki/sources/KimiCode桌面版迭代与对照文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "7e76f57b-6329-4cb9-aab8-7b293e252269",
+      "anchors": [
+        {
+          "text": "从输入提示词到最终交付，大概花了 40 多分钟。其中纯代码版大概 15 分钟就跑出来了，后面大部分时间花在补充素材和调整细节上。",
+          "location": "赛博朋克案例末段；同时支持总耗时、首版速度以及后续人工返工占主要时间的判断。"
+        },
+        {
+          "text": "K3 跑这个鹈鹕大概花了七八分钟，K2.7 两三分钟就出来了。如果你的任务对视觉质量没那么高的要求，比如做个原型验证一下思路，K2.7 高速版确实能省不少等待时间。",
+          "location": "鹈鹕案例结尾；支持两模型速度—质量取舍及其适用场景边界。"
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "id": "2247550559_1",
+      "title": "把浏览器操作录成Skill，豆包工作太夯了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247550559&idx=1&sn=f1d668d3705cd7cb28326535782a9080",
+      "published": "2026-09-20 14:24",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/把浏览器操作录成Skill，豆包工作太夯了！-b8daa433-0c728358d6.md",
+      "raw_sha256": "f195c444507e5250e6b54704cbfb5a3ac86f58f504504b8ac7be05b03d0207db",
+      "source_page": "wiki/sources/浏览器操作录制Skill文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "74ce249b-5237-46b6-b17f-dbae8964a3d8",
+      "anchors": [
+        {
+          "text": "看，我们再采集新的视频评论时，速度就非常快了。",
+          "location": "飞书多维表格回放结果之前；支持作者对复用后速度的主观判断，也暴露没有量化时间基线。"
+        },
+        {
+          "text": "录制的时候，豆包工作浏览器会通过调试协议获取页面的 DOM 结构，AI 同步分析你每一步操作对应的页面元素和上下文。",
+          "location": "录制回放原理段中部；支持文章将其解释为语义元素定位而非单纯坐标录制。"
+        },
+        {
+          "text": "有一点需要注意，目前豆包工作的录制回放只支持在自带的浏览器里操作，Chrome 和本地应用暂时还录不了。",
+          "location": "原理段末尾；支持产品适用范围和当前限制的判断。"
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "id": "2247550509_1",
+      "title": "Seed2.1 Pro升级，这个模型肉眼可见的变强了。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247550509&idx=1&sn=f1e9a4b7e191c507ca93cb3c7bd6d28d",
+      "published": "2026-09-16 14:24",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/Seed2.1 Pro升级，这个模型肉眼可见的变强了。-7126d767-161fd8a4cd.md",
+      "raw_sha256": "d0020bc03ee53a3d4edf42e08a622c9b89e81bfbe377bd26f3215b940b83032b",
+      "source_page": "wiki/sources/Seed模型升级案例文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "99e69f42-5a3d-4f3f-bb27-f215f003b837",
+      "anchors": [
+        {
+          "text": "豆包工作启动后发现 Blender MCP 没装好。有些模型在遇到工具不可用的时候，会假装没事继续干，最后给你一个根本没法用的东西。Seed2.1 Pro 如实报告了问题，打算用 bpy 命令先顶上。",
+          "location": "Blender白模案例前段；支持模型报告工具故障、提出替代方案，也显示作者随后仍需人工干预。"
+        },
+        {
+          "text": "通关过程中 Codex 发现了 6 个 Bug。铺路顺序覆盖了水格导致地图没桥面，散植装饰堵住了通道，采药后任务计数不更新，开始或读档后队伍 HUD 不显示，Boss 战前对话结束没有触发战斗启动，结局还显示旧任务提示。",
+          "location": "仙剑案例后段；支持首版存在多项功能缺陷及独立通关测试带来返工的判断。"
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "id": "2247550419_1",
+      "title": "Codex 最新焚决发布，快！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247550419&idx=1&sn=c84c286916a8c2f2c76eb44bf784c213",
+      "published": "2026-09-15 16:02",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/Codex 最新焚决发布，快！-4b65f14d-ae3dcc400d.md",
+      "raw_sha256": "e1e729595b885c419180a9d32d257ea0b12baedf3321abf731538a2f30373d0c",
+      "source_page": "wiki/sources/Codex焚决工作规范文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "c5e26230-7732-4cb6-a4b9-79e2001c689d",
+      "anchors": [
+        {
+          "text": "建议先挑一条有明确依据的建议改掉，然后用一个你熟悉的日常任务跑一遍，观察模型的行为有没有变化。确认没问题了再改下一条。",
+          "location": "正文开头两步提示词之后，支持文章并非主张一次性自动改完，而是要求逐条人工验证。"
+        },
+        {
+          "text": "不是写完代码叫完成，也不是「多测几遍」叫完成。完成的定义应该具体到：跑哪些测试、通过什么条件、交付什么产物。",
+          "location": "第04节中部，支持文章将完成标准具体化为测试、通过条件和交付物。"
+        }
+      ]
+    },
+    {
+      "rank": 26,
+      "id": "2247550391_1",
+      "title": "给 MinIO 说再见，最强 AI 存储 RustFS 发布正式版了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247550391&idx=1&sn=59284b509f7f52abf1f83f10d2e6f918",
+      "published": "2026-09-17 14:24",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/给 MinIO 说再见，最强 AI 存储 RustFS 发布正式版了！-47b8cecd-860a70ddef.md",
+      "raw_sha256": "0637a2a1e14ce494343802c1b6b2449baa4baa18e3ba349625a10f791b608b0e",
+      "source_page": "wiki/sources/RustFS存储正式版文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "0b2e93ba-ed82-4201-8dc6-1465bb894c47",
+      "anchors": [
+        {
+          "text": "于是就在上周六，我下定决心，把派聪明 RAG 的 MinIO 存储方案直接切换到了 RustFS。",
+          "location": "开篇产品背景之后，支持这是作者针对自己项目的迁移叙述，而非纯资料汇编。"
+        },
+        {
+          "text": "脚本默认只做统计，列出有多少对象、总大小多少，不会真的往 RustFS 写任何数据。确认数据量和对象清单没问题后，加 --apply 参数才会执行复制。",
+          "location": "第07节迁移脚本说明处，支持迁移包含人工确认与先盘点后执行的安全流程。"
+        },
+        {
+          "text": "整体兼容度是真的高，迁移后没有任何问题。当然了，我这个项目的用户量比较小，数据量也比较小。",
+          "location": "结尾真实感受部分，既给出作者结果，也明确了小用户量、小数据量的适用边界。"
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "id": "2247550347_1",
+      "title": "xiaom员工：年终奖3月5号发，已经谈了系数，今年的年终奖有点给力，基本都拿满了（附Agent面试题）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247550347&idx=1&sn=9137ec8976ed9f8bf0b816ba7593418d",
+      "published": "2026-09-14 15:19",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/xiaom员工：年终奖3月5号发，已经谈了系数，今年的年终奖有点给力，基本都拿满了（附Agent面试题）-10d3f008-2723d4c23d.md",
+      "raw_sha256": "75a9685ae3114fac54c5f6c79283ff446d1a8199b20b8ba7b00f5ee86938a678",
+      "source_page": "wiki/sources/小米年终奖引子与Agent问答拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "1602832b-282f-465a-a997-e5abc7259ab6",
+      "anchors": [
+        {
+          "text": "9月8日，官方正式启动了自研桌面客户端 mimo desktop 的内测，我也第一时间申请了，但到今天还没拿到资格，呜呜呜。",
+          "location": "开篇 MiMo 讨论处，明确作者尚未获得内测资格，不能把后续桌面端能力当作作者亲测。"
+        },
+        {
+          "text": "第一个是审批环节拦截。比如摘要丢了‘只改 service 层’这个约束，模型去改了 controller 的代码，写文件的时候用户会在审批环节看到改动内容，直接拒绝。",
+          "location": "第08题回答开头，支持系统依赖用户审批发现压缩遗漏，存在明确人工成本。"
+        },
+        {
+          "text": "压缩有没有丢掉关键上下文，目前主要靠两个间接信号。一个是模型的行为连贯性，如果压缩后模型突然问已经确认过的问题，或者重做已经完成的操作，说明摘要丢了东西。",
+          "location": "第06题中部，支持当前校验主要依赖间接行为信号，而非严格自动验证。"
+        }
+      ]
+    },
+    {
+      "rank": 28,
+      "id": "2247550292_1",
+      "title": "宇宙厂员工：坐标北京月base 7.7，年终奖按3个月算，23万股权激励每年30万，总包差不多 145万（附Agent面试题）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247550292&idx=1&sn=b80011fc7cd72f0ea982ee8b97dc0fbd",
+      "published": "2026-09-11 14:24",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/宇宙厂员工：坐标北京月base 7.7，年终奖按3个月算，23万股权激励每年30万，总包差不多 145万（附Agent面试题）-fde22c84-1228de7d7c.md",
+      "raw_sha256": "646bf64f35b7490e9ae235f7e04888251ae769cd5c8bbd95bfbf07c97ef177c9",
+      "source_page": "wiki/sources/宇宙厂总包引子与Agent问答拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "11c3d2bc-dfdb-48b9-9877-6a34abd4dd08",
+      "anchors": [
+        {
+          "text": "因为钱多钱少都是别人的，自己能拿到多少才是真的。你认为能激发你的竞争心那最好，如果激发的只是嫉妒心，那无益还有害。",
+          "location": "正文开头收到薪酬截图之后；支持作者未核验标题薪酬、迅速转向价值劝诫的判断。"
+        },
+        {
+          "text": "“开始之前，要人工确认分析范围和重点维度，以及数据采集完成后的抽检。”",
+          "location": "第01题竞品分析流程中段；支持工作流明确保留人工定范围与抽检环节的判断。"
+        },
+        {
+          "text": "“第二个是做判断。第三个是担责任。报告如果要给老板看、给客户看，里面每一个结论都得有人背书。Agent 生成的内容，发出去之前人必须确认过。”",
+          "location": "第02题关于人的核心作用处；支持人工承担判断、确认和责任成本的判断。"
+        },
+        {
+          "text": "与其想那些杂七杂八的东西，不如踏踏实实每天进步一点点，不管你的薪资是 7.7 w 还是 7.7k，也不管你在互联网大厂，还是普普通通的小公司，只要你做出改变，并持之以恒，我想你就会成为这个时代的弄潮儿。",
+          "location": "结尾倒数第二段；支持文章由技术问答转回普遍励志叙事、但未提供练习闭环的判断。"
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "id": "2247550252_1",
+      "title": "DeepSeek V4.1 Flash 正式发布！我用 Blender 复刻了苹果 Duo，有点离谱。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247550252&idx=1&sn=ff0a761a82b9fcb3f15c829edcf2ea5d",
+      "published": "2026-09-10 15:28",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/DeepSeek V4.1 Flash 正式发布！我用 Blender 复刻了苹果 Duo，有点离谱。-ef4cd6ce-1596a7e6e6.md",
+      "raw_sha256": "762ae5cdb04dcc651e200c1f0ae4da78675326f69388879367533fa3b49114c9",
+      "source_page": "wiki/sources/DeepSeekFlash与Blender复刻文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "32019e7a-9503-40cf-97b8-925eb25f87f4",
+      "anchors": [
+        {
+          "text": "国内的 WorkBuddy+混元Hy4 preview、豆包+默认的两款模型（忘记啥名字了）、ZCode+GLM-5.3 Flash、DeepSeek Harness+deepseek-v4.1-flash-expires-on-0910、Qoder+Qwen3.8-Max，我都测试了一个遍（当然是在同样的提示词+Skills情况下）。",
+          "location": "前部国产工具横评段；支持作者声称采用相同提示词和Skills，但部分模型名、版本信息仍不完整的判断。"
+        },
+        {
+          "text": "在交付完第一次的产物后，还进行了一次自我迭代，是在我没有给任何指令的情况下。",
+          "location": "Duo网页复刻评价之后；支持模型存在自主追加迭代行为，也提示流程控制和成本需要记录。"
+        },
+        {
+          "text": "到底是AI在给人提效，还是人在给AI打工。我目前已经有点幻觉了。看似AI提效了，实际上，人每天忙的要死。",
+          "location": "鹈鹕案例后的反思段；支持文章主动触及测试、监督和伪需求带来的人力成本。"
+        },
+        {
+          "text": "我看官方说取消了DeepSeek-V4-Flash-Vision-Exp，用 DeepSeek V4.1 Flash 取代了，但我发送图片的时候，DeepSeek Harness 说当前模型不支持图片，请切换支持图片的模型。",
+          "location": "结尾故障说明；支持正式版多模态兼容在作者环境中尚未闭环，且官方说法仅为转述。"
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "id": "2247550192_1",
+      "title": "DeepSeek V4.1 Flash 来啦！首批实测，结果好离谱啊。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247550192&idx=1&sn=b274fc39c686f996b748195361388963",
+      "published": "2026-09-09 14:24",
+      "raw_path": "raw/article/chenmowanger/最新30篇采集-2026-10-26/DeepSeek V4.1 Flash 来啦！首批实测，结果好离谱啊。-0fd52097-98855ac8f9.md",
+      "raw_sha256": "bc07aeda79b6e0d2a5b230b11fe09af8b639833dff33ab1eb37658d74c95be7e",
+      "source_page": "wiki/sources/DeepSeekFlash首批任务体验拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "2ae9f40b-1f02-4474-adb5-c0f9c3c9f4b2",
+      "anchors": [
+        {
+          "text": "这个 case 别看简单，但很能测出一个模型的能力边界。为了降低大家的期待，先给大家看一眼 DeepSeek V4 Flash 的效果。",
+          "location": "第01个鹈鹕案例开头；支持文章以案例比较模型边界，但判断主要依赖展示与观感。"
+        },
+        {
+          "text": "这次有点问题了，鱼有来吃鱼食，但没有真的吃，鱼食就消失了。😄但水和鱼的动态是没问题的。",
+          "location": "第03个锦鲤食堂结果段；支持作者披露交互语义缺陷，而非只展示成功。"
+        },
+        {
+          "text": "V4.1 Flash 做出来了 3D 版，只不过我发现有个同样的问题，不管是 Qwen3.8-Max 还是 deepseek-v4.1-flash-expires-on-0910，摩托车的方向都特么是反着的。",
+          "location": "第05个暴力摩托案例前部；支持多个模型出现同类方向错误及产物未完全通过验收的判断。"
+        },
+        {
+          "text": "上面这些 case 我也都是一边过，没有抽卡，如果稍微调试一下，效果应该会更好一点。但那就是人为的能力提升了。",
+          "location": "结尾总结段；支持作者强调首次交付而非挑选最佳样本，同时也暴露缺少重复试验的问题。"
+        }
+      ]
+    }
+  ]
+}

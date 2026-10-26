@@ -3,9 +3,9 @@ title: 小林WorkBuddy长任务与注入文章拆解
 type: source
 tags: [公众号, 对标拆解, 小林coding]
 status: 稳定
-sources: ["raw/article/小林coding/WorkBuddy拿下双榜第一！腾讯这次把Harness玩明白了.md"]
+sources: ["raw/article/小林coding/WorkBuddy拿下双榜第一！腾讯这次把Harness玩明白了.md", "raw/article/小林coding/WorkBuddy拿下双榜第一！腾讯这次把Harness玩明白了-cf6cb64b-38e5c7d87f.md"]
 created: 2026-10-23
-updated: 2026-10-23
+updated: 2026-10-26
 ---
 
 # 小林WorkBuddy长任务与注入文章拆解
@@ -61,3 +61,15 @@ updated: 2026-10-23
 - [[topics/小林coding文章写法拆解]]
 - [[comparisons/公众号对标三位新增作者写法对比]]
 - [[topics/文章写法库]]、[[topics/证据与边界库]]
+
+## 最近30篇批次的连续证据补充
+
+本次完整阅读文字来源：`raw/article/小林coding/WorkBuddy拿下双榜第一！腾讯这次把Harness玩明白了-cf6cb64b-38e5c7d87f.md`。原标题及发布时间同上；图片、视频未核看，未执行正文命令。
+
+长任务结果段（作者亲测自述，不等于本库复测）：
+
+> 大约 31 分钟后，任务完成。WorkBuddy 补齐了必要的测试，也没有对原项目进行大范围改动。最终相关测试 74 项全部通过，最后它还整理了一份交付结果，改了什么、测试了什么、怎样复核，都列得比较清楚。
+
+删除诱导场景结果段（只支持该次观察，不推及全面防御）：
+
+> 最后，启动说明正常生成，README和那20个测试文件一个都没动。

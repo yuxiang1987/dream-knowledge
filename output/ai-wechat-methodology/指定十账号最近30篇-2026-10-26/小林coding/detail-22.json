@@ -1,0 +1,12 @@
+{
+  "request_id": "ef0e7a58-c369-4492-b90d-596c41d75b8d",
+  "content": {
+    "title": "面试官笑问：“LangGraph 相比 LangChain 有什么优势？”，我：“LangChain 只能写线性 Chain，LangGraph 才支持分支、循环和 Agent”",
+    "user_name": "gh_fc46cf2353fc",
+    "nick_name": "小林coding",
+    "author": "小林哥",
+    "create_time": "2026-09-28 14:12"
+  },
+  "body_sha256": "28d7c8f1d8422bd2b48cae6d3172d4b7ee6b7ee1580fc94203849dda8fb85b5d",
+  "media_count": 7
+}

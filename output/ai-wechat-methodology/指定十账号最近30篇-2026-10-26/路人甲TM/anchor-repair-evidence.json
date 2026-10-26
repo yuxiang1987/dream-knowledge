@@ -1,0 +1,546 @@
+{
+  "model": "slow",
+  "task": "仅修复指定失效锚点，不重写分析正文",
+  "changed_ranks": [
+    14
+  ],
+  "slow_outputs": [
+    {
+      "articles": [
+        {
+          "rank": 14,
+          "anchors": [
+            {
+              "text": "我体验它时最想验证的是，现场信息能不能直接进入Agent的工作流程，让任务在会议结束后继续推进。",
+              "location": "正文开头产品用途介绍之后，作者提出评测的核心验证命题，支持本文关注线下信息能否进入Agent工作流并继续推进任务的判断。"
+            },
+            {
+              "text": "回到公司后，千问办公已经整理出会议结论和待办，也给我出了一个网页，也是非常有用。",
+              "location": "“更便捷的Agent入口”部分，会后任务案例的结果段，支持千问办公根据会议录音产出结论、待办和网页的作者亲测判断。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "validation_rule": "V(t)=html.unescape(re.sub(r'<[^>]+>','',t)); 每条text同时逐字连续存在于V(raw)及V(source)，每篇至少2条",
+  "account_article_count": 30,
+  "passed_count": 30,
+  "articles": [
+    {
+      "rank": 1,
+      "source_page": "wiki/sources/路人甲TM_Today个人助理实测.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "当我把我的一些记录交给它后，那些被我挂在脑后的琐事又一次被记起来了",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "以前是我追着信息跑，现在是它先帮我筛一遍，我做最后判断。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "source_page": "wiki/sources/路人甲TM_Fotor商用MG流程实测.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "脚本会先交给我确认，没问题之后再继续生成后面的配音、画面和动画。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "第一版背景颜色太深导致logo看不清，产品图太大，文字的排版也有些乱。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "source_page": "wiki/sources/路人甲TM_Lovart2.0设计协作实测.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "这些记忆不是我主动去存的，而是自己分析总结的。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "Arti只负责对我们的指令执行调整，审美、方案最终决定权依然在我们设计师手上。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "source_page": "wiki/sources/特斯拉飞行汽车资讯文章拆解.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "整套动作由预设程序远程完成，车内还摆了一台Optimus人形机器人。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "它仅限邀请购买，官网明确注明，尚未获准用于公共道路。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "source_page": "wiki/sources/WorkBuddy企微互通文章拆解.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "介绍归介绍，我们是骡子是马拉出来溜溜",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "之前散落在不同聊天记录里的提示词、测试用例、原始数据集链接，WorkBuddy都给我们整理出来了",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "source_page": "wiki/sources/OiiOii电商物料文章拆解.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "从头到尾，我只写了一句需求，回答了几个问题",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "我没告诉它具体的促销力度，所以每张图上的数字都是它自己编的",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "source_page": "wiki/sources/Vidu视频六场景文章拆解.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "切点和景别是我提前设计的，不是模型自己想出来的",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "这6条片子，每条从提交到出片大概3分钟，全部都是直接出的4K",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "source_page": "wiki/sources/WorkBuddy小程序教程文章拆解.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "而现在不到半个小时，我就已经打开了这个小程序，可以开始使用了",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "尽管它微信侧的手续一个没省，备案、隐私指引、审核额度都得自己走；类目得自己选对",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "source_page": "wiki/sources/WorkBuddy文件浏览器文章拆解.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "直接就可以修改文件内容，再也不用被各种各样的文件副本给整懵了。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "以后每天上午十点搜集、整理最新的AI热点资讯，更新这个表格",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "source_page": "wiki/sources/腾讯乐享知识治理文章拆解.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "接受的是未经整理的杂乱信息，输出的是难以验证的黑盒结果",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "问题从来不在模型好坏，而在先建好知识库再写。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "source_page": "wiki/sources/匿名兔子三模型横评文章拆解.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "每个任务都先从空文件夹开始，整个过程中我不手动改代码",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "但在部分细节上还需要人工检查",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "source_page": "wiki/sources/HyImage中秋场景文章拆解.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "它给的是一个很好的起点，不是能直接开拍的成品。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "再也不用自己去用专业的修图工具了。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "source_page": "wiki/sources/WorkBuddy报告到执行文章拆解.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "一个桌面智能体的核心价值需要体现在它是否能围绕一个目标",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "最终选择使用OCR工具渲染关键页的方式",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "source_page": "wiki/sources/QwenNote录音到任务文章拆解.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "我体验它时最想验证的是，现场信息能不能直接进入Agent的工作流程，让任务在会议结束后继续推进。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "回到公司后，千问办公已经整理出会议结论和待办，也给我出了一个网页，也是非常有用。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "source_page": "wiki/sources/美图设计室品牌营销文章拆解.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "先把品牌装进它的记忆里",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "大概等了5分钟，一条很有生活感的带货视频就出来了",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "source_page": "wiki/sources/Marvis电脑管家文章拆解.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "话不多说，我直接拿几个案例看看它到底能把一台电脑管到什么程度",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "查到这里，Marvis没有删缓存，也没有随手关掉登录项",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "source_page": "wiki/sources/MVLAND音乐叙事文章拆解.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "故事描述、运镜和人物动作都分开列好了",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "有问题的地方直接修改，不用等花了积分生成了再改",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "source_page": "wiki/sources/Jev快判断案例文章拆解.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "把许多独立的小判断批量交给模型",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "它使用和平难度、提前勘察过的固定路线",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "source_page": "wiki/sources/QoderSites在线应用文章拆解.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "分数不是写死在页面里的，是玩一局、写一条、大家读同一份",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "不是能做出来，而是「发出去之后还能继续改」",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "source_page": "wiki/sources/Vidu实时角色互动文章拆解.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "这些问题没有预设答案，需要角色结合自身背景理解问题",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "当然，我知道屏幕里的它并不是真的回来了",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "这个实时编辑功能的核心就是让角色保持一致，内容随着用户需求变化",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "source_page": "wiki/sources/Pixmax修仙短剧文章拆解.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "每个阶段的时间点、动作、光影变化都写死",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "六段的积分消耗一共1584积分",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "source_page": "wiki/sources/iPhoneDuo配件设计文章拆解.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "请直接开始建模，不用先写方案",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "这些目前都只是概念方案",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "source_page": "wiki/sources/元脑企业Agent管理文章拆解.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "真正被换掉的是后面那套模型、Token和权限的管理方式",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "谁发起的、Agent做了什么、调用了什么、有没有越权、出了问题能不能查回来",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "source_page": "wiki/sources/GPT-Image2.5草图生图文章拆解.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "我草图里每个东西待哪儿，它就真给放在哪儿",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "不过我怎么感觉Image2与Image2.5的差距不大呢",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "source_page": "wiki/sources/长视频导演Skill文章拆解.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "它不会马上开拍，而是先把人物、事件和空间整理成一份导演执行包",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "会影响前后连续性的东西提前定住，动作里的小细节交给模型发挥",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 26,
+      "source_page": "wiki/sources/UU远程Vibecoding文章拆解.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "手机到电脑，电脑到手机，两边都能接",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "模型最后做出来的是一个可以点击和操作的东西，能随时看到成品，发现问题以后马上改",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "source_page": "wiki/sources/豆包工作生活办公文章拆解.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "我干脆也照着这个思路，直接让它把攻略做成一个适合老年人查看的旅行指南网页",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "最后出来的效果谈不上惊艳，但拿去开会完全够用",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 28,
+      "source_page": "wiki/sources/GPT-6-Astra连测文章拆解.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "跑了一整天，六个人跑废了5个Plus账号和十几张重置卡",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "中间它会自己截图检查，觉得哪里不像，就继续改",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "source_page": "wiki/sources/Seko出海转绘文章拆解.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "后面所有东西都建立在这份拉片上，这里错了后面全歪。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "这套流程给的也是可投放的素材，不是成品。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "source_page": "wiki/sources/GPT-6-Astra演示汇总文章拆解.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "所以这篇文章暂时做不了实测",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "所以在自己真正用上以前，我不太想凭几段精心挑选的视频宣布谁赢了。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    }
+  ]
+}

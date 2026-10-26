@@ -1,0 +1,812 @@
+{
+  "model": "slow",
+  "task": "仅修复指定失效锚点，不重写分析正文",
+  "changed_ranks": [
+    6,
+    7,
+    9,
+    10,
+    20,
+    26,
+    27,
+    30
+  ],
+  "slow_outputs": [
+    {
+      "articles": [
+        {
+          "rank": 6,
+          "anchors": [
+            {
+              "text": "只需要全程跟 AI 聊天，确认效果、提提修改意见，就能把片子做出来。",
+              "location": "“动动嘴皮子，搞定英语教学动画”小节开头，支持第一种方法以聊天确认和修改完成教学短片、面向无剪辑基础用户的判断。"
+            },
+            {
+              "text": "大概十三分钟，本地草稿就创建好了。豆包工作先编写并运行 Python 脚本，生成剪映能打开的工程，把时间轴搭好。",
+              "location": "“把语文课拍成短片，跟着苏轼淋一场雨”小节后段，调用 Jianying Editor 完成初剪后，支持第二种方法会生成可在剪映中继续修改的本地工程，以及十三分钟仅指草稿创建的判断。"
+            }
+          ]
+        },
+        {
+          "rank": 7,
+          "anchors": [
+            {
+              "text": "现在AI工具这么好用了，做个漂亮角色已经不难，但想让人记住，还得有个性。",
+              "location": "“一个虚拟偶像，怎样让人记住”小节后段，支持文章将角色个性与反差感视为虚拟偶像辨识度核心的判断。"
+            },
+            {
+              "text": "把每一镜的起止动作写清楚。下一镜要接住上一镜的动作，别前面向右扑，后面突然换成向左飞了。",
+              "location": "“群猫对峙，把动作拆到能接得上”小节后段，支持通过拆分复杂动作并保持镜间动作方向连续来降低穿帮风险的判断。"
+            }
+          ]
+        },
+        {
+          "rank": 9,
+          "anchors": [
+            {
+              "text": "本地的 PPT、Excel 可以直接用豆包工作打开，交给 AI 修改，保存后的改动与本地是丝滑同步的。",
+              "location": "正文开头提出本地 Office 更新之处，支持豆包工作可直接打开并修改本地 PPT、Excel，且保存结果同步到本地文件的核心功能判断。"
+            },
+            {
+              "text": "比起让AI再做一份新的，我们更需要的，往往是把手头这份改好。",
+              "location": "“豆包工作，在解决什么问题”小节中段，支持文章核心价值在于继续修改已有文件、减少反复新建版本，而非单纯重新生成文件的判断。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "articles": [
+        {
+          "rank": 10,
+          "anchors": [
+            {
+              "text": "它能把剧本、资产和分镜交给不同的 Agent 协同处理，而我们创作者只需要在关键步骤进行选择和确认。",
+              "location": "正文开头介绍“超级导演一站式全自动流程”的段落；支持其以多 Agent 协同处理剧本、资产和分镜，但创作者仍需在关键步骤决策和确认的判断。"
+            },
+            {
+              "text": "我导入的 5 集剧本，被拆成了角色、场景、道具和特效四张表。角色在哪一集、哪一场出现，对应什么造型，都有记录得明明白白。",
+              "location": "“多集资产统一管理”小节中部；支持作者亲测前5集资产被分类拆解，并记录角色出场与造型信息的判断。"
+            }
+          ]
+        },
+        {
+          "rank": 20,
+          "anchors": [
+            {
+              "text": "拆分镜这里挺关键的，万兴剧厂有专门的分镜大师工作流，拆得是有专业的视听语言和背后的一套方法论的，视频提示词写得相对比较清晰，模型也能够比较好的理解，最后效果不错，基本上一个视频片段生成 1-2 次即可。",
+              "location": "“制片工坊中生成AI漫剧片段”小节后半；支持作者对分镜工作流、提示词效果及单个视频片段生成次数的亲测报告。"
+            },
+            {
+              "text": "还有一个要注意：它只是让站位、姿势和机位更可控，最后能不能完全还原，还是跟你选的模型和提示词有关。特别复杂的连续打斗，更建议先生成几张关键分镜图，再拿这些图去生成视频。",
+              "location": "“3D导演台”小节后半的使用边界说明；支持导演台只增强站位、姿势和机位可控性，最终还原仍受模型与提示词影响的限制判断。"
+            }
+          ]
+        },
+        {
+          "rank": 26,
+          "anchors": [
+            {
+              "text": "这次我们直接把手头的出海短剧剧本放了进去，从剧本开始一路做到成片，完整跑了一遍制作流程。最后一集做下来，大约用了3个小时。",
+              "location": "引出RunningHub RHSTORY实测的段落；支持作者团队以现有出海短剧剧本完整跑通剧本到成片流程，并报告单集约3小时的判断。"
+            },
+            {
+              "text": "我这一集实际上只做了少量微调，没有大面积重写。如果觉得某个镜头太长或者拆得不合理，也可以直接手动拆分、合并镜头。",
+              "location": "“2. 更智能的分镜交互”小节中部；支持该次实测仅少量调整，同时系统允许人工拆分或合并镜头的判断。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "articles": [
+        {
+          "rank": 27,
+          "anchors": [
+            {
+              "text": "还好我发现LibTV里面有个 片段重拍 的新功能，不然我这一次性生成30s，都得重新生成我得肉疼死，目前相对即梦的视频编辑功能会更加节省成本。",
+              "location": "正文中部“逐帧拉片”之后的返工段，支持作者用“片段重拍”处理局部口型问题、避免整条30秒重新生成的判断。"
+            },
+            {
+              "text": "这次我从三部电影里拆镜头，给苏轼、张怀民他们准备人物资产，再到生成以后修掉出问题的片段，最后把一堆素材重新混剪。LibTV 的 逐帧拉片、智能引用、片段重拍和素材混剪，刚好都插在这些最容易嫌麻烦的地方。",
+              "location": "正文后部“模型越强，后面的活越不能靠手搓”小节，支持全文按拉片、资产准备、局部返工和混剪串联LibTV工作流的总结判断。"
+            }
+          ]
+        },
+        {
+          "rank": 30,
+          "anchors": [
+            {
+              "text": "视频效果我没想到，居然没有一次性达到我的要求，前五秒他把我左右两边都变成一个角色了，如果我直接编辑视频要960积分。。",
+              "location": "案例03“两个武林高手，为最后一个插座打起来了”的结果段，支持角色重复这一明确失败及局部编辑成本较高的判断。"
+            },
+            {
+              "text": "之所以视频前几秒会这么卡，我上传的白模视频也是这样的，参考得还挺准的，所以我们找的参考视频一定要是相对质量高一点的，不然做出来的效果也很难好。",
+              "location": "案例07“白模视频参考”的结果段，支持模型会继承参考视频缺陷、因此输入素材需要预先质检的判断。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "validation_rule": "V(t)=html.unescape(re.sub(r'<[^>]+>','',t)); 每条text同时逐字连续存在于V(raw)及V(source)，每篇至少2条",
+  "account_article_count": 30,
+  "passed_count": 30,
+  "articles": [
+    {
+      "rank": 1,
+      "source_page": "wiki/sources/西羊石：Kimi K3.1 Pro 3D实测.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "分数高，能不能把我们要的东西做好，还得看作品。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "这组都不是一遍过。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "我们这次没有用 CAD 或实物尺寸校准，镜头和铰链也做了简化。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "不是直接输入一句话就生成视频。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "source_page": "wiki/sources/西羊石：豆包工作个人知识库.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "下面从一个空文件夹开始，带大家搭一遍。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "本次先不修改知识页和原始资料，等我确认。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "未经验证的建议不要写成实测经验。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "资料会过时，AI 也可能理解错。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "source_page": "wiki/sources/西羊石：Fotor Agent代码MG成片.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "我觉得一些人形和圆弧还不够好，就接着让它去优化了。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "视频只有能持续迭代加工，才真正有交付价值。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "这个视频我从前期规划到后期调整，差不多一个多小时",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "注意是Fotor Agent国内版，直接网页搜索就能使用上。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "source_page": "wiki/sources/西羊石：豆包创作画布实测.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "AI可以做文章来源整理和排版，但是客观事实和自己的意思，还是得过一遍。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "保留产品外观，不编价格、优惠和参数。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "标题改对了，不过书页和镜头里的反光也有一点变化",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "至于书读完想通了什么、几版设计选哪一张，依然需要我们去判断。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "source_page": "wiki/sources/西羊石：WorkBuddy调用TapNow.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "给谁看，拿去哪里用，必须保留什么，最后要什么文件。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "原片生成完，我们人工还得挑选和剪辑，这两步省不了。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "后期清理了角落小字。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "WorkBuddy的对话消耗和TapNow的积分是两回事",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "source_page": "wiki/sources/西羊石：豆包教学片双流程.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "只需要全程跟 AI 聊天，确认效果、提提修改意见，就能把片子做出来。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "大概十三分钟，本地草稿就创建好了。豆包工作先编写并运行 Python 脚本，生成剪映能打开的工程，把时间轴搭好。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "source_page": "wiki/sources/西羊石：吴爱花武侠猫二创.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "现在AI工具这么好用了，做个漂亮角色已经不难，但想让人记住，还得有个性。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "把每一镜的起止动作写清楚。下一镜要接住上一镜的动作，别前面向右扑，后面突然换成向左飞了。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "source_page": "wiki/sources/西羊石：LibTV短剧五功能实测.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "这些功能刚好完美适配短剧制作的全流程。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "右边遇到不满意的，直接鼠标滑动文字，输入指令，就可以指哪改哪了。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "初版资产图，尤其是角色图，绝对有很多要调整的地方。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "把你想要做的效果用一两句话描述出来，尤其是那些运镜，不需要说得太专业，但要精准。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "source_page": "wiki/sources/西羊石：豆包打通本地Office.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "本地的 PPT、Excel 可以直接用豆包工作打开，交给 AI 修改，保存后的改动与本地是丝滑同步的。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "比起让AI再做一份新的，我们更需要的，往往是把手头这份改好。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "source_page": "wiki/sources/西羊石：momoLab短剧一站式.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "它能把剧本、资产和分镜交给不同的 Agent 协同处理，而我们创作者只需要在关键步骤进行选择和确认。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "我导入的 5 集剧本，被拆成了角色、场景、道具和特效四张表。角色在哪一集、哪一场出现，对应什么造型，都有记录得明明白白。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "source_page": "wiki/sources/西羊石：Pixmax短剧全流程降试错.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "想法 → 剧本 → 风格测试 → 人物 / 场景 / 道具资产 → 视频生成 → 剪辑成片",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "单次生成便宜一些，确实能多留出一点尝试空间",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "如果镜头需要在空间里明显前进、后退或横向移动，仍然要单独检查透视和物体之间的遮挡关系，确认空间是否连贯。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "这样就不用为了改一个镜头反复抽卡，省下不少时间和积分。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "source_page": "wiki/sources/西羊石：巨日禄剧本直出短剧实测.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "我只在关键地方拿拿主意，就能把整集做出来？",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "资产环节是最需要发挥人类的审美和创造力的环节。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "虽然依然有一些穿帮镜头，但镜头组接更合理",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "一个镜头该留下还是重做，人物的情绪有没有到位，哪里需要多停一秒，这些选择里都有创作者自己的理解。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "source_page": "wiki/sources/西羊石：零基础AI短片完整流程.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "题材会变，模型会变，但这套流程基本不会变。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "剧情逻辑顺不顺、画面能不能生成、台词像不像人话",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "资产设计：整个流程最花时间的一步",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "第一条不必追求完美，把流程完整跑通，比什么都重要。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "source_page": "wiki/sources/西羊石：GPT Images 2.5玩法测评.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "角色一致性到底有没有变得更好？",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "虽然局部纹理还是能看到变化，但这组没有出现越改越跑偏的明显问题。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "中途遇到任务失败，也可以让它接着完成剩下的部分。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "个人感受是整体差距没有特别大。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "source_page": "wiki/sources/西羊石：GPT-6 Astra四类实用工作.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "最后别只收一张 PNG。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "一开始我只说美化，它给我改得更朴素了。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "网页版花了约半小时给我做好了",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "目标、参考、约束、交付标准，说明白就够了。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "source_page": "wiki/sources/西羊石：LibTV深度动作捕捉实测.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "替身是我，道具是一把拖把，片场是公司走廊。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "素材越短，任务越明确，一次只改一个变量，通常比一口气堆满参考更省积分。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "折腾完这一万多积分，我还是没有答案。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "source_page": "wiki/sources/西羊石：Lovart品牌视觉全案.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "我没有先写 Prompt，而是先找灵感",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "参考选错了，Prompt 写再长也救不回来。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "少研究 AI，多专注设计。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "source_page": "wiki/sources/西羊石：豆包Agent一人公司.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "有个周日，我人还躺在床上，临时要找几个 AI 选题。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "遇到需要登录、来源不明或暂时无法确认的内容，标记 “待核验”，不要猜。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "人负责目标、判断和审美，豆包把那些重复、琐碎、耗时间的过程往前推。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "source_page": "wiki/sources/西羊石：Seedance Fast量产对比.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "每可用秒成本 = 总生成费用 ÷ 最终可用视频秒数",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "三组案例看下来，我判断模型时会先看整段能不能用，再看某一帧够不够漂亮。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "谁能用更少的时间和钱，稳定产出更多能交付的镜头，谁就更值得留在生产线上。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "source_page": "wiki/sources/西羊石：万兴剧厂机甲短剧.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "拆分镜这里挺关键的，万兴剧厂有专门的分镜大师工作流，拆得是有专业的视听语言和背后的一套方法论的，视频提示词写得相对比较清晰，模型也能够比较好的理解，最后效果不错，基本上一个视频片段生成 1-2 次即可。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "还有一个要注意：它只是让站位、姿势和机位更可控，最后能不能完全还原，还是跟你选的模型和提示词有关。特别复杂的连续打斗，更建议先生成几张关键分镜图，再拿这些图去生成视频。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "source_page": "wiki/sources/西羊石：MiniMax H3性价比实测.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "其实这两条呈现的案例也都是我剪辑过的，每个模型各抽了两次，剪辑拼凑在一起的。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "模型只能决定你手里的工具有多锋利，最后这一刀往哪里落，还是看人。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "10秒的 Seedance 2.5 720P大约需要",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "source_page": "wiki/sources/西羊石：AI虚拟博主三赛道实操.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "这几条视频里，旅行没有真的去，房子也不存在，穿搭同样没有重新实拍。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "不过我最终也发现有个问题，如果我们要生成的视频比参考视频长，我们长的部分的画面就容易静止",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "爆不爆不知道，先做了再说。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "source_page": "wiki/sources/西羊石：DeepSeek Harness零基础实测.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "Agent = Model + Harness",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "这次达到99%只代表当前任务。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "别一上来把整个桌面交给它。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "source_page": "wiki/sources/西羊石：云上仙宫多模型复刻.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "平均一条要花 4 到 5 个小时。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "总之结果我不是很满意，过渡不是很自然，最后效果比单个生成的差很多。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "中间瀑布和海鸥的动效还行，但是整个过程中云没动。。。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "source_page": "wiki/sources/西羊石：Flova短剧生产线复用.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "能批量生成，不代表能稳定生产。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "基本上调整一两次就能够接着往下操作。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "注：文中展示的图片与视频结果，均基于 AI 工具生成，并结合人工判断完成，仅代表个人实际使用体验。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 26,
+      "source_page": "wiki/sources/西羊石：RHSTORY短剧流水线实测.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "这次我们直接把手头的出海短剧剧本放了进去，从剧本开始一路做到成片，完整跑了一遍制作流程。最后一集做下来，大约用了3个小时。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "我这一集实际上只做了少量微调，没有大面积重写。如果觉得某个镜头太长或者拆得不合理，也可以直接手动拆分、合并镜头。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "source_page": "wiki/sources/西羊石：苏轼Vlog与LibTV功能串测.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "还好我发现LibTV里面有个 片段重拍 的新功能，不然我这一次性生成30s，都得重新生成我得肉疼死，目前相对即梦的视频编辑功能会更加节省成本。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "这次我从三部电影里拆镜头，给苏轼、张怀民他们准备人物资产，再到生成以后修掉出问题的片段，最后把一堆素材重新混剪。LibTV 的 逐帧拉片、智能引用、片段重拍和素材混剪，刚好都插在这些最容易嫌麻烦的地方。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 28,
+      "source_page": "wiki/sources/西羊石：AI明星从角色到商单.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "AI 可以很快生成一段生活。创作者得先认真生活过，才知道哪些细节值得留下。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "一张脸可以非常便宜。让观众记住她、相信她，愿意继续看她生活，才是最有价值的部分。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "技术可以做出一张面孔。一个角色最后能不能活下来，还要看人愿意给她怎样的命运。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "source_page": "wiki/sources/西羊石：Seko 3.0重做爷爷短片.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "AI技术可以把画面做得很真，真正让人难受的，还是生活里那些已经来不及补上的遗憾。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "生成视频，我建议大家先生成1个或者5个看看，没问题再接着往后生成，不然也容易浪费很多积分。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "Skill 可以给我一套更成熟的起手式，记忆里的话和真实情感经历还是得由我自己写。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "source_page": "wiki/sources/西羊石：Seedance 2.5多案例压力测试.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "视频效果我没想到，居然没有一次性达到我的要求，前五秒他把我左右两边都变成一个角色了，如果我直接编辑视频要960积分。。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "之所以视频前几秒会这么卡，我上传的白模视频也是这样的，参考得还挺准的，所以我们找的参考视频一定要是相对质量高一点的，不然做出来的效果也很难好。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    }
+  ]
+}

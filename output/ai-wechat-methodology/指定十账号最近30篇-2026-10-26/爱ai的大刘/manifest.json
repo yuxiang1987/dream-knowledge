@@ -1,0 +1,879 @@
+{
+  "requested_name": "爱AI的大刘",
+  "resolved_name": "爱ai的大刘",
+  "username": "gh_9ad752c0e9df",
+  "alias": "HL-Storming",
+  "requested_count": 30,
+  "acquired_at": "2026-10-26T02:57:30.912871+00:00",
+  "article_list_request_ids": [
+    "240d72bd-81ca-42c3-9412-d9531987bf2d",
+    "9f75ac22-2670-43d4-b123-dd6fd174d127",
+    "7705fee1-0a3e-4329-a6c5-14c383bb33a6",
+    "29507702-e64e-4948-adc5-4c4deca9adb5"
+  ],
+  "list_complete": true,
+  "articles": [
+    {
+      "rank": 1,
+      "id": "2247487432:1",
+      "title": "国产 Personal AI，治好了我的 AI 注意力缺陷症。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247487432&idx=1&sn=fe8cc233f71dce8931441878d40c1109",
+      "published": "2026-10-23 16:04",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/国产 Personal AI，治好了我的 AI 注意力缺陷症。-942a3a93-0e2e124de9.md",
+      "raw_sha256": "810155b515fd681cf7155a9d1309a62a35612904e5edb2b2dec5b2105ded6d94",
+      "source_page": "wiki/sources/大刘用Today AI管理碎片注意力.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "4c41e401-ac92-40d1-8a5a-574aac0d92f0",
+      "anchors": [
+        {
+          "text": "该处理的时候，事情已经整理到眼前；暂时离开的时候，不必担心忘记那些重要的事。",
+          "location": "结尾使用变化总结段；raw第13行"
+        },
+        {
+          "text": "设置好之后，他就会在工作的时间，在手机锁屏上提醒我，我需要做什么。",
+          "location": "主动提醒设置后；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-01-03.json"
+    },
+    {
+      "rank": 2,
+      "id": "2247487404:1",
+      "title": "最系统 WorkBuddy 工作台教程，手把手带你搭出完美适配自己的工作台（附完整提示词）。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247487404&idx=1&sn=d52c1f98323731577bf0756d21f4a00f",
+      "published": "2026-10-22 14:15",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/最系统 WorkBuddy 工作台教程，手把手带你搭出完美适配自己的工作台（附完整提示词）。-7658baa5-2c0daf56a3.md",
+      "raw_sha256": "f8344b1aa0577d4f88d3e174b64ca6b7e3384a2052bd62e2f17419d857ae7d49",
+      "source_page": "wiki/sources/大刘搭建WorkBuddy自媒体工作台.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "8e758c7a-8625-49bd-811f-14f07ff5011d",
+      "anchors": [
+        {
+          "text": "数据必须输入即保存到localStorage，关闭页面后仍在；",
+          "location": "第三节整合提示词；raw第13行"
+        },
+        {
+          "text": "用你自己的话重述你认为我的目标是什么，以及我试图解决的问题是什么。",
+          "location": "需求挖掘提示词；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-01-03.json"
+    },
+    {
+      "rank": 3,
+      "id": "2247487375:1",
+      "title": "实测 OiiOii，复刻电商爆款视频终于有了最简单的方式。（附Skill方法论）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247487375&idx=1&sn=546bb9137788355e337b46e20be7c62c",
+      "published": "2026-10-14 14:25",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/实测 OiiOii，复刻电商爆款视频终于有了最简单的方式。（附Skill方法论）-813451c8-5cb033f3f9.md",
+      "raw_sha256": "077cb5c57a419c2125fd8e67f43f5437a3ea160caa51b2c1698da39c1abf24f9",
+      "source_page": "wiki/sources/大刘实测OiiOii复刻电商视频.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "1a8c15ad-5eca-4f10-87bb-9c77771c2250",
+      "anchors": [
+        {
+          "text": "好的视频 = 产品图（输入）+ 创意/脚本/分镜（输入）+ 顶尖模型（输出）",
+          "location": "开头方法公式段；raw第13行"
+        },
+        {
+          "text": "等了大概一两分钟，会直接产出一张完整的拉片分析表格。",
+          "location": "第二部分爆款复刻案例；raw第13行"
+        },
+        {
+          "text": "当然我也建议大家，在使用过程中，好好看一看生成的脚本和分镜。",
+          "location": "结尾方法总结段；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-01-03.json"
+    },
+    {
+      "rank": 4,
+      "id": "2247487305:1",
+      "title": "神秘玉兔模型炸榜，Deepseek V4.1 Flash的对手出现了。（附免费调用方法）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247487305&idx=1&sn=61ec96b9d7ca0d70839a5550d5a6bcf0",
+      "published": "2026-09-30 16:04",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/神秘玉兔模型炸榜，Deepseek V4.1 Flash的对手出现了。（附免费调用方法）-f0a0e9ef-208b58cc56.md",
+      "raw_sha256": "0cec58dd4e77ed41656649f475f8a643d0ea317ccc754f24f2eaf3b5f87cc5b3",
+      "source_page": "wiki/sources/大刘实测免费玉兔模型.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "e593bc75-6546-47b8-a10e-eb6814abb50d",
+      "anchors": [
+        {
+          "text": "不过这些不重要，最重要的还是，现在免费！用 Opencode 或者 Openrouter 调用的方式都是。",
+          "location": "模型介绍后的接入过渡段；raw第13行"
+        },
+        {
+          "text": "虽然看仔细一点，可能存在有些内容不全的情况。",
+          "location": "CASE 4：长程研究性任务结果段；raw第13行"
+        },
+        {
+          "text": "不过现在还是处在免费预览阶段，后续还得等厂商认领，再看看价格了。",
+          "location": "案例总结后的限制说明；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-04-06.json"
+    },
+    {
+      "rank": 5,
+      "id": "2247487281:1",
+      "title": "WorkBuddy 可以直接复制的简单设置，立刻让你的 WorkBuddy 比别人聪明百倍。（附提示词）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247487281&idx=1&sn=698a50c0a3f8214cced4f03396007a33",
+      "published": "2026-09-28 15:17",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/WorkBuddy 可以直接复制的简单设置，立刻让你的 WorkBuddy 比别人聪明百倍。（附提示词）-b640c0a8-a5dcfe7bef.md",
+      "raw_sha256": "9107327ac1a59c1aa052d74984d1bb981908d71d9b5d1ff6b34a0ca1df3047b4",
+      "source_page": "wiki/sources/大刘WorkBuddy设置文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "e5b61d15-7f44-454c-8e71-a28eaa329d0e",
+      "anchors": [
+        {
+          "text": "本质都一样，就是一份纯文本，Agent 每次干活前先读一遍，照着做。",
+          "location": "二. 自定义指令开头；raw第13行"
+        },
+        {
+          "text": "绝大多数场景下开到 1M 也不会变聪明。",
+          "location": "三. 模型档位和上下文；raw第13行"
+        },
+        {
+          "text": "我就默认关着。。。。",
+          "location": "四. 记忆，生成对话记忆部分；raw第13行"
+        },
+        {
+          "text": "这样配合起来，我觉得应该是用 WorkBuddy 兼具效率和安全的搭配。",
+          "location": "五. 权限、删除保护和备份结尾；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-04-06.json"
+    },
+    {
+      "rank": 6,
+      "id": "2247487261:1",
+      "title": "分享我的全自动自媒体视频生成剪辑Skill，豆包 Seed-2.1-pro 这次有点强。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247487261&idx=1&sn=6413573c1a551e5073b16256fc06e2a2",
+      "published": "2026-09-20 14:37",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/分享我的全自动自媒体视频生成剪辑Skill，豆包 Seed-2.1-pro 这次有点强。-b9137637-20cc9faae2.md",
+      "raw_sha256": "40047af5c5b8bd1c9707b491d7f0655d21fc492fc9fcb0923b9c654dfbe465c5",
+      "source_page": "wiki/sources/大刘的全自动视频Skill.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "8ae74c73-c5e3-45ca-b192-e10cc5d4692c",
+      "anchors": [
+        {
+          "text": "其中包含七个 Skill：",
+          "location": "Nolan 系统组成段；raw第13行"
+        },
+        {
+          "text": "我在这个流程里，用 Seed-2.1-pro 进行了大约 50 个爆款视频的拆解。",
+          "location": "流程一：解析对标博主的视频逻辑结尾；raw第13行"
+        },
+        {
+          "text": "我到底想讲什么，哪些信息值得观众花时间看，仍然得自己想清楚。",
+          "location": "结尾创作观点段；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-04-06.json"
+    },
+    {
+      "rank": 7,
+      "id": "2247487166:1",
+      "title": "这个开源免费 Agent 记忆系统太强了，让你的 AI 聪明又省 Token（附接入教程）。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247487166&idx=1&sn=2538eedd99df27c4c51798df60c6445c",
+      "published": "2026-09-17 17:35",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/这个开源免费 Agent 记忆系统太强了，让你的 AI 聪明又省 Token（附接入教程）。-c91114a5-cdeb8a0d71.md",
+      "raw_sha256": "c09a5b72eb3e6960af8113d38ab6f98752c27b862cdc495458b1c30a426ae99b",
+      "source_page": "wiki/sources/大刘用MemOS给Agent接上跨会话记忆.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "02ac4967-2256-4d93-902f-05a8fd1bdd70",
+      "anchors": [
+        {
+          "text": "接入记忆后，Agent可以在回答前查相关记忆，把适用内容带进当前任务，回答结束后再写入新的问答。",
+          "location": "一、先给正在用的Agent接上记忆／记忆逻辑段；raw第13行"
+        },
+        {
+          "text": "记忆更新后，旧PPT文件不会自己改变，要让Agent重新修改或制作。",
+          "location": "四、要求变了，也要让记忆跟着变／注意事项；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-07-09.json"
+    },
+    {
+      "rank": 8,
+      "id": "2247487080:1",
+      "title": "从0到1带你速通WorkBuddy + 腾讯文档AI工作台 ，开启 Office 办公新范式。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247487080&idx=1&sn=df6c7a494f0d5ced54d9e01af68b8688",
+      "published": "2026-09-15 14:27",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/从0到1带你速通WorkBuddy + 腾讯文档AI工作台 ，开启 Office 办公新范式。-5910a074-39f2136a7f.md",
+      "raw_sha256": "1aca0b9623329c94d8add5a3ffaf936cd927516013e01199c399fb54824cd2dc",
+      "source_page": "wiki/sources/大刘实操WorkBuddy与腾讯文档AI工作台.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "6286bc31-e8c6-438c-ac67-143beac311aa",
+      "anchors": [
+        {
+          "text": "指令一定要带边界。",
+          "location": "四、人机双写，选中哪里就改哪里／修改提醒；raw第13行"
+        },
+        {
+          "text": "发出去的是这份文件本身，不是它的一个副本。",
+          "location": "六、Agent 与 Agent 之间的协作／分享说明；raw第13行"
+        },
+        {
+          "text": "人改一轮，AI接一轮，来回滚。",
+          "location": "四、人机双写，选中哪里就改哪里／人机双写定义；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-07-09.json"
+    },
+    {
+      "rank": 9,
+      "id": "2247487028:1",
+      "title": "ima+WorkBuddy最系统教程，手把手教你搭建「自进化」第二大脑（附 PDF 和实操资料包）。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247487028&idx=1&sn=196506f059905c688e115671d60adb41",
+      "published": "2026-09-14 14:27",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/ima+WorkBuddy最系统教程，手把手教你搭建「自进化」第二大脑（附 PDF 和实操资料包）。-b66bfc57-542c3fb829.md",
+      "raw_sha256": "b66ae4c512446c0af41b90872832f7ddecf06b397e743f06d625031776bdec04",
+      "source_page": "wiki/sources/大刘搭建ima与WorkBuddy自进化第二大脑.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "a6b3d0b5-e004-4683-9266-1a4d30addafb",
+      "anchors": [
+        {
+          "text": "说白了就四个步骤：粗存、检索、使用、精存。",
+          "location": "02 说清楚这套东西到底在干嘛／方法总纲；raw第13行"
+        },
+        {
+          "text": "AI 原封不动吐出来的那一版，存进「精华」就白存了，下次你读到的还是它的理解，不是你的。",
+          "location": "03 跑通第一个闭环／闭环步骤4精存；raw第13行"
+        },
+        {
+          "text": "记录里的数字、项目名和时间照搬，不要自己估算。",
+          "location": "04 高级用法／工作场景周报提示词；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-07-09.json"
+    },
+    {
+      "rank": 10,
+      "id": "2247486882:1",
+      "title": "保姆级WorkBuddy+飞书教程，手把手带你搭建全自动工作流（附完整PDF）。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247486882&idx=1&sn=703b4e9cd0be199d124719eacb7df010",
+      "published": "2026-09-09 17:04",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/保姆级WorkBuddy+飞书教程，手把手带你搭建全自动工作流（附完整PDF）。-82758c58-47ceab9288.md",
+      "raw_sha256": "8859f713229a1749521a31ef41d861a4c30a77930bc01c736667aec87714a584",
+      "source_page": "wiki/sources/大刘WorkBuddy飞书工作流文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "e3476db6-1352-44b9-afc7-5ed8b964b7d2",
+      "anchors": [
+        {
+          "text": "先把权限列表从头到尾看一遍。",
+          "location": "一、Workbuddy接入飞书／授权步骤；raw第13行"
+        },
+        {
+          "text": "一个项目对应一个文件夹，这一条你听我的就行。",
+          "location": "二、接完之后，先改下配置／工作空间；raw第13行"
+        },
+        {
+          "text": "每次我给到你一个视频链接的时候，都自动完成；",
+          "location": "实操三、全自动自媒体爆款管理／整套流程构建为一个Skill；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-10-12.json"
+    },
+    {
+      "rank": 11,
+      "id": "2247486797:1",
+      "title": "GPT-6 Astra 超省 Token 教程，强烈建议你用之前配置好（附详细步骤提示词）。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247486797&idx=1&sn=285f258fba65334f00b4c889f0df010e",
+      "published": "2026-09-07 14:22",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/GPT-6 Astra 超省 Token 教程，强烈建议你用之前配置好（附详细步骤提示词）。-c10c28c4-a0e9f5a3bb.md",
+      "raw_sha256": "fed4c1fd2a94358ca50371a72919758b2e84473eeb150993625cbdae6dfeaf07",
+      "source_page": "wiki/sources/大刘配置Astra省Token.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "d05f5740-2853-4f89-b002-fac72d001a7f",
+      "anchors": [
+        {
+          "text": "使用体感上 Token 节约 50% ！",
+          "location": "开头首段；raw第13行"
+        },
+        {
+          "text": "Token消耗估计又降低三分之一（体感估计）。",
+          "location": "二、上下文管理技巧／配置完成后；raw第13行"
+        },
+        {
+          "text": "本轮只做审查并提交报告，不修改任何文件。",
+          "location": "四、Skills／审查提示词；raw第13行"
+        },
+        {
+          "text": "过去一年我们为了管住弱模型写的那些指令、Skills，Astra 读了反而阻碍效果。",
+          "location": "四、Skills／核心理解；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-10-12.json"
+    },
+    {
+      "rank": 12,
+      "id": "2247486773:1",
+      "title": "从零开始，手把手教你做出0 AI味高级感网站（附完整PDF）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247486773&idx=1&sn=f083049813aeb6f37a552923e249aba3",
+      "published": "2026-08-31 17:24",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/从零开始，手把手教你做出0 AI味高级感网站（附完整PDF）-3ea0c14c-19d0ddf9ea.md",
+      "raw_sha256": "9c2ca1951e0ba69b921c74c684cd72d9daf07aa7f62c27f217a3542b465c0672",
+      "source_page": "wiki/sources/大刘做零AI味高级网站.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "55114668-ecf3-448b-8e66-9865b73f0502",
+      "anchors": [
+        {
+          "text": "做到这里，Agent 拿到的是一份能照着做的说明，不是一句「做个高级工作台」。",
+          "location": "三、关键信息补充／需求模板后；raw第13行"
+        },
+        {
+          "text": "经过一些微调之后，这个网站的效果是这样。",
+          "location": "四、让 Lovart 设计 Agent 生成／结果展示前；raw第13行"
+        },
+        {
+          "text": "打开 www.lovart.art，从采集一个灵感开始。",
+          "location": "结尾行动号召；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-10-12.json"
+    },
+    {
+      "rank": 13,
+      "id": "2247486720:1",
+      "title": "实测Qwen3.8-Flash，新一代AI价格斩杀线。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247486720&idx=1&sn=98aeea69be47f790e1d9478c05f33187",
+      "published": "2026-08-28 14:29",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/实测Qwen3.8-Flash，新一代AI价格斩杀线。-34ea9dc2-f5f0a4ae98.md",
+      "raw_sha256": "67d2949c9dfdf58df396090cdd0e77ebea756cce4f07c2df25765f3509aac8bf",
+      "source_page": "wiki/sources/大刘实测千问Flash复刻网站.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "d40f44fc-f048-4746-9e05-ad1d50cb0d70",
+      "anchors": [
+        {
+          "text": "跑的时候我其实就关注三件事。一是快不快，二是交互还在不在，三是代码能不能当模板。",
+          "location": "Cursor首页复刻实测段；raw第13行"
+        },
+        {
+          "text": "准确。所有的设计都是组件化的，然后所有的样式都是统一在了global.css中了。",
+          "location": "网站复刻后代码检查；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-13-15.json"
+    },
+    {
+      "rank": 14,
+      "id": "2247486679:1",
+      "title": "DeepSeek Harness 系统教程：Agent、Harness、插件、应用、生态",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247486679&idx=1&sn=ade20cd99b8b346fb305a0e55c880a40",
+      "published": "2026-08-27 14:20",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/DeepSeek Harness 系统教程：Agent、Harness、插件、应用、生态-7eeb0f02-204817ea2d.md",
+      "raw_sha256": "72445651104c17ffe1985b1f07def21f9d86f119f75d3fa6106b922a94e71965",
+      "source_page": "wiki/sources/大刘讲透DeepSeek Harness.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "5dbc2455-b568-46a7-a09b-92da2af4cb91",
+      "anchors": [
+        {
+          "text": "大模型负责想。Harness 负责干。拼在一起，就叫 Agent。",
+          "location": "第一节概念解释结尾；raw第13行"
+        },
+        {
+          "text": "Workspace Write 限制的是写，不是看。实际上它可以看到工作区外的文件。",
+          "location": "第四节权限设置；raw第13行"
+        },
+        {
+          "text": "插件不是装饰。插件是零件。Agent 产品第一次有了供应链。",
+          "location": "第六节插件生态观点；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-13-15.json"
+    },
+    {
+      "rank": 15,
+      "id": "2247486629:1",
+      "title": "安装 WorkBuddy 后我觉得必装的 Skills，附实操资料包分享。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247486629&idx=1&sn=81602a8608a86acf372d789c0bdb053f",
+      "published": "2026-08-17 14:36",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/安装 WorkBuddy 后我觉得必装的 Skills，附实操资料包分享。-c103c803-a94444896c.md",
+      "raw_sha256": "15ecd5851493a9b3e4827460b3e95878401c2c2b62f34804aa1d585f48009e31",
+      "source_page": "wiki/sources/大刘推荐WorkBuddy必装Skills.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "0335599b-83e0-4243-bc3b-85c0d129419c",
+      "anchors": [
+        {
+          "text": "数字必须来自底稿，估计或还没对上的标成不确定，不要写成已经完成的事实。",
+          "location": "work-report-pro推荐段；raw第13行"
+        },
+        {
+          "text": "请到技能市场 / SkillHub，帮我安装下面这些 skill。已经装过的跳过，不要重复装。",
+          "location": "批量安装提示词段；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-13-15.json"
+    },
+    {
+      "rank": 16,
+      "id": "2247486584:1",
+      "title": "用 WorkBuddy/Claude/Codex + Obsidian，搭建自生长自学习个人知识库。（附PDF教程）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247486584&idx=1&sn=9c9b32d9aecc9c985a9cc6aff9c530d1",
+      "published": "2026-08-04 14:55",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/用 WorkBuddy_Claude_Codex + Obsidian，搭建自生长自学习个人知识库。（附PDF教程）-31d19135-6e57deaa1e.md",
+      "raw_sha256": "72b9fe1d60e4451a27af0239020c92852f4ab02638aee2b52127449c4086ebe1",
+      "source_page": "wiki/sources/大刘搭建自生长个人知识库.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "917f5f70-7ed9-4450-878e-c70d98bf7f8b",
+      "anchors": [
+        {
+          "text": "我第一次把 raw/ 填进了「保管库」，结果怎么剪都进不去。",
+          "location": "第一步：存资料；raw第13行"
+        },
+        {
+          "text": "发现问题先列给我看，我确认了再改，改完记进 log.md。",
+          "location": "第四步：检查；raw第13行"
+        },
+        {
+          "text": "存下来的，不等于是你的。能随时被你调出来、连得成网、用得上的，才是你的。",
+          "location": "结尾；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-16-18.json"
+    },
+    {
+      "rank": 17,
+      "id": "2247486427:1",
+      "title": "刚刚上线的 MiniMax H3，想让所有人都用得起 Seedance 级的 AI 视频。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247486427&idx=1&sn=1655450e8110a2716813e362838fc44f",
+      "published": "2026-08-01 17:23",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/刚刚上线的 MiniMax H3，想让所有人都用得起 Seedance 级的 AI 视频。-1fc1585a-61dc8863c6.md",
+      "raw_sha256": "9111decc33c2c7b800d096fa63c3af461a0d8c5e7e4dbdb9a9344efb0cc8d6fc",
+      "source_page": "wiki/sources/大刘实测 MiniMax H3 视频模型.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "8ef12387-d819-4433-a40b-c95b460402f5",
+      "anchors": [
+        {
+          "text": "我自己实测了几百块钱，跑完之后我最直接的感受是：它是我用过的第一个，让我这种不会 AE、不会达芬奇、连剪映模板都套不明白的人，也能一次性做出能直接发出去的东西的模型。",
+          "location": "开头实测总评；raw第13行"
+        },
+        {
+          "text": "只有在一些很细节，小的文字会出现乱码，但是无伤大雅。",
+          "location": "中文文字表现的局限；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-16-18.json"
+    },
+    {
+      "rank": 18,
+      "id": "2247486263:1",
+      "title": "开源「用 AI 10倍速学习任何知识」.SKILL，我用 Qwen3.8 做出来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247486263&idx=1&sn=08975fa5113015ef56d7fa4453724ed6",
+      "published": "2026-07-22 21:25",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/开源「用 AI 10倍速学习任何知识」.SKILL，我用 Qwen3.8 做出来了-28aa349c-8161cd3125.md",
+      "raw_sha256": "9263cabdf0dc69ca11f9026529ecffe9d46677fd6e031063f622619e1abb40c1",
+      "source_page": "wiki/sources/大刘用 Qwen 制作十倍速学习 Skill.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "c92ba1fd-e4ba-4980-be57-c8bafbcfe3a3",
+      "anchors": [
+        {
+          "text": "做 skill 甚至是说做任何任务，和 AI 一起明确需求永远是第一步。",
+          "location": "学习 Skill 需求澄清阶段；raw第13行"
+        },
+        {
+          "text": "文章负责做唯一的信息源，Skill 主文件负责触发条件和总流程，参考文件承接各阶段的执行细则，HTML 部分则单独写清信息结构、交互和审美要求。",
+          "location": "学习 Skill 架构说明；raw第13行"
+        },
+        {
+          "text": "8 万字，180 页的超长 word 文档，过程中智能体接管的上下文，远超 1M Token，但是 Qwen 3.8 也稳稳的完成了。",
+          "location": "任务二：超长文档生成；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-16-18.json"
+    },
+    {
+      "rank": 19,
+      "id": "2247486183:1",
+      "title": "用 Claude/Codex/Workbuddy 10倍速学习任何知识（附完整方法）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247486183&idx=1&sn=1a6959d34da3d40f601090360b15df12",
+      "published": "2026-07-17 14:43",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/用 Claude_Codex_Workbuddy 10倍速学习任何知识（附完整方法）-db5ab4ef-3a8d29690b.md",
+      "raw_sha256": "181921a84ef9cfbf0812422037870e57b6761eef2f6fcce680dd2ca72d7a849f",
+      "source_page": "wiki/sources/大刘的AI十步学习闭环.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "82fb56ba-3923-453e-bdc7-d94fec6a058d",
+      "anchors": [
+        {
+          "text": "一共十步，每步一段提示词，按顺序执行。",
+          "location": "进入十步教程前；raw第13行"
+        },
+        {
+          "text": "在我讲清楚之前，别进入新内容。",
+          "location": "第9步·费曼循环提示词；raw第13行"
+        },
+        {
+          "text": "晚的只有一种：一直收藏，一直不开始。",
+          "location": "结尾行动倡议；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-19-21.json"
+    },
+    {
+      "rank": 20,
+      "id": "2247486165:1",
+      "title": "2026年，Superpowers 可能不再是 Claude/Codex/Workbuddy 的最佳方案了（附实操建议）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247486165&idx=1&sn=366a0886652f24f223520d2d8ccd6161",
+      "published": "2026-07-13 14:41",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/2026年，Superpowers 可能不再是 Claude_Codex_Workbuddy 的最佳方案了（附实操建议）-f6c4ddb3-5ea2433be6.md",
+      "raw_sha256": "02ab0e68c7d17cab05cd5a1dd5120156de964762823a13947095fcafb483f5fe",
+      "source_page": "wiki/sources/大刘对比Superpowers与Grill-me.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "f33e9da0-15f1-4a7f-9260-73e624198560",
+      "anchors": [
+        {
+          "text": "一个替你管流程，一个逼你想清楚。",
+          "location": "两种方案核心差异总结；raw第13行"
+        },
+        {
+          "text": "Plan Mode（Claude 自带）：0 个提问，约 10 分钟，直接出计划。",
+          "location": "Alex Rusin 第三方对照案例；raw第13行"
+        },
+        {
+          "text": "没有规划工具普遍最优。",
+          "location": "第三方案例结论后的限定；raw第13行"
+        },
+        {
+          "text": "npx skills add mattpocock/skills --skill=grill-me",
+          "location": "普通用户安装建议；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-19-21.json"
+    },
+    {
+      "rank": 21,
+      "id": "2247486130:1",
+      "title": "一篇讲清楚 Claude Code 和 Codex，到底选哪个（附实操建议）。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247486130&idx=1&sn=ee7ee45cd6f16567b4ec8b11404e8801",
+      "published": "2026-07-06 15:08",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/一篇讲清楚 Claude Code 和 Codex，到底选哪个（附实操建议）。-531f663e-f7741032bd.md",
+      "raw_sha256": "debbd2a90c1bc2c76e588be9ef1f1b0f9894720f6dc33e36c8b670462b696913",
+      "source_page": "wiki/sources/大刘选择Claude Code与Codex.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "e0cf701f-e622-48f2-af35-2d05fa2d2bff",
+      "anchors": [
+        {
+          "text": "聊天产品回答问题，编程 Agent 可以读代码、改代码、跑测试并交付结果。",
+          "location": "面向小白的产品定义部分；raw第13行"
+        },
+        {
+          "text": "你要是懒得折腾、打开就想用，Codex 舒服；但你本来就爱自己配环境、按自己习惯来，Claude Code 什么都能自己接，反而更自由。",
+          "location": "第二个区别·使用逻辑；raw第13行"
+        },
+        {
+          "text": "想清楚的活，规划、写方案、梳理项目，给 Claude Code；",
+          "location": "作者个人分工部分；raw第13行"
+        },
+        {
+          "text": "不是二选一，是分工。",
+          "location": "核心选型结论；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-19-21.json"
+    },
+    {
+      "rank": 22,
+      "id": "2247486102:1",
+      "title": "开源「齐码.SKILL」｜让 Vibe Coding 兼具审美与规范，零基础做出你的产品（教程）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247486102&idx=1&sn=6b370f02971a55cf14afe43ae5092d99",
+      "published": "2026-07-01 14:22",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/开源「齐码.SKILL」｜让 Vibe Coding 兼具审美与规范，零基础做出你的产品（教程）-0359999f-26d6a1b86d.md",
+      "raw_sha256": "bd3ec76c2b1b07b5f171b105e2cfe68ae912ba57ce5c472ea6a05eb36f52c246",
+      "source_page": "wiki/sources/大刘开源齐码Skills.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "cc1597ce-25be-4673-9d85-22a3283aa70e",
+      "anchors": [
+        {
+          "text": "每一个 skill 的入口一定是上一个 skill 的产物。",
+          "location": "六个 Skills 总览后的顶层设计段；raw第13行"
+        },
+        {
+          "text": "不许多，代码里不准冒出文档里没有的东西；",
+          "location": "vibe-implement 小节；raw第13行"
+        },
+        {
+          "text": "这套 Skill 的核心就是把这两样老掉牙的东西，从那个还没有 AI 的年代，原原本本搬回 2026，又重新讲给 AI 听了一遍。",
+          "location": "结尾契约式设计段；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-22-24.json"
+    },
+    {
+      "rank": 23,
+      "id": "2247486075:1",
+      "title": "蹲了十年的「股神秘籍」，Minimax M3全挖出来了。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247486075&idx=1&sn=7f0ad142bfaba228968ed4d799f76525",
+      "published": "2026-06-29 14:33",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/蹲了十年的「股神秘籍」，Minimax M3全挖出来了。-0db81479-1df999a4e5.md",
+      "raw_sha256": "5af6904d8e231b98f284225182db2c266eedcc4ade79904fa650cf3517e61ff5",
+      "source_page": "wiki/sources/大刘用M3拆股神策略.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "2b4e82c0-cedd-420d-8471-5739653a5c28",
+      "anchors": [
+        {
+          "text": "我把那5份文档，加上那张截图，一口气全传进了M3的金融Agent里。",
+          "location": "金融策略提取实验开头；raw第13行"
+        },
+        {
+          "text": "花了 20 分钟，整个 A 股回测完，数据验证出来一个挺关键的东西：这套指标，只在一个很窄的窗口里灵。",
+          "location": "全市场回测结果段；raw第13行"
+        },
+        {
+          "text": "有用。但远没有传说里那么神。",
+          "location": "回测结论段；raw第13行"
+        },
+        {
+          "text": "PS：市场有风险，投资需谨慎。文中这套策略，仅仅是技术展示，不构成任何投资建议。",
+          "location": "正文结尾风险提示；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-22-24.json"
+    },
+    {
+      "rank": 24,
+      "id": "2247485875:1",
+      "title": "安装Codex后必装的插件和 Skills。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247485875&idx=1&sn=4663df62e97f8e60886ecba50b71302b",
+      "published": "2026-06-15 14:36",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/安装Codex后必装的插件和 Skills。-35f96e48-8a8153c53e.md",
+      "raw_sha256": "3de7029225b182ceffe72bfe14bb50e73770d88e761c07a86273279c80115c9e",
+      "source_page": "wiki/sources/大刘推荐Codex插件Skills.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "aa949d89-6f0c-4790-89a8-6b9defdd1625",
+      "anchors": [
+        {
+          "text": "插件是装能力包，Skills 是教它套路。",
+          "location": "插件与 Skills 区别说明段；raw第13行"
+        },
+        {
+          "text": "有个坑要提前说。装完 skill 要重启一下 Codex 才生效，不是热加载。",
+          "location": "安装入口说明段；raw第13行"
+        },
+        {
+          "text": "Mac 上要给两个权限，屏幕录制和辅助功能，不给的话它看不见也点不了，等于白装。",
+          "location": "Computer Use 小节；raw第13行"
+        },
+        {
+          "text": "它会一步步问你问题，把你那套重复流程攒成一个像样的 SKILL.md 包，scripts、references 目录都给你建好。",
+          "location": "skill-creator 小节；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-22-24.json"
+    },
+    {
+      "rank": 25,
+      "id": "2247485668:1",
+      "title": "做 PPT 还给演讲稿？办公小浣熊给出了AI办公的正确打开方式",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247485668&idx=1&sn=528f8f57ab84e3f6ea86fa3e4d9fc175",
+      "published": "2026-06-10 14:12",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/做 PPT 还给演讲稿？办公小浣熊给出了AI办公的正确打开方式-0b1f848d-01402074b1.md",
+      "raw_sha256": "625b26428d09de286e7886af97e44d50a697edf46d5f315aa01b42ca004e9624",
+      "source_page": "wiki/sources/大刘实测办公小浣熊桌面端.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "96ca4741-fadd-48cd-9b12-e4a309036e9e",
+      "anchors": [
+        {
+          "text": "真正卡住的，是 AI 被关在一个对话框里。",
+          "location": "开头痛点段；raw第13行"
+        },
+        {
+          "text": "读一下这个文件夹里关于这个演讲的要求，以及我过去的经历经验，为我制作一个 8 分钟的演讲 PPT。",
+          "location": "第 02 节本地文件直读案例；raw第13行"
+        },
+        {
+          "text": "企业 IM 这块，飞书已经能连了，企业微信和钉钉还在路上，得再等等。",
+          "location": "第 06 节限制说明；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-25-27.json"
+    },
+    {
+      "rank": 26,
+      "id": "2247485551:1",
+      "title": "Claude / Codex 可以直接复制的 CLAUDE.md / AGENTS.md，实测效果惊艳",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247485551&idx=1&sn=ee0c850890bde95162cb30b6402cbf39",
+      "published": "2026-06-08 14:17",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/Claude _ Codex 可以直接复制的 CLAUDE.md _ AGENTS.md，实测效果惊艳-50edb195-669de1e21a.md",
+      "raw_sha256": "1c4ced7b9eb244157c017b02b48b25c89a6f5e4dfa7eb873dcba49fd9faea0cc",
+      "source_page": "wiki/sources/大刘分享Agent四条准则.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "79e440f5-1b4b-4e77-ad89-e09bc39b9bc1",
+      "anchors": [
+        {
+          "text": "每一处改动，都要能直接追溯到我的需求。",
+          "location": "可复制准则第 3 条；raw第13行"
+        },
+        {
+          "text": "先定清楚「做到什么算成功」，然后对着标准跑到达标。",
+          "location": "可复制准则第 4 条；raw第13行"
+        },
+        {
+          "text": "先原样复制进去，用一周，看 Agent 哪些地方还是不太对你的脾气，再回头补一两条。",
+          "location": "部署说明末段；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-25-27.json"
+    },
+    {
+      "rank": 27,
+      "id": "2247485527:1",
+      "title": "工作中的信息图，这个AI方法论都能生成",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247485527&idx=1&sn=b039876c08728db244001b8421afe37c",
+      "published": "2026-06-04 14:42",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/工作中的信息图，这个AI方法论都能生成-6830f55e-98bfa18e5e.md",
+      "raw_sha256": "788956b1b917dfe1bf4dd33bb559664dc0f4f483a1ec63afc3d2507edbe85496",
+      "source_page": "wiki/sources/大刘总结AI职场画图法.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "2bc58572-c7e3-4eea-a317-2e89ab3e48a3",
+      "anchors": [
+        {
+          "text": "我个人的经验是，不直接让它画。",
+          "location": "开头方法引入；raw第13行"
+        },
+        {
+          "text": "一张能让 AI 一次画准的图，描述里得有这五样：",
+          "location": "第 01 节五要素公式；raw第13行"
+        },
+        {
+          "text": "【图的类型】+【核心模块有哪些】+【模块之间什么关系】+【什么风格】+【输出要求】。",
+          "location": "第 01 节五要素公式；raw第13行"
+        },
+        {
+          "text": "一般如果超过 10 个不走，大概率模型就有点画不出来了。",
+          "location": "第 02 节流程图边界提示；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-25-27.json"
+    },
+    {
+      "rank": 28,
+      "id": "2247485503:1",
+      "title": "Claude / Codex +  全方位科研工具 Skills 实操教程",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247485503&idx=1&sn=86f54edd8bc3c34544bf349b24c80691",
+      "published": "2026-06-02 15:25",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/Claude _ Codex +  全方位科研工具 Skills 实操教程-ccb65dde-0bb51653a1.md",
+      "raw_sha256": "982ef287686c0a4010bbb200b1ab531ae2d495cf4701e045a85bfcfbfe2f3ba5",
+      "source_page": "wiki/sources/大刘拆解ARS科研全流程.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "a02de187-9e33-4e11-be0c-14f69e19af3b",
+      "anchors": [
+        {
+          "text": "正确姿势是串起来用：先用 deep-research 搜，再用 academic-paper 写。",
+          "location": "3.2 academic-paper 小节；raw第13行"
+        },
+        {
+          "text": "它不会替你变聪明，也接管不了你的判断。",
+          "location": "写在最后；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-28-30.json"
+    },
+    {
+      "rank": 29,
+      "id": "2247485473:1",
+      "title": "AI+电商夯爆了，我的 Claude 捏捏带货视频制作，附教程。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247485473&idx=1&sn=6f1873165474829b8e47a2c52805b4fe",
+      "published": "2026-05-27 11:00",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/AI+电商夯爆了，我的 Claude 捏捏带货视频制作，附教程。-92be69d4-8ad6c4d77b.md",
+      "raw_sha256": "540d5fd7f98ecd4224ce27999ce67215ab9092d70b1ecbc57fdab1444253e3ae",
+      "source_page": "wiki/sources/大刘实测AI捏捏带货视频.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "020772e2-03ea-4203-a968-ffedbd2e3bfc",
+      "anchors": [
+        {
+          "text": "我点了 AI 帮写，把简单介绍丢给它：解压、办公室摆件、程序员周边、送礼。",
+          "location": "实测：给那只 Claude 捏捏做带货片；raw第13行"
+        },
+        {
+          "text": "骨架是那条爆款的，产品换成了我的 Claude 捏捏。",
+          "location": "爆款复刻结果描述；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-28-30.json"
+    },
+    {
+      "rank": 30,
+      "id": "2247485427:1",
+      "title": "小白做优秀 skill 难？我开源的这个工具帮你把这件事解决了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247485427&idx=1&sn=b93b2fb6e30d2e300905eddea1d8943d",
+      "published": "2026-05-21 11:02",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/小白做优秀 skill 难？我开源的这个工具帮你把这件事解决了-2f8475da-451c0e4038.md",
+      "raw_sha256": "848edf6065358754ef8461dd842278a976b4e8354972e9c9a095e0ee3982a5dc",
+      "source_page": "wiki/sources/大刘开源中文Skill生成器.md",
+      "status": "analyzed",
+      "reading_scope": "阅读全文文字；图片、动图和视频未核看；未运行原文命令或重测产品",
+      "detail_request_id": "7a43a3c7-558a-4c8d-9dea-d9fe82297841",
+      "anchors": [
+        {
+          "text": "做 skill 真正难的，从来不是写 Skill 文件。难的是写文件之前的过程。",
+          "location": "开头痛点部分；raw第13行"
+        },
+        {
+          "text": "所以提示词管的是“当前这一次”，skill 管的是“这一类任务”。一次写好，反复调用，每次输出都稳。",
+          "location": "Skill 到底是什么，跟提示词有什么区别；raw第13行"
+        }
+      ],
+      "analysis_model": "slow",
+      "analysis_output": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/爱AI的大刘/slow-output-28-30.json"
+    }
+  ]
+}

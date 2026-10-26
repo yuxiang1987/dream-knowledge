@@ -1,0 +1,800 @@
+{
+  "requested_name": "路人甲TM",
+  "resolved_name": "路人甲TM",
+  "username": "gh_d516081071ec",
+  "alias": "smcode2016",
+  "requested_count": 30,
+  "acquired_at": "2026-10-26T10:53:28+08:00",
+  "article_list_request_ids": [
+    "6ef6e578-053a-47c1-bdf1-cb686b90b1cf",
+    "0d454ccb-118e-4782-8b19-5ea216dd2912",
+    "df59565d-5211-4bc7-afc4-98cd65c8f1e2"
+  ],
+  "list_complete": true,
+  "articles": [
+    {
+      "rank": 1,
+      "id": "2247523699:1",
+      "title": "今年最让我意外的一个AI助理，我挖掘了好几个有趣玩法～",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247523699&idx=1&sn=d044c5e97853f417c3970920592cf7fe",
+      "published": "2026-10-21 21:24",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/今年最让我意外的一个AI助理，我挖掘了好几个有趣玩法～-67938b95-03c9325e01.md",
+      "raw_sha256": "f2201632e7cc929737b7e0679af559fc9bddfd2f20be18f852d1f9819d7c01cd",
+      "source_page": "wiki/sources/路人甲TM_Today个人助理实测.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "2f290a90-1d9a-4050-b543-b8d91abd7d8b",
+      "anchors": [
+        {
+          "text": "当我把我的一些记录交给它后，那些被我挂在脑后的琐事又一次被记起来了",
+          "location": "01「today持续进化的记忆」中段，充话费与双十一攻略案例之前"
+        },
+        {
+          "text": "以前是我追着信息跑，现在是它先帮我筛一遍，我做最后判断。",
+          "location": "02「连接你的手机帮助你的工作和生活」后半，定时热点报告案例结尾"
+        }
+      ],
+      "body_sha256": "03c9325e011a670aff8649738baa7eb0156b4eda52bc8420ff4db5b4189e207d",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-01-04.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-01-04.json"
+    },
+    {
+      "rank": 2,
+      "id": "2247523656:1",
+      "title": "用Fotor Agent做了3条商单后，我终于跑通了AI视频搞钱的方法",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247523656&idx=1&sn=0f633877562fce0746c25b4a222d9759",
+      "published": "2026-10-20 18:26",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/用Fotor Agent做了3条商单后，我终于跑通了AI视频搞钱的方法-e210d80b-1d2d6f5cb5.md",
+      "raw_sha256": "4dfa183aa375f780e3ded59af26479876f39c7c65df44e183bf3ae1cfd5ea363",
+      "source_page": "wiki/sources/路人甲TM_Fotor商用MG流程实测.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "2ba900ed-6395-4803-9809-4f790abc9c7a",
+      "anchors": [
+        {
+          "text": "脚本会先交给我确认，没问题之后再继续生成后面的配音、画面和动画。",
+          "location": "第一条「先做一支能涨粉的科普视频」中，提交选题与风格之后"
+        },
+        {
+          "text": "第一版背景颜色太深导致logo看不清，产品图太大，文字的排版也有些乱。",
+          "location": "第三条「按照真实流程模拟一次商业委托」后半，作者审查结尾段"
+        }
+      ],
+      "body_sha256": "1d2d6f5cb5025ff92970af717edae5132f19b6f2b9fc2d83e65611657561b245",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-01-04.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-01-04.json"
+    },
+    {
+      "rank": 3,
+      "id": "2247523573:1",
+      "title": "Lovart2.0重磅发布，终于有一个Agent能真正的解放设计师了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247523573&idx=1&sn=a87e4925725c72dd56d301e121749e8f",
+      "published": "2026-10-19 09:41",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/Lovart2.0重磅发布，终于有一个Agent能真正的解放设计师了-55d8b742-886b6978a7.md",
+      "raw_sha256": "ec110919a072822e6dd06c9b0b594bd1053c0160f232e81e3ffb1417de0933b7",
+      "source_page": "wiki/sources/路人甲TM_Lovart2.0设计协作实测.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "7f95ebe1-0f1f-4b4a-99f1-53ce1a267f1b",
+      "anchors": [
+        {
+          "text": "这些记忆不是我主动去存的，而是自己分析总结的。",
+          "location": "第1节「Arti能记住你的一切，还能进化」中段"
+        },
+        {
+          "text": "Arti只负责对我们的指令执行调整，审美、方案最终决定权依然在我们设计师手上。",
+          "location": "第4节「反馈改稿能力」结尾，讨论局部修改成本之后"
+        }
+      ],
+      "body_sha256": "886b6978a7bd251c4bb0a76ec3624daf8c4b763f251f2e1c1092ae2a2137637c",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-01-04.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-01-04.json"
+    },
+    {
+      "rank": 4,
+      "id": "2247523536:1",
+      "title": "太强了，特斯拉真的能飞起来了，马斯克诚不我欺",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247523536&idx=1&sn=e267e3cdec41f73dd4499ab8b3da747a",
+      "published": "2026-10-16 12:56",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/太强了，特斯拉真的能飞起来了，马斯克诚不我欺-a1521b7e-4b5a6d0993.md",
+      "raw_sha256": "b2a1a71058689fdcacc6f64957632e0b8fc0b376bd0a7d63fe2523cac117a224",
+      "source_page": "wiki/sources/特斯拉飞行汽车资讯文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "29065010-cba5-4196-a64c-b364b00839e9",
+      "anchors": [
+        {
+          "text": "整套动作由预设程序远程完成，车内还摆了一台Optimus人形机器人。",
+          "location": "「火箭版的黑科技」前半，坡道脱离与落地表演之后"
+        },
+        {
+          "text": "它仅限邀请购买，官网明确注明，尚未获准用于公共道路。",
+          "location": "「三种配置，但是火箭版不能上路」中，火箭版配置说明段"
+        }
+      ],
+      "body_sha256": "4b5a6d099334825af1f819c586d93da8b7e8368ce4d60a652c97a4d441bf2c05",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-01-04.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-01-01.json"
+    },
+    {
+      "rank": 5,
+      "id": "2247523424:1",
+      "title": "WorkBuddy打通企微，现在它能自己翻群聊、找文件了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247523424&idx=1&sn=8e71db64eaf133beea64068901b707d8",
+      "published": "2026-10-14 21:04",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/WorkBuddy打通企微，现在它能自己翻群聊、找文件了！-a5611f15-1824ee778a.md",
+      "raw_sha256": "0bd31cb7995488442b05bcd73a311b936d7cf2c6712070c0ab49abdd95ca3cae",
+      "source_page": "wiki/sources/WorkBuddy企微互通文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "9466a8f6-5554-45de-98e8-89afdf30f25f",
+      "anchors": [
+        {
+          "text": "介绍归介绍，我们是骡子是马拉出来溜溜",
+          "location": "功能概览后、进入“场景1”前的转场段"
+        },
+        {
+          "text": "之前散落在不同聊天记录里的提示词、测试用例、原始数据集链接，WorkBuddy都给我们整理出来了",
+          "location": "“场景1：在WorkBuddy中读取企微信息来干活”旧测评资料整理案例结果段"
+        }
+      ],
+      "body_sha256": "1824ee778a21182c2fb00477db0fd4fc4676baa59a55a6304e42d98eb4c4a107",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-05-08.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-05-08.json"
+    },
+    {
+      "rank": 6,
+      "id": "2247523210:1",
+      "title": "实测OiiOii最新Skill，这套电商组合堪称双十一王炸！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247523210&idx=1&sn=5fa41db732f26cd4d58c91dfc158845e",
+      "published": "2026-10-13 17:32",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/实测OiiOii最新Skill，这套电商组合堪称双十一王炸！-f506c17c-e4d51add77.md",
+      "raw_sha256": "8fe5ba622160e567f51272b235ec4ade57cf9dab760b4f8af2a880aa87e12549",
+      "source_page": "wiki/sources/OiiOii电商物料文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "e9dfcc69-66d8-434b-b159-3683ca69e519",
+      "anchors": [
+        {
+          "text": "从头到尾，我只写了一句需求，回答了几个问题",
+          "location": "“一、OiiOii电商广告Skill”两种视频效果总结段"
+        },
+        {
+          "text": "我没告诉它具体的促销力度，所以每张图上的数字都是它自己编的",
+          "location": "“二、一套产品图直出全尺寸促销海报”海报结果与风险提示段"
+        }
+      ],
+      "body_sha256": "e4d51add77302835316d3c5ccaa246b1873aed05b5b4958d1e4ecc4b76e2621c",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-05-08.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-05-08.json"
+    },
+    {
+      "rank": 7,
+      "id": "2247523083:1",
+      "title": "视频模型又杀出一个狠角色，Vidu这么久没动静，原来是在憋大招",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247523083&idx=1&sn=c866d1b29c60f8f3351634b26417b03a",
+      "published": "2026-10-10 14:25",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/视频模型又杀出一个狠角色，Vidu这么久没动静，原来是在憋大招-6e151b81-ea26c0aaf6.md",
+      "raw_sha256": "f6df31c33d6bb2a0a830c32ea4402816f747cb401f2b35c565057b444c213c61",
+      "source_page": "wiki/sources/Vidu视频六场景文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "8f7971a5-b78b-4e17-9e15-d11e8d6de18f",
+      "anchors": [
+        {
+          "text": "切点和景别是我提前设计的，不是模型自己想出来的",
+          "location": "“场景三：切镜运镜实测”结果解释段"
+        },
+        {
+          "text": "这6条片子，每条从提交到出片大概3分钟，全部都是直接出的4K",
+          "location": "“写在最后”效率与规格总结段"
+        }
+      ],
+      "body_sha256": "ea26c0aaf6e0a3c5dea58b18da866c1e78a60e900ed282e258328393dbbf8287",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-05-08.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-05-08.json"
+    },
+    {
+      "rank": 8,
+      "id": "2247523078:1",
+      "title": "手把手教你用WorkBuddy做微信小程序并上线，看完就会！（附真实案例）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247523078&idx=1&sn=6915beba105fd156a1fc455f3d3d839e",
+      "published": "2026-10-09 23:09",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/手把手教你用WorkBuddy做微信小程序并上线，看完就会！（附真实案例）-44e73498-9d06ebb533.md",
+      "raw_sha256": "8c033ac692e0b94e2013be08f60fc084c5633aa68b8bccc9028b53f4fafd3dc3",
+      "source_page": "wiki/sources/WorkBuddy小程序教程文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "537a3bf4-4b19-4d6f-bc25-30e26f7992cb",
+      "anchors": [
+        {
+          "text": "而现在不到半个小时，我就已经打开了这个小程序，可以开始使用了",
+          "location": "“1、先演示做记账小程序”首次托管发布并扫码打开后的体验段"
+        },
+        {
+          "text": "尽管它微信侧的手续一个没省，备案、隐私指引、审核额度都得自己走；类目得自己选对",
+          "location": "“4、写在最后”能力边界与合规手续段"
+        }
+      ],
+      "body_sha256": "9d06ebb533915d49aad8c9ea3490f5991953b7e7a9e32f4ab71a015e33dd669c",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-05-08.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-05-08.json"
+    },
+    {
+      "rank": 9,
+      "id": "2247523024:1",
+      "title": "WorkBuddy又整活了，独立浏览器功能、自动化能力，真的让人用爽了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247523024&idx=1&sn=6099d537d2324dc9301b8c2db82ba809",
+      "published": "2026-10-08 18:27",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/WorkBuddy又整活了，独立浏览器功能、自动化能力，真的让人用爽了-cfea2b98-fee6f955ef.md",
+      "raw_sha256": "16b5afa60441ed2fd492bc5b91124593f54d41b4445151778b25aee75217c618",
+      "source_page": "wiki/sources/WorkBuddy文件浏览器文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "089800ea-0e62-4bce-8e15-87b017a1943d",
+      "anchors": [
+        {
+          "text": "直接就可以修改文件内容，再也不用被各种各样的文件副本给整懵了。",
+          "location": "“已有文档升级”小节，说明原位修改优势的段落"
+        },
+        {
+          "text": "以后每天上午十点搜集、整理最新的AI热点资讯，更新这个表格",
+          "location": "“资讯整合表”小节，建立自动化任务的提示词段落"
+        }
+      ],
+      "body_sha256": "fee6f955efbd9b1c554770c5d485a1f86ba99a74a2e1d2bcf8a08d6819e31b08",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-09-12.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-09-12.json"
+    },
+    {
+      "rank": 10,
+      "id": "2247522859:1",
+      "title": "企业AI知识库到底是不是伪需求，试了一大圈后我有了答案",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247522859&idx=1&sn=0dfce022109da32c4c2eae93010a2db1",
+      "published": "2026-09-28 17:26",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/企业AI知识库到底是不是伪需求，试了一大圈后我有了答案-07786f97-5bab54eb9a.md",
+      "raw_sha256": "8bd36da84d3ead044fe96b0e3dc0233b5f10c2ad62a1e117981c3480316d5b86",
+      "source_page": "wiki/sources/腾讯乐享知识治理文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "46d3bce4-b6e4-4480-906c-f8424734f644",
+      "anchors": [
+        {
+          "text": "接受的是未经整理的杂乱信息，输出的是难以验证的黑盒结果",
+          "location": "第01节末，作者重新拆解失败原因的段落"
+        },
+        {
+          "text": "问题从来不在模型好坏，而在先建好知识库再写。",
+          "location": "第04节末，对知识治理价值作总结的段落"
+        }
+      ],
+      "body_sha256": "5bab54eb9a5fdad56d91806312ad499e8590cbd3a1edf96fdebaccd1e489d0be",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-09-12.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-09-12.json"
+    },
+    {
+      "rank": 11,
+      "id": "2247522854:1",
+      "title": "匿名模型三天登顶，我让它跟DeepSeek和GLM来一轮硬核实测",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247522854&idx=1&sn=ebaba4adc960964dde60610c5effb28b",
+      "published": "2026-09-27 21:15",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/匿名模型三天登顶，我让它跟DeepSeek和GLM来一轮硬核实测-ecddcb0d-ff06eff5f2.md",
+      "raw_sha256": "9b9020e7908e5c1b9d163f8b4b0a5fee2f936c17f95156b98538bfd2d4d4ddfc",
+      "source_page": "wiki/sources/匿名兔子三模型横评文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "818574ce-e1d5-4b9e-a3dc-ce4afc4c8fc2",
+      "anchors": [
+        {
+          "text": "每个任务都先从空文件夹开始，整个过程中我不手动改代码",
+          "location": "“规则，工具保持一致”小节，实验控制说明段落"
+        },
+        {
+          "text": "但在部分细节上还需要人工检查",
+          "location": "“结果汇总，日常工作流中怎么使用”小节，GLM总结段落"
+        }
+      ],
+      "body_sha256": "ff06eff5f299df7bd6874ac288658b4a5f8e4d3418c5e522a66ab16fe2de4c87",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-09-12.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-09-12.json"
+    },
+    {
+      "rank": 12,
+      "id": "2247522803:1",
+      "title": "从修照片到做海报，腾讯Hy Image3.5 preview到底有多能打？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247522803&idx=1&sn=843477fa4cc41eeb6a68a1832be675e9",
+      "published": "2026-09-25 21:00",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/从修照片到做海报，腾讯Hy Image3.5 preview到底有多能打？-afe54d71-30db80a06e.md",
+      "raw_sha256": "b1b4a1a32792c180e2c4bc72cea67adea0c5541162696de911ed52f3f77dca57",
+      "source_page": "wiki/sources/HyImage中秋场景文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "e463825c-50ea-49e6-9d04-9f41b5618ec0",
+      "anchors": [
+        {
+          "text": "它给的是一个很好的起点，不是能直接开拍的成品。",
+          "location": "“影视场景：嫦娥玉兔、月球”小节末段"
+        },
+        {
+          "text": "再也不用自己去用专业的修图工具了。",
+          "location": "“生活场景p图”小节开头，对日常修图能力的概括段落"
+        }
+      ],
+      "body_sha256": "30db80a06e69ef2f1800d6d14be4db5489b683fa9c17c3aed3f4152c24583044",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-09-12.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-09-12.json"
+    },
+    {
+      "rank": 13,
+      "id": "2247522746:1",
+      "title": "中国双榜第一背后：WorkBuddy背后的Harness能力有多强？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247522746&idx=1&sn=4369d47fd0b503808da4da6ee605845b",
+      "published": "2026-09-24 22:45",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/中国双榜第一背后：WorkBuddy背后的Harness能力有多强？-4c5dc0a7-c80c5f3aef.md",
+      "raw_sha256": "8d527b4dcd2d92053fc27543c515e4a81b6214339af4d17a4f1ce9006ab8bdec",
+      "source_page": "wiki/sources/WorkBuddy报告到执行文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "6e4f3673-1cff-4d48-8c3a-d32cb1fe09d0",
+      "anchors": [
+        {
+          "text": "一个桌面智能体的核心价值需要体现在它是否能围绕一个目标",
+          "location": "“Harness工程让AI具备真正有效的执行力”小节中段"
+        },
+        {
+          "text": "最终选择使用OCR工具渲染关键页的方式",
+          "location": "“从资料堆到完整方案”小节，PDF编码异常处理段"
+        }
+      ],
+      "body_sha256": "c80c5f3aef0a2ed8b79e5f29a9ffbcdfbf2bbc4be7f13800e2c1b6bdcaa21313",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-13-16.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-13-16.json"
+    },
+    {
+      "rank": 14,
+      "id": "2247522631:1",
+      "title": "千问办公QwenNote A2开箱实测，别说，有点惊喜",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247522631&idx=1&sn=9c849df72a14d7f9eb2ec56880163275",
+      "published": "2026-09-23 23:40",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/千问办公QwenNote A2开箱实测，别说，有点惊喜-edf3b1c2-08cb3ddc87.md",
+      "raw_sha256": "dde98c7f4f354d5e61018ba41e5035c0987d333321cf88ec9e985eaa1c4dbf2b",
+      "source_page": "wiki/sources/QwenNote录音到任务文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "c6dc6b08-e116-44a9-a24b-1576448e0816",
+      "anchors": [
+        {
+          "text": "我体验它时最想验证的是，现场信息能不能直接进入Agent的工作流程，让任务在会议结束后继续推进。",
+          "location": "正文开头产品用途介绍之后，作者提出评测的核心验证命题，支持本文关注线下信息能否进入Agent工作流并继续推进任务的判断。"
+        },
+        {
+          "text": "回到公司后，千问办公已经整理出会议结论和待办，也给我出了一个网页，也是非常有用。",
+          "location": "“更便捷的Agent入口”部分，会后任务案例的结果段，支持千问办公根据会议录音产出结论、待办和网页的作者亲测判断。"
+        }
+      ],
+      "body_sha256": "08cb3ddc8748b7572f0c85213918551c75c0f55f68bd532f85225c983fb502c5",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-13-16.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-14-14.json"
+    },
+    {
+      "rank": 15,
+      "id": "2247522594:1",
+      "title": "一个人，一支 AI 营销团队，这样做品牌营销效果太绝了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247522594&idx=1&sn=d399954533f937d0358dcaa2a8a0e5ad",
+      "published": "2026-09-23 16:15",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/一个人，一支 AI 营销团队，这样做品牌营销效果太绝了-16a79fab-c84c81a968.md",
+      "raw_sha256": "81313fd757504c9c18bffc93de1c40c4dfb1daec5dd66231843d5912a2b4831d",
+      "source_page": "wiki/sources/美图设计室品牌营销文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "a3a4f243-ff70-4ef5-a201-88338a9835c6",
+      "anchors": [
+        {
+          "text": "先把品牌装进它的记忆里",
+          "location": "“先把品牌装进它的记忆里”小节标题"
+        },
+        {
+          "text": "大概等了5分钟，一条很有生活感的带货视频就出来了",
+          "location": "“复刻爆款，做自己的品牌广告”小节，带货视频案例末段"
+        }
+      ],
+      "body_sha256": "c84c81a9680b2d882128f3c1f6bf52eada53cb646bdf9678afab997001a94660",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-13-16.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-13-16.json"
+    },
+    {
+      "rank": 16,
+      "id": "2247522593:1",
+      "title": "腾讯Marvis火出圈之后，我终于看懂了什么叫AI管家",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247522593&idx=1&sn=e9ca5fa2848460bb92d1bbbdef67da92",
+      "published": "2026-09-22 21:24",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/腾讯Marvis火出圈之后，我终于看懂了什么叫AI管家-f46ffe0e-6ab0e166b0.md",
+      "raw_sha256": "04fe8aa49cdebed27d6fc3d42f34c155a1d3edefbc6173395a9e2faad95163f4",
+      "source_page": "wiki/sources/Marvis电脑管家文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "3602bba2-bcba-4f52-8b2a-759b09b2d9c3",
+      "anchors": [
+        {
+          "text": "话不多说，我直接拿几个案例看看它到底能把一台电脑管到什么程度",
+          "location": "管家团队介绍后、首个实测案例前的转场段"
+        },
+        {
+          "text": "查到这里，Marvis没有删缓存，也没有随手关掉登录项",
+          "location": "“电脑卡了，但我不知道哪里出了问题”小节，诊断结果段"
+        }
+      ],
+      "body_sha256": "6ab0e166b076cef5616559c4a6224b384e2faf661fb3423e8c76eb01a0b7d130",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-13-16.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-13-16.json"
+    },
+    {
+      "rank": 17,
+      "id": "2247522471:1",
+      "title": "我用 MVLAND 给《甲乙丙丁》拍了一支 MV，有点上头了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247522471&idx=1&sn=ec53bdfa5ac0ca421afaf757cbe90872",
+      "published": "2026-09-21 20:03",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/我用 MVLAND 给《甲乙丙丁》拍了一支 MV，有点上头了-17efc0c3-54e2487990.md",
+      "raw_sha256": "77666ba2702ed8926dba932b98fe9457ceda767df95d3656a7b037030f5fa8bd",
+      "source_page": "wiki/sources/MVLAND音乐叙事文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "0fc6994e-d350-4cb2-bb1a-88b42c90e2dd",
+      "anchors": [
+        {
+          "text": "故事描述、运镜和人物动作都分开列好了",
+          "location": "《甲乙丙丁》案例，生成分镜描述后的段落"
+        },
+        {
+          "text": "有问题的地方直接修改，不用等花了积分生成了再改",
+          "location": "《甲乙丙丁》案例，分镜图随音乐预览段落"
+        }
+      ],
+      "body_sha256": "54e2487990dc1cc96d0fd6b9202e89c6198a09a19b4a813ff7dc48fab459137d",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-17-20.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-17-20.json"
+    },
+    {
+      "rank": 18,
+      "id": "2247522399:1",
+      "title": "Jev凭什么刷爆AI圈？连夜测完我终于看明白了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247522399&idx=1&sn=4269428c70e86adfa1eae44f3583f185",
+      "published": "2026-09-21 08:27",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/Jev凭什么刷爆AI圈？连夜测完我终于看明白了！-fa7297a8-53ffc74549.md",
+      "raw_sha256": "ed495f0b60a1e158b2b705f5a734320fee501d49701f6dbe7c7590175ffa15ad",
+      "source_page": "wiki/sources/Jev快判断案例文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "2e78a6e2-f4ee-446c-b2ef-7d79751633eb",
+      "anchors": [
+        {
+          "text": "把许多独立的小判断批量交给模型",
+          "location": "“一人同时操控50局地铁跑酷”末段"
+        },
+        {
+          "text": "它使用和平难度、提前勘察过的固定路线",
+          "location": "“8分43秒速通MC末影龙”限制条件段"
+        }
+      ],
+      "body_sha256": "53ffc74549dc3aa2b28db082154af797f4e837abec8a8262e1e9444f738ed483",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-17-20.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-17-20.json"
+    },
+    {
+      "rank": 19,
+      "id": "2247522363:1",
+      "title": "实测Qoder新功能！复刻实时联机球球大作战，域名服务器都不用",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247522363&idx=1&sn=5cc1150e9e8fca428c3d87aa43e1d3a8",
+      "published": "2026-09-20 23:11",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/实测Qoder新功能！复刻实时联机球球大作战，域名服务器都不用-777f8091-ed666a9960.md",
+      "raw_sha256": "649cfefc783d7650df2eeb5a172c99b6ab5270fe5bb3e01704ad9a0cf6bd202d",
+      "source_page": "wiki/sources/QoderSites在线应用文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "4efd932b-ed55-487b-951f-48baafc2fad3",
+      "anchors": [
+        {
+          "text": "分数不是写死在页面里的，是玩一局、写一条、大家读同一份",
+          "location": "同事联机和榜单刷新后的数据库解释段"
+        },
+        {
+          "text": "不是能做出来，而是「发出去之后还能继续改」",
+          "location": "装扮与功能持续迭代后的总结段"
+        }
+      ],
+      "body_sha256": "ed666a9960471de3c5843fff6bc7513e4ee8f60fe033797978585e7e13da6d94",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-17-20.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-17-20.json"
+    },
+    {
+      "rank": 20,
+      "id": "2247522107:1",
+      "title": "AI视频竟然能实时互动了，我用Vidu S2复活了《奥德赛》的奥德修斯",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247522107&idx=1&sn=0421afbf115dd2643212f1c8e132496c",
+      "published": "2026-09-16 19:40",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/AI视频竟然能实时互动了，我用Vidu S2复活了《奥德赛》的奥德修斯-86236b17-d0f3c4bb1b.md",
+      "raw_sha256": "715e450bb8423778305682b2cb198d5d8eab83a4ca72fdc82beaf1932c3f6866",
+      "source_page": "wiki/sources/Vidu实时角色互动文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "8c6a2754-3873-4a79-898e-8c26fc3e3e40",
+      "anchors": [
+        {
+          "text": "这些问题没有预设答案，需要角色结合自身背景理解问题",
+          "location": "“奥德修斯”案例，开放性问题测试段"
+        },
+        {
+          "text": "当然，我知道屏幕里的它并不是真的回来了",
+          "location": "“小白”案例，作者获得情感回应后的反思段"
+        },
+        {
+          "text": "这个实时编辑功能的核心就是让角色保持一致，内容随着用户需求变化",
+          "location": "“阿野”案例，换背景与换装后的总结段"
+        }
+      ],
+      "body_sha256": "d0f3c4bb1bbd0867b74cb89c4ebfcd5070ef250b9aca7ad06bf9d5ed43917a4d",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-17-20.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-17-20.json"
+    },
+    {
+      "rank": 21,
+      "id": "2247521899:1",
+      "title": "把B站干崩的《凡人修仙传》名场面，我用Pixmax尝试做了一遍",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247521899&idx=1&sn=26613da2724949f4f38e785dbe095ab7",
+      "published": "2026-09-14 16:42",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/把B站干崩的《凡人修仙传》名场面，我用Pixmax尝试做了一遍-7d32a23c-7263e3ed12.md",
+      "raw_sha256": "aea9f1c154242c546c2f6109b5f6acffa7f10c2b806f7562632966586f81612b",
+      "source_page": "wiki/sources/Pixmax修仙短剧文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "b4ffa979-0b2e-464c-b98a-9eb3062e727f",
+      "anchors": [
+        {
+          "text": "每个阶段的时间点、动作、光影变化都写死",
+          "location": "第一节“75秒的镜头，花了多少钱”第三段示例之后"
+        },
+        {
+          "text": "六段的积分消耗一共1584积分",
+          "location": "第一节负面约束说明后的成本段"
+        }
+      ],
+      "body_sha256": "7263e3ed126a6f080f05d14fe6dd2d1d9167fe5b31b72ed46f5bd4ed4547d7cb",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-21-24.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-21-24.json"
+    },
+    {
+      "rank": 22,
+      "id": "2247521712:1",
+      "title": "我给iPhone Duo手搓了一整套配件，苹果看了都得直摇头",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247521712&idx=1&sn=6a8746134808e730a98fdf13f39bdc77",
+      "published": "2026-09-12 10:32",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/我给iPhone Duo手搓了一整套配件，苹果看了都得直摇头-34f8b34b-bc0b68eda4.md",
+      "raw_sha256": "5851caa713e910b2ceaa8d6fa9d5112444eca4895d50e62abf4a1f00028f2902",
+      "source_page": "wiki/sources/iPhoneDuo配件设计文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "8344eb1a-7c60-42f2-978e-a07a19d4b258",
+      "anchors": [
+        {
+          "text": "请直接开始建模，不用先写方案",
+          "location": "“磁吸指环”小节的Blender建模提示词末段"
+        },
+        {
+          "text": "这些目前都只是概念方案",
+          "location": "“说到最后”第二段"
+        }
+      ],
+      "body_sha256": "bc0b68eda4672394b5a4afdfc5a653075e4343bea113d293c79f86979fb2a9f4",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-21-24.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-21-24.json"
+    },
+    {
+      "rank": 23,
+      "id": "2247521658:1",
+      "title": "公司里用AI，终于不再是乱糟糟的了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247521658&idx=1&sn=f3e141eca9008c202a5c6a1458e1048d",
+      "published": "2026-09-10 18:28",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/公司里用AI，终于不再是乱糟糟的了-4374e8a9-85f5663efd.md",
+      "raw_sha256": "73f2ae39a9b71787a0e39fe80643cc2ca425ab3c0cf00f7af4848759420001cf",
+      "source_page": "wiki/sources/元脑企业Agent管理文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "8752dd22-1ae7-4338-995c-c4e545bfd220",
+      "anchors": [
+        {
+          "text": "真正被换掉的是后面那套模型、Token和权限的管理方式",
+          "location": "开头介绍元脑AI Work一体机后的段落"
+        },
+        {
+          "text": "谁发起的、Agent做了什么、调用了什么、有没有越权、出了问题能不能查回来",
+          "location": "安全后台说明末段"
+        }
+      ],
+      "body_sha256": "85f5663efd63821b9cdd00a6bcfd19e359affd684eeb554d5b3a6c82ad476c04",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-21-24.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-21-24.json"
+    },
+    {
+      "rank": 24,
+      "id": "2247521547:1",
+      "title": "半夜秃袭，GPT Image2.5真的变强了，草图生图功能确实夯",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247521547&idx=1&sn=92df0bc77297d670d4485f2431fbdf14",
+      "published": "2026-09-09 16:40",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/半夜秃袭，GPT Image2.5真的变强了，草图生图功能确实夯-ab853b96-81145ecc45.md",
+      "raw_sha256": "ecffe3afe1c7e3f69ba705b47b1b7da7c9c3302ef1197e69d376efd8ab7e77b0",
+      "source_page": "wiki/sources/GPT-Image2.5草图生图文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "e57f6b90-fd54-46d1-ac47-b518a6631be4",
+      "anchors": [
+        {
+          "text": "我草图里每个东西待哪儿，它就真给放在哪儿",
+          "location": "“sketch画板”小节童趣绘本案例末段"
+        },
+        {
+          "text": "不过我怎么感觉Image2与Image2.5的差距不大呢",
+          "location": "“Image2与Image2.5对比”两轮编辑结果之后"
+        }
+      ],
+      "body_sha256": "81145ecc4500c07ed819b0fa100e5139b9b89c012b7f29ec42762dd52f21adca",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-21-24.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-21-24.json"
+    },
+    {
+      "rank": 25,
+      "id": "2247521447:1",
+      "title": "为了让AI拍完长视频大片，我手搓了个Skill",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247521447&idx=1&sn=bd85f3c542d58308cc9cc47b4d99326b",
+      "published": "2026-09-08 18:06",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/为了让AI拍完长视频大片，我手搓了个Skill-8f853bd9-2ae7584655.md",
+      "raw_sha256": "de614365abb6272042e94cc9d9411b98c4dcc0cdb0320e3e0b45b951b8bb3b3a",
+      "source_page": "wiki/sources/长视频导演Skill文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "c03f63c9-0dee-49b5-983b-df46c77458ba",
+      "anchors": [
+        {
+          "text": "它不会马上开拍，而是先把人物、事件和空间整理成一份导演执行包",
+          "location": "“先别急着生成，导演得把故事过一遍”小节第二段"
+        },
+        {
+          "text": "会影响前后连续性的东西提前定住，动作里的小细节交给模型发挥",
+          "location": "“管得太细，AI反而不会演了”小节第五段"
+        }
+      ],
+      "body_sha256": "2ae758465564e013b691c531e90547c035220511cd12eb1e1de7cfc04fcd719a",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-25-28.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-25-28.json"
+    },
+    {
+      "rank": 26,
+      "id": "2247521438:1",
+      "title": "手机、电脑无缝衔接跑任务，这才是Vibecoding的完全体",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247521438&idx=1&sn=c16f8c94f0bee40fbf4a9966e8cbf031",
+      "published": "2026-09-07 18:45",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/手机、电脑无缝衔接跑任务，这才是Vibecoding的完全体-2b200195-cfe31f131d.md",
+      "raw_sha256": "6e0e9733f79e4194356acddc55434bc487a4825d0c1aecbd864d4b349400054b",
+      "source_page": "wiki/sources/UU远程Vibecoding文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "4a84a9d6-9dee-4dc8-88b6-1548f89860d5",
+      "anchors": [
+        {
+          "text": "手机到电脑，电脑到手机，两边都能接",
+          "location": "场景一，三条 uuyc-cli 命令说明之后"
+        },
+        {
+          "text": "模型最后做出来的是一个可以点击和操作的东西，能随时看到成品，发现问题以后马上改",
+          "location": "场景一，3D深海网页案例后的总结段"
+        }
+      ],
+      "body_sha256": "cfe31f131d25e9a0b2792b36cbcefa339666ce4605d7cd4e1d09174fdbab36c4",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-25-28.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-25-28.json"
+    },
+    {
+      "rank": 27,
+      "id": "2247521347:1",
+      "title": "胡楚靓可能不知道，她随口一句话帮我解决了爸妈的旅行",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247521347&idx=1&sn=b92938b292e4f89fee11bdb1de6ba657",
+      "published": "2026-09-06 18:55",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/胡楚靓可能不知道，她随口一句话帮我解决了爸妈的旅行-55d5af8b-4baebf3432.md",
+      "raw_sha256": "0991551c18265eb5ba1a63be226473af22e571486a2f04f6c907e5eada3deb0a",
+      "source_page": "wiki/sources/豆包工作生活办公文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "2ba8b001-5159-4158-a597-010982020dda",
+      "anchors": [
+        {
+          "text": "我干脆也照着这个思路，直接让它把攻略做成一个适合老年人查看的旅行指南网页",
+          "location": "“让它帮退休爸妈安排一趟海南旅行”小节中段"
+        },
+        {
+          "text": "最后出来的效果谈不上惊艳，但拿去开会完全够用",
+          "location": "“开会前，它直接把飞书文档做成PPT”小节后段"
+        }
+      ],
+      "body_sha256": "4baebf343265ddd80c13145dc4a67399681d222e319e2df4603708435296c363",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-25-28.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-25-28.json"
+    },
+    {
+      "rank": 28,
+      "id": "2247521332:1",
+      "title": "GPT-6 Atsra终于开放，连测12小时！AGI到底有多猛？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247521332&idx=1&sn=81c12b56f88a36c5a42db7693fcb54c2",
+      "published": "2026-09-05 18:24",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/GPT-6 Atsra终于开放，连测12小时！AGI到底有多猛？-3ec7a919-c68bc392a3.md",
+      "raw_sha256": "4c9af9bdb0da3e05cf3b4224cbad504ea28367eb0088ee467c731739f7961572",
+      "source_page": "wiki/sources/GPT-6-Astra连测文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "568633fb-9996-4f6b-bd9e-dd8c1f8a7b44",
+      "anchors": [
+        {
+          "text": "跑了一整天，六个人跑废了5个Plus账号和十几张重置卡",
+          "location": "导语末段，五个案例引出之前"
+        },
+        {
+          "text": "中间它会自己截图检查，觉得哪里不像，就继续改",
+          "location": "案例五“3D场景建模”中段"
+        }
+      ],
+      "body_sha256": "c68bc392a3477ae60973a72388304e2b994f634b774b36ed33d2a1565eb95605",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-25-28.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-25-28.json"
+    },
+    {
+      "rank": 29,
+      "id": "2247521220:1",
+      "title": "只用五分钟，Seko让一条国产AI短剧活了三次",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247521220&idx=1&sn=82d31051ca029d2168381df0b3f2dd70",
+      "published": "2026-09-04 20:46",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/只用五分钟，Seko让一条国产AI短剧活了三次-57966ab8-c8b0346988.md",
+      "raw_sha256": "b3242ad83c811b73a59efee9412fc3a29ec989cc0ddd31783c572e7cb81776d4",
+      "source_page": "wiki/sources/Seko出海转绘文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "61484722-3d42-4f52-91b3-8ff687ede914",
+      "anchors": [
+        {
+          "text": "后面所有东西都建立在这份拉片上，这里错了后面全歪。",
+          "location": "“出海转绘美国版”第一步末段"
+        },
+        {
+          "text": "这套流程给的也是可投放的素材，不是成品。",
+          "location": "“写在最后”倒数第三段"
+        }
+      ],
+      "body_sha256": "c8b0346988bbf3197717b964f0a1ef6e4b1bbfdda3b7dfe97097c4b4ef2f8ee6",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-29-30.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-29-30.json"
+    },
+    {
+      "rank": 30,
+      "id": "2247521207:1",
+      "title": "这就是AGI？GPT-6 Astra一夜刷屏，真实效果太夸张了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247521207&idx=1&sn=0a03ebc12d282cf3e59a61a1013f1ae5",
+      "published": "2026-09-04 12:34",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/这就是AGI？GPT-6 Astra一夜刷屏，真实效果太夸张了-b2bf6f01-93ad5ac5e6.md",
+      "raw_sha256": "5181b858b38f3d7359cd01015a82847a63d3462bc42c500af01caaa25922f5a7",
+      "source_page": "wiki/sources/GPT-6-Astra演示汇总文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字（SLOW分析）；HTML媒体链接可见，未观看图片视频；逐字锚点已核验",
+      "detail_request_id": "05769d06-345d-4a18-ae4c-61182e1de607",
+      "anchors": [
+        {
+          "text": "所以这篇文章暂时做不了实测",
+          "location": "开头第三段"
+        },
+        {
+          "text": "所以在自己真正用上以前，我不太想凭几段精心挑选的视频宣布谁赢了。",
+          "location": "“写在最后”竞品对比段"
+        }
+      ],
+      "body_sha256": "93ad5ac5e68be1bb661a9c03de4e281ddb59ff5529f99ca89549971caa3fbec1",
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-input-29-30.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/路人甲TM/slow-output-29-30.json"
+    }
+  ]
+}

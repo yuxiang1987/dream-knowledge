@@ -1,0 +1,57 @@
+{
+  "accounts": [
+    {
+      "account": "路人甲TM",
+      "rows": 30,
+      "errors": []
+    },
+    {
+      "account": "摸鱼小李",
+      "rows": 30,
+      "errors": []
+    },
+    {
+      "account": "小林coding",
+      "rows": 30,
+      "errors": []
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "rows": 30,
+      "errors": []
+    },
+    {
+      "account": "苍何",
+      "rows": 30,
+      "errors": []
+    },
+    {
+      "account": "沉默王二",
+      "rows": 30,
+      "errors": []
+    },
+    {
+      "account": "洛洛AI说",
+      "rows": 30,
+      "errors": []
+    },
+    {
+      "account": "郭震AI",
+      "rows": 30,
+      "errors": []
+    },
+    {
+      "account": "西羊石AI视频",
+      "rows": 30,
+      "errors": []
+    },
+    {
+      "account": "爱ai的大刘",
+      "rows": 30,
+      "errors": []
+    }
+  ],
+  "raw_files_frozen": 455,
+  "raw_unchanged": true,
+  "duplicate_work_note": "小林rank9与30正文仅相差一条DevFlow Agent项目推广行，共用一个source但保留两个article ID与raw。"
+}

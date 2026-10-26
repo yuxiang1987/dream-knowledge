@@ -1,0 +1,6 @@
+{
+  "model": "slow",
+  "input": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-input-01.json",
+  "error": "ECONNRESET: socket connection closed unexpectedly",
+  "attempt": 1
+}

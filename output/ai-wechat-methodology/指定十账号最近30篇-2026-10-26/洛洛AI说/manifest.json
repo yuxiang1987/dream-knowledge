@@ -1,0 +1,707 @@
+{
+  "requested_name": "洛洛AI说",
+  "resolved_name": "洛洛AI说",
+  "username": "gh_426cd27710df",
+  "alias": "洛洛AI说",
+  "requested_count": 30,
+  "acquired_at": "2026-10-26T02:55:13.850893+00:00",
+  "article_list_request_ids": [
+    "24ea1b64-e3aa-4578-87ed-614c96c207a1",
+    "40a0698c-e79e-4a3b-a7b6-b279a821d2d0",
+    "2552e411-bcbf-4d3a-b1cf-ab13ddb53257",
+    "ec39fe36-52c8-48b1-9632-5c52a6b981e6"
+  ],
+  "list_complete": true,
+  "articles": [
+    {
+      "rank": 1,
+      "id": "2247488618_1",
+      "title": "终于找到适合做孕期管理的AI助理，还免费！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247488618&idx=1&sn=85db1b712aec603e3f1cd764f1ddc75a",
+      "published": "2026-10-23 16:46",
+      "raw_path": "raw/article/洛洛AI说/终于找到适合做孕期管理的AI助理，还免费！-a524a52c-dc3919423e.md",
+      "raw_sha256": "ad0adb4845398eae53b4cc78c7daaf034a479223635dff65efaa0d14f5f2026e",
+      "source_page": "wiki/sources/洛洛AI说：洛洛：Today AI孕期管理实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "09af37bf-59d8-4188-bf6a-f40380101583",
+      "anchors": [
+        {
+          "text": "我一共有 24 张病历和检查报告单，但是一次只能上传 10 张。",
+          "location": "“如何进行孕期管理？”中段，上传限制与识别遗漏段"
+        },
+        {
+          "text": "“主动”但不“瞎动”才是它最可贵的地方。",
+          "location": "孕期报告介绍后，转入主动提醒能力的段落"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2247488578_1",
+      "title": "AI 长剧的春天来了，RunningHub AIGC 大赛116 部入围作品全网曝光破10亿",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247488578&idx=1&sn=034a5c15741bf35513872e6d5a077112",
+      "published": "2026-10-22 14:52",
+      "raw_path": "raw/article/洛洛AI说/AI 长剧的春天来了，RunningHub AIGC 大赛116 部入围作品全网曝光破10亿-344e3b12-1b67446857.md",
+      "raw_sha256": "a066a1f0d6e9deb7e3f7cc4a15cf0954cbbe333bcbc92fddd4ed685aa4fa6c2c",
+      "source_page": "wiki/sources/洛洛AI说：洛洛：RunningHub长片赛与工作流.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "eb065c8f-c21f-47b3-ab96-c207a5696098",
+      "anchors": [
+        {
+          "text": "116 部入围先导片只是入场券，完整成片，才是真刀真枪的考验。",
+          "location": "“洛洛有话说”开头"
+        },
+        {
+          "text": "通过 RunningHub 重制全片，投入有望降低到几万元。",
+          "location": "“资深导演入局”中《无名火》案例段"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2247488491_1",
+      "title": "Fotor Agent能做带MG动画的商业视频和自媒体视频，效果顶还便宜",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247488491&idx=1&sn=61d810d4b368d11734a17a1b05ad13f2",
+      "published": "2026-10-20 16:56",
+      "raw_path": "raw/article/洛洛AI说/Fotor Agent能做带MG动画的商业视频和自媒体视频，效果顶还便宜-3b0d0e97-d31dcc498d.md",
+      "raw_sha256": "2485e0675a3088b371e2c5dbeb2f4fead66d6039d8e5641e3e5595f7df5ab987",
+      "source_page": "wiki/sources/洛洛AI说：洛洛：Fotor Agent MG视频实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "8b899fcb-815d-4f51-b3fd-ed09f05234c4",
+      "anchors": [
+        {
+          "text": "它采用AI驱动的“代码生成视频”技术路线",
+          "location": "介绍Fotor Agent原理的段落"
+        },
+        {
+          "text": "Fotor Agent生成的是可再次编辑的视频工程文件",
+          "location": "“MG动画宠物玩具广告”案例中段"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2247488399_1",
+      "title": "Opus 5.5 视频刷屏外网，10个场景知晓能力上限",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247488399&idx=1&sn=82afb2a50133ac7baf589cb2dcf2f60c",
+      "published": "2026-10-10 17:04",
+      "raw_path": "raw/article/洛洛AI说/Opus 5.5 视频刷屏外网，10个场景知晓能力上限-28efd240-838cd3fa9d.md",
+      "raw_sha256": "2738b50478feff993bb7119ce4120e8fed5adc37ecdc2fbea48da1c16ed9dd81",
+      "source_page": "wiki/sources/洛洛Opus外网十案例文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "c22882d4-5334-4bf6-a4ca-aba11af33530",
+      "anchors": [
+        {
+          "text": "素材全部由代码生成，没有一张外部素材",
+          "location": "“十大经典场景”case3：沉浸式数字艺术体验段"
+        },
+        {
+          "text": "但这些案例都不是一键神话。上千字指令、审美判断、方向取舍，决定作品分量。",
+          "location": "“洛洛有话说”结尾段"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2247488270_1",
+      "title": "从电商选品到引流，豆包Seed-2.1-pro升级后全给我包了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247488270&idx=1&sn=5bdd956f5b61e16472306c919c8f109d",
+      "published": "2026-09-17 10:58",
+      "raw_path": "raw/article/洛洛AI说/从电商选品到引流，豆包Seed-2.1-pro升级后全给我包了-2a05cce6-2c337a0b57.md",
+      "raw_sha256": "a15c81ef7dc3a76e1f927243cf8d6cbbba1df6b9e6ff6def2116c6e6a94e4ad7",
+      "source_page": "wiki/sources/洛洛AI说：洛洛：豆包电商全链路实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "d026e7b0-04c2-4a69-a6ae-09bf53e30466",
+      "anchors": [
+        {
+          "text": "唯一可以优化的点是自动匹配的热门标签时效性不足，需要人工小幅更新",
+          "location": "“第五步：批量生成小红书种草笔记”结果段"
+        },
+        {
+          "text": "各位读者老师，试过用豆包处理工作了吗？",
+          "location": "全文文字第3段；原始HTML正文行13"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2247487610_1",
+      "title": "GPT-6：快速上手+横评案例+省Token指南（一篇讲清）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247487610&idx=1&sn=6ed7513b5266524a82159d4050584be0",
+      "published": "2026-09-14 15:05",
+      "raw_path": "raw/article/洛洛AI说/GPT-6：快速上手+横评案例+省Token指南（一篇讲清）-7517842e-e9b745697b.md",
+      "raw_sha256": "438a7b4dafbf4b53603edc822b997d91c38f2eeb8b8a565c7d29af342d1dcc65",
+      "source_page": "wiki/sources/洛洛GPT上手横评与额度文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "178d0da0-0e23-4d9b-899f-f57742ff8b8b",
+      "anchors": [
+        {
+          "text": "给目标、检查关键节点，还得人来。",
+          "location": "“洛洛有话说”结尾段"
+        },
+        {
+          "text": "这东西我该怎么用？它到底强在哪？怎么用才能少烧Token、少花冤枉钱？",
+          "location": "全文文字第4段；原始HTML正文行13"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2247487451_1",
+      "title": "Running Hub发起全球首个AIGC长片大赛，单项奖金高达百万",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247487451&idx=1&sn=a42d687a6635572ecc47156ae75ba5e1",
+      "published": "2026-09-10 22:00",
+      "raw_path": "raw/article/洛洛AI说/Running Hub发起全球首个AIGC长片大赛，单项奖金高达百万-9293782e-8de5ad1c22.md",
+      "raw_sha256": "c08d227052ae870bb72e130d9f254bf1ef76e8ab2f33830783498137a3edb513",
+      "source_page": "wiki/sources/洛洛AI说：洛洛：RunningHub长片赛与《智盾》实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "2b32f26d-8c9b-473b-89d4-9aa3a1774f61",
+      "anchors": [
+        {
+          "text": "大约十几分钟，9万多字的小说就分拆成了剧本",
+          "location": "“把科幻小说做成电影”小节，导入小说后的剧本拆分段"
+        },
+        {
+          "text": "报名只需要提交2分钟的预告片，入围之后才需要提交完整的作品",
+          "location": "“AIGC长片创作大赛来了”小节，报名门槛段"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2247487401_1",
+      "title": "2分钱/秒，1分钟做1集短剧，OiiOii × Fal H3 Max 做视频太太太快了！（附全流程）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247487401&idx=1&sn=fdf24f3837131f9d336bc508b96b515b",
+      "published": "2026-09-04 18:28",
+      "raw_path": "raw/article/洛洛AI说/2分钱_秒，1分钟做1集短剧，OiiOii × Fal H3 Max 做视频太太太快了！（附全流程）-4f0a7a42-585b145047.md",
+      "raw_sha256": "95e20a82d1a4772a2b6ddc9c46d76d95991cf31311e424287c4c2620c6b75378",
+      "source_page": "wiki/sources/洛洛OiiOii极速视频文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "4f3bf068-e1fa-45be-9c96-60993a2aec49",
+      "anchors": [
+        {
+          "text": "我自己掐表测了好几组，速度表现确实超出预期。",
+          "location": "“最快3秒出片”小节，两个操作入口之后"
+        },
+        {
+          "text": "最多可以同时运行40个项目",
+          "location": "“1分钟不到搓1集短剧”小节，并发能力段"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2247487200_1",
+      "title": "豆包只会聊天？用上豆包工作，我效率直接炸了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247487200&idx=1&sn=2f9c511f5da4440ae4c9ed1ea3bc3c32",
+      "published": "2026-09-02 14:33",
+      "raw_path": "raw/article/洛洛AI说/豆包只会聊天？用上豆包工作，我效率直接炸了-06098661-d0e77f02df.md",
+      "raw_sha256": "70171760d28e44e8ab80a83c2b15a13901889462e04c46fd4e8064f863a45436",
+      "source_page": "wiki/sources/洛洛AI说：洛洛&anan：豆包工作全流程实战.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "1bdcd7ec-b110-4449-99bc-321b19088afa",
+      "anchors": [
+        {
+          "text": "创建任务和发消息之前，先把清单发给我确认",
+          "location": "“第三步：会后建任务”小节，提示词注意事项"
+        },
+        {
+          "text": "数据抓取耗时偏长，建议搭配云电脑运行，额度消耗也不低",
+          "location": "“洛洛有话说”小节，局限说明段"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2247487199_1",
+      "title": "10分钟复刻大片经典动作，LibTV这两个新功能太顶了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247487199&idx=1&sn=5c9b0b938305a00e31a50836c6c93f1f",
+      "published": "2026-09-01 23:55",
+      "raw_path": "raw/article/洛洛AI说/10分钟复刻大片经典动作，LibTV这两个新功能太顶了！-bafe602a-a592618d54.md",
+      "raw_sha256": "8d87d79e255c12ce169e9e30bfadc719870918206f02ff1575180c41a590c912",
+      "source_page": "wiki/sources/洛洛AI说：洛洛：LibTV动作捕捉与口播剪辑实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "52c1ebfb-2d05-4333-84c9-7a6aa77ea1cd",
+      "anchors": [
+        {
+          "text": "简单说就是，只学动作和运镜，不学画面和画风。",
+          "location": "“高难度武打动作复刻”中段，解释深度动态视频作用处"
+        },
+        {
+          "text": "原本1-2小时的剪辑工作量，现在十几分钟就能搞定",
+          "location": "“自媒体量产神器”前后对比段"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "id": "2247487060_1",
+      "title": "终于找到最懂设计师 AI 了，用过去1/10时间搞定宠物品牌全案（保姆级教程）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247487060&idx=1&sn=60de8e631ccfdf6f9fb3754481bb4409",
+      "published": "2026-08-31 17:26",
+      "raw_path": "raw/article/洛洛AI说/终于找到最懂设计师 AI 了，用过去1_10时间搞定宠物品牌全案（保姆级教程）-9fdca859-132d281230.md",
+      "raw_sha256": "90938587d5268afb61127b3adeaa8530e29e5c1a10a445c4c2c828555c3b3228",
+      "source_page": "wiki/sources/洛洛AI说：洛洛：Lovart宠物品牌全案教程.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "aaf856fa-c8a6-44a8-8afb-166a5eeef03a",
+      "anchors": [
+        {
+          "text": "两组电商详情页，从找参考到出图微调，只用了 40 分钟",
+          "location": "全文开头，展示两款宠物品牌详情页之后"
+        },
+        {
+          "text": "7 组设计跑下来，从 Logo 到线下活动主视觉再到后面的两组插画设计",
+          "location": "“洛洛有话说”开头"
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "id": "2247486766_1",
+      "title": "实测 Kimi K3、DeepSeek‑V4‑Pro、GLM‑5.3 三款国产顶流，DeepSeek竟是倒数第一？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247486766&idx=1&sn=4829d039d7ca8928e68eaf28463e0c6c",
+      "published": "2026-08-28 13:55",
+      "raw_path": "raw/article/洛洛AI说/实测 Kimi K3、DeepSeek‑V4‑Pro、GLM‑5.3 三款国产顶流，DeepSeek竟是倒数第一？-97ffbfa7-3159cd8d6e.md",
+      "raw_sha256": "11068ee694f3582dbf67744d20c455067e7b88b72c2ecfc64012867e50bdb836",
+      "source_page": "wiki/sources/洛洛AI说：洛洛&anan：三款国产模型五轮业务横评.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "fcb2800f-faf0-4a06-9065-c576179dcfc1",
+      "anchors": [
+        {
+          "text": "材料如果太模板化，模型不读也能编出一份方案",
+          "location": "case1“读材料出方案”题目设计说明段"
+        },
+        {
+          "text": "回归真实业务场景才是检验大模型硬实力最有效的试金石。",
+          "location": "“洛洛有话说”开头"
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "id": "2247486196_1",
+      "title": "爆火的《八仙》AI漫剧赛道，我用 Seedance2.5 特调版闯进去了！（附全流程）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247486196&idx=1&sn=3e2c4de26ff30b2a1dfb45862b60aa4f",
+      "published": "2026-08-24 07:00",
+      "raw_path": "raw/article/洛洛AI说/爆火的《八仙》AI漫剧赛道，我用 Seedance2.5 特调版闯进去了！（附全流程）-67de303a-d527a90cf2.md",
+      "raw_sha256": "43e989d272766fadbd4a1b2d13f37bf697857bc0b671ccb9c54360bc0c83d457",
+      "source_page": "wiki/sources/洛洛AI说：洛洛&sunny：巨日禄国风漫剧流程.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "b5985cd4-7b38-4d3f-96f4-6d6a8b55c056",
+      "anchors": [
+        {
+          "text": "平台会自动过滤劣质片段，不合格镜头自动重抽",
+          "location": "步骤3“一键成片，局部修改”中段"
+        },
+        {
+          "text": "输入原片选择风格、目标语言和比例。这次我选择的是日语、二维动漫风中的上美画风。",
+          "location": "步骤4“一键转绘”前半段"
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "id": "2247486175_1",
+      "title": "别只盯着 Seedance2.5！批量做商业视频该选谁？（顶流视频模型横评）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247486175&idx=1&sn=5e2f7bb632503da5db186862a3ffaec2",
+      "published": "2026-08-22 07:00",
+      "raw_path": "raw/article/洛洛AI说/别只盯着 Seedance2.5！批量做商业视频该选谁？（顶流视频模型横评）-720cf535-7b3fe8a2e4.md",
+      "raw_sha256": "99f1a03fa116b3f68726cc8b727d7c52ee4aca13f9c5c0e63d396b66b29bd42c",
+      "source_page": "wiki/sources/洛洛AI说：洛洛&Sunny：Seedance与H3量产横评.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "4f091774-e963-42bc-b496-42455cf25196",
+      "anchors": [
+        {
+          "text": "我统一锁定 720P 分辨率，从成片效果、生成速度、实际使用成本三个维度",
+          "location": "开头测试设计段"
+        },
+        {
+          "text": "整体来看，这个场景各有优劣。",
+          "location": "场景二“AI眼镜广告”结尾"
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "id": "2247486103_1",
+      "title": "MiniMax亲自下场做视频Agent，一句话手搓商业大片，这5个场景实力很强",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247486103&idx=1&sn=c1bc255835a01ea9eee3e0ec38ba8dc6",
+      "published": "2026-08-20 14:51",
+      "raw_path": "raw/article/洛洛AI说/MiniMax亲自下场做视频Agent，一句话手搓商业大片，这5个场景实力很强-266502ef-9016ebd9a2.md",
+      "raw_sha256": "1480bf991fcf6a9b89e1368769cc2c7a4e6003f7e2ececbe607648d402bef2b9",
+      "source_page": "wiki/sources/洛洛MiniMaxDesign五场景文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "036222bc-649e-4335-bcbe-dfdf028d4214",
+      "anchors": [
+        {
+          "text": "整个 Agent 不是直接一次性生成视频，中途会多次跟我确认画面方向、风格细节",
+          "location": "场景一“科普视频”中段"
+        },
+        {
+          "text": "内测阶段不要对精细口型抱过高期待。",
+          "location": "场景二“说唱MV”后半段"
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "id": "2247485947_1",
+      "title": "实测 Sd2.5｜普通人也能AI造星了：拍戏、打歌、做账号再接代言（附全流程）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247485947&idx=1&sn=8ab2f99ca0e308e4d24a7b606fdc6664",
+      "published": "2026-08-09 18:43",
+      "raw_path": "raw/article/洛洛AI说/实测 Sd2.5｜普通人也能AI造星了：拍戏、打歌、做账号再接代言（附全流程）-fa235315-8139a0c463.md",
+      "raw_sha256": "476f57001b94970e9df79969fab2270d3530495d2ef8a5e4e8e9f6cbb9616ee5",
+      "source_page": "wiki/sources/洛洛AI说：洛洛：Seedance 2.5＋LibTV造星闭环.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "62467a8f-35ae-4144-a176-af21fdb274a8",
+      "anchors": [
+        {
+          "text": "遇到表演、画面不满意，直接选中局部片段就可以重拍",
+          "location": "“第一步：拍摄剧集”末段"
+        },
+        {
+          "text": "本次局部重拍耗时10分钟，仅消耗200多个积分。",
+          "location": "“第二步：追加打歌舞台MV片段”末段"
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "id": "2247485946_1",
+      "title": "实测全网最低价！在RunningHub用满血Sd2.5，0基础1天搞定顶级国风漫剧（保姆级教程）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247485946&idx=1&sn=ca2b1658804da774992b7261e179d9de",
+      "published": "2026-08-09 12:05",
+      "raw_path": "raw/article/洛洛AI说/实测全网最低价！在RunningHub用满血Sd2.5，0基础1天搞定顶级国风漫剧（保姆级教程）-26612e0c-5289adda86.md",
+      "raw_sha256": "5be8d3148e70f52e05bf397a4696fbe70d23ac6ad7d0ed0c3398309ede4d1284",
+      "source_page": "wiki/sources/洛洛AI说：洛洛：RunningHub国风漫剧实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "8b20d7da-de3d-489e-b218-b14288e4bfe5",
+      "anchors": [
+        {
+          "text": "短短两分钟，平台就输出了完整分集剧本。",
+          "location": "“第一步：AI智能拆解剧本”中段"
+        },
+        {
+          "text": "创作过程中我首次生成灵鸟绛雪时，模型出现识别偏差",
+          "location": "“第二步：锁定画风人设”末段"
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "id": "2247485825_1",
+      "title": "OiiOii 把 MiniMax H3 打到 0.1 元/秒，一天能做8集3D动漫（附全流程 ）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247485825&idx=1&sn=e0b034330537689b496801a855ccd432",
+      "published": "2026-08-05 09:00",
+      "raw_path": "raw/article/洛洛AI说/OiiOii 把 MiniMax H3 打到 0.1 元_秒，一天能做8集3D动漫（附全流程 ）-39233b2b-037d4b1403.md",
+      "raw_sha256": "46d452e0a660baf159cc74a7c61daf5d962739dd3b4c2f73670c5b5a7fc5d225",
+      "source_page": "wiki/sources/洛洛OiiOii国风漫剧文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "50c5e430-23aa-4ed4-b59e-755e519e21b4",
+      "anchors": [
+        {
+          "text": "这次一共有8个角色。在设计角色的时候，可以提供图文或者具体的文字描述",
+          "location": "角色设计师Agent段落"
+        },
+        {
+          "text": "下一步直接做分镜，这次连续制作了19个镜头。",
+          "location": "分镜生成段落开头"
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "id": "2247485760_1",
+      "title": "MiniMax H3 杀疯了，能力对标 Seedance 2.5，“白菜价”0.23 元/秒",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247485760&idx=1&sn=471624e720e5e51930db4ccc4a86006a",
+      "published": "2026-08-04 16:43",
+      "raw_path": "raw/article/洛洛AI说/MiniMax H3 杀疯了，能力对标 Seedance 2.5，“白菜价”0.23 元_秒-cd114e68-fbc1bda4a2.md",
+      "raw_sha256": "5fb7f1cec25e78d8995035311a3c6c839a18657e7eace7fea6663c5e1ae4d947",
+      "source_page": "wiki/sources/洛洛AI说：洛洛&Sunny：MiniMax H3六场景商用测评.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "4e0873b5-454a-49b9-ab95-f825c85f34c8",
+      "anchors": [
+        {
+          "text": "只有能做到精准控制，才能实现真正商用",
+          "location": "开头总论，“多模态、可控以及商用”之后"
+        },
+        {
+          "text": "我跑了6个商业场景的视频，各位读者老师看完就明白效果如何。",
+          "location": "开头总论末段"
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "id": "2247485537_1",
+      "title": "Agent卷到视频生成领域了，LibTV支持100+Skill ！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247485537&idx=1&sn=3a06c7d8edf4aab9f3ce02b8af4177a0",
+      "published": "2026-07-14 15:31",
+      "raw_path": "raw/article/洛洛AI说/Agent卷到视频生成领域了，LibTV支持100+Skill ！-c7ed96e6-e5b3bf6faf.md",
+      "raw_sha256": "f8f3a84c51cb2215ca493bf178cc889c6da1fe033cf6c9cc58092f87ac4da8e5",
+      "source_page": "wiki/sources/洛洛AI说：洛洛：LibTV Agent与Skill五片实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "0fb3c32f-71f4-497c-a4ee-afbe221201fa",
+      "anchors": [
+        {
+          "text": "我只输入了一段提示词，整个工作流就串好了。",
+          "location": "“做个有爆款潜力的女频短剧”小节中部"
+        },
+        {
+          "text": "故事板让我可以对短片有一个整体的把控",
+          "location": "女频短剧小节，双视图编辑说明段"
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "id": "2247485394_1",
+      "title": "7月最新汇总：国内外Token羊毛大合集（建议收藏）！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247485394&idx=1&sn=72cfdb3daf11ea1388bbfb59aec6737f",
+      "published": "2026-07-11 22:17",
+      "raw_path": "raw/article/洛洛AI说/7月最新汇总：国内外Token羊毛大合集（建议收藏）！-758b409a-23071880e1.md",
+      "raw_sha256": "3f76b3ded5b9383373406cfb78c4bda5ec3dce5ee933aa44c576871cb2523e84",
+      "source_page": "wiki/sources/洛洛AI说：星辰&洛洛：7月免费Token盘点.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "3e134214-4ca5-4cc7-8247-469f16d64ad7",
+      "anchors": [
+        {
+          "text": "小提醒，你可能会发现免费模型是滚动更新的",
+          "location": "【3】OpenCode小节"
+        },
+        {
+          "text": "先把能领的免费额度都领到手，拿真实任务去跑",
+          "location": "“洛洛有话说”结尾建议段"
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "id": "2247485349_1",
+      "title": "告别千篇一律的AI脸，这或许才是短剧创作者的第一选择",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247485349&idx=1&sn=a8df9dfe42835110ba10376ae61a713b",
+      "published": "2026-07-01 23:32",
+      "raw_path": "raw/article/洛洛AI说/告别千篇一律的AI脸，这或许才是短剧创作者的第一选择-a49ed849-aa89066ee6.md",
+      "raw_sha256": "5e6a061bccb9644bfffec732f78be77a1f20c82be9feef3c042c2dc534daebd3",
+      "source_page": "wiki/sources/洛洛AI说：洛洛：LibTV短剧工作流实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "a99818f0-7eb3-47cc-83ca-a689bda7baec",
+      "anchors": [
+        {
+          "text": "整个使用的过程就是把原图拖进LibTV画布",
+          "location": "案例一“拒绝AI脸，拉回真人感”操作段"
+        },
+        {
+          "text": "一整组7个分镜图几分钟全出了。",
+          "location": "案例三“从剧本到分镜一个晚上跑完”结果段"
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "id": "2247485086_1",
+      "title": "横评4大顶流模型，哪个更适合办公室白领？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247485086&idx=1&sn=d219328bab21a18068c872ee7ff5c976",
+      "published": "2026-06-26 21:58",
+      "raw_path": "raw/article/洛洛AI说/横评4大顶流模型，哪个更适合办公室白领？-b9c77a30-f126614475.md",
+      "raw_sha256": "931401f1d2019add43ad9278cb472208289f3deb304c79e5337f1a84f63238a8",
+      "source_page": "wiki/sources/洛洛AI说：洛洛：四大白领模型横评.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "bf060f9a-0c03-4b8b-bdc0-30bcebd3d980",
+      "anchors": [
+        {
+          "text": "这些场景大模型表现如何，光看跑分根本选不出来。",
+          "location": "开头测试方法说明段"
+        },
+        {
+          "text": "我不怕大模型读不清，就怕它读不清还瞎编。",
+          "location": "第一步MiniMax M3评价段"
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "id": "2247484917_1",
+      "title": "万亿智谱，实力如何？ GLM-5.2 横评 Claude Opus 4.8、GPT-5.5 、 DeepSeek V4 pro、Kimi 2.7 Code",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247484917&idx=1&sn=e3c6be312079a0fac2bd9306021a3208",
+      "published": "2026-06-24 06:13",
+      "raw_path": "raw/article/洛洛AI说/万亿智谱，实力如何？ GLM-5.2 横评 Claude Opus 4.8、GPT-5.5 、 DeepSeek V4 pro、Kimi 2.7 Code-a3c29b5d-a45dfdf50e.md",
+      "raw_sha256": "8faa695de25a38e6c2218cc051cf59ae50c90bcca909b5ac21c40a06df2e3468",
+      "source_page": "wiki/sources/洛洛AI说：yuye&洛洛：GLM-5.2代码横评.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "7c581e0d-1729-414d-8533-65ae6d7949e3",
+      "anchors": [
+        {
+          "text": "从 0 写一个小工具，看基础交付能力",
+          "location": "案例实测Case 1标题"
+        },
+        {
+          "text": "工程审慎更细：明确说不动 types.ts / data / ArticleDetail.tsx",
+          "location": "Case 3的GLM-5.2评价段"
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "id": "2247484871_1",
+      "title": "6月额度翻倍！连肝24小时的 Kimi Work 帮了我大忙",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247484871&idx=1&sn=5a25a55dcf399265a4e38a8ef7c9f1e9",
+      "published": "2026-06-22 17:45",
+      "raw_path": "raw/article/洛洛AI说/6月额度翻倍！连肝24小时的 Kimi Work 帮了我大忙-1f6c0f13-5cc5935b9a.md",
+      "raw_sha256": "0c7adf8187703b3998c813764ca7d6188cd269bd6274f64856f2d4305f3c08d0",
+      "source_page": "wiki/sources/洛洛AI说：洛洛：Kimi Work整理资料实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "29eeac59-ee1f-4b1c-86c8-858e8a611de6",
+      "anchors": [
+        {
+          "text": "几百个文件，不到半小时全改完，名字工工整整。",
+          "location": "Case 1结果段"
+        },
+        {
+          "text": "要的是 10 万字，实际给了约 26 万字",
+          "location": "Case 3长报告结果段"
+        }
+      ]
+    },
+    {
+      "rank": 26,
+      "id": "2247484719_1",
+      "title": "百度办公Agent实测：成本降了75%，能力依旧在线",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247484719&idx=1&sn=c6772880bc3db239ba828e989c738761",
+      "published": "2026-06-18 16:24",
+      "raw_path": "raw/article/洛洛AI说/百度办公Agent实测：成本降了75%，能力依旧在线-81a8766f-51a53957e1.md",
+      "raw_sha256": "fa3f56ecc276098ad1d71d56ad5aa6e3908d1252a6b2ca07313524aa582b10ac",
+      "source_page": "wiki/sources/洛洛AI说：洛洛：百度DuMate长链办公实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "54126a4e-f5f2-4c7f-81fa-986b335a83cd",
+      "anchors": [
+        {
+          "text": "Token 消耗降低 75% 真正的看点，是 Agent 的工程能力",
+          "location": "开头升级说明段"
+        },
+        {
+          "text": "报告里的具体数字和关键事实，建议人工再核一遍",
+          "location": "竞品调研案例结尾"
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "id": "2247484605_1",
+      "title": "实测办公小浣熊桌面端2.0，打工人必备神器！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247484605&idx=1&sn=746d17564036adfb7c47e42e07a4eea9",
+      "published": "2026-06-17 16:16",
+      "raw_path": "raw/article/洛洛AI说/实测办公小浣熊桌面端2.0，打工人必备神器！-90df86e2-865ee3c536.md",
+      "raw_sha256": "22dabda2a4c0655c13bf84ae02b6130c89dcce3ba12ab9596e583bc9b5f46c6a",
+      "source_page": "wiki/sources/洛洛AI说：洛洛：办公小浣熊2.0选题流实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "3a603b4b-dc43-47b9-b666-c1585c4fd6ee",
+      "anchors": [
+        {
+          "text": "我给自己定了个小目标，让 AI 每天早上8点",
+          "location": "开头产品与目标段"
+        },
+        {
+          "text": "大约5分钟左右，就产出一份近一周的 AI 动态清单",
+          "location": "第三步热点抓取结果段"
+        }
+      ]
+    },
+    {
+      "rank": 28,
+      "id": "2247484364_1",
+      "title": "AI 看得越多越焦虑？6 本书 + 3 门课，帮你把认知一次补齐",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247484364&idx=1&sn=790f38062840fd78a19fcb7f41f42f8b",
+      "published": "2026-06-10 07:42",
+      "raw_path": "raw/article/洛洛AI说/AI 看得越多越焦虑？6 本书 + 3 门课，帮你把认知一次补齐-114d15b7-3b4b6a97c5.md",
+      "raw_sha256": "d55206c84a1a821cb9e5bc9811d3b87b5b47b3a7adae77e71971852390ec1d5b",
+      "source_page": "wiki/sources/洛洛AI说：潘达&洛洛：AI通识书课地图.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "81092b39-0b83-4df4-9d9c-bcf19af1185a",
+      "anchors": [
+        {
+          "text": "我刻意避开了两类内容，一类是门槛过高的专业教材",
+          "location": "开头，第6段"
+        },
+        {
+          "text": "地图替不了脚下的路，但能让您少走弯路。",
+          "location": "“写在最后”中后段"
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "id": "2247484341_1",
+      "title": "国内六大顶流大模型，谁是第一？DeepSeek竟成倒数（万字长文）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247484341&idx=1&sn=2607ea4f156efc16b0cf14cb1cbf5faf",
+      "published": "2026-06-08 06:00",
+      "raw_path": "raw/article/洛洛AI说/国内六大顶流大模型，谁是第一？DeepSeek竟成倒数（万字长文）-da46df22-20ea21009c.md",
+      "raw_sha256": "81b453b6cdf9ebe2c25d18a9d4361946c527cc455e2ee4318bc37d43d2c62040",
+      "source_page": "wiki/sources/洛洛AI说：yuye&洛洛：六大国模七案横评.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "f6da0049-5129-4e0a-a507-89f1c019882d",
+      "anchors": [
+        {
+          "text": "本次测试统一接入的是 OpenCode ，使用 build 模式",
+          "location": "开头，测试方法段"
+        },
+        {
+          "text": "真正重要的不是追着榜单换模型，而是根据任务选择最合适的工具。",
+          "location": "“写在最后”第2段"
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "id": "2247484062_1",
+      "title": "马斯克、哈萨比斯都绕不开的15部AI影片，看完聊AI不再外行（建议收藏）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247484062&idx=1&sn=0deeac24faed7f3dadc5e6a646b92dfd",
+      "published": "2026-06-07 06:00",
+      "raw_path": "raw/article/洛洛AI说/马斯克、哈萨比斯都绕不开的15部AI影片，看完聊AI不再外行（建议收藏）-25011f2b-ce5021fe93.md",
+      "raw_sha256": "011963b95760e7e3a98ad7e6d58840743ed4167f6dedc3c61f5659aefb0c99f5",
+      "source_page": "wiki/sources/洛洛AI说：潘达&洛洛：15部AI影片祛魅.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "9d1edc74-003c-4aa2-8e83-99e0f6cb527f",
+      "anchors": [
+        {
+          "text": "其实最快的祛魅方式，或许是看片。",
+          "location": "开头，第3段"
+        },
+        {
+          "text": "最好的AI电影，落点从来都在人身上。",
+          "location": "“写在最后”开头"
+        }
+      ]
+    }
+  ]
+}

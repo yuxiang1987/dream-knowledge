@@ -1,0 +1,14 @@
+[
+  {
+    "model": "slow",
+    "input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-input-full-10.json",
+    "output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-output-10.json",
+    "article_ids": [
+      "2247563930:1",
+      "2247563808:1",
+      "2247563726:2"
+    ],
+    "input_scope": "完整raw原文，未截断；媒体未核看",
+    "status": "completed"
+  }
+]

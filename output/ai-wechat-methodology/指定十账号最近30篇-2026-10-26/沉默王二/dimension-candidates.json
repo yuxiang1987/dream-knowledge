@@ -1,0 +1,306 @@
+{
+  "author": "沉默王二",
+  "scope": "最近30篇完整正文文字；候选维度，不代表已实操指标",
+  "articles": [
+    {
+      "rank": 1,
+      "source_page": "wiki/sources/携程职场引子与Agent编排问答拆解.md",
+      "dimensions": [
+        "标题承诺与主体一致度",
+        "Agent 编排与上下文机制完整度",
+        "安全控制及人工介入成本",
+        "案例可复现证据强度"
+      ]
+    },
+    {
+      "rank": 2,
+      "source_page": "wiki/sources/PDD古法编程引子与Skill事务问答拆解.md",
+      "dimensions": [
+        "标题效率主张的证据充分度",
+        "概率模型与交易代码边界",
+        "库存幂等及事务方案完整度",
+        "故障验证与人工运维成本"
+      ]
+    },
+    {
+      "rank": 3,
+      "source_page": "wiki/sources/豆包工作两天课程备课文章拆解.md",
+      "dimensions": [
+        "标题与任务过程兑现度",
+        "输入资产及人工审核成本",
+        "多阶段工作流可复现性",
+        "效率主张与商业披露完整度"
+      ]
+    },
+    {
+      "rank": 4,
+      "source_page": "wiki/sources/小米晋升引子与Agent工程问答拆解.md",
+      "dimensions": [
+        "标题职场叙事与技术主体的衔接度",
+        "Agent评测证据链完整度",
+        "亲测、官方信息与论文转述的标注清晰度",
+        "面试答案的可复现性与人工成本披露"
+      ]
+    },
+    {
+      "rank": 5,
+      "source_page": "wiki/sources/Codex辞职信引子与Agent安全问答拆解.md",
+      "dimensions": [
+        "职场隐私标题与系统设计主体的断裂程度",
+        "历史测试数字的复测与环境披露",
+        "千沙箱方案的实测性和容量证据",
+        "故障恢复机制中的人工介入成本"
+      ]
+    },
+    {
+      "rank": 6,
+      "source_page": "wiki/sources/应届生依赖AI引子与Agent问答拆解.md",
+      "dimensions": [
+        "职场争议与RAG面试题的标题兑现度",
+        "检索和引用治理的指标结果披露",
+        "反馈闭环中的自动化与人工返工边界",
+        "阈值选择、延迟和模型调用成本的可解释性"
+      ]
+    },
+    {
+      "rank": 7,
+      "source_page": "wiki/sources/芯片薪资引子与Agent工程问答拆解.md",
+      "dimensions": [
+        "标题承诺与主体一致度",
+        "信息来源与亲测边界",
+        "硬件参数的可核验性",
+        "面试知识的可复现程度"
+      ]
+    },
+    {
+      "rank": 8,
+      "source_page": "wiki/sources/豆包工作无限画布创作流程拆解.md",
+      "dimensions": [
+        "端到端任务完成度",
+        "人工介入与返工成本",
+        "局部编辑和版本管理能力",
+        "商业披露与复现透明度"
+      ]
+    },
+    {
+      "rank": 9,
+      "source_page": "wiki/sources/宇宙厂职级引子与Agent问答拆解.md",
+      "dimensions": [
+        "标题职场叙事与RAG主体衔接",
+        "检索链路与降级完整性",
+        "评测证据和人工标注成本",
+        "参数结论的可迁移性"
+      ]
+    },
+    {
+      "rank": 10,
+      "source_page": "wiki/sources/海康工时引子与Agent工程问答拆解.md",
+      "dimensions": [
+        "标题承诺与正文兑现度",
+        "工程案例的可复现证据完整度",
+        "异常兜底与资源治理深度",
+        "亲测、转述和官方信息的标注清晰度"
+      ]
+    },
+    {
+      "rank": 11,
+      "source_page": "wiki/sources/OPPO职级引子与Agent工程问答拆解.md",
+      "dimensions": [
+        "职场标题与技术主体的断裂程度",
+        "异步任务幂等与恢复方案完整度",
+        "容量阈值的压测依据充分度",
+        "方案描述与实际部署证据区分度"
+      ]
+    },
+    {
+      "rank": 12,
+      "source_page": "wiki/sources/轻量开源Muse项目文章拆解.md",
+      "dimensions": [
+        "标题对产品能力的兑现度",
+        "本地复现信息与证据完整度",
+        "无人值守任务恢复机制成熟度",
+        "隐私安全边界与竞品差距透明度"
+      ]
+    },
+    {
+      "rank": 13,
+      "source_page": "wiki/sources/豆包工作SSH服务器运维文章拆解.md",
+      "dimensions": [
+        "生产操作的权限边界与回滚证据",
+        "提示词输入完整度与人工校对成本",
+        "Agent发版相对人工发版的时间对照",
+        "浏览器验收的可复现证据链"
+      ]
+    },
+    {
+      "rank": 14,
+      "source_page": "wiki/sources/罗福莉晋升与技术人物文章拆解.md",
+      "dimensions": [
+        "职场标题与技术主体的兑现程度",
+        "官方资料、第三方评测与作者推断的来源分层",
+        "模型迭代指标的统一口径与可复现性",
+        "个人晋升与团队成果之间的因果边界"
+      ]
+    },
+    {
+      "rank": 15,
+      "source_page": "wiki/sources/ClaudeOpus焚诀工作规范文章拆解.md",
+      "dimensions": [
+        "不同effort档位的成功率、时长与token成本",
+        "完成标准和停止条件对中途停顿的影响",
+        "单Agent与Sub-agent并行任务的证据可靠性",
+        "作者亲测、第三方案例与官方信息的证据分层"
+      ]
+    },
+    {
+      "rank": 16,
+      "source_page": "wiki/sources/DeepSeek桌面客户端文章拆解.md",
+      "dimensions": [
+        "桌面版与WebUI的步骤、耗时和资源占用",
+        "插件能力与宿主级权限风险",
+        "亲测结果、源码推断与官方信息的证据分层",
+        "非程序员便利性与高级用户可控性"
+      ]
+    },
+    {
+      "rank": 17,
+      "source_page": "wiki/sources/华为芯片薪资引子与Agent问答拆解.md",
+      "dimensions": [
+        "职场八卦标题与Agent面试题主体的匹配度",
+        "方案型回答与真实项目证据的区分",
+        "检索、生成和引用评估指标完整度",
+        "自动化收益与人工复核成本"
+      ]
+    },
+    {
+      "rank": 18,
+      "source_page": "wiki/sources/Codex接入JevSkill文章拆解.md",
+      "dimensions": [
+        "Jev、规则与通用大模型的路由准确率",
+        "置信度阈值与人工转审率",
+        "延迟、Token与真实调用成本",
+        "单次调用链成功与端到端任务质量"
+      ]
+    },
+    {
+      "rank": 19,
+      "source_page": "wiki/sources/飞书豆包工作协同用法文章拆解.md",
+      "dimensions": [
+        "大批量文档导入成功率与耗时",
+        "检索答案的引用准确率",
+        "自动分类质量与人工返工量",
+        "定时复盘对未读内容的识别效果"
+      ]
+    },
+    {
+      "rank": 20,
+      "source_page": "wiki/sources/国产模型性价比体验文章拆解.md",
+      "dimensions": [
+        "同等质量门槛下的单次成功任务成本",
+        "首次交付自动验收通过率",
+        "任务总时长与token消耗",
+        "人工修复次数及分钟数"
+      ]
+    },
+    {
+      "rank": 21,
+      "source_page": "wiki/sources/MiniMaxCode开源工作流文章拆解.md",
+      "dimensions": [
+        "长任务稳定性与上下文保持",
+        "权限确认次数及人工耗时",
+        "Turn隔离和扩展故障恢复能力",
+        "任务token成本与首次完成率"
+      ]
+    },
+    {
+      "rank": 22,
+      "source_page": "wiki/sources/KimiCode桌面版迭代与对照文章拆解.md",
+      "dimensions": [
+        "首个可运行版本耗时与最终交付耗时",
+        "同提示词下视觉质量与功能完整性",
+        "人工追加提示、素材补充及返工次数",
+        "模型费用、失败率与多轮复现稳定性"
+      ]
+    },
+    {
+      "rank": 23,
+      "source_page": "wiki/sources/浏览器操作录制Skill文章拆解.md",
+      "dimensions": [
+        "首次录制配置时间与后续单次回放时间",
+        "评论漏采率、重复率及回复状态识别准确率",
+        "页面布局变化后的回放成功率与人工接管次数",
+        "文档/多维表格写入完整性及权限风险"
+      ]
+    },
+    {
+      "rank": 24,
+      "source_page": "wiki/sources/Seed模型升级案例文章拆解.md",
+      "dimensions": [
+        "旧版与0915同题多轮的一次通过率",
+        "需求覆盖率、Bug数量与严重度",
+        "自检发现率、外部测试发现率及修复回归率",
+        "人工干预时间、跨工具总耗时与模型费用"
+      ]
+    },
+    {
+      "rank": 25,
+      "source_page": "wiki/sources/Codex焚决工作规范文章拆解.md",
+      "dimensions": [
+        "规则瘦身前后无意义确认次数",
+        "Skill误触发率与上下文token消耗",
+        "固定任务成功率与人工返工次数",
+        "安全边界保留完整度"
+      ]
+    },
+    {
+      "rank": 26,
+      "source_page": "wiki/sources/RustFS存储正式版文章拆解.md",
+      "dimensions": [
+        "小对象与大对象吞吐/尾延迟",
+        "迁移完整性、停机时间与回滚成本",
+        "S3 API及元数据兼容覆盖率",
+        "部署运维复杂度与人工工时"
+      ]
+    },
+    {
+      "rank": 27,
+      "source_page": "wiki/sources/小米年终奖引子与Agent问答拆解.md",
+      "dimensions": [
+        "标题主题与正文主体一致度",
+        "Agent方案已实现项与设想项占比",
+        "上下文压缩后的约束召回率",
+        "人工审批次数、返工率与回滚成本"
+      ]
+    },
+    {
+      "rank": 28,
+      "source_page": "wiki/sources/宇宙厂总包引子与Agent问答拆解.md",
+      "dimensions": [
+        "标题承诺与正文兑现度",
+        "面试题证据层级与来源标注",
+        "Agent流程中的人工复核成本",
+        "答案可运行性与边界条件"
+      ]
+    },
+    {
+      "rank": 29,
+      "source_page": "wiki/sources/DeepSeekFlash与Blender复刻文章拆解.md",
+      "dimensions": [
+        "首次交付完成率与人工返工",
+        "指令遵循及流程可控性",
+        "Token、耗时与版本可比性",
+        "多模态和工具链兼容性"
+      ]
+    },
+    {
+      "rank": 30,
+      "source_page": "wiki/sources/DeepSeekFlash首批任务体验拆解.md",
+      "dimensions": [
+        "首次生成通过率与随机稳定性",
+        "功能完整度及已知缺陷",
+        "人工返工、Token与时间成本",
+        "作者观察、裁判评分与自动测试的一致性"
+      ]
+    }
+  ]
+}

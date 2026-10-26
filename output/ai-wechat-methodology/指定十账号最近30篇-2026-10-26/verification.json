@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-26",
+  "commands": [
+    {
+      "command": "python scripts/wiki_lint.py",
+      "exit_code": 0,
+      "pages_including_index_log": 438,
+      "warnings": 5,
+      "warning_kind": "既有空sources，均在日志说明；无结构错误"
+    },
+    {
+      "command": "python -m unittest discover -s scripts -p test_recent_benchmark_acquisition.py",
+      "exit_code": 0,
+      "tests": 5
+    },
+    {
+      "command": "python -m unittest discover -s scripts -p test_distillation_coverage.py",
+      "exit_code": 0,
+      "tests": 2
+    },
+    {
+      "command": "python -m unittest discover -s scripts -p test_installed_skills.py",
+      "exit_code": 0,
+      "tests": 5
+    }
+  ],
+  "smoke": {
+    "article_records": 300,
+    "unique_source_pages": 299,
+    "all_raw_hashes_match": true,
+    "all_anchors_locatable_on_both_sides": true,
+    "all_author_navigation_reachable": true,
+    "frozen_raw_files": 455,
+    "indexed_raw_blobs_byte_identical": 300,
+    "preexisting_raw_outside_attribute_rules": 155
+  },
+  "not_verified": [
+    "图片动图视频",
+    "产品实际效果",
+    "当前价格与活动",
+    "商业付款",
+    "同口径传播基线"
+  ]
+}

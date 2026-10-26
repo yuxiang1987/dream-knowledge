@@ -1,0 +1,630 @@
+{
+  "model": "slow",
+  "task": "仅修复指定失效锚点，不重写分析正文",
+  "changed_ranks": [
+    20,
+    21,
+    23,
+    25,
+    26,
+    28
+  ],
+  "slow_outputs": [
+    {
+      "articles": [
+        {
+          "rank": 20,
+          "anchors": [
+            {
+              "text": "Skill 不是模板，模板是固定版式改改文字颜色就完了。Skill 是一段方法：明确设计意图 → 选择细分 Skill → 分阶段生成 → 中途纠偏 → 满意了还能保存为个人 Skill。",
+              "location": "01「Skill：我传了两个自己做的」概念说明段，支持“Skill是可纠偏、可保存复用的方法而非固定模板”的判断。"
+            },
+            {
+              "text": "下一步，生成淘宝电商头图。第一版跑出来不太行，排版和配色有点生硬。这时候 Lovart 的灵感采集就派上用场了。",
+              "location": "02「KPA 品牌全案」电商头图首次生成结果段，支持作者明确展示失败版本并进行后续参考图纠偏的判断。"
+            }
+          ]
+        },
+        {
+          "rank": 21,
+          "anchors": [
+            {
+              "text": "Hy3 这版就翻车了，没办法正常运行游戏",
+              "location": "01「同一提示词，差距藏不住」MINI VICE对照段，支持该次测试中Hy3版本无法正常运行、而文章据此比较两代完成度的判断。"
+            },
+            {
+              "text": "它当然还不完美。个别任务里，Hy4 会陷入死循环，需要临时切换其他模型救场。",
+              "location": "04「写在最后」局限披露段，支持Hy4仍可能死循环且需要人工切换模型救场的证据边界判断。"
+            }
+          ]
+        },
+        {
+          "rank": 23,
+          "anchors": [
+            {
+              "text": "没检到数英那篇同名报告，就老实标注用获奖案例替代。不编数据，只拿当时能抓到的。",
+              "location": "01「调研和分析不能省」抓情报结果段，支持Agent在未检索到指定报告时标注替代来源、而非虚构数据的作者观察。"
+            },
+            {
+              "text": "三个赛道：AI 学习搭子、社团搞事、校园搞钱。我填了条测试数据，顺利拿到搭子编号DZ-MONEY-35695。",
+              "location": "03「提案能看，落地能跑」报名H5测试段，支持作者实际提交一条测试数据并跑通单次报名路径的判断。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "articles": [
+        {
+          "rank": 25,
+          "anchors": [
+            {
+              "text": "分镜的核心单位是节拍——一次有意义的变化",
+              "location": "01「别写电影感，写清怎么拍」中“一、节拍与景别”首段，支持正文关于节拍是分镜方法论最小单位的判断。"
+            },
+            {
+              "text": "模型能照着执行\"缓慢前推至他的指尖\"，但不会告诉你这一拍为什么要推",
+              "location": "文末「写在最后」第二段，支持正文关于模型负责执行、创作者负责判断镜头动机的边界判断。"
+            }
+          ]
+        },
+        {
+          "rank": 26,
+          "anchors": [
+            {
+              "text": "我把过去一年发过的8 篇公众号文章交给灵犀，让它整理《2026 年 AI 提示词实战指南》书稿、做宣传 PPT，最后用 Remotion 生成了这支 1080P 视频。",
+              "location": "开头 VIDEO 01 成片说明后的段落，支持正文对实测输入、任务链和视频输出的概括。"
+            },
+            {
+              "text": "真正的 AI 办公，应从交付内容走向交付结果。",
+              "location": "04「底座在，文件才交得出去」后半段、进入「写在最后」之前，支持正文所述全文的核心判断标准。"
+            }
+          ]
+        },
+        {
+          "rank": 28,
+          "anchors": [
+            {
+              "text": "真正拼的是产品力——模型出到哪，功能就适配到哪",
+              "location": "导语第二段介绍 LibTV 为 Seedance 2.5 增加新功能处，支持正文关于平台价值在于把模型能力转化为适配功能的判断。"
+            },
+            {
+              "text": "复刻如果看起来太像原片，别人会以为你在洗片。",
+              "location": "03「逐帧拉片，把爆款拆成参考」末段，支持正文关于参考迁移存在相似性与版权识别风险的判断。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "validation_rule": "V(t)=html.unescape(re.sub(r'<[^>]+>','',t)); 每条text同时逐字连续存在于V(raw)及V(source)，每篇至少2条",
+  "account_article_count": 30,
+  "passed_count": 30,
+  "articles": [
+    {
+      "rank": 1,
+      "source_page": "wiki/sources/摸鱼小李_AI路演与一人公司.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "这些关系理顺了，智能体才接得上",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "一个人也可以先把产品发出来，边做边和用户聊",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "source_page": "wiki/sources/摸鱼小李_Kimi K3.1六项3D测试.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "一次只看一件事",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "最难的不是展开，是合上",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "source_page": "wiki/sources/摸鱼小李_意图模型接入四款游戏.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "把一句话变成系统能执行的一张单子",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "意图和字段要定义清楚",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "source_page": "wiki/sources/摸鱼小李_咖啡店五个AI工具.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "很难根据自己的个性化需求随时加功能",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "咖啡店只是一个切口",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "source_page": "wiki/sources/摸鱼小李_STEPX共创AI电音台.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "打开阶跃 Amoo，告诉它你想要什么样的音乐",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "不会写代码，也能把一个想法做成 App 或者智能体",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "source_page": "wiki/sources/摸鱼小李_Lovart2.0设计委托实测.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "委托是把一整件事交出去",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "改不改由我来定",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "source_page": "wiki/sources/摸鱼小李_WorkBuddy本地文件AI实测.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "在本地文件上点右键，选择「打开方式」，找到 WorkBuddy",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "现在 PDF 暂时还不能编辑，只能查看",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "source_page": "wiki/sources/摸鱼小李_豆包设计画布应援实测.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "它先把能做的品类摆出来，我从里面挑就行",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "参考图、中间稿和成品都摆在一起",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "source_page": "wiki/sources/摸鱼小李_Eazo完整产品链.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "每一步，都是完整产品",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "交付时说清楚验证了什么、还有什么限制",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "source_page": "wiki/sources/摸鱼小李_千帆四款游戏成本实测.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "末尾不要带斜杠",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "缓存命中的部分最便宜",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "source_page": "wiki/sources/摸鱼小李_Hypit克隆视频框架.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "说句实话，它做不到一键出片",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "你改一句词，整条自己重排",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "source_page": "wiki/sources/摸鱼小李_启元个人机器人发布会.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "不是能力问题，是价格问题",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "最终要靠交付兑现",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "source_page": "wiki/sources/摸鱼小李_Seed2.1Pro多任务实测.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "所以，我想动手实测一下，这几个月的进步",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "人要花多少时间盯着、纠错",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "source_page": "wiki/sources/摸鱼小李_魔搭紫皮书发布说明.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "把选型、部署、微调和评测讲清楚",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "把一人的用法，变成更多人用得上的方法",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "source_page": "wiki/sources/摸鱼小李_录制浏览器Skill实测.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "你演示一遍自己怎么做",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "录制的动作能复用，但离完全省心还有一段距离",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "source_page": "wiki/sources/摸鱼小李_小红花公益入口随笔.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "缺的不是想捐的心，是那个刚好在眼前的入口。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "普通人一点点来就行",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "source_page": "wiki/sources/摸鱼小李_Qoder无代码产品实测.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "先把想法变成一个能点的 demo",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "我点了头它才动手",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "不合成他的声音，不做照片动脸，不做能聊天的“数字人”",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "source_page": "wiki/sources/摸鱼小李_飞书底座与豆包工作.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "先立一份「制度」",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "写入后必须回读",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "不需要把 24 张图重新发一遍",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "source_page": "wiki/sources/摸鱼小李_豆包工作蓝皮书开源.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "让更多人把 Agent 用进真实工作，去解决真实问题",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "一条从第一步到跑通的完整路径",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "每个任务都是真实跑通的，才写进去的",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "source_page": "wiki/sources/摸鱼小李_Lovart品牌全案实测.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "Skill 不是模板，模板是固定版式改改文字颜色就完了。Skill 是一段方法：明确设计意图 → 选择细分 Skill → 分阶段生成 → 中途纠偏 → 满意了还能保存为个人 Skill。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "下一步，生成淘宝电商头图。第一版跑出来不太行，排版和配色有点生硬。这时候 Lovart 的灵感采集就派上用场了。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "source_page": "wiki/sources/摸鱼小李_Hy4游戏长任务实测.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "Hy3 这版就翻车了，没办法正常运行游戏",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "它当然还不完美。个别任务里，Hy4 会陷入死循环，需要临时切换其他模型救场。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "source_page": "wiki/sources/摸鱼小李_AI口播四路径拆解.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "把这条从“想讲”到“发出去”的路跑顺",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "很多副业不是输在不会，而是一直在等准备好",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "source_page": "wiki/sources/摸鱼小李_办公小浣熊活动全链路实测.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "没检到数英那篇同名报告，就老实标注用获奖案例替代。不编数据，只拿当时能抓到的。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "三个赛道：AI 学习搭子、社团搞事、校园搞钱。我填了条测试数据，顺利拿到搭子编号DZ-MONEY-35695。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "source_page": "wiki/sources/摸鱼小李_豆包远控多工具实测.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "遥控归遥控，活儿到底干成啥样，还得细说",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "试验田管「试」，不管「养」云电脑最爽的地方：它随时能没",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "source_page": "wiki/sources/摸鱼小李_Seedance2.5商业TVC少抽卡.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "分镜的核心单位是节拍——一次有意义的变化",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "模型能照着执行\"缓慢前推至他的指尖\"，但不会告诉你这一拍为什么要推",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 26,
+      "source_page": "wiki/sources/摸鱼小李_灵犀专业版交付实测.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "我把过去一年发过的8 篇公众号文章交给灵犀，让它整理《2026 年 AI 提示词实战指南》书稿、做宣传 PPT，最后用 Remotion 生成了这支 1080P 视频。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "真正的 AI 办公，应从交付内容走向交付结果。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "source_page": "wiki/sources/摸鱼小李_GLM5.3长程交付实测.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "让 AI 自己把一件大事，拆成很多步，一步一步做完",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "Loop 的关键不是提示词写得花哨",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 28,
+      "source_page": "wiki/sources/摸鱼小李_LibTV榨干Seedance2.5.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "真正拼的是产品力——模型出到哪，功能就适配到哪",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "复刻如果看起来太像原片，别人会以为你在洗片。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "source_page": "wiki/sources/摸鱼小李_Seko3.0四类视频工作流.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "片段加入网页编辑器后，可以直接拖动、排序和做基础剪辑。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "基地给的是入口，不是自动接单",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "source_page": "wiki/sources/摸鱼小李_Qwen3.8四项目实测.md",
+      "passed": true,
+      "anchors": [
+        {
+          "text": "整个过程都在小红书页面里完成，不用来回切。",
+          "raw_continuous": true,
+          "source_continuous": true
+        },
+        {
+          "text": "模型生成成功了，不代表手机跑得动，面数太大还得再压一版。",
+          "raw_continuous": true,
+          "source_continuous": true
+        }
+      ]
+    }
+  ]
+}

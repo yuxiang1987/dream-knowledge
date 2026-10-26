@@ -1,0 +1,706 @@
+{
+  "requested_name": "郭震AI",
+  "resolved_name": "郭震AI",
+  "username": "gh_ce69fa698e90",
+  "alias": "郭震AI",
+  "requested_count": 30,
+  "acquired_at": "2026-10-26T02:55:13.850893+00:00",
+  "article_list_request_ids": [
+    "437a3810-8a39-4286-8517-58fc44b8669d",
+    "4da36756-f753-4e06-946a-4fb089a1c1ef",
+    "84d79061-2380-42e1-bc47-3d945fc1a3c0"
+  ],
+  "list_complete": true,
+  "articles": [
+    {
+      "rank": 1,
+      "id": "2247525604_1",
+      "title": "我让豆包工作读完 150 篇自媒体文章，蒸馏出了一个自媒体军师 Skill（技能），真的太好用了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247525604&idx=1&sn=179f5f4aa33bc2f0874712dcb11d1780",
+      "published": "2026-10-22 20:09",
+      "raw_path": "raw/article/郭震AI/我让豆包工作读完 150 篇自媒体文章，蒸馏出了一个自媒体军师 Skill（技能），真的太好用了！-ba547372-4240e93a31.md",
+      "raw_sha256": "c4fcec34178d00bbbce74132195e199fa10f8807f57a3704545737ccbe6084a6",
+      "source_page": "wiki/sources/郭震AI：郭震：豆包自媒体军师Skill.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "d9214962-0e34-4627-b4ae-b557b68f62c5",
+      "anchors": [
+        {
+          "text": "做自媒体，先别急着学技巧，先搞清楚自己处在哪个阶段",
+          "location": "第一节中部，提出四阶段框架之前"
+        },
+        {
+          "text": "现实预期只引用素材原话，门槛类数字统一提示以后台为准",
+          "location": "第三节末，封装Skill的硬规则处"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2247525554_1",
+      "title": "终于找到一个能学习电脑上万文件的 AI，真的太丝滑了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247525554&idx=1&sn=cf60008cbf66399bbe2b8c6c8703feda",
+      "published": "2026-10-19 14:29",
+      "raw_path": "raw/article/郭震AI/终于找到一个能学习电脑上万文件的 AI，真的太丝滑了！-cb5caa4a-a8b2b476e0.md",
+      "raw_sha256": "129a2126b515d02e963f5e61131a66114181a5a26dfb6e28e8a07706c808470b",
+      "source_page": "wiki/sources/郭震AI：郭震：DeepLocals V3.5.3实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "3e46344d-5316-4a22-9e2b-6dda837fc544",
+      "anchors": [
+        {
+          "text": "就可以做到不到1分钟从几千文件中找答案",
+          "location": "第一节中部，解释RAG价值处"
+        },
+        {
+          "text": "最新版V3.5.3共覆盖69种文件格式",
+          "location": "全文开头，产品规模介绍处"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2247525523_1",
+      "title": "我让豆包Agent读完 100 篇副业文章，蒸馏出一个副业军师 Skill，非常实用！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247525523&idx=1&sn=b746a299d76e0573da1743da518c72e3",
+      "published": "2026-10-15 14:23",
+      "raw_path": "raw/article/郭震AI/我让豆包Agent读完 100 篇副业文章，蒸馏出一个副业军师 Skill，非常实用！-f7b4b51a-5d925efa87.md",
+      "raw_sha256": "dd1c8be718bd0eaaa9c2b385a37ff852d86ecd8f3d74b9404f27b45e3df294dd",
+      "source_page": "wiki/sources/郭震AI：郭震：豆包副业军师Skill.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "68a5018c-20ed-4bc6-ab4e-79e5daed6e05",
+      "anchors": [
+        {
+          "text": "只需输入你所在行业，自动推荐适合你所在行业的副业和完整行动清单",
+          "location": "第1节开头，最终效果说明处"
+        },
+        {
+          "text": "一共544行，25列",
+          "location": "第2节第一步末，副业库抽取结果处"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2247525475_1",
+      "title": "终于实现了！把你的几千个文件这样交给本地大模型，随便问，还不限次！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247525475&idx=1&sn=4013bb26945e7fa0687f278028f8de5c",
+      "published": "2026-10-14 11:22",
+      "raw_path": "raw/article/郭震AI/终于实现了！把你的几千个文件这样交给本地大模型，随便问，还不限次！-a0f357fc-dda193e26c.md",
+      "raw_sha256": "751bdd67c46cb4668d632eface7b41445fb1255e0414b3f1970ea80a816f6021",
+      "source_page": "wiki/sources/郭震AI：郭震：DeepLocals本地知识库实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "343305de-46f0-41dc-81aa-b26a795ba2cc",
+      "anchors": [
+        {
+          "text": "它的出现，就是专门为了解决以上这些问题",
+          "location": "第1节“通用智能体”末段，引出DeepLocals处"
+        },
+        {
+          "text": "从思考到完整回复完成，只有48秒",
+          "location": "第2节“DeepLocals和LLM Wiki区别”中段"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2247525431_1",
+      "title": "睡前给豆包Agent安排写一本书，第二天醒来写好了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247525431&idx=1&sn=b619119f4b4edb511bd258343fb369c9",
+      "published": "2026-10-10 12:51",
+      "raw_path": "raw/article/郭震AI/睡前给豆包Agent安排写一本书，第二天醒来写好了！-d8428ced-cb71fab277.md",
+      "raw_sha256": "b044ff872f7e2736f6da6fbfd8a84a9f8db61989d1ad8b5be8bb0fe4eeab43f7",
+      "source_page": "wiki/sources/郭震AI：郭震：豆包Agent隔夜写书实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "47af4b0a-5486-4d02-b49d-1531cb51b39b",
+      "anchors": [
+        {
+          "text": "所以这次我不让它一口气写完，而是先搭一套写书 Harness",
+          "location": "第1节末段，提出核心方法处"
+        },
+        {
+          "text": "规则先定死，后面才不会跑偏",
+          "location": "第2节第一步“建立全书总纲”段落"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2247525402_1",
+      "title": "最新Qoder实测：Qwen3.8-Flash 直接用，我顺手做了个微信文件搜索神器！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247525402&idx=1&sn=90c8bd9117cd5d32c77523896ab064f5",
+      "published": "2026-09-26 11:14",
+      "raw_path": "raw/article/郭震AI/最新Qoder实测：Qwen3.8-Flash 直接用，我顺手做了个微信文件搜索神器！-269ab552-2897adceab.md",
+      "raw_sha256": "7cfc0df37ec948630c1c60327b116bd68867a89664e636b081d2f0f4d63a6d94",
+      "source_page": "wiki/sources/郭震AI：郭震：Qoder微信文件地图实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "295e9308-8828-4411-ad4a-f77e37d425a4",
+      "anchors": [
+        {
+          "text": "微信原始文件始终只读",
+          "location": "第2节十条需求前的总目标段"
+        },
+        {
+          "text": "某项验收失败时继续修正，不要把“代码已写完”当作任务完成",
+          "location": "第2节第10条需求末句"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2247525363_1",
+      "title": "豆包工作Agent接入这4个Skill，变成你的自媒体工作台！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247525363&idx=1&sn=357d49161e497e59cef3ab27415e7a7c",
+      "published": "2026-09-24 10:50",
+      "raw_path": "raw/article/郭震AI/豆包工作Agent接入这4个Skill，变成你的自媒体工作台！-af47ad9d-4fcc535ebc.md",
+      "raw_sha256": "5aa7ae30412450216f74d6f541ef49c552aab192bb7e62a25a030183000857e4",
+      "source_page": "wiki/sources/郭震AI：郭震：4个Skill搭建自媒体工作台.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "a613af63-cfaa-474d-9eba-7c19da021be8",
+      "anchors": [
+        {
+          "text": "我只演示一次，后面通过一句话就能重新调用",
+          "location": "第2节“素材获取Skill”结果段"
+        },
+        {
+          "text": "选题与观点依然由我把控，但它替我省掉了搜集、排版和拉时间线的重复消耗。",
+          "location": "“最后总结一下”第2段"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2247525362_1",
+      "title": "告别抽卡！实测商汤 U1 Pro：AI生图终于进入“交付级”时代！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247525362&idx=1&sn=70181c866033f845ced7d383eaa7db8f",
+      "published": "2026-09-23 14:30",
+      "raw_path": "raw/article/郭震AI/告别抽卡！实测商汤 U1 Pro：AI生图终于进入“交付级”时代！-5a14897f-21bbdabb2f.md",
+      "raw_sha256": "c7e6631dba3b1f09eac7f11c8a2310b5a35043acf0cdf62729c476686b44a720",
+      "source_page": "wiki/sources/郭震AI：郭震：实测商汤U1 Pro交付级生图.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "3a6b42b3-4fc0-4ce3-8773-62220acd50a6",
+      "anchors": [
+        {
+          "text": "三天三轮实测下来，我最大的感受是：U1 Pro 让 AI 生图从反复抽卡，开始走向真正干活。",
+          "location": "开头末段"
+        },
+        {
+          "text": "准确的问题自检与跨区域精确局部修正",
+          "location": "第3节“测试对复杂图的改图能力”结果分析段"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2247525270_1",
+      "title": "豆包工作Agent实测：Excel和PPT竟然被打通了，现在可以互转！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247525270&idx=1&sn=34bef911d678468eaa789b457b5c089c",
+      "published": "2026-09-20 13:11",
+      "raw_path": "raw/article/郭震AI/豆包工作Agent实测：Excel和PPT竟然被打通了，现在可以互转！-a139850c-0f7f7fa361.md",
+      "raw_sha256": "a7ac6ecc22885d91d13ec92c8a303eee4429db490be5bc26cf1a174c04b5ad91",
+      "source_page": "wiki/sources/郭震AI：郭震：豆包工作打通Excel与PPT.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "c1cb423a-f6f4-4f39-9ccf-e98525d77b26",
+      "anchors": [
+        {
+          "text": "电脑里已有的文件交给它，能不能接着分析，并做成能继续修改的汇报？",
+          "location": "开头第4段"
+        },
+        {
+          "text": "只要说清需求，豆包工作就能直接修改本地Excel，并把新增的“数据洞察”表写回原文件。",
+          "location": "第1节“实测13张Excel表”写回结果段"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2247525208_1",
+      "title": "实测豆包Agent，我完整跑通了3个自媒体工作流，普通人也能上手！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247525208&idx=1&sn=ad5efbff4249de0bf4fb7715c674891f",
+      "published": "2026-09-10 10:10",
+      "raw_path": "raw/article/郭震AI/实测豆包Agent，我完整跑通了3个自媒体工作流，普通人也能上手！-95a46641-2895ee575d.md",
+      "raw_sha256": "5f4e62c381954ce567b82f90b71770f79483b35a7170beddfc6b654ad49cdf08",
+      "source_page": "wiki/sources/郭震AI：郭震：豆包Agent三段式视频工作流.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "98baff56-7cff-4af3-8096-7d6e88c9025f",
+      "anchors": [
+        {
+          "text": "本次只生成旁白稿、分镜表和素材清单，暂时不要生成图片或视频。",
+          "location": "第1节“旁白稿生成工作流”提示词末尾"
+        },
+        {
+          "text": "我直接关掉了本地电脑，随后用手机打开同一个任务",
+          "location": "第3节“合成视频工作流”中后段"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "id": "2247525152_1",
+      "title": "LibTV实测：现在爆款视频可以直接复刻了，人物动作 1:1 还原！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247525152&idx=1&sn=4102ba685762748b15fb0b7819cabf67",
+      "published": "2026-09-06 20:40",
+      "raw_path": "raw/article/郭震AI/LibTV实测：现在爆款视频可以直接复刻了，人物动作 1_1 还原！-8d039915-b6b4ba8271.md",
+      "raw_sha256": "5ef6ca6ffde3392ca372cefaa89802fcf433d0ed37e470bb39c00371d2752b55",
+      "source_page": "wiki/sources/郭震AI：郭震：LibTV深度动捕与口播剪辑实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "0d26c811-2148-43e4-91ea-455cfdb30b92",
+      "anchors": [
+        {
+          "text": "只学习动作和空间关系，不照搬原人物与画风",
+          "location": "第1节第一组舞蹈测试结果后"
+        },
+        {
+          "text": "人物怎么动、往哪里走、镜头怎么跟",
+          "location": "第3节对深度动作捕捉的通俗解释"
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "id": "2247525075_1",
+      "title": "视频 Agent 实测：从剧本到成片，一条短剧竟能这么重新拍！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247525075&idx=1&sn=7ba4f329c2ede183f00ac26d41a0ff9b",
+      "published": "2026-09-03 14:13",
+      "raw_path": "raw/article/郭震AI/视频 Agent 实测：从剧本到成片，一条短剧竟能这么重新拍！-e041377b-9692379251.md",
+      "raw_sha256": "5e85703919a6887228b89b84aab0fb0f2c96173d6f7938f88e442e7345de212b",
+      "source_page": "wiki/sources/郭震AI：郭震：Seko 3.0短剧本地化四链路.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "52fb2859-0550-4d79-a9cb-9413b88cfb54",
+      "anchors": [
+        {
+          "text": "可以在生成前单独修改，不用整条视频全部重做",
+          "location": "第1节拉片与分镜检查段"
+        },
+        {
+          "text": "不大幅改动原剧骨架，主要完成人物形象、台词语言和基础文化表达的本地化",
+          "location": "第2节初级裂变结果说明"
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "id": "2247524901_1",
+      "title": "豆包再进化，Seed-Evolving 多模态 Coding 实测，结果有点惊喜！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247524901&idx=1&sn=1ad806ee1f638e0b49b593c851f3b4b5",
+      "published": "2026-09-01 10:49",
+      "raw_path": "raw/article/郭震AI/豆包再进化，Seed-Evolving 多模态 Coding 实测，结果有点惊喜！-178665bb-2a5585dec9.md",
+      "raw_sha256": "7ce8853d68a4c55c0e393dddb757bc175e4846307537062d6d68421a9d3bd2e6",
+      "source_page": "wiki/sources/郭震AI：郭震：Seed-Evolving多模态Coding实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "358d7586-f2a3-4a5a-8443-2e166007c9cc",
+      "anchors": [
+        {
+          "text": "但这些能力不能只看介绍页，所以我把它们压到一个真实任务里测",
+          "location": "第1节末，测试设计段"
+        },
+        {
+          "text": "但要继续开发和维护，代码还需要进一步拆分",
+          "location": "第2节末，第一轮局限段"
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "id": "2247524834_1",
+      "title": "用 Lovart 做AI设计：我实测了8组工作流，真的省事！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247524834&idx=1&sn=b93a443d9de825e0e3613786fe5c92e9",
+      "published": "2026-08-31 11:10",
+      "raw_path": "raw/article/郭震AI/用 Lovart 做AI设计：我实测了8组工作流，真的省事！-a9c79a69-ece290b244.md",
+      "raw_sha256": "417e4a90d680aedc9b9c03ae52a71bf18a41e594e103da0bbc182c4043135722",
+      "source_page": "wiki/sources/郭震AI：郭震：Lovart八组设计工作流实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "71be575d-1d4c-4b7d-963f-29542849c76c",
+      "anchors": [
+        {
+          "text": "真正麻烦的是找灵感、整理参考、确定设计方向",
+          "location": "开头第2段"
+        },
+        {
+          "text": "整个过程里，我没有花时间拆解蜡笔笔触、纸张材质和配色规则",
+          "location": "第2节，潦草蜡笔画风案例末"
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "id": "2247524735_1",
+      "title": "实测豆包Agent，我跑通了4个自媒体工作流，完整分享！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247524735&idx=1&sn=b31f91228fce4d56b0a4ca2150e5c2e6",
+      "published": "2026-08-30 22:43",
+      "raw_path": "raw/article/郭震AI/实测豆包Agent，我跑通了4个自媒体工作流，完整分享！-41ec3fc7-9230e0a90f.md",
+      "raw_sha256": "bcb4faf0eff65947d028692c4fd3df2849bcd1343fbf1c92e60fb6e7a59189aa",
+      "source_page": "wiki/sources/郭震AI：郭震：豆包Agent四个自媒体工作流.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "2326c7f4-a89e-42ea-8ce0-dfb70d0a6a9a",
+      "anchors": [
+        {
+          "text": "最吸引我的是，它不用把人一直绑在电脑前",
+          "location": "开头，核心价值引入段"
+        },
+        {
+          "text": "若没有告诉你选题，你直接终止不能往下走",
+          "location": "第2节，素材工作流提示词末"
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "id": "2247524731_1",
+      "title": "我实测了5条 Seedance 2.5 视频，发现AI生成视频终于更自然了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247524731&idx=1&sn=431d7ed3b2b5880e2c7f3499e7d3203a",
+      "published": "2026-08-28 22:07",
+      "raw_path": "raw/article/郭震AI/我实测了5条 Seedance 2.5 视频，发现AI生成视频终于更自然了-0fc8d688-3339ad8eb2.md",
+      "raw_sha256": "8c7151549e62b039ad0bfa977412d64b4ea64b8ec0dce8f10fa7805366a43eb5",
+      "source_page": "wiki/sources/郭震AI：郭震：Seedance 2.5五条视频实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "0831d8c0-978c-4654-9ed8-1c7da657972c",
+      "anchors": [
+        {
+          "text": "你提供提示词的越有逻辑，最后生成的视频会越贴近你的想法。",
+          "location": "第一节，宠物提示词方法段"
+        },
+        {
+          "text": "商品卖点是可选，但我认为是重点，前面已经提及过了",
+          "location": "第三节，爆款复刻设置段"
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "id": "2247524681_1",
+      "title": "最新Qwen3.8-Flash 实测：接近Opus 4.8，性价比离谱！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247524681&idx=1&sn=bba74b256803382b70a08b27136505e7",
+      "published": "2026-08-27 21:35",
+      "raw_path": "raw/article/郭震AI/最新Qwen3.8-Flash 实测：接近Opus 4.8，性价比离谱！-8b5b410f-12735abc5f.md",
+      "raw_sha256": "63cbf52aab1e5b72b99e626618f27bb4c17f8e8f6976ea70de1ec128682e6a4b",
+      "source_page": "wiki/sources/郭震AI：郭震：Qwen3.8-Flash性价比实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "f302ba48-6570-40fb-9fcd-0da44bfe7698",
+      "anchors": [
+        {
+          "text": "这个任务不只考验代码生成，还涉及文件读取、数据分析、图表生成和页面交互",
+          "location": "第二节，任务定义段"
+        },
+        {
+          "text": "四款模型使用同一份Excel文件，生成结果不做人工修改",
+          "location": "第二节，实验控制段"
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "id": "2247524599_1",
+      "title": "从剧本直出到一键成片，我用Seedance2.5 跑了一遍AI短剧全流程！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247524599&idx=1&sn=b47e62f98577c486221009d4d04c37e9",
+      "published": "2026-08-24 21:47",
+      "raw_path": "raw/article/郭震AI/从剧本直出到一键成片，我用Seedance2.5 跑了一遍AI短剧全流程！-510bb9e3-a4e76e7890.md",
+      "raw_sha256": "80719e06a68d2a1135bc492ca7ace52e91d56c80076c36bacf842ce598dd0af4",
+      "source_page": "wiki/sources/郭震AI：郭震：Seedance 2.5短剧全流程实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "a1c8267b-bdc6-4ad0-a14b-1190260fdd2f",
+      "anchors": [
+        {
+          "text": "它需要能在统一人设的前提下，有稳定一致的画风",
+          "location": "开头，短剧需求定义段"
+        },
+        {
+          "text": "依次围绕输入剧本、资产详情、分镜管理、视频编辑4步骤完成。",
+          "location": "第一节，剧本直出流程段"
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "id": "2247524519_1",
+      "title": "自己会进化的Agent来了：用它20分钟拆解 DeepSeek Harness 整个项目！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247524519&idx=1&sn=41675eb34c63dd9bf73c67cce80fcbbd",
+      "published": "2026-08-17 11:03",
+      "raw_path": "raw/article/郭震AI/自己会进化的Agent来了：用它20分钟拆解 DeepSeek Harness 整个项目！-6bda43bf-6fd24fe034.md",
+      "raw_sha256": "a892889cea4f70dbf3137619a9e787ad637fcb4686290f4030eada368e8bf624",
+      "source_page": "wiki/sources/郭震AI：郭震：EvoX拆解Harness实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "cd86482c-088b-40e3-8b21-016ae5429613",
+      "anchors": [
+        {
+          "text": "所有技术判断必须附上官方文档链接，或者对应的源码文件路径",
+          "location": "Case 1提示词末段"
+        },
+        {
+          "text": "部分子 Agent 因工具调用预算耗尽，没有按计划生成报告",
+          "location": "Case 1首轮执行结果段"
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "id": "2247524376_1",
+      "title": "终于有Agent可用SD2.5直出5分钟长视频了，还支持秒级重拍，实测真的靠谱！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247524376&idx=1&sn=008ab7dc36f6a451f82f9cc2c084da00",
+      "published": "2026-08-09 21:48",
+      "raw_path": "raw/article/郭震AI/终于有Agent可用SD2.5直出5分钟长视频了，还支持秒级重拍，实测真的靠谱！-1fc83602-86adaa5fa9.md",
+      "raw_sha256": "b2feaca9d9b7995666106755143a78bb3dfdc588375a38d2d05404131f76c784",
+      "source_page": "wiki/sources/郭震AI：郭震：LibTV长视频工作流实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "7fefee2a-f19c-4c7d-9c28-8a5139dd3ff8",
+      "anchors": [
+        {
+          "text": "使用LibTV原生直出，再使用它家的片段重拍，做局部修改",
+          "location": "开头工作流概述段"
+        },
+        {
+          "text": "如果重新生成整条视频，不仅浪费时间和成本",
+          "location": "第4节片段重拍的问题说明段"
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "id": "2247524275_1",
+      "title": "实测 MiniMax H3 三天，生成的视频确实夯，Seedance 真要有危机感了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247524275&idx=1&sn=e6631d24540b477876f391db35768fa6",
+      "published": "2026-08-07 16:54",
+      "raw_path": "raw/article/郭震AI/实测 MiniMax H3 三天，生成的视频确实夯，Seedance 真要有危机感了！-bfa2eb5d-6f1a66ae37.md",
+      "raw_sha256": "47d54eb2aa349183b7f6be33e10ec1fa9b6e71220766818410d5aeaa840eb151",
+      "source_page": "wiki/sources/郭震AI：郭震：MiniMax H3三天实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "a0336841-b132-4ff3-b7cd-c6bb3634c49a",
+      "anchors": [
+        {
+          "text": "SD2.5对键盘外观和产品结构的保持更加稳定",
+          "location": "第1节键盘对比结论段"
+        },
+        {
+          "text": "搭建了一整套微缩生产线",
+          "location": "第2节气泡水对比结果段"
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "id": "2247524213_1",
+      "title": "AI生成的视频到底用在哪些行业，实测3天后我终于找到了答案！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247524213&idx=1&sn=58eaf646072ee3f002a7b7cac5f2c63f",
+      "published": "2026-08-05 12:04",
+      "raw_path": "raw/article/郭震AI/AI生成的视频到底用在哪些行业，实测3天后我终于找到了答案！-6e5492ac-d85ced37ae.md",
+      "raw_sha256": "4e94f14ce43391fb223df227b91c7569ce104a0fc551efefbbab1a261fff4d06",
+      "source_page": "wiki/sources/郭震AI：郭震：Seko视频行业实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "8a4b3129-5db2-497c-87d0-fc72603871f8",
+      "anchors": [
+        {
+          "text": "真正能干活的AI视频工具，不能只靠一次惊艳",
+          "location": "第2节“我的更多实测case”末段"
+        },
+        {
+          "text": "产业资源、孵化支持和商业化通路形成闭环",
+          "location": "第3节“Agent + OPC”两个外部案例之后"
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "id": "2247524147_1",
+      "title": "接入这个开源插件，让我Token直接省了50%，Hermes和OpenClaw都支持。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247524147&idx=1&sn=c619d89611d12829bdda62bd54734ef5",
+      "published": "2026-08-04 10:22",
+      "raw_path": "raw/article/郭震AI/接入这个开源插件，让我Token直接省了50%，Hermes和OpenClaw都支持。-7d505d5f-dd35c9075b.md",
+      "raw_sha256": "79f07ffd2f2d6845b34eef4104b99f7056d6f8b8256d883287814c4fb1864d6f",
+      "source_page": "wiki/sources/郭震AI：郭震：Agent Memory省Token实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "08c981a4-8904-4a5b-916b-f3f171a9548e",
+      "anchors": [
+        {
+          "text": "只把当前真正需要的信息留在对话里",
+          "location": "全文开头第3段"
+        },
+        {
+          "text": "只在上下文中保留摘要和任务图，从而减少 Token 消耗",
+          "location": "第2节“三件事”第三点"
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "id": "2247524003_1",
+      "title": "我又发现一个AI视频生成的新方法，实测真的靠谱！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247524003&idx=1&sn=6e04aededeb6266d3fc766ce250b36ba",
+      "published": "2026-08-02 20:34",
+      "raw_path": "raw/article/郭震AI/我又发现一个AI视频生成的新方法，实测真的靠谱！-269e6f50-530bdbb893.md",
+      "raw_sha256": "3c0ee2ae6e7a37ceb549e469e2f3ccac75a0109360da6d33d9291c686d982991",
+      "source_page": "wiki/sources/郭震AI：郭震：H3对比SD2视频实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "5cb12797-0395-4465-b1ad-e5367cc60cdb",
+      "anchors": [
+        {
+          "text": "发送同样的提示词和同样的一张图给H3",
+          "location": "第1节“视频对比实测”首轮对比"
+        },
+        {
+          "text": "H3可能没有在每个细节上都超过SD2",
+          "location": "“最后总结一下”首段"
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "id": "2247523873_1",
+      "title": "在这个国产Codex 里，说句话一个APP就出来了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247523873&idx=1&sn=9c40cc31c7f06b33c5c81170a89830f2",
+      "published": "2026-07-31 19:29",
+      "raw_path": "raw/article/郭震AI/在这个国产Codex 里，说句话一个APP就出来了！-c6d71442-eb312df32b.md",
+      "raw_sha256": "e93d0884691dc7455beb8233b71b47d4a0541ed24ee1e7dac1f5ce6fefc1fb2d",
+      "source_page": "wiki/sources/郭震AI：郭震：语音操控Qoder做App.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "26a7497d-ccb1-4ce3-87b4-eac5bb1f1e2e",
+      "anchors": [
+        {
+          "text": "手上改文档，嘴上让 Agent 干活",
+          "location": "最后总结，倒数第二段"
+        },
+        {
+          "text": "昨天公众号里看到Qoder Voice发布，是个语音交互Agent",
+          "location": "全文文字第3段；原始HTML正文行13"
+        }
+      ]
+    },
+    {
+      "rank": 26,
+      "id": "2247523780_1",
+      "title": "我用这种方法，一句命令部署Kimi K3 到自己电脑！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247523780&idx=1&sn=2eb7b80de7a6eae130617007f1ddf19a",
+      "published": "2026-07-28 23:34",
+      "raw_path": "raw/article/郭震AI/我用这种方法，一句命令部署Kimi K3 到自己电脑！-a9973ddf-6eaa1a8083.md",
+      "raw_sha256": "45e3f2a237b702d91341df03d089bbdf89d4f48b43079c216ce5f9af447e3e98",
+      "source_page": "wiki/sources/郭震AI：郭震：百条SFT仿Kimi K3.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "8f2e6c99-52e9-41bd-8910-2916fcaa4a2d",
+      "anchors": [
+        {
+          "text": "两天4个小时搜集了100条数据，做SFT玩一下。",
+          "location": "第2节“微调教程”，数据规模说明段"
+        },
+        {
+          "text": "当然，100条数据只是玩一玩，距离真正的能力迁移还有差距",
+          "location": "最后总结，末段"
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "id": "2247523746_1",
+      "title": "终于找到个全能视频 Agent：选个 Skill，说句话，成片就出来了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247523746&idx=1&sn=511073764ae8c8f4f60e8c65e1a9cd6c",
+      "published": "2026-07-15 14:38",
+      "raw_path": "raw/article/郭震AI/终于找到个全能视频 Agent：选个 Skill，说句话，成片就出来了！-aee1c7eb-103484cffa.md",
+      "raw_sha256": "6860c9579a5a898e272adc9ac1128ad8df4257c3be767e28067964106d9ab64e",
+      "source_page": "wiki/sources/郭震AI：郭震：实测LibTV视频Agent.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "9e03e111-75ea-43e0-8a08-0706acdb750d",
+      "anchors": [
+        {
+          "text": "大家看到这就是它家的这个Agent，从任务规划，再到文本，图片，声音，视频，字幕一连串生成。",
+          "location": "第2节“从零制作短视频”，流程总结段"
+        },
+        {
+          "text": "哪里有问题就改哪里，用起来既省事，也保留了足够的控制空间。",
+          "location": "最后总结，末段"
+        }
+      ]
+    },
+    {
+      "rank": 28,
+      "id": "2247523600_1",
+      "title": "GPT-5.6 接入 Codex，实测结果超预期！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247523600&idx=1&sn=761b9400a53ac591f00acc69f2c4adfa",
+      "published": "2026-07-10 13:49",
+      "raw_path": "raw/article/郭震AI/GPT-5.6 接入 Codex，实测结果超预期！-d1b90e18-2cc1c4d694.md",
+      "raw_sha256": "3739c797137bb95085210278a5778d162d0721f6b5e29f1f3d2c2c4d15b4644d",
+      "source_page": "wiki/sources/郭震AI：郭震：GPT-5.6接入Codex实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "194497f1-813a-4c04-bd95-bb72781a55a8",
+      "anchors": [
+        {
+          "text": "效果好不好，不能光看报道怎么说，得亲自去玩它",
+          "location": "第1节末、转入实测前"
+        },
+        {
+          "text": "完成这个任务耗费了33分18秒",
+          "location": "第2节“构建完成截图”后"
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "id": "2247523572_1",
+      "title": "最新混元Hy3，DeepSeek-V4-Pro，Qwen3.7-Max实测，谁才是性价比之王？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247523572&idx=1&sn=1d8511184564ffeb28d552077f64bb70",
+      "published": "2026-07-08 20:38",
+      "raw_path": "raw/article/郭震AI/最新混元Hy3，DeepSeek-V4-Pro，Qwen3.7-Max实测，谁才是性价比之王？-26bf138a-4944dde674.md",
+      "raw_sha256": "d6a0ebccb398ae1023e7561ca849b7a83ee9b498685348be8be263e5bf844745",
+      "source_page": "wiki/sources/郭震AI：郭震：Hy3、V4-Pro与Qwen性价比实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "ae479fd6-b056-4e92-b30b-a64ceb29f9d8",
+      "anchors": [
+        {
+          "text": "光看得分是不够的，必须得真正去大量使用下",
+          "location": "第1节末、实测前"
+        },
+        {
+          "text": "这个任务测的是它能不能把一个前端交互需求拆成完整模块",
+          "location": "第2节提示词后"
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "id": "2247523515_1",
+      "title": "Qwen3.5 9B + Hermes，这可能是本地电脑玩Agent最好的组合！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247523515&idx=1&sn=1f86c2f775160055ec242d2b4fdd6ced",
+      "published": "2026-07-06 13:55",
+      "raw_path": "raw/article/郭震AI/Qwen3.5 9B + Hermes，这可能是本地电脑玩Agent最好的组合！-58f321c8-90c9684dca.md",
+      "raw_sha256": "443045277183da28271628a5023688d3b3ab4e55c47fdf6872cf5f0e96ac2a11",
+      "source_page": "wiki/sources/郭震AI：郭震：Qwen3.5 9B配Hermes本地实测.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字；图片、视频及产品未核验",
+      "detail_request_id": "733353c4-1235-4983-bd44-615a0c8cc619",
+      "anchors": [
+        {
+          "text": "它只需要16G内存+8G显卡，就能跑通。",
+          "location": "第1节硬件要求段"
+        },
+        {
+          "text": "首token延时（也就是TTFT）平均为 2.29s",
+          "location": "第1节10次测评结果段"
+        }
+      ]
+    }
+  ]
+}

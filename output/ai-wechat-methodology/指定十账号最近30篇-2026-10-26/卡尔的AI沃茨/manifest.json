@@ -1,0 +1,883 @@
+{
+  "requested_name": "卡尔的AI沃茨",
+  "resolved_name": "卡尔的AI沃茨",
+  "username": "gh_1421d5e48ca9",
+  "alias": "LearnPrompt4Free",
+  "requested_count": 30,
+  "acquired_at": "2026-10-26T02:52:56.862167+00:00",
+  "article_list_request_ids": [
+    "c6c4a05a-91a6-4aec-8c88-17034db6efc0",
+    "d41d6caf-a090-4035-ad65-825415ad3e87",
+    "c8a7b9c3-ba47-43ad-8980-dcf7914b99f0"
+  ],
+  "list_complete": true,
+  "articles": [
+    {
+      "rank": 1,
+      "id": "2247512453:1",
+      "title": "用完12个Personal Agent后，我找到了决定好用上限的五个标准",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247512453&idx=1&sn=7cf51e507c1c41d6be857ba179d391ed&chksm=cf44aaf95e86391a2f6347fce95c6c5a6963060cc9172950fe9abba9f295f4b89fa01cfc9ed1&scene=126&sessionid=0#rd",
+      "published": "2026-10-22 19:01",
+      "raw_path": "raw/article/卡尔的AI沃茨/用完12个Personal Agent后，我找到了决定好用上限的五个标准-1450c105-3ec9700eb3.md",
+      "raw_sha256": "4a7b4b54ee9c2446714980d343bb27eb43e3b08087ccbb1c3fe45035b03b0bd3",
+      "source_page": "wiki/sources/卡尔Personal Agent五维评测框架文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "6606c7a6-5c42-465d-acfc-d8a25464d1dd",
+      "anchors": [
+        {
+          "text": "我在X上找了1505条覆盖11类的cases，把所有大类在12个personal agent都跑过之后发现，判断它们好不好用可以画一个五边形，五个维度，",
+          "location": "开头第三段，五维框架提出处"
+        },
+        {
+          "text": "我让Today做了三件事，自动回复，有人砍价按我的底价自动判断能不能卖，挂了超过一个月没人买的东西自动降价10%。",
+          "location": "第三个维度Computer Use段，海鲜市场案例"
+        },
+        {
+          "text": "用手机发一条消息给Today，Today同时调度三个Agent开始干活。Codex帮我review代码，Claude Code帮我跑测试，Grok帮我做竞品调研。",
+          "location": "最后一个维度多端联动段，跨设备调度案例"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-input-01.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-output-01.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 2,
+      "id": "2247512425:1",
+      "title": "开源「提示语管理.skill」，就为快速选出最适合你的Prompt（附25个深度思考提示语）",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247512425&idx=1&sn=7e0e605336d602aa5149ea92689de203&chksm=cf903883413b023bbd53df5eb2aa296e9124dc7b98f161d3ab2704821a4f8e76b6e9f3d29fd6&scene=126&sessionid=0#rd",
+      "published": "2026-10-20 11:24",
+      "raw_path": "raw/article/卡尔的AI沃茨/开源「提示语管理.skill」，就为快速选出最适合你的Prompt（附25个深度思考提示语）-0004bbb9-ae7ea883e1.md",
+      "raw_sha256": "3199f3f4502eb74f61c0b9e7693cb782d4503f169d00e605131cc5ae42251bea",
+      "source_page": "wiki/sources/卡尔提示语路由Skill老爷爷文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "3f3b9824-5641-41fe-930f-480aa6b31d68",
+      "anchors": [
+        {
+          "text": "问题不在存储，每次都是到了要用的那一秒，我根本就没有想起来自己存过什么，还是要打开备份重新过一遍。",
+          "location": "开头痛点段，比较两种保存方法之后"
+        },
+        {
+          "text": "我做这个skill给自己定了一个规矩，就是原提示语一个字不改。",
+          "location": "中段老爷爷生命周期与制作原则部分"
+        },
+        {
+          "text": "我们负责感知自己卡在哪里，第一时间提出来。",
+          "location": "结尾人机分工总结段（保留HTML间连续原句片段）"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-input-01.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-output-01.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 3,
+      "id": "2247512399:1",
+      "title": "实测Lovart 2.0，AI设计终于可以打破千篇一律的模板化死板了",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247512399&idx=1&sn=8aad2f1c9fe7cf02a3f61fbfef1bd644&chksm=cfe4920d127b25df4fdae8c8032a7f1b1f8252110f7374c5a6973f8bc4490d6af81a65dc80b8&scene=126&sessionid=0#rd",
+      "published": "2026-10-19 18:26",
+      "raw_path": "raw/article/卡尔的AI沃茨/实测Lovart 2.0，AI设计终于可以打破千篇一律的模板化死板了-eba7be27-7bddab0c62.md",
+      "raw_sha256": "641fd45165f4dcd732959a06ba61b68962b76705e8a002a1af4d4d53953e3265",
+      "source_page": "wiki/sources/卡尔Lovart个人设计Agent实测文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "ca90a938-0c51-4f30-ad66-86c971cade50",
+      "anchors": [
+        {
+          "text": "它找到了我以前存过的编辑式排版、Riso印刷质感和协作习惯，不喜欢霓虹3D铬塑通用AI感，也看见了我这次说的高饱和、抽象、可爱，以及旧品牌和旧角色都不要沿用。",
+          "location": "前部乜嘢品牌项目，Arti读取审美记忆段"
+        },
+        {
+          "text": "我可以让 Arti 直接巡视检查我整张画布上面的所有素材，看看这些素材中存不存在一些不符合常理的，或者出现穿帮的 bug。",
+          "location": "中前部画布巡检功能段"
+        },
+        {
+          "text": "我就只给了新品奶茶的名字，在我不额外提示的情况下，让Arti直接帮我出一组秋季新品奶茶的海报。",
+          "location": "中段奶茶海报跨项目记忆测试"
+        },
+        {
+          "text": "设好执行时间和积分上限以后，我先点了试运行，想当场看看它到底会怎么做，如果效果不错就可以把这份委托创建成定时任务。",
+          "location": "后部设计委托试运行段"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-input-01.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-output-01.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 4,
+      "id": "2247512359:1",
+      "title": "花两千踩坑四大Personal Agent，我3个提示语把33%成功率救回来了",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247512359&idx=1&sn=d578aac00f761e6389c6e2f18c3bab99&chksm=cf052ab43a3bf34f813b9b62f710f03c94cdfcdc73b48751c56cef2e304b1be9c3f20069cadb&scene=126&sessionid=0#rd",
+      "published": "2026-10-16 09:54",
+      "raw_path": "raw/article/卡尔的AI沃茨/花两千踩坑四大Personal Agent，我3个提示语把33%成功率救回来了-e8a748c4-e8f456008f.md",
+      "raw_sha256": "e2bc633523f20b5745c8702a455e8040f6e87f8319545f7d129ca8266bb2835e",
+      "source_page": "wiki/sources/卡尔Personal Agent多端采集工作流复盘文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "6df3354c-0b54-4ee8-9482-e8124bc89d0e",
+      "anchors": [
+        {
+          "text": "但就目前来说，33%，这就是我花了三百多刀和两周时间拿到的真实数据，",
+          "location": "开头结论段，在列出四项订阅费用之后（保留HTML间连续原句片段）"
+        },
+        {
+          "text": "硬约束：只读，不点发布/删除/设置。 遇到二次验证或CAPTCHA，立即停该平台并标记BLOCKED。",
+          "location": "“Computer Use采集提示语”小节末尾（保留HTML间连续原句片段）"
+        },
+        {
+          "text": "因为实际使用下来，Personal Agent在现阶段更多的还是本地Agent的补充。",
+          "location": "结尾复盘段"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-input-02.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-output-02.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 5,
+      "id": "2247512337:1",
+      "title": "豆包工作悄悄上新功能，把我多Agent记忆整合的焦虑治好了",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247512337&idx=1&sn=a7c5407604eefbd24e1c237357b1c039&chksm=cf73be02b998d4dbf90239be67c9caeedd204d3cacd9c08c1078670a6a454a6e33a772bca787&scene=126&sessionid=0#rd",
+      "published": "2026-10-14 17:25",
+      "raw_path": "raw/article/卡尔的AI沃茨/豆包工作悄悄上新功能，把我多Agent记忆整合的焦虑治好了-e0120ae0-f558ca43ee.md",
+      "raw_sha256": "53336cbfe72cc6eee29f1aa7b337cd2b17cb8738eedd08eac8503e55669f893b",
+      "source_page": "wiki/sources/卡尔豆包工作跨Agent资产迁移体验文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "032f6b9a-f281-482d-827d-45b0f49d992c",
+      "anchors": [
+        {
+          "text": "我这台机器上Claude显示有240项可导入，ChatGPT有682项。",
+          "location": "操作流程段，自动检测本机Agent之后"
+        },
+        {
+          "text": "它只能同步本地内容，就是你PC端客户端留存的数据。如果你一直在浏览器里用ChatGPT从来没装过桌面端，那些对话存在OpenAI的服务器上，豆包是读不到的。",
+          "location": "首次续问结果后的限制说明段"
+        },
+        {
+          "text": "导入的只有工作记忆，就是跟具体会话和项目绑定的经验积累。用户的个人偏好不导入。",
+          "location": "偏好冲突问题后的团队答复段"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-input-02.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-output-02.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 6,
+      "id": "2247512309:1",
+      "title": "实测Gemini 4 Argon写作能力，百万上下文竟恐怖如斯",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247512309&idx=1&sn=87fd5353c84b6f5e2361ca8730841773&chksm=cf0e1e36864667b61b7271d235dbb4242144c33063970d802085ef3f099c6ef25830987ca015&scene=126&sessionid=0#rd",
+      "published": "2026-10-14 14:03",
+      "raw_path": "raw/article/卡尔的AI沃茨/实测Gemini 4 Argon写作能力，百万上下文竟恐怖如斯-eb8e2a94-51db6f4455.md",
+      "raw_sha256": "69880033aca4177eac2fefc7b6929e2763b4ef2a7b72aedbf8391c15b4bb6b74",
+      "source_page": "wiki/sources/卡尔Gemini写作样稿与玄幻化改写文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "672d24c6-cf49-4ae9-b2ff-c7bbf2e315ac",
+      "anchors": [
+        {
+          "text": "那直接来看一下我最关心的写作能力，我们就直接让它给自己写，针对自己Gemini 4 Argon的更新，写一篇跟起点风格非常相似的小说，Here we go！图片还是用Banana 2.1写的",
+          "location": "开头能力与价格介绍之后、生成小说之前"
+        },
+        {
+          "text": "的惊世战绩，更能驱使傀儡分身（Agent）万里奔袭、长程历练而不坠心神。",
+          "location": "生成小说“三大神通镇世，寒门散修狂喜”小节（保留HTML间连续原句片段）"
+        },
+        {
+          "text": "大家想看看Opus5.5写的后续版本吗？",
+          "location": "生成小说结束后的结尾提问"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-input-02.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-output-02.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 7,
+      "id": "2247512301:1",
+      "title": "开源「红绿灯」提示语，解决Agent刹不住车浪费token额度的老毛病",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247512301&idx=1&sn=40314d1a32248853cd0106205eb03857&chksm=cf155aafa52fcfb9cf9b62cac267172931d76bf418a81acc396df74cc4910571a04700e4bdea&scene=126&sessionid=0#rd",
+      "published": "2026-10-13 12:24",
+      "raw_path": "raw/article/卡尔的AI沃茨/开源「红绿灯」提示语，解决Agent刹不住车浪费token额度的老毛病-a1949f02-f2611446f1.md",
+      "raw_sha256": "3c94a8318e156af3ecdcfae9ccfbbe76c9f72f36989edaebcc282e53e7f5c85f",
+      "source_page": "wiki/sources/卡尔用红黄绿状态约束Agent任务边界文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "01452b90-c568-424b-b835-8b64f3c83c99",
+      "anchors": [
+        {
+          "text": "我花了一个小时迭代优化出来了不到三百字的提示语。毕竟每次对话生效的话要省额度，还不能增加查看的难度。",
+          "location": "问题提出后、进度提示语标题之前"
+        },
+        {
+          "text": "黄灯与红灯的判定：超出项能否串成一个有清晰目标的 Plan？",
+          "location": "“进度提示语”段落末部（保留HTML间连续原句片段）"
+        },
+        {
+          "text": "用了两天之后，还是有几个很明显的变化。",
+          "location": "三个应用场景之后、效果总结开头"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-input-03.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-output-03.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 8,
+      "id": "2247512286:1",
+      "title": "八款AI语音输入法大横测！我找到了Vibe Coding的最佳搭配",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247512286&idx=1&sn=781a271be869453cd487551dd028ed9f&chksm=cfd86dfef02f337cb8c5829be714415ea8bbd5ab105a2c7fac85f5e63e09d64dad056832d6fb&scene=126&sessionid=0#rd",
+      "published": "2026-10-10 09:45",
+      "raw_path": "raw/article/卡尔的AI沃茨/八款AI语音输入法大横测！我找到了Vibe Coding的最佳搭配-5c628d32-7f40ea7120.md",
+      "raw_sha256": "fc3395bf2c120b6b3e0eddf52895e57ef12fbde0c30f572603c860235decf353",
+      "source_page": "wiki/sources/卡尔八款AI语音输入工具对比文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "fb7f81ab-a5f2-4932-b6cc-c50a4635921a",
+      "anchors": [
+        {
+          "text": "今天测的这几个，用的都是它们的免费功能，没开会员也没充值。",
+          "location": "测试方法说明段"
+        },
+        {
+          "text": "最后的最后，来到我们的秘塔，试了一圈，连成都没成功。。。",
+          "location": "秘塔输入法测试开头"
+        },
+        {
+          "text": "千问 + 叭哥说 + Typeless。",
+          "location": "八款汇总后的个人方案段（保留HTML间连续原句片段）"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-input-03.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-output-03.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 9,
+      "id": "2247512250:1",
+      "title": "好久没打游戏的我决定线下去真实一把大学生们的AI游戏水平",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247512250&idx=1&sn=0a0d15b1fb83dd88a79c02a1ded91401&chksm=cfdbb680b37959f407dee8829ad4a89f0b288c61e8094189484703b275c08a51f8f3f45bca8e&scene=126&sessionid=0#rd",
+      "published": "2026-10-09 14:43",
+      "raw_path": "raw/article/卡尔的AI沃茨/好久没打游戏的我决定线下去真实一把大学生们的AI游戏水平-601d4078-2f9e0f4c61.md",
+      "raw_sha256": "0854ea7d242207b681953de665895b0ff0a7f41733ca6e40cbc47466f9fdc7c5",
+      "source_page": "wiki/sources/卡尔AI游戏创作与训练营体验文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "f7cff232-68ea-4360-a953-78933ba762ba",
+      "anchors": [
+        {
+          "text": "这两天用游点灵几句话就搭出来一个有关卡的小游戏，",
+          "location": "开头脑洞转为作者自制游戏的段落（保留HTML间连续原句片段）"
+        },
+        {
+          "text": "来之前我以为是80%的游戏引擎+20%的AI辅助，来之后才发现AI纯度100%，",
+          "location": "训练营作品体验后的平台判断段（保留HTML间连续原句片段）"
+        },
+        {
+          "text": "现在一个人可以先把最麻烦的第一版交给AI，自己抓住想法和判断。",
+          "location": "历史RPG经历之后的观点总结段"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-input-03.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-output-03.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 10,
+      "id": "2247512215:1",
+      "title": "腾讯WorkBuddy悄悄上新功能，我再也不用把文件搬来搬去了",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247512215&idx=1&sn=aace5f1ebc2e612f71cca419be3cc56c&chksm=cf0b527f521ad0d4a2e9f4b8bd0bf88d52f699649928f9e914b3ce0489c32a20af19923bc42c&scene=126&sessionid=0#rd",
+      "published": "2026-10-08 20:44",
+      "raw_path": "raw/article/卡尔的AI沃茨/腾讯WorkBuddy悄悄上新功能，我再也不用把文件搬来搬去了-0f09f3c5-00f5892c8e.md",
+      "raw_sha256": "70210f3e6187119eae84030cc812d02dc69e2bb9911b2521399a049a504e3e57",
+      "source_page": "wiki/sources/卡尔WorkBuddy原文件旁协作与知识库流转文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "14e0eac9-bab2-4651-a6f4-0b55e45b9cb9",
+      "anchors": [
+        {
+          "text": "WorkBuddy把这个叫人机双写，AI直接在文档上改，我们也可以直接在文档上改，两边写的是同一份东西。改完Cmd+S，存回桌面那个原文件。不需要上传，也不要求重新下载，还没有另存为。",
+          "location": "“然后是改文件”小节"
+        },
+        {
+          "text": "你用到哪个文件，哪个文件就顺手流进知识库。",
+          "location": "上传ima并讨论知识库迁移的段落"
+        },
+        {
+          "text": "它不让你去Agent的世界里找文件。你照常找到文件，打开它，Agent的能力自然就在旁边了。",
+          "location": "终端与桌面端比较后的“第三个选择”段落"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-input-04.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-output-04.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 11,
+      "id": "2247512190:1",
+      "title": "国庆相册里舍不得删的废片，我找到了25种新玩法来拯救它们！",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247512190&idx=1&sn=91d791884cd089c7204d4a32f9d068fe&chksm=cf5ec74c8cf035579fafff377ae2df4da05094402f10c6f37f1507c26334f738244d76c04096&scene=126&sessionid=0#rd",
+      "published": "2026-10-02 18:07",
+      "raw_path": "raw/article/卡尔的AI沃茨/国庆相册里舍不得删的废片，我找到了25种新玩法来拯救它们！-59abe8ef-d897b4e4b7.md",
+      "raw_sha256": "2a18a360ac8a72586391169f00de48fd54cb0c545e7a053882ff8ac20e32894d",
+      "source_page": "wiki/sources/卡尔旅行照片的AI二创与基础修复玩法文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "aafdb4bc-44fa-45b8-be3d-024741224e7e",
+      "anchors": [
+        {
+          "text": "还是老规矩，提示语我都直接放出来（其实很多都是直接用的元宝内置的模版）。",
+          "location": "“一、人物照”开头"
+        },
+        {
+          "text": "它能按要求动某一处，同时尽量保住原图里重要的东西，人脸、眼镜、姿势，门口的位置，桥梁和城市的构图，只要你不想改就不会有变动。",
+          "location": "基础修复案例后的总结段"
+        },
+        {
+          "text": "不过用这种调法之前可以想想，自己到底想留住真实的阴天，还是想要一张更有氛围的照片。",
+          "location": "阴天海岸调光案例段"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-input-04.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-output-04.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 12,
+      "id": "2247512022:1",
+      "title": "一文带你看懂OpenAI开发者大会，包括GPT-6.1 Astra被下架的幕后",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247512022&idx=1&sn=6925ae4bfbbc11bd8bf580d2371f1164&chksm=cfc2d5094634d4e3add61318986710f8bb24a842531ce24026fbea89867ce09a401bc875772a&scene=126&sessionid=0#rd",
+      "published": "2026-09-30 07:07",
+      "raw_path": "raw/article/卡尔的AI沃茨/一文带你看懂OpenAI开发者大会，包括GPT-6.1 Astra被下架的幕后-6e235b5e-292e9521ff.md",
+      "raw_sha256": "9894a02d769cadc53090d79055d65e0f5d6d31f43716eda910fa8a54697e1817",
+      "source_page": "wiki/sources/卡尔OpenAI开发者大会更新与Astra撤回解读文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "f038cfa9-1359-4403-8742-72a17c6ec740",
+      "anchors": [
+        {
+          "text": "我们来光速回顾一下这次开发者日OpenAI都发了啥，以及这些新功能的使用门槛吧。",
+          "location": "开头总领段"
+        },
+        {
+          "text": "截至目前（北京时间4点），它其实是在侧边栏上了Canvas，还有Security Cloud，但这俩目前都load不出来。新的模型目前也还没上，我估计这几天会陆陆续续上。",
+          "location": "作者检查功能推送状态的段落"
+        },
+        {
+          "text": "所以我的理解是，到了这个节骨眼，再推出一个更不坦白欺骗性更高的6.1 Astra，都过不了他们刚提高的发布门槛。",
+          "location": "Astra撤回原因的作者判断段"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-input-04.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-output-04.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 13,
+      "id": "2247512007:1",
+      "title": "实测Claude Sonnet 5.5，做AI代码动画这块断档领先gpt6但3D拉了",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247512007&idx=1&sn=7e6dd639ad235eeffa5152ca154ab6c1&chksm=cf6d5ea272da34480204ae52064dbf5c12d19e62753064f6ccc3930aff0379b07231e5e002a7&scene=126&sessionid=0#rd",
+      "published": "2026-09-29 19:38",
+      "raw_path": "raw/article/卡尔的AI沃茨/实测Claude Sonnet 5.5，做AI代码动画这块断档领先gpt6但3D拉了-f3f78100-d9fbc0786a.md",
+      "raw_sha256": "18238b0496db36bcf13402910095b44f582c901c576343b6618144db44c9ccc1",
+      "source_page": "wiki/sources/卡尔Sonnet 5.5代码动画与综合任务实测文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "e7d3f321-9c1e-4119-b008-404b298613aa",
+      "anchors": [
+        {
+          "text": "OKOK，马上实测，我等不了一点了，",
+          "location": "开头纸面信息之后、进入第一组宣传片测试前"
+        },
+        {
+          "text": "Sonnet更像一个执行力很强的高级前端，我说做蒸笼它做蒸笼，我说做视差它做视差，做得干净利落，交付物完整度很高，但不太会自己往需求之外加戏。",
+          "location": "3D吃包子网页测试的模型差异总结段"
+        },
+        {
+          "text": "如果说我之前的工作流用的是fable5.1出计划，Opus5.5做执行，那现在一些写代码动画的创意方案、做需要审美判断的UI决策、探索技术方向，我会切Opus。",
+          "location": "四项测试结束后的工作流分工段"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-input-05.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-output-05.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 14,
+      "id": "2247511963:1",
+      "title": "实测LibTV1.5五大新功能，我把1个完整剧组搬进了AI短剧工作流",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247511963&idx=1&sn=a8046b9f44949b1eed69a7c149c2efdb&chksm=cf4809556cdf4c98a6d5c5ecc9ed527fd92fe0a0575fdfa664afe37a07d45c2caf884e3f3f8e&scene=126&sessionid=0#rd",
+      "published": "2026-09-26 17:00",
+      "raw_path": "raw/article/卡尔的AI沃茨/实测LibTV1.5五大新功能，我把1个完整剧组搬进了AI短剧工作流-7ad99ef9-6c6ae42059.md",
+      "raw_sha256": "516f8bcd91a14c3a52612a366f33145c906e07265c9e44d8d69498fa70005e60",
+      "source_page": "wiki/sources/卡尔LibTV 1.5古装短剧全流程实测文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "9b455b65-84bd-4fdf-80c5-cca50e3ef73c",
+      "anchors": [
+        {
+          "text": "我们工作室买的是团队版年会员，每个月积分不够的时候还会另外买。",
+          "location": "开头说明作者与LibTV既有使用关系的段落"
+        },
+        {
+          "text": "你可以自由地选择想改哪里，想自己动手改，还是想让 Agent 帮你改。",
+          "location": "剧本文档编辑与局部修改总结段"
+        },
+        {
+          "text": "等了大概两三分钟，就拿到了这样一个 3D 场景和这样一段预演的预览视频，基本上和我想要的都是一致的。",
+          "location": "3D-BOX夜行翻墙预演案例段"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-input-05.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-output-05.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 15,
+      "id": "2247511896:1",
+      "title": "五大场景实测商汤图片模型SenseNova U1 Pro，我的工作流要换新了",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247511896&idx=1&sn=730e55c79657d42cd929b416ca34b500&chksm=cf0b1c53fb5d3692c040b519b61be1871ce98a67a4410ceb61667be08c1d74847d118e815ccf&scene=126&sessionid=0#rd",
+      "published": "2026-09-24 20:30",
+      "raw_path": "raw/article/卡尔的AI沃茨/五大场景实测商汤图片模型SenseNova U1 Pro，我的工作流要换新了-00accff0-283f3f1db9.md",
+      "raw_sha256": "e3a7530585a19b63d53b3593889a0066329418d0d8f5639edfaca843e8ba524a",
+      "source_page": "wiki/sources/卡尔SenseNova U1 Pro图片工作流实测文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "3ca01548-1e53-4da6-83c2-0e973a037f29",
+      "anchors": [
+        {
+          "text": "这五类，看看SenseNova U1 Pro的表现，老规矩，还是提示语都放给大家，也会上到goodcase上。",
+          "location": "产品定位之后、五类测试正式开始前（保留HTML间连续原句片段）"
+        },
+        {
+          "text": "两张图的信息都完全对应上了，自己画的食物和楼层概览图都很符合逻辑，文字都没有出现错误的地方，整体完成度都很高，排版也很蛮舒服的。",
+          "location": "抹茶菜单与博物馆导览测试后的评价段"
+        },
+        {
+          "text": "光有灵感还不够，还得经得住修改。",
+          "location": "全文结尾对图片工作流价值的总结段"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-input-05.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/slow-output-05.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 16,
+      "id": "2247511745:1",
+      "title": "实测小米新模型MiMo V2.6，我真服了第一次看开源那么彻底的",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247511745&idx=1&sn=0829edc267592e4cc74a300061f01757&chksm=cfbf1e78583ce317bf503e631fd16b47636aaa5378383ba5b798863998408bc4fb93c6df081b&scene=126&sessionid=0#rd",
+      "published": "2026-09-23 18:45",
+      "raw_path": "raw/article/卡尔的AI沃茨/实测小米新模型MiMo V2.6，我真服了第一次看开源那么彻底的-b1929a86-7d172adb6c.md",
+      "raw_sha256": "ff2b5ea81b2694f8861056b444a569cf5047402e8b52d4fd190c92592f703750",
+      "source_page": "wiki/sources/卡尔MiMo V2.6多任务实测文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整原文文字；图片、视频、音频未核看；SLOW全文分析，产品与机制未独立复测",
+      "detail_request_id": "d53ae9d3-7bd3-49da-95f8-a154cb0963b3",
+      "anchors": [
+        {
+          "text": "OK，轮到实测环节了。",
+          "location": "价格与榜单介绍结束、实测部分开头"
+        },
+        {
+          "text": "我就把那段录屏原样丢给它，只加了一句话，照着这个复刻一个一模一样的网站。",
+          "location": "第一个网站复刻案例的输入说明段"
+        },
+        {
+          "text": "它自己还跑了验收。lint干净，相关单测全过，连数据库迁移检查也过了，全量测试一个没挂。",
+          "location": "goodcase代码改造案例末段"
+        },
+        {
+          "text": "再多过几下，信任再攒一点，我会认真考虑把它从够用挪到主力。",
+          "location": "全文结论段"
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "id": "2247511677:1",
+      "title": "实测GPT6 Sol和Luna和Claude Opus5.5，我们再不用愁额度少和速度慢了",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247511677&idx=1&sn=e24fc2b3f00d861ca4712a197a94b8c7&chksm=cf4acf61abb25ef3d2a6170c1bf06b9e913863bf8b411cd9e185ddf8318d75f3e5e5f3e326ab&scene=126&sessionid=0#rd",
+      "published": "2026-09-23 07:07",
+      "raw_path": "raw/article/卡尔的AI沃茨/实测GPT6 Sol和Luna和Claude Opus5.5，我们再不用愁额度少和速度慢了-6fcc9724-bd23e28ae3.md",
+      "raw_sha256": "566b7fb39be6f22a199fd5d610077ced4d320792549c2c28c009e71e7bcf95d1",
+      "source_page": "wiki/sources/卡尔三款旗舰模型横向实测文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整原文文字；图片、视频、音频未核看；SLOW全文分析，产品与机制未独立复测",
+      "detail_request_id": "c1a425fe-4401-48d0-9f93-7fcfad10bf40",
+      "anchors": [
+        {
+          "text": "想到我平时基本上用的都是high，比较简单的任务才会用medium这个推理强度，所以接下来这三个模型都会用 high来进行推理强度的对比。　ㅤ",
+          "location": "实测开始、鹈鹕案例前"
+        },
+        {
+          "text": "我不得不承认，这种高端局把Luna带进来，可能有点为难它了。",
+          "location": "开放式3D网页案例的Luna评价段"
+        },
+        {
+          "text": "在能力维持得相当不错的情况下，它这个速度真的是我最近几代用GPT最爽的一次。基本上之前看到要跑五六分钟的任务，现在在一分钟左右都能够搞定，看来额度又要不够用了。",
+          "location": "全文末段的Sol速度总结"
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "id": "2247511621:1",
+      "title": "我把463个AI视频做成了Skill和提示语模版，全都开源！",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247511621&idx=1&sn=18b1f7fccaba22417ae7767d669e6bcf&chksm=cf9e64efa1b47db61f74f77a289d954c9f31ae3def51ef7c9ef76ee824608dbae20c51f77b52&scene=126&sessionid=0#rd",
+      "published": "2026-09-22 11:27",
+      "raw_path": "raw/article/卡尔的AI沃茨/我把463个AI视频做成了Skill和提示语模版，全都开源！-606b3c2e-86fc6985be.md",
+      "raw_sha256": "a57c43946dd0a64c6b998e165bcb49368cf6e0d0b796427e9e6bf5e9ce592ff2",
+      "source_page": "wiki/sources/卡尔AI视频模板与Skill开源文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整原文文字；图片、视频、音频未核看；SLOW全文分析，产品与机制未独立复测",
+      "detail_request_id": "7ee12491-9313-4b7a-9ddb-3d199b697778",
+      "anchors": [
+        {
+          "text": "所以我今天要开源一个跑了快小一个月的项目，awesome-seedance。",
+          "location": "开头痛点铺垫后的项目发布段"
+        },
+        {
+          "text": "模版是单个镜头的配方，Skill是整部短片的拍摄手册。",
+          "location": "模板与Skill区别说明段"
+        },
+        {
+          "text": "打开项目，找到一个想试的case，复制提示语，先跑起来。有了参照，后面的修改也能更有方向。",
+          "location": "结尾“临摹”方法论段"
+        },
+        {
+          "text": "你跑出了好的case，就提交PR，我会把它纳入复测流程。",
+          "location": "结尾社区贡献行动段"
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "id": "2247511578:1",
+      "title": "实测阶跃星辰新模型Step 5 Preview，网页复刻这块我愿称之为天才程序员级",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247511578&idx=1&sn=f468f88e308cf28a8b94ae2bee0186ca&chksm=cf82f82958828b52be053c4d5978b684c84bf9507810ac299c3bab97abcf967a33beac620217&scene=126&sessionid=0#rd",
+      "published": "2026-09-21 16:20",
+      "raw_path": "raw/article/卡尔的AI沃茨/实测阶跃星辰新模型Step 5 Preview，网页复刻这块我愿称之为天才程序员级-49681c2c-ff439d836a.md",
+      "raw_sha256": "1fa52b19b912ab6c508978c3246dee48cfc010b19778607d7fea6d0e16ddec0c",
+      "source_page": "wiki/sources/卡尔Step 5多场景实测文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整原文文字；图片、视频、音频未核看；SLOW全文分析，产品与机制未独立复测",
+      "detail_request_id": "587b7857-b671-4eed-b34b-8773ba1f41d9",
+      "anchors": [
+        {
+          "text": "照着iPhone首页做一个页面，四分半就跑出来了，该有的都有，AI感也不重",
+          "location": "开篇“先说结论”段"
+        },
+        {
+          "text": "结果它一口气揪出五大类，22个单元格的毛病，每一处都能说出为什么错，应该怎么改，是怎么看出来的。",
+          "location": "后半段Excel审计案例结果段"
+        },
+        {
+          "text": "总的来说，这个新模型前端复刻效果不错，而且放到现有的Agent框架也不会出现水土不服的情况理解不了skill的情况，执行过程中对长上下文的理解，或者做一些应用操作，比如批量开关文件，浏览器操作，都是可以的。",
+          "location": "结论与价格段之前"
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "id": "2247511489:1",
+      "title": "分享一个帮我快速把陌生领域方法论做成skill的新技巧",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247511489&idx=1&sn=dcb0e5f18a5263fd5fa0fa166a055c05&chksm=cf7af32dfca5441852776905ee9723486c42bf723b3250e848d720ed3035e941991bd4249f52&scene=126&sessionid=0#rd",
+      "published": "2026-09-19 12:04",
+      "raw_path": "raw/article/卡尔的AI沃茨/分享一个帮我快速把陌生领域方法论做成skill的新技巧-4e1a309d-0d310a3737.md",
+      "raw_sha256": "eaebb83984376dacfa1e3250e1a3d545d20cf9069f77bf8264c27b3ae65db1e1",
+      "source_page": "wiki/sources/卡尔QBS知识转Skill法文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整原文文字；图片、视频、音频未核看；SLOW全文分析，产品与机制未独立复测",
+      "detail_request_id": "8ee2e1e0-ec52-4c42-9e7e-7a0e11d7ac6f",
+      "anchors": [
+        {
+          "text": "整个流程就是Question问题→ Book书籍 → Skill，就这三步。",
+          "location": "开篇QBS定义段"
+        },
+        {
+          "text": "这些都是我光是跟gpt6对话几轮做出来的skill没有的知识点。",
+          "location": "时间管理技巧列举后的总结段"
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "id": "2247511475:1",
+      "title": "分享一个我用GPT6+Hyper3D搭可互动个人作品集的新技巧",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247511475&idx=1&sn=8a7bf92da9b058a05af2633416fba92f&chksm=cf08e0d5f60921a0c0f2aa7aa5ea5d8218b798bce3751588a0d28f6b32b7d27a47e7cc790a92&scene=126&sessionid=0#rd",
+      "published": "2026-09-17 13:08",
+      "raw_path": "raw/article/卡尔的AI沃茨/分享一个我用GPT6+Hyper3D搭可互动个人作品集的新技巧-a9aa95d9-27bd28aaf4.md",
+      "raw_sha256": "4d28241d1f22239de445a4c2c0898ffe466407d323c25f51cbf709c9ce860365",
+      "source_page": "wiki/sources/卡尔AI搭建3D互动作品集文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整原文文字；图片、视频、音频未核看；SLOW全文分析，产品与机制未独立复测",
+      "detail_request_id": "3e17e008-057b-4035-a1a7-835e7dd8ea7e",
+      "anchors": [
+        {
+          "text": "其实刚开始玩GPT-6 Astra的时候很快就会遇到第一个问题，就是能搭建房间、能写Three.js代码、能把模型塞进网页。但你让它自己做3D模型的话，就只能说停留在基础的几何体层面。",
+          "location": "成果展示后的问题提出段"
+        },
+        {
+          "text": "要做到零件级的独立控制，得先把模型拆开。",
+          "location": "互动动画与BANG引入段"
+        },
+        {
+          "text": "想法 → GPT画参考图 → Rodin生成3D → BANG拆件 → GPT写交互代码 → 上线。",
+          "location": "文末完整流程总结段"
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "id": "2247511361:1",
+      "title": "实测豆包新模型2.1-pro，这次审美和长时间Agent任务都追上第一档了",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247511361&idx=1&sn=e58071041a30e34a59e43b534811dd6b&chksm=cffded686903fe0d6a2b8c046a0bd4ffc77624b1b976b80590728b022bc67b7af712ad89ef6b&scene=126&sessionid=0#rd",
+      "published": "2026-09-16 15:18",
+      "raw_path": "raw/article/卡尔的AI沃茨/实测豆包新模型2.1-pro，这次审美和长时间Agent任务都追上第一档了-ac8f079e-272b80f6d4.md",
+      "raw_sha256": "5c167e77b27994abce87dd25870d95afbe4337b4312f25fae24dd0a6e630f21d",
+      "source_page": "wiki/sources/卡尔豆包长任务与前端能力实测文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整原文文字；图片、视频、音频未核看；SLOW全文分析，产品与机制未独立复测",
+      "detail_request_id": "9f0190ac-4238-48fc-8156-c7f9949cec23",
+      "anchors": [
+        {
+          "text": "不拿玩具样例试水，把手里几个一直拖着没开工的真实文件整份甩进去。中途不帮它拆步骤，不中途追喂提示，就看这个新的豆包模型能不能稳稳接住我。",
+          "location": "开头，测试原则段"
+        },
+        {
+          "text": "为了不犯错我还随机抽了几个表，纯手工核了一遍数字。",
+          "location": "工程Excel案例，60行结果之后"
+        },
+        {
+          "text": "别让AI空口说白话，要么给它可追溯的数据源，要么给它一本真书。",
+          "location": "后段，QBS方法总结"
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "id": "2247511249:1",
+      "title": "实测GPT-6+Blender新玩法，我用Aholo Lux3D搭了一个3D版包豪斯工作室！",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247511249&idx=1&sn=00366958c41952354fbc191e497b40e0&chksm=cf5bf9e15d996186be36f5a12a1280de5e715c4a8f0164f99f7d6c0bc680758f86842697c44c&scene=126&sessionid=0#rd",
+      "published": "2026-09-14 22:03",
+      "raw_path": "raw/article/卡尔的AI沃茨/实测GPT-6+Blender新玩法，我用Aholo Lux3D搭了一个3D版包豪斯工作室！-13bb18ec-edd54e406a.md",
+      "raw_sha256": "5e13d1bc80338944b87149077b9b72d9737c3315718295ea60d7e817d585f28c",
+      "source_page": "wiki/sources/卡尔AI辅助拍摄间3D规划文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整原文文字；图片、视频、音频未核看；SLOW全文分析，产品与机制未独立复测",
+      "detail_request_id": "25af2017-06c4-47c7-b210-e9f58ac36412",
+      "anchors": [
+        {
+          "text": "正好GPT-6 Astra来了，我用它和Aholo Lux3D把我的拍摄间布局全都设计好了，可以直接按点位摆好就行了。",
+          "location": "前段，真实需求转入解决方案处"
+        },
+        {
+          "text": "大概8分钟出来了，19.3万三角面，可以离线预览，可以导出GLB和ZIP。",
+          "location": "中段，橙色台灯单件建模案例"
+        },
+        {
+          "text": "这些问题，现在可以直接在3D场景里验证了。",
+          "location": "中后段，颜色与布局比较总结"
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "id": "2247511178:1",
+      "title": "从4秒到两小时/480p到4k，我在RunningHub重新认识了能认真讲故事的AI视频们",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247511178&idx=1&sn=dbe6cac1ba3e97a828838ff1bcf6791a&chksm=cfab2e241245065d0cb0da62d5e60c0f8f8850c29043a2159b493b83a2d3d912095c71e1441f&scene=126&sessionid=0#rd",
+      "published": "2026-09-13 17:08",
+      "raw_path": "raw/article/卡尔的AI沃茨/从4秒到两小时_480p到4k，我在RunningHub重新认识了能认真讲故事的AI视频们-40f4b41e-5e419e4c60.md",
+      "raw_sha256": "bedca2d6e20a00169d9ed46828b7d5055a28ff6f64ec04a9120c04b302ca4686",
+      "source_page": "wiki/sources/卡尔AI长片趋势与创作赛事文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整原文文字；图片、视频、音频未核看；SLOW全文分析，产品与机制未独立复测",
+      "detail_request_id": "57f62485-9d22-4395-bc69-3606ed0085d2",
+      "anchors": [
+        {
+          "text": "所以，好的故事其实不会被形式埋没，就算是还留有AI带来的一点小bug，也很少有人会在意，大家更愿意把视线留在故事本身。",
+          "location": "前中段，The accdient案例之后"
+        },
+        {
+          "text": "而且，报名阶段不用先肝完一整部长片，一个两分钟先导片就好了。",
+          "location": "中后段，赛事报名门槛介绍"
+        },
+        {
+          "text": "评判一个作品的好坏，可能会重新回到那个最核心的故事本身，而无关技术。",
+          "location": "结尾，行业观点收束"
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "id": "2247511119:1",
+      "title": "实测DeepSeek V4.1 Flash，降价后熟悉的梁圣又回来了",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247511119&idx=1&sn=0f53b5017e41b16afc9b201966ce2bda&chksm=cf8c5b77d511fdddc44947047e5c25a1dae4951fe60acc52d545440376fe7ebd63ce8f851c6d&scene=126&sessionid=0#rd",
+      "published": "2026-09-11 12:24",
+      "raw_path": "raw/article/卡尔的AI沃茨/实测DeepSeek V4.1 Flash，降价后熟悉的梁圣又回来了-cbe72e5c-331c92e6cb.md",
+      "raw_sha256": "a3ac7a69413b20cc072f8ef4076c4af7727ac2d111733462c156c88d07b7907d",
+      "source_page": "wiki/sources/卡尔DeepSeek 4.1 Flash与桌面Harness实测文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整原文文字；图片、视频、音频未核看；SLOW全文分析，产品与机制未独立复测",
+      "detail_request_id": "e1960c95-aaf2-49ed-bad8-54a67ec6770d",
+      "anchors": [
+        {
+          "text": "主要看的还是四点，做游戏能不能真正跑起来并正常玩，断网后是否还能运行，代码有没有真正解决问题，最后是模型能不能主动识别自己的问题和能力边界。",
+          "location": "桌面版排错后、正式测试前的验收标准段"
+        },
+        {
+          "text": "结果一测，给我烧了，快2个小时了，中间断掉还是我去补我的credits了。。。。-100。",
+          "location": "城市模拟器复现案例的运行成本段"
+        },
+        {
+          "text": "我折腾了好几次，配对折腾半天，最后连一条消息都没发出去，Agent在哪都没找到，到现在依然是个纯纯的摆设。。。",
+          "location": "末段桌面端手机连接缺陷段"
+        }
+      ]
+    },
+    {
+      "rank": 26,
+      "id": "2247510998:1",
+      "title": "分享一个在长视频推理上超过Gemini 2.5 Pro的新模型",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247510998&idx=1&sn=a562cf5e0c3ddc4739cec24c8762f919&chksm=cf0b85764d19eb7d9ac13c7fb17b6d901c630ed29a53c17a96c84ad75f2b1dbe7f5ce2a3c2de&scene=126&sessionid=0#rd",
+      "published": "2026-09-10 18:18",
+      "raw_path": "raw/article/卡尔的AI沃茨/分享一个在长视频推理上超过Gemini 2.5 Pro的新模型-1a04487d-500a6c14e3.md",
+      "raw_sha256": "06eb5893fc2fbd7f6ab29527e0e56e9a3d1449ff4ae9e7a0d3b9c0bf19569920",
+      "source_page": "wiki/sources/卡尔VLX-VR长视频推理实测文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整原文文字；图片、视频、音频未核看；SLOW全文分析，产品与机制未独立复测",
+      "detail_request_id": "0654a03b-1136-4e89-a058-e42e409b3c8c",
+      "anchors": [
+        {
+          "text": "「如果第2分钟那个过死点自锁没有到位，或者作动筒少缩回5厘米，后续高速平飞时会发生什么？」它停了几秒，在思考草稿纸里顺着时间线做了推演。",
+          "location": "起落架案例的反事实追问段"
+        },
+        {
+          "text": "第11秒左右，它精准捕捉到了屏幕上闪过的一行代码错误，指出脚本在调用CreateBlock1时触发了AttributeError。然后15秒，18秒，都有解决的过程。",
+          "location": "9倍速工业建模录屏案例"
+        },
+        {
+          "text": "当然，如果对照人类92.54分的满级基准，它现在还是有些肉眼可见的差距的。",
+          "location": "MINERVA数据后的能力边界段"
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "id": "2247510920:1",
+      "title": "继UU远程后，网易又整了一个识别速度快到没朋友的AI语音输入法",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247510920&idx=1&sn=3531794056e1f64c459f1e3187ea0571&chksm=cf2408b0a46144d67a2ee79ed481440d375581764815bad8553ea2e13d43a8390913e5e1526b&scene=126&sessionid=0#rd",
+      "published": "2026-09-09 23:31",
+      "raw_path": "raw/article/卡尔的AI沃茨/继UU远程后，网易又整了一个识别速度快到没朋友的AI语音输入法-3d51e275-c5a4b3d0a5.md",
+      "raw_sha256": "209d69e98336c48160c768c0adfc07c0592b989bab3322044bbc825d0d61e76f",
+      "source_page": "wiki/sources/卡尔网易叭哥说语音输入法对比实测文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整原文文字；图片、视频、音频未核看；SLOW全文分析，产品与机制未独立复测",
+      "detail_request_id": "11ca984c-6f7f-468b-9542-291d960fd444",
+      "anchors": [
+        {
+          "text": "为了测试的准确度，我后面都会自己先录一段音，然后打开这些AI输入法，全部重新听一遍。所以不会存在因为环境或者是重录的问题，导致它们收录到的声音不一样。",
+          "location": "四款输入法统一输入方法说明段"
+        },
+        {
+          "text": "整体的识别速度来说，是豆包> 叭哥说 = 闪电说 > Typeless，毕竟豆包的形态是输入法+AI，偏向转写而不是整理。",
+          "location": "四款产品初轮对比结论段"
+        },
+        {
+          "text": "这个测试是在我把自己存的词库导入到叭哥说之前测的，在我没有把自己的个人习惯导入，它能结合上下文抓准了专有名词，还把背景，约束条件和输出要求分段排好。",
+          "location": "长Prompt与专业术语专项测试结果段"
+        }
+      ]
+    },
+    {
+      "rank": 28,
+      "id": "2247510824:1",
+      "title": "GPT Image2.5悄悄上线，靠提示语提升AI生图可控性的时代要过去了",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247510824&idx=1&sn=025a8b7c5fec54d8a00c8632f55f8d98&chksm=cfdbe74fe8727ef40f3f6816fd7c991a99e417c9c8265f731cee3c0657f8a3bce3e887fb2280&scene=126&sessionid=0#rd",
+      "published": "2026-09-09 08:27",
+      "raw_path": "raw/article/卡尔的AI沃茨/GPT Image2.5悄悄上线，靠提示语提升AI生图可控性的时代要过去了-a81414c4-e0281ad2c9.md",
+      "raw_sha256": "8174edeb56cb094e2af4483277ce7a5d62fd1ff80d1c8e0828c9dc0d3a6b6457",
+      "source_page": "wiki/sources/卡尔GPT Image 2.5交互与生图对比文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整原文文字；图片、视频、音频未核看；SLOW全文分析，产品与机制未独立复测",
+      "detail_request_id": "20593792-854c-4e13-9eef-c92e8939b371",
+      "anchors": [
+        {
+          "text": "先不要用codex，用网页版chatgpt才能用上新的那些绘图功能",
+          "location": "正文前段，透明背景版本判断之后的排障段"
+        },
+        {
+          "text": "我反而是觉得image2.5这次的风格化做得没有image2好，变得更加柔和了点。",
+          "location": "正文后段，风格迁移类对比段"
+        },
+        {
+          "text": "涂鸦让你用画的替代用写的，模版让你跳过从零构建提示语的过程，标注精修让我们用点点替代文字描述，一致性的提升意味着我们不用再往提示语里塞各种稳定性约束。",
+          "location": "结论段，交互方式总结"
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "id": "2247510740:1",
+      "title": "可算有一个总能先我一步调整好日常待办的个人AI了",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247510740&idx=1&sn=be92b4520c222962c33b59336ffea996&chksm=cfaad2d3e8fc3c3a28f1b6b800cb14c2d31b51ea85776a11450b4914680a9561cb18fad42c0d&scene=126&sessionid=0#rd",
+      "published": "2026-09-08 11:30",
+      "raw_path": "raw/article/卡尔的AI沃茨/可算有一个总能先我一步调整好日常待办的个人AI了-cd50edf7-4cc3ca4a8d.md",
+      "raw_sha256": "3a39291606984aa6c0f3cd781d81dbb36ac069f699fcf4acf8b53d7dc55923f6",
+      "source_page": "wiki/sources/卡尔Today个人AI连续生活测评文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整原文文字；图片、视频、音频未核看；SLOW全文分析，产品与机制未独立复测",
+      "detail_request_id": "6963eeff-2e1c-4e42-affe-9c66110b737f",
+      "anchors": [
+        {
+          "text": "Today不是那种24小时监控你屏幕的间谍软件，它能知道什么，取决于你主动授权和选择提供了什么。",
+          "location": "压力测试输入说明之后的前提段"
+        },
+        {
+          "text": "为了测试它是不是真的有效，我故意在记忆里找到关于我作息的那条记录，把它从「习惯夜间工作」手动改成了「近期调整为早起专注」，顺手删掉了之前随口提过的一个过时项目。",
+          "location": "第三个瞬间，记忆治理测试段"
+        },
+        {
+          "text": "所以我建议走Staged Trust，阶梯信任，一点一点放开。我自己是这么做的。",
+          "location": "后段，隐私与权限建议部分"
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "id": "2247510661:1",
+      "title": "分享一个我随时随地只用手机就能远程操控Agent的新工作流",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247510661&idx=1&sn=f8fecd6b0fd33bc99f7a8c63b9d3cbe6&chksm=cf6519239c8d07afdc2a673a770e2195fff3064c3efba4f2b0a0b499c1f600a44c8c1f6fd881&scene=126&sessionid=0#rd",
+      "published": "2026-09-07 14:34",
+      "raw_path": "raw/article/卡尔的AI沃茨/分享一个我随时随地只用手机就能远程操控Agent的新工作流-e47c6420-96ed661dcb.md",
+      "raw_sha256": "597e90af40fd81a57f2a3c4667927bcbc77c0561fae0ac9355baea5463744b39",
+      "source_page": "wiki/sources/卡尔手机远控Agent工作流文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整原文文字；图片、视频、音频未核看；SLOW全文分析，产品与机制未独立复测",
+      "detail_request_id": "75099ea1-2df3-48a5-ab59-ec229b8a44b6",
+      "anchors": [
+        {
+          "text": "通过终端直接进命令行。找文件，改名，打包压缩，甚至远程用codex做ppt，都是一行命令就解决了。",
+          "location": "正文“终端和CLI”部分，手机键盘说明之后"
+        },
+        {
+          "text": "以前手机终端一次只能开一个会话，没法并行，挺鸡肋的。现在点左上角返回，只是暂时离开当前对话，并不会结束，Agent在里面该干啥还继续干啥。",
+          "location": "正文中段，TUI与多终端并行部分"
+        },
+        {
+          "text": "精细操作走远程桌面，",
+          "location": "结尾工作流总结段，三种远控方式第一句"
+        },
+        {
+          "text": "根据要干的事选一个最合适的方式远程控制，不再需要什么都挤在缩小版的桌面上戳戳戳了。",
+          "location": "结尾工作流总结段"
+        }
+      ]
+    }
+  ]
+}

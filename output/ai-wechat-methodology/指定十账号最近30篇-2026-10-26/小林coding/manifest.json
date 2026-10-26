@@ -1,0 +1,908 @@
+{
+  "requested_name": "小林coding",
+  "resolved_name": "小林coding",
+  "username": "gh_fc46cf2353fc",
+  "alias": "CodingLin",
+  "requested_count": 30,
+  "acquired_at": "2026-10-26T02:52:56.862167+00:00",
+  "article_list_request_ids": [
+    "3a9c847a-0dd4-4f96-816c-9d6ff4d28aae",
+    "70c59186-4a39-49d4-88b4-bc4013ee25c3",
+    "646c0b88-299a-4c63-917b-9484f7dea447"
+  ],
+  "list_complete": true,
+  "articles": [
+    {
+      "rank": 1,
+      "id": "2247565696:1",
+      "title": "被 500 万人围观！Claude工程负责人：“大家用AI都太怂了，不够有野心！”",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247565696&idx=1&sn=2d2fca759c48441f2c1217dbbbe18643&chksm=f81de8bf1f70e4ee7707eb2e285ab30547d21ad34b65edf34090e406571a8ae9b158a34d5b93&scene=126&sessionid=0#rd",
+      "published": "2026-10-24 17:15",
+      "raw_path": "raw/article/小林coding/被 500 万人围观！Claude工程负责人：“大家用AI都太怂了，不够有野心！”-32a2dcc6-81b37a9f34.md",
+      "raw_sha256": "cadb850c82b479b939b63278417a8d710911897ef7b7b77c908f7557e6059cfb",
+      "source_page": "wiki/sources/小林把普通任务改写成高野心AI任务文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "e0e51633-1ce6-436d-82a6-e1c25597b8af",
+      "anchors": [
+        {
+          "text": "每个任务我都开了两个全新的 Agent，模型和环境完全一样，只差一个 Skill。",
+          "location": "第06节“实测效果怎么样？”首段"
+        },
+        {
+          "text": "加了 Skill 不保证更好看，它保证的是 AI 先想清楚「什么叫做好」，再拿真实的检查去证明",
+          "location": "第06节三组任务对比之后（原句连续片段，排除HTML或空白断点）"
+        },
+        {
+          "text": "太阳系那组，时间是普通版的 7 倍，多出来的基本都花在了跑验证、推倒重来上。所以小活用不着它，值得做好的事再请出",
+          "location": "第06节“代价是什么？”表格后（原句连续片段，排除HTML或空白断点）"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-input-01.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-output-01.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 2,
+      "id": "2247565416:1",
+      "title": "今年后端这工资是认真的吗？",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247565416&idx=1&sn=8ce6db1e27d51aeab70daa0271652405&chksm=f8cf3f25d52de7e858a6a40cf5f99e9cdd08afe6e61f009859dd54069e1ceb465271a9fbe87c&scene=126&sessionid=0#rd",
+      "published": "2026-10-23 14:12",
+      "raw_path": "raw/article/小林coding/今年后端这工资是认真的吗？-e33a0df3-7a7e6cdf58.md",
+      "raw_sha256": "3c5225151b59945f2332a016e2a6f0137ee3005f44b56949300ab86fb7b62b6e",
+      "source_page": "wiki/sources/小林Agent就业保薪课程推广文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "cdba08a2-d12d-4753-b8c9-f1fcf6018ff8",
+      "anchors": [
+        {
+          "text": "具备面试国内一线agent开发、大模型岗位的能力要求的人才，",
+          "location": "行业焦虑导入后的课程推出段（原句连续片段，排除HTML或空白断点）"
+        },
+        {
+          "text": "在职人员最低薪资涨幅低于40%-50%，均可以全额退款。",
+          "location": "首次介绍班级承诺处"
+        },
+        {
+          "text": "请扫码添加课程顾问，备注“咨询课程”",
+          "location": "“就业保薪服务”之后的行动入口"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-input-01.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-output-01.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 3,
+      "id": "2247565416:2",
+      "title": "面试官：“Agent 接了上百个工具，怎么选？”，我：“Schema 全塞进 Prompt”，他：“你想撑爆上下文？”",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247565416&idx=2&sn=20371bdb86bee3f2ecf354ba2ef1e38e&chksm=f814a4233979e65dd9613612214272ca31d88cd201617c19af06e7a1b2481ac40347e148c539&scene=126&sessionid=0#rd",
+      "published": "2026-10-23 14:12",
+      "raw_path": "raw/article/小林coding/面试官：“Agent 接了上百个工具，怎么选？”，我：“Schema 全塞进 Prompt”，他：“你想撑爆上下文？”-a6015e17-fe316fa150.md",
+      "raw_sha256": "339c5c74423482a505f2346a42f4e068694e7681ad167d8ad58cccf241f18543",
+      "source_page": "wiki/sources/小林大规模Agent工具路由设计文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "4223a06c-8e4d-46c3-8295-d1040d3673a5",
+      "anchors": [
+        {
+          "text": "正确做法不是「向量搜一下就调用」，而是先做确定性过滤，再分层召回候选，最后让模型精选，并为低置信度和失败情况准备兜底。",
+          "location": "开场面试对话最后一段"
+        },
+        {
+          "text": "这里有一个安全原则要特别强调：先鉴权，再做相关性召回。",
+          "location": "“第二步，先做确定性过滤”小节"
+        },
+        {
+          "text": "示例里的阈值和 Top-K 只是说明控制点，不是通用最优值。真实项目要根据评测集中的召回率、Token、延迟和误选情况调参。",
+          "location": "路由伪代码之后"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-input-01.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-output-01.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 4,
+      "id": "2247565385:1",
+      "title": "我把一个国产开源模型拉上了麻将桌，半秒出牌，直接赢麻了。。。",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247565385&idx=1&sn=21bf483bce3123bfe60023a0682f5977&chksm=f8fa05b4e4ff741963a214b895e9a5da3800ef7a58f28937cd311cf4ddac8666365b810f6122&scene=126&sessionid=0#rd",
+      "published": "2026-10-21 16:12",
+      "raw_path": "raw/article/小林coding/我把一个国产开源模型拉上了麻将桌，半秒出牌，直接赢麻了。。。-9599eb4f-5d4d2e70d6.md",
+      "raw_sha256": "a8ab6f27d10b05bf43aa65531e41668f9c98a174421495e01a1d94d8fd88eccd",
+      "source_page": "wiki/sources/小林意图模型接入与多场景测试文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "032b3fde-52cc-4ca9-88d5-7f6c635f6215",
+      "anchors": [
+        {
+          "text": "当然也不是回回都对。我随手拿了几十手牌试，十手里大概能对九次。",
+          "location": "“实测 Xing4.0-29B-Intent”中的麻将陪练段落"
+        },
+        {
+          "text": "别传 system 消息",
+          "location": "“怎么接入 Xing4.0-29B-Intent？”代码之后的注意事项（原句连续片段，排除HTML或空白断点）"
+        },
+        {
+          "text": "便宜不少，我是真有点心动，打算认真考虑接进生产项目了",
+          "location": "“接进 MewHelp 客服”段落末尾（原句连续片段，排除HTML或空白断点）"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-input-02.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-output-02.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 5,
+      "id": "2247565305:1",
+      "title": "霸榜 GitHub 第一的 AI 逆向神器，被玩疯了。。。",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247565305&idx=1&sn=ac76781ae8c3c4cb2a30ba18295be6fa&chksm=f8dfe6f97ed52f28a53f9cc1c3a8ede57d3a04c2c0bc9355625bd853736e179036482f4dca09&scene=126&sessionid=0#rd",
+      "published": "2026-10-19 21:06",
+      "raw_path": "raw/article/小林coding/霸榜 GitHub 第一的 AI 逆向神器，被玩疯了。。。-47ca67b9-e650e363bc.md",
+      "raw_sha256": "e94db129e57a3fd6cda791ddb1237e908e7823e48ccd5050841c71b27706e84e",
+      "source_page": "wiki/sources/小林AI辅助逆向的机制与边界文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "4f37b3e3-0282-41a9-bcfb-f656d489a1c9",
+      "anchors": [
+        {
+          "text": "所以 REA 自己其实不做反编译，这些重活还是交给 IDA、Ghidra、Hopper 这些老牌工具。REA 干的是",
+          "location": "“REA 和反编译工具是什么关系？”段落（原句连续片段，排除HTML或空白断点）"
+        },
+        {
+          "text": "不过这篇不讲怎么用，我想跟你们聊聊 REA 背后的原理。",
+          "location": "开头案例与风险提示之后"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-input-02.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-output-02.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 6,
+      "id": "2247565254:1",
+      "title": "豆包工作重磅更新！深度实测无限画布+2.1 Lite模型，夯爆了！",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247565254&idx=1&sn=ee504dd3bcb0a7e46044c1a3fa833e8c&chksm=f858e3aa759d6aa093448e653eaa9b4ecdfbb18f1e93ceffb5f27533069662dcdd72994f90c9&scene=126&sessionid=0#rd",
+      "published": "2026-10-20 15:26",
+      "raw_path": "raw/article/小林coding/豆包工作重磅更新！深度实测无限画布+2.1 Lite模型，夯爆了！-59d2d1e6-98f14c9618.md",
+      "raw_sha256": "decddc4bf2692f9eb44145ced6bda58a04ab491a320ef4e0f296da167b54ac43",
+      "source_page": "wiki/sources/小林无限画布制作剧本杀物料文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "6e3cfdd6-b919-4d0f-a65f-aa61844ec926",
+      "anchors": [
+        {
+          "text": "当然，真要把这套素材做成可以直接拿来玩的剧本杀，后续还得继续完善剧情逻辑、线索关联和游戏机制。",
+          "location": "全文总结段落"
+        },
+        {
+          "text": "从前期用豆包 2.1 Lite 梳理原著、提取人物设定和线索，到后面用 Seedream 5.0 Flash 批量生成场景、人物立绘，再到修改封面、分图层、去背景、扩图和制作卡牌，整个过程基本都在豆包工作里完成了。",
+          "location": "体验总结段落"
+        },
+        {
+          "text": "网页搜索『豆包工作』下载电脑端，限时免费领取30天会员。",
+          "location": "文章结尾行动入口（原句连续片段，排除HTML或空白断点）"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-input-02.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-output-02.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 7,
+      "id": "2247565251:1",
+      "title": "梁圣杀回来了！DeepSeek新模型发布，爆肝实测一天，性价比杀穿全场",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247565251&idx=1&sn=e97cef150add4878f0b70dd34f371e69&chksm=f84ac4936632101d680e9e40a3630a6432b12d30570100d5902cdbd4dabe5a02297f15a00334&scene=126&sessionid=0#rd",
+      "published": "2026-10-18 10:46",
+      "raw_path": "raw/article/小林coding/梁圣杀回来了！DeepSeek新模型发布，爆肝实测一天，性价比杀穿全场-f469715d-e9e0a39866.md",
+      "raw_sha256": "b9c41b91b3af403f16fc55201ef3495e610fbec3a986a7222f79a6511324f934",
+      "source_page": "wiki/sources/小林DeepSeek新模型九案例文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "998bc338-a832-4646-99f5-2509e47f9ac0",
+      "anchors": [
+        {
+          "text": "不过并不代表全面碾压 Claude Opus 5，表格里有一半多的测试项，第一依然是 Claude Opus 5。",
+          "location": "开篇基准表现段"
+        },
+        {
+          "text": "好吧虽然可以多一嘴就能让deepseek 修复，但是本轮的测试，就是要看一次性直出的效果。",
+          "location": "09｜锦鲤鱼塘段"
+        },
+        {
+          "text": "全部实测都是简单的提示词，就一次性就做出来了完整的成品，尤其是3D建模和游戏方面做出来的效果还是比较出色的。",
+          "location": "写在最后"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-input-03.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-output-03.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 8,
+      "id": "2247565110:1",
+      "title": "全世界都在用的 Git，被 Anthropic 彻底抛弃了",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247565110&idx=1&sn=19980e84310a82c6f73c2799290d8f50&chksm=f8e76774bd6e7b2bfd678825b195d76a22723713e6d0c2d8b549849b2fd7cb5f89fc3f569276&scene=126&sessionid=0#rd",
+      "published": "2026-10-17 15:26",
+      "raw_path": "raw/article/小林coding/全世界都在用的 Git，被 Anthropic 彻底抛弃了-2797909d-9b16db3907.md",
+      "raw_sha256": "fe9028c1243682ac10b887ba0a05b617944b54d9dcdafef911f84ab8dd9c1dc3",
+      "source_page": "wiki/sources/小林Anthropic源码管理Scion解析文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "51d09896-b665-476d-a083-faf9ee5ba2da",
+      "anchors": [
+        {
+          "text": "先别急。Scion 根本不适合拿来当通用的 Git 替代品，它是专门为 Anthropic 内部那个超大的单体仓库设计的，这个仓库里放着全公司的代码。",
+          "location": "开篇问题限定段"
+        },
+        {
+          "text": "每一层缓存的命中率都在 99% 以上。和以前的 Git 镜像设施相比，Scion 用到的 CPU 和内存只有原来的两百分之一。",
+          "location": "第三部分效果段"
+        },
+        {
+          "text": "对我们大多数团队来说，Git 照样好用，没必要跟风。",
+          "location": "写在最后"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-input-03.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-output-03.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 9,
+      "id": "2247565015:2",
+      "title": "面试官：“Agent工具调用失败怎么办？”，我：“统一重试三次”，他：“参数错了还重试，是想错得更稳定？”",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247565015&idx=2&sn=77ef4aa9577d1277847962e8b48cf196&chksm=f85949fe995c102a3c9f8750717fe746edd189260b22306256fd5a81ead453b8bdb41eb53881&scene=126&sessionid=0#rd",
+      "published": "2026-10-16 14:12",
+      "raw_path": "raw/article/小林coding/面试官：“Agent工具调用失败怎么办？”，我：“统一重试三次”，他：“参数错了还重试，是想错得更稳定？”-1b5393cd-ed2ab6dcab.md",
+      "raw_sha256": "c13a139f13379b1ef4b9abc8d3a24f8319acb0a6f382cb4c378f92234641d558",
+      "source_page": "wiki/sources/小林Agent工具调用容错设计文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "edd54c19-ed9a-4286-9855-fa0ee8ab33f8",
+      "anchors": [
+        {
+          "text": "工具调用的容错难点是判断故障发生在哪一层，以及一次失败有没有产生外部副作用。多写几个",
+          "location": "开场面试对话后总论段（原句连续片段，排除HTML或空白断点）"
+        },
+        {
+          "text": "「Exactly-once」很容易被说得过头。幂等键只有在服务端识别它、保留记录并覆盖完整副作用边界时才有效。",
+          "location": "幂等键有明确的生效边界段"
+        },
+        {
+          "text": "状态查询仍无法确认结果时，系统应该暂停运行，保存现场并交给人工。",
+          "location": "Checkpoint决定故障后从哪里继续段"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-input-03.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-output-03.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 10,
+      "id": "2247565006:1",
+      "title": "面试官皱眉：“你知道Codex多Agent实现机制吗？ ”我笑了：“独立会话、上下文交接、异步通信、任务调度，你想先听哪块？”",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247565006&idx=1&sn=817cef4546a2c4f3eee95c68bd33afe3&chksm=f8901d06be03a6623677dc438d5fd7541c01e8e497d1256bf84ac98029c8fa0062aacb2ce7ed&scene=126&sessionid=0#rd",
+      "published": "2026-10-15 14:12",
+      "raw_path": "raw/article/小林coding/面试官皱眉：“你知道Codex多Agent实现机制吗？ ”我笑了：“独立会话、上下文交接、异步通信、任务调度，你想先听哪块？”-f4836659-ee9f8e968a.md",
+      "raw_sha256": "1ab1aed7e51f5616c96aa7ab7634d8818fa8ae475943b6fe26cf6da1bcdd2e52",
+      "source_page": "wiki/sources/小林Codex多Agent协作机制拆解文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "db802a39-642f-4f54-a84c-01e3f4206c32",
+      "anchors": [
+        {
+          "text": "注意，这里的「独立」首先指会话。",
+          "location": "第03节“主 Agent 派出去的，到底是什么？”中后段"
+        },
+        {
+          "text": "所以「发送成功」只说明 Codex 程序已经接收并投递了消息，不能理解成主 Agent 已经读到消息，并按消息调整了方案。",
+          "location": "第05节“大家都在忙，新信息和执行结果怎样传回来？”消息队列段"
+        },
+        {
+          "text": "子 Agent 拥有独立的会话上下文，默认协作环境里的工作目录和文件系统却是共享的。",
+          "location": "第07节“Agent 多了，怎样避免越帮越忙？”开头"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-input-04.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-output-04.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 11,
+      "id": "2247565001:1",
+      "title": "Gemini 4 Argon 震撼上线！拳打Opus 5.5，脚踢GPT-6 Astra，再也不是哈基米了。",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247565001&idx=1&sn=34fd0f653eec4541e36335c20056e866&chksm=f89a4abec5f58d8d3c6a7d8378442f0ae97638801aca56c9fb429fa50b0fa776824150a78dd6&scene=126&sessionid=0#rd",
+      "published": "2026-10-14 17:06",
+      "raw_path": "raw/article/小林coding/Gemini 4 Argon 震撼上线！拳打Opus 5.5，脚踢GPT-6 Astra，再也不是哈基米了。-e2fff115-772dff1325.md",
+      "raw_sha256": "e0fdef8796aeb4e24af609c5b7f3a9b4d58f45315ffa4d3aa64bc2cc2cf7f3c0",
+      "source_page": "wiki/sources/小林GeminiArgon公开案例文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "6ea91c6a-f0f3-4df3-a956-b87f2573c7b6",
+      "anchors": [
+        {
+          "text": "这次全面上线之后，我第一时间打开 Google Antigravity，想来实测一波，确实是看到 Gemini 4 Argon 模型了，结果发现仅对 Ultra 订阅用户可用，这就尴尬了。",
+          "location": "开篇榜单与权限说明段"
+        },
+        {
+          "text": "不过我在X上已经看到非常多的大佬实测Gemini 4 Argon效果，那我们就一起来看看这些效果到底如何。",
+          "location": "进入“Gemini 4 Argon实测效果”前"
+        },
+        {
+          "text": "按作者的记录，Argon 用时 4 分 20 秒，花费 3.40 美元，Opus 5.5 用时 1 小时 53 分钟，花费 23.46 美元。",
+          "location": "“太空列车”案例段"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-input-04.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-output-04.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 12,
+      "id": "2247564880:1",
+      "title": "我让豆包工作帮我逛淘宝，它回来给我带了10个AI商机。",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247564880&idx=1&sn=8c8c692a8adcdce9b432721de759b96a&chksm=f82fc04ba7e11c7b74281c8970f5fc376e27c624913f712b52781419dffe033853fa134b2d0e&scene=126&sessionid=0#rd",
+      "published": "2026-10-13 10:42",
+      "raw_path": "raw/article/小林coding/我让豆包工作帮我逛淘宝，它回来给我带了10个AI商机。-a2475cdd-2221e13d16.md",
+      "raw_sha256": "1b5c63aa8939186e75f40edc997c393d62232eba49bf853677cf28449433e137",
+      "source_page": "wiki/sources/小林豆包工作调研淘宝AI商机文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "27e5f36e-78bf-4a71-86e6-83a572d7b174",
+      "anchors": [
+        {
+          "text": "我在电脑端把任务发给豆包工作，再带上一个淘宝桌面版的插件，让它自己在淘宝和公开信息里搜。",
+          "location": "“先让豆包工作去淘宝逛了一圈”开头"
+        },
+        {
+          "text": "过了十分钟左右，豆包工作差不多已经结束了在淘宝逛街的任务，开始向我汇报了。",
+          "location": "“原来AI时代有这么多新奇生意”开头"
+        },
+        {
+          "text": "现在网页搜索「豆包工作」下载电脑端",
+          "location": "全文最后一段（原句连续片段，排除HTML或空白断点）"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-input-04.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-output-04.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 13,
+      "id": "2247564842:1",
+      "title": "用Claude重构祖传代码，这泼天的技术债有救了！",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247564842&idx=1&sn=4a1e07a9874b02e87c053d907a9159c4&chksm=f8a127795da9223fda57bc23463d72f1307366c1262a02b5600a3c9574a36e2821361c175a70&scene=126&sessionid=0#rd",
+      "published": "2026-10-12 14:12",
+      "raw_path": "raw/article/小林coding/用Claude重构祖传代码，这泼天的技术债有救了！-71b701ef-7c9b4137a0.md",
+      "raw_sha256": "75e4ca37e86e15a1ec60a68767fcb07d53d4f597471c35ff6cb3a3268560a2eb",
+      "source_page": "wiki/sources/小林AI改造遗留系统的七步准备文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "0c21cfd3-49ae-429c-82c1-840ae8023df7",
+      "anchors": [
+        {
+          "text": "但写得出来，改得对不对，还是得有人确认。Agent 一下交来一堆修改，谁来验、谁来审，最后谁点上线？代码可以批量生成，负责审核的同事可不会跟着批量出现。",
+          "location": "开头第5段，提出生成速度与审核能力不匹配的核心矛盾"
+        },
+        {
+          "text": "但先别一口气跑完整个仓库。挑小范围试运行，让业务专家检查改出的代码、Agent 的处理过程，以及交上来的验收证据。",
+          "location": "第五节“怎么把这些要求交给 Agent？”中段"
+        },
+        {
+          "text": "比较可行的办法，是记录小范围试点的用量，再推算整体费用。不过，试点没覆盖到的情况，比如持续开发带来的同步工作，目前还估不准，后面可能需要追加预算。",
+          "location": "第七节“这样改一遍，要花多少钱？”中段（原句连续片段，排除HTML或空白断点）"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-input-05.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-output-05.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 14,
+      "id": "2247564808:2",
+      "title": "面试官皱眉：“LangChain 和 LlamaIndex 有什么区别？”，我：“LangChain 用来写 Chain，LlamaIndex 用来做 RAG”",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247564808&idx=2&sn=50771b1f6dbb04421fbc9492337a2182&chksm=f8ea4524a8edc881f1b2f936323c734ff99f70c5de77b920950346f3b38b188aeda6b8123f06&scene=126&sessionid=0#rd",
+      "published": "2026-10-10 14:12",
+      "raw_path": "raw/article/小林coding/面试官皱眉：“LangChain 和 LlamaIndex 有什么区别？”，我：“LangChain 用来写 Chain，LlamaIndex 用来做 RAG”-2fb7bbbe-7264aef869.md",
+      "raw_sha256": "25ae41e85807cffd69ef943056e69754e4c0b2ac2b5f0364b2010cd34ded555a",
+      "source_page": "wiki/sources/小林LangChain与LlamaIndex选型边界文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "df24d167-230e-4e9d-b98d-6b70285e6f18",
+      "anchors": [
+        {
+          "text": "这道题考察的不是框架标签，而是你能否根据业务的主要风险判断应该优先使用哪套抽象。",
+          "location": "开场面试对话之后的总结段"
+        },
+        {
+          "text": "这张表比较的是优势重心，不是能力边界。LangChain 也有完整的 RAG 组件，LlamaIndex 也能创建 Agent；区别在于哪一套抽象更贴近项目的主要问题。",
+          "location": "“核心区别是什么？”比较表之后"
+        },
+        {
+          "text": "如果只是简单知识库或单工具 Agent，没有必要为了架构完整同时引入两套框架。组合会增加依赖、追踪和调试成本，只有当两边确实解决独立难题时才值得。",
+          "location": "“应该如何选型？”风险表之后"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-input-05.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-output-05.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 15,
+      "id": "2247564796:1",
+      "title": "我反问面试官：“你知道Codex记忆机制是怎么实现的吗？”，他：“不知道”，我：“我教你，我看过源码”",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247564796&idx=1&sn=1f3532e26c72ec65fa92da2c82adbfef&chksm=f8a2d139c197cd937946c70dd915e20fd43bf1e71b37962ff7fe65d8dcccb18a99e759e92176&scene=126&sessionid=0#rd",
+      "published": "2026-10-09 14:12",
+      "raw_path": "raw/article/小林coding/我反问面试官：“你知道Codex记忆机制是怎么实现的吗？”，他：“不知道”，我：“我教你，我看过源码”-23c17637-1c0f095b40.md",
+      "raw_sha256": "7ac3cb4b8553b26152d6abfd0303fb8b577164dfe7757d87446c15c741207da4",
+      "source_page": "wiki/sources/小林Codex记忆机制文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "434adb87-9240-4783-bd3a-6cc01b23fc76",
+      "anchors": [
+        {
+          "text": "当前上下文，负责让眼前的任务继续执行；会话历史，负责让关闭后的同一任务能够恢复；长期记忆，则负责让新任务复用旧任务里值得保留的经验。",
+          "location": "第一节“模型为什么不会天然记住你？”末段"
+        },
+        {
+          "text": "同一份工具结果，会有两种保存方式：准备发给模型的那份会限制长度，写进任务档案 Rollout 的那份则会保留更多内容。",
+          "location": "第二节“Codex 怎样管理当前任务的记忆？”中段"
+        },
+        {
+          "text": "先说明一下：在本文分析的 Codex 版本中，这套长期记忆机制默认关闭，需要在设置中打开「启用本地记忆」后才会生效。",
+          "location": "第五节“旧任务怎样变成跨任务的长期记忆？”开头"
+        },
+        {
+          "text": "不过，被引用只说明记忆影响了回答，不代表内容一定正确。Agent 仍然要结合当前代码和工具结果重新验证。",
+          "location": "第六节“新任务怎样找到旧经验，又怎样忘掉它？”中段"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-input-05.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-output-05.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 16,
+      "id": "2247564791:1",
+      "title": "面试官质疑：“你的Agent项目，不就是套了个 API？”我怼回去：“多Agent协作、长期记忆、Agent评测、RAG 混合检索……”",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247564791&idx=1&sn=011f4057906daf3638e1df08a8bb3d1e&chksm=f8995d3fd7795cbc55fdf932d605e34e4c1dd4f9166bef90c0d0def68810236556060a14d6b7&scene=126&sessionid=0#rd",
+      "published": "2026-10-05 14:12",
+      "raw_path": "raw/article/小林coding/面试官质疑：“你的Agent项目，不就是套了个 API？”我怼回去：“多Agent协作、长期记忆、Agent评测、RAG 混合检索……”-fa3dc057-5c05bf45bf.md",
+      "raw_sha256": "87a1d9d4c3aee11bf916d4dbd9a3175a9f0232867a44e9a61a28f729886f4388",
+      "source_page": "wiki/sources/小林DevFlow AI多智能体研发项目课程文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "f8ff8711-40d1-4647-9046-ff0722cfe0eb",
+      "anchors": [
+        {
+          "text": "挑其中一两个模块深入源码，再做一次修改和验证，就能把自己的实现过程、失败案例和设计取舍讲得更具体。",
+          "location": "“项目亮点”末段"
+        },
+        {
+          "text": "项目没必要自己去实现，不仅耗时长，而且对你的收益比较低。",
+          "location": "“项目常见问题”第7问"
+        },
+        {
+          "text": "学习内容以图文文档为主，会提供项目学习文档、项目源码、简历参考和项目面试题。但是没有手把手带做项目的视频教学，所以",
+          "location": "“项目学习方式是怎样的？”首段（原句连续片段，排除HTML或空白断点）"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-input-06.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-output-06.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 17,
+      "id": "2247564705:1",
+      "title": "GPT-6.1 Sol 震撼上线！逼近 Astra，该和 GPT-6 Sol 说声再见了。",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247564705&idx=1&sn=091ac37a5c7a19bd357c719f9a359b32&chksm=f86825ab3b7330baccc633622d537a946586c8fc82cd64e65bad905564295c5e6d2dda08dded&scene=126&sessionid=0#rd",
+      "published": "2026-10-01 22:02",
+      "raw_path": "raw/article/小林coding/GPT-6.1 Sol 震撼上线！逼近 Astra，该和 GPT-6 Sol 说声再见了。-609b2096-1e6f5a4158.md",
+      "raw_sha256": "f97c9d987a722b40659b6ea687034bc6910fc399a9294cefe065b60cab1142a8",
+      "source_page": "wiki/sources/小林GPT-6.1 Sol多场景生成实测文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "957dfe1f-4a63-4618-b762-9c66d58d9099",
+      "anchors": [
+        {
+          "text": "这次我用3D建模、动效、视频、游戏、Web网页这几个维度去实测 GPT-6.1 Sol ，推理强度开的是「极高」。",
+          "location": "开头实测范围说明段"
+        },
+        {
+          "text": "不过，坦白说 GPT-6.1 Sol 做视频不能说算很出彩，只能说还行，目前做视频效果最好的还是 claude opus5.5 模型。",
+          "location": "“视频”小节末段"
+        },
+        {
+          "text": "测了这么多案例，我的 5X Pro 周额度只掉了 10%，确实挺耐用。要是换成 Astra 来跑，我估计怎么也得掉 50% 的周额度。",
+          "location": "“写在最后”第二段"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-input-06.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-output-06.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 18,
+      "id": "2247564483:1",
+      "title": "腾讯出手了！WorkBuddy一句话就能生成小程序，夯爆了！",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247564483&idx=1&sn=13bd80193fae4b28e68b978e581b7cef&chksm=f82c05dbf79f6a4ecd44d25cf8f42e84f053f0605dd68d751ec6313690c4e20fff16855d556f&scene=126&sessionid=0#rd",
+      "published": "2026-09-30 14:12",
+      "raw_path": "raw/article/小林coding/腾讯出手了！WorkBuddy一句话就能生成小程序，夯爆了！-f2d1c22a-a5d83e724d.md",
+      "raw_sha256": "2534b11f9025865ae39dfc885982daaeda93d418d9564f747a3e188347761ca8",
+      "source_page": "wiki/sources/小林WorkBuddy零代码生成微信小程序文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "cd232e6e-5a12-4945-84de-e691d2435449",
+      "anchors": [
+        {
+          "text": "这里记得在需求里写上「微信小程序」，不然可能做着做着，生成了一个网页应用。",
+          "location": "“第一步：切换成代码开发模型，说出你的需求”第二段"
+        },
+        {
+          "text": "我这次大概等了 30 分钟，第一版学习打卡小程序就做出来了，右侧直接能看到预览效果，整个界面是前面要求的米白色手账风格。",
+          "location": "“第二步：关联云服务”末段"
+        },
+        {
+          "text": "不过，准备长期运营的同学，建议一开始就绑定自己的账号。试用版目前不能直接转成正式版，同一个应用创建试用版后，也不能再改绑已有账号。",
+          "location": "“第三步：发布上线小程序”账号选择说明"
+        },
+        {
+          "text": "用的过程中，我也发现了两个小毛病",
+          "location": "“小程序后续改进”中段"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-input-06.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-output-06.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 19,
+      "id": "2247564423:1",
+      "title": "Anthropic 重磅发布：Claude Opus 5.5 最佳使用手册！",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247564423&idx=1&sn=4dbe6fb7eda4e8befd2d3b1327659f1d&chksm=f8fbcdc11b57f074c8df2f4e31087bdf4c56e8326c235345f406776b5ad98df804f67170de17&scene=126&sessionid=0#rd",
+      "published": "2026-09-29 10:42",
+      "raw_path": "raw/article/小林coding/Anthropic 重磅发布：Claude Opus 5.5 最佳使用手册！-6959f8a7-1ea81b71ad.md",
+      "raw_sha256": "df53cc2e45da93cce81c5073161c35f715fde75c600240810735170e4c1043f6",
+      "source_page": "wiki/sources/小林Claude Opus 5.5 长任务协作手册文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "70119bc1-5b69-444d-a938-0728b32b1f41",
+      "anchors": [
+        {
+          "text": "手册给的建议很直接。把完整任务交出去，说明做到什么程度算完成、什么时候需要来问你，少写「仔细思考」这类叮嘱。等长任务结束，先看哪些事情还在等你处理。",
+          "location": "开头总述，“长任务的三个协作阶段”之前"
+        },
+        {
+          "text": "危险操作的权限确认也得保留，提示词里的约定不能代替权限设置。",
+          "location": "第二部分“长任务，怎么避免干一半就停？”中段"
+        },
+        {
+          "text": "哪条建议对你有用，拿自己的任务试过，比记住整份手册更有感觉。",
+          "location": "结尾检查清单之后"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-input-07.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-output-07.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 20,
+      "id": "2247564422:1",
+      "title": "华为八年磨一剑！昇腾CANN拿下国内 AI 开源社区活跃度第一！",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247564422&idx=1&sn=26e7ec62a6daf933b73f01260af8bb73&chksm=f814454cf23bd0de85e8efeee2e9a699c6270e8fa74a0d8a01cb1fb5ae0d0a9b67c87503977d&scene=126&sessionid=0#rd",
+      "published": "2026-09-27 15:16",
+      "raw_path": "raw/article/小林coding/华为八年磨一剑！昇腾CANN拿下国内 AI 开源社区活跃度第一！-b1231b58-fb5b90f25e.md",
+      "raw_sha256": "02e63503332c18e0cd1bde5601859139c71a4f41648817e9dd16628066c4cff5",
+      "source_page": "wiki/sources/小林昇腾 CANN 易用化与开源生态文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "42bde335-0a8b-40b5-94b0-05d74c5b96b0",
+      "anchors": [
+        {
+          "text": "复杂度没有凭空消失，只是被工具、组件和经过验证的工作流接住了。开发者不必每次从零摸索，才算真正降低了门槛。",
+          "location": "第一部分“AI 越强，开发体验为什么越重要？”末段"
+        },
+        {
+          "text": "当然，易用也不等于所有人都能跳过专业知识。算子最终能不能正确运行，性能是否达到要求，仍然需要测试和验收。",
+          "location": "第三部分 CANNBot skills 与算子开发讨论后"
+        },
+        {
+          "text": "据昇腾介绍，这一优化带来了近 2 倍的训练性能提升。",
+          "location": "第四部分训练侧 MindSpeed 案例"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-input-07.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-output-07.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 21,
+      "id": "2247564379:1",
+      "title": "GPT-6 Sol 上线！被 Astra 榨干的额度，终于有救了。",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247564379&idx=1&sn=7847327541208bac59c629d2a23c180f&chksm=f808f07147e0d69ddaabf45dfd77a5243fc4b947a60b108598c0df7a430ed79cd3e1d39b911f&scene=126&sessionid=0#rd",
+      "published": "2026-09-25 15:56",
+      "raw_path": "raw/article/小林coding/GPT-6 Sol 上线！被 Astra 榨干的额度，终于有救了。-7d90daab-8ae3d30ac1.md",
+      "raw_sha256": "529b29a65168d46f1a2e0bd97f27ecaaee48b6b817b1a526b73c14280006440a",
+      "source_page": "wiki/sources/小林GPT-6 Sol 与 Astra 成品对比文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "e9d7f7af-1bc3-43b3-a061-2584eea31057",
+      "anchors": [
+        {
+          "text": "虽说Opus 5.5我测不了，但是这篇我先测 GPT-6 Sol 和 Astra。",
+          "location": "实测章节开始前"
+        },
+        {
+          "text": "同样的任务，推理强度都设成「极高」，看看 Sol 跟 Astra 实际能差多少。",
+          "location": "“GPT-6 Sol vs GPT-6 Astra 实测”标题前"
+        },
+        {
+          "text": "GPT-6 Sol 基本都能把东西做出来，可到了细节，总会差一点意思，GPT-6 Astra 交出的成品，整体上确实会更好一些。",
+          "location": "结尾总结第二段"
+        },
+        {
+          "text": "这轮测完，我的 5x Pro 周额度还没掉 10%。同样的活要是全交给 GPT-6 Astra，至少得掉 30%～40%。",
+          "location": "“写在最后”第一段"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-input-07.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-output-07.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 22,
+      "id": "2247564277:2",
+      "title": "面试官笑问：“LangGraph 相比 LangChain 有什么优势？”，我：“LangChain 只能写线性 Chain，LangGraph 才支持分支、循环和 Agent”",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247564277&idx=2&sn=fddcb9019fa7260f18e31f2a49b16b91&chksm=f863cbbf5ccec3e5438b69b732bd6be8815f74767c948078d5ba6c2983ce1603f585d11551ab&scene=126&sessionid=0#rd",
+      "published": "2026-09-28 14:12",
+      "raw_path": "raw/article/小林coding/面试官笑问：“LangGraph 相比 LangChain 有什么优势？”，我：“LangChain 只能写线性 Chain，LangGraph 才支持分支、循环和 Agent”-25e75fc4-28d7c8f1d8.md",
+      "raw_sha256": "052eb935b2680c50d15ffd90f5a1514198dcb99b66eab4e576721bbd2c1e491c",
+      "source_page": "wiki/sources/小林LangChain与LangGraph分层选型文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "ef0e7a58-c369-4492-b90d-596c41d75b8d",
+      "anchors": [
+        {
+          "text": "这道题要回答好的关键，是把「功能有没有」换成「开发者需要把控制精确到哪一层」。",
+          "location": "开头面试对话之后、简要回答之前"
+        },
+        {
+          "text": "示例重点是图的控制语义，不包含真实模型、数据库和鉴权实现。",
+          "location": "“完整流程示例”小节、采购代码之前"
+        },
+        {
+          "text": "LangGraph 能提供可靠执行的基础设施，却不能替业务自动发明幂等语义。",
+          "location": "“流程跨小时后如何继续？”小节末段"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-input-08.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-output-08.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 23,
+      "id": "2247564264:1",
+      "title": "阿里云端Claude Code，Anthropic最强平替实测真夯！",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247564264&idx=1&sn=f4866b14e4f71f68212e8830c0fd4b58&chksm=f8daed92f4986408239ce45916364241351179ae0cfa419d800d0cc14fcf126c6b557ae67785&scene=126&sessionid=0#rd",
+      "published": "2026-09-24 15:15",
+      "raw_path": "raw/article/小林coding/阿里云端Claude Code，Anthropic最强平替实测真夯！-52f52445-f97d124e70.md",
+      "raw_sha256": "93b470ac41861adb1168285aac7a74d2008aa3008e054c8052f04705c9c21cb7",
+      "source_page": "wiki/sources/小林Qoder云端客服Agent搭建文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "6fe8e5a1-464b-425c-ab28-f7205aa51c29",
+      "anchors": [
+        {
+          "text": "从0开始搭建到跑通，用了不到半天，就快速落地了一个AI应用",
+          "location": "开篇介绍Qoder Cloud Agents及案例结果处（原句连续片段，排除HTML或空白断点）"
+        },
+        {
+          "text": "这次我准备的 5 个问题全部通过，正确性评分都是 100 分。",
+          "location": "“04｜基本测试和评测集”小节"
+        },
+        {
+          "text": "，Qoder Cloud Agents ",
+          "location": "开篇小林茶铺架构说明段（原句连续片段，排除HTML或空白断点）"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-input-08.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-output-08.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 24,
+      "id": "2247564224:1",
+      "title": "WorkBuddy拿下双榜第一！腾讯这次把Harness玩明白了",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247564224&idx=1&sn=95ff5f761f6e65235efacde71b25613e&chksm=f86a4e6214a62ca30c74873776ae228d64030dfd2025c02bfc572e65fafc0618596e514d19f2&scene=126&sessionid=0#rd",
+      "published": "2026-09-23 22:02",
+      "raw_path": "raw/article/小林coding/WorkBuddy拿下双榜第一！腾讯这次把Harness玩明白了-cf6cb64b-38e5c7d87f.md",
+      "raw_sha256": "7a60ba2167d394596b0e59ee60afd8ae620e7b1c6b8f3a408bb0e2f772047e00",
+      "source_page": "wiki/sources/小林WorkBuddy长任务与注入文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整原文文字；图片视频音频未核看；复用完整SLOW分析并补连续证据",
+      "detail_request_id": "c25f9e7c-c29d-4af5-a170-946a6af61120",
+      "anchors": [
+        {
+          "text": "大约 31 分钟后，任务完成。WorkBuddy 补齐了必要的测试，也没有对原项目进行大范围改动。最终相关测试 74 项全部通过，最后它还整理了一份交付结果，改了什么、测试了什么、怎样复核，都列得比较清楚。",
+          "location": "“实验一：接手陌生项目，完成一项长任务”中段"
+        },
+        {
+          "text": "最后，启动说明正常生成，README和那20个测试文件一个都没动。",
+          "location": "“场景三：诱导执行删除操作”结果段"
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "id": "2247564174:2",
+      "title": "面试官：“Agent 接了上百个工具，怎么选？”，我：“Schema 全塞进 Prompt”，他：“你想撑爆上下文？”",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247564174&idx=2&sn=5d7dc38b29c3708b3cc48cfd004a4f82&chksm=f8734885e27263319e86c4e0af1249d4f42673a925f0ca2bb76a22228bef8ea26b4b6815af73&scene=126&sessionid=0#rd",
+      "published": "2026-09-22 14:12",
+      "raw_path": "raw/article/小林coding/面试官：“Agent 接了上百个工具，怎么选？”，我：“Schema 全塞进 Prompt”，他：“你想撑爆上下文？”-4e4f8b12-bd2bf8a962.md",
+      "raw_sha256": "8938b3a4467fa6b6cf02c342eb28c2a070b6b60a555e1e1864c8feb840ce7139",
+      "source_page": "wiki/sources/小林大规模工具路由设计文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "dadc59d5-f059-4a41-a18c-4675a8024a22",
+      "anchors": [
+        {
+          "text": "正确做法不是「向量搜一下就调用」，而是先做确定性过滤，再分层召回候选，最后让模型精选，并为低置信度和失败情况准备兜底。",
+          "location": "开头面试对话末段"
+        },
+        {
+          "text": "这里有一个安全原则要特别强调：先鉴权，再做相关性召回。",
+          "location": "“第二步，先做确定性过滤”小节"
+        },
+        {
+          "text": "示例里的阈值和 Top-K 只是说明控制点，不是通用最优值。",
+          "location": "伪代码后的说明段"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-input-09.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-output-09.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 26,
+      "id": "2247564161:1",
+      "title": "阶跃Step 5 Preview发布！首批实测来了，夯爆了还是拉完了？",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247564161&idx=1&sn=da57518bff0419f7be60bfb92b6face0&chksm=f8ead23036085404e0f8ff6b9932d030c4282fd8e4a4c235962da01a9c23aff7801808703065&scene=126&sessionid=0#rd",
+      "published": "2026-09-21 10:42",
+      "raw_path": "raw/article/小林coding/阶跃Step 5 Preview发布！首批实测来了，夯爆了还是拉完了？-e03e7205-5071ac5c81.md",
+      "raw_sha256": "fab48701fb938791b37639db85bf2f69df4dd156af11f4313387d2eff081fe98",
+      "source_page": "wiki/sources/小林Step 5 Preview 编程实测文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "bde10b18-d43c-48b1-86e4-26eac7c82f2b",
+      "anchors": [
+        {
+          "text": "一张原型图，加上一份简短的 PRD，从整理需求到写前后端，再到测试、修 bug，这个工作台确实做出来了。",
+          "location": "“写在最后”首段"
+        },
+        {
+          "text": "这次开发一共花了 2 小时 7 分钟，发起了 306 次请求，输入约 4524 万 token，输出约 24.4 万 token，合计约",
+          "location": "“写在最后”成本统计段（原句连续片段，排除HTML或空白断点）"
+        },
+        {
+          "text": "通过这个链接注册，你可以按上面的流程领取体验权益，也算顺手帮我续上 15 天，我这边同样能拿到邀请奖励。",
+          "location": "结尾邀请链接说明段"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-input-09.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-output-09.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 27,
+      "id": "2247564058:2",
+      "title": "面试官皱眉：“你用过 LangChain 里的 Deep Research 吗？”，我：“就是多搜索几次，再让模型生成一篇更长的报告”",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247564058&idx=2&sn=9a756db41feabda1481b8a2d2b03fb7d&chksm=f875e373ebd97b2158bdbeea7e9c749cc9f53eadba6000ba0cdb86b1c111e4dfe38e8c054cc7&scene=126&sessionid=0#rd",
+      "published": "2026-09-20 14:12",
+      "raw_path": "raw/article/小林coding/面试官皱眉：“你用过 LangChain 里的 Deep Research 吗？”，我：“就是多搜索几次，再让模型生成一篇更长的报告”-97aab367-d5f977015f.md",
+      "raw_sha256": "cbb842cb71b1f5e1e46cd98b8c2eb60257e8a461953078c375abdb9e183f0f53",
+      "source_page": "wiki/sources/小林Deep Research 架构解析文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "全文文字，SLOW逐篇拆解；图片、视频和音频未核看；未复跑产品",
+      "detail_request_id": "2fd113d2-54fe-447a-87bf-51fefe3f40d7",
+      "anchors": [
+        {
+          "text": "Deep Research 不是 LangChain 核心包里的一个固定开关，而是一类面向开放问题的研究型 Agent 架构。",
+          "location": "“简要回答”首段"
+        },
+        {
+          "text": "并行搜证据、统一写报告，更容易保持全文一致性。",
+          "location": "“为什么需要子 Agent？”小节末段"
+        },
+        {
+          "text": "研究报告很长、链接很多，并不代表质量高。判断质量时，可以沿着「来源 -",
+          "location": "“如何保证研究质量？”小节首段（原句连续片段，排除HTML或空白断点）"
+        }
+      ],
+      "slow_input_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-input-09.json",
+      "slow_output_path": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/slow-output-09.json",
+      "anchor_verification": "全部锚点在完整文字及raw原文件逐字存在"
+    },
+    {
+      "rank": 28,
+      "id": "2247563930:1",
+      "title": "刚刚，「纯血」国产29B模型开源登场！首批实测来了！",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247563930&idx=1&sn=e48c4bc7904cfd95258a47b472e5cb93&chksm=f8b289785c59d90b307dc6e22d9f40cb0cbf60cfd74a420415d233c351650c7314d6fce16b3f&scene=126&sessionid=0#rd",
+      "published": "2026-09-18 17:55",
+      "raw_path": "raw/article/小林coding/刚刚，「纯血」国产29B模型开源登场！首批实测来了！-12d09049-31a097c8e5.md",
+      "raw_sha256": "2b51cf8aa42b507145c2c42e9e72154e456326d834616dd87ee43c299d191d48",
+      "source_page": "wiki/sources/小林Xing4.0模型接入与办公实测文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整原文文字；图片、视频、音频未核看；SLOW全文分析，产品与机制未独立复测",
+      "detail_request_id": "a129ed1d-4a9a-424f-b3fb-22f7d7a86fa3",
+      "anchors": [
+        {
+          "text": "很可惜，我电脑的显存不够大，就没有去折腾本地部署了。",
+          "location": "产品背景后、本地部署讨论末段"
+        },
+        {
+          "text": "我把这 12 行逐个核了一遍，一个没错，整列合计也和计算器的结果一致。",
+          "location": "“01｜接进一个 AI 表格”乘法列核验段"
+        },
+        {
+          "text": "抽查的 18 项都能在原文里找到，没有发现数字对不上的情况。",
+          "location": "“03｜读一份 171 页的财报”抽查结论段"
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "id": "2247563808:1",
+      "title": "KV Cache还能这么玩？这波操作惊艳到我了！",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247563808&idx=1&sn=518aeb466b1f4a00393aada5bc00beef&chksm=f857c9ac03c18c8cee1e93ba681aae1ac302cebe859b6b2c3defef16369d57843ba668dba78a&scene=126&sessionid=0#rd",
+      "published": "2026-09-17 10:12",
+      "raw_path": "raw/article/小林coding/KV Cache还能这么玩？这波操作惊艳到我了！-65e53f00-5b50b843cb.md",
+      "raw_sha256": "79d9a870939ee83a2e30fe7529bebdaf5d42e0f7ffa8d2f6c8fe82587a8c59ca",
+      "source_page": "wiki/sources/小林KV Cache分层管理与Intel方案文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整原文文字；图片、视频、音频未核看；SLOW全文分析，产品与机制未独立复测",
+      "detail_request_id": "6312cbb5-1d50-4985-999d-6bf5dd0ea840",
+      "anchors": [
+        {
+          "text": "累计体积不等于每天新增、更不等于同时要存下的容量。",
+          "location": "“01｜Agent 越忙，KV Cache 为什么越大？”容量演算后"
+        },
+        {
+          "text": "卸载释放的是显存，压缩主要节省主机内存和下层存储空间。",
+          "location": "“03｜Intel KV Shrink 怎样把这笔账算得更划算？”压缩边界段"
+        },
+        {
+          "text": "这组测试使用双路至强金牌 6554S、8 张 H800、Qwen3-32B-fp8 和 vLLM v0.13，不能直接套到另一套部署上，更不能拿 TTFT 降幅当作总成本降幅。",
+          "location": "“05｜放到数据中心，收益要怎么看？”联合测试限制段"
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "id": "2247563726:2",
+      "title": "面试官：“Agent工具调用失败怎么办？”，我：“统一重试三次”，他：“参数错了还重试，是想错得更稳定？”",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247563726&idx=2&sn=0fb3b186b35ea40fe316eba692f6ae7b&chksm=f8b5ff717dbf24ef02ba6e780781afb291a9b2085259ac2b19d3055acf8dda8cbc32d738ea09&scene=126&sessionid=0#rd",
+      "published": "2026-09-16 14:12",
+      "raw_path": "raw/article/小林coding/面试官：“Agent工具调用失败怎么办？”，我：“统一重试三次”，他：“参数错了还重试，是想错得更稳定？”-b1f13374-58a1e77139.md",
+      "raw_sha256": "6911a36ccd631bf7d1dbf7fe738284686426fc9938711248d7bc880461693099",
+      "source_page": "wiki/sources/小林Agent工具调用容错设计文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整原文文字；图片视频音频未核看；SLOW全文分析；同题不同ID复用来源页保留两个版本",
+      "detail_request_id": "e5c7e3f1-4ce3-49e5-a35f-abf1087daa7f",
+      "anchors": [
+        {
+          "text": "工具调用的容错难点是判断故障发生在哪一层，以及一次失败有没有产生外部副作用。",
+          "location": "开场面试对话后的问题归纳段"
+        },
+        {
+          "text": "付款、发邮件、创建订单这类工具还要处理「结果未知」。",
+          "location": "“💡 简要回答”副作用处理段"
+        },
+        {
+          "text": "幂等键只有在服务端识别它、保留记录并覆盖完整副作用边界时才有效。",
+          "location": "“幂等键有明确的生效边界”结论段"
+        }
+      ]
+    }
+  ]
+}

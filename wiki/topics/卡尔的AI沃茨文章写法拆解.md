@@ -1,0 +1,54 @@
+---
+title: 卡尔的AI沃茨文章写法拆解
+type: topic
+tags: [公众号, 对标拆解, 卡尔的AI沃茨]
+status: 进行中
+sources: ["raw/article/卡尔的AI沃茨/用完12个Personal Agent后，我找到了决定好用上限的五个标准-1450c105-3ec9700eb3.md", "raw/article/卡尔的AI沃茨/开源「提示语管理.skill」，就为快速选出最适合你的Prompt（附25个深度思考提示语）-0004bbb9-ae7ea883e1.md", "raw/article/卡尔的AI沃茨/实测Lovart 2.0，AI设计终于可以打破千篇一律的模板化死板了-eba7be27-7bddab0c62.md", "raw/article/卡尔的AI沃茨/花两千踩坑四大Personal Agent，我3个提示语把33%成功率救回来了-e8a748c4-e8f456008f.md", "raw/article/卡尔的AI沃茨/豆包工作悄悄上新功能，把我多Agent记忆整合的焦虑治好了-e0120ae0-f558ca43ee.md", "raw/article/卡尔的AI沃茨/实测Gemini 4 Argon写作能力，百万上下文竟恐怖如斯-eb8e2a94-51db6f4455.md", "raw/article/卡尔的AI沃茨/开源「红绿灯」提示语，解决Agent刹不住车浪费token额度的老毛病-a1949f02-f2611446f1.md", "raw/article/卡尔的AI沃茨/八款AI语音输入法大横测！我找到了Vibe Coding的最佳搭配-5c628d32-7f40ea7120.md", "raw/article/卡尔的AI沃茨/好久没打游戏的我决定线下去真实一把大学生们的AI游戏水平-601d4078-2f9e0f4c61.md", "raw/article/卡尔的AI沃茨/腾讯WorkBuddy悄悄上新功能，我再也不用把文件搬来搬去了-0f09f3c5-00f5892c8e.md", "raw/article/卡尔的AI沃茨/国庆相册里舍不得删的废片，我找到了25种新玩法来拯救它们！-59abe8ef-d897b4e4b7.md", "raw/article/卡尔的AI沃茨/一文带你看懂OpenAI开发者大会，包括GPT-6.1 Astra被下架的幕后-6e235b5e-292e9521ff.md", "raw/article/卡尔的AI沃茨/实测Claude Sonnet 5.5，做AI代码动画这块断档领先gpt6但3D拉了-f3f78100-d9fbc0786a.md", "raw/article/卡尔的AI沃茨/实测LibTV1.5五大新功能，我把1个完整剧组搬进了AI短剧工作流-7ad99ef9-6c6ae42059.md", "raw/article/卡尔的AI沃茨/五大场景实测商汤图片模型SenseNova U1 Pro，我的工作流要换新了-00accff0-283f3f1db9.md", "raw/article/卡尔的AI沃茨/实测小米新模型MiMo V2.6，我真服了第一次看开源那么彻底的-b1929a86-7d172adb6c.md", "raw/article/卡尔的AI沃茨/实测GPT6 Sol和Luna和Claude Opus5.5，我们再不用愁额度少和速度慢了-6fcc9724-bd23e28ae3.md", "raw/article/卡尔的AI沃茨/我把463个AI视频做成了Skill和提示语模版，全都开源！-606b3c2e-86fc6985be.md", "raw/article/卡尔的AI沃茨/实测阶跃星辰新模型Step 5 Preview，网页复刻这块我愿称之为天才程序员级-49681c2c-ff439d836a.md", "raw/article/卡尔的AI沃茨/分享一个帮我快速把陌生领域方法论做成skill的新技巧-4e1a309d-0d310a3737.md", "raw/article/卡尔的AI沃茨/分享一个我用GPT6+Hyper3D搭可互动个人作品集的新技巧-a9aa95d9-27bd28aaf4.md", "raw/article/卡尔的AI沃茨/实测豆包新模型2.1-pro，这次审美和长时间Agent任务都追上第一档了-ac8f079e-272b80f6d4.md", "raw/article/卡尔的AI沃茨/实测GPT-6+Blender新玩法，我用Aholo Lux3D搭了一个3D版包豪斯工作室！-13bb18ec-edd54e406a.md", "raw/article/卡尔的AI沃茨/从4秒到两小时_480p到4k，我在RunningHub重新认识了能认真讲故事的AI视频们-40f4b41e-5e419e4c60.md", "raw/article/卡尔的AI沃茨/实测DeepSeek V4.1 Flash，降价后熟悉的梁圣又回来了-cbe72e5c-331c92e6cb.md", "raw/article/卡尔的AI沃茨/分享一个在长视频推理上超过Gemini 2.5 Pro的新模型-1a04487d-500a6c14e3.md", "raw/article/卡尔的AI沃茨/继UU远程后，网易又整了一个识别速度快到没朋友的AI语音输入法-3d51e275-c5a4b3d0a5.md", "raw/article/卡尔的AI沃茨/GPT Image2.5悄悄上线，靠提示语提升AI生图可控性的时代要过去了-a81414c4-e0281ad2c9.md", "raw/article/卡尔的AI沃茨/可算有一个总能先我一步调整好日常待办的个人AI了-cd50edf7-4cc3ca4a8d.md", "raw/article/卡尔的AI沃茨/分享一个我随时随地只用手机就能远程操控Agent的新工作流-e47c6420-96ed661dcb.md"]
+created: 2026-10-26
+updated: 2026-10-26
+---
+
+# 卡尔的AI沃茨文章写法拆解
+
+## 要解决的问题
+
+如何把AI模型能力与可复现的创作任务连接，区分作者亲测、第三方案例与官方主张，并迁移为自己的编辑动作而非借用他人的成果。
+
+## 最近30篇批次入口（2026-10-26）
+
+按采集列表原顺序编号；与历史编号独立，保留原有分析。每篇为完整文字SLOW拆解；图片视频音频未核看，产品和技术机制未独立复测；无同口径传播基线，不认定爆文。
+
+| 本批序号 | 原题与来源入口 | 发布时间 |
+| --- | --- | --- |
+| 1 | [[sources/卡尔Personal Agent五维评测框架文章拆解|用完12个Personal Agent后，我找到了决定好用上限的五个标准]] | 2026-10-22 19:01 |
+| 2 | [[sources/卡尔提示语路由Skill老爷爷文章拆解|开源「提示语管理.skill」，就为快速选出最适合你的Prompt（附25个深度思考提示语）]] | 2026-10-20 11:24 |
+| 3 | [[sources/卡尔Lovart个人设计Agent实测文章拆解|实测Lovart 2.0，AI设计终于可以打破千篇一律的模板化死板了]] | 2026-10-19 18:26 |
+| 4 | [[sources/卡尔Personal Agent多端采集工作流复盘文章拆解|花两千踩坑四大Personal Agent，我3个提示语把33%成功率救回来了]] | 2026-10-16 09:54 |
+| 5 | [[sources/卡尔豆包工作跨Agent资产迁移体验文章拆解|豆包工作悄悄上新功能，把我多Agent记忆整合的焦虑治好了]] | 2026-10-14 17:25 |
+| 6 | [[sources/卡尔Gemini写作样稿与玄幻化改写文章拆解|实测Gemini 4 Argon写作能力，百万上下文竟恐怖如斯]] | 2026-10-14 14:03 |
+| 7 | [[sources/卡尔用红黄绿状态约束Agent任务边界文章拆解|开源「红绿灯」提示语，解决Agent刹不住车浪费token额度的老毛病]] | 2026-10-13 12:24 |
+| 8 | [[sources/卡尔八款AI语音输入工具对比文章拆解|八款AI语音输入法大横测！我找到了Vibe Coding的最佳搭配]] | 2026-10-10 09:45 |
+| 9 | [[sources/卡尔AI游戏创作与训练营体验文章拆解|好久没打游戏的我决定线下去真实一把大学生们的AI游戏水平]] | 2026-10-09 14:43 |
+| 10 | [[sources/卡尔WorkBuddy原文件旁协作与知识库流转文章拆解|腾讯WorkBuddy悄悄上新功能，我再也不用把文件搬来搬去了]] | 2026-10-08 20:44 |
+| 11 | [[sources/卡尔旅行照片的AI二创与基础修复玩法文章拆解|国庆相册里舍不得删的废片，我找到了25种新玩法来拯救它们！]] | 2026-10-02 18:07 |
+| 12 | [[sources/卡尔OpenAI开发者大会更新与Astra撤回解读文章拆解|一文带你看懂OpenAI开发者大会，包括GPT-6.1 Astra被下架的幕后]] | 2026-09-30 07:07 |
+| 13 | [[sources/卡尔Sonnet 5.5代码动画与综合任务实测文章拆解|实测Claude Sonnet 5.5，做AI代码动画这块断档领先gpt6但3D拉了]] | 2026-09-29 19:38 |
+| 14 | [[sources/卡尔LibTV 1.5古装短剧全流程实测文章拆解|实测LibTV1.5五大新功能，我把1个完整剧组搬进了AI短剧工作流]] | 2026-09-26 17:00 |
+| 15 | [[sources/卡尔SenseNova U1 Pro图片工作流实测文章拆解|五大场景实测商汤图片模型SenseNova U1 Pro，我的工作流要换新了]] | 2026-09-24 20:30 |
+| 16 | [[sources/卡尔MiMo V2.6多任务实测文章拆解|实测小米新模型MiMo V2.6，我真服了第一次看开源那么彻底的]] | 2026-09-23 18:45 |
+| 17 | [[sources/卡尔三款旗舰模型横向实测文章拆解|实测GPT6 Sol和Luna和Claude Opus5.5，我们再不用愁额度少和速度慢了]] | 2026-09-23 07:07 |
+| 18 | [[sources/卡尔AI视频模板与Skill开源文章拆解|我把463个AI视频做成了Skill和提示语模版，全都开源！]] | 2026-09-22 11:27 |
+| 19 | [[sources/卡尔Step 5多场景实测文章拆解|实测阶跃星辰新模型Step 5 Preview，网页复刻这块我愿称之为天才程序员级]] | 2026-09-21 16:20 |
+| 20 | [[sources/卡尔QBS知识转Skill法文章拆解|分享一个帮我快速把陌生领域方法论做成skill的新技巧]] | 2026-09-19 12:04 |
+| 21 | [[sources/卡尔AI搭建3D互动作品集文章拆解|分享一个我用GPT6+Hyper3D搭可互动个人作品集的新技巧]] | 2026-09-17 13:08 |
+| 22 | [[sources/卡尔豆包长任务与前端能力实测文章拆解|实测豆包新模型2.1-pro，这次审美和长时间Agent任务都追上第一档了]] | 2026-09-16 15:18 |
+| 23 | [[sources/卡尔AI辅助拍摄间3D规划文章拆解|实测GPT-6+Blender新玩法，我用Aholo Lux3D搭了一个3D版包豪斯工作室！]] | 2026-09-14 22:03 |
+| 24 | [[sources/卡尔AI长片趋势与创作赛事文章拆解|从4秒到两小时/480p到4k，我在RunningHub重新认识了能认真讲故事的AI视频们]] | 2026-09-13 17:08 |
+| 25 | [[sources/卡尔DeepSeek 4.1 Flash与桌面Harness实测文章拆解|实测DeepSeek V4.1 Flash，降价后熟悉的梁圣又回来了]] | 2026-09-11 12:24 |
+| 26 | [[sources/卡尔VLX-VR长视频推理实测文章拆解|分享一个在长视频推理上超过Gemini 2.5 Pro的新模型]] | 2026-09-10 18:18 |
+| 27 | [[sources/卡尔网易叭哥说语音输入法对比实测文章拆解|继UU远程后，网易又整了一个识别速度快到没朋友的AI语音输入法]] | 2026-09-09 23:31 |
+| 28 | [[sources/卡尔GPT Image 2.5交互与生图对比文章拆解|GPT Image2.5悄悄上线，靠提示语提升AI生图可控性的时代要过去了]] | 2026-09-09 08:27 |
+| 29 | [[sources/卡尔Today个人AI连续生活测评文章拆解|可算有一个总能先我一步调整好日常待办的个人AI了]] | 2026-09-08 11:30 |
+| 30 | [[sources/卡尔手机远控Agent工作流文章拆解|分享一个我随时随地只用手机就能远程操控Agent的新工作流]] | 2026-09-07 14:34 |
+
+具体可迁移维度与逐篇待实操方案见 `output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/卡尔的AI沃茨/dimension-candidates.json`。这批分析不继承作者私人经历，不把未披露合作归为商单。

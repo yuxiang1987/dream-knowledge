@@ -839,3 +839,16 @@
 - 新增 `scripts/test_multiagent_evaluation.py`，校验评估页的 frontmatter、来源文件真实存在、内部双链可解析、从索引与流水线设计页可达，并禁止出现未经测量的收益断言。
 - 验证：`python scripts/wiki_lint.py` 通过，扫描176页（含索引和日志），仅9项既有空sources警告。`python -m unittest discover -s scripts -p test_multiagent_evaluation.py` 四项通过；`test_repository_rules.py` 三项、`test_gzh_daily_pipeline.py` 四项通过。`test_distillation_coverage.py` 的原始资料覆盖项在本轮之前已因工作区新增的 `raw/article/chenmowanger/最新30篇采集-2026-10-26/` 等未入库资料而失败，与本轮改动无关，未修改该测试。
 - 未修改 raw，未纳入工作区已有的其他 raw 改动与无关临时脚本；提交仅含本轮知识页、索引、日志与验收脚本，推送结果在交付消息报告。
+
+## [2026-10-26] benchmark-analysis | 指定十账号最近30篇全文研究与断点续跑
+
+- 用户明确限定路人甲TM、摸鱼小李、小林coding、卡尔的AI沃茨、苍何、沉默王二、洛洛AI说、郭震AI、西羊石AI视频、爱AI的大刘，各最近30篇。西洋石经用户第二张截图确认实际昵称为西羊石；首张羊羊AI视频截图用户说明发错，不纳入。
+- 此前已通过TikHub核验10个唯一账号并取得300份原文，完整正文与媒体链接新建落盘 `raw/article/`；本次续跑只读取已存原文、分页和完整分析结果，没有再次采集或重复计费。保留原始链接、账号、详情时间、采集时间、请求标识和SHA-256。
+- 完成300条逐篇研究记录，对应299个独立source：新增256页、增量复用43页；已有来源、created、旧分析与作者历史编号保留。小林coding两条再发正文仅相差一条DevFlow Agent项目推广行，共用同一source但保留两个原始ID、快照与版本差异，不按标题相似合并其他作品。
+- 缺失分析使用 `completion(model="slow")` 的完整原文输入补齐；保存已完成的输入输出，SMOL中断调用未登记为成功。修复15篇由HTML行内标签和人工换行造成的失效引文，仅改来源页引用及manifest，不改raw、不降低逐字定位要求。
+- 新增 [[topics/指定十账号近期文章拆解]]，维护10个作者入口、5份实体状态、[[topics/公众号每日选题决策]] 与 [[topics/知识库增量蒸馏导航]]；把脚本确认与局部改稿、精存前人工取舍、输入识别覆盖、记忆更新、主动提醒、局部修改范围及模拟商单边界择新合入4份横向库。更新 `wiki/index.md`，当前436个知识页、454份raw Markdown。
+- 原分页选样与300条记录逐一比对一致；列表create_time与详情published有257条时间差异，分别保留并写入 `timestamp-differences.json`，不静默改正或归因。逐篇原文指纹、source归属、至少两处不同引文在raw与source连续双命中、作者页全部入口均已实际核对，结果见批次 `manifest.json` 与 `acceptance-smoke.json`。
+- 续跑冻结的455个原始文件SHA-256全部不变。中断期间方法论raw已有外部修改，保留原始与续跑两份基线，不回退、不夹带该文件及另外3份任务前raw改动、无关验证脚本或暂停中的Skill源码。
+- 阅读范围为全文文字和原始HTML；未观看媒体、重跑产品、取得同口径互动基线、核当前价格或商业付款。不把作者亲测陈述记成本库亲测，不把推广入口记为已付款，不认定爆文或承诺收益。
+- 最终验证：`python scripts/wiki_lint.py` 通过，扫描438页（含索引和日志），仅5项既有空sources警告；`test_recent_benchmark_acquisition.py` 5项、`test_distillation_coverage.py` 2项、`test_installed_skills.py` 5项全部通过。对拟提交文件进行本机凭据精确字节扫描，无密钥泄漏；提交包含本批300份新增raw，不包含任何既有raw修改。完整命令记录在批次 `verification.json`，提交号与推送结果由最终交付消息报告。
+- Git暂存烟测发现自动换行转换会改变新原文的归档字节；新增仅匹配本批300份哈希文件名的 `.gitattributes` 规则并重新暂存。已逐个读取真实Git blob核对SHA-256，300/300与原文件一致；155份既有raw均不受新规则影响，未修改任何原文。

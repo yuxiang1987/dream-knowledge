@@ -1,0 +1,289 @@
+✍️ 作者: 大刘
+📝 编辑: 大刘
+🎨 排版: 大刘
+我自己做科研也有些年头了。
+我真的建议你用 Claude / Codex 做科研。
+我用的 Skill 是 Academic-Research-Skills（下面我都简称 ARS）。
+这个 Skill 基本覆盖了 研究 → 撰写 → 审稿 → 修改 → 定稿 整条链路。
+但它的真身，是底下四个各管一摊的 skill、二十多个工作模式、近四十个 agent，外加一整套专防「AI 编假文献」的诚信系统。
+所以今天这篇，我想做到全网最全，给你讲讲我自己结合它做科研的经验。
+我们开始。
+一、30 秒装好
+01
+最快的一种，两行命令。
+如果你用的是 Claude Code，直接：
+●●●
+/plugin marketplace add Imbad0202/academic-research-skills
+/plugin install academic-research-skills
+运行 /ars-plan，随便描述一篇你想写的论文，它会用苏格拉底式对话开始帮你规划章节。
+想做个单次小测试，可以 /ars-lit-review "你的主题"。
+用 Codex 的朋友：官方有一个姐妹版仓库 Imbad0202/academic-research-skills-codex，把全套打包成单一的 $academic-research-suite skill，并提供 ars-* 别名，工作流内容一致。
+这篇我们专注讲 Claude Code 版，Codex 版你知道有这么个东西、按它仓库说明装就行了。
+二、13 条命令速查表
+02
+这是很多人最想要的一张表。
+我把 13 条命令对应到底层哪个 skill、哪个 mode，一次给你列全。
+先扫一眼有个全貌，下一节我再把背后的四块能力一块块拆开讲透。
+命令
+调用 skill
+mode
+一句话用途
+/ars-full
+academic-pipeline
+全流程编排
+从研究到定稿，10 阶段一条龙（旗舰命令）
+/ars-plan
+academic-paper
+plan
+苏格拉底式对话，帮你逐章规划论文结构
+/ars-outline
+academic-paper
+outline-only
+生成详细大纲 + 证据地图（不写全文）
+/ars-lit-review
+academic-paper
+lit-review
+把已有文献整理成综述章节
+/ars-reviewer
+academic-paper-reviewer
+full（也接 quick 等）
+模拟 5 人同行评审
+/ars-revision
+academic-paper
+revision
+按审稿意见直接生成修改稿 + 逐点回复
+/ars-revision-coach
+academic-paper
+revision-coach
+解读审稿意见，出修改路线图（不动稿件）
+/ars-abstract
+academic-paper
+abstract-only
+生成双语摘要 + 关键词
+/ars-citation-check
+academic-paper
+citation-check
+检查引用规范、文内与列表是否匹配
+/ars-disclosure
+academic-paper
+disclosure
+生成符合期刊规范的 AI 使用声明
+/ars-format-convert
+academic-paper
+format-convert
+格式转换（MD/LaTeX/DOCX/PDF + 引用格式互换）
+/ars-mark-read
+脚本
+无
+标记某篇文献「我已亲自读过并核实」
+/ars-unmark-read
+脚本
+无
+撤销上面的已读标记
+看出来了吧。除了 /ars-full 调的是「全流程调度器」，其余命令，其实都是把底层那四个 skill 的某个具体模式，做成了一个顺手的快捷入口。
+所以下一节，我带你回到源头，把那四块能力讲透。
+三、四块核心能力
+03
+ARS 真正的能力，全在这四个 skill 里。
+我按「做科研的真实顺序」来讲：先查、再写、再审、最后一条龙。
+3.1 deep-research：查文献、做研究
+整条链路就从它起步，一支 13 个 agent 的研究团队。
+它有 7 个模式，按你的需要从轻到重排开。
+1. `full`（完整研究）：默认模式。从零到一跑完整的研究六阶段，产出一份可引用的 APA 7.0 报告，3,000–8,000 词（含摘要、方法、发现、讨论、参考文献）。触发语像 "Research [主题]"。中途有 3 个检查点等你确认。
+2. `quick`（快速研究）：时间紧、只想要个主题概览时用。产出 500–1,500 词的研究简报，基本直接给你，不啰嗦。
+3. `review`（文本评审）：你已经有一篇文章或草稿，想让它做个专业评审，给出 Accept / Minor / Major / Reject 的判断 + 修改建议。
+4. `lit-review`（文献回顾）：系统检索 + 综合分析，产出带注释的书目 + 主题综述 + 研究缺口，1,500–4,000 词。它和后面 academic-paper 的 lit-review 有分工，我下面会专门说。
+5. `fact-check`（事实查核）。这个我要重点点名。
+它只激活一个 agent（source_verification_agent），对你给的每一条声明逐条出裁决：VERIFIED（已验证）/ PLAUSIBLE（看似可信）/ UNVERIFIABLE（无法核实）/ FABRICATED（疑似伪造）。
+你要对付「AI 编引用」，这就是最好使的一招：拿不准的声明，丢给它一条一条检查。
+6. `socratic`（苏格拉底式引导）。我个人觉得最有意思的一个。
+它有一条规矩：绝不直接给你答案。
+当你只有一个模糊想法、不知道怎么把它变成一个真正的研究问题时，它会用 5 层提问（澄清 → 追问假设 → 逼问证据 → 换视角 → 推后果）一轮轮逼着你自己想清楚。
+8 到 15 轮对话下来，你会得到一个聚焦的研究问题和方法方向。
+对刚入门的研究生，这个比直接要答案有用得多。
+7. `systematic-review`（系统性回顾 / Meta 分析）：最重的一个。符合 PRISMA 2020 规范，能产出 5,000–15,000 词的系统性回顾，带森林图数据和 GRADE 证据表。临床、循证决策这种严肃场景才需要动用它。
+这个 skill 里还藏着几个我觉得做得很扎实的机制。
+它会把你书目里的每条文献拿去查 Semantic Scholar API（外加 OpenAlex、Crossref 做三重交叉验证），自动给文献定可信度等级、检测掠夺性期刊。
+这些，都是在替你防「假文献」。
+3.2 academic-paper：把研究写成论文
+一支 12 个 agent 的写作团队，10 个模式。
+前面速查表里那一串 /ars-* 命令，大半都来自这个 skill：
+模式
+干什么
+对应命令
+full
+端到端写完整论文（8 个 Phase：配置→文献→结构→论证→初稿→引用摘要→评审→排版）
+无（走 pipeline）
+plan
+苏格拉底式逐章规划，约 20–30 轮对话，出 Chapter Plan，不直接写稿
+/ars-plan
+outline-only
+详细大纲 + 证据分配 + 字数分布
+/ars-outline
+lit-review
+设计检索策略 + 注释书目 + 文献矩阵
+/ars-lit-review
+revision
+按审稿意见直接改稿，生成修订追踪
+/ars-revision
+revision-coach
+把杂乱的审稿意见解析成修改路线图，不动稿件
+/ars-revision-coach
+abstract-only
+双语摘要（中文 + 英文，各自独立撰写非翻译）+ 关键词
+/ars-abstract
+citation-check
+核查引用格式、文内与列表是否匹配、DOI 完整性
+/ars-citation-check
+format-convert
+格式与引用体系转换
+/ars-format-convert
+disclosure
+生成期刊专属的 AI 使用声明
+/ars-disclosure
+这里有两个新手最容易搞混的地方，我帮你掰开。
+先说 `revision` 和 `revision-coach`。
+前者直接帮你改论文、出修订稿；后者只规划修改策略、不碰稿件。
+我的建议是：先用 coach 理清路线、人工过一遍策略，再用 revision 落地执行。别一上来就让它直接重写。
+再说两种 `lit-review`。
+deep-research 的 lit-review 是「研究工具」，负责搜和发现文献；academic-paper 的 lit-review 是「写作工具」，负责把文献整理成综述章节。
+正确姿势是串起来用：先用 deep-research 搜，再用 academic-paper 写。
+这个 skill 里还有两件「防 AI 味」的功夫，我特别想夸一下。
+风格校准（Style Calibration）。
+你在配置访谈时上传 3 篇以上自己过去的论文，它会学你的句子节奏、用词偏好、引用融入方式，生成一份「风格档案」。
+写稿时照着你的声音来，目标是让成稿读起来像你写的，不是像机器写的。
+写作质量检查（Writing Quality Check）。
+写稿过程里，它会自动揪 AI 腔：查 26 个 AI 高频词（delve、tapestry、leverage 那一类）、限制破折号数量（全文 ≤3 个）、删掉「In the realm of…」这类开头废话、禁止生硬地「凑三点」。
+它防的，就是「一眼假」的机器文风。
+3.3 academic-paper-reviewer：投稿前先自审
+一支 7 个 agent 的多视角评审团，6 个模式。
+这是我觉得对认真投稿的人价值最大的一块。在真审稿人之前，先让 AI 替你挨一顿打。
+先看这支评审团的构成，5 位虚拟审稿人 + 1 主编 + 1 综合编辑：
+角色
+评审重点
+主编（EIC）
+期刊契合度、原创性、整体质量
+方法审稿人（R1）
+研究设计、统计有效性、可重复性
+领域审稿人（R2）
+文献覆盖、理论框架、学科贡献
+视角审稿人（R3）
+跨学科连接、实践影响、伦理政策含义
+魔鬼代言人
+专挑核心论点的毛病、逻辑谬误、最强反驳
+它的打分是 0–100 分制，5 个维度加权：
+原创性 20% / 方法严谨性 25% / 证据充分性 25% / 论证连贯性 15% / 写作质量 15%
+分数直接映射决策：≥80 接受 / 65–79 小修 / 50–64 大修 / <50 拒稿。
+6 个模式分别是：
+1. full：默认，全面审稿
+2. re-review：修改后复审
+3. quick：约 15 分钟快评
+4. methodology-focus：深挖方法论
+5. guided：苏格拉底式引导你自己改
+6. calibration：用你标注的 gold paper 测这套审稿系统准不准，给出 FNR / FPR / AUC
+这里有一条规则，我觉得设计得特别狠、也特别有用，必须单独讲：
+魔鬼代言人发现的「关键问题」（CRITICAL），会直接阻塞「接受」决策，什么意思，就是一票否决权，哪怕其余 4 位审稿人都给了高分。
+什么算 CRITICAL？
+四种之一：核心假设可被证伪、结论推不出来、数据和结论打架、有个更简洁的替代解释更符合数据。
+只要它揪出一条，你不正面回应，这篇就过不了。
+它还有个「攻击强度保持协议」：你拿一句话反复糊弄，它不让步，分数照样压着。
+它最狠的就是这一下：逼你直面论文最脆弱的那个点，不让你绕过去。
+这正是一个好审稿人该干的事。
+对了，还有一条铁律：审稿人只读、绝不改你的原稿。
+所有评审意见、决策、路线图，都作为独立文档产出。你的稿子它一个字都不会动。
+3.4 academic-pipeline：10 阶段一条龙
+这是旗舰，对应 /ars-full。
+它把前面三个 skill 串成一条 10 阶段流水线，自动调度。
+我把每个阶段干什么、调谁、产出什么，给你列全：
+阶段
+名称
+调用
+产物
+1
+研究
+deep-research
+研究问题简报、文献、综合分析
+2
+撰写
+academic-paper
+论文草稿
+2.5完整性验证
+integrity 验证 agent
+验证报告 （强制，不可跳过）
+3
+审稿
+reviewer
+5 份审稿意见 + 编辑决策 + 修改路线图
+4
+修改
+academic-paper
+修改稿 + 逐点回复
+3'
+复审
+reviewer
+复审报告（验证修改是否到位）
+4'
+再修改
+academic-paper
+第二轮修改稿（如需）
+4.5最终验证
+integrity 验证 agent
+最终验证 （须 100% 通过才能定稿）
+5
+定稿
+academic-paper
+MD → DOCX → LaTeX → PDF
+6
+过程总结
+调度器
+过程记录 + 人机协作质量评分
+你注意到那两个加粗的 2.5 和 4.5 了吗？
+这两道，才是这套插件最较真的地方：专门拦「AI 编假文献、编假数据」。
+不可跳过，失败就堵在那里，逼你修完重验。
+四、推荐工作流
+04
+讲了这么多零件，最后给你几条我自己做的时候的 SOP。
+场景一：从零写一篇完整论文
+●●●
+/ars-plan ← 苏格拉底对话，先把结构想透
+/ars-outline ← 出详细大纲 + 证据地图（你人工确认一遍）
+/ars-full ← 基于大纲走全流程：写全文 + 自动审稿 + 修改
+/ars-citation-check ← 投稿前最后查一遍引用
+/ars-abstract ← 生成双语摘要
+/ars-disclosure ← 生成 AI 使用声明
+场景二：已有草稿，准备投稿
+●●●
+/ars-reviewer ← 先让 5 人评审团挑一遍毛病
+/ars-citation-check ← 查引用完整性
+/ars-abstract ← 完善双语摘要
+/ars-format-convert ← 转成目标期刊要的格式
+/ars-disclosure ← 生成 AI 声明
+场景三：收到审稿意见，要大修
+●●●
+/ars-revision-coach ← 先解读意见、出修改路线图
+（你人工确认修改策略）
+/ars-revision ← 再生成修改稿 + 逐点回复信
+/ars-reviewer（re-review 模式）← 验证大修是否真解决了核心问题
+场景四：只想做文献综述
+●●●
+（先在 deep-research 里搜文献）
+/ars-lit-review ← 把搜到的文献整理成综述章节
+/ars-mark-read ← 标记你已经亲自读过、核实过的那几篇
+写在最后
+05
+说回我自己。
+我用它做科研这段时间，最实在的价值，其实不是帮我「写得多漂亮」。
+而是把我从那些最耗人、最磨人的活里捞了出来：满世界翻文献、一条条对引用格式、反复核数据有没有自相矛盾、投稿前把格式转来转去。
+这些事，以前能耗掉我整块整块的时间，人还越弄越烦。
+现在交给它，我省下来的精力，能放回真正只有我能做的地方：这个问题值不值得做、这个方法对不对、这个结果到底说明了什么。
+这，就是我推荐你也用它的唯一理由。
+它不会替你变聪明，也接管不了你的判断。
+希望它能帮你省下力气，去做那件真正值得的事。
+以上，既然看到这里了，
+如果觉得不错，随手点个赞、在看、转发三连吧，
+如果想第一时间收到推送，也可以给我个星标⭐～
+谢谢你看我的文章
+你的关注是我持续更新的动力～
+我是谁
+我是 AI大刘，北大毕业，大模型研究方向，腾讯犀牛鸟，先后在腾讯、百度的大模型研发部门，现在给多家国企做AI顾问（也期待大家和我咨询交流
+欢迎链接我～

@@ -1,0 +1,831 @@
+{
+  "requested_name": "苍何",
+  "resolved_name": "苍何",
+  "username": "gh_fdb597c42fa4",
+  "alias": "gh_fdb597c42fa4",
+  "requested_count": 30,
+  "acquired_at": "2026-10-26T10:52:52+08:00",
+  "article_list_request_ids": [
+    "db66aecd-a169-4448-af31-84a08a88ee0d",
+    "227eb803-8de9-41a8-90f4-7e9adf6c1960",
+    "ba360351-7baa-4ba3-9fb4-c00bb085df72"
+  ],
+  "list_complete": true,
+  "articles": [
+    {
+      "rank": 1,
+      "id": "2247500617_1",
+      "title": "一个人做全球化产品的时代，来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500617&idx=1&sn=258ce59a642a55b0da690cab643a9605",
+      "published": "2026-10-25 17:08",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/一个人做全球化产品的时代，来了-93c282a9-abab7774a3.md",
+      "raw_sha256": "f6dcc40f9d80234532885d173ff879bc1d9e7df71f9d2dad5a8c5d6c876decf7",
+      "source_page": "wiki/sources/苍何：一人全球化产品时代来了.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "7b4482a5-ba50-4f52-9267-8450b151a685",
+      "anchors": [
+        {
+          "text": "AI 生成的代码不经人工审核就上线，就是在赌博。",
+          "location": "正文纯文本第31段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "AI 给了一个人一支团队的执行力，但没给你一个产品经理的脑子。",
+          "location": "正文纯文本第39段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "海外用户是自己从 GitHub 和 Obsidian 社区找过来的。",
+          "location": "正文纯文本第59段；原raw正文HTML第13行",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2247500606_1",
+      "title": "Codex+Obsidian，多平台同步，一键分发，太香了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500606&idx=1&sn=dafad53720e8db94bb5d221772bdbce3",
+      "published": "2026-10-21 09:08",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/Codex+Obsidian，多平台同步，一键分发，太香了！-32e725ff-f0f619e0c7.md",
+      "raw_sha256": "2ac2ea7bb1c93a98a8658b44682bf0552ec2e0796eae81c61684be1b22dfeecf",
+      "source_page": "wiki/sources/苍何：WeSight一键多平台分发.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "17d6a6fe-f1bc-4f5b-9010-14402e878474",
+      "anchors": [
+        {
+          "text": "之前文章写完，想发到几个平台，还得一个一个复制，图片也得重新传。",
+          "location": "正文纯文本第9段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "，现在直接从 Obsidian 上传，选好平台，就可以同步过去了。",
+          "location": "正文纯文本第12段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "但也不能全信 AI，AI 生成的内容有时候就是不如自己的创意，得自己把关。",
+          "location": "正文纯文本第76段；原raw正文HTML第13行",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2247500589_1",
+      "title": "企业版 Personal Agent 来了，WorkBuddy 也能用！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500589&idx=1&sn=aaec6af4b3d5a4812c1785108485dd85",
+      "published": "2026-10-16 15:58",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/企业版 Personal Agent 来了，WorkBuddy 也能用！-6376c32f-971cea43ca.md",
+      "raw_sha256": "88be2399a2883d3d622429ca6372e110686b8224289b9274c91bbd83523a4fac",
+      "source_page": "wiki/sources/苍何：企业版个人Agent实测观察.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "c75ab2f0-5ef5-4a79-a3f0-aa464031fbb0",
+      "anchors": [
+        {
+          "text": "但我发现，现在很多个人助理都是 toc 的，企业里面根本没法拿来用。",
+          "location": "正文纯文本第6段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "用哪些模型、分多少算力和 Token 额度、开放哪些数据权限，可以按部门和岗位的需要来定。",
+          "location": "正文纯文本第15段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "不过，接入外部模型或服务时，哪些数据允许传出去，仍要单独设好规则。",
+          "location": "正文纯文本第24段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "等报告出来，我再对照明细核一遍数字，看看有没有分析偏了的地方。",
+          "location": "正文纯文本第36段；原raw正文HTML第13行",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2247500554_1",
+      "title": "大家好，我要去开演唱会了。。。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500554&idx=1&sn=df7b3e1f4ed0705692cef800fb2f5e51",
+      "published": "2026-10-14 09:08",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/大家好，我要去开演唱会了。。。-ce7bdc5a-ed3f2d8798.md",
+      "raw_sha256": "fbe01cd5f9467727dc887d8d825660d798ad66396fa005d073ab01126fbeaef4",
+      "source_page": "wiki/sources/苍何：带着0.01视力去开演唱会.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "6a1bdeaf-4dab-44c9-8998-8f630f3ded40",
+      "anchors": [
+        {
+          "text": "如果你不敢迈出这一步，那双眼睛就会困住你一辈子。",
+          "location": "正文纯文本第36段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "但我想让他看看，看不清的人，也能站在光里。",
+          "location": "正文纯文本第64段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "别等看清了再出发，出发了，才会慢慢看清。",
+          "location": "正文纯文本第71段；原raw正文HTML第13行",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2247500549_1",
+      "title": "1 秒不到 1 毛钱，Vidu 把旗舰视频价格打下来了（附提示词和玩法）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500549&idx=1&sn=1f43c1770f85e7ab18eaf4374cbe9791",
+      "published": "2026-10-12 20:23",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/1 秒不到 1 毛钱，Vidu 把旗舰视频价格打下来了（附提示词和玩法）-be58d2aa-03541f8971.md",
+      "raw_sha256": "2700d447dcc389c7fa6e834fd42a174a75eb436cefaba6cc0fb59b998d7d661b",
+      "source_page": "wiki/sources/苍何实测Vidu Q4低价视频生成.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "4fc80b4b-dffe-4cb3-85a6-c03648b03d96",
+      "anchors": [
+        {
+          "text": "我用的是Vidu刚出的 Q4 Preview，首发价0.09元/秒起。",
+          "location": "正文纯文本第8段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "这几天下来，我一共生成了十几条，花了不到 15 元。",
+          "location": "正文纯文本第50段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "Preview毕竟是预览版。",
+          "location": "正文纯文本第67段；原raw正文HTML第13行",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2247500510_1",
+      "title": "开源微信流 Windows，微信聊天记录，可以直接给 Codex 和 Obsidan 了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500510&idx=1&sn=cea69c986643b21ee56ae3470d271afc",
+      "published": "2026-10-10 15:18",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/开源微信流 Windows，微信聊天记录，可以直接给 Codex 和 Obsidan 了-5cb7a4c1-a20d202aa3.md",
+      "raw_sha256": "b47479156df2ddbb563a9d0e4746dd3164686e07a5bc72e0d16d12a27d823f86",
+      "source_page": "wiki/sources/苍何：微信流Windows版开源实操.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "4a7b1c2f-c702-4cb2-aaa2-dcd177bb831b",
+      "anchors": [
+        {
+          "text": "目前还是 windows 测试版，大家使用有任何问题可以在 GitHub 提 issue。",
+          "location": "正文纯文本第13段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "我们做了一个中转台，来承接每次100条的数据。",
+          "location": "正文纯文本第48段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "请仅处理本人有权使用或已获得合法授权的聊天记录",
+          "location": "正文纯文本第55段；原raw正文HTML第13行",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2247500501_1",
+      "title": "Agent 开发时代，TRAE 先动手了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500501&idx=1&sn=e6ade2227ad954a8e68fe85b9c3e4b7e",
+      "published": "2026-10-09 14:08",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/Agent 开发时代，TRAE 先动手了-65b75b36-834c620b58.md",
+      "raw_sha256": "30f9f1fae950ef1406d5ea5d9ad66a70edf6de96fea686d3b8d43829d8b84c76",
+      "source_page": "wiki/sources/苍何实测TRAE全链路Agent开发.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "706a03db-c0f1-4e73-8b7b-bf24c85b44f7",
+      "anchors": [
+        {
+          "text": "前一步的产物就是后一步的上下文",
+          "location": "正文纯文本第30段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "说实话方案写得中规中矩，我改了两处",
+          "location": "正文纯文本第43段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "单个 Agent 写代码的水平，跟我平时用 Claude Code、Codex 差不多",
+          "location": "正文纯文本第49段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "我切到 IDE 模式自己看了一遍 diff",
+          "location": "正文纯文本第61段；原raw正文HTML第13行",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2247500467_1",
+      "title": "又一 Personal Agent 发布，帮我省下不止200刀。。。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500467&idx=1&sn=713f26a6bf0568a8d904abf8e43615f3",
+      "published": "2026-10-04 14:08",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/又一 Personal Agent 发布，帮我省下不止200刀。。。-b48d8e2c-935cf8d146.md",
+      "raw_sha256": "c3f1c06693ad0bd3a772aec47b68eba3b8d5284cf08a628d3a1420b3403b76e3",
+      "source_page": "wiki/sources/苍何用纳米Work排查账单与密钥.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "08878556-2df4-4b0f-ada3-a57b2f146e85",
+      "anchors": [
+        {
+          "text": "AI 助理再能干，你敢把家里的钥匙交给它吗？",
+          "location": "正文纯文本第18段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "对于敏感操作，它会让我再一次确认才会保存修改",
+          "location": "正文纯文本第41段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "任何撤销、删除、修改仓库设置的操作，先列给我看",
+          "location": "正文纯文本第53段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "说白了，活儿它来干，主意我来拿",
+          "location": "正文纯文本第79段；原raw正文HTML第13行",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2247500458_1",
+      "title": "还得是谷歌，Gemini 4 发布，猛的离谱。。。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500458&idx=1&sn=6780febb3c5864e2a5cc58210927cb31",
+      "published": "2026-10-01 07:10",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/还得是谷歌，Gemini 4 发布，猛的离谱。。。-9ba9795d-75c7cdbb6e.md",
+      "raw_sha256": "2728e0bd145516c7eadbfa9cc42c9250bf56febb6f53df8af7bcb19b6d85545f",
+      "source_page": "wiki/sources/苍何汇总Gemini 4 Argon发布数据.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "de20be3f-76b2-4b49-b562-dc7e04187abc",
+      "anchors": [
+        {
+          "text": "不过可惜的是，现在大部分人还无法使用",
+          "location": "正文纯文本第22段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "没拿到测试，在当下，我认为，Claude Opus 5.5 依旧是神",
+          "location": "正文纯文本第24段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "但讲真的，跑分这东西，看看就好",
+          "location": "正文纯文本第31段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "发布会看跑分，干活还得看手感",
+          "location": "正文纯文本第33段；原raw正文HTML第13行",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2247500450_1",
+      "title": "一个可操控 WorkBuddy 和 Claude Code 的 AI 记忆卡（强烈安利）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500450&idx=1&sn=22e00c90d2b79dab57df326f50fbe3b7",
+      "published": "2026-09-27 10:08",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/一个可操控 WorkBuddy 和 Claude Code 的 AI 记忆卡（强烈安利）-8f158dba-de2398ed59.md",
+      "raw_sha256": "f2fde16e99f1b9281e438307f8dc6f60914f1fed97060226a4f9154997186b5c",
+      "source_page": "wiki/sources/苍何实测可操控智能体的记忆卡.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "629587ed-5034-4ee3-ac17-7b77de763b35",
+      "anchors": [
+        {
+          "text": "AI 要帮我做下一步，得先知道我走过哪几步。",
+          "location": "正文纯文本第59段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "Agent 可以换，人生不用从头交代。",
+          "location": "正文纯文本第64段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "当设置这个事件后，我但凡有新的收藏进来，就会触发这个事件来帮写一份摘要。",
+          "location": "正文纯文本第55段；原raw正文HTML第13行",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "id": "2247500403_1",
+      "title": "开源微信流，微信聊天记录，可以直接给 Codex 和 Obsidan 了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500403&idx=1&sn=0490233bc69e23624afad207ccbd8b59",
+      "published": "2026-09-22 21:20",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/开源微信流，微信聊天记录，可以直接给 Codex 和 Obsidan 了-fb165118-7bdc9ebf35.md",
+      "raw_sha256": "bacb8cc2f85e8927ade3405b089bb77f7b736ce2c67dec299a2995ba152a0a0b",
+      "source_page": "wiki/sources/苍何开发开源微信流实录.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "088441e5-4b5a-4a7d-9755-6f7f86e3d85e",
+      "anchors": [
+        {
+          "text": "复杂的长链路任务，还是得人来拆。",
+          "location": "正文纯文本第55段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "模型能把你从敲代码里解放出来，但产品直觉这块暂时还替代不了。",
+          "location": "正文纯文本第58段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "站在微信和 AI 应用之间，帮你把聊天记录稳稳当当地送过去。",
+          "location": "正文纯文本第60段；原raw正文HTML第13行",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "id": "2247500394_1",
+      "title": "Agent 时代的开源 GitHub 来了。。。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500394&idx=1&sn=a915996b3a804fada2ab613b955d4775",
+      "published": "2026-09-21 19:08",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/Agent 时代的开源 GitHub 来了。。。-14994591-d03e2aea4f.md",
+      "raw_sha256": "14cb4fae26581019a5b74ec873ac7253b06ffb1bf86be7554f11e00e84106b69",
+      "source_page": "wiki/sources/苍何用AgentGit接力开发网站.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "853f89c2-db04-4f65-b366-9614aa2b07f3",
+      "anchors": [
+        {
+          "text": "以前每次换 Agent，都像重新入职一个新人，现在更像把工位、资料和待办直接交过去",
+          "location": "正文纯文本第37段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "代码可以开源，Agent 干活的经验也可以开源，这才是 Hub 最有意思的地方。",
+          "location": "正文纯文本第51段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "以前我们聊开源，最先想到的是代码和最终结果，可到了 Agent 时代，过程开始变得越来越值钱。",
+          "location": "正文纯文本第66段；原raw正文HTML第13行",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "id": "2247500394_2",
+      "title": "100万美元众筹炸场，Violoop正在把Agent推向“智能分身”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500394&idx=2&sn=7f036c4770dbc1f0a5224de24b0bd3a4",
+      "published": "2026-09-21 19:08",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/100万美元众筹炸场，Violoop正在把Agent推向“智能分身”-347f9896-8af85f82c2.md",
+      "raw_sha256": "dc7e58e854066ee8fa600a5678e5469341922d91f11fe0578f6d7a804183fcf8",
+      "source_page": "wiki/sources/苍何：Violoop智能分身的众筹信号.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "27637d1f-9e7e-44b9-a3b1-f05c7c0df9ae",
+      "anchors": [
+        {
+          "text": "它争夺的，是Agent长期缺失的执行层。",
+          "location": "正文纯文本第9段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "它不是一个已经完成的终局，而是一条正在工程化推进的路线。",
+          "location": "正文纯文本第19段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "最终放行仍然属于用户。",
+          "location": "正文纯文本第23段；原raw正文HTML第13行",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "id": "2247500369_1",
+      "title": "一份来自大厂内部的《AI 原生实践避坑指南》",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500369&idx=1&sn=1b6084833b3e9ff6f10a035da9697b0e",
+      "published": "2026-09-20 14:32",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/一份来自大厂内部的《AI 原生实践避坑指南》-8697bd9d-4fab0d8110.md",
+      "raw_sha256": "9350f81da97853fea8c1f5d5e22ece1432f68441fe9ab3120c298f9e45b6c5d1",
+      "source_page": "wiki/sources/苍何：大厂AI原生实践的避坑路径.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "6c3586f5-1dd6-4970-bb1d-1e584d993441",
+      "anchors": [
+        {
+          "text": "生成得快，验收跟不上。",
+          "location": "正文纯文本第19段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "到底省没省时间，要把后面的验收和返工一起算进去。",
+          "location": "正文纯文本第22段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "管理者应该是 AI 原生转型的第一责任人。",
+          "location": "正文纯文本第36段；原raw正文HTML第13行",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "id": "2247500362_1",
+      "title": "WorkBuddy + 腾讯乐享，原来知识库还能这么用",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500362&idx=1&sn=b7810d60b478052236e9ba3cd609b494",
+      "published": "2026-09-19 14:08",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/WorkBuddy + 腾讯乐享，原来知识库还能这么用-b353c4e2-898ec3ef61.md",
+      "raw_sha256": "cf06e2c6d001a986ccd7f1123f3bf95f3f84c513e9d5440971080b1c588ee6c9",
+      "source_page": "wiki/sources/苍何：WorkBuddy接乐享治理项目知识.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "e440003a-9143-48e6-b96b-c4e6e2047585",
+      "anchors": [
+        {
+          "text": "真正的原因是否找对、修复能不能生效，后面还得验证。",
+          "location": "正文纯文本第43段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "资料整理也有前期成本，生成的结果还得自己看。",
+          "location": "正文纯文本第67段；原raw正文HTML第13行",
+          "verified": true
+        },
+        {
+          "text": "先拿一小段时间的反馈和对应文档试一次",
+          "location": "正文纯文本第68段；原raw正文HTML第13行",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "id": "2247500349_1",
+      "title": "我用豆包 Seed-2.1-pro 新模型复刻了爆款桌面换装视频",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500349&idx=1&sn=401739531f60c4d9997d89bd4d4354a3",
+      "published": "2026-09-17 09:08",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/我用豆包 Seed-2.1-pro 新模型复刻了爆款桌面换装视频-df7a0838-580b90ce80.md",
+      "raw_sha256": "9f835eeb0cc271da6a2a46a3228c48837ed22e61819961ce22c84f9587e58940",
+      "source_page": "wiki/sources/苍何豆包Seed复刻换装视频文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "c7255702-2cdc-43b6-b480-0d6f17c69272",
+      "anchors": [
+        {
+          "text": "先澄清一个点， 抽帧策略不是均匀 5 秒一帧，而是关键帧采样。",
+          "location": "前半段，解释视频理解与抽帧策略处"
+        },
+        {
+          "text": "从理解需求、修改代码到运行验证的端到端开发流程，Seed-2.1-pro新模型表现还挺不错的。",
+          "location": "全文结尾，对3D小游戏开发体验作总结处"
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "id": "2247500313_1",
+      "title": "爆肝 30 天，我们开源了开源模型最全实践指南（建议收藏）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500313&idx=1&sn=a1df3d9f653bcb09a885c8714ff0385b",
+      "published": "2026-09-16 17:00",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/爆肝 30 天，我们开源了开源模型最全实践指南（建议收藏）-2b41cfc5-2abbb519e3.md",
+      "raw_sha256": "fa788681d0a32f5732e2b547c2ea5813d14fd453a442bfce12c0801c56510831",
+      "source_page": "wiki/sources/苍何爆肝30天，我们开源了开源模型最全实践指南（建议收藏）文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "602f057a-e3ad-4449-9b07-b9bd70ddc7ca",
+      "anchors": [
+        {
+          "text": "所有模型在选择前，通用指标只能是一个参考标准，最终模型选择还要看在业务数据上的表现。",
+          "location": "中前段，说明模型选型方法时"
+        },
+        {
+          "text": "里面所有涉及的模型实验任务，步骤截图，全是人类手动跑过。",
+          "location": "中段，介绍部署教程及实验可信度时"
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "id": "2247500259_1",
+      "title": "用 GPT6 + Hyper3D MCP 搓 3D 个人网站，太夯了！（附教程）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500259&idx=1&sn=ea4f2181bf89fd57080e9df5c57fc03c",
+      "published": "2026-09-15 21:21",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/用 GPT6 + Hyper3D MCP 搓 3D 个人网站，太夯了！（附教程）-541ba1a5-52f5042ebe.md",
+      "raw_sha256": "fea67646c8a86c6be9187f67c8b40424b849bf362eb47e8c3e8d2c13fca22b09",
+      "source_page": "wiki/sources/苍何Hyper3D三维网站文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "cbc7e4b7-728d-4cdc-9e8b-a4527de3d1e7",
+      "anchors": [
+        {
+          "text": "这个小宇宙的代码由 Codex 完成，主角和小精灵的 3D 模型则通过 Hyper3D MCP 生成，再由 Codex 接入网站。",
+          "location": "开头，概括项目工具分工处"
+        },
+        {
+          "text": "这一套处理下来，角色终于能贴着星球表面正常走路，不再一路漂移。",
+          "location": "第5节，用BANG拆件并在Blender制作动画之后"
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "id": "2247500226_1",
+      "title": "WorkBuddy + 飞书的 8 种神仙用法（建议收藏）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500226&idx=1&sn=f7085279c05cfc355ec05cb9d185d73d",
+      "published": "2026-09-14 09:08",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/WorkBuddy + 飞书的 8 种神仙用法（建议收藏）-22df58aa-50ff19ba6b.md",
+      "raw_sha256": "4d7542313b426035c5e1f7ff8b55277e92a6ff34e29abd82791877446796055e",
+      "source_page": "wiki/sources/苍何WorkBuddy飞书八用法文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "1f6189c0-593b-47a0-abc8-7689aebc11b7",
+      "anchors": [
+        {
+          "text": "注意，WorkBuddy 只能在当前飞书账号已有权限的范围内读取和执行操作，具体可用能力也会受到企业管理员设置的影响。",
+          "location": "五步连接流程的第四步“开通并授权”"
+        },
+        {
+          "text": "这条提示词看着很长，其实结构很简单。只需要告诉WorkBuddy读取什么、怎么处理、交付到哪里，它就GET到你的点啦。",
+          "location": "“读取运营手册，生成 7 天新人学习路径”案例之后"
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "id": "2247500190_1",
+      "title": "直播！用 AI 实时生成游戏，速来看",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500190&idx=1&sn=8e31174c77510ae7c6bbef178dd20b8b",
+      "published": "2026-09-11 20:05",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/直播！用 AI 实时生成游戏，速来看-09aa184b-462de481fa.md",
+      "raw_sha256": "ac97b2b99cd2c136b611af45aa3e103e0c067dadfb53992e719d8f7d23d715f1",
+      "source_page": "wiki/sources/苍何直播！用AI实时生成游戏，速来看文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "7a56085f-5954-4240-a8d4-f68890675b4a",
+      "anchors": [
+        {
+          "text": "我看了下规则，用户可以发送弹幕 1 或 2 来投票，投票结果会实时决定 AI 生成的游戏剧情。",
+          "location": "开头介绍直播玩法处"
+        },
+        {
+          "text": "画面生成得快，加上故事能连贯地往下走，才有机会让人一直玩下去。",
+          "location": "后半段第二项技术关注点的总结处"
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "id": "2247500167_1",
+      "title": "免费版 Typeless来了，不限额度，夯！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500167&idx=1&sn=f61ac4a617bf32f3964314e82f7a622a",
+      "published": "2026-09-12 09:08",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/免费版 Typeless来了，不限额度，夯！-b5c30261-69e8344b5d.md",
+      "raw_sha256": "9d7bc693baea5867425db271c03e7186c629ea1b238f6b329b0569c774a794db",
+      "source_page": "wiki/sources/苍何免费版Typeless来了，不限额度，夯！文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "fa70e3cb-a019-4f41-a6d8-228aa1253c98",
+      "anchors": [
+        {
+          "text": "这一轮下来，叭哥说保留的原话更多，Typeless 把改口整理得更干净，微信输入法列得最细，但体感等得也更久一点。",
+          "location": "三款工具对同一段 PPT 需求的比较总结处"
+        },
+        {
+          "text": "我看官网上说网易叭哥说语音加密传输，云端不留存语音和文本，输入历史只保存在本机，也承诺不会将语音和文本用于自己或第三方的模型训练。",
+          "location": "翻译体验之后的隐私说明处"
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "id": "2247500129_1",
+      "title": "小米版 Codex，干活有点猛啊",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500129&idx=1&sn=2c839c20f721f5969cf6db4da99ff9f7",
+      "published": "2026-09-11 09:08",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/小米版 Codex，干活有点猛啊-3e6ecee7-81799db980.md",
+      "raw_sha256": "efb3c618d84eea3fe21fc70cd0d2006e826103f1680201104815705ee6db0b11",
+      "source_page": "wiki/sources/苍何MiMo桌面版文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "c1022457-aafe-4b83-9830-814f55c68e35",
+      "anchors": [
+        {
+          "text": "这次从参考图一路做到可交互网页，就比较直观地体现了这种协同带来的任务完成度。",
+          "location": "正文中段，键盘从建模转为交互网页后的机制解释"
+        },
+        {
+          "text": "按 MiMo Desktop 官方的测试数据来说，同会话缓存命中率最高可达 99%，跨会话最高可达 95%。",
+          "location": "正文末段，成本控制与缓存机制说明处"
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "id": "2247500092_1",
+      "title": "把操作流程直接录成 Skill，豆包太夯了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500092&idx=1&sn=641ed2dd6142bc339b3960436cef9242",
+      "published": "2026-09-09 15:08",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/把操作流程直接录成 Skill，豆包太夯了！-8f59165d-d8adfc4cd7.md",
+      "raw_sha256": "9ff1f2b06f0e52bf9015277c3dd5e527a682432ce784a1b8f79c095b018d278e",
+      "source_page": "wiki/sources/苍何把操作流程直接录成Skill，豆包太夯了！文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "5baed5de-7618-431c-90b5-4e9c130ebd7f",
+      "anchors": [
+        {
+          "text": "演示过的操作学成一个可以反复调用的 Skill，后面换个产品，也能沿用这套流程。",
+          "location": "正文前段，由 Codex 门槛转入豆包录制与回放功能处"
+        },
+        {
+          "text": "不过我发现当前豆包的这个功能只支持豆包浏览器内的操作，听说未来会覆盖全电脑端。",
+          "location": "正文中段，完成评论分析 Skill 复用后的功能边界说明"
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "id": "2247500075_1",
+      "title": "多Agent团队都搭好了，怎么生意还是我一个人在做？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500075&idx=1&sn=38e1d113138f733e54ecb1b5ab8a4281",
+      "published": "2026-09-08 14:08",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/多Agent团队都搭好了，怎么生意还是我一个人在做？-6b075c62-6d443747ae.md",
+      "raw_sha256": "a50f2169ff6669657a75e4a5d78fabb2c2700bc244409ad9dc771cb7f7cdb977",
+      "source_page": "wiki/sources/苍何多Agent团队都搭好了，怎么生意还是我一个人在做？文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "f1ec66b0-7d5e-4688-a760-5188da2e21e3",
+      "anchors": [
+        {
+          "text": "授权如果只能做到“每一步都问我”，那我还是项目经理。",
+          "location": "正文前中段，渠道试单的授权边界讨论处"
+        },
+        {
+          "text": "同一类事情再做一次，需要人回来盯的地方有没有变少，比又加了几个 Agent 更有说服力。",
+          "location": "正文末段，提出产品价值评估尺度处"
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "id": "2247500006_1",
+      "title": "一个保姆型 AI 的自我修养",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500006&idx=1&sn=60c27037f4a70dfc734a87a027772a43",
+      "published": "2026-09-07 12:08",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/一个保姆型 AI 的自我修养-80b34d5d-80373eb035.md",
+      "raw_sha256": "2eff24e20f9e938441aa9210d7c1252488ec66bd0f7e22ad07af29de8481f01d",
+      "source_page": "wiki/sources/苍何一个保姆型AI的自我修养文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "cce73f27-af26-4f66-9de2-ee92736533ed",
+      "anchors": [
+        {
+          "text": "这里让我觉得方便的，是同一个项目，从交代任务到后面看进展，能一路跟下来。",
+          "location": "正文第一条修养后半，介绍晨间简报和晚间简报之后"
+        },
+        {
+          "text": "当然，几天的体验，还不足以说明它能陪我走多远。",
+          "location": "正文结尾前，对长期能力作出限制性说明处"
+        }
+      ]
+    },
+    {
+      "rank": 26,
+      "id": "2247499973_1",
+      "title": "用 AI 做短剧出海，赚麻了！（附 Skill 及教程）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247499973&idx=1&sn=d51dcc2c9f66abd64454fea7ce5c6a99",
+      "published": "2026-09-06 09:08",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/用 AI 做短剧出海，赚麻了！（附 Skill 及教程）-7497a61b-ddfe65be3d.md",
+      "raw_sha256": "4b328563a959e0c13006fda16daa179a7551540cc4a0dc0f1a269fd0e0fde3da",
+      "source_page": "wiki/sources/苍何用AI做短剧出海，赚麻了！（附Skill及教程）文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "e0fbb01e-d7e7-4494-8401-5c7796db6873",
+      "anchors": [
+        {
+          "text": "短剧出海最难的点在于怎么做本土化的适配，本土化适配是对语言、角色面孔、场景道具、美术风格、文化语境乃至声音表达的系统性重构，比如欧美人喜欢的狼人、复仇反转，比如日韩喜欢恶役千金、日常悬疑等.",
+          "location": "正文前部，行业机会数据之后、引出普通人方法之前"
+        },
+        {
+          "text": "在整个剧本裂变的过程中，需要我做出的选择非常的多，这个剧本裂变skill在保留原剧核心骨架的前提下，系统可基于地域文化、题材类型等多维方向，对原始剧本进行定向改写。",
+          "location": "正文中段，美式催婚剧本多轮选项演示之后"
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "id": "2247499759_1",
+      "title": "我们终于成立了 AgentWork 开源社区，16.4 万字豆包工作蓝皮书同步开源（建议收藏）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247499759&idx=1&sn=c5e73c4ba99ebe68521bd08510587a6c",
+      "published": "2026-09-01 16:30",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/我们终于成立了 AgentWork 开源社区，16.4 万字豆包工作蓝皮书同步开源（建议收藏）-9155502f-8bb02b47c1.md",
+      "raw_sha256": "5f3d74ed0c679823711258dd760b9690f7f05d358a985faa1ddc8aa48f6e41b0",
+      "source_page": "wiki/sources/苍何我们终于成立了AgentWork开源社区，16.4万字豆包工作蓝皮书同步开源（建议收藏）文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "65ba4cef-3a2a-4e4f-bd33-412275347623",
+      "anchors": [
+        {
+          "text": "AI 可以参与表达，但经验不能被生成，判断不能被外包。",
+          "location": "正文前部，从 AI 内容过剩转向真实经验稀缺的论述处"
+        },
+        {
+          "text": "所以，AgentWork 社区的所有内容都会遵循四个标准：真场景、真过程、真结果、真边界。",
+          "location": "正文后半，定义 AgentWork 社区测试目标之后"
+        }
+      ]
+    },
+    {
+      "rank": 28,
+      "id": "2247499748_1",
+      "title": "会用 AI 做图，已经不够了（分享 3 个牛逼设计 skill）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247499748&idx=1&sn=661b0d5bf39ad8a016f55abe167f7edc",
+      "published": "2026-08-31 17:30",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/会用 AI 做图，已经不够了（分享 3 个牛逼设计 skill）-d0642c73-4f94f600f1.md",
+      "raw_sha256": "7540286fd9c92cc7f0c00fce370925b315d21534c3b25b385919e7f392b9ca74",
+      "source_page": "wiki/sources/苍何会用AI做图，已经不够了（分享3个牛逼设计skill）文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "8958c571-dd91-4d2f-8ac3-82ea318f3a1d",
+      "anchors": [
+        {
+          "text": "Skill 最有价值的地方，是把已经验证过的设计方法保存下来。",
+          "location": "正文中段，介绍一键转矢量之后、转入参考来源问题之前"
+        },
+        {
+          "text": "AI 可以降低创作门槛，但作品的标准不该跟着降低。",
+          "location": "结尾价值判断段"
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "id": "2247499732_1",
+      "title": "飞书，成了豆包工作的“超级上下文”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247499732&idx=1&sn=ad857ebf294c0896a1c0422ec7bb2d12",
+      "published": "2026-08-30 18:20",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/飞书，成了豆包工作的“超级上下文”-54605002-a98c48f24f.md",
+      "raw_sha256": "1b143be953aeeb94a1aa2bee744f05e50b037d544a99b9ffff19b8876c71437f",
+      "source_page": "wiki/sources/苍何飞书，成了豆包工作的“超级上下文”文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "6063aeee-ef15-4a7f-8b3b-23fa91115ee4",
+      "anchors": [
+        {
+          "text": "Agent 的功能会越来越像，但每个人、每个团队积累下来的工作上下文不会。",
+          "location": "开头提出中心论点处"
+        },
+        {
+          "text": "当每一次任务的结果继续沉淀回飞书，下一次工作，也就不必再从零开始。",
+          "location": "结尾倒数第二句"
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "id": "2247499700_1",
+      "title": "原来 Agent 量大管饱，真不是吹的",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247499700&idx=1&sn=7ebb6ae2afe0c7884ebfc53a3051db95",
+      "published": "2026-08-28 14:37",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/原来 Agent 量大管饱，真不是吹的-55b287cb-3b0ad6eae3.md",
+      "raw_sha256": "7f17ffecbe3cdb10b6844a8ba9acd5a88a92a0936472c876fe74f3e74585f44d",
+      "source_page": "wiki/sources/苍何原来Agent量大管饱，真不是吹的文章拆解.md",
+      "status": "analyzed",
+      "reading_scope": "完整正文文字；未观看图片/视频；未运行原文命令或产品",
+      "detail_request_id": "85aee93b-eab6-4d49-ba0a-5282bcc43f80",
+      "anchors": [
+        {
+          "text": "不过在复杂编程场景下它速度没那么快，而且长时间任务还会出现断掉的情况，但效果还不错。",
+          "location": "正文后半段，公众号数据监控平台 UI 重设计案例"
+        },
+        {
+          "text": "不过对于复杂任务，建议你还是开启高级模式吧。",
+          "location": "结尾模式选择建议处"
+        }
+      ]
+    }
+  ]
+}
