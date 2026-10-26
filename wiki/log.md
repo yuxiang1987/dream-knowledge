@@ -862,3 +862,12 @@
 - 已覆盖不重复建议：脚本确认与版本回退、输入覆盖与遗漏、模型初稿人工取舍、局部改参不牵连、证据身份、实测硬关口、微信预览不等于本地通过。S1选题两项隔离演练（含父代理实际执行一次）表现符合要求，封面与排版缺新视觉证据，均明确不改。
 - 证据：`local://skill-review-planning-smoke.json`、`local://writing-audit-input-coverage-input.json` 与 `-output.txt`、`local://writing-audit-fotor-local-revision-input.json` 与 `-output.txt`、`local://audit-review-pipeline-inputs.json` 与 `-outputs.json`；均标注为合成隔离输入，单次 slow 调用不构成稳定失败率。
 - 未验证项：改动后是否真的消除混同需重跑对照；封面降级风险来自文档交叉核对，未真实触发；未核媒体、后台数据与商业付款。修复须同步回 dream-skills 源码仓库并分别验证推送，本轮未做。
+
+## [2026-10-26] skill | 修复四处公众号技能缺陷并同步安装
+
+- 依据 [[comparisons/十账号拆解后的公众号技能优化评估]] 的优先级执行修复，两个仓库分别提交推送。
+- `gzh-final-check/SKILL.md` 事实边界新增客户委托与产品方合作身份的区分，`tests/review-cases.md` 增对应回归行；`wechat-article-writing/SKILL.md` 封面改指实装 `gzh-webchat-cover`、标题由写作技能直接完成、删除未安装的 `gzh-entrypoint`；两份对标 reference 删除失效绝对路径并改为先查知识库 source 再回查 raw；`tests/editorial-cases.md` 增「没被改动≠没有问题」对照行。
+- 行为对照：`slow` 额度耗尽（提示约254分钟后恢复），改用 `smol` 对同一输入做新旧版本 A/B。新版把「没有真实客户」与「产品方合作状态」拆成两栏并明确禁止反推；旧版仍把该句整体判为含义不清、泛化。属于一次对照结果，不构成稳定失败率。
+- 源码仓库 dream-skills 提交 `8df2cec` 并推送成功（`2c868c6..8df2cec`），仅含6个技能文件；未夹带暂停中的 `gzh-benchmark-deconstruct/` 与 README 未提交改动，另按知识库既有作者身份补齐该仓库本地 `user.name`/`user.email` 配置。
+- 安装副本同步6个文件，`scripts/installed_skills.json` 更新对应 sha256 与两个技能的 `skill_commits`，其余技能独立版本未改。验证：`test_installed_skills.py` 5项通过，`wiki_lint.py` 扫描439页通过仅5项既有空sources警告，`test_recent_benchmark_acquisition.py` 5项通过。
+- 未验证：未在强模型上复跑同一输入；封面降级风险来自文档交叉核对，未真实触发；定向改稿仅补回归样例，未记录改动后行为。
