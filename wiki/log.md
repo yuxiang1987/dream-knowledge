@@ -880,3 +880,11 @@
 - C 封面路由：加载更新后写作技能与已安装 `gzh-webchat-cover`，模型明确按 `wechat-article-writing` → `gzh-webchat-cover` 路由，要求正文/标题/摘要，拒绝靠猜生成封面命题，并如实说明本轮无图像工具与写权限、未假称出图；输出未出现 `wechat-article-covers`、`wechat-article-titles`、`gzh-entrypoint`。
 - 三项均写入 [[comparisons/十账号拆解后的公众号技能优化评估]] 的补充验证小节。C 只验证路由与不假称，不代表真实出图流程；`slow` 复跑仍缺，单次运行不构成稳定失败率。未修改 Skill、未重抓文章、未运行产品。
 - 验证：`python scripts/wiki_lint.py` 通过（439页，仅5项既有空sources警告），`test_installed_skills.py` 5项、`test_distillation_coverage.py` 2项通过。
+
+## [2026-10-26] skill | 补齐选题切入点选择步骤
+
+- 用户追问技能是否覆盖"找正文切入点"。核对：方法只在 [[topics/公众号文章切入点方法]]，两个技能均无选择步骤；写作技能原有的 `gzh-entrypoint` 指向从未安装的技能，上一轮删除悬空引用后连线索都没了，属上轮修复副作用。
+- `gzh-topic-planning/SKILL.md` 执行顺序新增第3步「选切入点」（三层区分、一到三个不同入口、相对旧稿增量、时效事实与入口分开），边界加知识库切入点页入口；`tests/editorial-cases.md` 增4行回归；`wechat-article-writing/SKILL.md` 改为按选题卡执行、需重选时回读切入点页。原方法未整页复制进技能。
+- 行为演练（`default` 角色，自报 `deepseek_v3`；`slow` 额度仍未恢复）：同一产品要三候选，输出旧项目卡点／读者真实问题／生活麻烦三个不同入口，标注仅1条提问不算普遍需求，无官方资料的双11不设入口，暂缓项给理由，结论为待试。通过。
+- 源码 dream-skills 提交 `a8f5ec4` 已推送；安装副本同步3个文件，`installed_skills.json` 更新 sha256 与 `gzh-topic-planning`、`wechat-article-writing` 的 `skill_commits`，其他技能版本未动。
+- 同步更新 [[topics/公众号文章切入点方法]] 的当前进展与 [[comparisons/十账号拆解后的公众号技能优化评估]]。八类入口仍是编辑归纳，未统计占比、未验证传播效果。
