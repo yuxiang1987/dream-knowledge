@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/yuxiang1987/dream-skills",
-  "commit": "6c8063b225a2403836602062c5b5f37d75a11bf2",
+  "commit": "c26659d91cd082384cdc37934e05adf7add16e1e",
   "skills": [
     "gzh-webchat-cover",
     "md-wechat-layout",
@@ -50,9 +50,9 @@
     "md-wechat-layout/scripts/blue-journal.mjs": "45353265fa2697e11bb3d6e79daf21b7403fbe9d17b13786486dbe491ccb5a77",
     "md-wechat-layout/tests/blue-journal.test.mjs": "66e7fd7e31da67aa14a60d881c8aee8818f1c38a3f18a9e8a998af274ec24246",
     "wechat-article-writing/tests/editorial-cases.md": "376427daad2d88cdeebebc3c204c5437d92091901a2127eb06f0d084ed3fd224",
-    "gzh-topic-planning/SKILL.md": "fc9569e72ec11f81aa19150b880bc070864eb0933c5fc6af5998185bdb0f6c79",
+    "gzh-topic-planning/SKILL.md": "1732a49e9f45a720b64e6cc19eebfdb81cdda027648fd927b6aa3b1d001f9a2c",
     "gzh-topic-planning/agents/openai.yaml": "431cfaf1caa92f06f4a1725ce3a84aa9ca23dc91e2a825f68acd595c176f3209",
-    "gzh-topic-planning/tests/editorial-cases.md": "574a62b986b6cf2bf377054b49a5ea8cbb81bfc82a3ef8b506c69dc0720f1b27",
+    "gzh-topic-planning/tests/editorial-cases.md": "32d34c500b8a259492c7f7e85f7a6cde1d2a22adb10eb1fb946ce4ad15175068",
     "gzh-daily-pipeline/SKILL.md": "25327aaa2aee84718334188a3346dba9f1ecee3e78aeb461f3fbb9f5c6aebff5",
     "gzh-daily-pipeline/agents/openai.yaml": "7e246f780e8bf5d7171414436934830d7b15546ae79b3d6c9bb3f49cafb320e3",
     "gzh-daily-pipeline/references/handoff-contract.md": "989d6738286aca69e2b9f0c93e18f61d478ab93d4ce457a469cca84d2db7b18e",
@@ -74,6 +74,6 @@
     "wechat-article-writing": "a8f5ec4cbade5af89675aaec0e4b326f667e8cf9",
     "gzh-final-check": "8df2cec4e6e6b3925a1d9e5aed87540b2fcb55b1",
     "gzh-daily-pipeline": "2c868c6eac05d3b0373a614f2fdb6d8bc350ce7a",
-    "gzh-topic-planning": "6c8063b225a2403836602062c5b5f37d75a11bf2"
+    "gzh-topic-planning": "c26659d91cd082384cdc37934e05adf7add16e1e"
   }
 }

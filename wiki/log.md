@@ -943,3 +943,10 @@
 - 源码提交已推送，安装副本与 `installed_skills.json` 同步。未选定选题、未开始实测。
 - 验证：`python scripts/wiki_lint.py` 通过（442页，仅5项既有空sources警告）；`test_installed_skills.py` 5项、`test_distillation_coverage.py` 2项通过。
 
+## [2026-10-26] topic | 候选标题改为对标原文照抄
+
+- 作者指出候选行应直接用对标公众号的标题，否则对不上原文。`gzh-topic-planning` 默认交付改为：候选行 = 对标原文标题原文照抄并做成可点击链接；切入角度、对标出处（账号名）、日期各一行；自己要怎么写放切入角度与推荐题。补1行回归用例。
+- [[topics/公众号每日选题决策]] 四条候选同步改为原文标题加链接（大刘 CLAUDE.md、苍何微信流、西羊石豆包教学片、沉默王二 PDD 古法编程）。
+- 源码提交已推送，安装副本与清单同步；未选定选题、未开始实测。
+- 验证：`python scripts/wiki_lint.py` 通过（442页，仅5项既有空sources警告）；`test_installed_skills.py` 5项、`test_distillation_coverage.py` 2项通过。
+
