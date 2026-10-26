@@ -813,3 +813,11 @@
 - 核对本地原始文章的署名、日期与微信来源链接，关联已有 [[sources/KimiCode桌面版迭代与对照文章拆解]] 和 [[topics/轻量编程模型对标蒸馏]]，不重复入库，不将已有单篇样本误记为尚无资料或完整账号研究。
 - 唯一账号标识、近期内容与互动基线待核验；未在线采集或复验产品效果，未修改raw或Skill。
 - 验证：`python scripts/wiki_lint.py` 通过，扫描171页（含索引与日志），仅7项既有空sources警告；`python -m unittest discover -s scripts -p test_distillation_coverage.py` 两项通过。复用结构与来源覆盖验证，不新增绑定名称或措辞的测试；仅提交本轮4份wiki文件，提交推送结果在交付消息报告。
+
+## [2026-10-26] entity | 增加APPSO、财联社与夕小瑶科技说资讯来源
+
+- 按用户要求创建 [[entities/APPSO]]、[[entities/财联社]]、[[entities/夕小瑶科技说]]，在 [[topics/公众号每日选题决策]] 单列资讯来源，与写作风格对标分工区分；更新索引与页数。
+- 核对APPSO、夕小瑶科技说已有raw文章的署名与日期，关联原有文字拆解，不重复入库；未检索到财联社本地原始资料，按用户指令登记，sources留空并说明依据。
+- 资讯筛选限定AI与科技产业相关范围，不扩展为泛财经或荐股；保留来源与时间，区分报道、厂商主张、作者体验及本账号亲测。账号唯一标识与近期数据待核验，不登记为已持续监控。
+- 未修改raw、Skill或调用付费接口；保留任务前无关改动。
+- 验证：`python scripts/wiki_lint.py` 通过，扫描174页（含索引和日志）；8项空sources警告，其中财联社因仅有用户指令明确留空，其余7项既有。`python -m unittest discover -s scripts -p test_distillation_coverage.py` 两项通过。复用结构与真实来源覆盖验证，不新增绑定名称或措辞的测试；仅提交本轮6份wiki文件，推送结果在交付消息报告。
