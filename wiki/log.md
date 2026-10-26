@@ -950,3 +950,10 @@
 - 源码提交已推送，安装副本与清单同步；未选定选题、未开始实测。
 - 验证：`python scripts/wiki_lint.py` 通过（442页，仅5项既有空sources警告）；`test_installed_skills.py` 5项、`test_distillation_coverage.py` 2项通过。
 
+## [2026-10-26] topic | 候选输出补类型与热点字段
+
+- 作者要求候选块补齐对标名称与文章类型、热点维度。`gzh-topic-planning` 默认交付改为固定六行：候选（原文标题＋链接）／切入角度／对标名称／类型／热点／日期；类型限定从 `wechat-article-writing` 的十类结构里选一类，不自造；热点只填「热点」或「长青」，有截止日时块下补一行。补1行回归用例。
+- [[topics/公众号每日选题决策]] 四条候选补齐字段：候选1 同素材对照·长青、候选2 场景解决方案·长青、候选3 新手教程·长青、候选4 难度递增测试·热点并标注重核期限。
+- 源码提交已推送，安装副本与清单同步；未选定选题、未开始实测。
+- 验证：`python scripts/wiki_lint.py` 通过（442页，仅5项既有空sources警告）；`test_installed_skills.py` 5项、`test_distillation_coverage.py` 2项通过。
+
