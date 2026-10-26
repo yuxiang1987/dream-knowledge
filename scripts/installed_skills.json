@@ -1,13 +1,15 @@
 {
   "repository": "https://github.com/yuxiang1987/dream-skills",
-  "commit": "c0d2cbb7167d6ad3f675cde2d32225205ae218aa",
+  "commit": "e78e17df181682500b6725707bcddd2b3c0968d0",
   "skills": [
     "gzh-webchat-cover",
     "md-wechat-layout",
     "gzh-final-check",
     "wechat-article-writing",
     "gzh-daily-pipeline",
-    "gzh-topic-planning"
+    "gzh-topic-planning",
+    "gzh-benchmark-deconstruct",
+    "gzh-benchmark-radar"
   ],
   "sha256": {
     "gzh-webchat-cover/agents/openai.yaml": "bfecbb6470ab75fb9dabf2acb6fab4e0c4ee64b09a977718bc85606ca5625d40",
@@ -67,13 +69,31 @@
     "gzh-daily-pipeline/templates/06_标题.md": "341181b22077f0a7ce9a9f1402a2a778875b15ee9ab9a7c4cfb62f68d271e827",
     "gzh-daily-pipeline/templates/09_发布记录.md": "8397c50661f6b4b076c0925b71429d399a19c121e9ef501a45d47ece700f2c4b",
     "gzh-daily-pipeline/tests/pipeline-cases.md": "f9eb588ac3897793831bf35ef6ee6a5368c6d2a117d13dbb2ac8ecdf6d72744f",
-    "gzh-daily-pipeline/tests/test_pipeline.py": "fa7b92323a2f2fefdc1c23c38d7e43717571128e65b70b8fabcdedc9dfeafda8"
+    "gzh-daily-pipeline/tests/test_pipeline.py": "fa7b92323a2f2fefdc1c23c38d7e43717571128e65b70b8fabcdedc9dfeafda8",
+    "gzh-benchmark-deconstruct/SKILL.md": "b6aba501d1c166bdba7c2624188549089f5be2d84d687e52469207aee33e08f7",
+    "gzh-benchmark-deconstruct/agents/openai.yaml": "b38cdebe88c948f14efba6692050f39bb064bb1cb7e12745db8a33e1fc95f892",
+    "gzh-benchmark-deconstruct/references/batch-workflow.md": "26bc043001c8603a0607a8c7fc4d12892dbe7546836b42bf481e462007e0a4b6",
+    "gzh-benchmark-deconstruct/references/deconstruct-dimensions.md": "f909e1b8fd3bd726d9a10bc955519a1b1c8983b2879fd6cdad05b975697b0f1e",
+    "gzh-benchmark-deconstruct/references/page-contracts.md": "d347281e996d64c23d0ef28cd1403a9077896e92bb92120a6968fc490a9d9252",
+    "gzh-benchmark-deconstruct/references/source-map.md": "fc531b47560140e4732b5c2e1be2446ab71ede3eea9223637fed6afbc284abd0",
+    "gzh-benchmark-deconstruct/scripts/batch.py": "219752c62074cbd14d8cf6cced3882c1278b5940847518db7496017bc24016e8",
+    "gzh-benchmark-deconstruct/tests/deconstruct-cases.md": "cf1fc291766b371f7b8cd539f89b73b1b7bd6e3c669238935c5c07d488b8cfa8",
+    "gzh-benchmark-deconstruct/tests/test_batch.py": "5176e35d0d4f446ac8253c5a6ced5698e79e62f92cfd3f69c10afc3e64935fc9",
+    "gzh-benchmark-radar/SKILL.md": "0054bdbeffe375c46f8c4c34e2a3f30ea78b8e41a6aabb54a30c976c9471a83c",
+    "gzh-benchmark-radar/agents/openai.yaml": "cf01d00ef7d4953e998c936a71e3c85b73fb63f5ed11434d55ddcdaa96664776",
+    "gzh-benchmark-radar/references/accounts.example.json": "2459f57d2c6671ac0445ce302487665259cfe1585a79bd8ec25c7fc6c633ad41",
+    "gzh-benchmark-radar/references/selection-rules.md": "0fcaa30463adbab1d0f44c5c09d42ab246bac9b9c1e7aa5dd7298f0b5aabed06",
+    "gzh-benchmark-radar/scripts/ingest.py": "2261ed8ccb778d4f8a15f5e4409bf72eef1d7ec89c54a2f74dc353ef3466e037",
+    "gzh-benchmark-radar/tests/cases.md": "1c823aac03d94dbe77e2c32a89e8e6cd00889dabd0d46c11774ffd34614b2636",
+    "gzh-benchmark-radar/tests/test_ingest.py": "c871ca07f6261605e64f63d9b79f02c292f4768b12c9bb3d2042a803e2033cd6"
   },
   "skill_commits": {
     "md-wechat-layout": "7137fdc76015cc3e5ced9df6ebf15c1acdf4c7dd",
     "wechat-article-writing": "a8f5ec4cbade5af89675aaec0e4b326f667e8cf9",
     "gzh-final-check": "8df2cec4e6e6b3925a1d9e5aed87540b2fcb55b1",
     "gzh-daily-pipeline": "2c868c6eac05d3b0373a614f2fdb6d8bc350ce7a",
-    "gzh-topic-planning": "c0d2cbb7167d6ad3f675cde2d32225205ae218aa"
+    "gzh-topic-planning": "e78e17df181682500b6725707bcddd2b3c0968d0",
+    "gzh-benchmark-deconstruct": "e78e17df181682500b6725707bcddd2b3c0968d0",
+    "gzh-benchmark-radar": "e78e17df181682500b6725707bcddd2b3c0968d0"
   }
 }

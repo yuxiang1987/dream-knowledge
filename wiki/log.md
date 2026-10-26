@@ -975,3 +975,13 @@
 - 未做：评论未翻页（每篇前20条）；8+4篇失败未重试；未与其他平台交叉核对；未把这些数据接进自动选题脚本。
 - 验证：`python scripts/wiki_lint.py` 通过（444页，仅5项既有空sources警告）；`test_distillation_coverage.py` 2项通过。
 
+## [2026-10-26] skill | 新增对标雷达技能、安装拆解技能并登记首张案例卡
+
+- 用户要求这套采集／统计／去重／出候选的流程做成独立 Skill 供 Orca 调用。新增 `gzh-benchmark-radar`：`scripts/ingest.py` 提供 `plan`（纯本地盘点未入库）、`fetch`（白名单账号采集，只新增不覆盖，按文章ID与已有链接去重）、`stats`（互动数据与中位数基线）、`report`（异常样本、跨账号事件簇、未入库清单、案例卡候选）；配 `references/selection-rules.md`（六类方向、热度两值、字典序优先级、数据怎么进判断）与 `references/accounts.example.json`（9个已核验账号）。
+- 用户补充要求：带实测案例的文章，案例本身要入库。`report` 增加 `case_candidates`：按实测与步骤信号识别，预填模型词与信号数，`angle/steps/inputs/checks` **留空待填**，脚本不代写角度与结论；页面契约新增「案例卡」小节。
+- 拆解技能 `gzh-benchmark-deconstruct` 补齐两处自身缺陷：新建 `references/source-map.md`（方法论第179—227／251—279行、比例冲突行、10组历史样本的可学动作与不可继承结论），`references/page-contracts.md` 与入口对齐（脚本路径 vs 增量路径、媒体边界按实际、单篇不建 comparison、新增案例卡契约）。
+- 两个技能已安装到 `.agents/skills/`，`installed_skills.json` 增加 8 个技能条目与逐文件哈希，`test_installed_skills.py` 快照校验名单扩到 5 个技能；源码提交 `e78e17d` 已推送。
+- 实际调用拆解技能登记首张案例卡：[[topics/AI写作案例库]] 新增「同一任务跑无常驻规矩与有常驻规矩两轮」，含测试角度、步骤、输入、验收点、结果边界与可复用性，明确原文**没有成对对照**，效果为作者体感，我们复用时要补对照。
+- 验证：雷达脚本离线回归 6 项通过（含案例候选只识别不代写、单账号不算事件簇、dry-run 不发请求、缺凭据报错）；`test_installed_skills.py` 5 项、`test_distillation_coverage.py` 2 项、`wiki_lint.py`（446页，仅5项既有空sources警告）通过。
+- 未做：定时调度未接；评论未翻页；radar 的 fetch/stats 未在真实账号上跑过新一轮（本轮数据来自此前批次），只做了离线与 dry-run 验证。
+
