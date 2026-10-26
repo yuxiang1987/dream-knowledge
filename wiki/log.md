@@ -871,3 +871,12 @@
 - 源码仓库 dream-skills 提交 `8df2cec` 并推送成功（`2c868c6..8df2cec`），仅含6个技能文件；未夹带暂停中的 `gzh-benchmark-deconstruct/` 与 README 未提交改动，另按知识库既有作者身份补齐该仓库本地 `user.name`/`user.email` 配置。
 - 安装副本同步6个文件，`scripts/installed_skills.json` 更新对应 sha256 与两个技能的 `skill_commits`，其余技能独立版本未改。验证：`test_installed_skills.py` 5项通过，`wiki_lint.py` 扫描439页通过仅5项既有空sources警告，`test_recent_benchmark_acquisition.py` 5项通过。
 - 未验证：未在强模型上复跑同一输入；封面降级风险来自文档交叉核对，未真实触发；定向改稿仅补回归样例，未记录改动后行为。
+
+## [2026-10-26] skill | 用DeepSeek角色补跑三项技能行为验证
+
+- `slow`（ChatGPT）额度耗尽，`completion` 仅接受 `smol`/`default`/`slow`；按用户指示改用 DeepSeek 角色，取 `default`（自报 `deepseek_v3`）复跑，无法指定任意模型名。
+- A 身份区分：同一输入重跑，L7 被判为「披露状态，不是错误，保留原意即可」，不再列入必须修改；同时仍正确拦截「无权限却写我实测」与「单点结果推全面超过竞品」。修复前的误判未复现。
+- B 定向改稿：同一合成稿重跑，新增越界表述全部消失，未把「没有被改动」写成「没有问题」、未把版本备份并入因果；提示词原文、视频引用、结尾段与限定表述均保留。
+- C 封面路由：加载更新后写作技能与已安装 `gzh-webchat-cover`，模型明确按 `wechat-article-writing` → `gzh-webchat-cover` 路由，要求正文/标题/摘要，拒绝靠猜生成封面命题，并如实说明本轮无图像工具与写权限、未假称出图；输出未出现 `wechat-article-covers`、`wechat-article-titles`、`gzh-entrypoint`。
+- 三项均写入 [[comparisons/十账号拆解后的公众号技能优化评估]] 的补充验证小节。C 只验证路由与不假称，不代表真实出图流程；`slow` 复跑仍缺，单次运行不构成稳定失败率。未修改 Skill、未重抓文章、未运行产品。
+- 验证：`python scripts/wiki_lint.py` 通过（439页，仅5项既有空sources警告），`test_installed_skills.py` 5项、`test_distillation_coverage.py` 2项通过。
