@@ -995,3 +995,11 @@
 - 验证：雷达离线回归 7 项通过；`test_installed_skills.py` 5 项、`test_distillation_coverage.py` 2 项、`wiki_lint.py` 通过。用户原文中的面试题类新增文章（沉默王二那条）不会进候选，符合题材口径。
 - 未做：自动化尚未到点触发（next run 为次日 9:30），本轮为手动实跑验证；评论未翻页；调度是否真按 Asia/Shanghai 执行需次日观察。
 
+## [2026-10-26] automation | 雷达日报补第二段：拆解入库
+
+- 用户指出日报只做到落盘、没入库也没调拆解。`gzh-benchmark-radar/SKILL.md` 的定时任务段改为**两段式**：第一段 `daily` 采集统计出简报，第二段加载 `gzh-benchmark-deconstruct` 按默认增量路径逐篇入库；写明题材先过筛（面试／薪资职级／八卦／纯资讯只登记不深拆）、source 页必填项、锚点双命中、案例卡角度步骤要人填、作者页与索引日志同步、同作品再发共用一页。源码提交 `3c8f02f` 已推送。
+- Orca 自动化 `fa599685-8d80-4390-802c-6fced296cd61` 的 prompt 已用 ID（名称编辑会报 Automation not found）更新为两段式，含题材排除、source 必填、案例卡待填、提交范围与付费／凭据约束。
+- 用拆解技能实做了本轮两篇新增：[[sources/郭震DeepLocals打通WorkBuddy文章拆解]] 走完整六维＋两处双命中锚点＋待实操对照设计，判断为版本通报型、无对照无失败样本、「只读」属产品声明；[[sources/沉默王二宇宙厂晋升面试题文章登记]] 按题材口径只登记不深拆，保住覆盖可追溯。作者页与 `wiki/index.md` 补入口。
+- 验证：雷达离线回归 7 项通过；`test_installed_skills.py` 5 项、`test_distillation_coverage.py` 2 项（确认全部 raw 均有处理记录）、`wiki_lint.py` 通过，无新增孤页。
+- 未做：自动化仍待次日 9:30 首次自动触发；第二段由代理按技能执行，未做成脚本，稳定性依赖代理遵守提示词。
+

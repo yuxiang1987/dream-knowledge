@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/yuxiang1987/dream-skills",
-  "commit": "9c8e68d69632ba65973d198682457dccbf7c7a68",
+  "commit": "3c8f02fdf7e224312f6b1df2f9a4fbe784ed3667",
   "skills": [
     "gzh-webchat-cover",
     "md-wechat-layout",
@@ -94,6 +94,6 @@
     "gzh-daily-pipeline": "2c868c6eac05d3b0373a614f2fdb6d8bc350ce7a",
     "gzh-topic-planning": "e78e17df181682500b6725707bcddd2b3c0968d0",
     "gzh-benchmark-deconstruct": "e78e17df181682500b6725707bcddd2b3c0968d0",
-    "gzh-benchmark-radar": "9c8e68d69632ba65973d198682457dccbf7c7a68"
+    "gzh-benchmark-radar": "3c8f02fdf7e224312f6b1df2f9a4fbe784ed3667"
   }
 }
