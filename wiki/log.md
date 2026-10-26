@@ -1036,3 +1036,11 @@
 - `pipeline.py check` 交接校验通过，S2 仍待确认；知识库内同步 [[topics/公众号每日选题决策]] 的类型标注与选定说明。
 - 未做：未走通一轮；官方文档未核；Agent 与模型版本待确认。
 
+## [2026-10-26] topic | 按 Codex 官方文档定稿 S2 并备好实测记录表
+
+- 用户指定用 Codex。查证官方文档（`developers.openai.com/codex/guides/agents-md`，2026-10-26 读取）并把规则事实写进 `02_案例决策卡.md` 的「已核」表：文件名 `AGENTS.md` 与 `.override` 变体、全局层用 `~/.codex`（`CODEX_HOME` 可改）只取第一个非空文件、项目层从 Git 根向下逐层每个目录最多一个文件、合并从根往下且越近当前目录越靠后覆盖、空文件跳过、`project_doc_max_bytes` 默认 32 KiB 截断、每次运行重建指令链无缓存；验证命令为 `codex --ask-for-approval never "Summarize the current instructions."` 与 `codex --cd <子目录> … "Show which instruction files are active."`；排错线索含 `codex status`、上层 override 顶掉、字节截断、`CODEX_HOME` 指错。
+- 教程的「怎么确认被读到」改成跑官方验证命令，而不是凭行为揣测；这一步成为全文核心证据。
+- `03_证据与实测.md` 改为作者填写模板：预留版本与 commit、三条验证命令、两次记录（正常放置／故意放错）、「文档与实测差异」单列一节，未跑完不写结论。
+- 验证：`pipeline.py check` 交接校验通过；S2 仍待确认。文档事实标「已核」，本机实跑标待填，二者不混。
+- 未做：未在本机跑过任何一条命令；Codex 版本未记。
+
