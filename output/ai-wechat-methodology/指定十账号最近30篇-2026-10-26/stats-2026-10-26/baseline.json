@@ -1,0 +1,102 @@
+[
+  {
+    "account": "路人甲TM",
+    "n": 29,
+    "median": 12741,
+    "min": 6777,
+    "max": 51163,
+    "median_like": 58,
+    "median_share": 456,
+    "median_comment": 21
+  },
+  {
+    "account": "摸鱼小李",
+    "n": 29,
+    "median": 9059,
+    "min": 6395,
+    "max": 35347,
+    "median_like": 74,
+    "median_share": 414,
+    "median_comment": 30
+  },
+  {
+    "account": "小林coding",
+    "n": 25,
+    "median": 9792,
+    "min": 2343,
+    "max": 36733,
+    "median_like": 24,
+    "median_share": 250,
+    "median_comment": 13
+  },
+  {
+    "account": "卡尔的AI沃茨",
+    "n": 30,
+    "median": 13941,
+    "min": 10735,
+    "max": 43654,
+    "median_like": 224,
+    "median_share": 1162,
+    "median_comment": 54
+  },
+  {
+    "account": "苍何",
+    "n": 30,
+    "median": 13958,
+    "min": 5583,
+    "max": 66335,
+    "median_like": 67,
+    "median_share": 780,
+    "median_comment": 35
+  },
+  {
+    "account": "沉默王二",
+    "n": 30,
+    "median": 11414,
+    "min": 908,
+    "max": 48730,
+    "median_like": 12,
+    "median_share": 192,
+    "median_comment": 11
+  },
+  {
+    "account": "洛洛AI说",
+    "n": 30,
+    "median": 9076,
+    "min": 5201,
+    "max": 17372,
+    "median_like": 109,
+    "median_share": 331,
+    "median_comment": 36
+  },
+  {
+    "account": "郭震AI",
+    "n": 30,
+    "median": 10537,
+    "min": 5055,
+    "max": 18094,
+    "median_like": 57,
+    "median_share": 618,
+    "median_comment": 19
+  },
+  {
+    "account": "西羊石AI视频",
+    "n": 30,
+    "median": 10778,
+    "min": 880,
+    "max": 21543,
+    "median_like": 78,
+    "median_share": 479,
+    "median_comment": 13
+  },
+  {
+    "account": "爱AI的大刘",
+    "n": 29,
+    "median": 18890,
+    "min": 2374,
+    "max": 100001,
+    "median_like": 126,
+    "median_share": 2515,
+    "median_comment": 32
+  }
+]

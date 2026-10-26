@@ -1,0 +1,2932 @@
+[
+  {
+    "account": "苍何",
+    "title": "小米版 Codex，干活有点猛啊",
+    "comment_count": 409,
+    "res": {
+      "error": "TimeoutError"
+    }
+  },
+  {
+    "account": "苍何",
+    "title": "开源微信流，微信聊天记录，可以直接给 Codex 和 Obsidan 了",
+    "comment_count": 195,
+    "res": {
+      "code": 200,
+      "request_id": "783e987b-e354-4a02-a8ba-6cac5202b823",
+      "message": "Request successful. This request will incur a charge.",
+      "message_zh": "请求成功，本次请求将被计费。",
+      "support": "Discord: https://discord.gg/aMEAS8Xsvz",
+      "time": "2026-10-26 01:34:57",
+      "time_stamp": 1793003697,
+      "time_zone": "America/Los_Angeles",
+      "docs": "https://api.tikhub.io/#/WeChat-Media-Platform-V2-API/fetch_article_comments_api_v1_wechat_mp_v2_fetch_article_comments_post",
+      "cache_message": "This response is cached and accessible via the URL below for 24 hours at no extra cost. The cache is for request tracing only — it doesn't affect the API's data freshness and won't be returned through the API again.",
+      "cache_message_zh": "本次响应已缓存，可通过下方 URL 直接查看，有效期 24 小时，访问缓存链接无额外费用。缓存仅用于请求溯源，不影响接口数据的时效性，也不会再次通过接口返回。",
+      "cache_url": "https://cache.tikhub.io/api/v1/cache/public/783e987b-e354-4a02-a8ba-6cac5202b823?sign=5c40943f8432c9509419a8045d5fc41befe1fed1c2730c8b63c532e77863e990",
+      "router": "/api/v1/wechat_mp/v2/fetch_article_comments",
+      "params": {
+        "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500403&idx=1&sn=0490233bc69e23624afad207ccbd8b59",
+        "buffer": "",
+        "comment_id": null,
+        "raw": false
+      },
+      "data": {
+        "elected_total": 107,
+        "total_count": 195,
+        "comments": [
+          {
+            "content_id": "4106782049795310552",
+            "nick_name": "苍何",
+            "content": "开源不易，如果对你有帮助请给我们点个赞和star[抱拳]",
+            "like_num": 49,
+            "create_time": 1790083429,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "浙江"
+            },
+            "is_elected": 1,
+            "is_top": 1,
+            "identity_name": "gh_fdb597c42fa4",
+            "reply_total": 5,
+            "replies": [
+              {
+                "reply_id": 3,
+                "nick_name": "苍何",
+                "content": "GitHub ：https://github.com/freestylefly/WeChatBridge",
+                "create_time": 1790083669,
+                "ip_wording": null,
+                "identity_name": "gh_fdb597c42fa4",
+                "from_ai": false,
+                "reply_is_elected": 1
+              },
+              {
+                "reply_id": 5,
+                "nick_name": "空空师兄",
+                "content": "实现原理：\n在微信里多选聊天记录 → 合并转发 → 发给好友「元宝AI」，它会自动生成 ZIP 压缩包；把 ZIP 保存到本地。\n拖入悬浮球：启动应用后，屏幕上会出现一个绿色「微」字悬浮球（始终置顶）。把 ZIP 拖到悬浮球上，自动导入。一键转发：在主窗口预览聊天记录，选择目标 AI 应用，点击「转发」即可。也可以把 ZIP 拖到主窗口的拖放区，或点击选择文件。悬浮球误关后可在系统托盘菜单「显示悬浮球」找回。",
+                "create_time": 1790259330,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "湖南"
+                },
+                "identity_name": "ocBex1fcgz_tP1A5ywynqD6HzPrw",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "4106782049795310553",
+            "nick_name": "苍何",
+            "content": "此方法，是微信官方支持的口子，完全合规，没有账号任何危险，只需要更新最新版本微信即可",
+            "like_num": 50,
+            "create_time": 1790083741,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "浙江"
+            },
+            "is_elected": 1,
+            "is_top": 1,
+            "identity_name": "gh_fdb597c42fa4",
+            "reply_total": 9,
+            "replies": [
+              {
+                "reply_id": 2,
+                "nick_name": "段子为王",
+                "content": "过一个月能用我就用[呲牙]，图能放一块么",
+                "create_time": 1790087547,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "湖北"
+                },
+                "identity_name": "gh_e71ea1b1d4d5",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "3435069660284846122",
+            "nick_name": "guang霖",
+            "content": "转发到workbuddy可以读取语音和附件内容，但转发给别的agent就不行",
+            "like_num": 1,
+            "create_time": 1790249020,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "北京"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ocBex1ZsjpUBWms6Fz5yfWp7o59o",
+            "reply_total": 0,
+            "replies": [],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "3377036835275407472",
+            "nick_name": "听风长颐",
+            "content": "大佬你好  我想引用你的开源项目  可以吗  第一行标注了地址和来源",
+            "like_num": 2,
+            "create_time": 1790172036,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "浙江"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ocBex1cOpJalqL8M_vCkXQ5D5oDI",
+            "reply_total": 0,
+            "replies": [],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "8253768794527236436",
+            "nick_name": "Lucas",
+            "content": "[破涕为笑]大佬，Windows什么时候可以用？",
+            "like_num": 4,
+            "create_time": 1790085831,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "广东"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ocBex1dYuVpUVV7ydq3RDtNZ4ve8",
+            "reply_total": 7,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "苍何",
+                "content": "马上",
+                "create_time": 1790120032,
+                "ip_wording": null,
+                "identity_name": "gh_fdb597c42fa4",
+                "from_ai": false,
+                "reply_is_elected": 1
+              },
+              {
+                "reply_id": 2,
+                "nick_name": "Tim",
+                "content": "俩小时过去了，现在Windows可以用上了吗",
+                "create_time": 1790128115,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "陕西"
+                },
+                "identity_name": "ocBex1YdRaQd4wZkL0H-wCI_FYDI",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "7624268022206693421",
+            "nick_name": "K God",
+            "content": "Weflow，这个项目，被南山必胜客弄下架了。我找了个备份二开。我自己的聊天记录实时上传我自己服务器，包括所有表情语音文件。",
+            "like_num": 7,
+            "create_time": 1790087569,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "广东"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ocBex1Yfk54iJsMf2K3BXAGVsNOU",
+            "reply_total": 9,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "「C.」",
+                "content": "能打包再发一个吗[旺柴]",
+                "create_time": 1790094817,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "湖南"
+                },
+                "identity_name": "ocBex1X0rozAwToglJaRWI9ib9Mw",
+                "from_ai": false,
+                "reply_is_elected": 1
+              },
+              {
+                "reply_id": 8,
+                "nick_name": "    ",
+                "content": "看看weflow 的一个新项目，ciphertalk",
+                "create_time": 1791972010,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "湖北"
+                },
+                "identity_name": "ocBex1WR-C_HD9Ss3G9SHQH35mnE",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "3192667130642301145",
+            "nick_name": "向明",
+            "content": "期待共创更多实用、有趣的项目[社会社会]",
+            "like_num": 6,
+            "create_time": 1790087984,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "福建"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "gh_3d8e2a7c3e51",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "苍何",
+                "content": "[加油][加油]",
+                "create_time": 1790119927,
+                "ip_wording": null,
+                "identity_name": "gh_fdb597c42fa4",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "12277237206153692782",
+            "nick_name": "꧁༺༽༾ཊ挚爱守护ཏ༿༼༻꧂",
+            "content": "老师 你这个软件会不会被微信小微代替啊",
+            "like_num": 2,
+            "create_time": 1790121280,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "广东"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ocBex1R0MLP3hZw9n2NrGak8pAV8",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "数字生命蜗牛",
+                "content": "我觉得不会，毕竟这个是分享到别的Agent处理任务 而不是单单的总结",
+                "create_time": 1790131872,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "福建"
+                },
+                "identity_name": "gh_aa4460ab62a6",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "11300954456457216138",
+            "nick_name": "Jaredddd",
+            "content": "我激动的看完，还转发了，结果发现只支持 macOS…眼泪掉了下来[流泪]",
+            "like_num": 4,
+            "create_time": 1790087545,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "四川"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "phacct_e5be12524965",
+            "reply_total": 2,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "苍何",
+                "content": "马上windows",
+                "create_time": 1790119952,
+                "ip_wording": null,
+                "identity_name": "gh_fdb597c42fa4",
+                "from_ai": false,
+                "reply_is_elected": 1
+              },
+              {
+                "reply_id": 2,
+                "nick_name": "ventriloquizing",
+                "content": "windows本来在ai时代就是二等公民",
+                "create_time": 1790320689,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "北京"
+                },
+                "identity_name": "v2_060000231003b20faec8c4ea8d19cbd4c704ef32b07736f50f88de574938522eb51d3211d395@finder",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "9834183280461613097",
+            "nick_name": "萝卜AI笔记",
+            "content": "其实给workbuddy就不错，感觉真没必要冒这些风险",
+            "like_num": 2,
+            "create_time": 1790085425,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "山东"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "gh_05a17e0de48f",
+            "reply_total": 2,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "蓝星",
+                "content": "只能用 workbuddy 太难受了",
+                "create_time": 1790087978,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "392",
+                  "country_name": "日本",
+                  "province_id": "",
+                  "province_name": ""
+                },
+                "identity_name": "ocBex1ZJqa6fXBbJE7vvnTHA8CRY",
+                "from_ai": false,
+                "reply_is_elected": 1
+              },
+              {
+                "reply_id": 2,
+                "nick_name": "苍何",
+                "content": "原理就是微信放了个口子，可以把聊天记录打包发给wb以及第三方应用",
+                "create_time": 1790119895,
+                "ip_wording": null,
+                "identity_name": "gh_fdb597c42fa4",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "11316684958862409897",
+            "nick_name": "书里望外",
+            "content": "岁大佬，Windows什么时候可以用？[憨笑]",
+            "like_num": 0,
+            "create_time": 1790233712,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "广东"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "gh_effe808e1432",
+            "reply_total": 0,
+            "replies": [],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "1417992042708992236",
+            "nick_name": "皮皮虾你走不掉",
+            "content": "有没有办法检测群内某些关键词，碰到这些关键词的消息就转发给自己另外一个微信号啊？我300多个群，搜关键词一个个看群好痛苦[捂脸]",
+            "like_num": 3,
+            "create_time": 1790094460,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "广东"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ocBex1ajROs11f4ymBsP6DmWwy2s",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "苍何",
+                "content": "之前的cli可以，不过不安全",
+                "create_time": 1790119809,
+                "ip_wording": null,
+                "identity_name": "gh_fdb597c42fa4",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "7405861934408401976",
+            "nick_name": "item",
+            "content": "如果需要手动转发，那不是和直接发给元宝、wb没区别吗[捂脸]",
+            "like_num": 1,
+            "create_time": 1790233441,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "上海"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ocBex1b6pLUnIFhTUVLdOZMNWuws",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "随意个名字",
+                "content": "如果需要手动转发，我觉得没意义呢，，我转发的过程已经大概看完聊天记录了",
+                "create_time": 1791635362,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "四川"
+                },
+                "identity_name": "phacct_41d10562a4bc",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "1940072715134173617",
+            "nick_name": "🍉🤖 Carl",
+            "content": "大佬把抓取公众号文章顺便做了呗[皱眉]",
+            "like_num": 0,
+            "create_time": 1790086017,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "广东"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ocBex1U2hnWR4C38thuRbDI_k7oY",
+            "reply_total": 5,
+            "replies": [
+              {
+                "reply_id": 8,
+                "nick_name": "苍何",
+                "content": "已经内置了skill可以解析",
+                "create_time": 1790119658,
+                "ip_wording": null,
+                "identity_name": "gh_fdb597c42fa4",
+                "from_ai": false,
+                "reply_is_elected": 1
+              },
+              {
+                "reply_id": 13,
+                "nick_name": "Alex周菁",
+                "content": "可以了解一下我做的软件[愉快]cliploom，在github",
+                "create_time": 1792033477,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "上海"
+                },
+                "identity_name": "ocBex1Z4aQhx8AAdjsEr74A8rL0Q",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "6310438179195322912",
+            "nick_name": "郑承良",
+            "content": "请问有100条的限制吗？可以事实监控获取特定好友、特定群的消息吗？",
+            "like_num": 2,
+            "create_time": 1790087575,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "四川"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ocBex1TVV2ivf8NiC590ZcSi2NRM",
+            "reply_total": 2,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "苍何",
+                "content": "原理就是微信放了个口子，可以把聊天记录打包发给wb以及第三方应用，目前有",
+                "create_time": 1790119941,
+                "ip_wording": null,
+                "identity_name": "gh_fdb597c42fa4",
+                "from_ai": false,
+                "reply_is_elected": 1
+              },
+              {
+                "reply_id": 2,
+                "nick_name": "akay",
+                "content": "就是每天都要打包一下聊天记录出去才能处理信息",
+                "create_time": 1790508596,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "广东"
+                },
+                "identity_name": "ocBex1QkvnjZtImhm-o_ImHGZC5o",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "17617590775973101",
+            "nick_name": "天际放猪",
+            "content": "下载了，但是两个官方skill包没有，另外建议汉化",
+            "like_num": 0,
+            "create_time": 1790092889,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "广东"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ocBex1eCb65JffbBzdJRBzopyEYY",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "苍何",
+                "content": "收到，我看看",
+                "create_time": 1790119821,
+                "ip_wording": null,
+                "identity_name": "gh_fdb597c42fa4",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "22244043647878142",
+            "nick_name": "吴奕群",
+            "content": "这个会有100条的限制吧",
+            "like_num": 12,
+            "create_time": 1790083597,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "福建"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ocBex1fFVTJrj4aUvgZ6YC4MKj8Q",
+            "reply_total": 5,
+            "replies": [
+              {
+                "reply_id": 3,
+                "nick_name": "苍何",
+                "content": "现在是的",
+                "create_time": 1790119856,
+                "ip_wording": null,
+                "identity_name": "gh_fdb597c42fa4",
+                "from_ai": false,
+                "reply_is_elected": 1
+              },
+              {
+                "reply_id": 4,
+                "nick_name": "梁带逛",
+                "content": "那一个月、甚至一天的群聊消息都用不了，更不用说所有历史消息了，还是以前的好啊",
+                "create_time": 1790143228,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "四川"
+                },
+                "identity_name": "gh_8b0d83763e14",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "9856331486209246055",
+            "nick_name": "离谱（问号版",
+            "content": "Windows 装不了[发呆]",
+            "like_num": 0,
+            "create_time": 1790086193,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "广东"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ocBex1XsOVGuDMRE53tOwMCPNHVU",
+            "reply_total": 3,
+            "replies": [
+              {
+                "reply_id": 6,
+                "nick_name": "苍何",
+                "content": "马上",
+                "create_time": 1790120026,
+                "ip_wording": null,
+                "identity_name": "gh_fdb597c42fa4",
+                "from_ai": false,
+                "reply_is_elected": 1
+              },
+              {
+                "reply_id": 8,
+                "nick_name": "Keep",
+                "content": "是多久",
+                "create_time": 1790141766,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "江苏"
+                },
+                "identity_name": "ocBex1c--Y_CsiKT7prp0kXzFvmI",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "5555562453896528126",
+            "nick_name": "天驱尘",
+            "content": "没有Windows ？",
+            "like_num": 0,
+            "create_time": 1790089103,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "湖北"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ocBex1XwtJqP5WaARiN-Ir3d6aXM",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "苍何",
+                "content": "马上",
+                "create_time": 1790119884,
+                "ip_wording": null,
+                "identity_name": "gh_fdb597c42fa4",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "3309190783088723327",
+            "nick_name": "进化",
+            "content": "核心是微信聊天记录怎么导出？大佬能说下吗？邪修的方法有但是不敢讲啊",
+            "like_num": 0,
+            "create_time": 1790089588,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "云南"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ocBex1XRu4-XygICTJxYmp2xIw0Q",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 2,
+                "nick_name": "苍何",
+                "content": "原理就是微信放了个口子，可以把聊天记录打包发给wb以及第三方应用",
+                "create_time": 1790119869,
+                "ip_wording": null,
+                "identity_name": "gh_fdb597c42fa4",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          }
+        ],
+        "continue_flag": true,
+        "appmsgid": "2247500403",
+        "comment_id": "4705856924943073282",
+        "buffer": "GBQwAA==",
+        "has_more": true,
+        "debug_id": "e344e59f",
+        "debug_info": "gAAAAABq3xCxSv2vXYbu8TcYIBdmNEMebvVB0V94dXMEBGUnIfk2CaXybgHhH_ch0OcVAH45crsCooungsq-VRz8TaoTszMbSr4oKMNW5N8XY7E34HsjIAylf2r__vmzJRholu7Qz8oRL6BbfbAOTeA2A7lnsFacXutfKSD_-R3CdtwbiJIwZQeyME_dzBA3o8t1xDeArGc_OflD64vE2gEdjpBv1xKyfSuo1bxUTMYy6AyBPCjCkePUU-Z9SyCKdPGZKd3qFUbi9lhO9Ulti64NqZItKA8HXw=="
+      }
+    }
+  },
+  {
+    "account": "爱AI的大刘",
+    "title": "用 WorkBuddy/Claude/Codex + Obsidian，搭建自生长自学习个人知识库。（附PDF教程）",
+    "comment_count": 192,
+    "res": {
+      "error": "URLError"
+    }
+  },
+  {
+    "account": "卡尔的AI沃茨",
+    "title": "我把463个AI视频做成了Skill和提示语模版，全都开源！",
+    "comment_count": 144,
+    "res": {
+      "http_error": 400,
+      "detail": "{\"detail\":{\"code\":400,\"request_id\":\"bba15e74-2a8e-43af-a140-c7d1a3ed7d47\",\"message\":\"Request failed. Please retry. Check the docs below to verify your parameters, test with the default demo parameters"
+    }
+  },
+  {
+    "account": "爱AI的大刘",
+    "title": "2026年，Superpowers 可能不再是 Claude/Codex/Workbuddy 的最佳方案了（附实操建议）",
+    "comment_count": 141,
+    "res": {
+      "http_error": 400,
+      "detail": "{\"detail\":{\"code\":400,\"request_id\":\"170261e2-8e2c-4aef-89d5-4dcb9486555c\",\"message\":\"Request failed. Please retry. Check the docs below to verify your parameters, test with the default demo parameters"
+    }
+  },
+  {
+    "account": "爱AI的大刘",
+    "title": "用 Claude/Codex/Workbuddy 10倍速学习任何知识（附完整方法）",
+    "comment_count": 116,
+    "res": {
+      "code": 200,
+      "request_id": "87cd2c39-c4df-43f8-9dda-48151f2de7dd",
+      "message": "Request successful. This request will incur a charge.",
+      "message_zh": "请求成功，本次请求将被计费。",
+      "support": "Discord: https://discord.gg/aMEAS8Xsvz",
+      "time": "2026-10-26 01:35:42",
+      "time_stamp": 1793003742,
+      "time_zone": "America/Los_Angeles",
+      "docs": "https://api.tikhub.io/#/WeChat-Media-Platform-V2-API/fetch_article_comments_api_v1_wechat_mp_v2_fetch_article_comments_post",
+      "cache_message": "This response is cached and accessible via the URL below for 24 hours at no extra cost. The cache is for request tracing only — it doesn't affect the API's data freshness and won't be returned through the API again.",
+      "cache_message_zh": "本次响应已缓存，可通过下方 URL 直接查看，有效期 24 小时，访问缓存链接无额外费用。缓存仅用于请求溯源，不影响接口数据的时效性，也不会再次通过接口返回。",
+      "cache_url": "https://cache.tikhub.io/api/v1/cache/public/87cd2c39-c4df-43f8-9dda-48151f2de7dd?sign=7d7b2845d84b73913bea487b81e3d46ba07696278c4f2443cc20b4e2ae58c0c0",
+      "router": "/api/v1/wechat_mp/v2/fetch_article_comments",
+      "params": {
+        "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247486183&idx=1&sn=1a6959d34da3d40f601090360b15df12",
+        "buffer": "",
+        "comment_id": null,
+        "raw": false
+      },
+      "data": {
+        "elected_total": 71,
+        "total_count": 116,
+        "comments": [
+          {
+            "content_id": "10229850738809372688",
+            "nick_name": "砻沣longfeng",
+            "content": "感觉这10步适合学习的领域也是有边界的，可以在第一步之前多加1-2步，跟AI讨论你想要学习的领域，以及学习是为了解决什么需求or解决什么问题，带着明确的出口进行学习，效率会高很多，而且不会被AI给的大量信息输入，导致发散和偏离了。",
+            "like_num": 78,
+            "create_time": 1784461404,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "北京"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwHfxn-p0rmdF7jC_Mb459VA",
+            "reply_total": 0,
+            "replies": [],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "2800954508245467322",
+            "nick_name": "马克星球的自述",
+            "content": "最近在面试新方向，已经用这个流程，掌握了60%的专业知识，至少不是个说外行话的门外汉了",
+            "like_num": 18,
+            "create_time": 1784516179,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "浙江"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "gh_7768d8b32f71",
+            "reply_total": 4,
+            "replies": [
+              {
+                "reply_id": 2,
+                "nick_name": "爱AI的大刘",
+                "content": "👍！",
+                "create_time": 1784516987,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "2085940043708366913",
+            "nick_name": "羽林",
+            "content": "这个逻辑框架似乎比较适合学习系统的知识。想请教博主如果想学习碎片化的单个知识有更适用的方式吗？",
+            "like_num": 3,
+            "create_time": 1784536216,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "福建"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwExB7qZGDfJiy8sB1YYiSyY",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "爱AI的大刘",
+                "content": "我觉得学习碎片的知识也很合适",
+                "create_time": 1784536349,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "3092989430852485247",
+            "nick_name": "Craig",
+            "content": "我没有收藏,但我直接上手试了一遍,非常的好,真的会帮你发掘你自己没有意识到的问题,即使你熟悉的领域,你也可以按这个流程走一遍,会有很多意想不到的收获.会帮你梳理整个流程,让你明白的更深刻一点",
+            "like_num": 5,
+            "create_time": 1784447877,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "广东"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwHb6VUlS8872bioRNPM41DQ",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 2,
+                "nick_name": "爱AI的大刘",
+                "content": "赞！",
+                "create_time": 1784448363,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "562667838494474719",
+            "nick_name": "润🇨🇳",
+            "content": "斯坦福的storm，再来个马斯克的第一性结合起来，能够干的事不少呢",
+            "like_num": 4,
+            "create_time": 1784459515,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "陕西"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwOnuyc1NNBIyfEZIIbVqjhc",
+            "reply_total": 2,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "爱AI的大刘",
+                "content": "是的是的！",
+                "create_time": 1784460040,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              },
+              {
+                "reply_id": 2,
+                "nick_name": "Gerylo",
+                "content": "你们说的斯坦福、马斯克，我怎么完全听不懂[捂脸]",
+                "create_time": 1785891058,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "湖北"
+                },
+                "identity_name": "oJUpfwLav9fPRCS48Rjet7RoRxTI",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "11837826785796423911",
+            "nick_name": "多多益善妈",
+            "content": "感谢大佬无私分享，带娃暑假查漏补缺走一遍[抱拳][抱拳][抱拳]",
+            "like_num": 2,
+            "create_time": 1784522190,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "江苏"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "gh_cb48904a54a9",
+            "reply_total": 2,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "朱朱",
+                "content": "请教怎么实施？",
+                "create_time": 1784646840,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "安徽"
+                },
+                "identity_name": "oJUpfwOhoKtVtKCoHyOBa-9Mxetw",
+                "from_ai": false,
+                "reply_is_elected": 1
+              },
+              {
+                "reply_id": 2,
+                "nick_name": "多多益善妈",
+                "content": "我就直接把主题写成“如何利用暑假提高几升几孩子的成绩”，然后提示词用了7轮之后基本他会给出一套可行性方案。后面就是考察你对这套方法是否真掌握了，你也可以把一些课本塞给他让他细化主题，也不知道是不是get到了大佬的这套提示词，我也只能get到这一层，如有不对的地方请指正[微笑]",
+                "create_time": 1784682288,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "江苏"
+                },
+                "identity_name": "gh_cb48904a54a9",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "6543558086215335961",
+            "nick_name": "xiaohui",
+            "content": "这个很好，用codex输入这些提示词一样可以对吧？学习群在哪？",
+            "like_num": 1,
+            "create_time": 1784287770,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "四川"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwK2lpfN2Tn2E3sM5CUn21es",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "爱AI的大刘",
+                "content": "是的，codex，Claude这些都可以。可以加",
+                "create_time": 1784288134,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "11021429141495873572",
+            "nick_name": "WindRunner",
+            "content": "怎么解决用不同AI每个视角出来都差异很大的问题呢",
+            "like_num": 2,
+            "create_time": 1784336150,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "四川"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwNxVns_YWo3SWpVAefJnE_o",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "爱AI的大刘",
+                "content": "差异大小不用关注。只要是正确的，我们要从多个角度去理解这些视角",
+                "create_time": 1784336325,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "11766516361449177176",
+            "nick_name": "Victor",
+            "content": "对于大学生来说挺有用的[玫瑰]",
+            "like_num": 8,
+            "create_time": 1784270781,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "江苏"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwP5iz1NG46bncIw9Qr-s-no",
+            "reply_total": 2,
+            "replies": [
+              {
+                "reply_id": 2,
+                "nick_name": "爱AI的大刘",
+                "content": "实际上，我觉得对于工作后的我们更有用。学习停滞是很难发现又很严重的问题",
+                "create_time": 1784271237,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              },
+              {
+                "reply_id": 3,
+                "nick_name": "曹一帅 Frank",
+                "content": "完全💯认同",
+                "create_time": 1784271388,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "上海"
+                },
+                "identity_name": "oJUpfwN3YmwxZXsSK_fXcumixO4Y",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "14664971643835645962",
+            "nick_name": "盛一凡",
+            "content": "写的挺好的，很实用[强][强][强]",
+            "like_num": 1,
+            "create_time": 1784512770,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "河南"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwD5Ati9D15SzC8bBo4_5-HI",
+            "reply_total": 0,
+            "replies": [],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "3474266824613299022",
+            "nick_name": "放过自己",
+            "content": "说得好，到我的知识库里吃灰去吧！[呲牙]开玩笑，这篇得慢慢看，慢慢学呀",
+            "like_num": 1,
+            "create_time": 1784475868,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "广西"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwCEUw66wYTKOJssmBYhdKHE",
+            "reply_total": 0,
+            "replies": [],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "4544288287811961072",
+            "nick_name": "小侯同学",
+            "content": "很感谢作者如此耐心细致的分享。想请教一个问题，规章类的书（分为好几个不同的模块，模块之间并不相通，每条规章之间也没有啥联系），这种书该怎么套用您这个方法呢？是每一条规章套一次嘛？[捂脸]",
+            "like_num": 1,
+            "create_time": 1784335465,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "河南"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwPm7QxgsZQbVQUZb8phSLGU",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "爱AI的大刘",
+                "content": "是的，按每个规章进行",
+                "create_time": 1784335612,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "4992914432381157545",
+            "nick_name": "Carol赵",
+            "content": "谢谢分享 正准备让Ai带着我学Ai呢",
+            "like_num": 0,
+            "create_time": 1784509596,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "北京"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwKMMyflGbm2cQr5Ozw5zZBw",
+            "reply_total": 0,
+            "replies": [],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "8557347244901138479",
+            "nick_name": "。。",
+            "content": "既然如此，先收藏了再说[憨笑]",
+            "like_num": 4,
+            "create_time": 1784272627,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "广东"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwF-rOP4WGiO1IrBcYM87eGQ",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "爱AI的大刘",
+                "content": "我就知道！",
+                "create_time": 1784273455,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "9356307081461765",
+            "nick_name": "邵俊云",
+            "content": "非常厉害的教材，完全可以照搬应用，太强了",
+            "like_num": 2,
+            "create_time": 1784440305,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "上海"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwPKPqxe1GFY-0sjJh2nx4_o",
+            "reply_total": 0,
+            "replies": [],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "7848560220950233101",
+            "nick_name": "Joanna",
+            "content": "可以用来学CPA框架结构吗",
+            "like_num": 2,
+            "create_time": 1784319815,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "上海"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwAZkPWRTdIgfzmt_xtB5a0s",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "爱AI的大刘",
+                "content": "完全可以的",
+                "create_time": 1784334390,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "14567514528037208070",
+            "nick_name": "念安",
+            "content": "这个配图是用啥skill画的呢，很符合场景",
+            "like_num": 1,
+            "create_time": 1784272783,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "陕西"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwIBWu7M_rMvZm9qgPe398AI",
+            "reply_total": 3,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "爱AI的大刘",
+                "content": "我自己做的skill",
+                "create_time": 1784273443,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "3790488597849702502",
+            "nick_name": "过个海101",
+            "content": "有个疑问，第一步来看这套方法的起点——要学得是一个方法，如果要学的是一个硬知识，比如机械的，5视角可以提供什么样的帮助呢？",
+            "like_num": 1,
+            "create_time": 1784272248,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "辽宁"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "gh_7a98a50c7bf6",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "爱AI的大刘",
+                "content": "依然是可以的，你试试就会发现同一个知识会在不同的视角里变化。即使是专业的知识",
+                "create_time": 1784273514,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "1587101290452746381",
+            "nick_name": "Justin",
+            "content": "<a class=\"js_mention_entry wx_at_link\" data-biz=\"Mzk0NzY4MjM5MA==\" data-servicetype=\"0\" data-username=\"gh_63f7f08149c4\" href=\"\">@元宝</a>总结",
+            "like_num": 0,
+            "create_time": 1784277715,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "上海"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwJ7Z02Ip07psbs4v9SOyBdM",
+            "reply_total": 3,
+            "replies": [
+              {
+                "reply_id": 3,
+                "nick_name": "白敬亭",
+                "content": "这文章还是适合细细的看完才好呀",
+                "create_time": 1784296223,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "北京"
+                },
+                "identity_name": "oJUpfwKksOl4xJI7LYURWJULQxB0",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "9991761838095728683",
+            "nick_name": "静安斋居士",
+            "content": "我感觉workbuddy做出来的东西非常的弱鸡，是因为他默认自带的那几个模型能力太差吗？我同时让work buddy和豆包都做一份，针对初中生学习数学的游戏化教学软件，用work buddy做出来的，无论是界面还是功能都弱爆了。",
+            "like_num": 0,
+            "create_time": 1784334183,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "浙江"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwGlSkTjiwxhAWgJZAeg3Tm4",
+            "reply_total": 3,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "爱AI的大刘",
+                "content": "可能是模型的问题。不过其实不会那么差，可能得看看你使用的方法",
+                "create_time": 1784334342,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              },
+              {
+                "reply_id": 3,
+                "nick_name": "战五渣",
+                "content": "你可能是没用固定的模型，而是选了自动。选了自动的话，就会乱七八糟的，每次输出内容都切换模型，刚刚还是kimi，现在又变成了glm，相当于人精神分裂，结果可想而知。",
+                "create_time": 1784696195,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "广西"
+                },
+                "identity_name": "oJUpfwHIaIwzey38M4MUECf3tUHs",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          }
+        ],
+        "continue_flag": true,
+        "appmsgid": "2247486183",
+        "comment_id": "4608336589994541062",
+        "buffer": "GBQwAA==",
+        "has_more": true,
+        "debug_id": "130a4bba",
+        "debug_info": "gAAAAABq3xDezUhqy8sH76qPfYMB7SZBEC1UorIl87oXmdMrkZULI_fbxySX2a0uW4RjVkiPd8fLcvDJcvLyzHYzKsgDxiAwe6a_AO3fhoJEilWSwTZdSLhLOQbyoaFwiovo7CXVwdrtl-LhBnowoDN2XZhuOBcEdFCFJC79qXsftv6QBihGdQ6wL0s5hCCNhzG5zYhOu9wVSSryxmMURQyAr1klqHVx0KshWaZGeVva9hf9nwnmSXILpqnkKdeOuS0BYHAxPrEFPpjY2R255MZTs_V-7XPtng=="
+      }
+    }
+  },
+  {
+    "account": "路人甲TM",
+    "title": "把B站干崩的《凡人修仙传》名场面，我用Pixmax尝试做了一遍",
+    "comment_count": 99,
+    "res": {
+      "code": 200,
+      "request_id": "36aac8ab-fddd-491e-af15-671eee3f8343",
+      "message": "Request successful. This request will incur a charge.",
+      "message_zh": "请求成功，本次请求将被计费。",
+      "support": "Discord: https://discord.gg/aMEAS8Xsvz",
+      "time": "2026-10-26 01:35:48",
+      "time_stamp": 1793003748,
+      "time_zone": "America/Los_Angeles",
+      "docs": "https://api.tikhub.io/#/WeChat-Media-Platform-V2-API/fetch_article_comments_api_v1_wechat_mp_v2_fetch_article_comments_post",
+      "cache_message": "This response is cached and accessible via the URL below for 24 hours at no extra cost. The cache is for request tracing only — it doesn't affect the API's data freshness and won't be returned through the API again.",
+      "cache_message_zh": "本次响应已缓存，可通过下方 URL 直接查看，有效期 24 小时，访问缓存链接无额外费用。缓存仅用于请求溯源，不影响接口数据的时效性，也不会再次通过接口返回。",
+      "cache_url": "https://cache.tikhub.io/api/v1/cache/public/36aac8ab-fddd-491e-af15-671eee3f8343?sign=3bb314deafc1c8055e214835df228d9b9e57a6005a37a9672531533cbec00568",
+      "router": "/api/v1/wechat_mp/v2/fetch_article_comments",
+      "params": {
+        "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247521899&idx=1&sn=26613da2724949f4f38e785dbe095ab7",
+        "buffer": "",
+        "comment_id": null,
+        "raw": false
+      },
+      "data": {
+        "elected_total": 76,
+        "total_count": 99,
+        "comments": [
+          {
+            "content_id": "8637932333296517874",
+            "nick_name": "路人甲TM",
+            "content": "感兴趣的，可以来这里玩：https://pixmax.cn/?pixmax_src=putzgl",
+            "like_num": 3,
+            "create_time": 1789438531,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "江苏"
+            },
+            "is_elected": 1,
+            "is_top": 1,
+            "identity_name": "gh_d516081071ec",
+            "reply_total": 0,
+            "replies": [],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "1907585049931284607",
+            "nick_name": "空相面灵气",
+            "content": "比起原版差远了[捂脸]",
+            "like_num": 35,
+            "create_time": 1789387722,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "广西"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "phacct_6638c0334481",
+            "reply_total": 5,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "路人甲TM",
+                "content": "努力学习进化[呲牙]",
+                "create_time": 1789389140,
+                "ip_wording": null,
+                "identity_name": "gh_d516081071ec",
+                "from_ai": false,
+                "reply_is_elected": 1
+              },
+              {
+                "reply_id": 2,
+                "nick_name": "陈蕴yun",
+                "content": "你不看看原版的成本是多少。",
+                "create_time": 1789438787,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "广东"
+                },
+                "identity_name": "ovlaMwMIBH9FgGOzaqCHN6tJU94Q",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "13104873452722978836",
+            "nick_name": "🦮💽🐈",
+            "content": "一眼ai，太假了",
+            "like_num": 16,
+            "create_time": 1789387528,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "江苏"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ovlaMwLCjk33OSn5G1zDksmsnrnI",
+            "reply_total": 2,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "路人甲TM",
+                "content": "我个人能力还需要进步[破涕为笑]",
+                "create_time": 1789389285,
+                "ip_wording": null,
+                "identity_name": "gh_d516081071ec",
+                "from_ai": false,
+                "reply_is_elected": 1
+              },
+              {
+                "reply_id": 2,
+                "nick_name": "🦮💽🐈",
+                "content": "和模型有关系，模型之间亦有差异",
+                "create_time": 1789446018,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "江苏"
+                },
+                "identity_name": "ovlaMwLCjk33OSn5G1zDksmsnrnI",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "5895660886634266708",
+            "nick_name": "饭饭是个闲人",
+            "content": "这效果是爆剧了",
+            "like_num": 2,
+            "create_time": 1789406321,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "贵州"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "gh_708f17b04445",
+            "reply_total": 0,
+            "replies": [],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "10865092413525853123",
+            "nick_name": "一切用心开始",
+            "content": "韩立结婴你这应该要有吸收天地灵气的镜头才行。动漫那个就有，另外人物和结丹不是变出来的是汇聚而成效果更好",
+            "like_num": 1,
+            "create_time": 1789447963,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "海南"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "v2_060000231003b20faec8c5ea8911c0dccc01e435b077f50968a5c9c89648905fd7e1d66218e1@finder",
+            "reply_total": 0,
+            "replies": [],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "7323082315293261916",
+            "nick_name": "Feeling、",
+            "content": "做的很好，下次别做了 ",
+            "like_num": 11,
+            "create_time": 1789403156,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "福建"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ovlaMwGnmUSAvN6RXYXlAu1RPEBI",
+            "reply_total": 0,
+            "replies": [],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "8523651667390889998",
+            "nick_name": "悟空",
+            "content": "我这镜头怎么样",
+            "like_num": 0,
+            "create_time": 1789389240,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "江苏"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ovlaMwHFz6nx9HkR_-pbsss3r6Rs",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 2,
+                "nick_name": "路人甲TM",
+                "content": "挺有那么回事的",
+                "create_time": 1789390165,
+                "ip_wording": null,
+                "identity_name": "gh_d516081071ec",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "6234997950519443647",
+            "nick_name": "Chen_",
+            "content": "我也可以自己制作斗气化鸟了吗",
+            "like_num": 8,
+            "create_time": 1789378076,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "江苏"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ovlaMwCX0QBfXpiVoezPLJ6pzqTU",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "Chen_",
+                "content": "有无斗帝强者",
+                "create_time": 1789378087,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "江苏"
+                },
+                "identity_name": "ovlaMwCX0QBfXpiVoezPLJ6pzqTU",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "7104623442346901859",
+            "nick_name": "Will",
+            "content": "差了十万八千里",
+            "like_num": 4,
+            "create_time": 1789394280,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "北京"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ovlaMwEXX5y4DrW0TeqIZA-S910w",
+            "reply_total": 0,
+            "replies": [],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "16135044210867834227",
+            "nick_name": "北京炒家生活账号",
+            "content": "现在AI做修仙短剧真的跑通了！",
+            "like_num": 3,
+            "create_time": 1789383354,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "北京"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "gh_f0396180cf1f",
+            "reply_total": 0,
+            "replies": [],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "13319808296413036617",
+            "nick_name": "松禾小吴",
+            "content": "其实我一直想说现在的AI剧你们疯狂挤进去，有个点若是没有专业团队协作真的看不了一点。一个AI能做的动漫真人短剧等最难受的是表情浮夸，不合逻辑，比如想表现众人震惊的表情，年轻人和八六十岁的老人表情差不多，肌肉眼睛看起来非常不舒服。真的看不下去[捂脸]",
+            "like_num": 3,
+            "create_time": 1789388935,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "浙江"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ovlaMwB7DGD2ZfS3PnT5lIEc7olg",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "Smash",
+                "content": "成本问题而已，人家不是不知道，是不想想优化，优化需要成本。",
+                "create_time": 1789436515,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "陕西"
+                },
+                "identity_name": "ovlaMwACc98p3tL_67tFlZHylqPs",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "2817064526845839602",
+            "nick_name": "Mr",
+            "content": " ai做出来的缺点很多，我也不支持AI短剧",
+            "like_num": 1,
+            "create_time": 1789441327,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "广东"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ovlaMwM_La7KOP1wnMtF49aoyopo",
+            "reply_total": 0,
+            "replies": [],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "7749468505023447140",
+            "nick_name": "悟",
+            "content": "凡人的画质，打斗精致，我看了非常多的ai漫剧，表情打斗都太垃圾了，就当听书了，万妖图录的表情看上去太假了",
+            "like_num": 3,
+            "create_time": 1789397489,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "江苏"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ovlaMwPxekkHFLhO_WtFP8yjvOSM",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "陈蕴yun",
+                "content": "万妖图录已经是做的很好的了。",
+                "create_time": 1789438819,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "广东"
+                },
+                "identity_name": "ovlaMwMIBH9FgGOzaqCHN6tJU94Q",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "10996464467994214652",
+            "nick_name": "钢牙山猫",
+            "content": "觉得AI假的原因恰恰是AI太真实了，二次元观众看习惯了动漫的塑料感，看AI仿真的画面有点不习惯。",
+            "like_num": 0,
+            "create_time": 1789394770,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "四川"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ovlaMwNjKZypADAeaPOgO9MwzHYc",
+            "reply_total": 4,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "🐻",
+                "content": "得了吧。ai全一个表情，情绪表达全都用力过猛[破涕为笑]",
+                "create_time": 1789477188,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "上海"
+                },
+                "identity_name": "ovlaMwB_5ICy1p-mZUoJyr_WLtJk",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "4018622146623309963",
+            "nick_name": "刘新英",
+            "content": "不如万妖做得好。",
+            "like_num": 0,
+            "create_time": 1789454956,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "江苏"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ovlaMwMzsp29-dKAG5vw9kA43dD8",
+            "reply_total": 0,
+            "replies": [],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "10016900560852091439",
+            "nick_name": "໑ຼₒ₂₆ღ᭄好运绵绵༉ᩚ᭄",
+            "content": "拼夕夕廉价版的感觉，更衬托出凡人制作的用心[破涕为笑][破涕为笑][破涕为笑]",
+            "like_num": 0,
+            "create_time": 1789393396,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "江苏"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ovlaMwAjucSm69npMQHOpusnlRCE",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "路人甲TM",
+                "content": "是的 凡人做的事真牛",
+                "create_time": 1789393471,
+                "ip_wording": null,
+                "identity_name": "gh_d516081071ec",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "1070800926748442933",
+            "nick_name": "ShenX9527",
+            "content": "元婴的人物建模 AI完胜 正版官方的反而有点假假的塑料感 但是其他方面Ai还是是有点太粗糙了 不如官方做的自然点 可能素材投喂的少",
+            "like_num": 0,
+            "create_time": 1789454381,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "陕西"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ovlaMwNEL4S1ELRjjza0KAM7dVZE",
+            "reply_total": 0,
+            "replies": [],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "4508004567304110266",
+            "nick_name": "勇敢勇敢我的朋友",
+            "content": "可以用ai多写写提示词，画面细节不够[微笑]",
+            "like_num": 1,
+            "create_time": 1789427772,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "山西"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ovlaMwN8hXm2Qob1W9yIYvMGFmrg",
+            "reply_total": 0,
+            "replies": [],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "15506655109227479071",
+            "nick_name": "今天也没有烦恼",
+            "content": "凡人修仙传也是在瑞云渲染的[吃瓜]这波也是专业对口了",
+            "like_num": 4,
+            "create_time": 1789378285,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "广东"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ovlaMwNn2VJWXLlT_AIWJ0AY9Hms",
+            "reply_total": 0,
+            "replies": [],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "16272661444137320796",
+            "nick_name": "棣一大宝贝",
+            "content": "手搓的已经不错了，比牛来好",
+            "like_num": 0,
+            "create_time": 1789440988,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "广东"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "ovlaMwJsm9an1Cw6WR9zlKjFmaYo",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "Keiyuu",
+                "content": "牛来赚大钱了[捂脸]",
+                "create_time": 1789649588,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "广东"
+                },
+                "identity_name": "v2_060000231003b20faec8c6e5881bc1d2ce0dee32b077add0f5e5c3024786554b3f9482832fd0@finder",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          }
+        ],
+        "continue_flag": true,
+        "appmsgid": "2247521899",
+        "comment_id": "4693980129021231109",
+        "buffer": "GBQwAA==",
+        "has_more": true,
+        "debug_id": "501bffde",
+        "debug_info": "gAAAAABq3xDkDbwVFLR7s469M-LzMl11WOBhWAiPDWLyDO-HbQhQpFmXCZcgrIgRanyXqCTv3AzHxzsYHXJ5CAJZp18fZkFF_IxeSmFWx3gcrRKCL0AuVkmO1Pyvl0iCF-OS3LV3hCaBoja2IxFp2Ey2Idm1yzeG7-LeiO3-wE1Wwd_rBac1NAq7l20gBAgpQs3oPUVHwbr4upLr8uAhXn_DFZ2ibf-QyFPICifwQvyhwbuAKwGTCqCXdWyUUbVyY-cn4uE8pkU-ZE6kihRHe5VRTPofVNTQqQ=="
+      }
+    }
+  },
+  {
+    "account": "爱AI的大刘",
+    "title": "GPT-6 Astra 超省 Token 教程，强烈建议你用之前配置好（附详细步骤提示词）。",
+    "comment_count": 94,
+    "res": {
+      "code": 200,
+      "request_id": "48596489-3c92-45e5-a9a6-4f82e9da4651",
+      "message": "Request successful. This request will incur a charge.",
+      "message_zh": "请求成功，本次请求将被计费。",
+      "support": "Discord: https://discord.gg/aMEAS8Xsvz",
+      "time": "2026-10-26 01:36:05",
+      "time_stamp": 1793003765,
+      "time_zone": "America/Los_Angeles",
+      "docs": "https://api.tikhub.io/#/WeChat-Media-Platform-V2-API/fetch_article_comments_api_v1_wechat_mp_v2_fetch_article_comments_post",
+      "cache_message": "This response is cached and accessible via the URL below for 24 hours at no extra cost. The cache is for request tracing only — it doesn't affect the API's data freshness and won't be returned through the API again.",
+      "cache_message_zh": "本次响应已缓存，可通过下方 URL 直接查看，有效期 24 小时，访问缓存链接无额外费用。缓存仅用于请求溯源，不影响接口数据的时效性，也不会再次通过接口返回。",
+      "cache_url": "https://cache.tikhub.io/api/v1/cache/public/48596489-3c92-45e5-a9a6-4f82e9da4651?sign=2170e09594ad7e741443996a881fb7073d2c079d0420d8d2ac590b311426dc85",
+      "router": "/api/v1/wechat_mp/v2/fetch_article_comments",
+      "params": {
+        "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247486797&idx=1&sn=285f258fba65334f00b4c889f0df010e",
+        "buffer": "",
+        "comment_id": null,
+        "raw": false
+      },
+      "data": {
+        "elected_total": 45,
+        "total_count": 94,
+        "comments": [
+          {
+            "content_id": "14710662206010163212",
+            "nick_name": "Avery",
+            "content": "这个太有用了！！今早重置的，现在只有50%了，吓死我[天啊]",
+            "like_num": 16,
+            "create_time": 1788770635,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "840",
+              "country_name": "美国",
+              "province_id": "",
+              "province_name": ""
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwMCcKn15l0lq--1EO6qBP84",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "爱AI的大刘",
+                "content": "赶紧用起来！",
+                "create_time": 1788770841,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "12282859760725787569",
+            "nick_name": "cxuan",
+            "content": "我去，又一篇硬核干货，太强了",
+            "like_num": 6,
+            "create_time": 1788762359,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "河北"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwOP3fGk2K0wOGp6uW4BpNf0",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "爱AI的大刘",
+                "content": "[嘿哈][嘿哈][嘿哈]",
+                "create_time": 1788762448,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "3437054888658339424",
+            "nick_name": "战五渣",
+            "content": "为什么现在大模型都需要用户自己选各种档位，而不是有个auto模式，它自己根据实际情况自动切换档位？",
+            "like_num": 3,
+            "create_time": 1788762538,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "广西"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwHIaIwzey38M4MUECf3tUHs",
+            "reply_total": 7,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "爱AI的大刘",
+                "content": "有没有可能，档位高做得复杂，档位低做的简单。就是总有解决方法，对他来说并不好判断你这个任务到底复不复杂",
+                "create_time": 1788762682,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              },
+              {
+                "reply_id": 5,
+                "nick_name": "霍德华",
+                "content": "项目文档里面可以定义模型",
+                "create_time": 1789192056,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "浙江"
+                },
+                "identity_name": "oJUpfwFafjvky5Y0l2V041Diiyio",
+                "from_ai": false,
+                "reply_is_elected": 1
+              },
+              {
+                "reply_id": 6,
+                "nick_name": "战五渣",
+                "content": "我就是希望它自己切换",
+                "create_time": 1789194250,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "广西"
+                },
+                "identity_name": "oJUpfwHIaIwzey38M4MUECf3tUHs",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "6183106241548517388",
+            "nick_name": "Lyb",
+            "content": "子 agents 或者其他执行、审查，配置成 5.6 luna 呢？看到好多人这样搭配",
+            "like_num": 3,
+            "create_time": 1788765712,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "北京"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwCcVWE5PP7RE1UtnfsLHjFg",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "爱AI的大刘",
+                "content": "这个我觉得是在用效果换token，我一般不这样做",
+                "create_time": 1788765826,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "6911399112877277190",
+            "nick_name": "陈吴斐Ben",
+            "content": "大佬， Astra low 会比 Sol high 消耗更多 Token 吗？",
+            "like_num": 0,
+            "create_time": 1788784242,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "浙江"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwDDKprnyz9LazZ6iasJJans",
+            "reply_total": 4,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "爱AI的大刘",
+                "content": "不会！",
+                "create_time": 1788785090,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              },
+              {
+                "reply_id": 2,
+                "nick_name": "靖",
+                "content": "亲测，还是solo高耐用。6.0用low好快，编程",
+                "create_time": 1788845502,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "广东"
+                },
+                "identity_name": "oJUpfwNTC_zp1EpyLIF73NI65UKg",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "10322570789148164127",
+            "nick_name": "先随便起个名测试用",
+            "content": "用文中的分析了下项目的skills，直接干没了一半，赶紧切回了terra[破涕为笑]",
+            "like_num": 2,
+            "create_time": 1788836058,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "北京"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "gh_ab8e5f662bfb",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "爱AI的大刘",
+                "content": "短痛短痛",
+                "create_time": 1788836316,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "2175719119486189676",
+            "nick_name": "咖喱好CI",
+            "content": "降智的问题要怎么解决啊，我测了一下好像low～high档位疑似都被路由了",
+            "like_num": 0,
+            "create_time": 1788798062,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "湖北"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "v2_060000231003b20faec8c7ea8a1cc7d4c704e93db07793fe280e92c97af694789badab0f0704@finder",
+            "reply_total": 2,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "爱AI的大刘",
+                "content": "我目前还没有在astra上感觉到明显的降智，sol倒是有一些",
+                "create_time": 1788798907,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              },
+              {
+                "reply_id": 2,
+                "nick_name": "咖喱好CI",
+                "content": "那可能博主你的环境很纯净，网上最近流行用鹈鹕那个测降智，我试了下高档位以下感觉都被路由了",
+                "create_time": 1788836523,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "湖北"
+                },
+                "identity_name": "v2_060000231003b20faec8c7ea8a1cc7d4c704e93db07793fe280e92c97af694789badab0f0704@finder",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "6662666840822513674",
+            "nick_name": "无名",
+            "content": "plus感觉不够用啊，用medium和low，是不是得开5x",
+            "like_num": 1,
+            "create_time": 1788777608,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "广东"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwP8LKlZVYhJ_IoilXWfP5L0",
+            "reply_total": 2,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "爱AI的大刘",
+                "content": "可以先配置了试试！",
+                "create_time": 1788777657,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              },
+              {
+                "reply_id": 5,
+                "nick_name": "kuro",
+                "content": "不够用的，其实多数开发任务low也够了",
+                "create_time": 1788837752,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "上海"
+                },
+                "identity_name": "oJUpfwKIHFgiEUXTWX9tePkp-o60",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "276091961054593873",
+            "nick_name": "风中有朵雨做的云",
+            "content": "网页版咋改？这个是不是codex里调用的方式？",
+            "like_num": 1,
+            "create_time": 1788785944,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "四川"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwAQ4yXyOdThF7y4cInQqlRY",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "爱AI的大刘",
+                "content": "是的codex内的",
+                "create_time": 1788788949,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "1739474124385812491",
+            "nick_name": "阮阮不是软软",
+            "content": "config.toml点了没反应。。。",
+            "like_num": 0,
+            "create_time": 1788828430,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "上海"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwKwpxnIHwhERQhbP1y6woUc",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "爱AI的大刘",
+                "content": "你得电脑有个编辑器呢，比如说cursor",
+                "create_time": 1788828566,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "6637611857043521741",
+            "nick_name": "乱星海跑酷冠军🥇",
+            "content": "对别的模型是否有效果吗？",
+            "like_num": 0,
+            "create_time": 1788762603,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "广西"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwNKIfghNvgO4b1P3K-f5qGA",
+            "reply_total": 2,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "爱AI的大刘",
+                "content": "对gpt系的都适用。不过，如果配置了，其实astra已经够省了，没必要用其他模型",
+                "create_time": 1788762739,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              },
+              {
+                "reply_id": 3,
+                "nick_name": "爱AI的大刘",
+                "content": "我已经说过了，用上这些配置，astra 和其他模型消耗上差距不大，你懂？你想用差模型没让你不用呀",
+                "create_time": 1788772561,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "9461192673911111816",
+            "nick_name": "曼Amanda",
+            "content": "一起来偷啃[呲牙][呲牙][呲牙]",
+            "like_num": 0,
+            "create_time": 1788765826,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "840",
+              "country_name": "美国",
+              "province_id": "",
+              "province_name": ""
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwKm2SNlpC2Ibf69zeOMgzf4",
+            "reply_total": 0,
+            "replies": [],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "320189232096215199",
+            "nick_name": "Nicholas＂",
+            "content": "Astra 真的太烧钱了[捂脸]",
+            "like_num": 0,
+            "create_time": 1788831261,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "北京"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwFc176TVMRoK2QE_QhGKW5s",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "爱AI的大刘",
+                "content": "所以尽量优化下消耗哈哈哈",
+                "create_time": 1788833305,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "4146216163174514699",
+            "nick_name": "137",
+            "content": "不好意思，所有任务都跑得ultra[擦汗]",
+            "like_num": 1,
+            "create_time": 1788786297,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "四川"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwM5G_tuiC7mLg4KcJLjsB68",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "爱AI的大刘",
+                "content": "别这样啊哈哈哈",
+                "create_time": 1788788939,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "9570290688680001738",
+            "nick_name": "tt",
+            "content": "博主，请问苹果APP store订阅的年费plus现在codex不够用怎么升级呢？",
+            "like_num": 0,
+            "create_time": 1788835570,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "重庆"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwD2PfXdH362_g96M43jinig",
+            "reply_total": 2,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "爱AI的大刘",
+                "content": "在store里面，切换订阅",
+                "create_time": 1788836333,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              },
+              {
+                "reply_id": 2,
+                "nick_name": "ofy.",
+                "content": "你好，请问你是绑定的apple pay支付的吗？",
+                "create_time": 1792062839,
+                "ip_wording": {
+                  "city_id": "",
+                  "city_name": "",
+                  "country_id": "156",
+                  "country_name": "中国",
+                  "province_id": "",
+                  "province_name": "山东"
+                },
+                "identity_name": "oJUpfwE8sJ32C9Gb_2JUTShAzdLM",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "12027476577194344534",
+            "nick_name": "myh",
+            "content": "充值渠道哪里找？",
+            "like_num": 0,
+            "create_time": 1788773664,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "广西"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwAySsuRFtso7SXyWyDcE7z8",
+            "reply_total": 0,
+            "replies": [],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "7259263099889254494",
+            "nick_name": "dreamvin",
+            "content": "受用了，感谢[抱拳]",
+            "like_num": 0,
+            "create_time": 1788830455,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "广东"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwJaHLlO1xU4XyQZOg5GrTCA",
+            "reply_total": 0,
+            "replies": [],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "1981280357948853999",
+            "nick_name": "陈小群日常号",
+            "content": "实用",
+            "like_num": 0,
+            "create_time": 1788763325,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "上海"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "gh_4908b38ab253",
+            "reply_total": 0,
+            "replies": [],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "11041262699173380193",
+            "nick_name": "小孟同学🦔",
+            "content": "您好up，网页版有办法设置吗？还是要下载codex客户端？[破涕为笑]",
+            "like_num": 0,
+            "create_time": 1788837770,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "浙江"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwKOjeFDjsIfk9XMpjqjqocQ",
+            "reply_total": 1,
+            "replies": [
+              {
+                "reply_id": 1,
+                "nick_name": "爱AI的大刘",
+                "content": "Codex才能设置哦",
+                "create_time": 1788838693,
+                "ip_wording": null,
+                "identity_name": "gh_9ad752c0e9df",
+                "from_ai": false,
+                "reply_is_elected": 1
+              }
+            ],
+            "bucket": "elected_comment"
+          },
+          {
+            "content_id": "17602772348526657540",
+            "nick_name": "财源印花厂",
+            "content": "plus,确实一个任务搞一半就停了",
+            "like_num": 0,
+            "create_time": 1788788314,
+            "ip_wording": {
+              "city_id": "",
+              "city_name": "",
+              "country_id": "156",
+              "country_name": "中国",
+              "province_id": "",
+              "province_name": "广东"
+            },
+            "is_elected": 1,
+            "is_top": 0,
+            "identity_name": "oJUpfwK1r8roDA8luKAQoVGidOmI",
+            "reply_total": 0,
+            "replies": [],
+            "bucket": "elected_comment"
+          }
+        ],
+        "continue_flag": true,
+        "appmsgid": "2247486797",
+        "comment_id": "4683692622950121474",
+        "buffer": "GBQwAA==",
+        "has_more": true,
+        "debug_id": "dab009f2",
+        "debug_info": "gAAAAABq3xD1yrtbRLCOQyG674tU4rC08nxWtVWCKFojbWtpied-tpg0u_4vL8xF8eAHIBoSViDCTAPBt5t8YLNKerzksXPhEOJdzU-dUcaL6tARi7BP50MkmJTGEPQALpwW8IfMuaJtt7n0DiirTnHaVw7nkQxssOlg_7ynXq8O58xDmcoC-64bvRQYlvwZFG8VR7113nOAvVOH4NwnVaLSHBivk-YUco0FRgjMcmGoGGBu1d37vx2uAL79qTT-kDosMDQOyEjZHcYAA0IEeVsmutXnqFMAEQ=="
+      }
+    }
+  }
+]
