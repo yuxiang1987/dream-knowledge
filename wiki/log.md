@@ -806,3 +806,10 @@
 - 依据为用户指令，无对应raw来源，sources留空并说明依据；唯一身份与文章资料待核实，不凭名称推断内容方向，不登记为已采集或拆解。本轮未修改raw或Skill。
 - 本轮两账号验证：`python scripts/wiki_lint.py` 通过，扫描170页（含索引与日志）；7项空sources警告中2项来自新增账号，均已说明用户指令依据，其余5项既有。`python -m unittest discover -s scripts -p test_distillation_coverage.py` 两项通过；复用结构与来源覆盖验证，不新增绑定账号名称或正文措辞的测试。
 - 提交范围仅本轮两份实体页、选题页、索引和日志；保留既有raw修改和无关临时脚本。提交推送结果在交付消息报告。
+
+## [2026-10-26] entity | 新增对标公众号沉默王二
+
+- 按用户指令创建 [[entities/沉默王二]]，纳入 [[topics/公众号每日选题决策]]，更新 `wiki/index.md` 实体入口与页数，保留原有账号。
+- 核对本地原始文章的署名、日期与微信来源链接，关联已有 [[sources/KimiCode桌面版迭代与对照文章拆解]] 和 [[topics/轻量编程模型对标蒸馏]]，不重复入库，不将已有单篇样本误记为尚无资料或完整账号研究。
+- 唯一账号标识、近期内容与互动基线待核验；未在线采集或复验产品效果，未修改raw或Skill。
+- 验证：`python scripts/wiki_lint.py` 通过，扫描171页（含索引与日志），仅7项既有空sources警告；`python -m unittest discover -s scripts -p test_distillation_coverage.py` 两项通过。复用结构与来源覆盖验证，不新增绑定名称或措辞的测试；仅提交本轮4份wiki文件，提交推送结果在交付消息报告。
