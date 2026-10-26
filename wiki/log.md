@@ -936,3 +936,10 @@
 - 源码提交已推送，安装副本与 `installed_skills.json` 同步。未选定选题、未开始实测。
 - 验证：`python scripts/wiki_lint.py` 通过（442页，仅5项既有空sources警告）；`test_installed_skills.py` 5项、`test_distillation_coverage.py` 2项通过。
 
+## [2026-10-26] topic | 候选加大标题，出处改为可点击原文链接
+
+- 作者反馈本地路径点不开，要求出处给对标原文标题并用可点击地址。`gzh-topic-planning` 默认交付改为 `## 今日候选选题` 大标题下逐条候选块，出处写原文标题并做成 markdown 链接，本地路径另起一行；补1行回归用例。
+- [[topics/公众号每日选题决策]] 候选区同步：四条各带原文标题与微信原文链接（大刘 CLAUDE.md、苍何微信流、西羊石豆包教学片、沉默王二 PDD 古法编程），推荐题仍为「给 Agent 写常驻规矩」。
+- 源码提交已推送，安装副本与 `installed_skills.json` 同步。未选定选题、未开始实测。
+- 验证：`python scripts/wiki_lint.py` 通过（442页，仅5项既有空sources警告）；`test_installed_skills.py` 5项、`test_distillation_coverage.py` 2项通过。
+
