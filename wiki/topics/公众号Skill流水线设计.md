@@ -2,18 +2,17 @@
 title: 公众号 Skill 流水线设计
 type: topic
 tags: [公众号, 工作流, Skill, 自动化]
-status: 进行中
+status: 已过时
 sources: [raw/公众号方法论/飞书Skill进阶实操第三阶段.md, raw/style-card.md]
 created: 2026-10-23
-updated: 2026-10-26
+updated: 2026-10-27
 ---
 
 # 公众号 Skill 流水线设计
 
-把已有的公众号 Skill 串成一条能跑、能验收、能断点续跑的流水线。
-参考材料是用户提供的飞书文档 [[sources/飞书Skill进阶实操第三阶段]]，
-本地落地形态是 Skill `gzh-daily-pipeline`，源码在 dream-skills 仓库，
-安装副本在 `.agents/skills/gzh-daily-pipeline/`。
+2026-10-27用户反馈总调度不好用，明确只删除 `gzh-daily-pipeline`，保留其他独立公众号技能。本页保留历史设计与验证边界，不再作为执行入口；当前按需调用方式见 [[topics/公众号内容生产线]]。
+
+下文记录2026-10-23至2026-10-26的历史方案；源码目录与知识库安装副本均已删除，不再运行其脚手架、交接校验或恢复命令。已有运行目录、文章与证据产物保留。
 
 ## 2026-10-26选题环节变更与能力边界
 

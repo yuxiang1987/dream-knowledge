@@ -2,13 +2,15 @@
 title: 公众号流水线多Agent化改造评估
 type: comparison
 tags: [公众号, 工作流, 多Agent, Skill]
-status: 进行中
+status: 已过时
 sources: ["raw/article/lurenjiaTM/熬夜猛肝3万星的开源黑马Buzz，多Agent协作最全实操，手把手教会你.md", "raw/article/苍何/万字保姆级教程：Hermes+Kimi K2.6 打造7x24h Agent军团.md", "raw/article/lurenjiaTM/最新60篇下载/大厂之外，EvoX让我看到了Agent的另一种可能-547c65d4-97ffa63be2.md", "raw/article/小林coding/Loop Engineering 已死，Graph Engineering 永生.md", "raw/article/lurenjiaTM/最新60篇下载/实测豆包Seed-Evolving，写代码比我预期能打太多了-d30bf9b9-19a9d70aed.md"]
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-27
 ---
 
 # 公众号流水线多Agent化改造评估
+
+> 2026-10-27：用户已决定删除总调度，本页改造建议不再作为待执行计划。保留历史探针与证据；当前独立技能入口见[[topics/公众号内容生产线]]。
 
 本页是对一个具体问题的评估：现有公众号工作流 Skill（见 [[topics/公众号Skill流水线设计]]）改造成多 Agent 协作，会不会更好、难度在哪、改完是否更方便。
 
@@ -19,7 +21,7 @@ updated: 2026-10-26
 ## 评估依据
 
 - **知识库既有拆解**：[[sources/Buzz多Agent协作文章拆解]]、[[sources/苍何Hermes多Agent军团文章拆解]]、[[sources/EvoX蜂群与经验复用文章拆解]]、[[sources/小林GraphEngineering文章拆解]]、[[sources/豆包Seed-Evolving实测文章拆解]]。
-- **本账号流水线现状**：`gzh-daily-pipeline` 七阶段 S0–S6、四个人工关口、S2 硬关口、文件契约交接、脚本验收，详见 [[topics/公众号Skill流水线设计]]；最近一次真实运行产物在 `E:\work\wechat-assistant\pipeline\2026-10-24-WorkBuddy设置`，其中 `01_选题卡.md` 与 `03_证据与实测.md` 是本评估的对照样本。
+- **评估时的历史流水线**：当时采用`gzh-daily-pipeline` 七阶段 S0–S6与文件交接；该总调度已于2026-10-27按用户决定删除，本页保留历史评估，不作为继续改造或调用它的指令。设计记录见 [[topics/公众号Skill流水线设计]]；当时对照样本位于 `E:\work\wechat-assistant\pipeline\2026-10-24-WorkBuddy设置`，已有产物保留。
 - **本次会话实测**：用 omp 的子代理能力做了三轮只读探针，见下节。探针不修改任何文件、Skill 或配置。
 - **尚未量化的部分**：多 Agent 的协调成本在本账号链路上没有数字，见「未验证项」。
 
