@@ -1,0 +1,487 @@
+{
+  "snapshot_date": "2026-10-26",
+  "reading_scope": "18篇raw可提取全文文字及既有source；图片、动图、视频、PDF及链接项目未核看；未实测产品",
+  "practice": [
+    {
+      "account": "路人甲TM",
+      "id": "2247523424:1",
+      "title": "WorkBuddy打通企微，现在它能自己翻群聊、找文件了！",
+      "published": "2026-10-14 21:04",
+      "read": 51163,
+      "shares": 610,
+      "median": 12741,
+      "ratio": 4.015618868220705,
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/WorkBuddy打通企微，现在它能自己翻群聊、找文件了！-a5611f15-1824ee778a.md",
+      "source_page": "wiki/sources/WorkBuddy企微互通文章拆解.md",
+      "classification": "实践型/办公场景体验",
+      "anchors": [
+        {
+          "text": "之前散落在不同聊天记录里的提示词、测试用例、原始数据集链接，WorkBuddy都给我们整理出来了。",
+          "location": "场景1旧测评资料结果段"
+        },
+        {
+          "text": "发送消息前还会有二次的内容确认，可以先看看到底有没有问题。",
+          "location": "场景2拉人并发提醒后"
+        }
+      ]
+    },
+    {
+      "account": "摸鱼小李",
+      "id": "2247491050:1",
+      "title": "右键一下，WorkBuddy 让电脑里文件都有了 AI",
+      "published": "2026-10-10 20:09",
+      "read": 35347,
+      "shares": 1154,
+      "median": 9059,
+      "ratio": 3.9018655480737388,
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/右键一下，WorkBuddy 让电脑里文件都有了 AI-df9cd2c2-d586b1f807.md",
+      "source_page": "wiki/sources/摸鱼小李_WorkBuddy本地文件AI实测.md",
+      "classification": "实践型/新品功能多场景测评（操作教程副型）",
+      "anchors": [
+        {
+          "text": "在本地文件上点右键，选择「打开方式」，找到 WorkBuddy",
+          "location": "01“AI + 文档编辑器”入口段"
+        },
+        {
+          "text": "现在 PDF 暂时还不能编辑，只能查看。",
+          "location": "CASE 02翻译结果后的注意事项"
+        }
+      ]
+    },
+    {
+      "account": "摸鱼小李",
+      "id": "2247489417:1",
+      "title": "用了全新Qoder回不去了",
+      "published": "2026-09-03 23:47",
+      "read": 30678,
+      "shares": 265,
+      "median": 9059,
+      "ratio": 3.3864664974058947,
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/用了全新Qoder回不去了-7abd9f92-892e1577d1.md",
+      "source_page": "wiki/sources/摸鱼小李_Qoder无代码产品实测.md",
+      "classification": "实践型/项目制作分享（产品设计复盘副型）",
+      "anchors": [
+        {
+          "text": "先把想法变成一个能点的 demo，亲手验证是不是自己想要的，对了再回头搭后端，做成真产品。",
+          "location": "第一案“这个东西是怎么做出来的”第一段"
+        },
+        {
+          "text": "全程我一行代码没写，但做什么、手感对不对、哪些坚决不做，都是我拍的板。",
+          "location": "第一案制作复盘总结"
+        }
+      ]
+    },
+    {
+      "account": "小林coding",
+      "id": "2247565251:1",
+      "title": "梁圣杀回来了！DeepSeek新模型发布，爆肝实测一天，性价比杀穿全场",
+      "published": "2026-10-18 10:46",
+      "read": 36733,
+      "shares": 795,
+      "median": 9792,
+      "ratio": 3.751327614379085,
+      "raw_path": "raw/article/小林coding/梁圣杀回来了！DeepSeek新模型发布，爆肝实测一天，性价比杀穿全场-f469715d-e9e0a39866.md",
+      "source_page": "wiki/sources/小林DeepSeek新模型九案例文章拆解.md",
+      "classification": "实践型/新模型多案例测评（发布资讯副型）",
+      "anchors": [
+        {
+          "text": "不过并不代表全面碾压 Claude Opus 5，表格里有一半多的测试项，第一依然是 Claude Opus 5。",
+          "location": "开篇基准段"
+        },
+        {
+          "text": "好吧虽然可以多一嘴就能让deepseek 修复，但是本轮的测试，就是要看一次性直出的效果。",
+          "location": "09锦鲤鱼塘末段"
+        }
+      ]
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "id": "2247511621:1",
+      "title": "我把463个AI视频做成了Skill和提示语模版，全都开源！",
+      "published": "2026-09-22 11:27",
+      "read": 43654,
+      "shares": 6780,
+      "median": 13941.5,
+      "ratio": 3.131226912455618,
+      "raw_path": "raw/article/卡尔的AI沃茨/我把463个AI视频做成了Skill和提示语模版，全都开源！-606b3c2e-86fc6985be.md",
+      "source_page": "wiki/sources/卡尔AI视频模板与Skill开源文章拆解.md",
+      "classification": "邻接样本：资源发布分享为主（项目制作复盘、局部教程副型）",
+      "anchors": [
+        {
+          "text": "这波史诗级大制作，也是我第一个花真金白银把463条AI视频提示语全部重新跑了一遍的大型项目，做出了14个覆盖基本上所有类型AI视频的提示语模版，还有25个AI视频的Skills！",
+          "location": "开篇项目规模说明"
+        },
+        {
+          "text": "来看看最终跑出来的25个提示语模版和59个skills吧。",
+          "location": "复测与分类复盘后"
+        },
+        {
+          "text": "可以理解为，模版是单个镜头的配方，Skill是整部短片的拍摄手册。",
+          "location": "模板与Skill区别段"
+        }
+      ]
+    },
+    {
+      "account": "路人甲TM",
+      "id": "2247521899:1",
+      "title": "把B站干崩的《凡人修仙传》名场面，我用Pixmax尝试做了一遍",
+      "published": "2026-09-14 16:42",
+      "read": 27078,
+      "shares": 461,
+      "median": 12741,
+      "ratio": 2.125264892865552,
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/把B站干崩的《凡人修仙传》名场面，我用Pixmax尝试做了一遍-7d32a23c-7263e3ed12.md",
+      "source_page": "wiki/sources/Pixmax修仙短剧文章拆解.md",
+      "classification": "实践型/作品制作复盘（产品导购、操作说明副型）",
+      "anchors": [
+        {
+          "text": "六段的积分消耗一共1584积分。",
+          "location": "第一节分镜、参考图与负面约束之后"
+        },
+        {
+          "text": "《凡人修仙传》那种量级，我们暂时做不到。",
+          "location": "“写在最后”首段"
+        }
+      ]
+    },
+    {
+      "account": "路人甲TM",
+      "id": "2247523210:1",
+      "title": "实测OiiOii最新Skill，这套电商组合堪称双十一王炸！",
+      "published": "2026-10-13 17:32",
+      "read": 9254,
+      "shares": 366,
+      "median": 12741,
+      "ratio": 0.726316615650263,
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/实测OiiOii最新Skill，这套电商组合堪称双十一王炸！-f506c17c-e4d51add77.md",
+      "source_page": "wiki/sources/OiiOii电商物料文章拆解.md",
+      "classification": "实践型/电商场景项目测评（较强教程、导购副型）",
+      "anchors": [
+        {
+          "text": "从头到尾，我只写了一句需求，回答了几个问题。分镜、画面、运镜，都是 Skill 自己完成的。",
+          "location": "第一节双风格结果总结"
+        },
+        {
+          "text": "我没告诉它具体的促销力度，所以每张图上的数字都是它自己编的。",
+          "location": "第二节海报结果提醒段"
+        }
+      ]
+    },
+    {
+      "account": "摸鱼小李",
+      "id": "2247488501:1",
+      "title": "实测GLM 5.3｜重回开源国模一哥",
+      "published": "2026-08-15 12:14",
+      "read": 9059,
+      "shares": 366,
+      "median": 9059,
+      "ratio": 1.0,
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/实测GLM 5.3｜重回开源国模一哥-ed270830-adf3dee993.md",
+      "source_page": "wiki/sources/摸鱼小李_GLM5.3长程交付实测.md",
+      "classification": "实践型/模型长程交付测评（概念科普、Loop教程副型）",
+      "anchors": [
+        {
+          "text": "但整整 循环了7 轮之后，我拿到了下面这个能真正玩下去的《摸鱼传奇》：沉浸感拉满，设定完整，等级、天赋、装备、BOSS 一个不少。",
+          "location": "02实测CASE 01第二段"
+        },
+        {
+          "text": "Loop 的关键不是提示词写得花哨，而是把这四件事设计好：状态能存、知道什么时候停、会从报错里学、会精简记忆。",
+          "location": "04“设计loop提示词”总结"
+        }
+      ]
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "id": "2247511119:1",
+      "title": "实测DeepSeek V4.1 Flash，降价后熟悉的梁圣又回来了",
+      "published": "2026-09-11 12:24",
+      "read": 12909,
+      "shares": 729,
+      "median": 13941.5,
+      "ratio": 0.9259405372449162,
+      "raw_path": "raw/article/卡尔的AI沃茨/实测DeepSeek V4.1 Flash，降价后熟悉的梁圣又回来了-cbe72e5c-331c92e6cb.md",
+      "source_page": "wiki/sources/卡尔DeepSeek 4.1 Flash与桌面Harness实测文章拆解.md",
+      "classification": "实践型/新模型与桌面Harness测评（发布资讯、排错体验副型）",
+      "anchors": [
+        {
+          "text": "结果一测，给我烧了，快2个小时了，中间断掉还是我去补我的credits了。。。。-100。",
+          "location": "城市模拟器复现运行成本段"
+        },
+        {
+          "text": "我折腾了好几次，配对折腾半天，最后连一条消息都没发出去，Agent在哪都没找到，到现在依然是个纯纯的摆设。。。",
+          "location": "末段桌面端手机连接问题"
+        }
+      ]
+    }
+  ],
+  "tutorial": [
+    {
+      "id": "2247486882:1",
+      "account": "爱AI的大刘",
+      "title": "保姆级WorkBuddy+飞书教程，手把手带你搭建全自动工作流（附完整PDF）。",
+      "published": "2026-09-09 17:04",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247486882&idx=1&sn=703b4e9cd0be199d124719eacb7df010",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/保姆级WorkBuddy+飞书教程，手把手带你搭建全自动工作流（附完整PDF）。-82758c58-47ceab9288.md",
+      "source_page": "wiki/sources/大刘WorkBuddy飞书工作流文章拆解.md",
+      "read": 80227,
+      "shares": 12728,
+      "median": 18890,
+      "ratio": 4.247061937533086,
+      "sample_group": "较好筛选样本",
+      "classification": "新手教程；混合场景解决方案、作者实操演示",
+      "anchors": [
+        {
+          "text": "先把权限列表从头到尾看一遍。",
+          "location": "一、Workbuddy接入飞书／授权提醒"
+        },
+        {
+          "text": "这条里面其实藏了五个动作，读三个人的日程、算交集、做文档、建日程、订会议室。",
+          "location": "实操一／会议提示词后；85行"
+        },
+        {
+          "text": "每次我给到你一个视频链接的时候，都自动完成；",
+          "location": "实操三／整套流程构建为一个Skill；158行"
+        }
+      ]
+    },
+    {
+      "id": "2247486584:1",
+      "account": "爱AI的大刘",
+      "title": "用 WorkBuddy/Claude/Codex + Obsidian，搭建自生长自学习个人知识库。（附PDF教程）",
+      "published": "2026-08-04 14:55",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247486584&idx=1&sn=9c9b32d9aecc9c985a9cc6aff9c530d1",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/用 WorkBuddy_Claude_Codex + Obsidian，搭建自生长自学习个人知识库。（附PDF教程）-31d19135-6e57deaa1e.md",
+      "source_page": "wiki/sources/大刘搭建自生长个人知识库.md",
+      "read": 74338,
+      "shares": 14317,
+      "median": 18890,
+      "ratio": 3.9353096876654314,
+      "sample_group": "较好筛选样本",
+      "classification": "新手教程；混合知识管理方法解释、自动化方案",
+      "anchors": [
+        {
+          "text": "两个软件读写的就是同一个文件夹了，往后 WorkBuddy 在里面写的每一个文件，你在 Obsidian 里实时都能看到，一个写，一个看。",
+          "location": "工作空间／连接方法；27行"
+        },
+        {
+          "text": "我第一次把 raw/ 填进了「保管库」，结果怎么剪都进不去。",
+          "location": "第一步：存资料／剪藏纠错；102行"
+        },
+        {
+          "text": "发现问题先列给我看，我确认了再改，改完记进 log.md。",
+          "location": "第四步：检查／定时任务提示词；145行"
+        }
+      ]
+    },
+    {
+      "id": "2247486797:1",
+      "account": "爱AI的大刘",
+      "title": "GPT-6 Astra 超省 Token 教程，强烈建议你用之前配置好（附详细步骤提示词）。",
+      "published": "2026-09-07 14:22",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247486797&idx=1&sn=285f258fba65334f00b4c889f0df010e",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/GPT-6 Astra 超省 Token 教程，强烈建议你用之前配置好（附详细步骤提示词）。-c10c28c4-a0e9f5a3bb.md",
+      "source_page": "wiki/sources/大刘配置Astra省Token.md",
+      "read": 59184,
+      "shares": 7542,
+      "median": 18890,
+      "ratio": 3.133086289041821,
+      "sample_group": "较好筛选样本",
+      "classification": "整合型配置优化指南；混合进阶教程、社区建议整理",
+      "anchors": [
+        {
+          "text": "使用体感上 Token 节约 50% ！",
+          "location": "开头；2行"
+        },
+        {
+          "text": "Token消耗估计又降低三分之一（体感估计）。",
+          "location": "二.上下文管理技巧／配置后；42行"
+        },
+        {
+          "text": "本轮只做审查并提交报告，不修改任何文件。",
+          "location": "四.Skills／审查提示词；100行"
+        }
+      ]
+    },
+    {
+      "id": "2247523078:1",
+      "account": "路人甲TM",
+      "title": "手把手教你用WorkBuddy做微信小程序并上线，看完就会！（附真实案例）",
+      "published": "2026-10-09 23:09",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247523078&idx=1&sn=6915beba105fd156a1fc455f3d3d839e",
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/手把手教你用WorkBuddy做微信小程序并上线，看完就会！（附真实案例）-44e73498-9d06ebb533.md",
+      "source_page": "wiki/sources/WorkBuddy小程序教程文章拆解.md",
+      "read": 26034,
+      "shares": 5041,
+      "median": 12741,
+      "ratio": 2.043324699788086,
+      "sample_group": "较好筛选样本",
+      "classification": "新手教程；混合产品操作实测和推荐，核心闭环为试用原型",
+      "anchors": [
+        {
+          "text": "而现在不到半个小时，我就已经打开了这个小程序，可以开始使用了。",
+          "location": "1、记账案例／扫码打开；23行"
+        },
+        {
+          "text": "以上的小程序都是14天的试用版本，如果你在体验了试用功能之后，想要能够长久的使用自己的小程序，那就可以去注册一个小程序账号。",
+          "location": "3、提交正式版小程序；37行"
+        },
+        {
+          "text": "尽管它微信侧的手续一个没省，备案、隐私指引、审核额度都得自己走；类目得自己选对。",
+          "location": "4、写在最后；43行"
+        }
+      ]
+    },
+    {
+      "id": "2247500226:1",
+      "account": "苍何",
+      "title": "WorkBuddy + 飞书的 8 种神仙用法（建议收藏）",
+      "published": "2026-09-14 09:08",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500226&idx=1&sn=f7085279c05cfc355ec05cb9d185d73d",
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/WorkBuddy + 飞书的 8 种神仙用法（建议收藏）-22df58aa-50ff19ba6b.md",
+      "source_page": "wiki/sources/苍何WorkBuddy飞书八用法文章拆解.md",
+      "read": 31704,
+      "shares": 3102,
+      "median": 13958.5,
+      "ratio": 2.2713042232331553,
+      "sample_group": "较好筛选样本",
+      "classification": "场景解决方案／并列用法合集；混合接入教程",
+      "anchors": [
+        {
+          "text": "给大家分享 8 个可以直接照抄的实战场景。",
+          "location": "开头主交付声明；13行"
+        },
+        {
+          "text": "注意，WorkBuddy 只能在当前飞书账号已有权限的范围内读取和执行操作，具体可用能力也会受到企业管理员设置的影响。",
+          "location": "接入第四步；25行"
+        },
+        {
+          "text": "只需要告诉WorkBuddy读取什么、怎么处理、交付到哪里，它就GET到你的点啦。",
+          "location": "新人学习路径提示词后；91行"
+        }
+      ]
+    },
+    {
+      "id": "2247543234:1",
+      "account": "西羊石AI视频",
+      "title": "手把手教你做AI短片：从0到1完整制作全流程（零基础入门版）",
+      "published": "2026-09-11 20:00",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247543234&idx=1&sn=fce4c0267791749eda5456f424a97dff",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/手把手教你做AI短片：从0到1完整制作全流程（零基础入门版）-8d5b9aab-f09dd8a7a1.md",
+      "source_page": "wiki/sources/西羊石：零基础AI短片完整流程.md",
+      "read": 20177,
+      "shares": 3908,
+      "median": 10778.5,
+      "ratio": 1.8719673423945817,
+      "sample_group": "较好筛选样本",
+      "classification": "新手教程／完整制作工作流；混合作者实操复盘",
+      "anchors": [
+        {
+          "text": "想法 → 剧本 → 风格测试 → 人物 / 场景 / 道具资产 → 视频生成 → 剪辑成片",
+          "location": "一、工作流总览；21行"
+        },
+        {
+          "text": "因为 AI 记不住上一镜：角色穿什么，房间什么样，桌子在哪边。前面不固定，后面每一镜都可能重新随机生成。",
+          "location": "五、资产设计／为何先做资产；81行"
+        },
+        {
+          "text": "第一条不必追求完美，把流程完整跑通，比什么都重要。",
+          "location": "结尾；170行"
+        }
+      ]
+    },
+    {
+      "id": "2247486679:1",
+      "account": "爱AI的大刘",
+      "title": "DeepSeek Harness 系统教程：Agent、Harness、插件、应用、生态",
+      "published": "2026-08-27 14:20",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247486679&idx=1&sn=ade20cd99b8b346fb305a0e55c880a40",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/DeepSeek Harness 系统教程：Agent、Harness、插件、应用、生态-7eeb0f02-204817ea2d.md",
+      "source_page": "wiki/sources/大刘讲透DeepSeek Harness.md",
+      "read": 16326,
+      "shares": 2578,
+      "median": 18890,
+      "ratio": 0.8642668078348332,
+      "sample_group": "普通对照",
+      "classification": "整合型系统解读；混合最小启动教程、插件推荐和产业观点",
+      "anchors": [
+        {
+          "text": "大模型负责想。Harness 负责干。拼在一起，就叫 Agent。",
+          "location": "第一节概念解释结尾；54行"
+        },
+        {
+          "text": "Workspace Write 限制的是写，不是看。实际上它可以看到工作区外的文件。",
+          "location": "第四节权限设置；109行"
+        },
+        {
+          "text": "插件不是装饰。插件是零件。Agent 产品第一次有了供应链。",
+          "location": "第六节作者产业观点；187行"
+        }
+      ]
+    },
+    {
+      "id": "2247487080:1",
+      "account": "爱AI的大刘",
+      "title": "从0到1带你速通WorkBuddy + 腾讯文档AI工作台 ，开启 Office 办公新范式。",
+      "published": "2026-09-15 14:27",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNzQ3MDM3Mw%3D%3D&mid=2247487080&idx=1&sn=df6c7a494f0d5ced54d9e01af68b8688",
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/从0到1带你速通WorkBuddy + 腾讯文档AI工作台 ，开启 Office 办公新范式。-5910a074-39f2136a7f.md",
+      "source_page": "wiki/sources/大刘实操WorkBuddy与腾讯文档AI工作台.md",
+      "read": 16629,
+      "shares": 1855,
+      "median": 18890,
+      "ratio": 0.8803070407623081,
+      "sample_group": "普通对照",
+      "classification": "场景解决方案／Office工作流演示；混合部分操作教程",
+      "anchors": [
+        {
+          "text": "PPT生成出来，基本不可能一遍就能用。",
+          "location": "四、人机双写／为什么要改；46行"
+        },
+        {
+          "text": "人改一轮，AI接一轮，来回滚。",
+          "location": "四、人机双写；56行"
+        },
+        {
+          "text": "发出去的是这份文件本身，不是它的一个副本。",
+          "location": "六、协作／共享说明；82行"
+        }
+      ]
+    },
+    {
+      "id": "2247542073:1",
+      "account": "西羊石AI视频",
+      "title": "10分钟学会DeepSeek Harness！零基础保姆级教程＋完整实测",
+      "published": "2026-08-14 23:00",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247542073&idx=1&sn=2506d2f508750e9a185e7a7eef37c705",
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/10分钟学会DeepSeek Harness！零基础保姆级教程＋完整实测-6cf68143-587767eb7f.md",
+      "source_page": "wiki/sources/西羊石：DeepSeek Harness零基础实测.md",
+      "read": 11831,
+      "shares": 1184,
+      "median": 10778.5,
+      "ratio": 1.0976480957461614,
+      "sample_group": "普通对照",
+      "classification": "新手启动教程；混合单任务横向体验、概念和趋势评论",
+      "anchors": [
+        {
+          "text": "这次达到99%只代表当前任务。",
+          "location": "适用情形／成本；44行"
+        },
+        {
+          "text": "只要它能在这个页面里正常回复，第一步就算跑通。文件、工具和插件都可以后面再加。",
+          "location": "给自己10分钟／启动验收；55行"
+        },
+        {
+          "text": "现阶段 DSH 的生态还不成熟，有点像早期 AI绘画的StableDifussion 一样，可能出现各种安装依赖问题",
+          "location": "Spring/VSCode比喻后的生态说明；130行"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "samples": 18,
+    "exact_anchors": 46,
+    "raw_unchanged": true,
+    "writing_skill_unchanged": true,
+    "data_matches_original_snapshot": true
+  }
+}
