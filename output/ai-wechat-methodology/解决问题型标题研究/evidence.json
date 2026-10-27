@@ -1,0 +1,419 @@
+{
+  "snapshot_date": "2026-10-26",
+  "scope": "解决问题型标题研究；仅研究，不改Skill/知识库/raw/source",
+  "samples_json": "output/ai-wechat-methodology/实践型与教程型标题研究/samples.json",
+  "manifest": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/manifest.json",
+  "stats": "output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/stats-2026-10-26/all-stats.json",
+  "valid_stats": 292,
+  "failed_stats": 8,
+  "baseline": "same-account median over valid articles in this 30-record batch; no equal post-publication observation window",
+  "join_key": "account + article id; normalize idx separator _ to :; 爱ai的大刘 -> 爱AI的大刘; 西洋石AI视频 -> 西羊石AI视频",
+  "selection": "purposeful qualitative selection: 5 higher/above median and 5 near/below median candidates; not random, not causal, not exhaustive",
+  "classification_rule": "解决问题型 = 正文针对一个具体读者问题给出可用解决路径/判断，并能指认终点；邻接 = 测评/资讯/故事/产品安利/功能展示为主，或标题承诺大于正文交付。问号不等于类型。",
+  "reading_scope": "10篇raw可提取全文文字及既有source；图片、动图、视频、图片内文字未观看/未OCR；提示词/命令/安装脚本未执行；未实测产品。",
+  "anchor_count": 32,
+  "articles": [
+    {
+      "account": "爱AI的大刘",
+      "id": "2247486130:1",
+      "title": "一篇讲清楚 Claude Code 和 Codex，到底选哪个（附实操建议）。",
+      "published": "2026-07-06 15:08",
+      "read": 43701,
+      "shares": 3818,
+      "collect": 1451,
+      "median": 18890,
+      "ratio": 2.313446267866596,
+      "share_read_ratio": 0.08736642182101097,
+      "collect_read_ratio": 0.033202901535433975,
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/一篇讲清楚 Claude Code 和 Codex，到底选哪个（附实操建议）。-531f663e-f7741032bd.md",
+      "source_page": "wiki/sources/大刘选择Claude Code与Codex.md",
+      "classification": "解决问题型/选择决策",
+      "classification_note": "正文给三条差异与分工，读者可带走选择判断；不是安装教程，且标题“选哪个”被改写为“分工”。",
+      "selection_role": "高于中位数",
+      "title_devices": [
+        "一篇讲清楚",
+        "到底选哪个",
+        "附实操建议",
+        "双工具名"
+      ],
+      "choice_basis": "有：封号风险、使用逻辑、改文件体验三条差异，终点为分工",
+      "collaboration_disclosure": "无明确披露；作者自述使用Claude 20x Max/Codex Pro（是否自费未说明），无购买链接/优惠码/返佣说明。",
+      "anchors": [
+        {
+          "text": "像到这个地步，代码能力早就不是选择依据了。",
+          "location": "共同点段末、进入三个区别之前（正文第22段）"
+        },
+        {
+          "text": "真正想“好用”，二者都有各自的优势，关键看你的需求",
+          "location": "三个区别之后、个人分工之前（正文第46段）"
+        },
+        {
+          "text": "不是二选一，是分工。",
+          "location": "核心选型结论（正文第51段）"
+        }
+      ]
+    },
+    {
+      "account": "洛洛AI说",
+      "id": "2247485349:1",
+      "title": "告别千篇一律的AI脸，这或许才是短剧创作者的第一选择",
+      "published": "2026-07-01 23:32",
+      "read": 13958,
+      "shares": 120,
+      "collect": 21,
+      "median": 9076.5,
+      "ratio": 1.5378174406434197,
+      "share_read_ratio": 0.008597220232124947,
+      "collect_read_ratio": 0.0015045135406218655,
+      "raw_path": "raw/article/洛洛AI说/告别千篇一律的AI脸，这或许才是短剧创作者的第一选择-a49ed849-aa89066ee6.md",
+      "source_page": "wiki/sources/洛洛AI说：洛洛：LibTV短剧工作流实测.md",
+      "classification": "解决问题型/单产品工作流",
+      "classification_note": "四段单产品工作流可照做，但无竞品对照；“第一选择”缺比较证据。",
+      "selection_role": "高于中位数",
+      "title_devices": [
+        "告别千篇一律的AI脸",
+        "这或许才是",
+        "第一选择",
+        "短剧创作者"
+      ],
+      "choice_basis": "无竞品对照；仅有单产品四段案例，“第一选择”缺比较",
+      "collaboration_disclosure": "无明确披露；集中推荐LibTV，无链接/优惠码/价格/赞助声明。",
+      "anchors": [
+        {
+          "text": "最近LibTV正好有一套工作流，专治这种问题。",
+          "location": "朋友痛点之后、四个案例之前（正文第6段）"
+        },
+        {
+          "text": "整个使用的过程就是把原图拖进LibTV画布，调出底部预设里的人像质感调节。",
+          "location": "案例一操作段（正文第14段）"
+        },
+        {
+          "text": "从剧本到分镜再到视频，一条工作流一个晚上全跑完了。",
+          "location": "案例三结果段（正文第37段）"
+        }
+      ]
+    },
+    {
+      "account": "西羊石AI视频",
+      "id": "2247543298:1",
+      "title": "输入剧本，就能做出短剧，AI制作到底能有多省事？",
+      "published": "2026-09-14 16:45",
+      "read": 13948,
+      "shares": 394,
+      "collect": 114,
+      "median": 10778.5,
+      "ratio": 1.2940576146959224,
+      "share_read_ratio": 0.028247777459133927,
+      "collect_read_ratio": 0.008173214797820476,
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/输入剧本，就能做出短剧，AI制作到底能有多省事？-b0873143-10e0188fde.md",
+      "source_page": "wiki/sources/西羊石：巨日禄剧本直出短剧实测.md",
+      "classification": "解决问题型/单产品流程+档位选择",
+      "classification_note": "六段流程+三档推荐可照做，但“省事”未量化，单产品。",
+      "selection_role": "高于中位数",
+      "title_devices": [
+        "输入剧本→做出短剧",
+        "到底能有多省事？",
+        "AI制作"
+      ],
+      "choice_basis": "部分：单产品内低/中/中高三档及推荐，无跨产品比较",
+      "collaboration_disclosure": "无明确披露；集中展示巨日禄，无链接/优惠码/赞助声明。",
+      "anchors": [
+        {
+          "text": "剧本输入后，平台会接着拆解剧情、整理角色和场景",
+          "location": "开头引出“本入剧出”之后、01之前（正文第12段）"
+        },
+        {
+          "text": "中档其实是我最推荐的。",
+          "location": "04三档实测结论段（正文第60段）"
+        },
+        {
+          "text": "剧本解析、角色场景、分镜、镜头生成、审片和剪辑这些环节，都可以查看、修改和确认。",
+          "location": "05生成之后还能精修（正文第66段）"
+        }
+      ]
+    },
+    {
+      "account": "苍何",
+      "id": "2247500450:1",
+      "title": "一个可操控 WorkBuddy 和 Claude Code 的 AI 记忆卡（强烈安利）",
+      "published": "2026-09-27 10:08",
+      "read": 17337,
+      "shares": 798,
+      "collect": 133,
+      "median": 13958.5,
+      "ratio": 1.2420389010280475,
+      "share_read_ratio": 0.046028724692853434,
+      "collect_read_ratio": 0.007671454115475572,
+      "raw_path": "raw/article/苍何/最新30篇采集-2026-10-26/一个可操控 WorkBuddy 和 Claude Code 的 AI 记忆卡（强烈安利）-8f158dba-de2398ed59.md",
+      "source_page": "wiki/sources/苍何实测可操控智能体的记忆卡.md",
+      "classification": "邻接/产品安利与功能体验",
+      "classification_note": "无读者问题、无选择标准、无排错路径，主交付是功能巡览与购买引导。",
+      "selection_role": "高于中位数",
+      "title_devices": [
+        "具体硬件对象",
+        "可操控两个Agent",
+        "强烈安利"
+      ],
+      "choice_basis": "无：功能巡览，无选择标准",
+      "collaboration_disclosure": "无明确披露；结尾“下方入手”为购买引导，无价格/佣金/赞助说明。",
+      "anchors": [
+        {
+          "text": "它现在居然可以一键操控本地的 WorkBuddy 了",
+          "location": "开头功能揭晓段（正文第8段）"
+        },
+        {
+          "text": "AI 要帮我做下一步，得先知道我走过哪几步。",
+          "location": "最后感受段（正文第59段）"
+        },
+        {
+          "text": "大家如果对 C·ONE 感兴趣，可以直接在下方入手。",
+          "location": "结尾购买引导（正文第70段）"
+        }
+      ]
+    },
+    {
+      "account": "路人甲TM",
+      "id": "2247521347:1",
+      "title": "胡楚靓可能不知道，她随口一句话帮我解决了爸妈的旅行",
+      "published": "2026-09-06 18:55",
+      "read": 15698,
+      "shares": 328,
+      "collect": 70,
+      "median": 12741,
+      "ratio": 1.2320853936111764,
+      "share_read_ratio": 0.020894381449866224,
+      "collect_read_ratio": 0.004459166772837304,
+      "raw_path": "raw/article/lurenjiaTM/指定最新30篇-2026-10-26/胡楚靓可能不知道，她随口一句话帮我解决了爸妈的旅行-55d5af8b-4baebf3432.md",
+      "source_page": "wiki/sources/豆包工作生活办公文章拆解.md",
+      "classification": "邻接/生活化体验与测评",
+      "classification_note": "两个作者亲测案例，但无可复用步骤/技能名/选择标准；“解决旅行”仅解决呈现与分享。",
+      "selection_role": "高于中位数",
+      "title_devices": [
+        "名人悬念",
+        "随口一句话",
+        "帮我解决了爸妈的旅行"
+      ],
+      "choice_basis": "无：两个体验案例，无可复用步骤/选择规则",
+      "collaboration_disclosure": "无明确披露；source记录账号级“100%商单”自述，不能推定本篇合同/付款方；单篇未知。",
+      "anchors": [
+        {
+          "text": "它确实考虑到了老人怎么读，字号放大了",
+          "location": "适老网页第一版结果段（正文第29段）"
+        },
+        {
+          "text": "最后出来的效果谈不上惊艳，但拿去开会完全够用",
+          "location": "飞书文档转PPT案例后段（正文第40段）"
+        },
+        {
+          "text": "但是他现在已经能给你交付不错的一个结果了。",
+          "location": "测试后的总体评价（正文第46段）"
+        }
+      ]
+    },
+    {
+      "account": "摸鱼小李",
+      "id": "2247488597:1",
+      "title": "Seedance 2.5 商业 TVC 怎么少抽卡——提示词和方法论全放出来了",
+      "published": "2026-08-18 20:53",
+      "read": 8240,
+      "shares": 853,
+      "collect": 147,
+      "median": 9059,
+      "ratio": 0.909592670272657,
+      "share_read_ratio": 0.10351941747572815,
+      "collect_read_ratio": 0.017839805825242718,
+      "raw_path": "raw/article/摸鱼小李/指定最新30篇-2026-10-26/Seedance 2.5 商业 TVC 怎么少抽卡——提示词和方法论全放出来了-7f411a2b-5bc9b20410.md",
+      "source_page": "wiki/sources/摸鱼小李_Seedance2.5商业TVC少抽卡.md",
+      "classification": "解决问题型/方法+模板交付",
+      "classification_note": "完整prompt+五段方法+白模案例，路径可复制；“少抽卡”未量化。",
+      "selection_role": "接近中位数",
+      "title_devices": [
+        "商业TVC",
+        "怎么少抽卡",
+        "提示词和方法论全放出来了"
+      ],
+      "choice_basis": "部分：文本提示词 vs 白模预演的适用边界，无工具横向对照",
+      "collaboration_disclosure": "无明确披露；updream预演台强露出并称TVC skill将上线，无链接/价格/赞助声明。",
+      "anchors": [
+        {
+          "text": "不是示范\"正确格式\"——没有正确格式，提示词本质上是你和模型之间的沟通协议",
+          "location": "完整提示词之后、方法论开头（正文第52段）"
+        },
+        {
+          "text": "只有两种：人在动（物理），或人没动而情绪在动（心理）。没依据的移动就是为动而动，出来一股廉价感。",
+          "location": "01“别写电影感”的二、运镜段（正文第60段）"
+        },
+        {
+          "text": "前面这些东西，在 30 秒以内、切镜不多的情况下，纯文字提示词已经能做到不错的完成度。但进到多场景、多角色、复杂调度的长片，",
+          "location": "02“白模先行”开头（正文第85段）"
+        }
+      ]
+    },
+    {
+      "account": "西羊石AI视频",
+      "id": "2247542530:1",
+      "title": "H3、Wan 3.0 都来了，为什么批量生成视频我还是选Seedance 2.0 fast？",
+      "published": "2026-08-25 10:23",
+      "read": 9104,
+      "shares": 215,
+      "collect": 44,
+      "median": 10778.5,
+      "ratio": 0.8446444310432806,
+      "share_read_ratio": 0.023615992970123022,
+      "collect_read_ratio": 0.0048330404217926184,
+      "raw_path": "raw/article/西羊石AI视频/最新30篇下载/H3、Wan 3.0 都来了，为什么批量生成视频我还是选Seedance 2.0 fast？-060d317a-5b54407793.md",
+      "source_page": "wiki/sources/西羊石：Seedance Fast量产对比.md",
+      "classification": "解决问题型/选型+成本判断",
+      "classification_note": "三场景+价格公式+明确选择，判断可带走；但择优展示、无全量样本。",
+      "selection_role": "低于中位数",
+      "title_devices": [
+        "H3、Wan 3.0都来了",
+        "为什么我还是选",
+        "具体型号"
+      ],
+      "choice_basis": "有：三模型×多场景+价格+每可用秒公式+明确选择",
+      "collaboration_disclosure": "无明确披露；多模型比较，无赞助/赠送额度/联盟链接。",
+      "anchors": [
+        {
+          "text": "所以这次我就把 Fast、H3 和 Wan 3.0 这三个模型放到几个常见场景里，看看实际跑出来到底怎么样。",
+          "location": "三模型比较引入（正文第27段）"
+        },
+        {
+          "text": "三组案例看下来，我判断模型时会先看整段能不能用，再看某一帧够不够漂亮。",
+          "location": "产品广告案例后的总结段（正文第76段）"
+        },
+        {
+          "text": "每可用秒成本 = 总生成费用 ÷ 最终可用视频秒数",
+          "location": "“模型之间的价格”小节（正文第110段）"
+        }
+      ]
+    },
+    {
+      "account": "郭震AI",
+      "id": "2247525362:1",
+      "title": "告别抽卡！实测商汤 U1 Pro：AI生图终于进入“交付级”时代！",
+      "published": "2026-09-23 14:30",
+      "read": 8399,
+      "shares": 116,
+      "collect": 22,
+      "median": 10537.5,
+      "ratio": 0.7970581257413998,
+      "share_read_ratio": 0.013811167996190022,
+      "collect_read_ratio": 0.00261935944755328,
+      "raw_path": "raw/article/郭震AI/告别抽卡！实测商汤 U1 Pro：AI生图终于进入“交付级”时代！-5a14897f-21bbdabb2f.md",
+      "source_page": "wiki/sources/郭震AI：郭震：实测商汤U1 Pro交付级生图.md",
+      "classification": "邻接/新模型实测与发布导购",
+      "classification_note": "三轮单模型能力验收，回答“行不行”，未给读者工作流/选择标准。",
+      "selection_role": "低于中位数",
+      "title_devices": [
+        "告别抽卡！",
+        "实测",
+        "交付级时代"
+      ],
+      "choice_basis": "无：单模型能力验收，无竞品/旧版对照",
+      "collaboration_disclosure": "无明确披露；推荐商汤U1 Pro并给小浣熊入口，无价格/赞助/邀测说明。",
+      "anchors": [
+        {
+          "text": "最近，我实测了最新绘图模型 SenseNova U1 Pro。",
+          "location": "开头引出测试对象（正文第4段）"
+        },
+        {
+          "text": "三天三轮实测下来，我最大的感受是：U1 Pro 让 AI 生图从反复抽卡，开始走向真正干活。",
+          "location": "开头末段（正文第5段）"
+        },
+        {
+          "text": "准确的问题自检与跨区域精确局部修正",
+          "location": "第3节改图能力结果分析（正文第41段）"
+        }
+      ]
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "id": "2247512301:1",
+      "title": "开源「红绿灯」提示语，解决Agent刹不住车浪费token额度的老毛病",
+      "published": "2026-10-13 12:24",
+      "read": 10739,
+      "shares": 1102,
+      "collect": 103,
+      "median": 13941.5,
+      "ratio": 0.7702901409460962,
+      "share_read_ratio": 0.10261663097122638,
+      "collect_read_ratio": 0.009591209609833317,
+      "raw_path": "raw/article/卡尔的AI沃茨/开源「红绿灯」提示语，解决Agent刹不住车浪费token额度的老毛病-a1949f02-f2611446f1.md",
+      "source_page": "wiki/sources/卡尔用红黄绿状态约束Agent任务边界文章拆解.md",
+      "classification": "解决问题型/提示语方案",
+      "classification_note": "完整三态提示语可复制，路径成立；hook不完整、省token未量化。",
+      "selection_role": "低于中位数",
+      "title_devices": [
+        "开源",
+        "红绿灯隐喻",
+        "Agent刹不住车浪费token",
+        "老毛病"
+      ],
+      "choice_basis": "有：三态规则与适用任务；无替代方案比较",
+      "collaboration_disclosure": "无明确披露；提到作者自有GoodCase.ai，无购买链接/价格；提示语免费公开。",
+      "anchors": [
+        {
+          "text": "我花了一个小时迭代优化出来了不到三百字的提示语。",
+          "location": "问题提出后、进度提示语标题之前（正文第12段）"
+        },
+        {
+          "text": "想要在每个Agent每个AI每个对话都可以自动生效，那就不依靠skill，手搓一个提示语再加一个hook这样我们就可以脱离认知陷阱。",
+          "location": "方案提出段（正文第10段）"
+        },
+        {
+          "text": "用了两天之后，还是有几个很明显的变化。",
+          "location": "三个应用场景之后、效果总结开头（正文第36段）"
+        },
+        {
+          "text": "开工第一轮用一行钉住原始需求",
+          "location": "“进度提示语”全文首句（正文第14段）"
+        }
+      ]
+    },
+    {
+      "account": "爱AI的大刘",
+      "id": "2247485427:1",
+      "title": "小白做优秀 skill 难？我开源的这个工具帮你把这件事解决了",
+      "published": "2026-05-21 11:02",
+      "read": 4184,
+      "shares": 575,
+      "collect": 172,
+      "median": 18890,
+      "ratio": 0.22149285336156696,
+      "share_read_ratio": 0.1374282982791587,
+      "collect_read_ratio": 0.04110898661567878,
+      "raw_path": "raw/article/爱ai的大刘/tikhub-2026-10-26/小白做优秀 skill 难？我开源的这个工具帮你把这件事解决了-2f8475da-451c0e4038.md",
+      "source_page": "wiki/sources/大刘开源中文Skill生成器.md",
+      "classification": "解决问题型/工具+方法交付",
+      "classification_note": "工具流程+判断标准+限制+安装可照做，但演示无实际产物，“优秀”未证明。",
+      "selection_role": "低于中位数",
+      "title_devices": [
+        "小白",
+        "难？",
+        "我开源的这个工具",
+        "帮你把这件事解决了"
+      ],
+      "choice_basis": "有：高频/固定/可预期才值得做skill，且列出三项不做",
+      "collaboration_disclosure": "无明确披露；推广作者自有开源项目skill-creator-cn，Apache免费，无付费/返佣说明。",
+      "anchors": [
+        {
+          "text": "做 skill 真正难的，从来不是写 Skill 文件。难的是写文件之前的过程。",
+          "location": "开头痛点段（正文第17段）"
+        },
+        {
+          "text": "最近一周做了三次以上，做法基本固定，输出格式可预期。",
+          "location": "“什么样的事值得做成 skill”标准段（正文第56段）"
+        },
+        {
+          "text": "所以提示词管的是“当前这一次”，skill 管的是“这一类任务”。",
+          "location": "Skill与提示词区别段（正文第55段）"
+        },
+        {
+          "text": "你要只是一次性需求，它真用不上，直接问 AI 更快。",
+          "location": "限制段（正文第123段）"
+        }
+      ]
+    }
+  ]
+}
