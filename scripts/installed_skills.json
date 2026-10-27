@@ -27,7 +27,7 @@
     "gzh-webchat-cover/references/sample-map.md": "3cb8636c82f48d54ff01ee1c497030b32bc60c07453ed7b936503c938e99a470",
     "gzh-webchat-cover/references/style-dna.md": "0954e564a948bb56d3a61ffe54aebfd3f24218744956ee608ed05b3c4fde630f",
     "gzh-webchat-cover/scripts/compose_cover.py": "d8c52a94ce987a04db0c298436f187c781f7187cf706f59333f5e4f4e7803374",
-    "gzh-webchat-cover/SKILL.md": "4813b5ce449758c1d8b6da6a1df50005375e314a781e5bbbba60acb6f4ef4354",
+    "gzh-webchat-cover/SKILL.md": "f98404f6abe92b117dea5a9fa9a6be892de4682b97766a87651a5a6d6180ebaa",
     "md-wechat-layout/agents/openai.yaml": "57f447cbf2e07ebe0c6d181a32b36a219b24f196f22f6845e47a608d118ed8f9",
     "md-wechat-layout/assets/upstream/LICENSE": "1de0cbe909c44265daf7ec79c69204df11d003d4fad3f82a33e7a8aa1d38ae45",
     "md-wechat-layout/assets/upstream/renderer.js": "e0582ab26ad92d2293aeaffed8ddcc6720181f21c29d53ffa6c73153e1e7d9d6",
@@ -82,6 +82,6 @@
     "gzh-topic-planning": "e78e17df181682500b6725707bcddd2b3c0968d0",
     "gzh-benchmark-deconstruct": "e78e17df181682500b6725707bcddd2b3c0968d0",
     "gzh-benchmark-radar": "3c8f02fdf7e224312f6b1df2f9a4fbe784ed3667",
-    "gzh-webchat-cover": "5b7ad6bf65b75decae4681e01ab656ce04cced81"
+    "gzh-webchat-cover": "4e0e2d640ad7c1126168dd142e0220ca5f45f952"
   }
 }

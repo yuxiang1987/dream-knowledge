@@ -1,0 +1,839 @@
+{
+  "cells": 89,
+  "big_text_rate": 0.539,
+  "brand_text_rate": 0.416,
+  "logo_rate": 0.258,
+  "ui_rate": 0.258,
+  "dark_rate": 0.517,
+  "text_positions": {
+    "左中": 19,
+    "中上": 1,
+    "顶部居中": 1,
+    "左上": 7,
+    "右中": 1,
+    "中部": 2,
+    "居中": 6,
+    "其他": 6,
+    "右侧": 2,
+    "下": 2,
+    "左侧": 1
+  },
+  "text_lines": {
+    "2": 28,
+    "1": 15,
+    "3": 2,
+    "?": 3
+  },
+  "subjects": {
+    "拼贴混排": 14,
+    "图形海报": 31,
+    "实拍照片": 12,
+    "3D渲染": 8,
+    "人物场景": 1,
+    "产品界面截图": 22,
+    "其他": 1
+  },
+  "cells_detail": {
+    "1": {
+      "subject": "拼贴混排（实拍雪山湖景＋巨大3D「K」图标＋漂浮界面碎片）",
+      "bigtext": "有，左中，2行「跑掉5亿Token, 带来Kimi真实测评／Kimi K3.1 Pro横空出世」",
+      "brand": "有(Kimi)",
+      "logo": "有(K方块)",
+      "ui": "有(碎片式截图，内容看不清)",
+      "tone": "深，主色蓝/金黄/灰白",
+      "density": "密集"
+    },
+    "2": {
+      "subject": "图形海报（纸质立体字造型）",
+      "bigtext": "有，中上，1行大字「AI替我记得」＋左下2行小字「我给自己招了个 AI 助理，它转头就翻我 73 天前的旧账」",
+      "brand": "无",
+      "logo": "无",
+      "ui": "无",
+      "tone": "浅，主色米白/灰绿/浅棕",
+      "density": "简洁"
+    },
+    "3": {
+      "subject": "拼贴混排（fotor字标＋三张编辑器界面截图＋绿色标注气泡）",
+      "bigtext": "有，左中，2行「直出可编辑MG动画／做商用和自媒体视频太顺手了」",
+      "brand": "有(fotor)",
+      "logo": "有(fotor字标)",
+      "ui": "有",
+      "tone": "浅，主色白/黑/亮绿",
+      "density": "密集"
+    },
+    "4": {
+      "subject": "实拍照片（桌面笔记本场景，屏幕内为设计画布）",
+      "bigtext": "有，顶部居中，2行「Lovart2.0／给了我一个设计师助手」",
+      "brand": "有(Lovart)",
+      "logo": "有(Lovart字标)",
+      "ui": "有",
+      "tone": "浅，主色米白/浅绿/木棕",
+      "density": "中等"
+    },
+    "5": {
+      "subject": "3D渲染（概念车悬浮喷气）",
+      "bigtext": "有，左上，2行「美国车能飞?／喷气式特斯拉来了」",
+      "brand": "无（仅文案提及）",
+      "logo": "无",
+      "ui": "无",
+      "tone": "深，主色黑蓝/银白/金",
+      "density": "中等"
+    },
+    "6": {
+      "subject": "图形海报（宝可梦式巨龙插画＋两个App图标：聊天气泡图标、绿色机器人图标）",
+      "bigtext": "有，左上，1行「blike：我现在什么都不缺了！」",
+      "brand": "无",
+      "logo": "有(两个App图标)",
+      "ui": "无",
+      "tone": "深，主色黄/黑",
+      "density": "密集"
+    },
+    "7": {
+      "subject": "人物场景（AI生成女性肖像，红底）",
+      "bigtext": "有，左上，2行「15秒电商广告低至1.5元／OiiOii把电商视频的门槛打下来了」",
+      "brand": "有(OiiOii)",
+      "logo": "有(OiiOii字标)",
+      "ui": "无",
+      "tone": "深，主色红/黑/金",
+      "density": "中等"
+    },
+    "8": {
+      "subject": "3D渲染/AI生成（古风仙侠人物＋山水云海）",
+      "bigtext": "有，左上，2行「Vidu Q4 Preview 一手实测／这么久没动静，原来是在憋大招」",
+      "brand": "有(Vidu Q4)",
+      "logo": "有(Vidu Q4 Preview字标)",
+      "ui": "无",
+      "tone": "浅，主色蓝/白/青",
+      "density": "中等"
+    },
+    "9": {
+      "subject": "图形海报（手机＋游戏画面插画）",
+      "bigtext": "有，左中，3行「用 WorkBuddy／做微信小程序／并上线」＋底部1行「附真实案例·看完就会」",
+      "brand": "有(WorkBuddy)",
+      "logo": "有(左上绿色小标)",
+      "ui": "无(手机内为游戏插画非产品界面)",
+      "tone": "浅，主色薄荷绿/白/橙",
+      "density": "中等"
+    },
+    "10": {
+      "subject": "产品界面截图（右键菜单＋WorkBuddy AI 窗口拼贴）",
+      "bigtext": "有，左上，3行「WorkBuddy 又整活了／独立浏览器／文件打开就能用，有点意思」＋左上标签「WorkBuddy 新功能」",
+      "brand": "有(WorkBuddy)",
+      "logo": "有(WorkBuddy AI)",
+      "ui": "有",
+      "tone": "浅，主色白/绿/黑",
+      "density": "密集"
+    },
+    "11": {
+      "subject": "产品界面截图（三张「帮我管」手机界面）",
+      "bigtext": "有，右中蓝色卡片2行「该吃降压药了，早饭后吃1片／吃了」",
+      "brand": "无",
+      "logo": "无",
+      "ui": "有",
+      "tone": "浅，主色白/蓝",
+      "density": "密集"
+    },
+    "12": {
+      "subject": "实拍照片（亚马逊路演大屏）",
+      "bigtext": "无中文大字（屏上为英文「Dr. Werner Vogels / VP & CTO, Amazon.com」）",
+      "brand": "有(Amazon.com)",
+      "logo": "有(右上角小标)",
+      "ui": "无",
+      "tone": "浅，主色白/浅蓝",
+      "density": "中等"
+    },
+    "13": {
+      "subject": "实拍照片（积木模型：打字机、工厂、城市、港口）",
+      "bigtext": "无",
+      "brand": "无",
+      "logo": "无",
+      "ui": "无",
+      "tone": "浅，主色白/浅绿/浅木",
+      "density": "密集"
+    },
+    "14": {
+      "subject": "产品界面截图（英文仿真城市「Maple Hill」界面）",
+      "bigtext": "无中文大字（仅英文小字，看不清）",
+      "brand": "无",
+      "logo": "无",
+      "ui": "有",
+      "tone": "浅，主色白/灰",
+      "density": "密集"
+    },
+    "15": {
+      "subject": "实拍照片（展会展台，蓝色背景板＋人群）",
+      "bigtext": "有，中部展板，1行「灵感续杯，算力续杯」",
+      "brand": "有(纳米Work、UIIAZUI)",
+      "logo": "无",
+      "ui": "无",
+      "tone": "浅，主色蓝/白",
+      "density": "密集"
+    },
+    "16": {
+      "subject": "实拍照片（音乐节舞台，DJ操作控制器，蓝色灯光）",
+      "bigtext": "无",
+      "brand": "无",
+      "logo": "无",
+      "ui": "无",
+      "tone": "深，主色蓝紫/黑",
+      "density": "中等"
+    },
+    "17": {
+      "subject": "拼贴混排（二次元插画＋设计软件多面板界面）",
+      "bigtext": "无大号（界面内小字如「创建设计委托」「灵感夜派对·开播啦」）",
+      "brand": "无法辨认",
+      "logo": "无",
+      "ui": "有",
+      "tone": "浅，主色紫/白",
+      "density": "密集"
+    },
+    "18": {
+      "subject": "拼贴混排（文件管理器右键菜单＋浏览器窗口）",
+      "bigtext": "无大号（菜单文字「打开/用 WorkBuddy 打开/共享/复制/删除」，另有Google Chrome、Safari）",
+      "brand": "有(WorkBuddy)",
+      "logo": "无",
+      "ui": "有",
+      "tone": "浅，主色白灰",
+      "density": "密集"
+    },
+    "19": {
+      "subject": "拼贴混排（初音插画卡片＋豆包画布界面）",
+      "bigtext": "有，左中插画卡上1行「未来有你」＋界面小字「新建画布」「全部描述」",
+      "brand": "无",
+      "logo": "无",
+      "ui": "有",
+      "tone": "浅，主色白/蓝紫粉",
+      "density": "密集"
+    },
+    "20": {
+      "subject": "拼贴混排（多张智能UI「刷牙打怪」App界面）",
+      "bigtext": "有，界面内居中，1行「刷牙打怪怪」(字样部分不清，另有英文「Time to brush gently!」)",
+      "brand": "无",
+      "logo": "无",
+      "ui": "有",
+      "tone": "浅，主色浅蓝/白",
+      "density": "密集"
+    },
+    "21": {
+      "subject": "实拍照片（老式 Macintosh 电脑＋屏幕代码终端）",
+      "bigtext": "无中文大字（仅英文代码字符）",
+      "brand": "无",
+      "logo": "无",
+      "ui": "有(终端界面)",
+      "tone": "深，主色绿/黑/白",
+      "density": "中等"
+    },
+    "22": {
+      "subject": "产品界面截图（社交平台长文翻译页，Felix Rieseberg 蓝色认证）",
+      "bigtext": "有，整屏中文译文多行「嗨，我是 Felix。我是一名负责 Claude 的工程主管…／我们经常将这种状态描述为\"更有雄心\"…」",
+      "brand": "有(Claude)",
+      "logo": "有(右上角 spiral 标)",
+      "ui": "有",
+      "tone": "深，主色黑/白/蓝",
+      "density": "中等"
+    },
+    "23": {
+      "subject": "实拍照片（地铁通道人流）",
+      "bigtext": "无",
+      "brand": "无",
+      "logo": "无",
+      "ui": "无",
+      "tone": "浅，主色米白/灰",
+      "density": "密集"
+    },
+    "24": {
+      "subject": "其他（原始封面仅 150×64 像素的极小缩略图，内容为一排小图标/流程块）",
+      "bigtext": "无法辨认",
+      "brand": "无法辨认",
+      "logo": "无法辨认",
+      "ui": "无法辨认",
+      "tone": "浅",
+      "density": "密集"
+    },
+    "25": {
+      "subject": "产品界面截图（麻将游戏画面＋右侧AI建议面板）",
+      "bigtext": "有，右侧面板中小字「建议打出：九万」等",
+      "brand": "无法辨认",
+      "logo": "无",
+      "ui": "有",
+      "tone": "深，主色墨绿/棕/白",
+      "density": "密集"
+    },
+    "26": {
+      "subject": "图形海报（AI生成动漫少女＋红色书法）",
+      "bigtext": "有，中部，2行「无限／画布」",
+      "brand": "无",
+      "logo": "无",
+      "ui": "无",
+      "tone": "浅，主色红/粉/黑",
+      "density": "中等"
+    },
+    "27": {
+      "subject": "图形海报（白底数据折线图，morluto/rea Star History）",
+      "bigtext": "无",
+      "brand": "无(仅仓库名)",
+      "logo": "无",
+      "ui": "无(图表)",
+      "tone": "浅，主色白/红/绿",
+      "density": "简洁"
+    },
+    "28": {
+      "subject": "实拍照片（梁圣举手，背景 deepseek 旗帜）",
+      "bigtext": "无中文大字（英文品牌字样）",
+      "brand": "有(deepseek)",
+      "logo": "有",
+      "ui": "无",
+      "tone": "深，主色深蓝/黑/白",
+      "density": "密集"
+    },
+    "29": {
+      "subject": "图形海报（像素风「再见，Git」）",
+      "bigtext": "有，右侧，1-2行「再见，Git」",
+      "brand": "有(Git)",
+      "logo": "无",
+      "ui": "无",
+      "tone": "深，主色黑/橙红/白",
+      "density": "简洁"
+    },
+    "30": {
+      "subject": "图形海报（插画流程图，三道关卡）",
+      "bigtext": "有，三个卡片标题「Schema 校验／业务规则／身份、权限、审批」＋「允许执行」",
+      "brand": "无",
+      "logo": "无",
+      "ui": "无",
+      "tone": "浅，主色白/浅蓝/浅绿/橙",
+      "density": "密集"
+    },
+    "31": {
+      "subject": "产品界面截图（VS Code/Cursor 式编辑器）",
+      "bigtext": "无（大字为英文/代码；下拉菜单内有中文小字）",
+      "brand": "品牌名无 / logo无 / 界面有",
+      "logo": "品牌名无 / logo无 / 界面有",
+      "ui": "品牌名无 / logo无 / 界面有",
+      "tone": "深·深蓝黑橙",
+      "density": "密集"
+    },
+    "32": {
+      "subject": "图形海报（蓝色光束+手机应用图标阵列）",
+      "bigtext": "无",
+      "brand": "品牌名看不清 / 有应用图标 / 界面无",
+      "logo": "品牌名看不清 / 有应用图标 / 界面无",
+      "ui": "品牌名看不清 / 有应用图标 / 界面无",
+      "tone": "深蓝·亮蓝白",
+      "density": "中等"
+    },
+    "33": {
+      "subject": "产品界面截图（聊天对话界面，顶部绿色/蓝色栏）",
+      "bigtext": "无（气泡内为中文小字）",
+      "brand": "品牌名无 / logo无 / 界面有",
+      "logo": "品牌名无 / logo无 / 界面有",
+      "ui": "品牌名无 / logo无 / 界面有",
+      "tone": "浅·白绿",
+      "density": "中等"
+    },
+    "34": {
+      "subject": "拼贴混排（黑板“ E=mc² ”+爱因斯坦剪影+机器人头像卡片）",
+      "bigtext": "无（有英文公式）",
+      "brand": "品牌名无 / logo无 / 界面无",
+      "logo": "品牌名无 / logo无 / 界面无",
+      "ui": "品牌名无 / logo无 / 界面无",
+      "tone": "深·黑灰",
+      "density": "密集"
+    },
+    "35": {
+      "subject": "图形海报（Lovart 2.0 星云/水彩 logo）",
+      "bigtext": "无",
+      "brand": "品牌名有(Lovart) / logo有 / 界面无",
+      "logo": "品牌名有(Lovart) / logo有 / 界面无",
+      "ui": "品牌名有(Lovart) / logo有 / 界面无",
+      "tone": "深·靛蓝紫橙",
+      "density": "简洁"
+    },
+    "36": {
+      "subject": "拼贴混排（4 张白底产品 logo 卡：Muse、GrokBot、OpenAI Cow、Manus Clow）",
+      "bigtext": "无",
+      "brand": "品牌名有 / logo有 / 界面无",
+      "logo": "品牌名有 / logo有 / 界面无",
+      "ui": "品牌名有 / logo有 / 界面无",
+      "tone": "浅·白灰",
+      "density": "中等"
+    },
+    "37": {
+      "subject": "产品界面截图（Trae Work / Claude Code / ChatGPT / Coze“智能体导入内容”列表）",
+      "bigtext": "无（界面内中文标签小字）",
+      "brand": "品牌名有 / logo有 / 界面有",
+      "logo": "品牌名有 / logo有 / 界面有",
+      "ui": "品牌名有 / logo有 / 界面有",
+      "tone": "浅·白",
+      "density": "密集"
+    },
+    "38": {
+      "subject": "图形海报（Gemini 4 Argo 蓝色发布页/产品主视觉）",
+      "bigtext": "无（英文 GEMINI 4 ARGO）",
+      "brand": "品牌名有(Gemini) / logo有 / 界面无",
+      "logo": "品牌名有(Gemini) / logo有 / 界面无",
+      "ui": "品牌名有(Gemini) / logo有 / 界面无",
+      "tone": "深·蓝",
+      "density": "简洁"
+    },
+    "39": {
+      "subject": "图形海报（雪山背景“AGENT”大字+红/黄/绿三张机器人脸＝红绿灯）",
+      "bigtext": "无",
+      "brand": "品牌名无 / logo有 / 界面无",
+      "logo": "品牌名无 / logo有 / 界面无",
+      "ui": "品牌名无 / logo有 / 界面无",
+      "tone": "深·冷蓝白",
+      "density": "中等"
+    },
+    "40": {
+      "subject": "拼贴混排（4 个绿色/彩色应用 logo：P、Claude、Codex 等）",
+      "bigtext": "无",
+      "brand": "品牌名有 / logo有 / 界面无",
+      "logo": "品牌名有 / logo有 / 界面无",
+      "ui": "品牌名有 / logo有 / 界面无",
+      "tone": "浅·白绿",
+      "density": "简洁"
+    },
+    "41": {
+      "subject": "3D渲染/卡通插画（蓝天白云下“托起好邻居”角色）",
+      "bigtext": "有（中，1 行小标题，字号不大）",
+      "brand": "品牌名无 / logo无 / 界面无",
+      "logo": "品牌名无 / logo无 / 界面无",
+      "ui": "品牌名无 / logo无 / 界面无",
+      "tone": "浅·天蓝",
+      "density": "中等"
+    },
+    "42": {
+      "subject": "实拍照片（WeSight 眼镜门店，绿色招牌+橙色装饰）",
+      "bigtext": "无（店招小字）",
+      "brand": "品牌名有(WeSight) / logo有 / 界面无",
+      "logo": "品牌名有(WeSight) / logo有 / 界面无",
+      "ui": "品牌名有(WeSight) / logo有 / 界面无",
+      "tone": "浅·绿橙",
+      "density": "中等"
+    },
+    "43": {
+      "subject": "产品界面截图（多平台面板：彩色方块图标+底部输入条）",
+      "bigtext": "无",
+      "brand": "品牌名无 / logo无 / 界面有",
+      "logo": "品牌名无 / logo无 / 界面有",
+      "ui": "品牌名无 / logo无 / 界面有",
+      "tone": "浅·白灰紫",
+      "density": "中等"
+    },
+    "44": {
+      "subject": "产品界面截图（豆包工作深色界面“集群基础信息概览”）",
+      "bigtext": "有（下，1 行中文标题）",
+      "brand": "品牌名有(豆包工作) / logo有 / 界面有",
+      "logo": "品牌名有(豆包工作) / logo有 / 界面有",
+      "ui": "品牌名有(豆包工作) / logo有 / 界面有",
+      "tone": "深·墨绿",
+      "density": "密集"
+    },
+    "45": {
+      "subject": "图形海报（乐队演出照，橙红背景“《你要跳舞吗》”）",
+      "bigtext": "有（中下，1 行）",
+      "brand": "品牌名无 / logo无 / 界面无",
+      "logo": "品牌名无 / logo无 / 界面无",
+      "ui": "品牌名无 / logo无 / 界面无",
+      "tone": "深·橙红",
+      "density": "中等"
+    },
+    "46": {
+      "subject": "图形海报（红黑促销海报“1秒不到1毛钱”）",
+      "bigtext": "有（中，1–2 行大字）",
+      "brand": "品牌名有(Lovart/Vidu) / logo有 / 界面无",
+      "logo": "品牌名有(Lovart/Vidu) / logo有 / 界面无",
+      "ui": "品牌名有(Lovart/Vidu) / logo有 / 界面无",
+      "tone": "深·黑红",
+      "density": "中等"
+    },
+    "47": {
+      "subject": "产品界面截图（微信风聊天记录列表，绿色主色）",
+      "bigtext": "无（列表中文小字）",
+      "brand": "品牌名有(微信) / logo有 / 界面有",
+      "logo": "品牌名有(微信) / logo有 / 界面有",
+      "ui": "品牌名有(微信) / logo有 / 界面有",
+      "tone": "浅·绿白",
+      "density": "密集"
+    },
+    "48": {
+      "subject": "产品界面截图（深色 IDE：TRAE/终端代码与文档）",
+      "bigtext": "无",
+      "brand": "品牌名有(TRAE) / logo有 / 界面有",
+      "logo": "品牌名有(TRAE) / logo有 / 界面有",
+      "ui": "品牌名有(TRAE) / logo有 / 界面有",
+      "tone": "深·黑青",
+      "density": "密集"
+    },
+    "49": {
+      "subject": "图形海报（机器人+卡片“省下200刀”，个人智驾引擎）",
+      "bigtext": "有（中，1 行）",
+      "brand": "品牌名有(Personal Agent) / logo有 / 界面无",
+      "logo": "品牌名有(Personal Agent) / logo有 / 界面无",
+      "ui": "品牌名有(Personal Agent) / logo有 / 界面无",
+      "tone": "深·黑紫",
+      "density": "中等"
+    },
+    "50": {
+      "subject": "产品界面截图/发布页（Gemini 4 发布，深色多色几何）",
+      "bigtext": "无",
+      "brand": "品牌名有(Gemini) / logo有 / 界面有",
+      "logo": "品牌名有(Gemini) / logo有 / 界面有",
+      "ui": "品牌名有(Gemini) / logo有 / 界面有",
+      "tone": "深·靛蓝",
+      "density": "中等"
+    },
+    "51": {
+      "subject": "3D渲染（银色卡片设备居中，两侧发光 logo 方块）",
+      "bigtext": "无",
+      "brand": "品牌名有(WorkBuddy/Claude) / logo有 / 界面无",
+      "logo": "品牌名有(WorkBuddy/Claude) / logo有 / 界面无",
+      "ui": "品牌名有(WorkBuddy/Claude) / logo有 / 界面无",
+      "tone": "深·黑绿紫",
+      "density": "中等"
+    },
+    "52": {
+      "subject": "产品界面截图（终端 PathCLI，绿色 π 标+命令帮助）",
+      "bigtext": "无（终端中文小字）",
+      "brand": "品牌名无 / logo有(π) / 界面有",
+      "logo": "品牌名无 / logo有(π) / 界面有",
+      "ui": "品牌名无 / logo有(π) / 界面有",
+      "tone": "深·黑绿",
+      "density": "密集"
+    },
+    "53": {
+      "subject": "产品界面截图（紫色终端，面试流程/面试官问答）",
+      "bigtext": "无",
+      "brand": "品牌名无 / logo无 / 界面有",
+      "logo": "品牌名无 / logo无 / 界面有",
+      "ui": "品牌名无 / logo无 / 界面有",
+      "tone": "深·深紫",
+      "density": "密集"
+    },
+    "54": {
+      "subject": "产品界面截图（豆包工作 PPT/视频制作界面）",
+      "bigtext": "无",
+      "brand": "品牌名有(豆包工作) / logo有 / 界面有",
+      "logo": "品牌名有(豆包工作) / logo有 / 界面有",
+      "ui": "品牌名有(豆包工作) / logo有 / 界面有",
+      "tone": "浅·白蓝",
+      "density": "密集"
+    },
+    "55": {
+      "subject": "产品界面截图（Claude Code 终端，深色+中文提问）",
+      "bigtext": "无（终端中文小字）",
+      "brand": "品牌名有(Claude Code) / logo有 / 界面有",
+      "logo": "品牌名有(Claude Code) / logo有 / 界面有",
+      "ui": "品牌名有(Claude Code) / logo有 / 界面有",
+      "tone": "深·黑",
+      "density": "密集"
+    },
+    "56": {
+      "subject": "产品界面截图（Claude Code 终端紫色调，“思考”流）",
+      "bigtext": "无",
+      "brand": "品牌名有(Claude Code) / logo有 / 界面有",
+      "logo": "品牌名有(Claude Code) / logo有 / 界面有",
+      "ui": "品牌名有(Claude Code) / logo有 / 界面有",
+      "tone": "深·紫黑",
+      "density": "密集"
+    },
+    "57": {
+      "subject": "产品界面截图（终端“思考/离职信/offer”中文对话流）",
+      "bigtext": "无（终端中文小字）",
+      "brand": "品牌名有(Claude Code/Codex) / logo有 / 界面有",
+      "logo": "品牌名有(Claude Code/Codex) / logo有 / 界面有",
+      "ui": "品牌名有(Claude Code/Codex) / logo有 / 界面有",
+      "tone": "深·黑绿",
+      "density": "密集"
+    },
+    "58": {
+      "subject": "产品界面截图（终端 PathCLI，π 标）",
+      "bigtext": "无",
+      "brand": "品牌名无 / logo有(π) / 界面有",
+      "logo": "品牌名无 / logo有(π) / 界面有",
+      "ui": "品牌名无 / logo有(π) / 界面有",
+      "tone": "深·黑",
+      "density": "密集"
+    },
+    "59": {
+      "subject": "产品界面截图（紫色终端面试问答流）",
+      "bigtext": "无",
+      "brand": "品牌名有(Claude Code) / logo有 / 界面有",
+      "logo": "品牌名有(Claude Code) / logo有 / 界面有",
+      "ui": "品牌名有(Claude Code) / logo有 / 界面有",
+      "tone": "深·紫",
+      "density": "密集"
+    },
+    "60": {
+      "subject": "3D渲染（豆包工作×无限画布，彩色发光方块）",
+      "bigtext": "无",
+      "brand": "品牌名有(豆包工作) / logo有 / 界面无",
+      "logo": "品牌名有(豆包工作) / logo有 / 界面无",
+      "ui": "品牌名有(豆包工作) / logo有 / 界面无",
+      "tone": "深·黑紫绿",
+      "density": "中等"
+    },
+    "62": {
+      "subject": "图形海报（漫画+人物）",
+      "bigtext": "有，左中 1 行，「横评」",
+      "brand": "无",
+      "logo": "无",
+      "ui": "有（视频编辑器界面）",
+      "tone": "深色，主色 黑/绿/白",
+      "density": "简洁"
+    },
+    "63": {
+      "subject": "图形海报（漫画+人物）",
+      "bigtext": "有，左中 2 行，「个人 / AI助理」",
+      "brand": "无（右下角「豆包AI生成」小字）",
+      "logo": "无",
+      "ui": "有（剪辑软件界面）",
+      "tone": "深色，主色 黑/绿/白",
+      "density": "简洁"
+    },
+    "64": {
+      "subject": "3D渲染（动画/游戏画面，角色持长刀冲撞爆炸）",
+      "bigtext": "无",
+      "brand": "无",
+      "logo": "无",
+      "ui": "无",
+      "tone": "浅色，主色 橙/蓝/土黄",
+      "density": "密集"
+    },
+    "65": {
+      "subject": "图形海报（漫画+人物）",
+      "bigtext": "有，左中 2 行，「商业、自媒体 / 视频」",
+      "brand": "无（右下「豆包AI生成」）",
+      "logo": "无",
+      "ui": "有（剪辑界面）",
+      "tone": "深色，主色 黑/绿/白",
+      "density": "简洁"
+    },
+    "66": {
+      "subject": "图形海报（漫画+人物）",
+      "bigtext": "有，左中 2 行，「Claude / Opus 5.5」",
+      "brand": "有（Claude / Opus 5.5）",
+      "logo": "无",
+      "ui": "有（剪辑软件界面）",
+      "tone": "深色，主色 黑/绿/白",
+      "density": "简洁"
+    },
+    "67": {
+      "subject": "快速上手+横评案例…》: 实拍照片（香薰蜡烛商品图）",
+      "bigtext": "有，左上 1 行，「把一天，/ 还给自己。」",
+      "brand": "有（QIGLOW）",
+      "logo": "有",
+      "ui": "无",
+      "tone": "浅色，主色 米白/棕/暖黄",
+      "density": "简洁"
+    },
+    "68": {
+      "subject": "实拍照片/影视截图（人物特写交谈）",
+      "bigtext": "无",
+      "brand": "无",
+      "logo": "无",
+      "ui": "无",
+      "tone": "深色，主色 棕/黑/米",
+      "density": "中等"
+    },
+    "69": {
+      "subject": "图形海报（漫画+人物）",
+      "bigtext": "有，左中 2 行，「OiiOii / 太太太快了！」",
+      "brand": "有（OiiOii）",
+      "logo": "无",
+      "ui": "无",
+      "tone": "深色，主色 黑/绿/白",
+      "density": "简洁"
+    },
+    "70": {
+      "subject": "图形海报（漫画+人物）",
+      "bigtext": "有，左中 2 行，「豆包 / 工作」",
+      "brand": "有（豆包）",
+      "logo": "无",
+      "ui": "有（剪辑界面）",
+      "tone": "深色，主色 黑/绿/白",
+      "density": "简洁"
+    },
+    "71": {
+      "subject": "图形海报（纯色卡片）",
+      "bigtext": "有，居中 2 行，「WorkBuddy / DeepLocals」",
+      "brand": "有（WorkBuddy、DeepLocals）",
+      "logo": "无",
+      "ui": "无",
+      "tone": "深色，主色 深蓝/青/黑",
+      "density": "简洁"
+    },
+    "72": {
+      "subject": "图形海报（纯色卡片）",
+      "bigtext": "有，居中 1 行，「自媒体军师 Skill」",
+      "brand": "有（Skill）",
+      "logo": "无",
+      "ui": "无",
+      "tone": "深色，主色 深蓝/青/黑",
+      "density": "简洁"
+    },
+    "73": {
+      "subject": "产品界面截图（三栏软件界面）",
+      "bigtext": "无（界面内小字「DeepSeek-V4-Pro（快速）」「类型」「示例」「术语」等）",
+      "brand": "有（DeepSeek-V4-Pro）",
+      "logo": "无",
+      "ui": "有",
+      "tone": "深色，主色 深蓝/黑/青",
+      "density": "密集"
+    },
+    "74": {
+      "subject": "图形海报（纯色卡片）",
+      "bigtext": "有，居中 1 行，「副业军师 Skill」",
+      "brand": "有（Skill）",
+      "logo": "无",
+      "ui": "无",
+      "tone": "深色，主色 深蓝/青/黑",
+      "density": "简洁"
+    },
+    "75": {
+      "subject": "图形海报（纯色卡片）",
+      "bigtext": "有，居中 1 行，「DeepLocals」",
+      "brand": "有（DeepLocals）",
+      "logo": "无",
+      "ui": "无",
+      "tone": "深色，主色 深蓝/青/黑",
+      "density": "简洁"
+    },
+    "76": {
+      "subject": "拼贴混排（城市夜景+笔记本+图标）",
+      "bigtext": "有，上中 1 行，「AI 帮我写完一本书」",
+      "brand": "有（AI；小字「从想法到成书，让写作更简单」）",
+      "logo": "有（PDF/WORD 图标）",
+      "ui": "有（写作软件界面）",
+      "tone": "深色，主色 深蓝/黑/白",
+      "density": "密集"
+    },
+    "77": {
+      "subject": "Qwen3.8-Flash…》: 图形海报（纯色卡片）",
+      "bigtext": "有，居中 2 行，「Qwen3.8-Flash / + Qoder」",
+      "brand": "有（Qwen3.8-Flash、Qoder）",
+      "logo": "无",
+      "ui": "无",
+      "tone": "深色，主色 黑/紫/蓝",
+      "density": "简洁"
+    },
+    "78": {
+      "subject": "图形海报（浅色卡片+图标）",
+      "bigtext": "有，左侧 2 行，「4个Skill / 接入豆包工作Agent」，下方小字「变成你的自媒体工作台」",
+      "brand": "有（豆包）",
+      "logo": "有（豆包图标；选题/写作/配图/视频图标）",
+      "ui": "无",
+      "tone": "浅色，主色 白/蓝/浅青",
+      "density": "密集"
+    },
+    "79": {
+      "subject": "拼贴混排（三张样片）",
+      "bigtext": "无（仅画面内英文「OGAI」「BFM 3.0」「5K DISTANCE」等）",
+      "brand": "有（OGAI）",
+      "logo": "有",
+      "ui": "无",
+      "tone": "浅色，主色 蓝紫/橙/白",
+      "density": "密集"
+    },
+    "80": {
+      "subject": "Excel和PPT…》: 拼贴混排（3D人物+Excel/PPT图标+图表窗口）",
+      "bigtext": "无（仅图标字母 X / P）",
+      "brand": "有（X、P；Excel、PowerPoint 图形标识）",
+      "logo": "有（Excel X、PPT P）",
+      "ui": "有（表格/图表界面）",
+      "tone": "浅色，主色 绿/橙/白",
+      "density": "密集"
+    },
+    "81": {
+      "subject": "3D渲染（白鹭+自行车+黑色问号）",
+      "bigtext": "有，左中 2 行，「Kimi K3.1 Pro / 一哥回来了？」",
+      "brand": "有（Kimi K3.1 Pro）",
+      "logo": "无",
+      "ui": "无",
+      "tone": "浅色，主色 米白/黑/灰",
+      "density": "简洁"
+    },
+    "82": {
+      "subject": "图形海报（浅紫背景+知识树插画）",
+      "bigtext": "有，左中 2 行，「用豆包工作 / 搭建个人知识库」，小字「让收藏的资料，真正用起来」「附完整提示词」",
+      "brand": "有（豆包工作）",
+      "logo": "有（豆包图标）",
+      "ui": "无",
+      "tone": "浅色，主色 浅紫/白/蓝",
+      "density": "密集"
+    },
+    "83": {
+      "subject": "图形海报（浅色+水墨插画）",
+      "bigtext": "有，左中 2 行，「不用学 AE / 也能做 MG 动画」，小字「3个案例，跟着做一遍」「附完整提示词」",
+      "brand": "有（Fotor Agent）",
+      "logo": "无",
+      "ui": "无",
+      "tone": "浅色，主色 白/绿/浅棕",
+      "density": "密集"
+    },
+    "84": {
+      "subject": "图形海报（汽车+建筑渲染）",
+      "bigtext": "有，左中 2 行，「一张画布 / 从想法到作品」，小字「读书卡片、产品图和视频实操」「附提示词」",
+      "brand": "有（豆包工作）",
+      "logo": "有（豆包图标）",
+      "ui": "无",
+      "tone": "浅色，主色 蓝/白/黑",
+      "density": "简洁"
+    },
+    "85": {
+      "subject": "图形海报（暖橙底+包装设计稿）",
+      "bigtext": "有，左中 2 行，「一份需求 / 做出一整套」，小字「TapNow × WorkBuddy」",
+      "brand": "有（TapNow、WorkBuddy）",
+      "logo": "有（TapNow 标识）",
+      "ui": "无",
+      "tone": "浅色，主色 橙/棕/米",
+      "density": "中等"
+    },
+    "86": {
+      "subject": "图形海报（水墨古装人物）",
+      "bigtext": "有，左中 2 行，「跟着苏轼淋一场雨」，小字「豆包工作 AI 影片实操教程」「附提示词」",
+      "brand": "有（豆包工作）",
+      "logo": "有（豆包图标）",
+      "ui": "无",
+      "tone": "浅色，主色 米白/墨绿/灰",
+      "density": "简洁"
+    },
+    "87": {
+      "subject": "实拍照片（民国妆容女子抱猫）",
+      "bigtext": "有，左上 2 行，「邵氏美学×吴爱花 / 这功夫，有点猫腻」，小字「一个哈基米 MY 的诞生」",
+      "brand": "有（TopNow、MiniMax）",
+      "logo": "有（TopNow 图标）",
+      "ui": "无",
+      "tone": "浅色，主色 粉/棕/米",
+      "density": "中等"
+    },
+    "88": {
+      "subject": "3D渲染（古装配角）",
+      "bigtext": "有，左中 2 行，「拍AI短剧 / 一个人就是一支影视团队」，小字「LIBTV 1.5 AI 短剧新高度」",
+      "brand": "有（LIBTV 1.5）",
+      "logo": "无",
+      "ui": "无",
+      "tone": "深色，主色 深紫/黑/金",
+      "density": "密集"
+    },
+    "89": {
+      "subject": "拼贴混排（3D人物+Word/Excel/PPT图标+办公室背景）",
+      "bigtext": "有，左中 2 行，「打通桌面Office，/ 豆包成为打工人办公神器？」",
+      "brand": "有（Office、豆包、Word、Excel、PPT）",
+      "logo": "有（豆包、Office 图标）",
+      "ui": "有（表格界面）",
+      "tone": "浅色，主色 白/蓝/浅绿",
+      "density": "密集"
+    },
+    "90": {
+      "subject": "拼贴混排（3D人物+Word/Excel/PPT图标+办公室背景）",
+      "bigtext": "有，左中 2 行，「打通桌面Office，/ 豆包成为打工人办公神器？」",
+      "brand": "有（Office、豆包、Word、Excel、PPT）",
+      "logo": "有（豆包、Office 图标）",
+      "ui": "有（表格界面）",
+      "tone": "浅色，主色 白/蓝/浅绿",
+      "density": "密集"
+    }
+  }
+}
