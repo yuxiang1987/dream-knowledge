@@ -1,0 +1,42 @@
+[
+  {
+    "account": "路人甲TM",
+    "n": 1,
+    "median": 7139,
+    "min": 7139,
+    "max": 7139,
+    "median_like": 38,
+    "median_share": 176,
+    "median_comment": 15
+  },
+  {
+    "account": "摸鱼小李",
+    "n": 1,
+    "median": 592,
+    "min": 592,
+    "max": 592,
+    "median_like": 51,
+    "median_share": 50,
+    "median_comment": 17
+  },
+  {
+    "account": "小林coding",
+    "n": 1,
+    "median": 7963,
+    "min": 7963,
+    "max": 7963,
+    "median_like": 10,
+    "median_share": 125,
+    "median_comment": 18
+  },
+  {
+    "account": "洛洛AI说",
+    "n": 1,
+    "median": 463,
+    "min": 463,
+    "max": 463,
+    "median_like": 44,
+    "median_share": 22,
+    "median_comment": 17
+  }
+]

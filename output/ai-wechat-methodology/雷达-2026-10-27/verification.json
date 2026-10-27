@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-27",
+  "scope": "fetch-summary.json added_articles only",
+  "fetch": {"accounts": 9, "records": 45, "added": 4, "skipped": 41, "failed": 0, "daily_runs": 1},
+  "stats": {"success": 4, "failed": 0},
+  "ingest": {"independent_works": 4, "new_sources": 4, "excluded": 0, "case_cards": 4, "unique_source_coverage": "4/4", "exact_raw_anchors": "12/12", "author_index_case_links": "12/12", "new_raw_pending": 0, "case_angle_steps": "blank; author to fill", "media": "not reviewed", "own_reader_effects": "not tested"},
+  "raw_integrity": {"post_fetch_fingerprints_checked": 462, "changed_during_deconstruction": 0, "note": "Snapshot taken after fetch; pre-existing user edits preserved, not reverted or committed."},
+  "radar_offline_tests": {"command": "python .agents/skills/gzh-benchmark-radar/tests/test_ingest.py", "passed": 7},
+  "workspace_lint": {"command": "python scripts/wiki_lint.py", "exit_code": 1, "errors": 4, "cause": "Pre-existing deletion of raw/公众号方法论/写作项目  AI 公众号商单变现逻辑.md leaves four historical sources references missing.", "warnings": 5},
+  "isolated_lint": {"exit_code": 0, "errors": 0, "warnings": 5, "method": "Copied current wiki and raw into a temporary directory; restored only the pre-existing deleted raw from HEAD inside that disposable copy; ran wiki_lint.py --root there; deleted copy. Workspace raw left untouched."},
+  "report_refresh": "Local report only; no additional paid fetch or stats requests. Two historical unreferenced raw files remain outside this batch.",
+  "event_cluster_limit": "No manifest.json; automatic event clusters empty. Briefing separately records three-account Kimi title/time overlap, not propagation causality."
+}

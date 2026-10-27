@@ -1,0 +1,120 @@
+{
+  "batch": "output/ai-wechat-methodology/雷达-2026-10-27",
+  "stats_dir": "output/ai-wechat-methodology/雷达-2026-10-27/stats-2026-10-27",
+  "baseline": [
+    {
+      "account": "路人甲TM",
+      "n": 1,
+      "median": 7139,
+      "min": 7139,
+      "max": 7139,
+      "median_like": 38,
+      "median_share": 176,
+      "median_comment": 15
+    },
+    {
+      "account": "摸鱼小李",
+      "n": 1,
+      "median": 592,
+      "min": 592,
+      "max": 592,
+      "median_like": 51,
+      "median_share": 50,
+      "median_comment": 17
+    },
+    {
+      "account": "小林coding",
+      "n": 1,
+      "median": 7963,
+      "min": 7963,
+      "max": 7963,
+      "median_like": 10,
+      "median_share": 125,
+      "median_comment": 18
+    },
+    {
+      "account": "洛洛AI说",
+      "n": 1,
+      "median": 463,
+      "min": 463,
+      "max": 463,
+      "median_like": 44,
+      "median_share": 22,
+      "median_comment": 17
+    }
+  ],
+  "anomalies": [],
+  "event_clusters": [],
+  "raw_without_source": [
+    "raw/article/lurenjiaTM/实测OiiOii最新Skill，这套电商组合堪称双十一王炸！.md",
+    "raw/article/lurenjiaTM/真正的双11来了！天猫预售居然免定金！.md"
+  ],
+  "case_candidates": [
+    {
+      "article": "褒贬不一的Kimi K3.1 Pro，分享下我的真实体验",
+      "models": [
+        "DeepSeek",
+        "Claude",
+        "Gemini",
+        "Kimi"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 1
+      },
+      "raw_path": "raw/article/lurenjiaTM/雷达-2026-10-27/褒贬不一的Kimi K3.1 Pro，分享下我的真实体验-596c87cc8e.md",
+      "source_page": "wiki/sources/路人甲TM_Kimi前端与3D横评.md"
+    },
+    {
+      "article": "实测 Kimi K3.1 Pro，依旧是国模一哥，但有点想吐槽！",
+      "models": [
+        "Claude",
+        "Kimi",
+        "Opus",
+        "GPT"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 2,
+        "step_hits": 3
+      },
+      "raw_path": "raw/article/小林coding/雷达-2026-10-27/实测 Kimi K3.1 Pro，依旧是国模一哥，但有点想吐槽！-d89a494af3.md",
+      "source_page": "wiki/sources/小林KimiK3.1驿站大亨全栈开发文章拆解.md"
+    },
+    {
+      "article": "我花了4亿token横测K3.1，开源大模王仍需加勉",
+      "models": [
+        "DeepSeek",
+        "Opus",
+        "Kimi",
+        "GPT"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 1
+      },
+      "raw_path": "raw/article/洛洛AI说/雷达-2026-10-27/我花了4亿token横测K3.1，开源大模王仍需加勉-3312cb0085.md",
+      "source_page": "wiki/sources/洛洛KimiK3.1五场景3D横评文章拆解.md"
+    }
+  ],
+  "median_by_account": {
+    "路人甲TM": 7139,
+    "摸鱼小李": 592,
+    "小林coding": 7963,
+    "洛洛AI说": 463
+  }
+}

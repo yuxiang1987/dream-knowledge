@@ -3,9 +3,9 @@ title: 小林coding文章写法拆解
 type: topic
 tags: [公众号, 对标拆解, 小林coding]
 status: 进行中
-sources: ["raw/article/小林coding/WorkBuddy拿下双榜第一！腾讯这次把Harness玩明白了.md", "raw/article/小林coding/腾讯 WorkBuddy 重大更新来了，夯爆了！.md", "raw/article/小林coding/DeepSeek Harness发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Loop Engineering 已死，Graph Engineering 永生.md", "raw/article/小林coding/我反问面试官：“你知道Codex记忆机制是怎么实现的吗？”，他：“不知道”，我：“我教你，我看过源码”.md", "raw/article/小林coding/梁圣杀回来了！DeepSeek新模型发布，爆肝实测一天，性价比杀穿全场.md", "raw/article/小林coding/Gemini 4 Argon 震撼上线！拳打Opus 5.5，脚踢GPT-6 Astra，再也不是哈基米了。.md", "raw/article/小林coding/GLM-5.3发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Qwen3.8-Flash发布，新斩杀线！熬夜爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/面试官皱眉：“你看过 Claude Opus 5 系统提示词吗？”，我笑了：“刚看过，需要向我请教什么？”，他：“来，开始你的表演”.md"]
+sources: ["raw/article/小林coding/WorkBuddy拿下双榜第一！腾讯这次把Harness玩明白了.md", "raw/article/小林coding/腾讯 WorkBuddy 重大更新来了，夯爆了！.md", "raw/article/小林coding/DeepSeek Harness发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Loop Engineering 已死，Graph Engineering 永生.md", "raw/article/小林coding/我反问面试官：“你知道Codex记忆机制是怎么实现的吗？”，他：“不知道”，我：“我教你，我看过源码”.md", "raw/article/小林coding/梁圣杀回来了！DeepSeek新模型发布，爆肝实测一天，性价比杀穿全场.md", "raw/article/小林coding/Gemini 4 Argon 震撼上线！拳打Opus 5.5，脚踢GPT-6 Astra，再也不是哈基米了。.md", "raw/article/小林coding/GLM-5.3发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Qwen3.8-Flash发布，新斩杀线！熬夜爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/面试官皱眉：“你看过 Claude Opus 5 系统提示词吗？”，我笑了：“刚看过，需要向我请教什么？”，他：“来，开始你的表演”.md", "raw/article/小林coding/雷达-2026-10-27/实测 Kimi K3.1 Pro，依旧是国模一哥，但有点想吐槽！-d89a494af3.md"]
 created: 2026-10-23
-updated: 2026-10-26
+updated: 2026-10-27
 ---
 
 # 小林coding文章写法拆解
@@ -107,3 +107,19 @@ GLM自审发现并非穷尽风险；正文后来查出的前端问题正说明�
 30. [[sources/小林Agent工具调用容错设计文章拆解]]
 
 具体可迁移维度和每篇待实操方案：`output/ai-wechat-methodology/指定十账号最近30篇-2026-10-26/小林coding/dimension-candidates.json`。新增可用观察包括：表格全量/抽样核验覆盖率、官方与亲测分层、错误outcome状态机、导出后重开验收；均需自己的输入与实操证据，不直接继承作者结论。
+
+## 雷达增量入口（2026-10-27）
+
+本轮只新增1篇，原文发布于2026-10-26 17:12。已通读raw全部可提取文字，图片、动图和视频未核看，未运行产品；上文历史样本、编号和来源保留。本轮按原文链接、作者＋原题及“驿站大亨”内容核重，未发现同篇旧source。
+
+| 编号 | 拆解页 | 主分类 | 主问题 |
+| --- | --- | --- | --- |
+| XL-R1027-01 | [[sources/小林KimiK3.1驿站大亨全栈开发文章拆解]] | 实操复盘 | Kimi Code能否从经营游戏想法推进完整前后端项目，自查、协作和额度体验分别怎样？ |
+
+### 本篇增加的写法观察
+
+成品先行之后按需求、数值、架构、原型、后端、前端推进，每个阶段挑一个检查行为：主动澄清、收回未验证假设、交叉核文档、另开子Agent审查、以前后端真实返回对照。随后回放七天经营，结尾归纳工程习惯并回到额度吐槽。适合借鉴的是“阶段产物＋具体检查”，不是复刻作者楼下驿站和游戏成品。
+
+证据必须分层：榜单与官方游戏演示不是作者亲测；自查与独立运行不是同一验收。数值规划“二星通关”和试玩报告“一星、游戏收入2006元”分开保留，原因未解释；不当作真实经营收入。本文没有同条件Opus横评、完整Token和工时账，“国模一哥”只是作者判断，Pro额度感受也不是标准项目成本。未见明确合作披露，合作未知；无本篇同窗口基线，不称爆款。
+
+自己的方向仍为待实操：使用自有需求和代码，保存输入、版本、阶段产物、失败修正与费用证据；测试角度和步骤留空待作者填写，不继承本文成果。

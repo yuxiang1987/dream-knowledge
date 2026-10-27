@@ -1,0 +1,127 @@
+{
+  "acquired_at": "2026-10-27T11:18:23+08:00",
+  "accounts": [
+    {
+      "account": "路人甲TM",
+      "username": "gh_d516081071ec",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/lurenjiaTM/雷达-2026-10-27",
+      "added_articles": [
+        {
+          "id": "2247523853:1",
+          "title": "褒贬不一的Kimi K3.1 Pro，分享下我的真实体验",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247523853&idx=1&sn=3270e7349161882dcd7c6f6be833689d",
+          "published": "2026-10-26 19:03",
+          "raw_path": "raw/article/lurenjiaTM/雷达-2026-10-27/褒贬不一的Kimi K3.1 Pro，分享下我的真实体验-596c87cc8e.md"
+        }
+      ]
+    },
+    {
+      "account": "摸鱼小李",
+      "username": "gh_3923025946c5",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/摸鱼小李/雷达-2026-10-27",
+      "added_articles": [
+        {
+          "id": "2247491379:1",
+          "title": "我把家里的琐事，外包给蚂蚁的Personal Agent了.....",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247491379&idx=1&sn=5a2fd8ee86f7235aa16e69ad182360e7",
+          "published": "2026-10-27 10:26",
+          "raw_path": "raw/article/摸鱼小李/雷达-2026-10-27/我把家里的琐事，外包给蚂蚁的Personal Agent了-11d47f1e81.md"
+        }
+      ]
+    },
+    {
+      "account": "小林coding",
+      "username": "gh_fc46cf2353fc",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/小林coding/雷达-2026-10-27",
+      "added_articles": [
+        {
+          "id": "2247565915:1",
+          "title": "实测 Kimi K3.1 Pro，依旧是国模一哥，但有点想吐槽！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247565915&idx=1&sn=ea39be967ed1af9bab5481779926271e",
+          "published": "2026-10-26 17:12",
+          "raw_path": "raw/article/小林coding/雷达-2026-10-27/实测 Kimi K3.1 Pro，依旧是国模一哥，但有点想吐槽！-d89a494af3.md"
+        }
+      ]
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "username": "gh_1421d5e48ca9",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/卡尔的AI沃茨/雷达-2026-10-27",
+      "added_articles": []
+    },
+    {
+      "account": "苍何",
+      "username": "gh_fdb597c42fa4",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/苍何/雷达-2026-10-27",
+      "added_articles": []
+    },
+    {
+      "account": "沉默王二",
+      "username": "gh_f0ee5948865f",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/chenmowanger/雷达-2026-10-27",
+      "added_articles": []
+    },
+    {
+      "account": "洛洛AI说",
+      "username": "gh_426cd27710df",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/洛洛AI说/雷达-2026-10-27",
+      "added_articles": [
+        {
+          "id": "2247488738:1",
+          "title": "我花了4亿token横测K3.1，开源大模王仍需加勉",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247488738&idx=1&sn=2b1b2023c783faf3aec97591c72a2514",
+          "published": "2026-10-26 21:55",
+          "raw_path": "raw/article/洛洛AI说/雷达-2026-10-27/我花了4亿token横测K3.1，开源大模王仍需加勉-3312cb0085.md"
+        }
+      ]
+    },
+    {
+      "account": "郭震AI",
+      "username": "gh_ce69fa698e90",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/郭震AI/雷达-2026-10-27",
+      "added_articles": []
+    },
+    {
+      "account": "西羊石AI视频",
+      "username": "gh_f5c1e588b297",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/西羊石AI视频/雷达-2026-10-27",
+      "added_articles": []
+    }
+  ]
+}
