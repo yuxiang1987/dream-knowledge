@@ -25,9 +25,9 @@
     "gzh-webchat-cover/assets/reference-covers/sample-11.png": "b81c7acdaf234797d3fcc62fcd138114d5f4ca18159b86789394a5e43e1edc4b",
     "gzh-webchat-cover/assets/reference-covers/sample-12.png": "0726f731f9e8d2021ca53ad81f2f958ced64d70266a02578cd4e1137c4a94e52",
     "gzh-webchat-cover/references/sample-map.md": "3cb8636c82f48d54ff01ee1c497030b32bc60c07453ed7b936503c938e99a470",
-    "gzh-webchat-cover/references/style-dna.md": "0b8b779690a40c71c2b1c4864a96ebfb8fe516b78814ebcbf3e28a75d30f1402",
+    "gzh-webchat-cover/references/style-dna.md": "0954e564a948bb56d3a61ffe54aebfd3f24218744956ee608ed05b3c4fde630f",
     "gzh-webchat-cover/scripts/compose_cover.py": "d8c52a94ce987a04db0c298436f187c781f7187cf706f59333f5e4f4e7803374",
-    "gzh-webchat-cover/SKILL.md": "0892b8ce3f050a1d8194fc348a4b126bd29619375ac2c46d91080b886083b698",
+    "gzh-webchat-cover/SKILL.md": "4813b5ce449758c1d8b6da6a1df50005375e314a781e5bbbba60acb6f4ef4354",
     "md-wechat-layout/agents/openai.yaml": "57f447cbf2e07ebe0c6d181a32b36a219b24f196f22f6845e47a608d118ed8f9",
     "md-wechat-layout/assets/upstream/LICENSE": "1de0cbe909c44265daf7ec79c69204df11d003d4fad3f82a33e7a8aa1d38ae45",
     "md-wechat-layout/assets/upstream/renderer.js": "e0582ab26ad92d2293aeaffed8ddcc6720181f21c29d53ffa6c73153e1e7d9d6",
@@ -71,7 +71,9 @@
     "gzh-benchmark-radar/tests/cases.md": "1c823aac03d94dbe77e2c32a89e8e6cd00889dabd0d46c11774ffd34614b2636",
     "gzh-benchmark-radar/tests/test_ingest.py": "d0d3ce7f028ccb8662b2e36755f27191829bc4d80fdc7ff5dcb0c3dc49357da0",
     "md-wechat-layout/tests/reading-typography.test.mjs": "4f313f55442498a91da2fac678aca7bda41f40f58adf24f2a3556c8e990dcd53",
-    "wechat-article-writing/references/title-design.md": "a2dd54dc080b4ba8cb438c6fee6ae2a4f2e4ab93832271b5576e6c93636b8cc5"
+    "wechat-article-writing/references/title-design.md": "a2dd54dc080b4ba8cb438c6fee6ae2a4f2e4ab93832271b5576e6c93636b8cc5",
+    "gzh-webchat-cover/scripts/crop_preview.py": "c713c3b12549a8949a1f68bc320ab40b29dfa54b181046e73757cc74e0bb9252",
+    "gzh-webchat-cover/tests/cover-cases.md": "7105975adad6da8d1b465f320e8b28216b1891049861826166823e735793d6c7"
   },
   "skill_commits": {
     "md-wechat-layout": "81ee61e047e56e22f7fb6691f5ff87060b01e5cc",
@@ -79,6 +81,7 @@
     "gzh-final-check": "8df2cec4e6e6b3925a1d9e5aed87540b2fcb55b1",
     "gzh-topic-planning": "e78e17df181682500b6725707bcddd2b3c0968d0",
     "gzh-benchmark-deconstruct": "e78e17df181682500b6725707bcddd2b3c0968d0",
-    "gzh-benchmark-radar": "3c8f02fdf7e224312f6b1df2f9a4fbe784ed3667"
+    "gzh-benchmark-radar": "3c8f02fdf7e224312f6b1df2f9a4fbe784ed3667",
+    "gzh-webchat-cover": "5b7ad6bf65b75decae4681e01ab656ce04cced81"
   }
 }
