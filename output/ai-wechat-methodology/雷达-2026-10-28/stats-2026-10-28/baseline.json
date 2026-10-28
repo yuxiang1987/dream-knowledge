@@ -1,0 +1,62 @@
+[
+  {
+    "account": "路人甲TM",
+    "n": 1,
+    "median": 2782,
+    "min": 2782,
+    "max": 2782,
+    "median_like": 32,
+    "median_share": 134,
+    "median_comment": 0
+  },
+  {
+    "account": "小林coding",
+    "n": 1,
+    "median": 4455,
+    "min": 4455,
+    "max": 4455,
+    "median_like": 7,
+    "median_share": 81,
+    "median_comment": 3
+  },
+  {
+    "account": "卡尔的AI沃茨",
+    "n": 1,
+    "median": 18204,
+    "min": 18204,
+    "max": 18204,
+    "median_like": 267,
+    "median_share": 1536,
+    "median_comment": 70
+  },
+  {
+    "account": "苍何",
+    "n": 1,
+    "median": 10364,
+    "min": 10364,
+    "max": 10364,
+    "median_like": 53,
+    "median_share": 1035,
+    "median_comment": 44
+  },
+  {
+    "account": "沉默王二",
+    "n": 1,
+    "median": 3328,
+    "min": 3328,
+    "max": 3328,
+    "median_like": 10,
+    "median_share": 156,
+    "median_comment": 29
+  },
+  {
+    "account": "西羊石AI视频",
+    "n": 1,
+    "median": 5027,
+    "min": 5027,
+    "max": 5027,
+    "median_like": 24,
+    "median_share": 398,
+    "median_comment": 10
+  }
+]

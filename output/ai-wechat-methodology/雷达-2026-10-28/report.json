@@ -1,0 +1,151 @@
+{
+  "batch": "output/ai-wechat-methodology/雷达-2026-10-28",
+  "stats_dir": "output/ai-wechat-methodology/雷达-2026-10-28/stats-2026-10-28",
+  "baseline": [
+    {
+      "account": "路人甲TM",
+      "n": 1,
+      "median": 2782,
+      "min": 2782,
+      "max": 2782,
+      "median_like": 32,
+      "median_share": 134,
+      "median_comment": 0
+    },
+    {
+      "account": "小林coding",
+      "n": 1,
+      "median": 4455,
+      "min": 4455,
+      "max": 4455,
+      "median_like": 7,
+      "median_share": 81,
+      "median_comment": 3
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "n": 1,
+      "median": 18204,
+      "min": 18204,
+      "max": 18204,
+      "median_like": 267,
+      "median_share": 1536,
+      "median_comment": 70
+    },
+    {
+      "account": "苍何",
+      "n": 1,
+      "median": 10364,
+      "min": 10364,
+      "max": 10364,
+      "median_like": 53,
+      "median_share": 1035,
+      "median_comment": 44
+    },
+    {
+      "account": "沉默王二",
+      "n": 1,
+      "median": 3328,
+      "min": 3328,
+      "max": 3328,
+      "median_like": 10,
+      "median_share": 156,
+      "median_comment": 29
+    },
+    {
+      "account": "西羊石AI视频",
+      "n": 1,
+      "median": 5027,
+      "min": 5027,
+      "max": 5027,
+      "median_like": 24,
+      "median_share": 398,
+      "median_comment": 10
+    }
+  ],
+  "anomalies": [],
+  "event_clusters": [],
+  "raw_without_source": [
+    "raw/article/lurenjiaTM/实测OiiOii最新Skill，这套电商组合堪称双十一王炸！.md",
+    "raw/article/lurenjiaTM/真正的双11来了！天猫预售居然免定金！.md"
+  ],
+  "case_candidates": [
+    {
+      "article": "把15个国民级App接入灵光后，我造出了最舒适的国产Personal Agent",
+      "models": [],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 4,
+        "step_hits": 2
+      },
+      "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-10-28/把15个国民级App接入灵光后，我造出了最舒适的国产Personal Agent-f020555372.md",
+      "source_page": "wiki/sources/卡尔灵光连接十五个App个人Agent文章拆解.md"
+    },
+    {
+      "article": "豆包工作太好用了，造出来的重力实验室，颠覆了一整代人的物理课。",
+      "models": [
+        "豆包"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 1
+      },
+      "raw_path": "raw/article/小林coding/雷达-2026-10-28/豆包工作太好用了，造出来的重力实验室，颠覆了一整代人的物理课。-b3dbe36acc.md",
+      "source_page": "wiki/sources/小林豆包重力实验室文章拆解.md"
+    },
+    {
+      "article": "开源微信流 APP，手机微信聊天记录，可以直接给 WorkBuddy 和 Obsidian 了",
+      "models": [
+        "WorkBuddy",
+        "DeepSeek",
+        "Claude",
+        "Codex"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 2,
+        "step_hits": 2
+      },
+      "raw_path": "raw/article/苍何/雷达-2026-10-28/开源微信流 APP，手机微信聊天记录，可以直接给 WorkBuddy 和 Obsidian 了-ed63f05c54.md",
+      "source_page": "wiki/sources/苍何微信流iOS开发与验收.md"
+    },
+    {
+      "article": "双11别再自己比价了！WorkBuddy能替你逛京东天猫，买完还帮你盯价保（附案例流程）",
+      "models": [
+        "WorkBuddy"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 2
+      },
+      "raw_path": "raw/article/西羊石AI视频/雷达-2026-10-28/双11别再自己比价了！WorkBuddy能替你逛京东天猫，买完还帮你盯价保（附案例流程）-fb71c3c2cc.md",
+      "source_page": "wiki/sources/西羊石：WorkBuddy浏览器双十一比价与价保.md"
+    }
+  ],
+  "median_by_account": {
+    "路人甲TM": 2782,
+    "小林coding": 4455,
+    "卡尔的AI沃茨": 18204,
+    "苍何": 10364,
+    "沉默王二": 3328,
+    "西羊石AI视频": 5027
+  }
+}

@@ -5,7 +5,7 @@ tags: [公众号, 对标拆解, 卡尔的AI沃茨]
 status: 进行中
 sources: ["raw/article/卡尔的AI沃茨/用完12个Personal Agent后，我找到了决定好用上限的五个标准-1450c105-3ec9700eb3.md", "raw/article/卡尔的AI沃茨/开源「提示语管理.skill」，就为快速选出最适合你的Prompt（附25个深度思考提示语）-0004bbb9-ae7ea883e1.md", "raw/article/卡尔的AI沃茨/实测Lovart 2.0，AI设计终于可以打破千篇一律的模板化死板了-eba7be27-7bddab0c62.md", "raw/article/卡尔的AI沃茨/花两千踩坑四大Personal Agent，我3个提示语把33%成功率救回来了-e8a748c4-e8f456008f.md", "raw/article/卡尔的AI沃茨/豆包工作悄悄上新功能，把我多Agent记忆整合的焦虑治好了-e0120ae0-f558ca43ee.md", "raw/article/卡尔的AI沃茨/实测Gemini 4 Argon写作能力，百万上下文竟恐怖如斯-eb8e2a94-51db6f4455.md", "raw/article/卡尔的AI沃茨/开源「红绿灯」提示语，解决Agent刹不住车浪费token额度的老毛病-a1949f02-f2611446f1.md", "raw/article/卡尔的AI沃茨/八款AI语音输入法大横测！我找到了Vibe Coding的最佳搭配-5c628d32-7f40ea7120.md", "raw/article/卡尔的AI沃茨/好久没打游戏的我决定线下去真实一把大学生们的AI游戏水平-601d4078-2f9e0f4c61.md", "raw/article/卡尔的AI沃茨/腾讯WorkBuddy悄悄上新功能，我再也不用把文件搬来搬去了-0f09f3c5-00f5892c8e.md", "raw/article/卡尔的AI沃茨/国庆相册里舍不得删的废片，我找到了25种新玩法来拯救它们！-59abe8ef-d897b4e4b7.md", "raw/article/卡尔的AI沃茨/一文带你看懂OpenAI开发者大会，包括GPT-6.1 Astra被下架的幕后-6e235b5e-292e9521ff.md", "raw/article/卡尔的AI沃茨/实测Claude Sonnet 5.5，做AI代码动画这块断档领先gpt6但3D拉了-f3f78100-d9fbc0786a.md", "raw/article/卡尔的AI沃茨/实测LibTV1.5五大新功能，我把1个完整剧组搬进了AI短剧工作流-7ad99ef9-6c6ae42059.md", "raw/article/卡尔的AI沃茨/五大场景实测商汤图片模型SenseNova U1 Pro，我的工作流要换新了-00accff0-283f3f1db9.md", "raw/article/卡尔的AI沃茨/实测小米新模型MiMo V2.6，我真服了第一次看开源那么彻底的-b1929a86-7d172adb6c.md", "raw/article/卡尔的AI沃茨/实测GPT6 Sol和Luna和Claude Opus5.5，我们再不用愁额度少和速度慢了-6fcc9724-bd23e28ae3.md", "raw/article/卡尔的AI沃茨/我把463个AI视频做成了Skill和提示语模版，全都开源！-606b3c2e-86fc6985be.md", "raw/article/卡尔的AI沃茨/实测阶跃星辰新模型Step 5 Preview，网页复刻这块我愿称之为天才程序员级-49681c2c-ff439d836a.md", "raw/article/卡尔的AI沃茨/分享一个帮我快速把陌生领域方法论做成skill的新技巧-4e1a309d-0d310a3737.md", "raw/article/卡尔的AI沃茨/分享一个我用GPT6+Hyper3D搭可互动个人作品集的新技巧-a9aa95d9-27bd28aaf4.md", "raw/article/卡尔的AI沃茨/实测豆包新模型2.1-pro，这次审美和长时间Agent任务都追上第一档了-ac8f079e-272b80f6d4.md", "raw/article/卡尔的AI沃茨/实测GPT-6+Blender新玩法，我用Aholo Lux3D搭了一个3D版包豪斯工作室！-13bb18ec-edd54e406a.md", "raw/article/卡尔的AI沃茨/从4秒到两小时_480p到4k，我在RunningHub重新认识了能认真讲故事的AI视频们-40f4b41e-5e419e4c60.md", "raw/article/卡尔的AI沃茨/实测DeepSeek V4.1 Flash，降价后熟悉的梁圣又回来了-cbe72e5c-331c92e6cb.md", "raw/article/卡尔的AI沃茨/分享一个在长视频推理上超过Gemini 2.5 Pro的新模型-1a04487d-500a6c14e3.md", "raw/article/卡尔的AI沃茨/继UU远程后，网易又整了一个识别速度快到没朋友的AI语音输入法-3d51e275-c5a4b3d0a5.md", "raw/article/卡尔的AI沃茨/GPT Image2.5悄悄上线，靠提示语提升AI生图可控性的时代要过去了-a81414c4-e0281ad2c9.md", "raw/article/卡尔的AI沃茨/可算有一个总能先我一步调整好日常待办的个人AI了-cd50edf7-4cc3ca4a8d.md", "raw/article/卡尔的AI沃茨/分享一个我随时随地只用手机就能远程操控Agent的新工作流-e47c6420-96ed661dcb.md"]
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-28
 ---
 
 # 卡尔的AI沃茨文章写法拆解
@@ -13,6 +13,10 @@ updated: 2026-10-26
 ## 要解决的问题
 
 如何把AI模型能力与可复现的创作任务连接，区分作者亲测、第三方案例与官方主张，并迁移为自己的编辑动作而非借用他人的成果。
+
+## 雷达增量入口（2026-10-28）
+
+- [[sources/卡尔灵光连接十五个App个人Agent文章拆解]] — 手机个人 Agent 怎样连接国产应用并安排持续任务？作者报告内测与接入体验；完整文字已读，图片、动图、视频和音频未核看，接入、安全和长期效果未独立验证。总提示词清单与正文十五项不完全一致。
 
 ## 最近30篇批次入口（2026-10-26）
 

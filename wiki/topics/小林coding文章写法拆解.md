@@ -3,9 +3,9 @@ title: 小林coding文章写法拆解
 type: topic
 tags: [公众号, 对标拆解, 小林coding]
 status: 进行中
-sources: ["raw/article/小林coding/WorkBuddy拿下双榜第一！腾讯这次把Harness玩明白了.md", "raw/article/小林coding/腾讯 WorkBuddy 重大更新来了，夯爆了！.md", "raw/article/小林coding/DeepSeek Harness发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Loop Engineering 已死，Graph Engineering 永生.md", "raw/article/小林coding/我反问面试官：“你知道Codex记忆机制是怎么实现的吗？”，他：“不知道”，我：“我教你，我看过源码”.md", "raw/article/小林coding/梁圣杀回来了！DeepSeek新模型发布，爆肝实测一天，性价比杀穿全场.md", "raw/article/小林coding/Gemini 4 Argon 震撼上线！拳打Opus 5.5，脚踢GPT-6 Astra，再也不是哈基米了。.md", "raw/article/小林coding/GLM-5.3发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Qwen3.8-Flash发布，新斩杀线！熬夜爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/面试官皱眉：“你看过 Claude Opus 5 系统提示词吗？”，我笑了：“刚看过，需要向我请教什么？”，他：“来，开始你的表演”.md", "raw/article/小林coding/雷达-2026-10-27/实测 Kimi K3.1 Pro，依旧是国模一哥，但有点想吐槽！-d89a494af3.md"]
+sources: ["raw/article/小林coding/WorkBuddy拿下双榜第一！腾讯这次把Harness玩明白了.md", "raw/article/小林coding/腾讯 WorkBuddy 重大更新来了，夯爆了！.md", "raw/article/小林coding/DeepSeek Harness发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Loop Engineering 已死，Graph Engineering 永生.md", "raw/article/小林coding/我反问面试官：“你知道Codex记忆机制是怎么实现的吗？”，他：“不知道”，我：“我教你，我看过源码”.md", "raw/article/小林coding/梁圣杀回来了！DeepSeek新模型发布，爆肝实测一天，性价比杀穿全场.md", "raw/article/小林coding/Gemini 4 Argon 震撼上线！拳打Opus 5.5，脚踢GPT-6 Astra，再也不是哈基米了。.md", "raw/article/小林coding/GLM-5.3发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Qwen3.8-Flash发布，新斩杀线！熬夜爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/面试官皱眉：“你看过 Claude Opus 5 系统提示词吗？”，我笑了：“刚看过，需要向我请教什么？”，他：“来，开始你的表演”.md", "raw/article/小林coding/雷达-2026-10-27/实测 Kimi K3.1 Pro，依旧是国模一哥，但有点想吐槽！-d89a494af3.md", "raw/article/小林coding/雷达-2026-10-28/豆包工作太好用了，造出来的重力实验室，颠覆了一整代人的物理课。-b3dbe36acc.md"]
 created: 2026-10-23
-updated: 2026-10-27
+updated: 2026-10-28
 ---
 
 # 小林coding文章写法拆解
@@ -123,3 +123,9 @@ GLM自审发现并非穷尽风险；正文后来查出的前端问题正说明�
 证据必须分层：榜单与官方游戏演示不是作者亲测；自查与独立运行不是同一验收。数值规划“二星通关”和试玩报告“一星、游戏收入2006元”分开保留，原因未解释；不当作真实经营收入。本文没有同条件Opus横评、完整Token和工时账，“国模一哥”只是作者判断，Pro额度感受也不是标准项目成本。未见明确合作披露，合作未知；无本篇同窗口基线，不称爆款。
 
 自己的方向仍为待实操：使用自有需求和代码，保存输入、版本、阶段产物、失败修正与费用证据；测试角度和步骤留空待作者填写，不继承本文成果。
+
+## 雷达增量入口（2026-10-28）
+
+本轮仅1篇：[[sources/小林豆包重力实验室文章拆解]]，实操复盘。主问题是豆包工作能否把不同重力下的抛体问题做成交互网页，并测试和验证公式。已阅读raw可提取文字，图片、动图和视频未核看；按作者、原题、文章ID与内容核重，未发现已有同篇source。
+
+作者报告三轮需求、工具自测及打包故障处理，再试玩发现轨迹太小并发图要求缩放，最后按阻力、三星球、100米挑战与公式面板组织展示。可借鉴的是把变量、故障、人工反馈和验收拆开；不把工具自报测试数量当独立验证，不把“几乎不干预”误读成没有多轮人工反馈，也不把标题的“颠覆一代人的物理课”当作已证实教育效果。源码、完整提示词、费用和测试日志未核；合作披露未见，状态未知。自己的任务与验收仍待实操。
