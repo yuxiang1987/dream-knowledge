@@ -63,12 +63,16 @@ class LayoutDeliveryTest(unittest.TestCase):
         page=(HERE/'article-layout.preview.html').read_text(encoding='utf-8')
         self.assertIn('max-height:320px;overflow-y:auto!important',page)
         self.assertIn('::-webkit-scrollbar-thumb',page)
-        self.assertIn('max-height:none;overflow-y:visible!important',page)
-        self.assertNotIn('max-height:320px',self.html)
+        self.assertNotIn('max-height:none;overflow-y:visible!important',page)
+        self.assertEqual(self.html.count('max-height:320px;overflow:auto;'),3)
+        original=Document()
+        original.feed((HERE/'article-layout.full.wechat.html').read_text(encoding='utf-8'))
+        self.assertEqual(self.dom.text,original.text)
+        self.assertEqual(self.dom.images,original.images)
         # 预览的复制区始终保留正文全部HTML，不在滚动时删减节点。
         self.assertIn('<article id="content">'+self.html+'</article>',page)
 
-    def test_local_browser_and_structure_checks(self):
+    def test_initial_layout_browser_and_structure_reports(self):
         structure=json.loads((HERE/'structure-check.json').read_text(encoding='utf-8-sig'))
         self.assertTrue(structure['isValid'])
         self.assertEqual(structure['violations'],[])
