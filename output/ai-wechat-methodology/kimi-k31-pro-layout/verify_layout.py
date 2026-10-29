@@ -67,7 +67,7 @@ class LayoutDeliveryTest(unittest.TestCase):
         self.assertEqual(self.html.count('max-height:320px;overflow:auto;'),3)
         original=Document()
         original.feed((HERE/'article-layout.full.wechat.html').read_text(encoding='utf-8'))
-        self.assertEqual(self.dom.text,original.text)
+        self.assertEqual(''.join(self.dom.text),''.join(original.text))
         self.assertEqual(self.dom.images,original.images)
         # 预览的复制区始终保留正文全部HTML，不在滚动时删减节点。
         self.assertIn('<article id="content">'+self.html+'</article>',page)

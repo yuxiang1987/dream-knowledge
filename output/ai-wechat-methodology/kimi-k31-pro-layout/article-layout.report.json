@@ -26,5 +26,13 @@
     "image": "inline-block, margin:0 auto, original aspect ratio",
     "singleImageCopyPage": "image-align-fix.preview.html",
     "wechatAcceptance": "pending"
+  },
+  "paragraphWrapping": {
+    "forcedLineBreaksAdded": false,
+    "chineseTail": "末尾4至6个连续汉字及句末标点在同一行内组中",
+    "englishWords": "保持完整，不强行拆字填满行尾",
+    "wordingChanged": false,
+    "paragraphCopyPage": "paragraph-wrap-fix.preview.html",
+    "wechatAcceptance": "pending"
   }
 }

@@ -1,4 +1,7 @@
 import fs from 'node:fs';
+import {createRequire} from 'node:module';
+const require=createRequire(new URL('../../../.local/verify-article-structure-spec/cli/package.json',import.meta.url));
+const {JSDOM}=require('jsdom');
 import {preview} from '../../../.agents/skills/md-wechat-layout/scripts/render.mjs';
 const folder=new URL('./',import.meta.url);
 let html=fs.readFileSync(new URL('article-layout.wechat.html',folder),'utf8');
@@ -23,6 +26,30 @@ html=html.replace(/<(p|section) style="[^"]*">(\s*<img\b[^>]*\/?>\s*)<\/\1>/g,(_
   return block;
 });
 if(imageBlocks.length!==6) throw new Error(`预期6张独立图片，实际匹配${imageBlocks.length}张`);
+// 中文段尾保留4至6字及句末标点一起换行，减少只剩一两个字的尾行。
+// 不添加br、不改正文、不拆英文单词，也不进入提示词代码窗口。
+const paragraphBlocks=[];
+let tailCount=0;
+html=html.replace(/<p style="([^"]*)">([\s\S]*?)<\/p>/g,(whole,style,body)=>{
+  if(body.includes('<img')||body.includes('（嵌入文件：')) return whole;
+  const fragment=JSDOM.fragment(`<p style="${style}">${body}</p>`);
+  const p=fragment.firstElementChild;
+  for(const previous of p.querySelectorAll('span[data-reading-tail]')) previous.replaceWith(...previous.childNodes);
+  const walker=p.ownerDocument.createTreeWalker(p,4);
+  let last=null;
+  while(walker.nextNode()) if(walker.currentNode.data.trim()) last=walker.currentNode;
+  const match=last?.data.match(/([\p{Script=Han}]{4,6}[。！？])([ \t\r\n]*)$/u);
+  if(match){
+    const tail=last.splitText(match.index);
+    const span=p.ownerDocument.createElement('span');
+    span.setAttribute('data-reading-tail','');
+    span.setAttribute('style','white-space:nowrap;font-family:inherit;font-size:inherit;line-height:inherit;vertical-align:baseline;word-break:normal;overflow-wrap:normal;');
+    tail.replaceWith(span);span.append(tail);tailCount++;
+  }
+  paragraphBlocks.push(p.outerHTML);
+  return p.outerHTML;
+});
+if(tailCount===0) throw new Error('未找到可处理的中文段尾');
 fs.writeFileSync(new URL('article-layout.wechat.html',folder),html);
 let page=preview(html,'Kimi K3.1 Pro · 晴蓝手记',['提示词正文已加入320px限高和滚动样式，复制时携带；微信粘贴及手机效果待验证。','已内嵌6张图片；4段视频需在公众号后台对应位置插入。']);
 page=page.replace('max-height:450px;overflow-y:auto!important','max-height:320px;overflow-y:auto!important;box-sizing:border-box;scrollbar-gutter:stable;scrollbar-width:auto;scrollbar-color:#8bb7d7 #edf5fa');
@@ -48,3 +75,7 @@ try{await navigator.clipboard.write([new ClipboardItem({'text/html':new Blob([co
 const selection=getSelection(),range=document.createRange();range.selectNodeContents(content);selection.removeAllRanges();selection.addRange(range);try{ok=document.execCommand('copy')}catch{}selection.removeAllRanges();}
 document.getElementById('status').textContent=ok?'已复制居中图片，请粘贴到微信对应位置。':'复制失败，请选中下方单张图片后按Ctrl+C。';};</script></html>`;
 fs.writeFileSync(new URL('image-align-fix.preview.html',folder),imagePage);
+
+const paragraphs=paragraphBlocks.map((block,i)=>`<article><h2>段落 ${i+1}</h2><button data-copy="paragraph-${i}">复制这一段</button><section id="paragraph-${i}">${block}</section></article>`).join('');
+const paragraphPage=imagePage.replace('<title>图片居中替换</title>','<title>段尾防孤字替换</title>').replace(/<header>[\s\S]*?<\/header>[\s\S]*?(?=<script>)/,`<header>按原文顺序排列。只复制需要调整的段落，替换微信中的对应段落，保留现有图片和视频。英文保留完整单词，行末仍可能有自然留白。<span id="status">中文段尾已做防孤字处理，实际断行随手机字号和屏宽变化。</span></header>${paragraphs}`).replace('已复制居中图片，请粘贴到微信对应位置。','已复制段落，请替换微信中对应段落。').replace('复制失败，请选中下方单张图片后按Ctrl+C。','复制失败，请选中该段文字后按Ctrl+C。');
+fs.writeFileSync(new URL('paragraph-wrap-fix.preview.html',folder),paragraphPage);
