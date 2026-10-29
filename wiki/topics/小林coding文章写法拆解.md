@@ -3,14 +3,20 @@ title: 小林coding文章写法拆解
 type: topic
 tags: [公众号, 对标拆解, 小林coding]
 status: 进行中
-sources: ["raw/article/小林coding/WorkBuddy拿下双榜第一！腾讯这次把Harness玩明白了.md", "raw/article/小林coding/腾讯 WorkBuddy 重大更新来了，夯爆了！.md", "raw/article/小林coding/DeepSeek Harness发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Loop Engineering 已死，Graph Engineering 永生.md", "raw/article/小林coding/我反问面试官：“你知道Codex记忆机制是怎么实现的吗？”，他：“不知道”，我：“我教你，我看过源码”.md", "raw/article/小林coding/梁圣杀回来了！DeepSeek新模型发布，爆肝实测一天，性价比杀穿全场.md", "raw/article/小林coding/Gemini 4 Argon 震撼上线！拳打Opus 5.5，脚踢GPT-6 Astra，再也不是哈基米了。.md", "raw/article/小林coding/GLM-5.3发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Qwen3.8-Flash发布，新斩杀线！熬夜爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/面试官皱眉：“你看过 Claude Opus 5 系统提示词吗？”，我笑了：“刚看过，需要向我请教什么？”，他：“来，开始你的表演”.md", "raw/article/小林coding/雷达-2026-10-27/实测 Kimi K3.1 Pro，依旧是国模一哥，但有点想吐槽！-d89a494af3.md", "raw/article/小林coding/雷达-2026-10-28/豆包工作太好用了，造出来的重力实验室，颠覆了一整代人的物理课。-b3dbe36acc.md"]
+sources: ["raw/article/小林coding/WorkBuddy拿下双榜第一！腾讯这次把Harness玩明白了.md", "raw/article/小林coding/腾讯 WorkBuddy 重大更新来了，夯爆了！.md", "raw/article/小林coding/DeepSeek Harness发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Loop Engineering 已死，Graph Engineering 永生.md", "raw/article/小林coding/我反问面试官：“你知道Codex记忆机制是怎么实现的吗？”，他：“不知道”，我：“我教你，我看过源码”.md", "raw/article/小林coding/梁圣杀回来了！DeepSeek新模型发布，爆肝实测一天，性价比杀穿全场.md", "raw/article/小林coding/Gemini 4 Argon 震撼上线！拳打Opus 5.5，脚踢GPT-6 Astra，再也不是哈基米了。.md", "raw/article/小林coding/GLM-5.3发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Qwen3.8-Flash发布，新斩杀线！熬夜爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/面试官皱眉：“你看过 Claude Opus 5 系统提示词吗？”，我笑了：“刚看过，需要向我请教什么？”，他：“来，开始你的表演”.md", "raw/article/小林coding/雷达-2026-10-27/实测 Kimi K3.1 Pro，依旧是国模一哥，但有点想吐槽！-d89a494af3.md", "raw/article/小林coding/雷达-2026-10-28/豆包工作太好用了，造出来的重力实验室，颠覆了一整代人的物理课。-b3dbe36acc.md", "raw/article/小林coding/雷达-2026-10-29/用了WorkBuddy这个神级插件，我彻底解放双手了-50aad97374.md"]
 created: 2026-10-23
-updated: 2026-10-28
+updated: 2026-10-29
 ---
 
 # 小林coding文章写法拆解
 
 依据本地10篇文字样本，图片、动图和视频未核看；产品能力、数字与技术机制未独立核实。本文记录写作观察，不判断阅读或商业效果。Agent指能调用工具推进任务的AI系统；Harness指模型调用工具、管理执行与状态的环境；Skill指可复用的任务指导与资源。
+
+## 2026-10-29 雷达增量
+
+新增1篇：[[sources/小林WorkBuddy浏览器操控三场景文章拆解|用了WorkBuddy这个神级插件，我彻底解放双手了]]。题材为浏览器Agent场景实操，主问题是如何处理已登录网页的重复任务并保留人工复核。全文文字已读，图片、动图及视频未核看，未代测；本节不改变原十篇样本统计。
+
+作者自述公众号30篇数据、B站五视频筛选与前三条笔记、DooTask任务检查三例；截图、数据与报告未核。测试报告自称4通过、2待复核，不等于全面通过；真实账号和网站写操作依赖权限。标题“彻底解放双手”超过正文证据，单篇合作未知，自己的测试角度和步骤留作者填写。
 
 ## 逐篇入口
 

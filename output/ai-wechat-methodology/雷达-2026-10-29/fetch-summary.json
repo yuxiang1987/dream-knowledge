@@ -1,0 +1,151 @@
+{
+  "acquired_at": "2026-10-29T09:30:49+08:00",
+  "accounts": [
+    {
+      "account": "路人甲TM",
+      "username": "gh_d516081071ec",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/lurenjiaTM/雷达-2026-10-29",
+      "added_articles": [
+        {
+          "id": "2247523921:1",
+          "title": "我只演示一遍，豆包工作就学会了投简历",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247523921&idx=1&sn=c7f2762a7d6a770a141148ab278e822c",
+          "published": "2026-10-28 17:09",
+          "raw_path": "raw/article/lurenjiaTM/雷达-2026-10-29/我只演示一遍，豆包工作就学会了投简历-ac216340bb.md"
+        }
+      ]
+    },
+    {
+      "account": "摸鱼小李",
+      "username": "gh_3923025946c5",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/摸鱼小李/雷达-2026-10-29",
+      "added_articles": [
+        {
+          "id": "2247491413:1",
+          "title": "WorkBuddy 上线了 LibTV，新一代AI 视频工作台来了！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247491413&idx=1&sn=dfb5eea4598d4f747ca262ecaebc720c",
+          "published": "2026-10-29 08:25",
+          "raw_path": "raw/article/摸鱼小李/雷达-2026-10-29/WorkBuddy 上线了 LibTV，新一代AI 视频工作台来了！-78f3406897.md"
+        }
+      ]
+    },
+    {
+      "account": "小林coding",
+      "username": "gh_fc46cf2353fc",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/小林coding/雷达-2026-10-29",
+      "added_articles": [
+        {
+          "id": "2247565956:1",
+          "title": "用了WorkBuddy这个神级插件，我彻底解放双手了",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247565956&idx=1&sn=8727f8a22e19c836d9e74f503517e55f",
+          "published": "2026-10-28 14:03",
+          "raw_path": "raw/article/小林coding/雷达-2026-10-29/用了WorkBuddy这个神级插件，我彻底解放双手了-50aad97374.md"
+        }
+      ]
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "username": "gh_1421d5e48ca9",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/卡尔的AI沃茨/雷达-2026-10-29",
+      "added_articles": [
+        {
+          "id": "2247512627:1",
+          "title": "豆包工作悄悄上线录制回放，就算Tibo不给重置我也能爽玩电脑自动化了",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247512627&idx=1&sn=d39c9a21e22bf0c595347749ce8f719c",
+          "published": "2026-10-28 19:45",
+          "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-10-29/豆包工作悄悄上线录制回放，就算Tibo不给重置我也能爽玩电脑自动化了-4412c2132d.md"
+        }
+      ]
+    },
+    {
+      "account": "苍何",
+      "username": "gh_fdb597c42fa4",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/苍何/雷达-2026-10-29",
+      "added_articles": [
+        {
+          "id": "2247500645:1",
+          "title": "用 WorkBuddy + LibTV 做 AI 视频，干活有点猛啊！（附教程）",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500645&idx=1&sn=45f309090a69898d39189cc272b785bb",
+          "published": "2026-10-28 14:39",
+          "raw_path": "raw/article/苍何/雷达-2026-10-29/用 WorkBuddy + LibTV 做 AI 视频，干活有点猛啊！（附教程）-f4c02fb425.md"
+        }
+      ]
+    },
+    {
+      "account": "沉默王二",
+      "username": "gh_f0ee5948865f",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/chenmowanger/雷达-2026-10-29",
+      "added_articles": [
+        {
+          "id": "2247551434:1",
+          "title": "真绝了，国产模型 Token 自由了！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247551434&idx=1&sn=9ad0c1746b9bae361c491b3179beb830",
+          "published": "2026-10-28 16:58",
+          "raw_path": "raw/article/chenmowanger/雷达-2026-10-29/真绝了，国产模型 Token 自由了！-397f41f4f2.md"
+        }
+      ]
+    },
+    {
+      "account": "洛洛AI说",
+      "username": "gh_426cd27710df",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/洛洛AI说/雷达-2026-10-29",
+      "added_articles": []
+    },
+    {
+      "account": "郭震AI",
+      "username": "gh_ce69fa698e90",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/郭震AI/雷达-2026-10-29",
+      "added_articles": []
+    },
+    {
+      "account": "西羊石AI视频",
+      "username": "gh_f5c1e588b297",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/西羊石AI视频/雷达-2026-10-29",
+      "added_articles": [
+        {
+          "id": "2247545356:1",
+          "title": "“古人说唱”《过来人》全网破亿播放！我用 WorkBuddy+LibTV 成功复刻了（附保姆级教程）",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247545356&idx=1&sn=3bd5b16def83d9fed79c484840cc4949",
+          "published": "2026-10-28 15:31",
+          "raw_path": "raw/article/西羊石AI视频/雷达-2026-10-29/“古人说唱”《过来人》全网破亿播放！我用 WorkBuddy+LibTV 成功复刻了（附保姆级教程）-d53deb10ef.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "batch": "output/ai-wechat-methodology/雷达-2026-10-29",
+  "stats_dir": "output/ai-wechat-methodology/雷达-2026-10-29/stats-2026-10-29",
+  "baseline": [
+    {
+      "account": "苍何",
+      "n": 1,
+      "median": 6801,
+      "min": 6801,
+      "max": 6801,
+      "median_like": 53,
+      "median_share": 1035,
+      "median_comment": 47
+    },
+    {
+      "account": "沉默王二",
+      "n": 1,
+      "median": 6687,
+      "min": 6687,
+      "max": 6687,
+      "median_like": 17,
+      "median_share": 351,
+      "median_comment": 15
+    },
+    {
+      "account": "西羊石AI视频",
+      "n": 1,
+      "median": 6415,
+      "min": 6415,
+      "max": 6415,
+      "median_like": 64,
+      "median_share": 621,
+      "median_comment": 10
+    }
+  ],
+  "anomalies": [],
+  "event_clusters": [],
+  "raw_without_source": [
+    "raw/article/lurenjiaTM/实测OiiOii最新Skill，这套电商组合堪称双十一王炸！.md",
+    "raw/article/lurenjiaTM/真正的双11来了！天猫预售居然免定金！.md"
+  ],
+  "case_candidates": [
+    {
+      "article": "真绝了，国产模型 Token 自由了！",
+      "models": [
+        "Claude"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 4,
+        "step_hits": 0
+      },
+      "raw_path": "raw/article/chenmowanger/雷达-2026-10-29/真绝了，国产模型 Token 自由了！-397f41f4f2.md",
+      "source_page": "wiki/sources/沉默王二：星火X2.6四项编程案例.md"
+    },
+    {
+      "article": "用了WorkBuddy这个神级插件，我彻底解放双手了",
+      "models": [
+        "WorkBuddy",
+        "Opus"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 2,
+        "step_hits": 2
+      },
+      "raw_path": "raw/article/小林coding/雷达-2026-10-29/用了WorkBuddy这个神级插件，我彻底解放双手了-50aad97374.md",
+      "source_page": "wiki/sources/小林WorkBuddy浏览器操控三场景文章拆解.md"
+    },
+    {
+      "article": "“古人说唱”《过来人》全网破亿播放！我用 WorkBuddy+LibTV 成功复刻了（附保姆级教程）",
+      "models": [
+        "WorkBuddy",
+        "Seedance",
+        "DeepSeek",
+        "Seedream"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 2,
+        "step_hits": 0
+      },
+      "raw_path": "raw/article/西羊石AI视频/雷达-2026-10-29/“古人说唱”《过来人》全网破亿播放！我用 WorkBuddy+LibTV 成功复刻了（附保姆级教程）-d53deb10ef.md",
+      "source_page": "wiki/sources/西羊石：WorkBuddy与LibTV古人说唱制作.md"
+    }
+  ],
+  "median_by_account": {
+    "苍何": 6801,
+    "沉默王二": 6687,
+    "西羊石AI视频": 6415
+  }
+}
