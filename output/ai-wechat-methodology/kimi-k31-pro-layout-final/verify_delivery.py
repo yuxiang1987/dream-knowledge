@@ -60,6 +60,8 @@ class FullDeliveryTest(unittest.TestCase):
   for s in paragraphs:
    self.assertIn('text-align:justify;',s)
    self.assertIn('text-align-last:left;',s)
+   self.assertIn('font-size:15px;',s)
+   self.assertIn('line-height:25.5px;',s)
   centered=[s for tag,s in self.doc.styles if tag=='section' and 'padding:0 32px;' in s]
   self.assertEqual(len(centered),6)
   for s in centered:self.assertIn('text-align:center;',s)

@@ -22,6 +22,8 @@ for(const fallback of [false,true])test(fallback?'完整预览备用复制保留
     assert.equal(p.style.whiteSpace,'normal');
     assert.equal(p.style.textAlign,'justify');
     assert.equal(p.style.textAlignLast,'left');
+    assert.equal(p.style.fontSize,'15px');
+    assert.equal(p.style.lineHeight,'25.5px');
    }
    const images=[...copied.window.document.querySelectorAll('img')];
    assert.equal(images.length,6);
