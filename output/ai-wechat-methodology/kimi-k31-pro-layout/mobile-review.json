@@ -1,0 +1,44 @@
+{
+  "viewport": 375,
+  "scrollWidth": 375,
+  "images": [
+    {
+      "loaded": true,
+      "width": 262.953125,
+      "height": 111.90625
+    },
+    {
+      "loaded": true,
+      "width": 262.96875,
+      "height": 77.140625
+    },
+    {
+      "loaded": true,
+      "width": 262.984375,
+      "height": 114.109375
+    },
+    {
+      "loaded": true,
+      "width": 263,
+      "height": 131.5
+    },
+    {
+      "loaded": true,
+      "width": 262.953125,
+      "height": 83.890625
+    },
+    {
+      "loaded": true,
+      "width": 262.984375,
+      "height": 148.5625
+    }
+  ],
+  "longParagraphs": [],
+  "headings": [
+    "一块会随风摆动的布",
+    "把云海中的古城做成 3D 场景",
+    "让 AI 做一款卡丁车竞速游戏",
+    "给一首歌做纯代码 MV",
+    "最后"
+  ]
+}
