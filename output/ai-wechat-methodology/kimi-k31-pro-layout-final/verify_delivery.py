@@ -54,7 +54,12 @@ class FullDeliveryTest(unittest.TestCase):
   self.assertIn('<article id="content">'+self.html+'</article>',self.page)
   self.assertIn('复制完整公众号排版',self.page)
   self.assertEqual(self.html.count('max-height:320px;overflow:auto;'),3)
-  self.assertGreater(self.html.count('data-reading-tail'),10)
+  self.assertNotIn('data-reading-tail',self.html)
+  paragraphs=[s for tag,s in self.doc.styles if tag=='p' and 'white-space:normal;' in s]
+  self.assertGreater(len(paragraphs),20)
+  for s in paragraphs:
+   self.assertIn('text-align:justify;',s)
+   self.assertIn('text-align-last:left;',s)
   centered=[s for tag,s in self.doc.styles if tag=='section' and 'padding:0 32px;' in s]
   self.assertEqual(len(centered),6)
   for s in centered:self.assertIn('text-align:center;',s)

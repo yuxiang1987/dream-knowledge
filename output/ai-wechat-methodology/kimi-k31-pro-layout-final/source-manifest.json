@@ -4,11 +4,13 @@
   "cover": "output/ai-wechat-methodology/kimi-k31-pro-cover/cover-v2-900x383.png",
   "theme": "晴蓝手记",
   "paragraph_edits": "仅完整句子间断段；跨段高亮关闭并重新开启，保持原高亮范围。",
-  "skillCommit": "44736d26b6e22a03b58139589a1d85bceedd354f",
+  "skillCommit": "9503383d8403e4062edb375d9e27734fae4fa8d7",
   "layoutOptions": {
     "theme": "晴蓝手记",
     "codeMaxHeight": 320,
-    "avoidOrphans": true,
+    "avoidOrphans": false,
+    "bodyAlignment": "justify",
+    "lastLineAlignment": "left",
     "postProcessing": false
   }
 }

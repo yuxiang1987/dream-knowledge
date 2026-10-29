@@ -18,14 +18,18 @@ for(const fallback of [false,true])test(fallback?'完整预览备用复制保留
   assert.ok(payload);const copied=new JSDOM(payload);
   try{
    assert.equal(copied.window.document.body.textContent,original.textContent);
-   for(const p of copied.window.document.querySelectorAll('p:not([aria-hidden])'))assert.equal(p.style.whiteSpace,'normal');
+   for(const p of copied.window.document.querySelectorAll('p:not([aria-hidden])')){
+    assert.equal(p.style.whiteSpace,'normal');
+    assert.equal(p.style.textAlign,'justify');
+    assert.equal(p.style.textAlignLast,'left');
+   }
    const images=[...copied.window.document.querySelectorAll('img')];
    assert.equal(images.length,6);
    assert.deepEqual(images.map(i=>i.src),[...original.querySelectorAll('img')].map(i=>i.src));
    for(const image of images){assert.equal(image.parentElement.style.textAlign,'center');assert.equal(image.style.display,'inline-block');}
    const code=[...copied.window.document.querySelectorAll('section[style*="max-height:320px"]')];
    assert.equal(code.length,3);for(const block of code){assert.equal(block.style.maxHeight,'320px');assert.equal(block.style.overflow,'auto');}
-   assert.ok(copied.window.document.querySelectorAll('span[data-reading-tail]').length>10);
+   assert.equal(copied.window.document.querySelectorAll('span[data-reading-tail]').length,0);
    assert.equal(copied.window.document.querySelectorAll('button,header').length,0);
   }finally{copied.window.close();}
  }finally{dom.window.close();}
