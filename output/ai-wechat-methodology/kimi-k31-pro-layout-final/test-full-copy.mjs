@@ -18,6 +18,7 @@ for(const fallback of [false,true])test(fallback?'完整预览备用复制保留
   assert.ok(payload);const copied=new JSDOM(payload);
   try{
    assert.equal(copied.window.document.body.textContent,original.textContent);
+   for(const p of copied.window.document.querySelectorAll('p:not([aria-hidden])'))assert.equal(p.style.whiteSpace,'normal');
    const images=[...copied.window.document.querySelectorAll('img')];
    assert.equal(images.length,6);
    assert.deepEqual(images.map(i=>i.src),[...original.querySelectorAll('img')].map(i=>i.src));
