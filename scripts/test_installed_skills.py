@@ -44,7 +44,7 @@ class InstalledSkillsTest(unittest.TestCase):
                  if key.startswith("md-wechat-layout/")}
         for resource in ("scripts/blue-journal.mjs", "references/blue-journal.md",
                          "assets/blue-journal-demo.md", "tests/blue-journal.test.mjs",
-                         "tests/reading-typography.test.mjs"):
+                         "tests/reading-typography.test.mjs", "tests/copy-layout.test.mjs"):
             self.assertIn("md-wechat-layout/" + resource, files)
         for relative, expected in files.items():
             with self.subTest(file=relative):
