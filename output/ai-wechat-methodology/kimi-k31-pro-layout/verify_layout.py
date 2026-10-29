@@ -59,6 +59,15 @@ class LayoutDeliveryTest(unittest.TestCase):
         for video in re.findall(r'!\[\[([^\]]+\.mp4)\]\]',self.source):
             self.assertIn(video,rendered)
 
+    def test_preview_scroll_preserves_export(self):
+        page=(HERE/'article-layout.preview.html').read_text(encoding='utf-8')
+        self.assertIn('max-height:320px;overflow-y:auto!important',page)
+        self.assertIn('::-webkit-scrollbar-thumb',page)
+        self.assertIn('max-height:none;overflow-y:visible!important',page)
+        self.assertNotIn('max-height:320px',self.html)
+        # 预览的复制区始终保留正文全部HTML，不在滚动时删减节点。
+        self.assertIn('<article id="content">'+self.html+'</article>',page)
+
     def test_local_browser_and_structure_checks(self):
         structure=json.loads((HERE/'structure-check.json').read_text(encoding='utf-8-sig'))
         self.assertTrue(structure['isValid'])
