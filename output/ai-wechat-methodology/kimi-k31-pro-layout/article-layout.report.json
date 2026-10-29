@@ -20,5 +20,11 @@
     "inlineInCopiedHtml": true,
     "wechatAcceptance": "pending",
     "fullContentBackup": "article-layout.full.wechat.html"
+  },
+  "imageAlignment": {
+    "container": "section, text-align:center, symmetric 32px padding, zero left/right margin",
+    "image": "inline-block, margin:0 auto, original aspect ratio",
+    "singleImageCopyPage": "image-align-fix.preview.html",
+    "wechatAcceptance": "pending"
   }
 }
