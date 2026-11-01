@@ -1,0 +1,225 @@
+{
+  "batch": "output/ai-wechat-methodology/雷达-2026-11-01",
+  "stats_dir": "output/ai-wechat-methodology/雷达-2026-11-01/stats-2026-11-01",
+  "baseline": [
+    {
+      "account": "路人甲TM",
+      "n": 3,
+      "median": 5304,
+      "min": 2544,
+      "max": 11036,
+      "median_like": 45,
+      "median_share": 372,
+      "median_comment": 9
+    },
+    {
+      "account": "小林coding",
+      "n": 4,
+      "median": 12843,
+      "min": 1437,
+      "max": 16536,
+      "median_like": 21,
+      "median_share": 346,
+      "median_comment": 4
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "n": 1,
+      "median": 13044,
+      "min": 13044,
+      "max": 13044,
+      "median_like": 241,
+      "median_share": 1286,
+      "median_comment": 34
+    },
+    {
+      "account": "苍何",
+      "n": 2,
+      "median": 13430,
+      "min": 9712,
+      "max": 17149,
+      "median_like": 78,
+      "median_share": 555,
+      "median_comment": 99
+    },
+    {
+      "account": "郭震AI",
+      "n": 2,
+      "median": 3444,
+      "min": 1663,
+      "max": 5225,
+      "median_like": 24,
+      "median_share": 195,
+      "median_comment": 19
+    },
+    {
+      "account": "西羊石AI视频",
+      "n": 1,
+      "median": 4672,
+      "min": 4672,
+      "max": 4672,
+      "median_like": 22,
+      "median_share": 194,
+      "median_comment": 3
+    }
+  ],
+  "anomalies": [
+    {
+      "account": "路人甲TM",
+      "title": "LibTV疯了！三大模型0积分无限用，Seedance2.5低至0.17元/秒",
+      "read_num": 11036,
+      "ratio": 2.08,
+      "share_count": 372,
+      "comment_count": 11
+    }
+  ],
+  "event_clusters": [],
+  "raw_without_source": [
+    "raw/article/lurenjiaTM/实测OiiOii最新Skill，这套电商组合堪称双十一王炸！.md",
+    "raw/article/lurenjiaTM/真正的双11来了！天猫预售居然免定金！.md",
+    "raw/article/小林coding/雷达-2026-11-01/Anthropic直接掀桌：Code Review不再留给人-0844cd6d54.md",
+    "raw/article/小林coding/雷达-2026-11-01/淘汰Java岗，中国又一新兴岗位崛起！这将是程序员未来10年最好的方向。-0c8f44d39a.md"
+  ],
+  "case_candidates": [
+    {
+      "article": "LibTV疯了！三大模型0积分无限用，Seedance2.5低至0.17元/秒",
+      "models": [
+        "Seedance",
+        "MiniMax",
+        "LibTV"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 1
+      },
+      "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-01/LibTV疯了！三大模型0积分无限用，Seedance2.5低至0.17元_秒-16547a88d9.md",
+      "source_page": "wiki/sources/路人甲TM_LibTV短剧局部重拍与活动.md"
+    },
+    {
+      "article": "发现一个神仙Skill，轻松用WorkBuddy做科普视频，科普一切万物~",
+      "models": [
+        "WorkBuddy",
+        "DeepSeek",
+        "Claude",
+        "GPT"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 2,
+        "step_hits": 1
+      },
+      "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-01/发现一个神仙Skill，轻松用WorkBuddy做科普视频，科普一切万物~-549e77ce87.md",
+      "source_page": "wiki/sources/路人甲TM_Anatomy科普交互与视频.md"
+    },
+    {
+      "article": "LibTV悄悄开源破亿AI短片画布，我决定公开拆解这些1人剧组工作流",
+      "models": [
+        "Seedance",
+        "LibTV"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 2,
+        "step_hits": 0
+      },
+      "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-01/LibTV悄悄开源破亿AI短片画布，我决定公开拆解这些1人剧组工作流-bbd60e13f4.md",
+      "source_page": "wiki/sources/卡尔LibTV公开画布与狐妖短片实测文章拆解.md"
+    },
+    {
+      "article": "10亿Token免费薅！纯血国产模型杀到，跑Claude Code实测真香",
+      "models": [
+        "DeepSeek",
+        "Claude",
+        "Kimi"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 2,
+        "step_hits": 0
+      },
+      "raw_path": "raw/article/小林coding/雷达-2026-11-01/10亿Token免费薅！纯血国产模型杀到，跑Claude Code实测真香-351737976e.md",
+      "source_page": "wiki/sources/小林星火X2.6四任务与比价核验文章拆解.md"
+    },
+    {
+      "article": "Anthropic直接掀桌：Code Review不再留给人",
+      "models": [
+        "Claude"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 2,
+        "step_hits": 2
+      },
+      "raw_path": "raw/article/小林coding/雷达-2026-11-01/Anthropic直接掀桌：Code Review不再留给人-0844cd6d54.md",
+      "source_page": null
+    },
+    {
+      "article": "Opus 5.5 太烧 Token？可能是你的提示词在拖后腿",
+      "models": [
+        "Sonnet",
+        "Claude",
+        "Opus"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 4,
+        "step_hits": 1
+      },
+      "raw_path": "raw/article/小林coding/雷达-2026-11-01/Opus 5.5 太烧 Token？可能是你的提示词在拖后腿-392246c3e2.md",
+      "source_page": "wiki/sources/小林Opus提示词与API成本优化文章拆解.md"
+    },
+    {
+      "article": "连画布都不用开！我用Codex直连LibTV手搓“闪身步”短片，双11三大旗舰0积分把我刷爽了！",
+      "models": [
+        "WorkBuddy",
+        "Seedance",
+        "Codex",
+        "LibTV"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 4,
+        "step_hits": 3
+      },
+      "raw_path": "raw/article/西羊石AI视频/雷达-2026-11-01/连画布都不用开！我用Codex直连LibTV手搓“闪身步”短片，双11三大旗舰0积分把我刷爽了！-b047113219.md",
+      "source_page": "wiki/sources/西羊石Codex连接LibTV动作短片返工文章拆解.md"
+    }
+  ],
+  "median_by_account": {
+    "路人甲TM": 5304,
+    "小林coding": 12843,
+    "卡尔的AI沃茨": 13044,
+    "苍何": 13430,
+    "郭震AI": 3444,
+    "西羊石AI视频": 4672
+  }
+}

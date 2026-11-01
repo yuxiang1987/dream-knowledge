@@ -1,0 +1,8 @@
+{
+  "coverage": {"covered": 13, "deep": 11, "excluded": 2, "reused": 0, "case_cards": 8, "result": "PASS"},
+  "coverage_regressions": {"tests": 5, "result": "PASS", "checks": ["complete evidence and aliased author navigation", "missing article rejected", "duplicate article rejected", "changed raw fingerprint rejected", "unlocatable anchor rejected"]},
+  "wiki_lint": {"result": "PASS_WITH_WARNINGS", "warnings": 6, "warning_scope": "既有空sources页；非本轮新增页"},
+  "raw_preservation": {"preexisting_files": 476, "changed": 0, "method": "运行前后逐文件SHA-256对比"},
+  "credential_scan": {"result": "PASS", "scope": "显式本轮提交文件中的Bearer长串和凭据赋值模式；未读取或输出密钥"},
+  "verification_limits": ["文字证据校验不等于媒体或产品能力验证", "未测试本账号读者效果", "未记录逐付费请求尝试数，不能保证脚本内部无重试" ]
+}

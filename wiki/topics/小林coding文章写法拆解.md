@@ -3,9 +3,9 @@ title: 小林coding文章写法拆解
 type: topic
 tags: [公众号, 对标拆解, 小林coding]
 status: 进行中
-sources: ["raw/article/小林coding/WorkBuddy拿下双榜第一！腾讯这次把Harness玩明白了.md", "raw/article/小林coding/腾讯 WorkBuddy 重大更新来了，夯爆了！.md", "raw/article/小林coding/DeepSeek Harness发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Loop Engineering 已死，Graph Engineering 永生.md", "raw/article/小林coding/我反问面试官：“你知道Codex记忆机制是怎么实现的吗？”，他：“不知道”，我：“我教你，我看过源码”.md", "raw/article/小林coding/梁圣杀回来了！DeepSeek新模型发布，爆肝实测一天，性价比杀穿全场.md", "raw/article/小林coding/Gemini 4 Argon 震撼上线！拳打Opus 5.5，脚踢GPT-6 Astra，再也不是哈基米了。.md", "raw/article/小林coding/GLM-5.3发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Qwen3.8-Flash发布，新斩杀线！熬夜爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/面试官皱眉：“你看过 Claude Opus 5 系统提示词吗？”，我笑了：“刚看过，需要向我请教什么？”，他：“来，开始你的表演”.md", "raw/article/小林coding/雷达-2026-10-27/实测 Kimi K3.1 Pro，依旧是国模一哥，但有点想吐槽！-d89a494af3.md", "raw/article/小林coding/雷达-2026-10-28/豆包工作太好用了，造出来的重力实验室，颠覆了一整代人的物理课。-b3dbe36acc.md", "raw/article/小林coding/雷达-2026-10-29/用了WorkBuddy这个神级插件，我彻底解放双手了-50aad97374.md"]
+sources: ["raw/article/小林coding/WorkBuddy拿下双榜第一！腾讯这次把Harness玩明白了.md", "raw/article/小林coding/腾讯 WorkBuddy 重大更新来了，夯爆了！.md", "raw/article/小林coding/DeepSeek Harness发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Loop Engineering 已死，Graph Engineering 永生.md", "raw/article/小林coding/我反问面试官：“你知道Codex记忆机制是怎么实现的吗？”，他：“不知道”，我：“我教你，我看过源码”.md", "raw/article/小林coding/梁圣杀回来了！DeepSeek新模型发布，爆肝实测一天，性价比杀穿全场.md", "raw/article/小林coding/Gemini 4 Argon 震撼上线！拳打Opus 5.5，脚踢GPT-6 Astra，再也不是哈基米了。.md", "raw/article/小林coding/GLM-5.3发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Qwen3.8-Flash发布，新斩杀线！熬夜爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/面试官皱眉：“你看过 Claude Opus 5 系统提示词吗？”，我笑了：“刚看过，需要向我请教什么？”，他：“来，开始你的表演”.md", "raw/article/小林coding/雷达-2026-10-27/实测 Kimi K3.1 Pro，依旧是国模一哥，但有点想吐槽！-d89a494af3.md", "raw/article/小林coding/雷达-2026-10-28/豆包工作太好用了，造出来的重力实验室，颠覆了一整代人的物理课。-b3dbe36acc.md", "raw/article/小林coding/雷达-2026-10-29/用了WorkBuddy这个神级插件，我彻底解放双手了-50aad97374.md", "raw/article/小林coding/雷达-2026-11-01/Anthropic直接掀桌：Code Review不再留给人-0844cd6d54.md", "raw/article/小林coding/雷达-2026-11-01/淘汰Java岗，中国又一新兴岗位崛起！这将是程序员未来10年最好的方向。-0c8f44d39a.md", "raw/article/小林coding/雷达-2026-11-01/Opus 5.5 太烧 Token？可能是你的提示词在拖后腿-392246c3e2.md", "raw/article/小林coding/雷达-2026-11-01/10亿Token免费薅！纯血国产模型杀到，跑Claude Code实测真香-351737976e.md"]
 created: 2026-10-23
-updated: 2026-10-29
+updated: 2026-11-01
 ---
 
 # 小林coding文章写法拆解
@@ -135,3 +135,24 @@ GLM自审发现并非穷尽风险；正文后来查出的前端问题正说明�
 本轮仅1篇：[[sources/小林豆包重力实验室文章拆解]]，实操复盘。主问题是豆包工作能否把不同重力下的抛体问题做成交互网页，并测试和验证公式。已阅读raw可提取文字，图片、动图和视频未核看；按作者、原题、文章ID与内容核重，未发现已有同篇source。
 
 作者报告三轮需求、工具自测及打包故障处理，再试玩发现轨迹太小并发图要求缩放，最后按阻力、三星球、100米挑战与公式面板组织展示。可借鉴的是把变量、故障、人工反馈和验收拆开；不把工具自报测试数量当独立验证，不把“几乎不干预”误读成没有多轮人工反馈，也不把标题的“颠覆一代人的物理课”当作已证实教育效果。源码、完整提示词、费用和测试日志未核；合作披露未见，状态未知。自己的任务与验收仍待实操。
+
+## 雷达增量入口（2026-11-01）
+
+本轮仅处理`fetch-summary.json`中小林coding的4篇新增：深拆2篇、排除2篇、复用0篇；已通读四篇raw的全部可提取正文文字，图片、动图和视频未核看，未运行产品或付费调用。按原链接、作者原题与正文内容核重，未发现同篇source；与既有Opus使用手册、其他作者的星火X2.6作品分别保留，不因同产品合并。旧来源、日期与样本编号保留，本节不改变原十篇统计。
+
+| 编号 | 文章／入口 | 主分类与处置 | 主问题或排除理由 |
+| --- | --- | --- | --- |
+| XL-R1101-01 | 《Anthropic直接掀桌：Code Review不再留给人》 | 排除，仅登记 | 正文转述Claude Code团队博客及官方文档，未展示作者自己的审查实操，按纯资讯转述筛除，不建source。 |
+| XL-R1101-02 | 《淘汰Java岗，中国又一新兴岗位崛起！这将是程序员未来10年最好的方向。》 | 排除，仅登记 | 正文主交付是转岗薪资、就业保薪课程及扫码咨询，属于薪资就业推广，不作为AI实操写法样本深拆。 |
+| XL-R1101-03 | [[sources/小林Opus提示词与API成本优化文章拆解]] | 整合型，深拆 | 已有Claude API应用怎样定位重复开销，并在保留任务效果的条件下优化成本？ |
+| XL-R1101-04 | [[sources/小林星火X2.6四任务与比价核验文章拆解]] | 实操测评，深拆 | 星火接入Claude Code后四类任务能交付什么，哪些环节仍需人工核验？ |
+
+排除项原始登记：`raw/article/小林coding/雷达-2026-11-01/Anthropic直接掀桌：Code Review不再留给人-0844cd6d54.md`（2026-10-31 15:26，[原文](https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247565983&idx=1&sn=11aa647e799f1e62c0c46eb8865821cb)）；`raw/article/小林coding/雷达-2026-11-01/淘汰Java岗，中国又一新兴岗位崛起！这将是程序员未来10年最好的方向。-0c8f44d39a.md`（2026-10-30 14:12，[原文](https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247565970&idx=1&sn=867db4a4817774ab50ccadb8ad7f48ec)）。逐字筛选依据保存在`output/ai-wechat-methodology/雷达-2026-11-01/slice-xiaolin.json`，不是展开深拆。
+
+### 本轮两篇的可迁移动作与边界
+
+Opus篇从账单痛点拆成缓存、旧规则、思考强度和费用定位，逐项给例子、工具入口与适用限制，结尾按手头条件分流；值得学习的是“先分费用来源，再用同一任务验收”。所有数值实验来自官方转述，假设客服不是作者客户；没有小林自己的调用与对照结果，因此本篇不产实操案例卡，也不把官方节省比例当本账号承诺。
+
+星火篇先讲接入，再以研报、魔方、宠物后台、耳机比价展示；最后比价案例的“资格限制—异常提示—人工点开核对”比纯成品展示多一层证据。保留作者报告的429与“排名第0”，免费为限期额度、不是没有token消耗；研报财务及上市说法、商店资格、价格和渠道判断未独立核实。可借鉴核验动作，不照搬优惠催领式结尾。合作未见明确披露，两篇均记未知；无同口径传播证据，不以阅读量归因标题或结构。
+
+自己的方向均为待实操：面向AI Coding与Agent实践者，使用自有脱敏任务、获授权页面或usage记录，先明确版本、权限和验收口径；关注正确性、人工核对覆盖率与每任务真实成本，留提示词、日志、成品、修正与费用证据。测试角度及步骤留作者填写，不代测。本轮仅星火篇提供作者自述实操的概括案例卡，保存在slice供主流程合入既有案例库。

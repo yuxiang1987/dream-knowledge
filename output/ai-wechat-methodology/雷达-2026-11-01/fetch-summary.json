@@ -1,0 +1,192 @@
+{
+  "acquired_at": "2026-11-01T09:34:53+08:00",
+  "accounts": [
+    {
+      "account": "路人甲TM",
+      "username": "gh_d516081071ec",
+      "fetched": 5,
+      "added": 3,
+      "skipped_existing": 2,
+      "failed": 0,
+      "directory": "raw/article/lurenjiaTM/雷达-2026-11-01",
+      "added_articles": [
+        {
+          "id": "2247524114:1",
+          "title": "发现一个神仙Skill，轻松用WorkBuddy做科普视频，科普一切万物~",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524114&idx=1&sn=c814fa7226fdd1cee156e9ed0d108414",
+          "published": "2026-10-31 11:32",
+          "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-01/发现一个神仙Skill，轻松用WorkBuddy做科普视频，科普一切万物~-549e77ce87.md"
+        },
+        {
+          "id": "2247524077:1",
+          "title": "改稿提速5倍！用OiiOii，10分钟批量跑出N版电商投放素材",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524077&idx=1&sn=e5956f28c1b29fbf187774ea65fe217c",
+          "published": "2026-10-30 21:39",
+          "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-01/改稿提速5倍！用OiiOii，10分钟批量跑出N版电商投放素材-715a68945e.md"
+        },
+        {
+          "id": "2247523984:1",
+          "title": "LibTV疯了！三大模型0积分无限用，Seedance2.5低至0.17元/秒",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247523984&idx=1&sn=0e9c757e93798d2f3edf2e88b1890265",
+          "published": "2026-10-29 10:21",
+          "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-01/LibTV疯了！三大模型0积分无限用，Seedance2.5低至0.17元_秒-16547a88d9.md"
+        }
+      ]
+    },
+    {
+      "account": "摸鱼小李",
+      "username": "gh_3923025946c5",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/摸鱼小李/雷达-2026-11-01",
+      "added_articles": []
+    },
+    {
+      "account": "小林coding",
+      "username": "gh_fc46cf2353fc",
+      "fetched": 5,
+      "added": 4,
+      "skipped_existing": 1,
+      "failed": 0,
+      "directory": "raw/article/小林coding/雷达-2026-11-01",
+      "added_articles": [
+        {
+          "id": "2247565983:1",
+          "title": "Anthropic直接掀桌：Code Review不再留给人",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247565983&idx=1&sn=11aa647e799f1e62c0c46eb8865821cb",
+          "published": "2026-10-31 15:26",
+          "raw_path": "raw/article/小林coding/雷达-2026-11-01/Anthropic直接掀桌：Code Review不再留给人-0844cd6d54.md"
+        },
+        {
+          "id": "2247565970:1",
+          "title": "淘汰Java岗，中国又一新兴岗位崛起！这将是程序员未来10年最好的方向。",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247565970&idx=1&sn=867db4a4817774ab50ccadb8ad7f48ec",
+          "published": "2026-10-30 14:12",
+          "raw_path": "raw/article/小林coding/雷达-2026-11-01/淘汰Java岗，中国又一新兴岗位崛起！这将是程序员未来10年最好的方向。-0c8f44d39a.md"
+        },
+        {
+          "id": "2247565970:2",
+          "title": "Opus 5.5 太烧 Token？可能是你的提示词在拖后腿",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247565970&idx=2&sn=280c0a3fff4ceec12f20d8020265ea0c",
+          "published": "2026-10-30 14:12",
+          "raw_path": "raw/article/小林coding/雷达-2026-11-01/Opus 5.5 太烧 Token？可能是你的提示词在拖后腿-392246c3e2.md"
+        },
+        {
+          "id": "2247565958:1",
+          "title": "10亿Token免费薅！纯血国产模型杀到，跑Claude Code实测真香",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247565958&idx=1&sn=fc5ea49592c714b91dc1e3146d8f195e",
+          "published": "2026-10-29 10:46",
+          "raw_path": "raw/article/小林coding/雷达-2026-11-01/10亿Token免费薅！纯血国产模型杀到，跑Claude Code实测真香-351737976e.md"
+        }
+      ]
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "username": "gh_1421d5e48ca9",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/卡尔的AI沃茨/雷达-2026-11-01",
+      "added_articles": [
+        {
+          "id": "2247512710:1",
+          "title": "LibTV悄悄开源破亿AI短片画布，我决定公开拆解这些1人剧组工作流",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247512710&idx=1&sn=c4344cc80b4bc1bde687e9959f94767c",
+          "published": "2026-10-29 11:06",
+          "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-01/LibTV悄悄开源破亿AI短片画布，我决定公开拆解这些1人剧组工作流-bbd60e13f4.md"
+        }
+      ]
+    },
+    {
+      "account": "苍何",
+      "username": "gh_fdb597c42fa4",
+      "fetched": 5,
+      "added": 2,
+      "skipped_existing": 3,
+      "failed": 0,
+      "directory": "raw/article/苍何/雷达-2026-11-01",
+      "added_articles": [
+        {
+          "id": "2247500700:1",
+          "title": "我的新书冲上京东热榜第一了！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500700&idx=1&sn=92d0afd1de700f15ab82d2ace8c00e7e",
+          "published": "2026-10-30 17:10",
+          "raw_path": "raw/article/苍何/雷达-2026-11-01/我的新书冲上京东热榜第一了！-fb22993b50.md"
+        },
+        {
+          "id": "2247500656:1",
+          "title": "腾讯 Buddy One 来了，办公生态一键打通 WorkBuddy（附教程）",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500656&idx=1&sn=c1bb3fe2fecdbebaf70e83263770ade5",
+          "published": "2026-10-29 16:37",
+          "raw_path": "raw/article/苍何/雷达-2026-11-01/腾讯 Buddy One 来了，办公生态一键打通 WorkBuddy（附教程）-d76451780b.md"
+        }
+      ]
+    },
+    {
+      "account": "沉默王二",
+      "username": "gh_f0ee5948865f",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 4,
+      "failed": 1,
+      "directory": "raw/article/chenmowanger/雷达-2026-11-01",
+      "added_articles": []
+    },
+    {
+      "account": "洛洛AI说",
+      "username": "gh_426cd27710df",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/洛洛AI说/雷达-2026-11-01",
+      "added_articles": []
+    },
+    {
+      "account": "郭震AI",
+      "username": "gh_ce69fa698e90",
+      "fetched": 5,
+      "added": 2,
+      "skipped_existing": 3,
+      "failed": 0,
+      "directory": "raw/article/郭震AI/雷达-2026-11-01",
+      "added_articles": [
+        {
+          "id": "2247526044:1",
+          "title": "戴上这副AI眼镜，外国人的话直接变成眼前的字幕，太夯了！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247526044&idx=1&sn=be482a549715ec66ff3b44db41f6c748",
+          "published": "2026-10-30 21:36",
+          "raw_path": "raw/article/郭震AI/雷达-2026-11-01/戴上这副AI眼镜，外国人的话直接变成眼前的字幕，太夯了！-1df6724ca9.md"
+        },
+        {
+          "id": "2247526006:1",
+          "title": "终于能白嫖MiniMax H3、Wan3生成视频了，在LibTV爽玩到爆！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247526006&idx=1&sn=34b53dd983c26a8249ba8bb093952f42",
+          "published": "2026-10-29 23:00",
+          "raw_path": "raw/article/郭震AI/雷达-2026-11-01/终于能白嫖MiniMax H3、Wan3生成视频了，在LibTV爽玩到爆！-74af700f02.md"
+        }
+      ]
+    },
+    {
+      "account": "西羊石AI视频",
+      "username": "gh_f5c1e588b297",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/西羊石AI视频/雷达-2026-11-01",
+      "added_articles": [
+        {
+          "id": "2247545419:1",
+          "title": "连画布都不用开！我用Codex直连LibTV手搓“闪身步”短片，双11三大旗舰0积分把我刷爽了！",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247545419&idx=1&sn=703dfc86606167b67e4741ff078c72ab",
+          "published": "2026-10-29 10:38",
+          "raw_path": "raw/article/西羊石AI视频/雷达-2026-11-01/连画布都不用开！我用Codex直连LibTV手搓“闪身步”短片，双11三大旗舰0积分把我刷爽了！-b047113219.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-01",
+  "daily_command_invocations": 1,
+  "manual_paid_retries": 0,
+  "client_default_max_attempts": 3,
+  "actual_paid_request_attempt_counts": null,
+  "request_attempt_limit_caveat": "指定脚本Client.post默认tries=3；本次只启动一次daily，未再次运行付费命令，但产物未记录每个请求的尝试次数，无法证明所有付费请求均仅尝试一次。",
+  "fetch_failure": "沉默王二：1篇详情采集失败；fetch-summary未保存失败文章身份和失败原因，不推测具体文章。",
+  "existing_raw_files_checked_after_acquisition": 476,
+  "existing_raw_files_changed_after_acquisition": 0,
+  "media_scope": "只分析实际读取的本地正文文字；图片、动图、视频未核看，未执行原文命令或提示词。",
+  "reader_effect_scope": "本账号未实操产品或测试读者效果；不由阅读数归因标题或结构。"
+}

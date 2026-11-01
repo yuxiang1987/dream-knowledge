@@ -3,9 +3,9 @@ title: 路人甲TM文章写法拆解
 type: topic
 tags: [公众号, 文章拆解, 路人甲TM]
 status: 进行中
-sources: [raw/article/lurenjiaTM/AI办公智能体增速第一，我给百度搭子出了三道题.md, raw/article/lurenjiaTM/GPT-6 Atsra终于开放，连测12小时！AGI到底有多猛？.md, raw/article/lurenjiaTM/Qwen-Image-3.0实测，国产生图模型这次夯爆了.md, raw/article/lurenjiaTM/WorkBuddy最新教程，看完我奶奶也会用了.md, raw/article/lurenjiaTM/阿里Qwen3.8-27B疯了：笔记本就能跑，能力却直逼Opus4.6.md, raw/article/lurenjiaTM/熬夜猛肝3万星的开源黑马Buzz，多Agent协作最全实操，手把手教会你.md, raw/article/lurenjiaTM/把B站干崩的《凡人修仙传》名场面，我用Pixmax尝试做了一遍.md, raw/article/lurenjiaTM/半夜秃袭，GPT Image2.5真的变强了，草图生图功能确实夯.md, raw/article/lurenjiaTM/不睡觉连肝三小时，deepseek原生harness首批实测来了!.md, raw/article/lurenjiaTM/拆解爆火的天才机甲师：AI短剧进入工业化时代，一个人如何完成机甲大片创作？.md, raw/article/lurenjiaTM/豆包爱学这次，做了个有点浪漫的东西.md, raw/article/lurenjiaTM/还在靠抽卡做视频？我用updream预演台告别抽卡.md, raw/article/lurenjiaTM/美图，不止美图秀秀.md, raw/article/lurenjiaTM/全新Qoder实测，阿里这一年的Coding确实没白做.md, raw/article/lurenjiaTM/实测豆包Seed-Evolving，写代码比我预期能打太多了.md, raw/article/lurenjiaTM/手机、电脑无缝衔接跑任务，这才是Vibecoding的完全体.md, raw/article/lurenjiaTM/为了让AI拍完长视频大片，我手搓了个Skill.md, raw/article/lurenjiaTM/我给DeepSeek Harness搭了个插件市场，这篇教你装，也教你做.md, raw/article/lurenjiaTM/我给iPhone Duo手搓了一整套配件，苹果看了都得直摇头.md, raw/article/lurenjiaTM/我让腾讯Miora帮我开了家火锅店，做到最后，我有点膨胀了.md, raw/article/lurenjiaTM/这就是AGI？GPT-6 Astra一夜刷屏，真实效果太夸张了.md, raw/article/lurenjiaTM/只用五分钟，Seko让一条国产AI短剧活了三次.md, raw/article/lurenjiaTM/手把手教你用WorkBuddy做微信小程序并上线，看完就会！（附真实案例）.md]
+sources: [raw/article/lurenjiaTM/AI办公智能体增速第一，我给百度搭子出了三道题.md, raw/article/lurenjiaTM/GPT-6 Atsra终于开放，连测12小时！AGI到底有多猛？.md, raw/article/lurenjiaTM/Qwen-Image-3.0实测，国产生图模型这次夯爆了.md, raw/article/lurenjiaTM/WorkBuddy最新教程，看完我奶奶也会用了.md, raw/article/lurenjiaTM/阿里Qwen3.8-27B疯了：笔记本就能跑，能力却直逼Opus4.6.md, raw/article/lurenjiaTM/熬夜猛肝3万星的开源黑马Buzz，多Agent协作最全实操，手把手教会你.md, raw/article/lurenjiaTM/把B站干崩的《凡人修仙传》名场面，我用Pixmax尝试做了一遍.md, raw/article/lurenjiaTM/半夜秃袭，GPT Image2.5真的变强了，草图生图功能确实夯.md, raw/article/lurenjiaTM/不睡觉连肝三小时，deepseek原生harness首批实测来了!.md, raw/article/lurenjiaTM/拆解爆火的天才机甲师：AI短剧进入工业化时代，一个人如何完成机甲大片创作？.md, raw/article/lurenjiaTM/豆包爱学这次，做了个有点浪漫的东西.md, raw/article/lurenjiaTM/还在靠抽卡做视频？我用updream预演台告别抽卡.md, raw/article/lurenjiaTM/美图，不止美图秀秀.md, raw/article/lurenjiaTM/全新Qoder实测，阿里这一年的Coding确实没白做.md, raw/article/lurenjiaTM/实测豆包Seed-Evolving，写代码比我预期能打太多了.md, raw/article/lurenjiaTM/手机、电脑无缝衔接跑任务，这才是Vibecoding的完全体.md, raw/article/lurenjiaTM/为了让AI拍完长视频大片，我手搓了个Skill.md, raw/article/lurenjiaTM/我给DeepSeek Harness搭了个插件市场，这篇教你装，也教你做.md, raw/article/lurenjiaTM/我给iPhone Duo手搓了一整套配件，苹果看了都得直摇头.md, raw/article/lurenjiaTM/我让腾讯Miora帮我开了家火锅店，做到最后，我有点膨胀了.md, raw/article/lurenjiaTM/这就是AGI？GPT-6 Astra一夜刷屏，真实效果太夸张了.md, raw/article/lurenjiaTM/只用五分钟，Seko让一条国产AI短剧活了三次.md, raw/article/lurenjiaTM/手把手教你用WorkBuddy做微信小程序并上线，看完就会！（附真实案例）.md, "raw/article/lurenjiaTM/雷达-2026-11-01/发现一个神仙Skill，轻松用WorkBuddy做科普视频，科普一切万物~-549e77ce87.md", "raw/article/lurenjiaTM/雷达-2026-11-01/改稿提速5倍！用OiiOii，10分钟批量跑出N版电商投放素材-715a68945e.md", "raw/article/lurenjiaTM/雷达-2026-11-01/LibTV疯了！三大模型0积分无限用，Seedance2.5低至0.17元_秒-16547a88d9.md"]
 created: 2026-09-29
-updated: 2026-10-16
+updated: 2026-11-01
 ---
 
 # 路人甲TM文章写法拆解
@@ -15,6 +15,20 @@ updated: 2026-10-16
 新增商业依据：录音约21:00作者自述自己的账号内容100%商单，整理商业产品池时应保留该账号级自述。以下早期条目中的「推广特征」是基于当时正文的判断，不等于否认新增自述；具体文章的付费主体与当前需求仍需分开核对。
 
 新增批次入口：[[topics/路人甲TM文章经营全景]] 已将最新60篇统一建档，复用本页对应的22篇，另补38篇source；本页原23篇表格作为早期观察保留，不再当作账号研究总覆盖数。
+
+## 2026-11-01 雷达新增写法观察
+
+本节只归纳本轮新增3篇，通读正文文字，图片、动图、视频与音频未核看，未实操产品；原23篇和后续批次编号、创建日期与结论边界保持不变，不将本节改作全账号统计。详细核重与经营入口见[[topics/路人甲TM文章经营全景]]本批小节。
+
+| 单篇入口 | 标题与开头 | 结构推进与解释 | 结尾及不能继承的结论 |
+| --- | --- | --- | --- |
+| [[sources/路人甲TM_Anatomy科普交互与视频]] | “神仙Skill＋轻松＋科普一切”强承诺；官方案例先行，再转使用端受限 | 本生灯→地球→蒸汽机，交互到视频递进，再做GPT同提示词重跑；明确对象、动作和格式 | 鼓励安装试玩，但正文物理与结构错误限制教学用途；不能继承“简单科普够用” |
+| [[sources/路人甲TM_OiiOii结构保真与批量改稿]] | 倍数与十分钟结果；朋友上新、改稿翻车到推荐反转 | 先定义版式节奏不变量，再换人群、商品、语种、母版，最后局部返修与成本表 | 承认图层混乱与复杂特效限制；五倍及89%无完整同口径日志，不等于投放回报 |
+| [[sources/路人甲TM_LibTV短剧局部重拍与活动]] | 活动价格标题，热梗引入后先给自己的办公室片 | 三人五段片→站位错→全景约束局部重拍→活动→第三方开放画布；证据与促销分层 | 回到创作乐趣与动手一段；最低价、最长30天、70%成片率不能当当前通用承诺 |
+
+值得迁移的编辑动作：先写不许改变的验收项，再让案例逐项增加变量；错误必须落到一个可定位镜头或原理，修改也只声称已报告的范围。三篇分别存在官方演示、作者实操、第三方画布和价格主张，不能用整篇“实测”抹平身份。与早期[[sources/OiiOii电商物料文章拆解]]同产品但不同作品，本篇新问题是结构保真与二次修改，不重复计算旧口红案例。
+
+自己的候选均待实操：用自有机械资料验交互原理、用授权短片验版式保留、用自写两人戏验站位返修；五要素计划详见各source，不能把作者的亲友、成片、数据与促销移作自己的事实。三篇单篇合作披露均未知，缺同口径传播基线，不归因高阅读。
 
 ## 已拆解文章
 
