@@ -1,0 +1,80 @@
+{
+  "batch": "output/ai-wechat-methodology/雷达-2026-11-02",
+  "stats_dir": "output/ai-wechat-methodology/雷达-2026-11-02/stats-2026-11-02",
+  "baseline": [
+    {
+      "account": "小林coding",
+      "n": 1,
+      "median": 16743,
+      "min": 16743,
+      "max": 16743,
+      "median_like": 156,
+      "median_share": 1002,
+      "median_comment": 23
+    },
+    {
+      "account": "沉默王二",
+      "n": 1,
+      "median": 7712,
+      "min": 7712,
+      "max": 7712,
+      "median_like": 31,
+      "median_share": 470,
+      "median_comment": 30
+    }
+  ],
+  "anomalies": [],
+  "event_clusters": [],
+  "raw_without_source": [
+    "raw/article/lurenjiaTM/实测OiiOii最新Skill，这套电商组合堪称双十一王炸！.md",
+    "raw/article/lurenjiaTM/真正的双11来了！天猫预售居然免定金！.md",
+    "raw/article/小林coding/雷达-2026-11-01/Anthropic直接掀桌：Code Review不再留给人-0844cd6d54.md",
+    "raw/article/小林coding/雷达-2026-11-01/淘汰Java岗，中国又一新兴岗位崛起！这将是程序员未来10年最好的方向。-0c8f44d39a.md",
+    "raw/article/小林coding/雷达-2026-11-02/震撼，DeepSeek开源超级 Agent 架构！-73e4b9bcff.md"
+  ],
+  "case_candidates": [
+    {
+      "article": "自从吸上了 Grok bot，我已经摆脱 Claude 了。",
+      "models": [
+        "DeepSeek",
+        "Claude",
+        "Gemini",
+        "Codex"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 2,
+        "step_hits": 2
+      },
+      "raw_path": "raw/article/chenmowanger/雷达-2026-11-02/自从吸上了 Grok bot，我已经摆脱 Claude 了。-173af25aab.md",
+      "source_page": "wiki/sources/沉默王二GrokBot云端多助手分工文章拆解.md"
+    },
+    {
+      "article": "震撼，DeepSeek开源超级 Agent 架构！",
+      "models": [
+        "DeepSeek",
+        "Claude",
+        "Codex"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 3
+      },
+      "raw_path": "raw/article/小林coding/雷达-2026-11-02/震撼，DeepSeek开源超级 Agent 架构！-73e4b9bcff.md",
+      "source_page": null
+    }
+  ],
+  "median_by_account": {
+    "小林coding": 16743,
+    "沉默王二": 7712
+  }
+}

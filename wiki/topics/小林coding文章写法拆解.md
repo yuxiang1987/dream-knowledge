@@ -5,7 +5,7 @@ tags: [公众号, 对标拆解, 小林coding]
 status: 进行中
 sources: ["raw/article/小林coding/WorkBuddy拿下双榜第一！腾讯这次把Harness玩明白了.md", "raw/article/小林coding/腾讯 WorkBuddy 重大更新来了，夯爆了！.md", "raw/article/小林coding/DeepSeek Harness发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Loop Engineering 已死，Graph Engineering 永生.md", "raw/article/小林coding/我反问面试官：“你知道Codex记忆机制是怎么实现的吗？”，他：“不知道”，我：“我教你，我看过源码”.md", "raw/article/小林coding/梁圣杀回来了！DeepSeek新模型发布，爆肝实测一天，性价比杀穿全场.md", "raw/article/小林coding/Gemini 4 Argon 震撼上线！拳打Opus 5.5，脚踢GPT-6 Astra，再也不是哈基米了。.md", "raw/article/小林coding/GLM-5.3发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Qwen3.8-Flash发布，新斩杀线！熬夜爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/面试官皱眉：“你看过 Claude Opus 5 系统提示词吗？”，我笑了：“刚看过，需要向我请教什么？”，他：“来，开始你的表演”.md", "raw/article/小林coding/雷达-2026-10-27/实测 Kimi K3.1 Pro，依旧是国模一哥，但有点想吐槽！-d89a494af3.md", "raw/article/小林coding/雷达-2026-10-28/豆包工作太好用了，造出来的重力实验室，颠覆了一整代人的物理课。-b3dbe36acc.md", "raw/article/小林coding/雷达-2026-10-29/用了WorkBuddy这个神级插件，我彻底解放双手了-50aad97374.md", "raw/article/小林coding/雷达-2026-11-01/Anthropic直接掀桌：Code Review不再留给人-0844cd6d54.md", "raw/article/小林coding/雷达-2026-11-01/淘汰Java岗，中国又一新兴岗位崛起！这将是程序员未来10年最好的方向。-0c8f44d39a.md", "raw/article/小林coding/雷达-2026-11-01/Opus 5.5 太烧 Token？可能是你的提示词在拖后腿-392246c3e2.md", "raw/article/小林coding/雷达-2026-11-01/10亿Token免费薅！纯血国产模型杀到，跑Claude Code实测真香-351737976e.md"]
 created: 2026-10-23
-updated: 2026-11-01
+updated: 2026-11-02
 ---
 
 # 小林coding文章写法拆解
@@ -156,3 +156,15 @@ Opus篇从账单痛点拆成缓存、旧规则、思考强度和费用定位，�
 星火篇先讲接入，再以研报、魔方、宠物后台、耳机比价展示；最后比价案例的“资格限制—异常提示—人工点开核对”比纯成品展示多一层证据。保留作者报告的429与“排名第0”，免费为限期额度、不是没有token消耗；研报财务及上市说法、商店资格、价格和渠道判断未独立核实。可借鉴核验动作，不照搬优惠催领式结尾。合作未见明确披露，两篇均记未知；无同口径传播证据，不以阅读量归因标题或结构。
 
 自己的方向均为待实操：面向AI Coding与Agent实践者，使用自有脱敏任务、获授权页面或usage记录，先明确版本、权限和验收口径；关注正确性、人工核对覆盖率与每任务真实成本，留提示词、日志、成品、修正与费用证据。测试角度及步骤留作者填写，不代测。本轮仅星火篇提供作者自述实操的概括案例卡，保存在slice供主流程合入既有案例库。
+
+## 雷达增量入口（2026-11-02）
+
+本轮新增1篇、深拆0篇、排除登记1篇、同作品复用0篇。通读全部可提取正文文字（P1—P113），图片、动图和视频未核看；不改变上方历史样本编号与frontmatter历史来源范围。本次新增依据另列如下。
+
+| 编号 | 文章与身份 | 处置与排除理由 |
+| --- | --- | --- |
+| XL-R1102-01 | 《震撼，DeepSeek开源超级 Agent 架构！》，2026-11-01 10:46，[原文](https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247566027&idx=1&sn=2f27b6c1e510aaa16e60953f290f0494) | 只登记不深拆：全文转述DeepSeek的Super-agent设计、内部场景及压测，未展示作者本人部署或运行结果，按纯资讯转述排除，不建source或实测案例卡。 |
+
+新增依据：`raw/article/小林coding/雷达-2026-11-02/震撼，DeepSeek开源超级 Agent 架构！-73e4b9bcff.md`。P22“光看定义有点抽象，DeepSeek 内部已经跑着一个 Super-agent 实例，有两个真实场景很能说明问题。”与P46“DeepSeek 做过压测”定位场景及实验的官方转述身份；P29“假设群里有人反馈了一个 Bug。”为解释用假设场景，不是作者亲测。文末提到面试，不据此把整篇误判为面试问答；实际排除原因是纯资讯转述。
+
+仓库链接是研究入口，不是安装授权；未执行原文命令。作者赞同、工程类比及安全限制也不构成独立部署验证。未见明确合作披露，合作未知；该号本轮仅1篇互动快照，不能形成日常基线或传播因果。自动report把本篇列为案例候选只是关键词命中，人工筛选已排除，不能称带作者实测案例。

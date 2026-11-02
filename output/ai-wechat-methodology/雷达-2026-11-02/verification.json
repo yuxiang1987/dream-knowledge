@@ -1,0 +1,32 @@
+{
+  "coverage_smoke": {
+    "covered": 2,
+    "deep": 1,
+    "excluded": 1,
+    "reused": 0,
+    "case_cards": 1,
+    "result": "PASS"
+  },
+  "regression": {
+    "tests": 6,
+    "result": "PASS"
+  },
+  "wiki_lint": {
+    "result": "PASS",
+    "warnings": 6,
+    "notes": "既有6个空sources警告，页面数478含索引与日志"
+  },
+  "raw_preservation": {
+    "preexisting_files": 489,
+    "unchanged": true,
+    "new_files": 2
+  },
+  "local_report_reference_check": "PASS",
+  "same_link_source_uniqueness": "PASS",
+  "scope": {
+    "full_text_articles": 2,
+    "images_video_checked": false,
+    "own_reader_effect_tested": false
+  },
+  "paid_request_retry_guarantee": "NOT_PROVEN: Client.post默认tries=3，无逐请求尝试计数；daily仅启动一次且无手动重试。"
+}

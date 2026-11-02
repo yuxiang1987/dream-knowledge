@@ -1,0 +1,21 @@
+{
+  "daily_invocations": 1,
+  "manual_paid_retries": 0,
+  "fetch": {
+    "added": 2,
+    "skipped": 43,
+    "failed": 0
+  },
+  "stats": {
+    "success": 2,
+    "failed": 0
+  },
+  "retry_limitation": "指定ingest.py Client.post默认tries=3；仅启动一次daily，未手动重试。产物未记录逐请求尝试次数，不能证明每个付费请求仅尝试一次；本轮未修改Skill或重跑付费流程。",
+  "credentials": "只由既有load_key读取环境变量或.local/tikhub.json，未输出或复制凭据。",
+  "raw_protection": {
+    "preexisting_files": 489,
+    "sha256_unchanged": true
+  },
+  "scope": "仅fetch-summary本轮两篇；已有未提交改动和历史排除项不扩展处理。",
+  "media": "只读全部可提取文字，未核看图片、动图、视频；未代测，不验证读者效果。"
+}
