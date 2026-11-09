@@ -1,0 +1,7 @@
+{
+  "tool": "built-in image_gen",
+  "reference": "avatar-reference.png",
+  "intent": "将用户新头像延展为四动作透明像素角色表，供五款动画共用",
+  "transparent_background": true,
+  "prompt": "Create a clean production sprite sheet for a retro Super Mario style side scrolling platform game animation, using the attached avatar as the identity reference. Preserve the young friendly boy's tousled black hair, large ROUND BLACK GLASSES, blue hooded sweatshirt with a small gold star on chest, warm fair skin, smiling expression. Extend into a full body chibi pixel game character with dark navy trousers and white blue sneakers. NO Mario costume, no cap or moustache. Crisp carefully crafted 16-bit pixel art, chunky visible pixels, dark outlines. Exactly FOUR distinct sprites in a precise 2 by 2 grid, each cell equally sized; generously separate them with transparent padding. Top left: idle standing facing three-quarter RIGHT, arms at sides, both shoes on ground. Top right: running RIGHT, arms swinging and legs in stride. Bottom left: jumping RIGHT, one fist lifted above head to hit a question block, bent legs. Bottom right: victory standing front three-quarter, one arm raised waving. Same head size and body proportions in all four poses. Each sprite must be fully visible isolated, no cropping. TRUE transparent background around all sprites and between all cells; no circle, no scenery, no ground, no shadows, no text, no labels, no grid lines. Output square sheet. This is the avatar conversion and game character sheet, not a complete banner."
+}
