@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-11",
+  "daily_invocations": 1,
+  "invocation": [
+    "--root",
+    ".",
+    "daily",
+    "--accounts",
+    ".agents/skills/gzh-benchmark-radar/references/accounts.example.json",
+    "--limit",
+    "5",
+    "--date",
+    "2026-11-11"
+  ],
+  "execution": "Imported specified ingest.py and invoked main with its daily arguments; Client.post.__defaults__ set to (1,) in memory before invocation. No skill files modified.",
+  "paid_attempts_per_request": 1,
+  "manual_paid_retries": 0,
+  "credential_sources": [
+    "TIKHUB_API_KEY",
+    ".local/tikhub.json"
+  ],
+  "fetched_articles": 45,
+  "added": 32,
+  "skipped_existing": 13,
+  "fetch_failed": 0,
+  "stats_success": 21,
+  "stats_failed": 11,
+  "stats_error": "HTTP 400",
+  "preexisting_raw_files": 493,
+  "preexisting_raw_hashes_unchanged_after_collection": true,
+  "preserved_user_changes": "Initial six modified raw files and unrelated untracked materials are excluded from this task commit.",
+  "body_dedup_check": "No exact normalized visible-body repeats or >=0.65 32-character-shingle containment candidates among prior article raw files with length ratio >=0.7. Final same-work judgment remains article-by-article."
+}

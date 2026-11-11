@@ -1,0 +1,411 @@
+{
+  "date": "2026-11-11",
+  "scope": "Only this fetch-summary added_articles; no extra collection",
+  "accounts": [
+    {
+      "requested_name": "路人甲TM",
+      "username": "gh_d516081071ec",
+      "articles": [
+        {
+          "id": "2247524307:1",
+          "title": "腾讯、谷歌都在押注，世界模型到底在做什么？",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524307&idx=1&sn=a9812ccb705d32d39a82ba5d3e9cbeb9",
+          "published": "2026-11-08 11:35",
+          "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-11/腾讯、谷歌都在押注，世界模型到底在做什么？-fe3d75f827.md",
+          "raw_sha256": "ee2958975dba7b80b1716c43753d5020433282232cd235859c9f0db751c4c6ec",
+          "body_sha256": "fe3d75f827662ba1beae93d88ed681e8659c571f878f9f6f02cbc5cb19804782",
+          "visible_text_characters": 3225,
+          "primary_product": ""
+        },
+        {
+          "id": "2247524245:1",
+          "title": "从造3D城市到经营分析，美团的LongCat-2.5到底进化了多少？",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524245&idx=1&sn=ef2cf3f9bd874d31eaf668813d61bea9",
+          "published": "2026-11-06 17:41",
+          "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-11/从造3D城市到经营分析，美团的LongCat-2.5到底进化了多少？-39618c0385.md",
+          "raw_sha256": "8daa22c2e4c8caa31f7f92522407f75199e7e146b2413087d667e5630dde2f2a",
+          "body_sha256": "39618c03855188e09f2ec710e23c209a541c4acbc18838d49011cff904332692",
+          "visible_text_characters": 3885,
+          "primary_product": ""
+        },
+        {
+          "id": "2247524202:1",
+          "title": "腾讯Hy4首发实测，用Excel爆改一款游戏",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524202&idx=1&sn=fe3f72147ad18af00afa6d3ece482d16",
+          "published": "2026-11-04 20:41",
+          "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-11/腾讯Hy4首发实测，用Excel爆改一款游戏-447620c68b.md",
+          "raw_sha256": "43a9c2939ebfacbd2207a875afd980fadcf3bcb67f4f5978c49017b1619b679d",
+          "body_sha256": "447620c68b614b8e53d1a127affc180d4161f4c3ae5dde9d64c0ae8b87620cd2",
+          "visible_text_characters": 2974,
+          "primary_product": "腾讯Hy4正式版发布与实测"
+        },
+        {
+          "id": "2247524164:1",
+          "title": "WorkBuddy的这个更新，值得再强调一遍，右键直接改文件，非常丝滑！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524164&idx=1&sn=2e0dce1eff710238034d4aac8feb8fbf",
+          "published": "2026-11-02 17:43",
+          "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-11/WorkBuddy的这个更新，值得再强调一遍，右键直接改文件，非常丝滑！-5e6b632f8b.md",
+          "raw_sha256": "7a4dfaba14a57df11f8a2ae9c6794821759caa97bf492282e7bb64b9a5521f03",
+          "body_sha256": "5e6b632f8b732026839c2166e6f00184afd17d43d47f95620e6eef2eb814402a",
+          "visible_text_characters": 3025,
+          "primary_product": ""
+        }
+      ]
+    },
+    {
+      "requested_name": "摸鱼小李",
+      "username": "gh_3923025946c5",
+      "articles": [
+        {
+          "id": "2247491673:1",
+          "title": "RunningHub 把 Blender 搬进云电脑，治好了我的抽卡焦虑",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247491673&idx=1&sn=ae73baf3008b68ba2fc18db6f9e760cc",
+          "published": "2026-11-10 08:20",
+          "raw_path": "raw/article/摸鱼小李/雷达-2026-11-11/RunningHub 把 Blender 搬进云电脑，治好了我的抽卡焦虑-ff7d44e538.md",
+          "raw_sha256": "f394b09a5527f32336e1f273e4aa0efb5a3fac45aea17e15fd27e513efde83aa",
+          "body_sha256": "ff7d44e5380bcc640e7a435139c93c9156c86a16911b57307a99f39b7e3a6458",
+          "visible_text_characters": 17549,
+          "primary_product": ""
+        },
+        {
+          "id": "2247491592:1",
+          "title": "千问办公2.0实测：能和团队协作的Team Agent来了",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247491592&idx=1&sn=47c568e2f6a2133ea7aa357409f9db48",
+          "published": "2026-11-09 16:39",
+          "raw_path": "raw/article/摸鱼小李/雷达-2026-11-11/千问办公2.0实测：能和团队协作的Team Agent来了-02fd2ad75f.md",
+          "raw_sha256": "dd39ba022b4b4008d4054fbbd0af9fc763dfc873c12f8c4bbe3730268f2591cb",
+          "body_sha256": "02fd2ad75fd55e92a08ac2b10b3131f180c0dad7bad9586ed44d05df286f59d4",
+          "visible_text_characters": 2441,
+          "primary_product": ""
+        },
+        {
+          "id": "2247491537:1",
+          "title": "WorkBuddy上线自动化浏览器，能自己上网干活啦！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247491537&idx=1&sn=c737a217ff686ac1b4a4c72c70ef6820",
+          "published": "2026-11-04 13:47",
+          "raw_path": "raw/article/摸鱼小李/雷达-2026-11-11/WorkBuddy上线自动化浏览器，能自己上网干活啦！-fdd0f2855e.md",
+          "raw_sha256": "cd04a60bc820bb5c64542f89a653e790f4822964e2f80f75e41636ac29b317b3",
+          "body_sha256": "fdd0f2855eeb74f54715973486dfb795aead0d0f96798767abf8808321b8770c",
+          "visible_text_characters": 2133,
+          "primary_product": "WorkBuddy浏览器操控更新"
+        },
+        {
+          "id": "2247491433:1",
+          "title": "TRAE上线开发者个人Agent，本周免费薅！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247491433&idx=1&sn=aff129b76848ed4ea6110dc096eecc0b",
+          "published": "2026-11-02 19:24",
+          "raw_path": "raw/article/摸鱼小李/雷达-2026-11-11/TRAE上线开发者个人Agent，本周免费薅！-f38638db5a.md",
+          "raw_sha256": "568059cdc34ec87aee1b5c72186238a578e2b68837f9f8fa7a45171ee5aaefeb",
+          "body_sha256": "f38638db5a5ce644f235186f38043bebd5af6d55ead7185c545af9e24132950a",
+          "visible_text_characters": 1622,
+          "primary_product": ""
+        }
+      ]
+    },
+    {
+      "requested_name": "小林coding",
+      "username": "gh_fc46cf2353fc",
+      "articles": [
+        {
+          "id": "2247566323:1",
+          "title": "豆包工作悄悄上新功能！电脑操作录一遍，直接变成能反复用的 Skill",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247566323&idx=1&sn=bef7d126cddaee2ad2bdb2f120005054",
+          "published": "2026-11-10 10:52",
+          "raw_path": "raw/article/小林coding/雷达-2026-11-11/豆包工作悄悄上新功能！电脑操作录一遍，直接变成能反复用的 Skill-c8f5387167.md",
+          "raw_sha256": "7beafefccd4f32bede13e5bca8da3c5867ee4c02cf14582a3b3dd45ab6a3d6b0",
+          "body_sha256": "c8f5387167af2eb98e7a98ae52f337fe08d276e48bb5dbc0c4d98e4b0e700ca2",
+          "visible_text_characters": 2792,
+          "primary_product": ""
+        },
+        {
+          "id": "2247566280:1",
+          "title": "杀进决赛！这 28 支队伍把算子优化卷疯了！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247566280&idx=1&sn=e8c0c68f1f6a05993dba0de94d836482",
+          "published": "2026-11-09 17:06",
+          "raw_path": "raw/article/小林coding/雷达-2026-11-11/杀进决赛！这 28 支队伍把算子优化卷疯了！-df7b1d740f.md",
+          "raw_sha256": "0e8eb9c0b3cae64ad6241b4a33208cb7e767fb97a56fbd93b2adeb38faa0bc7a",
+          "body_sha256": "df7b1d740fd19b73b56905ae3ec8f150a61fb3f3b28f9fa449c26c9d7c4807ea",
+          "visible_text_characters": 5747,
+          "primary_product": ""
+        },
+        {
+          "id": "2247566263:1",
+          "title": "Anthropic直接劝退：慎用子 Agent！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247566263&idx=1&sn=64d3aa7b32c8ce412ff1995d5af2fd4c",
+          "published": "2026-11-08 15:26",
+          "raw_path": "raw/article/小林coding/雷达-2026-11-11/Anthropic直接劝退：慎用子 Agent！-e97495c88b.md",
+          "raw_sha256": "5e936e9cce41a7a1d41d07ede9c879874b319a70952409617c2cd005261aa8d4",
+          "body_sha256": "e97495c88be4645028ab3d6ae1a1e36584ac7ec3bcbbe61d15107c7981d61c2a",
+          "visible_text_characters": 8130,
+          "primary_product": ""
+        },
+        {
+          "id": "2247566224:1",
+          "title": "腾讯 Hy4 首发实测，杀入最强开源模型之列，WorkBuddy里免费蹬！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247566224&idx=1&sn=49fdebb5067ff533a74672c5749690bb",
+          "published": "2026-11-05 13:46",
+          "raw_path": "raw/article/小林coding/雷达-2026-11-11/腾讯 Hy4 首发实测，杀入最强开源模型之列，WorkBuddy里免费蹬！-8dfc4b7ce4.md",
+          "raw_sha256": "f4c4f6480af323658c7af06e53242d39309820e3f5847b0df3ac9dcf84dc11e2",
+          "body_sha256": "8dfc4b7ce4f0238c89000f705035563fffb646f52e60c4eb99b60db75bb6ae38",
+          "visible_text_characters": 3799,
+          "primary_product": "腾讯Hy4正式版发布与实测"
+        },
+        {
+          "id": "2247566139:1",
+          "title": "阿里版 Codex ，再次惊艳到我了！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247566139&idx=1&sn=bf3031bea686fc40f207525ddc6790c3",
+          "published": "2026-11-04 10:42",
+          "raw_path": "raw/article/小林coding/雷达-2026-11-11/阿里版 Codex ，再次惊艳到我了！-e45baa01d0.md",
+          "raw_sha256": "8d3d5beff292481aad965fc70fd39452d180433f7f895752ce681acce89ff7a0",
+          "body_sha256": "e45baa01d04dd3e9fc14637dcb5303cd109361509bf3bfbe1fba22c029c16a87",
+          "visible_text_characters": 4713,
+          "primary_product": ""
+        }
+      ]
+    },
+    {
+      "requested_name": "卡尔的AI沃茨",
+      "username": "gh_1421d5e48ca9",
+      "articles": [
+        {
+          "id": "2247513458:1",
+          "title": "三大场景横测Seedream 5.5和GPT Image 2.6，连续修改100轮都不崩还是太强了",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247513458&idx=1&sn=21742ad24d15e43e06903dba07b7c3ef",
+          "published": "2026-11-10 18:12",
+          "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-11/三大场景横测Seedream 5.5和GPT Image 2.6，连续修改100轮都不崩还是太强了-5bb3bb64e1.md",
+          "raw_sha256": "408987bd63640029fb48d8d47da67896d0501dfb82be21f6b7445ad4f5746bd5",
+          "body_sha256": "5bb3bb64e10af3cc90ba6fbe1f9a95d9303922f9de810457b4cd1fe5b1005854",
+          "visible_text_characters": 5459,
+          "primary_product": ""
+        },
+        {
+          "id": "2247513278:1",
+          "title": "实测还在灰度的GPT 6.2 sol，Opus5.5的审美霸权时代要结束了",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247513278&idx=1&sn=8869abbe2af775a220a782672bc9ede0",
+          "published": "2026-11-10 12:01",
+          "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-11/实测还在灰度的GPT 6.2 sol，Opus5.5的审美霸权时代要结束了-5f0f695c0f.md",
+          "raw_sha256": "b53b87d6982ae473616f860c3418c33265f34eba702cc13e1c0d470a611b3a51",
+          "body_sha256": "5f0f695c0ffd459a06683f9932408c6faa6cb2012937ce9f6b16bab0525e9874",
+          "visible_text_characters": 3643,
+          "primary_product": ""
+        },
+        {
+          "id": "2247513200:1",
+          "title": "史上最全GPT Image 2.6 10大GIF邪修玩法，肝了两天的我决定把提示语都公开了",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247513200&idx=1&sn=2a8d56d7bbcb0a16e2a8cf319b7e3e55",
+          "published": "2026-11-07 19:22",
+          "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-11/史上最全GPT Image 2.6 10大GIF邪修玩法，肝了两天的我决定把提示语都公开了-f62dc8a7e4.md",
+          "raw_sha256": "35e3fced81ce103f6cc6f64c289bf83bbcce608128ba92fe54ee9e3178412a7a",
+          "body_sha256": "f62dc8a7e44c567298cfa267243df7db0163499790f772df3ea144fbbc2c9b16",
+          "visible_text_characters": 4533,
+          "primary_product": ""
+        },
+        {
+          "id": "2247512876:1",
+          "title": "UI/3D/代码动画... 分享4大类能去掉AI味的新技巧",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247512876&idx=1&sn=d16f3ee7b6de41c40c63c38a81b5a73c",
+          "published": "2026-11-05 17:34",
+          "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-11/UI_3D_代码动画... 分享4大类能去掉AI味的新技巧-aac35df268.md",
+          "raw_sha256": "48b23b3315fc5224c3b107cdc484899b0adef938a387a84d5163e90aa3d02ad0",
+          "body_sha256": "aac35df2686110b701062df077aeffe941b50c5979c9c90158c45262cb687b61",
+          "visible_text_characters": 4933,
+          "primary_product": ""
+        },
+        {
+          "id": "2247512826:1",
+          "title": "在OiiOii用Opus5.5+S2.5批量复刻6类高质感视频后，这一次，传统拉片过时了",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247512826&idx=1&sn=fdd3e41e187617ba3c12a85dad0d42d9",
+          "published": "2026-11-03 20:08",
+          "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-11/在OiiOii用Opus5.5+S2.5批量复刻6类高质感视频后，这一次，传统拉片过时了-c9ce10a5cf.md",
+          "raw_sha256": "66c8da16d9de957f883b3af9c409d6867048cf00a177a33386658113104b58c3",
+          "body_sha256": "c9ce10a5cf46c99c828c06747f1a5b3d361714ae002fd2c61e7b6fe1939e8091",
+          "visible_text_characters": 3944,
+          "primary_product": ""
+        }
+      ]
+    },
+    {
+      "requested_name": "苍何",
+      "username": "gh_fdb597c42fa4",
+      "articles": [
+        {
+          "id": "2247500750:1",
+          "title": "一句话出成片，我搭了个AI视频工厂",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500750&idx=1&sn=a707b570bc5a50c704cf95a05370ef7b",
+          "published": "2026-11-10 20:14",
+          "raw_path": "raw/article/苍何/雷达-2026-11-11/一句话出成片，我搭了个AI视频工厂-42a7c42f7b.md",
+          "raw_sha256": "587b81dd91444ca57228280e2820e80630bf2afa14f6314df5b12d2e6d63d565",
+          "body_sha256": "42a7c42f7b12c2523dd093154fc093e32f7bc99cf9dd8b3d81e95739dedc93e5",
+          "visible_text_characters": 3243,
+          "primary_product": ""
+        },
+        {
+          "id": "2247500725:1",
+          "title": "办公 Agent 权威评测榜单出炉了，豆包第一",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500725&idx=1&sn=9eb85da5c8e1940db9c45cf3445642d6",
+          "published": "2026-11-05 15:58",
+          "raw_path": "raw/article/苍何/雷达-2026-11-11/办公 Agent 权威评测榜单出炉了，豆包第一-d23ae48ec7.md",
+          "raw_sha256": "3acb58004276f0087edb90b9437deeb1c5a8961f9f651c459aad94696d171c0a",
+          "body_sha256": "d23ae48ec726634f99984ec1e90eee67994179a7049d21491189e90e7bc0cdbe",
+          "visible_text_characters": 2393,
+          "primary_product": ""
+        },
+        {
+          "id": "2247500716:1",
+          "title": "DeepSeek 的 Super-agent 设计，和我们的工程实践",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500716&idx=1&sn=97587b00f9bd265776230aa8eb9c92d0",
+          "published": "2026-11-03 22:20",
+          "raw_path": "raw/article/苍何/雷达-2026-11-11/DeepSeek 的 Super-agent 设计，和我们的工程实践-6c219c10af.md",
+          "raw_sha256": "533c16b6050a05e7ada79bac65483694051792961e9d4ce532cf6f222470e258",
+          "body_sha256": "6c219c10afcfb2b4a1aefd48a4b925f3250bd17d7fb1944516931699e053b1d4",
+          "visible_text_characters": 6562,
+          "primary_product": ""
+        }
+      ]
+    },
+    {
+      "requested_name": "沉默王二",
+      "username": "gh_f0ee5948865f",
+      "articles": [
+        {
+          "id": "2247551813:1",
+          "title": "Gemini 4 Carbon 正式开放，正面硬刚 Fable 5.2。",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247551813&idx=1&sn=7decaa11eddc8a19cb04a8e5aa7e0e79",
+          "published": "2026-11-11 14:16",
+          "raw_path": "raw/article/chenmowanger/雷达-2026-11-11/Gemini 4 Carbon 正式开放，正面硬刚 Fable 5.2。-83ce724eb4.md",
+          "raw_sha256": "00ed297beb3d7189ccedf40e07d8e690258b8e3cac28d24c3c844757eec6d75b",
+          "body_sha256": "83ce724eb43098925c182d83e6c9828c527d077a6ee2ef14ce937937c4a0aee0",
+          "visible_text_characters": 3939,
+          "primary_product": ""
+        },
+        {
+          "id": "2247551769:1",
+          "title": "最适合AI编程的显示器，惊艳到我了。",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247551769&idx=1&sn=caae4636cf612270ad61e5c2d4e82405",
+          "published": "2026-11-10 14:15",
+          "raw_path": "raw/article/chenmowanger/雷达-2026-11-11/最适合AI编程的显示器，惊艳到我了。-b78fce4d17.md",
+          "raw_sha256": "263d8fb05557702a335de1dc7f314a32ab695aa86119574ec3eb7ebce0bdcad7",
+          "body_sha256": "b78fce4d1740ef5c241ce146aa82cc48d42f7ea4d296afd78dcc0a286cc33a9e",
+          "visible_text_characters": 3393,
+          "primary_product": ""
+        },
+        {
+          "id": "2247551768:1",
+          "title": "Token 不限量，Qoder 匿名模型 Qoduck 干活猛猛滴。",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247551768&idx=1&sn=ada1095fea2a09484e124487bd9effde",
+          "published": "2026-11-09 15:43",
+          "raw_path": "raw/article/chenmowanger/雷达-2026-11-11/Token 不限量，Qoder 匿名模型 Qoduck 干活猛猛滴。-1d7cda3cb6.md",
+          "raw_sha256": "3e84ab453d3f0ccb51a67052a5bb3d6471390ba23f4e630d0bbc49c89bc937e0",
+          "body_sha256": "1d7cda3cb63f7df8faa14ea651f4729281e1f17e3825f408940fa9290daf03b8",
+          "visible_text_characters": 3403,
+          "primary_product": ""
+        },
+        {
+          "id": "2247551664:1",
+          "title": "Hy4正式发布一手实测，腾讯这波起飞了。",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247551664&idx=1&sn=d6a28b1aaec193cef71455900e429ed7",
+          "published": "2026-11-06 14:00",
+          "raw_path": "raw/article/chenmowanger/雷达-2026-11-11/Hy4正式发布一手实测，腾讯这波起飞了。-843022f7db.md",
+          "raw_sha256": "3c7bae255ac8a0c98465add4489eb4e08d289d15d44bb4de4833c7cefeda8690",
+          "body_sha256": "843022f7db7bf2a530270e86fb7758dbdf9fa312df7749be03e943232b6af9a9",
+          "visible_text_characters": 5886,
+          "primary_product": "腾讯Hy4正式版发布与实测"
+        },
+        {
+          "id": "2247551619:1",
+          "title": "无敌了，纳米Work制作的第一条视频就火了",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247551619&idx=1&sn=6bf9e77697a870c0798622499dd0ee81",
+          "published": "2026-11-05 14:06",
+          "raw_path": "raw/article/chenmowanger/雷达-2026-11-11/无敌了，纳米Work制作的第一条视频就火了-d6f4a891fb.md",
+          "raw_sha256": "086d59f69b2b5466b470a464ec83bf31e608d0dbee1c6ddad1aee2b9a2aa1ab2",
+          "body_sha256": "d6f4a891fb9ade07d52ab2706eebc8220a95ccd927e49ce990df470c47efc87a",
+          "visible_text_characters": 5792,
+          "primary_product": ""
+        }
+      ]
+    },
+    {
+      "requested_name": "洛洛AI说",
+      "username": "gh_426cd27710df",
+      "articles": []
+    },
+    {
+      "requested_name": "郭震AI",
+      "username": "gh_ce69fa698e90",
+      "articles": [
+        {
+          "id": "2247526113:1",
+          "title": "浏览器里的重复操作，终于有 AI 给我全包了，太爽了！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247526113&idx=1&sn=62140946a45c60c1c4dc3f3032970d12",
+          "published": "2026-11-04 11:59",
+          "raw_path": "raw/article/郭震AI/雷达-2026-11-11/浏览器里的重复操作，终于有 AI 给我全包了，太爽了！-7ee6a784df.md",
+          "raw_sha256": "b5fa246b447922152bbbddc8723ed19f4e44b9a4889f1020e5cd1de3a234e001",
+          "body_sha256": "7ee6a784df7f16f0ac498f2282dba24857a89c723c794de72da20d0c78a347e5",
+          "visible_text_characters": 1891,
+          "primary_product": "WorkBuddy浏览器操控更新"
+        },
+        {
+          "id": "2247526109:1",
+          "title": "终于有知识库能分析你电脑里的上万文件，秒级出结果，非常方便！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247526109&idx=1&sn=2bfa999a63d7857b32f89802b3dffbaf",
+          "published": "2026-11-03 11:51",
+          "raw_path": "raw/article/郭震AI/雷达-2026-11-11/终于有知识库能分析你电脑里的上万文件，秒级出结果，非常方便！-2261abaa88.md",
+          "raw_sha256": "9ea6c92320e925019986ed208a2107f0c486ebb0fc8296a93328ddc3322bd0a4",
+          "body_sha256": "2261abaa889bb264baf6c1a568c56cd81e702438e41a42021d5081dbc26637f7",
+          "visible_text_characters": 1527,
+          "primary_product": ""
+        },
+        {
+          "id": "2247526060:1",
+          "title": "终于有一个能更懂我说话的AI了，连我想说什么都知道！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247526060&idx=1&sn=a3f52e1a80f59db693bf7a14c2935c33",
+          "published": "2026-11-02 12:22",
+          "raw_path": "raw/article/郭震AI/雷达-2026-11-11/终于有一个能更懂我说话的AI了，连我想说什么都知道！-2b14a941b1.md",
+          "raw_sha256": "4931f50a07f23d351f81eaa3adc61e31bac4c1095783b838b2da76418c40a65e",
+          "body_sha256": "2b14a941b14befa12ca1bff3dd58369e0e83c4cc3c310fb0339cfec5ca77c2bb",
+          "visible_text_characters": 2967,
+          "primary_product": ""
+        }
+      ]
+    },
+    {
+      "requested_name": "西羊石AI视频",
+      "username": "gh_f5c1e588b297",
+      "articles": [
+        {
+          "id": "2247545602:1",
+          "title": "看了播放40亿的《持械入宋》，我用 LibTV给辛弃疾拍了一集《挑灯》（附全流程）",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247545602&idx=1&sn=12618571236cdbc32ece501c6444ede1",
+          "published": "2026-11-10 19:45",
+          "raw_path": "raw/article/西羊石AI视频/雷达-2026-11-11/看了播放40亿的《持械入宋》，我用 LibTV给辛弃疾拍了一集《挑灯》（附全流程）-983312a00c.md",
+          "raw_sha256": "57276bcf4c03da79b017258c90c17cf0e711ff3a5ed510af8e82f846bb662c2c",
+          "body_sha256": "983312a00c6ca6744fa6e3ddc7fa2eceb86acfc42866a81a9b5d9d505c1c9351",
+          "visible_text_characters": 3221,
+          "primary_product": ""
+        },
+        {
+          "id": "2247545549:1",
+          "title": "不用写代码！手把手教你用商汤小浣熊+飞书，0基础搭出全自动AI助理（附提示词）",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247545549&idx=1&sn=fd0c47c4245d6f1189fe524d05741a70",
+          "published": "2026-11-09 18:56",
+          "raw_path": "raw/article/西羊石AI视频/雷达-2026-11-11/不用写代码！手把手教你用商汤小浣熊+飞书，0基础搭出全自动AI助理（附提示词）-5ddb3a7f91.md",
+          "raw_sha256": "bc2464fd4ed7da3dfb5fc42dedc7a8a86f4fd33801fc6b8b49d2de6ac1d7e9d0",
+          "body_sha256": "5ddb3a7f91cd672a84b94dad004cfefc46c42a798cf1548715dc79f20be09fb8",
+          "visible_text_characters": 4090,
+          "primary_product": ""
+        },
+        {
+          "id": "2247545459:1",
+          "title": "绝了！腾讯 WorkBuddy 实测，一个免费 ID 打通会议、文档和知识库（附高频场景）",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247545459&idx=1&sn=6a2afa8a81655fee26e14c6e2d96a035",
+          "published": "2026-11-02 20:28",
+          "raw_path": "raw/article/西羊石AI视频/雷达-2026-11-11/绝了！腾讯 WorkBuddy 实测，一个免费 ID 打通会议、文档和知识库（附高频场景）-59205f807a.md",
+          "raw_sha256": "600b98bbef3d14783d6699d6f54affd98df651e40baa0456c723d4a53cb6e336",
+          "body_sha256": "59205f807aa654035b1ffcb6f73017c150e20150e77a71fae7b8c48f61f4f202",
+          "visible_text_characters": 2412,
+          "primary_product": ""
+        }
+      ]
+    }
+  ]
+}

@@ -5,7 +5,7 @@ tags: [公众号, 文章拆解, 路人甲TM]
 status: 进行中
 sources: [raw/article/lurenjiaTM/AI办公智能体增速第一，我给百度搭子出了三道题.md, raw/article/lurenjiaTM/GPT-6 Atsra终于开放，连测12小时！AGI到底有多猛？.md, raw/article/lurenjiaTM/Qwen-Image-3.0实测，国产生图模型这次夯爆了.md, raw/article/lurenjiaTM/WorkBuddy最新教程，看完我奶奶也会用了.md, raw/article/lurenjiaTM/阿里Qwen3.8-27B疯了：笔记本就能跑，能力却直逼Opus4.6.md, raw/article/lurenjiaTM/熬夜猛肝3万星的开源黑马Buzz，多Agent协作最全实操，手把手教会你.md, raw/article/lurenjiaTM/把B站干崩的《凡人修仙传》名场面，我用Pixmax尝试做了一遍.md, raw/article/lurenjiaTM/半夜秃袭，GPT Image2.5真的变强了，草图生图功能确实夯.md, raw/article/lurenjiaTM/不睡觉连肝三小时，deepseek原生harness首批实测来了!.md, raw/article/lurenjiaTM/拆解爆火的天才机甲师：AI短剧进入工业化时代，一个人如何完成机甲大片创作？.md, raw/article/lurenjiaTM/豆包爱学这次，做了个有点浪漫的东西.md, raw/article/lurenjiaTM/还在靠抽卡做视频？我用updream预演台告别抽卡.md, raw/article/lurenjiaTM/美图，不止美图秀秀.md, raw/article/lurenjiaTM/全新Qoder实测，阿里这一年的Coding确实没白做.md, raw/article/lurenjiaTM/实测豆包Seed-Evolving，写代码比我预期能打太多了.md, raw/article/lurenjiaTM/手机、电脑无缝衔接跑任务，这才是Vibecoding的完全体.md, raw/article/lurenjiaTM/为了让AI拍完长视频大片，我手搓了个Skill.md, raw/article/lurenjiaTM/我给DeepSeek Harness搭了个插件市场，这篇教你装，也教你做.md, raw/article/lurenjiaTM/我给iPhone Duo手搓了一整套配件，苹果看了都得直摇头.md, raw/article/lurenjiaTM/我让腾讯Miora帮我开了家火锅店，做到最后，我有点膨胀了.md, raw/article/lurenjiaTM/这就是AGI？GPT-6 Astra一夜刷屏，真实效果太夸张了.md, raw/article/lurenjiaTM/只用五分钟，Seko让一条国产AI短剧活了三次.md, raw/article/lurenjiaTM/手把手教你用WorkBuddy做微信小程序并上线，看完就会！（附真实案例）.md, "raw/article/lurenjiaTM/雷达-2026-11-01/发现一个神仙Skill，轻松用WorkBuddy做科普视频，科普一切万物~-549e77ce87.md", "raw/article/lurenjiaTM/雷达-2026-11-01/改稿提速5倍！用OiiOii，10分钟批量跑出N版电商投放素材-715a68945e.md", "raw/article/lurenjiaTM/雷达-2026-11-01/LibTV疯了！三大模型0积分无限用，Seedance2.5低至0.17元_秒-16547a88d9.md"]
 created: 2026-09-29
-updated: 2026-11-01
+updated: 2026-11-11
 ---
 
 # 路人甲TM文章写法拆解
@@ -15,6 +15,19 @@ updated: 2026-11-01
 新增商业依据：录音约21:00作者自述自己的账号内容100%商单，整理商业产品池时应保留该账号级自述。以下早期条目中的「推广特征」是基于当时正文的判断，不等于否认新增自述；具体文章的付费主体与当前需求仍需分开核对。
 
 新增批次入口：[[topics/路人甲TM文章经营全景]] 已将最新60篇统一建档，复用本页对应的22篇，另补38篇source；本页原23篇表格作为早期观察保留，不再当作账号研究总覆盖数。
+
+## 2026-11-11 雷达新增写法观察
+
+本轮4篇均含作者自述操作，深拆4、排除0、复用0；通读全部可提取文字，图片、动图、视频及声音未核看，未代测。保留下方历史编号、创建日期和sources，新raw在逐篇入口列明；详细经营与核重见[[topics/路人甲TM文章经营全景]]本批小节。
+
+| 单篇入口 | 标题、结构与结尾动作 | 本批raw |
+| --- | --- | --- |
+| [[sources/路人甲TM_世界模型分层与生蚝试玩]] | 大厂演示引入→分技术路线和交付物→驾驶／游戏／机器人应用→造梦想象。快乐生蚝是作者亲测自述，不与其余官方演示混同；退出键笑点不代表技术已落地 | `raw/article/lurenjiaTM/雷达-2026-11-11/腾讯、谷歌都在押注，世界模型到底在做什么？-fe3d75f827.md` |
+| [[sources/路人甲TM_LongCat2.5城市与经营分析]] | 跑分建立期待再问能干多少活→街景3D→活动系统→虚构经营数据。结尾不急替代旧模型；产品页面、真实后端和账目准确要分开验 | `raw/article/lurenjiaTM/雷达-2026-11-11/从造3D城市到经营分析，美团的LongCat-2.5到底进化了多少？-39618c0385.md` |
+| [[sources/路人甲TM_Hy4表格到游戏长程迭代]] | 发布时效→公式能算但不合观看预期→网页动画与美术迭代→视觉和电脑操作。保留多轮人工需求、各例耗时与环境影响，结尾限免不当当前承诺 | `raw/article/lurenjiaTM/雷达-2026-11-11/腾讯Hy4首发实测，用Excel爆改一款游戏-447620c68b.md` |
+| [[sources/路人甲TM_WorkBuddy原位改稿与保存边界]] | 复制切窗痛点→Office局部／批注／数据→MD和HTML→协作→格式限制→福利和互动。把手动与自动保存的例外紧挨成果写，不泛化隐私保证 | `raw/article/lurenjiaTM/雷达-2026-11-11/WorkBuddy的这个更新，值得再强调一遍，右键直接改文件，非常丝滑！-5e6b632f8b.md` |
+
+本批可学的是按输出类型和验收对象解释新能力，用实际需求错位推进改稿，把不能交付什么与保存例外显式写出；不能继承作者速度、成本、准确率、作品授权和普遍能力结论。各source区分作者亲测自述、官方／第三方资料及作者解释，均列至少两处真实锚点。自己的五要素方向待实操，案例卡已合入[[topics/AI写作案例库]]；单篇合作未知，未验证本账号读者效果，也不以高阅读推断结构因果。
 
 ## 2026-11-01 雷达新增写法观察
 

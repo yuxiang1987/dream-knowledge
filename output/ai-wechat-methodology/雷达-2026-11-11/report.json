@@ -1,0 +1,575 @@
+{
+  "batch": "output/ai-wechat-methodology/雷达-2026-11-11",
+  "stats_dir": "output/ai-wechat-methodology/雷达-2026-11-11/stats-2026-11-11",
+  "baseline": [
+    {
+      "account": "路人甲TM",
+      "n": 2,
+      "median": 12236,
+      "min": 11098,
+      "max": 13375,
+      "median_like": 64,
+      "median_share": 235,
+      "median_comment": 12
+    },
+    {
+      "account": "摸鱼小李",
+      "n": 2,
+      "median": 7564,
+      "min": 7252,
+      "max": 7877,
+      "median_like": 79,
+      "median_share": 421,
+      "median_comment": 16
+    },
+    {
+      "account": "小林coding",
+      "n": 3,
+      "median": 9510,
+      "min": 7472,
+      "max": 21754,
+      "median_like": 33,
+      "median_share": 294,
+      "median_comment": 8
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "n": 3,
+      "median": 12477,
+      "min": 10942,
+      "max": 13231,
+      "median_like": 242,
+      "median_share": 1022,
+      "median_comment": 25
+    },
+    {
+      "account": "苍何",
+      "n": 1,
+      "median": 21558,
+      "min": 21558,
+      "max": 21558,
+      "median_like": 124,
+      "median_share": 1585,
+      "median_comment": 28
+    },
+    {
+      "account": "沉默王二",
+      "n": 4,
+      "median": 6875,
+      "min": 1682,
+      "max": 11560,
+      "median_like": 12,
+      "median_share": 157,
+      "median_comment": 21
+    },
+    {
+      "account": "郭震AI",
+      "n": 3,
+      "median": 21064,
+      "min": 19392,
+      "max": 54497,
+      "median_like": 33,
+      "median_share": 254,
+      "median_comment": 15
+    },
+    {
+      "account": "西羊石AI视频",
+      "n": 3,
+      "median": 16465,
+      "min": 12008,
+      "max": 33566,
+      "median_like": 98,
+      "median_share": 450,
+      "median_comment": 7
+    }
+  ],
+  "anomalies": [
+    {
+      "account": "郭震AI",
+      "title": "浏览器里的重复操作，终于有 AI 给我全包了，太爽了！",
+      "read_num": 54497,
+      "ratio": 2.59,
+      "share_count": 254,
+      "comment_count": 15
+    },
+    {
+      "account": "小林coding",
+      "title": "阿里版 Codex ，再次惊艳到我了！",
+      "read_num": 21754,
+      "ratio": 2.29,
+      "share_count": 404,
+      "comment_count": 39
+    },
+    {
+      "account": "西羊石AI视频",
+      "title": "看了播放40亿的《持械入宋》，我用 LibTV给辛弃疾拍了一集《挑灯》（附全流程）",
+      "read_num": 33566,
+      "ratio": 2.04,
+      "share_count": 1081,
+      "comment_count": 48
+    }
+  ],
+  "event_clusters": [
+    {
+      "object": "腾讯Hy4正式版发布与实测",
+      "articles": 3,
+      "accounts": [
+        "小林coding",
+        "沉默王二",
+        "路人甲TM"
+      ],
+      "span_days": 2,
+      "from": "2026-11-04",
+      "to": "2026-11-06"
+    },
+    {
+      "object": "WorkBuddy浏览器操控更新",
+      "articles": 2,
+      "accounts": [
+        "摸鱼小李",
+        "郭震AI"
+      ],
+      "span_days": 0,
+      "from": "2026-11-04",
+      "to": "2026-11-04"
+    }
+  ],
+  "raw_without_source": [
+    "raw/article/lurenjiaTM/实测OiiOii最新Skill，这套电商组合堪称双十一王炸！.md",
+    "raw/article/lurenjiaTM/真正的双11来了！天猫预售居然免定金！.md",
+    "raw/article/小林coding/雷达-2026-11-01/Anthropic直接掀桌：Code Review不再留给人-0844cd6d54.md",
+    "raw/article/小林coding/雷达-2026-11-01/淘汰Java岗，中国又一新兴岗位崛起！这将是程序员未来10年最好的方向。-0c8f44d39a.md",
+    "raw/article/小林coding/雷达-2026-11-02/震撼，DeepSeek开源超级 Agent 架构！-73e4b9bcff.md",
+    "raw/article/小林coding/雷达-2026-11-11/Anthropic直接劝退：慎用子 Agent！-e97495c88b.md"
+  ],
+  "case_candidates": [
+    {
+      "article": "Gemini 4 Carbon 正式开放，正面硬刚 Fable 5.2。",
+      "models": [
+        "Gemini",
+        "Claude",
+        "Opus"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 0
+      },
+      "raw_path": "raw/article/chenmowanger/雷达-2026-11-11/Gemini 4 Carbon 正式开放，正面硬刚 Fable 5.2。-83ce724eb4.md",
+      "source_page": "wiki/sources/沉默王二Carbon展厅亲测与官方案例文章拆解.md"
+    },
+    {
+      "article": "Hy4正式发布一手实测，腾讯这波起飞了。",
+      "models": [
+        "WorkBuddy",
+        "DeepSeek",
+        "Kimi"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 2,
+        "step_hits": 4
+      },
+      "raw_path": "raw/article/chenmowanger/雷达-2026-11-11/Hy4正式发布一手实测，腾讯这波起飞了。-843022f7db.md",
+      "source_page": "wiki/sources/沉默王二Hy4五任务与截图纠错文章拆解.md"
+    },
+    {
+      "article": "Token 不限量，Qoder 匿名模型 Qoduck 干活猛猛滴。",
+      "models": [
+        "Opus",
+        "Qwen"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 5,
+        "step_hits": 2
+      },
+      "raw_path": "raw/article/chenmowanger/雷达-2026-11-11/Token 不限量，Qoder 匿名模型 Qoduck 干活猛猛滴。-1d7cda3cb6.md",
+      "source_page": "wiki/sources/沉默王二Qoduck四任务返工与隔离文章拆解.md"
+    },
+    {
+      "article": "无敌了，纳米Work制作的第一条视频就火了",
+      "models": [
+        "Seedance",
+        "Codex",
+        "Opus",
+        "Kimi"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 2,
+        "step_hits": 1
+      },
+      "raw_path": "raw/article/chenmowanger/雷达-2026-11-11/无敌了，纳米Work制作的第一条视频就火了-d6f4a891fb.md",
+      "source_page": "wiki/sources/沉默王二纳米Work视频与教学网页文章拆解.md"
+    },
+    {
+      "article": "从造3D城市到经营分析，美团的LongCat-2.5到底进化了多少？",
+      "models": [
+        "Claude",
+        "Opus",
+        "GPT"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 4,
+        "step_hits": 0
+      },
+      "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-11/从造3D城市到经营分析，美团的LongCat-2.5到底进化了多少？-39618c0385.md",
+      "source_page": "wiki/sources/路人甲TM_LongCat2.5城市与经营分析.md"
+    },
+    {
+      "article": "腾讯Hy4首发实测，用Excel爆改一款游戏",
+      "models": [
+        "WorkBuddy",
+        "DeepSeek"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 2
+      },
+      "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-11/腾讯Hy4首发实测，用Excel爆改一款游戏-447620c68b.md",
+      "source_page": "wiki/sources/路人甲TM_Hy4表格到游戏长程迭代.md"
+    },
+    {
+      "article": "三大场景横测Seedream 5.5和GPT Image 2.6，连续修改100轮都不崩还是太强了",
+      "models": [
+        "Seedream",
+        "GPT",
+        "即梦",
+        "豆包"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 3
+      },
+      "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-11/三大场景横测Seedream 5.5和GPT Image 2.6，连续修改100轮都不崩还是太强了-5bb3bb64e1.md",
+      "source_page": "wiki/sources/卡尔Seedream多轮编辑与分层工作流文章拆解.md"
+    },
+    {
+      "article": "史上最全GPT Image 2.6 10大GIF邪修玩法，肝了两天的我决定把提示语都公开了",
+      "models": [
+        "Opus",
+        "GPT"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 2,
+        "step_hits": 1
+      },
+      "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-11/史上最全GPT Image 2.6 10大GIF邪修玩法，肝了两天的我决定把提示语都公开了-f62dc8a7e4.md",
+      "source_page": "wiki/sources/卡尔Image动图玩法与一致性边界文章拆解.md"
+    },
+    {
+      "article": "在OiiOii用Opus5.5+S2.5批量复刻6类高质感视频后，这一次，传统拉片过时了",
+      "models": [
+        "Seedance",
+        "OiiOii",
+        "Opus"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 1
+      },
+      "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-11/在OiiOii用Opus5.5+S2.5批量复刻6类高质感视频后，这一次，传统拉片过时了-c9ce10a5cf.md",
+      "source_page": "wiki/sources/卡尔OiiOii六类复刻与中间工程文章拆解.md"
+    },
+    {
+      "article": "实测还在灰度的GPT 6.2 sol，Opus5.5的审美霸权时代要结束了",
+      "models": [
+        "Seedance",
+        "DeepSeek",
+        "Claude",
+        "Codex"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 2
+      },
+      "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-11/实测还在灰度的GPT 6.2 sol，Opus5.5的审美霸权时代要结束了-5f0f695c0f.md",
+      "source_page": "wiki/sources/卡尔疑似GPTSol灰度审美多任务文章拆解.md"
+    },
+    {
+      "article": "Anthropic直接劝退：慎用子 Agent！",
+      "models": [
+        "Claude",
+        "Opus"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 2,
+        "step_hits": 2
+      },
+      "raw_path": "raw/article/小林coding/雷达-2026-11-11/Anthropic直接劝退：慎用子 Agent！-e97495c88b.md",
+      "source_page": null
+    },
+    {
+      "article": "腾讯 Hy4 首发实测，杀入最强开源模型之列，WorkBuddy里免费蹬！",
+      "models": [
+        "WorkBuddy",
+        "DeepSeek",
+        "Codex",
+        "Kimi"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 4,
+        "step_hits": 2
+      },
+      "raw_path": "raw/article/小林coding/雷达-2026-11-11/腾讯 Hy4 首发实测，杀入最强开源模型之列，WorkBuddy里免费蹬！-8dfc4b7ce4.md",
+      "source_page": "wiki/sources/小林Hy4视觉任务与简历上线验收文章拆解.md"
+    },
+    {
+      "article": "豆包工作悄悄上新功能！电脑操作录一遍，直接变成能反复用的 Skill",
+      "models": [
+        "豆包"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 4,
+        "step_hits": 1
+      },
+      "raw_path": "raw/article/小林coding/雷达-2026-11-11/豆包工作悄悄上新功能！电脑操作录一遍，直接变成能反复用的 Skill-c8f5387167.md",
+      "source_page": "wiki/sources/小林豆包录制技能跨站复用与下载验收文章拆解.md"
+    },
+    {
+      "article": "阿里版 Codex ，再次惊艳到我了！",
+      "models": [
+        "DeepSeek",
+        "MiniMax",
+        "Codex",
+        "Kimi"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 2
+      },
+      "raw_path": "raw/article/小林coding/雷达-2026-11-11/阿里版 Codex ，再次惊艳到我了！-e45baa01d0.md",
+      "source_page": "wiki/sources/小林QoderCN站点与三任务自验文章拆解.md"
+    },
+    {
+      "article": "RunningHub 把 Blender 搬进云电脑，治好了我的抽卡焦虑",
+      "models": [
+        "Seedance",
+        "即梦"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 1
+      },
+      "raw_path": "raw/article/摸鱼小李/雷达-2026-11-11/RunningHub 把 Blender 搬进云电脑，治好了我的抽卡焦虑-ff7d44e538.md",
+      "source_page": "wiki/sources/摸鱼小李_RunningHub云白模与打戏预演.md"
+    },
+    {
+      "article": "WorkBuddy上线自动化浏览器，能自己上网干活啦！",
+      "models": [
+        "WorkBuddy",
+        "DeepSeek"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 2,
+        "step_hits": 1
+      },
+      "raw_path": "raw/article/摸鱼小李/雷达-2026-11-11/WorkBuddy上线自动化浏览器，能自己上网干活啦！-fdd0f2855e.md",
+      "source_page": "wiki/sources/摸鱼小李_WorkBuddy浏览器四场景与提交确认.md"
+    },
+    {
+      "article": "千问办公2.0实测：能和团队协作的Team Agent来了",
+      "models": [],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 3
+      },
+      "raw_path": "raw/article/摸鱼小李/雷达-2026-11-11/千问办公2.0实测：能和团队协作的Team Agent来了-02fd2ad75f.md",
+      "source_page": "wiki/sources/摸鱼小李_千问TeamAgent协作与活动工具.md"
+    },
+    {
+      "article": "DeepSeek 的 Super-agent 设计，和我们的工程实践",
+      "models": [
+        "DeepSeek",
+        "Claude",
+        "Codex",
+        "GPT"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 4,
+        "step_hits": 1
+      },
+      "raw_path": "raw/article/苍何/雷达-2026-11-11/DeepSeek 的 Super-agent 设计，和我们的工程实践-6c219c10af.md",
+      "source_page": "wiki/sources/苍何LobeHub团队交接巡检与复核边界文章拆解.md"
+    },
+    {
+      "article": "一句话出成片，我搭了个AI视频工厂",
+      "models": [
+        "MiniMax",
+        "Claude",
+        "Opus",
+        "GPT"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 4,
+        "step_hits": 2
+      },
+      "raw_path": "raw/article/苍何/雷达-2026-11-11/一句话出成片，我搭了个AI视频工厂-42a7c42f7b.md",
+      "source_page": "wiki/sources/苍何MiniMax视频工作台双路线与检查成本文章拆解.md"
+    },
+    {
+      "article": "不用写代码！手把手教你用商汤小浣熊+飞书，0基础搭出全自动AI助理（附提示词）",
+      "models": [],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 0
+      },
+      "raw_path": "raw/article/西羊石AI视频/雷达-2026-11-11/不用写代码！手把手教你用商汤小浣熊+飞书，0基础搭出全自动AI助理（附提示词）-5ddb3a7f91.md",
+      "source_page": "wiki/sources/西羊石小浣熊飞书主动待办助理文章拆解.md"
+    },
+    {
+      "article": "绝了！腾讯 WorkBuddy 实测，一个免费 ID 打通会议、文档和知识库（附高频场景）",
+      "models": [
+        "WorkBuddy"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 2
+      },
+      "raw_path": "raw/article/西羊石AI视频/雷达-2026-11-11/绝了！腾讯 WorkBuddy 实测，一个免费 ID 打通会议、文档和知识库（附高频场景）-59205f807a.md",
+      "source_page": "wiki/sources/西羊石BuddyOne备课答疑与爬山规划文章拆解.md"
+    },
+    {
+      "article": "浏览器里的重复操作，终于有 AI 给我全包了，太爽了！",
+      "models": [
+        "WorkBuddy"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 2
+      },
+      "raw_path": "raw/article/郭震AI/雷达-2026-11-11/浏览器里的重复操作，终于有 AI 给我全包了，太爽了！-7ee6a784df.md",
+      "source_page": "wiki/sources/郭震WorkBuddy浏览器三任务实测文章拆解.md"
+    }
+  ],
+  "median_by_account": {
+    "路人甲TM": 12236,
+    "摸鱼小李": 7564,
+    "小林coding": 9510,
+    "卡尔的AI沃茨": 12477,
+    "苍何": 21558,
+    "沉默王二": 6875,
+    "郭震AI": 21064,
+    "西羊石AI视频": 16465
+  },
+  "incremental_review": {
+    "coverage": "output/ai-wechat-methodology/雷达-2026-11-11/coverage.json",
+    "covered": 32,
+    "deep": 31,
+    "excluded": 1,
+    "reused": 0,
+    "case_cards_merged": 30,
+    "case_candidate_boundary": "case_candidates保留脚本关键词命中的22条线索，不代表实测身份；实际判定和30张已合入案例卡以coverage.json为准。Anthropic子Agent转述已排除，无实测卡。",
+    "raw_without_source_boundary": "6条为本轮已登记排除1条和既有未覆盖5条；本轮需深拆者无遗漏。",
+    "event_cluster_boundary": "仅聚合人工核对的Hy4正式版与WorkBuddy浏览器更新，非全账号全事件扫描；同题不等于同一作品。",
+    "statistics_boundary": "仅新增文章中成功的21条互动快照，每号1至4条，非日常基线；11条HTTP 400未重试。",
+    "media_boundary": "只读正文文字，媒体和产品未核；不代测、不写正文、不发布。"
+  }
+}

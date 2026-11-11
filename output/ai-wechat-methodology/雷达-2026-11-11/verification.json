@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-11",
+  "daily_invocations": 1,
+  "paid_attempts_per_request": 1,
+  "fetch": {
+    "new": 32,
+    "skipped": 13,
+    "failed": 0
+  },
+  "stats": {
+    "success": 21,
+    "failed": 11,
+    "error": "HTTP 400",
+    "retried": false
+  },
+  "incremental": {
+    "covered": 32,
+    "new_sources": 31,
+    "excluded": 1,
+    "reused": 0,
+    "case_cards": 30
+  },
+  "validate_coverage": "PASS: executed batch CLI over real files",
+  "regression_tests": {
+    "ran": 6,
+    "result": "PASS"
+  },
+  "wiki_lint": {
+    "result": "PASS",
+    "pages_including_index_and_log": 509,
+    "existing_empty_sources_warnings": 6
+  },
+  "preexisting_raw_files_checked": 493,
+  "preexisting_raw_unchanged": true,
+  "new_raw_sha256": "manifest.json and coverage.json",
+  "unique_source_ownership": "PASS",
+  "report_reconciled": "PASS",
+  "credential_exact_value_absent_from_delivery": "PASS",
+  "media_and_product_verified": false,
+  "readers_effect_tested": false,
+  "article_written": false,
+  "published": false
+}
