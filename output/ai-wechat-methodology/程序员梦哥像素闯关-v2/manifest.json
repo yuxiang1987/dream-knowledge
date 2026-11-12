@@ -1,0 +1,5410 @@
+{
+  "account": "程序员梦哥",
+  "visible_title": "折腾ai，专业踩坑",
+  "brick_words": [
+    "dream",
+    "coder"
+  ],
+  "width": 1200,
+  "height": 360,
+  "fps": 25,
+  "frame_count": 250,
+  "duration_seconds": 10,
+  "ground": 318,
+  "brick_bottom": 180,
+  "hits": [
+    3.02,
+    4.82
+  ],
+  "impacts": [
+    1.38,
+    5.86
+  ],
+  "flag_lowering": [
+    7.2,
+    7.92
+  ],
+  "reset": [
+    9,
+    10
+  ],
+  "method": "Existing character sprites, code-drawn monsters and scenery, Canvas/FFmpeg GIF",
+  "wechat_verified": false,
+  "states": [
+    {
+      "t": 0,
+      "x": 92,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 0.04,
+      "x": 92,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 0.08,
+      "x": 92,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 0.12,
+      "x": 92,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 0.16,
+      "x": 92,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 0.2,
+      "x": 92,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 0.24,
+      "x": 92,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 0.28,
+      "x": 92,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 0.32,
+      "x": 92,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 0.36,
+      "x": 92.06662058602555,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 0.4,
+      "x": 93.58377160030052,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 0.44,
+      "x": 96.8665725018783,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 0.48,
+      "x": 101.60112997746056,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 0.52,
+      "x": 107.47355071374906,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 0.56,
+      "x": 114.16994139744554,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 0.6,
+      "x": 121.37640871525169,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 0.64,
+      "x": 128.7790593538693,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 0.68,
+      "x": 136.06400000000002,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 0.72,
+      "x": 142.9173373403456,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 0.76,
+      "x": 149.02517806160782,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 0.8,
+      "x": 154.07362885048838,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 0.84,
+      "x": 157.74879639368896,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": true,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 0.88,
+      "x": 159.73678737791136,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": true,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 0.92,
+      "x": 160,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [
+        {
+          "x": 210,
+          "y": 282
+        }
+      ],
+      "shooting": true,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 0.96,
+      "x": 160,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [
+        {
+          "x": 217.82608695652172,
+          "y": 282
+        }
+      ],
+      "shooting": true,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 1,
+      "x": 160,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [
+        {
+          "x": 225.65217391304347,
+          "y": 282
+        }
+      ],
+      "shooting": true,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 1.04,
+      "x": 160,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [
+        {
+          "x": 233.47826086956522,
+          "y": 282
+        }
+      ],
+      "shooting": true,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 1.08,
+      "x": 160,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [
+        {
+          "x": 241.30434782608697,
+          "y": 282
+        }
+      ],
+      "shooting": true,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 1.12,
+      "x": 160,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [
+        {
+          "x": 249.13043478260872,
+          "y": 282
+        }
+      ],
+      "shooting": true,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 1.16,
+      "x": 160,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [
+        {
+          "x": 256.95652173913044,
+          "y": 282
+        }
+      ],
+      "shooting": true,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 1.2,
+      "x": 160,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [
+        {
+          "x": 264.7826086956522,
+          "y": 282
+        }
+      ],
+      "shooting": true,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 1.24,
+      "x": 160,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [
+        {
+          "x": 272.60869565217394,
+          "y": 282
+        }
+      ],
+      "shooting": true,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 1.28,
+      "x": 160,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [
+        {
+          "x": 280.4347826086957,
+          "y": 282
+        }
+      ],
+      "shooting": true,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 1.32,
+      "x": 160,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [
+        {
+          "x": 288.26086956521743,
+          "y": 282
+        }
+      ],
+      "shooting": true,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 1.36,
+      "x": 160,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [
+        {
+          "x": 296.0869565217392,
+          "y": 282
+        }
+      ],
+      "shooting": true,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 1.4,
+      "x": 160,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": true,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 1.44,
+      "x": 160,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": true,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 1.48,
+      "x": 160,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 1.52,
+      "x": 160.38152704733284,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 1.56,
+      "x": 163.32808978211872,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 1.6,
+      "x": 168.95121149511647,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 1.64,
+      "x": 176.96914913598795,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 1.68,
+      "x": 187.10015965439518,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 1.72,
+      "x": 199.0625,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 1.76,
+      "x": 212.57442712246433,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 1.8,
+      "x": 227.35419797145005,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 1.84,
+      "x": 243.12006949661915,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 1.88,
+      "x": 259.59029864763335,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 1.92,
+      "x": 276.4831423741548,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 1.96,
+      "x": 293.5168576258452,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 2,
+      "x": 310.4097013523667,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 2.04,
+      "x": 326.87993050338093,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 2.08,
+      "x": 342.64580202855,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 2.12,
+      "x": 357.4255728775357,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 2.16,
+      "x": 370.93750000000006,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 2.2,
+      "x": 382.89984034560484,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 2.24,
+      "x": 393.0308508640121,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 2.28,
+      "x": 401.04878850488353,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 2.32,
+      "x": 406.6719102178813,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 2.36,
+      "x": 409.61847295266716,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 2.4,
+      "x": 410,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 2.44,
+      "x": 410,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 2.48,
+      "x": 410,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 2.52,
+      "x": 410,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1.015625,
+      "sy": 0.984375,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 2.56,
+      "x": 410,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1.05,
+      "sy": 0.95,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 2.6,
+      "x": 410,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1.084375,
+      "sy": 0.9156249999999999,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 2.64,
+      "x": 410,
+      "y": 318,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 2.68,
+      "x": 410,
+      "y": 308.42659279778394,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 2.72,
+      "x": 410,
+      "y": 299.9168975069252,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 2.76,
+      "x": 410,
+      "y": 292.4709141274239,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 2.8,
+      "x": 410,
+      "y": 286.0886426592798,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 2.84,
+      "x": 410,
+      "y": 280.7700831024931,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 2.88,
+      "x": 410,
+      "y": 276.51523545706374,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 2.92,
+      "x": 410,
+      "y": 273.3240997229917,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 2.96,
+      "x": 410,
+      "y": 271.196675900277,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 3,
+      "x": 410,
+      "y": 270.13296398891964,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 3.04,
+      "x": 410,
+      "y": 270.12,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 3.08,
+      "x": 410,
+      "y": 271.08,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 3.12,
+      "x": 410,
+      "y": 273,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 3.16,
+      "x": 410,
+      "y": 275.88,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 3.2,
+      "x": 410,
+      "y": 279.72,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 3.24,
+      "x": 410,
+      "y": 284.52000000000004,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 3.28,
+      "x": 410,
+      "y": 290.28,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 3.32,
+      "x": 410,
+      "y": 296.99999999999994,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 3.36,
+      "x": 410,
+      "y": 304.67999999999995,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 3.4,
+      "x": 410,
+      "y": 313.32,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 3.44,
+      "x": 410,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1.0502272004979178,
+      "sy": 0.9497727995020822,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 3.48,
+      "x": 410,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1.086613706172933,
+      "sy": 0.9133862938270668,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 3.52,
+      "x": 411.87242798353907,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1.05196822370376,
+      "sy": 0.9480317762962401,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 3.56,
+      "x": 417.201646090535,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1.0071753143568454,
+      "sy": 0.9928246856431546,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 3.6,
+      "x": 425.55555555555554,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 3.64,
+      "x": 436.50205761316874,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 3.68,
+      "x": 449.60905349794245,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 3.72,
+      "x": 464.4444444444445,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 3.76,
+      "x": 480.5761316872427,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 3.8,
+      "x": 497.5720164609052,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 3.84,
+      "x": 514.9999999999999,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 3.88,
+      "x": 532.4279835390945,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 3.92,
+      "x": 549.4238683127571,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 3.96,
+      "x": 565.5555555555554,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 4,
+      "x": 580.3909465020577,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 4.04,
+      "x": 593.4979423868313,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 4.08,
+      "x": 604.4444444444445,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 4.12,
+      "x": 612.798353909465,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 4.16,
+      "x": 618.1275720164609,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 4.2,
+      "x": 620,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 4.24,
+      "x": 620,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 4.28,
+      "x": 620,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 4.32,
+      "x": 620,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1.015625,
+      "sy": 0.984375,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 4.36,
+      "x": 620,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1.05,
+      "sy": 0.95,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 4.4,
+      "x": 620,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1.084375,
+      "sy": 0.9156249999999999,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 4.44,
+      "x": 620,
+      "y": 318,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 4.48,
+      "x": 620,
+      "y": 308.42659279778394,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 4.52,
+      "x": 620,
+      "y": 299.91689750692535,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 4.56,
+      "x": 620,
+      "y": 292.47091412742395,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 4.6,
+      "x": 620,
+      "y": 286.0886426592799,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 4.64,
+      "x": 620,
+      "y": 280.7700831024932,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 4.68,
+      "x": 620,
+      "y": 276.5152354570638,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 4.72,
+      "x": 620,
+      "y": 273.3240997229917,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 4.76,
+      "x": 620,
+      "y": 271.19667590027706,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 4.8,
+      "x": 620,
+      "y": 270.1329639889197,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 4.84,
+      "x": 620,
+      "y": 270.12,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 4.88,
+      "x": 620,
+      "y": 271.08,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 4.92,
+      "x": 620,
+      "y": 273,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 4.96,
+      "x": 620,
+      "y": 275.88,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 5,
+      "x": 620,
+      "y": 279.71999999999997,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 5.04,
+      "x": 620,
+      "y": 284.52,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 5.08,
+      "x": 620,
+      "y": 290.28,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 5.12,
+      "x": 620,
+      "y": 296.99999999999994,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 5.16,
+      "x": 620,
+      "y": 304.67999999999995,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 5.2,
+      "x": 620,
+      "y": 313.32,
+      "pose": "jump",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 90,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 5.24,
+      "x": 620,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1.0502272004979178,
+      "sy": 0.9497727995020822,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 5.28,
+      "x": 620,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1.086613706172933,
+      "sy": 0.9133862938270668,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": true,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 5.32,
+      "x": 620,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1.05196822370376,
+      "sy": 0.9480317762962401,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": true,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 5.36,
+      "x": 620,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1.0071753143568454,
+      "sy": 0.9928246856431546,
+      "hero_height": 96,
+      "bullets": [
+        {
+          "x": 676.9230769230771,
+          "y": 282
+        }
+      ],
+      "shooting": true,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 5.4,
+      "x": 620,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [
+        {
+          "x": 690.769230769231,
+          "y": 282
+        }
+      ],
+      "shooting": true,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 5.44,
+      "x": 620,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [
+        {
+          "x": 704.6153846153848,
+          "y": 282
+        }
+      ],
+      "shooting": true,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 5.48,
+      "x": 620,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [
+        {
+          "x": 718.4615384615386,
+          "y": 282
+        }
+      ],
+      "shooting": true,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 5.52,
+      "x": 620,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [
+        {
+          "x": 732.3076923076922,
+          "y": 282
+        }
+      ],
+      "shooting": true,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 5.56,
+      "x": 620,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [
+        {
+          "x": 746.153846153846,
+          "y": 282
+        }
+      ],
+      "shooting": true,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 5.6,
+      "x": 620,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [
+        {
+          "x": 759.9999999999999,
+          "y": 282
+        }
+      ],
+      "shooting": true,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 5.64,
+      "x": 620,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [
+        {
+          "x": 773.8461538461537,
+          "y": 282
+        }
+      ],
+      "shooting": true,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 5.68,
+      "x": 620,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [
+        {
+          "x": 787.6923076923075,
+          "y": 282
+        }
+      ],
+      "shooting": true,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 5.72,
+      "x": 620,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [
+        {
+          "x": 801.5384615384614,
+          "y": 282
+        }
+      ],
+      "shooting": true,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 5.76,
+      "x": 620,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [
+        {
+          "x": 815.3846153846152,
+          "y": 282
+        }
+      ],
+      "shooting": true,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 5.8,
+      "x": 620,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [
+        {
+          "x": 829.230769230769,
+          "y": 282
+        }
+      ],
+      "shooting": true,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 5.84,
+      "x": 620,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [
+        {
+          "x": 843.0769230769229,
+          "y": 282
+        }
+      ],
+      "shooting": true,
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 5.88,
+      "x": 620,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": true,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 5.92,
+      "x": 620,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": true,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 5.96,
+      "x": 620,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 6,
+      "x": 620.3578749531354,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 6.04,
+      "x": 623.1472545878595,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 6.08,
+      "x": 628.5378738819451,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 6.12,
+      "x": 636.3334128611007,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 6.16,
+      "x": 646.3375515510348,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 6.2,
+      "x": 658.3539699774562,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 6.24,
+      "x": 672.1863481660735,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 6.28,
+      "x": 687.6383661425949,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 6.32,
+      "x": 704.5137039327292,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 6.36,
+      "x": 722.616041562185,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 6.4,
+      "x": 741.7490590566708,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 6.44,
+      "x": 761.7164364418952,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 6.48,
+      "x": 782.3218537435669,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 6.52,
+      "x": 803.3689909873937,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 6.56,
+      "x": 824.6615281990853,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 6.6,
+      "x": 846.0031454043497,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 6.64,
+      "x": 867.1975226288955,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 6.68,
+      "x": 888.0483398984313,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 6.72,
+      "x": 908.3592772386658,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 6.76,
+      "x": 927.9340146753074,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 6.8,
+      "x": 946.5762322340647,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 6.84,
+      "x": 964.0896099406461,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 6.88,
+      "x": 980.2778278207605,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 6.92,
+      "x": 994.9445659001162,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 6.96,
+      "x": 1007.893504204422,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 7,
+      "x": 1018.9283227593862,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 7.04,
+      "x": 1027.8527015907175,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 7.08,
+      "x": 1034.4703207241246,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 7.12,
+      "x": 1038.5848601853158,
+      "y": 318,
+      "pose": "run",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 7.16,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 7.2,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    },
+    {
+      "t": 7.24,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 127.23045267489712,
+      "alpha": 1
+    },
+    {
+      "t": 7.28,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 130.73251028806584,
+      "alpha": 1
+    },
+    {
+      "t": 7.32,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 136.22222222222223,
+      "alpha": 1
+    },
+    {
+      "t": 7.36,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 143.41563786008234,
+      "alpha": 1
+    },
+    {
+      "t": 7.4,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 152.02880658436217,
+      "alpha": 1
+    },
+    {
+      "t": 7.44,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 161.77777777777783,
+      "alpha": 1
+    },
+    {
+      "t": 7.48,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 172.37860082304533,
+      "alpha": 1
+    },
+    {
+      "t": 7.52,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 183.5473251028805,
+      "alpha": 1
+    },
+    {
+      "t": 7.56,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 194.99999999999983,
+      "alpha": 1
+    },
+    {
+      "t": 7.6,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 206.45267489711918,
+      "alpha": 1
+    },
+    {
+      "t": 7.64,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 217.6213991769546,
+      "alpha": 1
+    },
+    {
+      "t": 7.68,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 228.22222222222211,
+      "alpha": 1
+    },
+    {
+      "t": 7.72,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 237.97119341563777,
+      "alpha": 1
+    },
+    {
+      "t": 7.76,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 246.58436213991763,
+      "alpha": 1
+    },
+    {
+      "t": 7.8,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 253.77777777777771,
+      "alpha": 1
+    },
+    {
+      "t": 7.84,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 259.2674897119341,
+      "alpha": 1
+    },
+    {
+      "t": 7.88,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 262.76954732510285,
+      "alpha": 1
+    },
+    {
+      "t": 7.92,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 1
+    },
+    {
+      "t": 7.96,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 1
+    },
+    {
+      "t": 8,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 1
+    },
+    {
+      "t": 8.04,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 1
+    },
+    {
+      "t": 8.08,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 1
+    },
+    {
+      "t": 8.12,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 1
+    },
+    {
+      "t": 8.16,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 1
+    },
+    {
+      "t": 8.2,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 1
+    },
+    {
+      "t": 8.24,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 1
+    },
+    {
+      "t": 8.28,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 1
+    },
+    {
+      "t": 8.32,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 1
+    },
+    {
+      "t": 8.36,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 1
+    },
+    {
+      "t": 8.4,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 1
+    },
+    {
+      "t": 8.44,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 1
+    },
+    {
+      "t": 8.48,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 1
+    },
+    {
+      "t": 8.52,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 1
+    },
+    {
+      "t": 8.56,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 1
+    },
+    {
+      "t": 8.6,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 1
+    },
+    {
+      "t": 8.64,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 1
+    },
+    {
+      "t": 8.68,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 1
+    },
+    {
+      "t": 8.72,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 1
+    },
+    {
+      "t": 8.76,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 1
+    },
+    {
+      "t": 8.8,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 1
+    },
+    {
+      "t": 8.84,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 1
+    },
+    {
+      "t": 8.88,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 1
+    },
+    {
+      "t": 8.92,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 1
+    },
+    {
+      "t": 8.96,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 1
+    },
+    {
+      "t": 9,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 1
+    },
+    {
+      "t": 9.04,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 0.9818240000000007
+    },
+    {
+      "t": 9.08,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 0.9313919999999999
+    },
+    {
+      "t": 9.12,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 0.8548480000000017
+    },
+    {
+      "t": 9.16,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 0.7583359999999997
+    },
+    {
+      "t": 9.2,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 0.648000000000002
+    },
+    {
+      "t": 9.24,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 0.5299839999999993
+    },
+    {
+      "t": 9.28,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 0.4104320000000019
+    },
+    {
+      "t": 9.32,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 0.2954879999999992
+    },
+    {
+      "t": 9.36,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 0.19129600000000124
+    },
+    {
+      "t": 9.4,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 0.10399999999999932
+    },
+    {
+      "t": 9.44,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 0.03974400000000067
+    },
+    {
+      "t": 9.48,
+      "x": 1040,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "alpha": 0.0046719999999997874
+    },
+    {
+      "t": 0,
+      "x": 92,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 0.004671999999999804
+    },
+    {
+      "t": 0,
+      "x": 92,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 0.03974400000000063
+    },
+    {
+      "t": 0,
+      "x": 92,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 0.10399999999999932
+    },
+    {
+      "t": 0,
+      "x": 92,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 0.19129600000000138
+    },
+    {
+      "t": 0,
+      "x": 92,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 0.29548799999999925
+    },
+    {
+      "t": 0,
+      "x": 92,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 0.4104320000000019
+    },
+    {
+      "t": 0,
+      "x": 92,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 0.5299839999999993
+    },
+    {
+      "t": 0,
+      "x": 92,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 0.648000000000002
+    },
+    {
+      "t": 0,
+      "x": 92,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 0.7583359999999996
+    },
+    {
+      "t": 0,
+      "x": 92,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 0.8548480000000016
+    },
+    {
+      "t": 0,
+      "x": 92,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 0.9313919999999999
+    },
+    {
+      "t": 0,
+      "x": 92,
+      "y": 318,
+      "pose": "idle",
+      "sx": 1,
+      "sy": 1,
+      "hero_height": 96,
+      "bullets": [],
+      "shooting": false,
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "alpha": 1
+    }
+  ]
+}
