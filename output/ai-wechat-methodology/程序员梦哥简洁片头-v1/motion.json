@@ -1,0 +1,33 @@
+{
+  "name": "程序员梦哥",
+  "taglines": [
+    "折腾 AI",
+    "分享实用玩法"
+  ],
+  "width": 1200,
+  "height": 260,
+  "fps": 25,
+  "duration_seconds": 5.2,
+  "frame_count": 130,
+  "timeline": {
+    "a_hold": [
+      0,
+      2
+    ],
+    "a_to_b": [
+      2,
+      2.6
+    ],
+    "b_hold": [
+      2.6,
+      4.6
+    ],
+    "b_to_a": [
+      4.6,
+      5.2
+    ]
+  },
+  "avatar_source": "../程序员拾梦闯关片头五案-v1/avatar-reference.png",
+  "method": "Existing avatar, native SVG SMIL paths, Canvas/FFmpeg GIF; no new image generation",
+  "wechat_verified": false
+}
