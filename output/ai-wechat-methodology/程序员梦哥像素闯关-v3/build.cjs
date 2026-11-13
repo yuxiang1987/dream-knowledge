@@ -1,13 +1,13 @@
 const fs=require('fs'),path=require('path'),{spawnSync}=require('child_process');
 const {createCanvas,loadImage,GlobalFonts}=require('../程序员拾梦闯关片头五案-v1/node_modules/@napi-rs/canvas');
-const OUT=__dirname,W=1200,H=360,FPS=25,D=11.6,GROUND=318;
-const TAGLINE='折腾ai，专业踩坑';
+const OUT=__dirname,W=1200,H=360,FPS=25,D=11.8,GROUND=318;
+const TAGLINE='梦哥爱折腾';
 const clamp=x=>Math.max(0,Math.min(1,x));
 const ease=x=>{x=clamp(x);return x*x*(3-2*x);};
 const mix=(a,b,p)=>a+(b-a)*clamp(p);
 const hits=[3.02,4.82],impacts=[1.4,5.86];
 function state(time){
-  const t=time>=11.05?0:time;
+  const t=time>=11.22?0:time;
   let x=120,pose='idle',frame=2,sx=1,sy=1,y=GROUND;
   for(const [a,b,from,to] of [[.32,.82,120,220],[1.5,2.38,220,422],[3.58,4.2,422,642],[5.98,7,642,960]]){
     if(t>=b)x=to;else if(t>=a){x=mix(from,to,ease((t-a)/(b-a)));pose='run';frame=Math.floor((t-a)/.065)%8;y-=[0,1,4,7,0,1,4,7][frame];break;}
@@ -24,9 +24,9 @@ function state(time){
   }
   const shots=[{start:1.04,end:1.4,from:270,to:340},{start:5.34,end:5.86,from:692,to:810}];
   const bullets=shots.filter(s=>t>=s.start&&t<s.end).map(s=>({x:mix(s.from,s.to,(t-s.start)/(s.end-s.start)),y:GROUND-52}));
-  const alpha=time<10.55?1:time<11.05?1-ease((time-10.55)/.5):ease((time-11.05)/.55);
-  const merge=ease((t-7.68)/.52),bounce=t>=8.2&&t<8.55?Math.sin(Math.PI*(t-8.2)/.35)*4:0;
-  return {t,x,y,pose,frame,sx,sy,bullets,monster_alive:impacts.map(v=>t<v),unlocked:hits.map(v=>t>=v),flag_y:mix(126,264,ease((t-7.04)/.6)),merge,brick_centers:[mix(460,522,merge),mix(680,678,merge)],brick_scale:1+.2*merge,brick_y:82+18*merge-bounce,alpha};
+  const alpha=time<10.72?1:time<11.22?1-ease((time-10.72)/.5):ease((time-11.22)/.58);
+  const coins=hits.map((hit,i)=>({p:(t-hit)/.64,x:[460,680][i]})).filter(v=>v.p>=0&&v.p<1).map(v=>({...v,y:64-42*Math.sin(Math.PI*v.p)}));
+  return {t,x,y,pose,frame,sx,sy,bullets,coins,monster_alive:impacts.map(v=>t<v),unlocked:hits.map(v=>t>=v),flag_y:mix(126,264,ease((t-7.04)/.6)),brick_centers:[460,680],brick_scale:1,brick_y:82,brick_alpha:1-ease((t-7.68)/.42),title_alpha:ease((t-8.12)/.6),alpha};
 }
 async function main(){
   GlobalFonts.registerFromPath('C:/Windows/Fonts/msyhbd.ttc','CN');
@@ -64,6 +64,14 @@ async function main(){
     puff(cx,y+66,(t-hit)/.28,'#fff2a3');
     c.restore();
   }
+  function coin(v){
+    const width=Math.max(3,Math.abs(Math.cos(v.p*Math.PI*4))*13),a=1-ease((v.p-.75)/.25);
+    c.save();c.globalAlpha*=a;
+    r(v.x-width-3,v.y-10,width*2+6,20,'#b97516');r(v.x-width,v.y-15,width*2,30,'#b97516');
+    r(v.x-width+2,v.y-10,Math.max(2,width*2-4),20,'#ffdc53');r(v.x-width+3,v.y-13,Math.max(2,width*2-6),26,'#ffdc53');
+    if(width>7){r(v.x-width+4,v.y-9,3,13,'#fff8bb');r(v.x+1,v.y-8,3,17,'#df9b24');}
+    c.restore();
+  }
   function hero(s){
     const b=boxes[s.frame];
     c.save();c.translate(s.x,s.y);c.scale(s.sx,s.sy);c.imageSmoothingEnabled=false;
@@ -81,10 +89,13 @@ async function main(){
     const s=state(time);c.globalAlpha=1;r(0,0,W,H,'#9bd8ff');
     cloud(42,75,.72);cloud(1004,39,.68);cloud(756,205,.43);
     hill(-36,44,180);hill(358,34,192);hill(725,46,180);hill(1093,57,150);
-    text(TAGLINE,600,36,52,'#193d72');
-    // 两个词分别由顶砖解锁；主文案不参与重置，随时滑入也能阅读。
+    // 顶砖时金币弹出；降旗后先退砖，再显示片尾文字。
     c.save();c.globalAlpha=s.alpha;
+    c.save();c.globalAlpha*=s.brick_alpha;
+    for(const v of s.coins)coin(v);
     block(s.brick_centers[0],hits[0],s.t,'dream',s);block(s.brick_centers[1],hits[1],s.t,'coder',s);
+    c.restore();
+    c.save();c.globalAlpha*=s.title_alpha;text(TAGLINE,600,130+12*(1-s.title_alpha),76,'#193d72');c.restore();
     flag(s);
     for(const [i,x] of [340,810].entries()){
       if(s.monster_alive[i])monster(x,s.t,i);else puff(x,GROUND-24,(s.t-impacts[i])/.4,i?'#ffaf62':'#cfacff');
@@ -97,12 +108,12 @@ async function main(){
   }
   const frames=path.join(OUT,'_frames');fs.mkdirSync(frames,{recursive:true});const states=[];
   for(let i=0;i<D*FPS;i++){const t=i===D*FPS-1?0:i/FPS;states.push(state(t));scene(t);fs.writeFileSync(path.join(frames,`${String(i).padStart(4,'0')}.png`),canvas.toBuffer('image/png'));}
-  scene(8.8);fs.writeFileSync(path.join(OUT,'poster.png'),canvas.toBuffer('image/png'));
-  const contact=createCanvas(1200,5*180),sc=contact.getContext('2d');[0,1.08,2,3.02,3.46,4.82,5.4,7.3,8,8.8].forEach((t,i)=>{scene(t);sc.drawImage(canvas,(i%2)*600,Math.floor(i/2)*180,600,180);});fs.writeFileSync(path.join(OUT,'keyframes.png'),contact.toBuffer('image/png'));
-  const mobile=createCanvas(375,113);scene(8.5);mobile.getContext('2d').drawImage(canvas,0,0,375,112.5);fs.writeFileSync(path.join(OUT,'mobile.png'),mobile.toBuffer('image/png'));
+  scene(9);fs.writeFileSync(path.join(OUT,'poster.png'),canvas.toBuffer('image/png'));
+  const contact=createCanvas(1200,5*180),sc=contact.getContext('2d');[0,1.08,3.18,3.46,4.98,5.4,7.3,7.9,8.4,9].forEach((t,i)=>{scene(t);sc.drawImage(canvas,(i%2)*600,Math.floor(i/2)*180,600,180);});fs.writeFileSync(path.join(OUT,'keyframes.png'),contact.toBuffer('image/png'));
+  const mobile=createCanvas(375,113);scene(9);mobile.getContext('2d').drawImage(canvas,0,0,375,112.5);fs.writeFileSync(path.join(OUT,'mobile.png'),mobile.toBuffer('image/png'));
   const run=spawnSync('ffmpeg',['-y','-v','error','-framerate',String(FPS),'-i',path.join(frames,'%04d.png'),'-filter_complex','[0:v]split[a][b];[a]palettegen=max_colors=256:stats_mode=full[p];[b][p]paletteuse=dither=bayer:bayer_scale=3','-loop','0',path.join(OUT,'intro.gif')],{encoding:'utf8'});if(run.status!==0)throw Error(run.stderr);
-  fs.writeFileSync(path.join(OUT,'manifest.json'),JSON.stringify({account:'程序员梦哥',visible_title:TAGLINE,brick_words:['dream','coder'],width:W,height:H,fps:FPS,frame_count:D*FPS,duration_seconds:D,ground:GROUND,brick_bottom:150,hits,impacts,flag_lowering:[7.04,7.64],brand_merge:[7.68,8.55],brand_hold:[8.55,10.55],reset:[10.55,11.6],sprite_boxes:boxes,sprite_scale:scale,method:'Built-in imagegen 16-pose sheet; native Canvas timeline and FFmpeg GIF',wechat_verified:false,states},null,2)+'\n');
-  fs.writeFileSync(path.join(OUT,'preview.html'),`<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>程序员梦哥 · 像素闯关 v3</title><style>*{box-sizing:border-box}body{margin:0;background:#e9eff2;color:#2b4758;font:15px/1.8 "Microsoft YaHei",sans-serif}main{max-width:1100px;margin:28px auto;padding:28px;background:white;border-radius:16px}h1{font-size:23px;margin:0}h2{font-size:17px;margin-top:26px}p{color:#758995}img{display:block;width:100%}.phone{width:375px;max-width:100%;border:1px solid #e0e8ec}.body{padding:18px 24px}button,a{display:inline-block;margin:12px 8px 0 0;border:1px solid #d2dfe4;border-radius:6px;background:white;padding:7px 12px;color:#3d7089;font:inherit;text-decoration:none}@media(max-width:650px){main{margin:0;padding:18px}}</style><main><h1>折腾ai，专业踩坑</h1><p>炮弹打怪 → 顶出 dream → 顶出 coder → 降旗后两砖合成 dream coder，11.6秒循环。</p><img data-loop src="intro.gif" alt="像素人物发炮打怪、顶出dream和coder，最后降旗"><button onclick="document.querySelectorAll('img[data-loop]').forEach(im=>im.src='intro.gif?t='+Date.now())">从头播放</button><a href="intro.gif" download>下载 GIF</a><h2>375px 文章预览</h2><div class="phone"><img data-loop src="intro.gif" alt="375px片头预览"><div class="body"><b>你好，我是梦哥。</b><p>这里接今天的文章。</p></div></div><h2>十个动作时刻</h2><img src="keyframes.png" alt="打怪、两次顶砖与降旗关键帧"><p>本地候选；复用既有角色、代码制作GIF，公众号后台及真机效果待验收。</p></main></html>`);
+  fs.writeFileSync(path.join(OUT,'manifest.json'),JSON.stringify({account:'程序员梦哥',visible_title:TAGLINE,brick_words:['dream','coder'],width:W,height:H,fps:FPS,frame_count:D*FPS,duration_seconds:D,ground:GROUND,brick_bottom:150,hits,impacts,coin_duration:.64,flag_lowering:[7.04,7.64],brick_fade:[7.68,8.1],title_reveal:[8.12,8.72],brand_hold:[8.72,10.72],reset:[10.72,11.8],sprite_boxes:boxes,sprite_scale:scale,method:'Reused imagegen 16-pose sheet; code-drawn coin effects, Canvas timeline and FFmpeg GIF',wechat_verified:false,states},null,2)+'\n');
+  fs.writeFileSync(path.join(OUT,'preview.html'),`<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>程序员梦哥 · 像素闯关 v3</title><style>*{box-sizing:border-box}body{margin:0;background:#e9eff2;color:#2b4758;font:15px/1.8 "Microsoft YaHei",sans-serif}main{max-width:1100px;margin:28px auto;padding:28px;background:white;border-radius:16px}h1{font-size:23px;margin:0}h2{font-size:17px;margin-top:26px}p{color:#758995}img{display:block;width:100%}.phone{width:375px;max-width:100%;border:1px solid #e0e8ec}.body{padding:18px 24px}button,a{display:inline-block;margin:12px 8px 0 0;border:1px solid #d2dfe4;border-radius:6px;background:white;padding:7px 12px;color:#3d7089;font:inherit;text-decoration:none}@media(max-width:650px){main{margin:0;padding:18px}}</style><main><h1>梦哥爱折腾 · 片尾版</h1><p>炮弹打怪 → 两次顶砖弹金币 → 降旗 → 砖块退场 → 梦哥爱折腾，11.8秒循环。</p><img data-loop src="intro.gif" alt="像素人物打怪、顶砖弹金币，降旗后显示梦哥爱折腾"><button onclick="document.querySelectorAll('img[data-loop]').forEach(im=>im.src='intro.gif?t='+Date.now())">从头播放</button><a href="intro.gif" download>下载 GIF</a><h2>375px 文章预览</h2><div class="phone"><img data-loop src="intro.gif" alt="375px片头预览"><div class="body"><b>你好，我是梦哥。</b><p>这里接今天的文章。</p></div></div><h2>十个动作时刻</h2><img src="keyframes.png" alt="打怪、两次顶砖与降旗关键帧"><p>本地候选；复用既有角色、代码制作GIF，公众号后台及真机效果待验收。</p></main></html>`);
   console.log(JSON.stringify({frames:D*FPS,gif_bytes:fs.statSync(path.join(OUT,'intro.gif')).size,duration:D}));
 }
 if(require.main===module)main().catch(e=>{console.error(e);process.exitCode=1});

@@ -1,6 +1,6 @@
 {
   "account": "程序员梦哥",
-  "visible_title": "折腾ai，专业踩坑",
+  "visible_title": "梦哥爱折腾",
   "brick_words": [
     "dream",
     "coder"
@@ -8,8 +8,8 @@
   "width": 1200,
   "height": 360,
   "fps": 25,
-  "frame_count": 290,
-  "duration_seconds": 11.6,
+  "frame_count": 295,
+  "duration_seconds": 11.8,
   "ground": 318,
   "brick_bottom": 150,
   "hits": [
@@ -20,21 +20,26 @@
     1.4,
     5.86
   ],
+  "coin_duration": 0.64,
   "flag_lowering": [
     7.04,
     7.64
   ],
-  "brand_merge": [
+  "brick_fade": [
     7.68,
-    8.55
+    8.1
+  ],
+  "title_reveal": [
+    8.12,
+    8.72
   ],
   "brand_hold": [
-    8.55,
-    10.55
+    8.72,
+    10.72
   ],
   "reset": [
-    10.55,
-    11.6
+    10.72,
+    11.8
   ],
   "sprite_boxes": [
     {
@@ -151,7 +156,7 @@
     }
   ],
   "sprite_scale": 0.4169381107491857,
-  "method": "Built-in imagegen 16-pose sheet; native Canvas timeline and FFmpeg GIF",
+  "method": "Reused imagegen 16-pose sheet; code-drawn coin effects, Canvas timeline and FFmpeg GIF",
   "wechat_verified": false,
   "states": [
     {
@@ -163,6 +168,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -172,13 +178,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -190,6 +197,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -199,13 +207,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -217,6 +226,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -226,13 +236,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -244,6 +255,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -253,13 +265,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -271,6 +284,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -280,13 +294,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -298,6 +313,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -307,13 +323,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -325,6 +342,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -334,13 +352,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -352,6 +371,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -361,13 +381,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -379,6 +400,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -388,13 +410,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -406,6 +429,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -415,13 +439,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -433,6 +458,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -442,13 +468,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -460,6 +487,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -469,13 +497,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -487,6 +516,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -496,13 +526,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -514,6 +545,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -523,13 +555,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -541,6 +574,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -550,13 +584,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -568,6 +603,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -577,13 +613,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -595,6 +632,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -604,13 +642,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -622,6 +661,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -631,13 +671,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -649,6 +690,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -658,13 +700,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -676,6 +719,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -685,13 +729,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -703,6 +748,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -712,13 +758,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -730,6 +777,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -739,13 +787,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -757,6 +806,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -766,13 +816,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -784,6 +835,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -793,13 +845,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -811,6 +864,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -820,13 +874,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -838,6 +893,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -847,13 +903,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -870,6 +927,7 @@
           "y": 266
         }
       ],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -879,13 +937,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -902,6 +961,7 @@
           "y": 266
         }
       ],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -911,13 +971,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -934,6 +995,7 @@
           "y": 266
         }
       ],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -943,13 +1005,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -966,6 +1029,7 @@
           "y": 266
         }
       ],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -975,13 +1039,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -998,6 +1063,7 @@
           "y": 266
         }
       ],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -1007,13 +1073,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1030,6 +1097,7 @@
           "y": 266
         }
       ],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -1039,13 +1107,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1062,6 +1131,7 @@
           "y": 266
         }
       ],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -1071,13 +1141,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1094,6 +1165,7 @@
           "y": 266
         }
       ],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -1103,13 +1175,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1126,6 +1199,7 @@
           "y": 266
         }
       ],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -1135,13 +1209,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1153,6 +1228,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1162,13 +1238,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1180,6 +1257,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1189,13 +1267,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1207,6 +1286,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1216,13 +1296,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1234,6 +1315,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1243,13 +1325,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1261,6 +1344,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1270,13 +1354,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1288,6 +1373,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1297,13 +1383,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1315,6 +1402,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1324,13 +1412,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1342,6 +1431,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1351,13 +1441,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1369,6 +1460,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1378,13 +1470,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1396,6 +1489,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1405,13 +1499,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1423,6 +1518,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1432,13 +1528,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1450,6 +1547,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1459,13 +1557,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1477,6 +1576,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1486,13 +1586,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1504,6 +1605,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1513,13 +1615,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1531,6 +1634,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1540,13 +1644,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1558,6 +1663,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1567,13 +1673,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1585,6 +1692,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1594,13 +1702,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1612,6 +1721,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1621,13 +1731,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1639,6 +1750,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1648,13 +1760,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1666,6 +1779,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1675,13 +1789,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1693,6 +1808,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1702,13 +1818,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1720,6 +1837,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1729,13 +1847,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1747,6 +1866,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1756,13 +1876,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1774,6 +1895,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1783,13 +1905,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1801,6 +1924,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1810,13 +1934,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1828,6 +1953,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1837,13 +1963,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1855,6 +1982,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1864,13 +1992,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1882,6 +2011,7 @@
       "sx": 1.0026,
       "sy": 0.9974,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1891,13 +2021,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1909,6 +2040,7 @@
       "sx": 1.0088,
       "sy": 0.9912,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1918,13 +2050,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1936,6 +2069,7 @@
       "sx": 1.0162,
       "sy": 0.9838,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1945,13 +2079,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1963,6 +2098,7 @@
       "sx": 1.0224,
       "sy": 0.9776,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1972,13 +2108,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -1990,6 +2127,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -1999,13 +2137,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2017,6 +2156,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -2026,13 +2166,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2044,6 +2185,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -2053,13 +2195,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2071,6 +2214,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -2080,13 +2224,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2098,6 +2243,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -2107,13 +2253,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2125,6 +2272,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -2134,13 +2282,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2152,6 +2301,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -2161,13 +2311,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2179,6 +2330,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -2188,13 +2340,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2206,6 +2359,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -2215,13 +2369,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2233,6 +2388,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -2242,13 +2398,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2260,6 +2417,13 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.03125000000000003,
+          "x": 460,
+          "y": 59.88328010615845
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -2269,13 +2433,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2287,6 +2452,13 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.09375000000000008,
+          "x": 460,
+          "y": 51.80804355531257
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -2296,13 +2468,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2314,6 +2487,13 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.15625000000000014,
+          "x": 460,
+          "y": 44.20133705330808
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -2323,13 +2503,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2341,6 +2522,13 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.2187500000000002,
+          "x": 460,
+          "y": 37.35548206512687
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -2350,13 +2538,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2368,6 +2557,13 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.2812500000000002,
+          "x": 460,
+          "y": 31.53356095876503
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -2377,13 +2573,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2395,6 +2592,13 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.3437500000000003,
+          "x": 460,
+          "y": 26.959306897369075
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -2404,13 +2608,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2422,6 +2627,13 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.40624999999999967,
+          "x": 460,
+          "y": 23.808505899247237
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -2431,13 +2643,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2449,6 +2662,13 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.4687499999999997,
+          "x": 460,
+          "y": 22.202241479767736
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -2458,13 +2678,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2476,6 +2697,13 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.5312499999999998,
+          "x": 460,
+          "y": 22.20224147976773
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -2485,13 +2713,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2503,6 +2732,13 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.5937499999999998,
+          "x": 460,
+          "y": 23.808505899247216
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -2512,13 +2748,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2530,6 +2767,13 @@
       "sx": 1.0117196801161807,
       "sy": 0.9882803198838191,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.6562499999999999,
+          "x": 460,
+          "y": 26.959306897369082
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -2539,13 +2783,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2557,6 +2802,13 @@
       "sx": 1.0202098647736844,
       "sy": 0.9797901352263156,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.7187499999999999,
+          "x": 460,
+          "y": 31.53356095876503
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -2566,13 +2818,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2584,6 +2837,13 @@
       "sx": 1.0121259188642107,
       "sy": 0.9878740811357893,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.78125,
+          "x": 460,
+          "y": 37.35548206512689
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -2593,13 +2853,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2611,6 +2872,13 @@
       "sx": 1.0016742400165972,
       "sy": 0.9983257599834028,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.84375,
+          "x": 460,
+          "y": 44.201337053308094
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -2620,13 +2888,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2638,6 +2907,13 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.9062500000000001,
+          "x": 460,
+          "y": 51.8080435553126
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -2647,13 +2923,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2665,6 +2942,13 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.9687500000000001,
+          "x": 460,
+          "y": 59.883280106158466
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -2674,13 +2958,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2692,6 +2977,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -2701,13 +2987,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2719,6 +3006,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -2728,13 +3016,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2746,6 +3035,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -2755,13 +3045,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2773,6 +3064,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -2782,13 +3074,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2800,6 +3093,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -2809,13 +3103,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2827,6 +3122,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -2836,13 +3132,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2854,6 +3151,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -2863,13 +3161,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2881,6 +3180,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -2890,13 +3190,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2908,6 +3209,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -2917,13 +3219,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2935,6 +3238,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -2944,13 +3248,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2962,6 +3267,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -2971,13 +3277,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -2989,6 +3296,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -2998,13 +3306,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3016,6 +3325,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -3025,13 +3335,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3043,6 +3354,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -3052,13 +3364,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3070,6 +3383,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -3079,13 +3393,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3097,6 +3412,7 @@
       "sx": 1.0026,
       "sy": 0.9974,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -3106,13 +3422,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3124,6 +3441,7 @@
       "sx": 1.0088,
       "sy": 0.9912,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -3133,13 +3451,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3151,6 +3470,7 @@
       "sx": 1.0162,
       "sy": 0.9838,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -3160,13 +3480,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3178,6 +3499,7 @@
       "sx": 1.0224,
       "sy": 0.9776,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -3187,13 +3509,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3205,6 +3528,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -3214,13 +3538,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3232,6 +3557,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -3241,13 +3567,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3259,6 +3586,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -3268,13 +3596,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3286,6 +3615,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -3295,13 +3625,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3313,6 +3644,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -3322,13 +3654,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3340,6 +3673,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -3349,13 +3683,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3367,6 +3702,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -3376,13 +3712,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3394,6 +3731,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -3403,13 +3741,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3421,6 +3760,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -3430,13 +3770,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3448,6 +3789,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -3457,13 +3799,14 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3475,6 +3818,13 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.031249999999999334,
+          "x": 680,
+          "y": 59.883280106158544
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -3484,13 +3834,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3502,6 +3853,13 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.09374999999999939,
+          "x": 680,
+          "y": 51.80804355531266
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -3511,13 +3869,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3529,6 +3888,13 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.15624999999999944,
+          "x": 680,
+          "y": 44.201337053308166
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -3538,13 +3904,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3556,6 +3923,13 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.2187499999999995,
+          "x": 680,
+          "y": 37.35548206512694
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -3565,13 +3939,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3583,6 +3958,13 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.28124999999999956,
+          "x": 680,
+          "y": 31.533560958765086
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -3592,13 +3974,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3610,6 +3993,13 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.3437499999999996,
+          "x": 680,
+          "y": 26.959306897369117
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -3619,13 +4009,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3637,6 +4028,13 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.40624999999999967,
+          "x": 680,
+          "y": 23.808505899247237
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -3646,13 +4044,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3664,6 +4063,13 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.4687499999999997,
+          "x": 680,
+          "y": 22.202241479767736
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -3673,13 +4079,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3691,6 +4098,13 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.5312499999999998,
+          "x": 680,
+          "y": 22.20224147976773
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -3700,13 +4114,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3718,6 +4133,13 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.5937499999999998,
+          "x": 680,
+          "y": 23.808505899247216
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -3727,13 +4149,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3745,6 +4168,13 @@
       "sx": 1.0117196801161807,
       "sy": 0.9882803198838191,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.6562499999999999,
+          "x": 680,
+          "y": 26.959306897369082
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -3754,13 +4184,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3772,6 +4203,13 @@
       "sx": 1.0202098647736844,
       "sy": 0.9797901352263156,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.7187499999999999,
+          "x": 680,
+          "y": 31.53356095876503
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -3781,13 +4219,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3799,6 +4238,13 @@
       "sx": 1.0121259188642107,
       "sy": 0.9878740811357893,
       "bullets": [],
+      "coins": [
+        {
+          "p": 0.78125,
+          "x": 680,
+          "y": 37.35548206512689
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -3808,13 +4254,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3831,6 +4278,13 @@
           "y": 266
         }
       ],
+      "coins": [
+        {
+          "p": 0.84375,
+          "x": 680,
+          "y": 44.201337053308094
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -3840,13 +4294,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3863,6 +4318,13 @@
           "y": 266
         }
       ],
+      "coins": [
+        {
+          "p": 0.9062500000000001,
+          "x": 680,
+          "y": 51.8080435553126
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -3872,13 +4334,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3895,6 +4358,13 @@
           "y": 266
         }
       ],
+      "coins": [
+        {
+          "p": 0.9687500000000001,
+          "x": 680,
+          "y": 59.883280106158466
+        }
+      ],
       "monster_alive": [
         false,
         true
@@ -3904,13 +4374,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3927,6 +4398,7 @@
           "y": 266
         }
       ],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -3936,13 +4408,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3959,6 +4432,7 @@
           "y": 266
         }
       ],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -3968,13 +4442,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -3991,6 +4466,7 @@
           "y": 266
         }
       ],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -4000,13 +4476,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4023,6 +4500,7 @@
           "y": 266
         }
       ],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -4032,13 +4510,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4055,6 +4534,7 @@
           "y": 266
         }
       ],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -4064,13 +4544,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4087,6 +4568,7 @@
           "y": 266
         }
       ],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -4096,13 +4578,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4119,6 +4602,7 @@
           "y": 266
         }
       ],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -4128,13 +4612,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4151,6 +4636,7 @@
           "y": 266
         }
       ],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -4160,13 +4646,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4183,6 +4670,7 @@
           "y": 266
         }
       ],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -4192,13 +4680,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4215,6 +4704,7 @@
           "y": 266
         }
       ],
+      "coins": [],
       "monster_alive": [
         false,
         true
@@ -4224,13 +4714,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4242,6 +4733,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -4251,13 +4743,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4269,6 +4762,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -4278,13 +4772,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4296,6 +4791,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -4305,13 +4801,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4323,6 +4820,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -4332,13 +4830,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4350,6 +4849,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -4359,13 +4859,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4377,6 +4878,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -4386,13 +4888,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4404,6 +4907,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -4413,13 +4917,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4431,6 +4936,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -4440,13 +4946,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4458,6 +4965,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -4467,13 +4975,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4485,6 +4994,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -4494,13 +5004,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4512,6 +5023,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -4521,13 +5033,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4539,6 +5052,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -4548,13 +5062,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4566,6 +5081,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -4575,13 +5091,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4593,6 +5110,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -4602,13 +5120,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4620,6 +5139,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -4629,13 +5149,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4647,6 +5168,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -4656,13 +5178,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4674,6 +5197,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -4683,13 +5207,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4701,6 +5226,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -4710,13 +5236,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4728,6 +5255,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -4737,13 +5265,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4755,6 +5284,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -4764,13 +5294,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4782,6 +5313,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -4791,13 +5323,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4809,6 +5342,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -4818,13 +5352,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4836,6 +5371,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -4845,13 +5381,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4863,6 +5400,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -4872,13 +5410,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4890,6 +5429,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -4899,13 +5439,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4917,6 +5458,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -4926,13 +5468,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4944,6 +5487,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -4953,13 +5497,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4971,6 +5516,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -4980,13 +5526,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -4998,6 +5545,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5007,13 +5555,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5025,6 +5574,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5034,13 +5584,14 @@
         true
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5052,6 +5603,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5061,13 +5613,14 @@
         true
       ],
       "flag_y": 127.75822222222223,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5079,6 +5632,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5088,13 +5642,14 @@
         true
       ],
       "flag_y": 132.7057777777778,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5106,6 +5661,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5115,13 +5671,14 @@
         true
       ],
       "flag_y": 140.35200000000003,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5133,6 +5690,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5142,13 +5700,14 @@
         true
       ],
       "flag_y": 150.20622222222227,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5160,6 +5719,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5169,13 +5729,14 @@
         true
       ],
       "flag_y": 161.77777777777783,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5187,6 +5748,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5196,13 +5758,14 @@
         true
       ],
       "flag_y": 174.57600000000008,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5214,6 +5777,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5223,13 +5787,14 @@
         true
       ],
       "flag_y": 188.11022222222232,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5241,6 +5806,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5250,13 +5816,14 @@
         true
       ],
       "flag_y": 201.8897777777779,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5268,6 +5835,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5277,13 +5845,14 @@
         true
       ],
       "flag_y": 215.4240000000001,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5295,6 +5864,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5304,13 +5874,14 @@
         true
       ],
       "flag_y": 228.22222222222234,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5322,6 +5893,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5331,13 +5903,14 @@
         true
       ],
       "flag_y": 239.7937777777779,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5349,6 +5922,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5358,13 +5932,14 @@
         true
       ],
       "flag_y": 249.6479999999999,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5376,6 +5951,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5385,13 +5961,14 @@
         true
       ],
       "flag_y": 257.2942222222222,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5403,6 +5980,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5412,13 +5990,14 @@
         true
       ],
       "flag_y": 262.24177777777777,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5430,6 +6009,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5439,13 +6019,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5457,6 +6038,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5466,13 +6048,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5484,6 +6067,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5493,13 +6077,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 0.016841147018661837,
       "brick_centers": [
-        461.04415111515704,
-        679.9663177059626
+        460,
+        680
       ],
-      "brick_scale": 1.0033682294037323,
-      "brick_y": 82.30314064633592,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0.9745167908433214,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5511,6 +6096,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5520,13 +6106,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 0.06372325898953128,
       "brick_centers": [
-        463.95084205735094,
-        679.872553482021
+        460,
+        680
       ],
-      "brick_scale": 1.0127446517979062,
-      "brick_y": 83.14701866181156,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0.9049778641615375,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5538,6 +6125,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5547,13 +6135,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 0.13518434228493423,
       "brick_centers": [
-        468.38142922166594,
-        679.7296313154301
+        460,
+        680
       ],
-      "brick_scale": 1.0270368684569868,
-      "brick_y": 84.43331816112881,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0.801749271137026,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5565,6 +6154,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5574,13 +6164,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 0.2257624032771965,
       "brick_centers": [
-        473.9972690031862,
-        679.5484751934456
+        460,
+        680
       ],
-      "brick_scale": 1.0451524806554393,
-      "brick_y": 86.06372325898954,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0.6751970629521644,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5592,6 +6183,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5601,13 +6193,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 0.32999544833864414,
       "brick_centers": [
-        480.45971779699596,
-        679.3400091033227
+        460,
+        680
       ],
-      "brick_scale": 1.065999089667729,
-      "brick_y": 87.9399180700956,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0.5356872907893311,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5619,6 +6212,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5628,13 +6222,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 0.44242148384160285,
       "brick_centers": [
-        487.4301319981794,
-        679.1151570323168
+        460,
+        680
       ],
-      "brick_scale": 1.0884842967683206,
-      "brick_y": 89.96358670914886,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0.3935860058309031,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5646,6 +6241,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5655,13 +6251,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 0.5575785161583984,
       "brick_centers": [
-        494.5698680018207,
-        678.8848429676832
+        460,
+        680
       ],
-      "brick_scale": 1.1115157032316796,
-      "brick_y": 92.03641329085117,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0.2592592592592584,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5673,6 +6270,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5682,13 +6280,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 0.6700045516613571,
       "brick_centers": [
-        501.54028220300415,
-        678.6599908966773
+        460,
+        680
       ],
-      "brick_scale": 1.1340009103322715,
-      "brick_y": 94.06008192990443,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0.14307310225677494,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5700,6 +6299,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5709,13 +6309,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 0.7742375967228025,
       "brick_centers": [
-        508.00273099681374,
-        678.4515248065544
+        460,
+        680
       ],
-      "brick_scale": 1.1548475193445604,
-      "brick_y": 95.93627674101045,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0.055393586005831885,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5727,6 +6328,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5736,13 +6338,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 0.8648156577150669,
       "brick_centers": [
-        513.6185707783342,
-        678.2703686845699
+        460,
+        680
       ],
-      "brick_scale": 1.1729631315430133,
-      "brick_y": 97.5666818388712,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0.006586761688802234,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5754,6 +6357,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5763,13 +6367,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 0.9362767410104681,
       "brick_centers": [
-        518.049157942649,
-        678.127446517979
+        460,
+        680
       ],
-      "brick_scale": 1.1872553482020936,
-      "brick_y": 98.85298133818843,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0,
       "alpha": 1
     },
     {
@@ -5781,6 +6386,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5790,13 +6396,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 0.9831588529813386,
       "brick_centers": [
-        520.955848884843,
-        678.0336822940374
+        460,
+        680
       ],
-      "brick_scale": 1.1966317705962677,
-      "brick_y": 99.6968593536641,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0.012740740740741316,
       "alpha": 1
     },
     {
@@ -5808,6 +6415,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5817,13 +6425,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0.04859259259259269,
       "alpha": 1
     },
     {
@@ -5835,6 +6444,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5844,13 +6454,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 98.5945007036746,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0.10400000000000162,
       "alpha": 1
     },
     {
@@ -5862,6 +6473,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5871,13 +6483,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 97.36824509624115,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0.17540740740740773,
       "alpha": 1
     },
     {
@@ -5889,6 +6502,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5898,13 +6512,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 96.47761787257303,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0.2592592592592617,
       "alpha": 1
     },
     {
@@ -5916,6 +6531,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5925,13 +6541,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 96.03620095292825,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0.3520000000000005,
       "alpha": 1
     },
     {
@@ -5943,6 +6560,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5952,13 +6570,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 96.10028835127271,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0.4500740740740769,
       "alpha": 1
     },
     {
@@ -5970,6 +6589,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -5979,13 +6599,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 96.66170698511479,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0.5499259259259268,
       "alpha": 1
     },
     {
@@ -5997,6 +6618,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6006,13 +6628,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 97.64885899083013,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0.648000000000003,
       "alpha": 1
     },
     {
@@ -6024,6 +6647,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6033,13 +6657,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 98.93585261773332,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0.7407407407407416,
       "alpha": 1
     },
     {
@@ -6051,6 +6676,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6060,13 +6686,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0.8245925925925951,
       "alpha": 1
     },
     {
@@ -6078,6 +6705,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6087,13 +6715,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0.8960000000000007,
       "alpha": 1
     },
     {
@@ -6105,6 +6734,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6114,13 +6744,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0.951407407407409,
       "alpha": 1
     },
     {
@@ -6132,6 +6763,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6141,13 +6773,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0.9872592592592596,
       "alpha": 1
     },
     {
@@ -6159,6 +6792,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6168,13 +6802,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6186,6 +6821,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6195,13 +6831,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6213,6 +6850,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6222,13 +6860,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6240,6 +6879,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6249,13 +6889,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6267,6 +6908,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6276,13 +6918,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6294,6 +6937,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6303,13 +6947,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6321,6 +6966,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6330,13 +6976,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6348,6 +6995,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6357,13 +7005,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6375,6 +7024,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6384,13 +7034,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6402,6 +7053,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6411,13 +7063,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6429,6 +7082,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6438,13 +7092,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6456,6 +7111,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6465,13 +7121,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6483,6 +7140,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6492,13 +7150,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6510,6 +7169,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6519,13 +7179,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6537,6 +7198,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6546,13 +7208,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6564,6 +7227,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6573,13 +7237,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6591,6 +7256,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6600,13 +7266,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6618,6 +7285,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6627,13 +7295,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6645,6 +7314,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6654,13 +7324,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6672,6 +7343,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6681,13 +7353,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6699,6 +7372,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6708,13 +7382,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6726,6 +7401,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6735,13 +7411,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6753,6 +7430,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6762,13 +7440,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6780,6 +7459,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6789,13 +7469,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6807,6 +7488,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6816,13 +7498,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6834,6 +7517,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6843,13 +7527,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6861,6 +7546,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6870,13 +7556,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6888,6 +7575,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6897,13 +7585,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6915,6 +7604,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6924,13 +7614,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6942,6 +7633,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6951,13 +7643,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6969,6 +7662,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -6978,13 +7672,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -6996,6 +7691,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -7005,13 +7701,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -7023,6 +7720,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -7032,13 +7730,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -7050,6 +7749,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -7059,13 +7759,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -7077,6 +7778,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -7086,13 +7788,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -7104,6 +7807,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -7113,13 +7817,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -7131,6 +7836,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -7140,13 +7846,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -7158,6 +7865,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -7167,13 +7875,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -7185,6 +7894,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -7194,13 +7904,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -7212,6 +7923,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -7221,13 +7933,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -7239,6 +7952,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -7248,13 +7962,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -7266,6 +7981,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -7275,13 +7991,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -7293,6 +8010,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -7302,13 +8020,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -7320,6 +8039,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -7329,13 +8049,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -7347,6 +8068,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -7356,13 +8078,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -7374,6 +8097,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -7383,13 +8107,14 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
       "alpha": 1
     },
     {
@@ -7401,6 +8126,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -7410,14 +8136,15 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
-      "alpha": 0.998816
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
     },
     {
       "t": 10.6,
@@ -7428,6 +8155,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -7437,14 +8165,15 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
-      "alpha": 0.9720000000000012
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
     },
     {
       "t": 10.64,
@@ -7455,6 +8184,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -7464,14 +8194,15 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
-      "alpha": 0.9144640000000003
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
     },
     {
       "t": 10.68,
@@ -7482,6 +8213,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -7491,14 +8223,15 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
-      "alpha": 0.8323520000000023
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
     },
     {
       "t": 10.72,
@@ -7509,6 +8242,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -7518,14 +8252,15 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
-      "alpha": 0.7318080000000002
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
     },
     {
       "t": 10.76,
@@ -7536,6 +8271,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -7545,14 +8281,15 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
-      "alpha": 0.6189760000000026
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 0.9818240000000007
     },
     {
       "t": 10.8,
@@ -7563,6 +8300,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -7572,14 +8310,15 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
-      "alpha": 0.5
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 0.9313919999999999
     },
     {
       "t": 10.84,
@@ -7590,6 +8329,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -7599,14 +8339,15 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
-      "alpha": 0.38102400000000247
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 0.8548480000000017
     },
     {
       "t": 10.88,
@@ -7617,6 +8358,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -7626,14 +8368,15 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
-      "alpha": 0.26819199999999976
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 0.7583359999999997
     },
     {
       "t": 10.92,
@@ -7644,6 +8387,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -7653,14 +8397,15 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
-      "alpha": 0.1676480000000019
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 0.648000000000002
     },
     {
       "t": 10.96,
@@ -7671,6 +8416,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -7680,14 +8426,15 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
-      "alpha": 0.08553599999999983
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 0.5299839999999993
     },
     {
       "t": 11,
@@ -7698,6 +8445,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -7707,14 +8455,15 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
-      "alpha": 0.028000000000000802
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 0.4104320000000019
     },
     {
       "t": 11.04,
@@ -7725,6 +8474,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         false,
         false
@@ -7734,14 +8484,131 @@
         true
       ],
       "flag_y": 264,
-      "merge": 1,
       "brick_centers": [
-        522,
-        678
+        460,
+        680
       ],
-      "brick_scale": 1.2,
-      "brick_y": 100,
-      "alpha": 0.001184000000000296
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 0.2954880000000041
+    },
+    {
+      "t": 11.08,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "coins": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 0.19129600000000124
+    },
+    {
+      "t": 11.12,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "coins": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 0.10400000000000276
+    },
+    {
+      "t": 11.16,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "coins": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 0.03974400000000067
+    },
+    {
+      "t": 11.2,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "coins": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 0.004672000000000565
     },
     {
       "t": 0,
@@ -7752,6 +8619,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -7761,14 +8629,15 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
-      "alpha": 0.008601051840720901
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 0.0034851777440648
     },
     {
       "t": 0,
@@ -7779,6 +8648,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -7788,14 +8658,15 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
-      "alpha": 0.04447182569496437
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 0.029890524416744033
     },
     {
       "t": 0,
@@ -7806,6 +8677,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -7815,14 +8687,15 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
-      "alpha": 0.10399999999999901
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 0.07892902538029388
     },
     {
       "t": 0,
@@ -7833,6 +8706,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -7842,14 +8716,15 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
-      "alpha": 0.18256949661908028
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 0.14666447988847203
     },
     {
       "t": 0,
@@ -7860,6 +8735,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -7869,14 +8745,15 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
-      "alpha": 0.2755642374154758
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 0.22916068719504631
     },
     {
       "t": 0,
@@ -7887,6 +8764,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -7896,14 +8774,15 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
-      "alpha": 0.37836814425243814
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 0.3224814465537716
     },
     {
       "t": 0,
@@ -7914,6 +8793,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -7923,14 +8803,15 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
-      "alpha": 0.4863651389932369
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 0.42269055721841764
     },
     {
       "t": 0,
@@ -7941,6 +8822,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -7950,14 +8832,15 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
-      "alpha": 0.5949391435011234
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 0.5258518184427379
     },
     {
       "t": 0,
@@ -7968,6 +8851,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -7977,14 +8861,15 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
-      "alpha": 0.699474079639368
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 0.6280290294805033
     },
     {
       "t": 0,
@@ -7995,6 +8880,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -8004,14 +8890,15 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
-      "alpha": 0.7953538692712219
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 0.7252859895854666
     },
     {
       "t": 0,
@@ -8022,6 +8909,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -8031,14 +8919,15 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
-      "alpha": 0.8779624342599543
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 0.8136864980113985
     },
     {
       "t": 0,
@@ -8049,6 +8938,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -8058,14 +8948,15 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
-      "alpha": 0.9426836964688189
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 0.889294354012053
     },
     {
       "t": 0,
@@ -8076,6 +8967,7 @@
       "sx": 1,
       "sy": 1,
       "bullets": [],
+      "coins": [],
       "monster_alive": [
         true,
         true
@@ -8085,13 +8977,43 @@
         false
       ],
       "flag_y": 126,
-      "merge": 0,
       "brick_centers": [
         460,
         680
       ],
       "brick_scale": 1,
       "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 0.948173356841199
+    },
+    {
+      "t": 0,
+      "x": 120,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "coins": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
       "alpha": 1
     }
   ]
