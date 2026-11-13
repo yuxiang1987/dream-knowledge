@@ -69,6 +69,27 @@ class MenggePixelLevelTest(unittest.TestCase):
         self.assertLess((ART / 'intro.gif').stat().st_size, 2_000_000)
         self.assertIn('375px', (ART / 'preview.html').read_text(encoding='utf-8'))
 
+    def test_bright_game_palette_survives_gif_encoding(self):
+        with Image.open(ART / 'intro.gif') as gif:
+            for frame_index in (0, 210):
+                gif.seek(frame_index)
+                frame = gif.convert('RGB')
+                # 锁定前后都应是明亮金砖，不能再次变成深蓝面板。
+                red, green, blue = frame.getpixel((400, 140))
+                self.assertGreater(red, 230)
+                self.assertGreater(green, 160)
+                self.assertLess(blue, 130)
+            sky = frame.getpixel((0, 0))
+            self.assertGreater(sky[1], 190)
+            self.assertGreater(sky[2], 230)
+            hill = frame.getpixel((440, 300))
+            self.assertGreater(hill[1], 180)
+            self.assertGreater(hill[1], hill[0] * 1.5)
+            ground = frame.getpixel((10, 347))
+            self.assertGreater(ground[0], 210)
+            self.assertTrue(90 < ground[1] < 160)
+            self.assertLess(ground[2], 100)
+
 
 if __name__ == '__main__':
     unittest.main()
