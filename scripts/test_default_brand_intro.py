@@ -18,10 +18,14 @@ class Images(HTMLParser):
     def __init__(self):
         super().__init__()
         self.srcs = []
+        self.texts = []
 
     def handle_starttag(self, tag, attrs):
         if tag == 'img':
             self.srcs.append(dict(attrs)['src'])
+
+    def handle_data(self, data):
+        self.texts.append(data)
 
 
 class DefaultBrandIntroTest(unittest.TestCase):
@@ -57,6 +61,18 @@ class DefaultBrandIntroTest(unittest.TestCase):
         self.assertIn('不是翻转版', text)
         report = json.loads((DEMO / '默认片头排版示例.report.json').read_text(encoding='utf8'))
         self.assertTrue(any('检查微信转存和动画播放' in w for w in report['warnings']))
+
+    def test_user_bio_is_the_exact_final_paragraph(self):
+        bio = '我是梦哥，十年程序员，爱折腾 AI。分享实用工具、有趣玩法和实操心得，一起把想法做出来。'
+        fragment = (DEMO / '默认片头排版示例.wechat.html').read_text(encoding='utf8')
+        parser = Images()
+        parser.feed(fragment)
+        self.assertTrue(''.join(parser.texts).strip().endswith(bio))
+        self.assertEqual(fragment.count(bio), 1)
+        self.assertNotIn(bio, (DEMO / '默认片头排版示例.md').read_text(encoding='utf8'))
+        entry = (SKILL / 'SKILL.md').read_text(encoding='utf8')
+        self.assertIn(bio, entry)
+        self.assertIn('--no-author-bio', entry)
 
 
 if __name__ == '__main__':
