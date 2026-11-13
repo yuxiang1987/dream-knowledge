@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-13",
+  "scope": "Only this fetch-summary added_articles; no extra collection",
+  "accounts": [
+    {
+      "requested_name": "路人甲TM",
+      "username": "gh_d516081071ec",
+      "articles": [
+        {
+          "id": "2247524502:1",
+          "title": "被66亿热度的《持械入宋》打动，单人挑战安史群像短剧",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524502&idx=1&sn=43916dabede8ee1df24649b106002f60",
+          "published": "2026-11-13 10:58",
+          "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-13/被66亿热度的《持械入宋》打动，单人挑战安史群像短剧-9211962115.md",
+          "raw_sha256": "8c84dbd40dbf87391cc03956d300752b3cfc3eb1b741ef0e7e8dfc06280a31e0",
+          "body_sha256": "9211962115e22a5dea2d4503d96d532af476215a57182bf74f04af90ed36cdea",
+          "primary_product": ""
+        },
+        {
+          "id": "2247524466:1",
+          "title": "WorkBuddy双十一，千呼万唤始出来",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524466&idx=1&sn=e7e040691c3f940f340aad348e27b880",
+          "published": "2026-11-12 21:40",
+          "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-13/WorkBuddy双十一，千呼万唤始出来-17d05c535e.md",
+          "raw_sha256": "39b10e3c617c204e1c4f2971be3cacafb400a7b878a4910fb36e93bf87a2c7cb",
+          "body_sha256": "17d05c535e8ba7e28cc99eb724dace98f686910e628b61bebfc11aced2b028a7",
+          "primary_product": "WorkBuddy双十一积分活动"
+        }
+      ]
+    },
+    {
+      "requested_name": "摸鱼小李",
+      "username": "gh_3923025946c5",
+      "articles": [
+        {
+          "id": "2247491732:1",
+          "title": "Seedream 5.5 的多轮编辑，稳得有点吓人",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247491732&idx=1&sn=dc8fe8a4dfce333be7bc883e93bbb109",
+          "published": "2026-11-11 19:00",
+          "raw_path": "raw/article/摸鱼小李/雷达-2026-11-13/Seedream 5.5 的多轮编辑，稳得有点吓人-d622086b3c.md",
+          "raw_sha256": "966236509a397e871d454069d2efe511190e0513d6538466308257013a4d23a1",
+          "body_sha256": "d622086b3c61c897c60183bcc01a96437900edda25570c3eb2c3af650ce40b80",
+          "primary_product": ""
+        }
+      ]
+    },
+    {
+      "requested_name": "小林coding",
+      "username": "gh_fc46cf2353fc",
+      "articles": [
+        {
+          "id": "2247566403:1",
+          "title": "Fable 5.2 首批实测来了！结果真的好离谱啊。。。",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247566403&idx=1&sn=e838c14b9e2ac5fe329e671cc449cae6",
+          "published": "2026-11-12 10:18",
+          "raw_path": "raw/article/小林coding/雷达-2026-11-13/Fable 5.2 首批实测来了！结果真的好离谱啊。。。-ee2c098187.md",
+          "raw_sha256": "2ca05a208a27238052ee22885c84f9e905797cc7a2fa3c5c6bd01e05ca5d36f1",
+          "body_sha256": "ee2c09818781e7b32f515c98ee7c4c64650c8235d1a49f98e4b6e5dfc7116d16",
+          "primary_product": ""
+        },
+        {
+          "id": "2247566333:1",
+          "title": "100,000,000 Token 免费薅！爽玩 DeepSeek V4.1 Flash、GLM-5.3 ！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247566333&idx=1&sn=bd0b5d3982def74f44af37aa7442c307",
+          "published": "2026-11-11 16:18",
+          "raw_path": "raw/article/小林coding/雷达-2026-11-13/100,000,000 Token 免费薅！爽玩 DeepSeek V4.1 Flash、GLM-5.3 ！-a2e6be742b.md",
+          "raw_sha256": "eda03e86cc96047b6a231b13e63501a2c2c48ff6c56d2cf0afe0458021d74bc3",
+          "body_sha256": "a2e6be742b1c5683bb085346898c1289ebcee1794a24e5088104dda4db9cf88b",
+          "primary_product": ""
+        }
+      ]
+    },
+    {
+      "requested_name": "卡尔的AI沃茨",
+      "username": "gh_1421d5e48ca9",
+      "articles": [
+        {
+          "id": "2247513859:1",
+          "title": "一口气看懂黄仁勋辞职的所有瓜！比奥特曼两年前被免职还刺激",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247513859&idx=1&sn=52ecb398a04a07bab9ed4c65c4803dae",
+          "published": "2026-11-13 09:03",
+          "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-13/一口气看懂黄仁勋辞职的所有瓜！比奥特曼两年前被免职还刺激-3291abd62b.md",
+          "raw_sha256": "eb01848f6683ed12f197b1bb43408f88fb9147031aa3b56e87fe164b88a4fd69",
+          "body_sha256": "3291abd62b657597a44a25d9352c9e773052bb7dea4dffba7ec649dd55c0d856",
+          "primary_product": ""
+        },
+        {
+          "id": "2247513839:1",
+          "title": "终于可以用1张画布把我的电商设计新工作流讲清楚了！",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247513839&idx=1&sn=ead3b36a66cb303eb66cf74b5d6a6b4b",
+          "published": "2026-11-12 23:13",
+          "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-13/终于可以用1张画布把我的电商设计新工作流讲清楚了！-60499456e3.md",
+          "raw_sha256": "cc150cb64de4aff52a682252ead69fa2978b70bbe352319a36e22d7e5cea3158",
+          "body_sha256": "60499456e302abcfaf638e453a04e4da71c20f022c37437a04743c4b1ea1ce11",
+          "primary_product": ""
+        },
+        {
+          "id": "2247513485:1",
+          "title": "实测深度原理Hydrogen-1.0，我找到了比GPT-6Astra更适合我做科研的新模型",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247513485&idx=1&sn=b9291e95c6160465d5dfe259760c2891",
+          "published": "2026-11-11 18:45",
+          "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-13/实测深度原理Hydrogen-1.0，我找到了比GPT-6Astra更适合我做科研的新模型-5fef752e4e.md",
+          "raw_sha256": "0eaa114100f4dfda6590aba7227e917154039c84ede32d677f3ccd5c878fe8fe",
+          "body_sha256": "5fef752e4e9aa5568be0cd007a272866d5ed38c1192a4ef23600783d429f44f8",
+          "primary_product": ""
+        }
+      ]
+    },
+    {
+      "requested_name": "苍何",
+      "username": "gh_fdb597c42fa4",
+      "articles": [
+        {
+          "id": "2247500801:1",
+          "title": "WorkBuddy 双 11 积分福利来了，手慢无",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500801&idx=1&sn=950dfc841e486f6ade9918effaab811c",
+          "published": "2026-11-13 09:08",
+          "raw_path": "raw/article/苍何/雷达-2026-11-13/WorkBuddy 双 11 积分福利来了，手慢无-77057b6b34.md",
+          "raw_sha256": "a5db7bb7f5e230a189243385c2df0ae65206e7efe761cf0635d1d1c8dceb807b",
+          "body_sha256": "77057b6b3490461fe5ed0a6d86a2ccfddece0d4b626ff0a2ac0126881b0fa039",
+          "primary_product": "WorkBuddy双十一积分活动"
+        },
+        {
+          "id": "2247500796:1",
+          "title": "不用 Opus5.5 ，即梦也能出爆款 vibe 视频了",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500796&idx=1&sn=ba93c05797cbf29a9819fa18ee683b90",
+          "published": "2026-11-12 17:18",
+          "raw_path": "raw/article/苍何/雷达-2026-11-13/不用 Opus5.5 ，即梦也能出爆款 vibe 视频了-3969bff5b6.md",
+          "raw_sha256": "f88a90e0a8b637db0b3821e457a206e7aef16afc58088ed1d8b447e5bfeb1084",
+          "body_sha256": "3969bff5b674dda91e465054a7f87455e58d9f063bb3ca1cb5836bd2246a8ecb",
+          "primary_product": ""
+        }
+      ]
+    },
+    {
+      "requested_name": "沉默王二",
+      "username": "gh_f0ee5948865f",
+      "articles": [
+        {
+          "id": "2247551838:1",
+          "title": "官方点名，DeepSeek Harness 的 4 个神级插件。",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247551838&idx=1&sn=6d9c73b338728dc3c99b1f775aa18c67",
+          "published": "2026-11-12 14:34",
+          "raw_path": "raw/article/chenmowanger/雷达-2026-11-13/官方点名，DeepSeek Harness 的 4 个神级插件。-83e272402d.md",
+          "raw_sha256": "4c77bb857a0dc06a0651ca3a3c2227fed470213daf57164bc02e190ec4231147",
+          "body_sha256": "83e272402da95f763b207104c022f9b7673581307d0b39e3f3ca4ad7d53847c9",
+          "primary_product": ""
+        }
+      ]
+    },
+    {
+      "requested_name": "洛洛AI说",
+      "username": "gh_426cd27710df",
+      "articles": [
+        {
+          "id": "2247488800:1",
+          "title": "国产图像模型摸高：MiniMax H3 Image 实测",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247488800&idx=1&sn=e44c744ac36e26a5c7fc9eed544bb215",
+          "published": "2026-11-12 21:09",
+          "raw_path": "raw/article/洛洛AI说/雷达-2026-11-13/国产图像模型摸高：MiniMax H3 Image 实测-73838ea778.md",
+          "raw_sha256": "d04b9f2a5ce578693eb2c907374d73b2e3dd8864a95a1c0dd0a61d4788d21f6e",
+          "body_sha256": "73838ea7782702e9ea256b63cb8b220684b5a1aab6d6eb1279190ad34a547a85",
+          "primary_product": ""
+        }
+      ]
+    },
+    {
+      "requested_name": "郭震AI",
+      "username": "gh_ce69fa698e90",
+      "articles": [
+        {
+          "id": "2247526187:1",
+          "title": "Qwen4-max-preview来了！Qoder首发！一句提示词就能出动画，真的太好用了！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247526187&idx=1&sn=8597a85ce3e629b49a63a5f9aafe463f",
+          "published": "2026-11-12 15:21",
+          "raw_path": "raw/article/郭震AI/雷达-2026-11-13/Qwen4-max-preview来了！Qoder首发！一句提示词就能出动画，真的太好用了！-b46164535f.md",
+          "raw_sha256": "546ea773bdbe57c2863a61f676e9b7f6d89a74a19a3c07a337ea1e105d13b882",
+          "body_sha256": "b46164535f25a985b1f1fe00dca18ed9de5e280ba399f2e2e4a2977c39ae865c",
+          "primary_product": ""
+        },
+        {
+          "id": "2247526186:1",
+          "title": "终于有知识库打通WorkBuddy和豆包，能查询你电脑里上万文件，秒级回复！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247526186&idx=1&sn=b84d35ca10d4b2939a2035fba27fe9e9",
+          "published": "2026-11-11 23:27",
+          "raw_path": "raw/article/郭震AI/雷达-2026-11-13/终于有知识库打通WorkBuddy和豆包，能查询你电脑里上万文件，秒级回复！-cf73771acc.md",
+          "raw_sha256": "ae092e12915a50ecf06b8efa1642e5bac257018145101eef52123993f758f9a7",
+          "body_sha256": "cf73771accdef2f246da756bd8609f236f295133dd2a81443d8e81963e35587b",
+          "primary_product": ""
+        }
+      ]
+    },
+    {
+      "requested_name": "西羊石AI视频",
+      "username": "gh_f5c1e588b297",
+      "articles": [
+        {
+          "id": "2247545630:1",
+          "title": "即梦短剧工作室吐血实测，小白速通AI短剧的最后一公里终于被打通了",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247545630&idx=1&sn=3bb69ceff480f8cf95e821e431f9f0f0",
+          "published": "2026-11-12 19:47",
+          "raw_path": "raw/article/西羊石AI视频/雷达-2026-11-13/即梦短剧工作室吐血实测，小白速通AI短剧的最后一公里终于被打通了-2b27a23307.md",
+          "raw_sha256": "96804b5ec24e615d2b15475d07a454f3cc33919eed70840bcb290f85c47cd6ab",
+          "body_sha256": "2b27a23307f4ff309b7087fb61fdea2acf5cf8fbe903901630207c408fae76b4",
+          "primary_product": ""
+        }
+      ]
+    }
+  ]
+}

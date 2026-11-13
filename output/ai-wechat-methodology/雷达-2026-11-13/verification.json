@@ -1,0 +1,24 @@
+{
+  "result": "PASS",
+  "covered": 15,
+  "new_sources": 14,
+  "excluded": 1,
+  "reused_sources": 0,
+  "case_cards": 14,
+  "evidence_boundary_regressions": 6,
+  "lint_cli_regressions": 3,
+  "wiki_lint": {
+    "result": "PASS",
+    "pages_including_index_log": 525,
+    "existing_empty_source_warnings": 7
+  },
+  "existing_raw_files_unchanged": 525,
+  "new_raw_fingerprints_verified": 15,
+  "credential_value_scan": "PASS; actual value not recorded",
+  "report_reconciliation": {
+    "current_batch_excluded_without_source": 1,
+    "historical_out_of_scope_without_source": 6
+  },
+  "runtime_smoke": "Single-attempt daily actually executed; offline report refreshed with paid calls disabled and corrected source-list parser. Coverage command exercised all actual new articles.",
+  "media_and_product_validation": "Not performed; analysis based on article text only."
+}

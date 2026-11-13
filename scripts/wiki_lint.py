@@ -9,6 +9,7 @@
 """
 
 from __future__ import annotations
+import json
 
 import argparse
 import re
@@ -51,6 +52,13 @@ def parse_list(value: str):
     if not value:
         return []
     if value.startswith("[") and value.endswith("]"):
+        try:
+            items = json.loads(value)
+        except json.JSONDecodeError:
+            pass  # Existing wiki pages also use unquoted YAML flow lists.
+        else:
+            if isinstance(items, list) and all(isinstance(item, str) for item in items):
+                return items
         value = value[1:-1]
         return [item.strip().strip('"').strip("'") for item in value.split(",") if item.strip()]
     return [value.strip().strip('"').strip("'")]

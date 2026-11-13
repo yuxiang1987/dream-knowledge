@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-13",
+  "daily_invocations": 1,
+  "accounts": 9,
+  "limit_per_account": 5,
+  "retry_policy": "Loaded the original script with runpy, set Client.post.__defaults__=(1,), asserted it, and called main with the requested daily arguments. No Skill file was changed.",
+  "manual_paid_retries": 0,
+  "credentials": "Read only through the existing environment variable or .local/tikhub.json; no credential value was printed or copied.",
+  "collection": {"added": 15, "skipped_existing": 29, "failed": 1},
+  "stats": {"succeeded": 9, "failed": 6, "failure_status": "HTTP 400 for all six failures; no retry"},
+  "collection_failure_boundary": "The original collector reports one failed Lurenjia article but retains no failing title or URL; its identity and precise failure cause are unknown. No retry was made.",
+  "statistics_boundary": "Each account has one successful interaction snapshot in this batch; these are not daily reading baselines. High reading does not establish a title or structure as a cause of propagation.",
+  "scope": "Only this fetch-summary added_articles are analyzed. Existing unrelated workspace changes are preserved and excluded from staging."
+}

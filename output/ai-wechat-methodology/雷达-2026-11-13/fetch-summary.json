@@ -1,0 +1,209 @@
+{
+  "acquired_at": "2026-11-13T11:05:39+08:00",
+  "accounts": [
+    {
+      "account": "路人甲TM",
+      "username": "gh_d516081071ec",
+      "fetched": 5,
+      "added": 2,
+      "skipped_existing": 2,
+      "failed": 1,
+      "directory": "raw/article/lurenjiaTM/雷达-2026-11-13",
+      "added_articles": [
+        {
+          "id": "2247524502:1",
+          "title": "被66亿热度的《持械入宋》打动，单人挑战安史群像短剧",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524502&idx=1&sn=43916dabede8ee1df24649b106002f60",
+          "published": "2026-11-13 10:58",
+          "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-13/被66亿热度的《持械入宋》打动，单人挑战安史群像短剧-9211962115.md"
+        },
+        {
+          "id": "2247524466:1",
+          "title": "WorkBuddy双十一，千呼万唤始出来",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524466&idx=1&sn=e7e040691c3f940f340aad348e27b880",
+          "published": "2026-11-12 21:40",
+          "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-13/WorkBuddy双十一，千呼万唤始出来-17d05c535e.md"
+        }
+      ]
+    },
+    {
+      "account": "摸鱼小李",
+      "username": "gh_3923025946c5",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/摸鱼小李/雷达-2026-11-13",
+      "added_articles": [
+        {
+          "id": "2247491732:1",
+          "title": "Seedream 5.5 的多轮编辑，稳得有点吓人",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247491732&idx=1&sn=dc8fe8a4dfce333be7bc883e93bbb109",
+          "published": "2026-11-11 19:00",
+          "raw_path": "raw/article/摸鱼小李/雷达-2026-11-13/Seedream 5.5 的多轮编辑，稳得有点吓人-d622086b3c.md"
+        }
+      ]
+    },
+    {
+      "account": "小林coding",
+      "username": "gh_fc46cf2353fc",
+      "fetched": 5,
+      "added": 2,
+      "skipped_existing": 3,
+      "failed": 0,
+      "directory": "raw/article/小林coding/雷达-2026-11-13",
+      "added_articles": [
+        {
+          "id": "2247566403:1",
+          "title": "Fable 5.2 首批实测来了！结果真的好离谱啊。。。",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247566403&idx=1&sn=e838c14b9e2ac5fe329e671cc449cae6",
+          "published": "2026-11-12 10:18",
+          "raw_path": "raw/article/小林coding/雷达-2026-11-13/Fable 5.2 首批实测来了！结果真的好离谱啊。。。-ee2c098187.md"
+        },
+        {
+          "id": "2247566333:1",
+          "title": "100,000,000 Token 免费薅！爽玩 DeepSeek V4.1 Flash、GLM-5.3 ！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247566333&idx=1&sn=bd0b5d3982def74f44af37aa7442c307",
+          "published": "2026-11-11 16:18",
+          "raw_path": "raw/article/小林coding/雷达-2026-11-13/100,000,000 Token 免费薅！爽玩 DeepSeek V4.1 Flash、GLM-5.3 ！-a2e6be742b.md"
+        }
+      ]
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "username": "gh_1421d5e48ca9",
+      "fetched": 5,
+      "added": 3,
+      "skipped_existing": 2,
+      "failed": 0,
+      "directory": "raw/article/卡尔的AI沃茨/雷达-2026-11-13",
+      "added_articles": [
+        {
+          "id": "2247513859:1",
+          "title": "一口气看懂黄仁勋辞职的所有瓜！比奥特曼两年前被免职还刺激",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247513859&idx=1&sn=52ecb398a04a07bab9ed4c65c4803dae",
+          "published": "2026-11-13 09:03",
+          "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-13/一口气看懂黄仁勋辞职的所有瓜！比奥特曼两年前被免职还刺激-3291abd62b.md"
+        },
+        {
+          "id": "2247513839:1",
+          "title": "终于可以用1张画布把我的电商设计新工作流讲清楚了！",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247513839&idx=1&sn=ead3b36a66cb303eb66cf74b5d6a6b4b",
+          "published": "2026-11-12 23:13",
+          "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-13/终于可以用1张画布把我的电商设计新工作流讲清楚了！-60499456e3.md"
+        },
+        {
+          "id": "2247513485:1",
+          "title": "实测深度原理Hydrogen-1.0，我找到了比GPT-6Astra更适合我做科研的新模型",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247513485&idx=1&sn=b9291e95c6160465d5dfe259760c2891",
+          "published": "2026-11-11 18:45",
+          "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-13/实测深度原理Hydrogen-1.0，我找到了比GPT-6Astra更适合我做科研的新模型-5fef752e4e.md"
+        }
+      ]
+    },
+    {
+      "account": "苍何",
+      "username": "gh_fdb597c42fa4",
+      "fetched": 5,
+      "added": 2,
+      "skipped_existing": 3,
+      "failed": 0,
+      "directory": "raw/article/苍何/雷达-2026-11-13",
+      "added_articles": [
+        {
+          "id": "2247500801:1",
+          "title": "WorkBuddy 双 11 积分福利来了，手慢无",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500801&idx=1&sn=950dfc841e486f6ade9918effaab811c",
+          "published": "2026-11-13 09:08",
+          "raw_path": "raw/article/苍何/雷达-2026-11-13/WorkBuddy 双 11 积分福利来了，手慢无-77057b6b34.md"
+        },
+        {
+          "id": "2247500796:1",
+          "title": "不用 Opus5.5 ，即梦也能出爆款 vibe 视频了",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500796&idx=1&sn=ba93c05797cbf29a9819fa18ee683b90",
+          "published": "2026-11-12 17:18",
+          "raw_path": "raw/article/苍何/雷达-2026-11-13/不用 Opus5.5 ，即梦也能出爆款 vibe 视频了-3969bff5b6.md"
+        }
+      ]
+    },
+    {
+      "account": "沉默王二",
+      "username": "gh_f0ee5948865f",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/chenmowanger/雷达-2026-11-13",
+      "added_articles": [
+        {
+          "id": "2247551838:1",
+          "title": "官方点名，DeepSeek Harness 的 4 个神级插件。",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247551838&idx=1&sn=6d9c73b338728dc3c99b1f775aa18c67",
+          "published": "2026-11-12 14:34",
+          "raw_path": "raw/article/chenmowanger/雷达-2026-11-13/官方点名，DeepSeek Harness 的 4 个神级插件。-83e272402d.md"
+        }
+      ]
+    },
+    {
+      "account": "洛洛AI说",
+      "username": "gh_426cd27710df",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/洛洛AI说/雷达-2026-11-13",
+      "added_articles": [
+        {
+          "id": "2247488800:1",
+          "title": "国产图像模型摸高：MiniMax H3 Image 实测",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247488800&idx=1&sn=e44c744ac36e26a5c7fc9eed544bb215",
+          "published": "2026-11-12 21:09",
+          "raw_path": "raw/article/洛洛AI说/雷达-2026-11-13/国产图像模型摸高：MiniMax H3 Image 实测-73838ea778.md"
+        }
+      ]
+    },
+    {
+      "account": "郭震AI",
+      "username": "gh_ce69fa698e90",
+      "fetched": 5,
+      "added": 2,
+      "skipped_existing": 3,
+      "failed": 0,
+      "directory": "raw/article/郭震AI/雷达-2026-11-13",
+      "added_articles": [
+        {
+          "id": "2247526187:1",
+          "title": "Qwen4-max-preview来了！Qoder首发！一句提示词就能出动画，真的太好用了！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247526187&idx=1&sn=8597a85ce3e629b49a63a5f9aafe463f",
+          "published": "2026-11-12 15:21",
+          "raw_path": "raw/article/郭震AI/雷达-2026-11-13/Qwen4-max-preview来了！Qoder首发！一句提示词就能出动画，真的太好用了！-b46164535f.md"
+        },
+        {
+          "id": "2247526186:1",
+          "title": "终于有知识库打通WorkBuddy和豆包，能查询你电脑里上万文件，秒级回复！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247526186&idx=1&sn=b84d35ca10d4b2939a2035fba27fe9e9",
+          "published": "2026-11-11 23:27",
+          "raw_path": "raw/article/郭震AI/雷达-2026-11-13/终于有知识库打通WorkBuddy和豆包，能查询你电脑里上万文件，秒级回复！-cf73771acc.md"
+        }
+      ]
+    },
+    {
+      "account": "西羊石AI视频",
+      "username": "gh_f5c1e588b297",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/西羊石AI视频/雷达-2026-11-13",
+      "added_articles": [
+        {
+          "id": "2247545630:1",
+          "title": "即梦短剧工作室吐血实测，小白速通AI短剧的最后一公里终于被打通了",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247545630&idx=1&sn=3bb69ceff480f8cf95e821e431f9f0f0",
+          "published": "2026-11-12 19:47",
+          "raw_path": "raw/article/西羊石AI视频/雷达-2026-11-13/即梦短剧工作室吐血实测，小白速通AI短剧的最后一公里终于被打通了-2b27a23307.md"
+        }
+      ]
+    }
+  ]
+}

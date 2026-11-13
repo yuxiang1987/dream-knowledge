@@ -5,7 +5,7 @@ tags: [公众号, 对标拆解, 小林coding]
 status: 进行中
 sources: ["raw/article/小林coding/WorkBuddy拿下双榜第一！腾讯这次把Harness玩明白了.md", "raw/article/小林coding/腾讯 WorkBuddy 重大更新来了，夯爆了！.md", "raw/article/小林coding/DeepSeek Harness发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Loop Engineering 已死，Graph Engineering 永生.md", "raw/article/小林coding/我反问面试官：“你知道Codex记忆机制是怎么实现的吗？”，他：“不知道”，我：“我教你，我看过源码”.md", "raw/article/小林coding/梁圣杀回来了！DeepSeek新模型发布，爆肝实测一天，性价比杀穿全场.md", "raw/article/小林coding/Gemini 4 Argon 震撼上线！拳打Opus 5.5，脚踢GPT-6 Astra，再也不是哈基米了。.md", "raw/article/小林coding/GLM-5.3发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Qwen3.8-Flash发布，新斩杀线！熬夜爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/面试官皱眉：“你看过 Claude Opus 5 系统提示词吗？”，我笑了：“刚看过，需要向我请教什么？”，他：“来，开始你的表演”.md", "raw/article/小林coding/雷达-2026-10-27/实测 Kimi K3.1 Pro，依旧是国模一哥，但有点想吐槽！-d89a494af3.md", "raw/article/小林coding/雷达-2026-10-28/豆包工作太好用了，造出来的重力实验室，颠覆了一整代人的物理课。-b3dbe36acc.md", "raw/article/小林coding/雷达-2026-10-29/用了WorkBuddy这个神级插件，我彻底解放双手了-50aad97374.md", "raw/article/小林coding/雷达-2026-11-01/Anthropic直接掀桌：Code Review不再留给人-0844cd6d54.md", "raw/article/小林coding/雷达-2026-11-01/淘汰Java岗，中国又一新兴岗位崛起！这将是程序员未来10年最好的方向。-0c8f44d39a.md", "raw/article/小林coding/雷达-2026-11-01/Opus 5.5 太烧 Token？可能是你的提示词在拖后腿-392246c3e2.md", "raw/article/小林coding/雷达-2026-11-01/10亿Token免费薅！纯血国产模型杀到，跑Claude Code实测真香-351737976e.md"]
 created: 2026-10-23
-updated: 2026-11-11
+updated: 2026-11-13
 ---
 
 # 小林coding文章写法拆解
@@ -192,3 +192,18 @@ Qoder CN篇用后台标签计时bug和压测证实/待验证区分增加验收�
 可迁移动作：先说明自己要检验的变量，再按输入、操作、产物、人工验收与缺口记账；性能/成本讲清局部与总链路，不让排名覆盖具体错误。自己的方向均待实操：面向AI Coding与Agent实践者，用自有提示词、合成日志/简历和隔离测试仓库，第一步固定版本、权限和人工金标准；观察跨站下载质量、旧数据回归、版本差异、计时与报告证据，保留原文件、diff、日志、失败、人工工时和费用。
 
 本轮3张作者自述实操概括卡（录制Skill、Hy4、Qoder CN）已合入[[topics/AI写作案例库]]，分片证据保存在`output/ai-wechat-methodology/雷达-2026-11-11/slice-xiaolin-canghe.json`；测试角度与步骤为空，未代测、不代表本账号读者效果。算子技术解释与Anthropic转述均不产作者实测卡。
+
+## 雷达增量入口（2026-11-13）
+
+本轮仅清单新增2篇，深拆2、复用0、排除0。逐篇完整阅读可提取正文文字，图片、动图和视频未核看；未联网/付费重试，未使用产品或运行原文命令。按原题、原链接与具体案例未见同作品旧source，保留所有历史编号和来源，新来源如下。
+
+| 编号 | 原题／入口 | 主分类、主问题与证据身份 | 新增raw |
+| --- | --- | --- | --- |
+| XL-R1113-01 | [[sources/小林Fable委托锦鲤与十项外部案例文章拆解|Fable 5.2 首批实测来了！结果真的好离谱啊。。。]] | 整合型；代码生成能覆盖哪些视觉任务。主身份第三方案例整理：锦鲤是朋友受托运行、作者观察，随后十例为外部开发者及厂商关联人员；不是小林本人全量实测 | `raw/article/小林coding/雷达-2026-11-13/Fable 5.2 首批实测来了！结果真的好离谱啊。。。-ee2c098187.md` |
+| XL-R1113-02 | [[sources/小林移动云额度规则与鹈鹕轻测文章拆解|100,000,000 Token 免费薅！爽玩 DeepSeek V4.1 Flash、GLM-5.3 ！]] | 整合型；活动按体验/编程/办公/视频怎样分流。主体官方主张整理，仅DeepSeek画鹈鹕为作者轻测；无完整结果或GLM实测，不能当多模型横评 | `raw/article/小林coding/雷达-2026-11-13/100,000,000 Token 免费薅！爽玩 DeepSeek V4.1 Flash、GLM-5.3 ！-a2e6be742b.md` |
+
+Fable篇不是单纯发布转述：有自己设计的同题委托与具体制作链，故保留深拆，但“首批实测”不能归给作者本人；案例库仅补第三方受托运行的锦鲤卡，不认领原作者本人实测。十例的Tripo3D、Blender、画图软件、子Agent规模和各自耗时逐项保留归属，不把他人代码、作品与私人成本移植为本账号事实，也不以同题判横评胜负。
+
+移动云篇含一句明确“我也简单测试”的操作，故不按纯资讯排除；案例卡仅登记这一个轻测，原文未给结果判断，不补成通过。最高1亿要叠加实名、登录与签到，不等于即领；首月价、抵扣系数、会员资格、有效期及DeepSeek型号写法差异必须另核。企业Agent、主机与视频套餐均不是作者测试。
+
+本批可迁移的是“权限/委托身份先交代”“按产物而非夸张总评组织外部案例”“规则与实际用量分账”；不能由两篇概括整号。两篇未见明确单篇合作披露，合作未知；促购与品牌出现不证明付款和预算。无同口径日常传播基线，不从大数字、离谱标题或案例数解释传播。自己的五要素方向在source均标待实操；分片台账见`output/ai-wechat-methodology/雷达-2026-11-13/slice-luren-xiaoli-xiaolin.json`，第三方受托锦鲤与移动云轻测两卡已合入[[topics/AI写作案例库]]，测试角度和步骤留空供人填写。

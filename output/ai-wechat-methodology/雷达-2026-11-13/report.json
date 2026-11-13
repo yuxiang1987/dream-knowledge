@@ -1,0 +1,301 @@
+{
+  "batch": "E:/work/note/dream-knowledge/output/ai-wechat-methodology/雷达-2026-11-13",
+  "stats_dir": "E:/work/note/dream-knowledge/output/ai-wechat-methodology/雷达-2026-11-13/stats-2026-11-13",
+  "baseline": [
+    {
+      "account": "路人甲TM",
+      "n": 1,
+      "median": 394,
+      "min": 394,
+      "max": 394,
+      "median_like": 2,
+      "median_share": 14,
+      "median_comment": 0
+    },
+    {
+      "account": "摸鱼小李",
+      "n": 1,
+      "median": 7474,
+      "min": 7474,
+      "max": 7474,
+      "median_like": 68,
+      "median_share": 330,
+      "median_comment": 24
+    },
+    {
+      "account": "小林coding",
+      "n": 1,
+      "median": 18221,
+      "min": 18221,
+      "max": 18221,
+      "median_like": 22,
+      "median_share": 670,
+      "median_comment": 30
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "n": 1,
+      "median": 8708,
+      "min": 8708,
+      "max": 8708,
+      "median_like": 12,
+      "median_share": 265,
+      "median_comment": 15
+    },
+    {
+      "account": "苍何",
+      "n": 1,
+      "median": 5399,
+      "min": 5399,
+      "max": 5399,
+      "median_like": 7,
+      "median_share": 75,
+      "median_comment": 21
+    },
+    {
+      "account": "沉默王二",
+      "n": 1,
+      "median": 13587,
+      "min": 13587,
+      "max": 13587,
+      "median_like": 86,
+      "median_share": 903,
+      "median_comment": 18
+    },
+    {
+      "account": "洛洛AI说",
+      "n": 1,
+      "median": 294,
+      "min": 294,
+      "max": 294,
+      "median_like": 59,
+      "median_share": 27,
+      "median_comment": 15
+    },
+    {
+      "account": "郭震AI",
+      "n": 1,
+      "median": 2980,
+      "min": 2980,
+      "max": 2980,
+      "median_like": 34,
+      "median_share": 456,
+      "median_comment": 30
+    },
+    {
+      "account": "西羊石AI视频",
+      "n": 1,
+      "median": 3718,
+      "min": 3718,
+      "max": 3718,
+      "median_like": 34,
+      "median_share": 157,
+      "median_comment": 4
+    }
+  ],
+  "anomalies": [],
+  "event_clusters": [
+    {
+      "object": "WorkBuddy双十一积分活动",
+      "articles": 2,
+      "accounts": [
+        "苍何",
+        "路人甲TM"
+      ],
+      "span_days": 1,
+      "from": "2026-11-12",
+      "to": "2026-11-13"
+    }
+  ],
+  "raw_without_source": [
+    "raw/article/lurenjiaTM/实测OiiOii最新Skill，这套电商组合堪称双十一王炸！.md",
+    "raw/article/lurenjiaTM/真正的双11来了！天猫预售居然免定金！.md",
+    "raw/article/小林coding/雷达-2026-11-01/Anthropic直接掀桌：Code Review不再留给人-0844cd6d54.md",
+    "raw/article/小林coding/雷达-2026-11-01/淘汰Java岗，中国又一新兴岗位崛起！这将是程序员未来10年最好的方向。-0c8f44d39a.md",
+    "raw/article/小林coding/雷达-2026-11-02/震撼，DeepSeek开源超级 Agent 架构！-73e4b9bcff.md",
+    "raw/article/小林coding/雷达-2026-11-11/Anthropic直接劝退：慎用子 Agent！-e97495c88b.md",
+    "raw/article/卡尔的AI沃茨/雷达-2026-11-13/一口气看懂黄仁勋辞职的所有瓜！比奥特曼两年前被免职还刺激-3291abd62b.md"
+  ],
+  "case_candidates": [
+    {
+      "article": "官方点名，DeepSeek Harness 的 4 个神级插件。",
+      "models": [
+        "DeepSeek",
+        "Claude",
+        "Codex"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 0
+      },
+      "raw_path": "raw/article/chenmowanger/雷达-2026-11-13/官方点名，DeepSeek Harness 的 4 个神级插件。-83e272402d.md",
+      "source_page": "wiki/sources/沉默王二Harness插件任务与终端验收文章拆解.md"
+    },
+    {
+      "article": "实测深度原理Hydrogen-1.0，我找到了比GPT-6Astra更适合我做科研的新模型",
+      "models": [
+        "Kimi",
+        "Opus",
+        "GPT"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 4,
+        "step_hits": 1
+      },
+      "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-13/实测深度原理Hydrogen-1.0，我找到了比GPT-6Astra更适合我做科研的新模型-5fef752e4e.md",
+      "source_page": "wiki/sources/卡尔Hydrogen科研纠错与官方实验分层文章拆解.md"
+    },
+    {
+      "article": "终于可以用1张画布把我的电商设计新工作流讲清楚了！",
+      "models": [
+        "Seedream",
+        "Seedance",
+        "GPT",
+        "即梦"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 2
+      },
+      "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-13/终于可以用1张画布把我的电商设计新工作流讲清楚了！-60499456e3.md",
+      "source_page": "wiki/sources/卡尔即梦单画布电商物料与返修文章拆解.md"
+    },
+    {
+      "article": "100,000,000 Token 免费薅！爽玩 DeepSeek V4.1 Flash、GLM-5.3 ！",
+      "models": [
+        "WorkBuddy",
+        "Seedance",
+        "DeepSeek"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 0
+      },
+      "raw_path": "raw/article/小林coding/雷达-2026-11-13/100,000,000 Token 免费薅！爽玩 DeepSeek V4.1 Flash、GLM-5.3 ！-a2e6be742b.md",
+      "source_page": "wiki/sources/小林移动云额度规则与鹈鹕轻测文章拆解.md"
+    },
+    {
+      "article": "Seedream 5.5 的多轮编辑，稳得有点吓人",
+      "models": [
+        "Seedream",
+        "Codex",
+        "即梦",
+        "豆包"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 0
+      },
+      "raw_path": "raw/article/摸鱼小李/雷达-2026-11-13/Seedream 5.5 的多轮编辑，稳得有点吓人-d622086b3c.md",
+      "source_page": "wiki/sources/摸鱼小李_Seedream多轮编辑与画布交付.md"
+    },
+    {
+      "article": "国产图像模型摸高：MiniMax H3 Image 实测",
+      "models": [
+        "MiniMax"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 2,
+        "step_hits": 0
+      },
+      "raw_path": "raw/article/洛洛AI说/雷达-2026-11-13/国产图像模型摸高：MiniMax H3 Image 实测-73838ea778.md",
+      "source_page": "wiki/sources/洛洛H3Image四层十一案例文章拆解.md"
+    },
+    {
+      "article": "不用 Opus5.5 ，即梦也能出爆款 vibe 视频了",
+      "models": [
+        "Seedream",
+        "Claude",
+        "Opus",
+        "即梦"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 2,
+        "step_hits": 1
+      },
+      "raw_path": "raw/article/苍何/雷达-2026-11-13/不用 Opus5.5 ，即梦也能出爆款 vibe 视频了-3969bff5b6.md",
+      "source_page": "wiki/sources/苍何即梦动效科普脚本返修与品牌视频文章拆解.md"
+    },
+    {
+      "article": "即梦短剧工作室吐血实测，小白速通AI短剧的最后一公里终于被打通了",
+      "models": [
+        "OiiOii",
+        "即梦"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 3
+      },
+      "raw_path": "raw/article/西羊石AI视频/雷达-2026-11-13/即梦短剧工作室吐血实测，小白速通AI短剧的最后一公里终于被打通了-2b27a23307.md",
+      "source_page": "wiki/sources/西羊石即梦短剧剧本预演与修改对照文章拆解.md"
+    },
+    {
+      "article": "Qwen4-max-preview来了！Qoder首发！一句提示词就能出动画，真的太好用了！",
+      "models": [
+        "Qwen"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 2,
+        "step_hits": 0
+      },
+      "raw_path": "raw/article/郭震AI/雷达-2026-11-13/Qwen4-max-preview来了！Qoder首发！一句提示词就能出动画，真的太好用了！-b46164535f.md",
+      "source_page": "wiki/sources/郭震Qwen4动画与日月食验算文章拆解.md"
+    }
+  ],
+  "median_by_account": {
+    "路人甲TM": 394,
+    "摸鱼小李": 7474,
+    "小林coding": 18221,
+    "卡尔的AI沃茨": 8708,
+    "苍何": 5399,
+    "沉默王二": 13587,
+    "洛洛AI说": 294,
+    "郭震AI": 2980,
+    "西羊石AI视频": 3718
+  }
+}
