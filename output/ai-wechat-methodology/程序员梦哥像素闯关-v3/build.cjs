@@ -25,12 +25,12 @@ function state(time){
   const shots=[{start:3.18,end:3.58,from:656,to:740},{start:4.32,end:4.7,from:800,to:880}];
   const bullets=shots.filter(s=>t>=s.start&&t<s.end).map(s=>({x:mix(s.from,s.to,(t-s.start)/(s.end-s.start)),y:GROUND-52}));
   const alpha=time<9.32?1:time<9.82?1-ease((time-9.32)/.5):ease((time-9.82)/.58);
-  const topic=hits.map((hit,i)=>{const p=clamp((t-hit)/.48);return {text:TOPIC[i],x:mix([420,640][i],[440,660][i],ease(p)),y:42+26*(1-ease(p))-24*Math.sin(Math.PI*p),alpha:t<hit?0:ease(p/.18)};});
+  const topic=hits.map((hit,i)=>{const p=clamp((t-hit)/.48);return {text:TOPIC[i],x:mix([420,640][i],[455,665][i],ease(p)),y:42+26*(1-ease(p))-24*Math.sin(Math.PI*p),alpha:t<hit?0:ease(p/.18)};});
   return {t,x,y,pose,frame,sx,sy,bullets,topic,monster_alive:impacts.map(v=>t<v),unlocked:hits.map(v=>t>=v),flag_y:mix(126,264,ease((t-5.6)/.6)),brick_centers:[420,640],brick_scale:1,brick_y:82,brick_alpha:1-ease((t-6.24)/.42),title_alpha:ease((t-6.72)/.6),alpha};
 }
 async function main(){
-  GlobalFonts.registerFromPath('C:/Windows/Fonts/msyhbd.ttc','CN');
-  GlobalFonts.registerFromPath('C:/Windows/Fonts/consolab.ttf','EN');
+  const fontFile=path.join(OUT,'fonts/fusion-pixel-12px-proportional-zh_hans.ttf.woff2');
+  if(!GlobalFonts.registerFromPath(fontFile,'Pixel'))throw Error('Pixel font registration failed');
   const sheet=await loadImage(path.join(OUT,'action-sheet.png'));
   const src=createCanvas(sheet.width,sheet.height),scrop=src.getContext('2d');scrop.drawImage(sheet,0,0);
   const pixels=scrop.getImageData(0,0,sheet.width,sheet.height).data,boxes=[];
@@ -42,7 +42,17 @@ async function main(){
   const scale=128/boxes[2].h;
   const canvas=createCanvas(W,H),c=canvas.getContext('2d');
   const r=(x,y,w,h,color)=>{c.fillStyle=color;c.fillRect(Math.round(x),Math.round(y),Math.round(w),Math.round(h));};
-  function text(s,x,y,size,color,font='CN'){c.font=`bold ${size}px ${font}`;c.fillStyle=color;c.textBaseline='middle';c.textAlign='center';c.fillText(s,x,y);}
+  const glyphs=new Map();
+  function text(s,x,y,size,color){
+    const key=s+color;let glyph=glyphs.get(key);
+    if(!glyph){
+      const tmp=createCanvas(600,24),g=tmp.getContext('2d');g.font='12px Pixel';g.textBaseline='top';g.fillStyle=color;g.fillText(s,2,0);
+      const im=g.getImageData(0,0,tmp.width,tmp.height);let l=tmp.width,top=24,right=0,bottom=0;
+      for(let yy=0;yy<24;yy++)for(let xx=0;xx<tmp.width;xx++){const i=(yy*tmp.width+xx)*4;im.data[i+3]=im.data[i+3]>127?255:0;if(im.data[i+3]){l=Math.min(l,xx);right=Math.max(right,xx);top=Math.min(top,yy);bottom=Math.max(bottom,yy);}}
+      g.putImageData(im,0,0);glyph=createCanvas(right-l+1,bottom-top+1);glyph.getContext('2d').drawImage(tmp,l,top,glyph.width,glyph.height,0,0,glyph.width,glyph.height);glyphs.set(key,glyph);
+    }
+    const n=Math.max(1,Math.round(size/12));c.imageSmoothingEnabled=false;c.drawImage(glyph,Math.round(x-glyph.width*n/2),Math.round(y-glyph.height*n/2),glyph.width*n,glyph.height*n);
+  }
   function poly(points,color){c.fillStyle=color;c.beginPath();points.forEach(([x,y],i)=>i?c.lineTo(x,y):c.moveTo(x,y));c.closePath();c.fill();}
   function cloud(x,y,s){c.save();c.translate(x,y);c.scale(s,s);r(0,12,98,25,'#5887bc');r(12,0,70,38,'#5887bc');r(29,-8,26,46,'#5887bc');r(4,12,90,20,'#ffffff');r(16,4,62,28,'#ffffff');r(33,-4,18,36,'#ffffff');r(12,29,72,5,'#c2f0ff');c.restore();}
   function hill(x,h,w){poly([[x,GROUND],[x,GROUND-h*.3],[x+w*.18,GROUND-h*.3],[x+w*.18,GROUND-h*.64],[x+w*.35,GROUND-h*.64],[x+w*.35,GROUND-h],[x+w*.65,GROUND-h],[x+w*.65,GROUND-h*.64],[x+w*.82,GROUND-h*.64],[x+w*.82,GROUND-h*.3],[x+w,GROUND-h*.3],[x+w,GROUND]],'#5bc84c');r(x+w*.38,GROUND-h+4,w*.24,4,'#b4f275');}
@@ -60,7 +70,7 @@ async function main(){
     c.save();c.translate(cx,s.brick_y-bump);c.scale(s.brick_scale,s.brick_scale);cx=0;const y=0;
     r(cx-58,y+4,116,68,'#9c4b20');r(cx-56,y,112,64,'#f49a2c');r(cx-52,y+4,104,56,open?'#ffbc3e':'#ffd15c');r(cx-48,y+8,96,4,open?'#ffe68a':'#fff3a7');
     for(const dx of [-47,44])for(const dy of [19,47])r(cx+dx,y+dy,3,3,'#a55822');
-    if(!open)text('?',cx,y+34,36,'#633516','EN');
+    if(!open)text('?',cx,y+34,36,'#633516');
     puff(cx,y+66,(t-hit)/.28,'#fff2a3');
     c.restore();
   }
@@ -84,7 +94,7 @@ async function main(){
     // 主题文字从砖内弹出、轻轻回落后停住，降旗后与砖一起退场。
     c.save();c.globalAlpha=s.alpha;
     c.save();c.globalAlpha*=s.brick_alpha;
-    for(const v of s.topic){c.save();c.globalAlpha*=v.alpha;text(v.text,v.x,v.y,56,'#193d72','EN');c.restore();}
+    for(const v of s.topic){c.save();c.globalAlpha*=v.alpha;text(v.text,v.x,v.y,56,'#193d72');c.restore();}
     block(s.brick_centers[0],hits[0],s.t,s);block(s.brick_centers[1],hits[1],s.t,s);
     c.restore();
     c.save();c.globalAlpha*=s.title_alpha;text(TAGLINE,600,130+12*(1-s.title_alpha),70,'#193d72');c.restore();
@@ -106,7 +116,7 @@ async function main(){
   const mobile=createCanvas(375,113);scene(7.5);mobile.getContext('2d').drawImage(canvas,0,0,375,112.5);fs.writeFileSync(path.join(OUT,'mobile.png'),mobile.toBuffer('image/png'));
   scene(3);mobile.getContext('2d').drawImage(canvas,0,0,375,112.5);fs.writeFileSync(path.join(OUT,'mobile-topic.png'),mobile.toBuffer('image/png'));
   const run=spawnSync('ffmpeg',['-y','-v','error','-framerate',String(FPS),'-i',path.join(frames,'%04d.png'),'-filter_complex','[0:v]split[a][b];[a]palettegen=max_colors=256:stats_mode=full[p];[b][p]paletteuse=dither=bayer:bayer_scale=3','-frames:v',String(D*FPS),'-loop','0',path.join(OUT,'intro.gif')],{encoding:'utf8'});if(run.status!==0)throw Error(run.stderr);
-  fs.writeFileSync(path.join(OUT,'manifest.json'),JSON.stringify({account:'程序员梦哥',visible_title:TAGLINE,topic_words:TOPIC,brick_words:[],width:W,height:H,fps:FPS,frame_count:D*FPS,duration_seconds:D,ground:GROUND,brick_bottom:150,hits,impacts,topic_pop_duration:.48,topic_settled:2.88,flag_lowering:[5.6,6.2],brick_fade:[6.24,6.66],title_reveal:[6.72,7.32],brand_hold:[7.32,9.32],reset:[9.32,10.4],sprite_boxes:boxes,sprite_scale:scale,method:'Reused imagegen 16-pose sheet; topic text pop, Canvas timeline and FFmpeg GIF',wechat_verified:false,states},null,2)+'\n');
+  fs.writeFileSync(path.join(OUT,'manifest.json'),JSON.stringify({account:'程序员梦哥',visible_title:TAGLINE,topic_words:TOPIC,brick_words:[],typography:{family:'Fusion Pixel 12px Proportional zh_hans',base_px:12,topic_scale:5,footer_scale:6,font_file:'fonts/fusion-pixel-12px-proportional-zh_hans.ttf.woff2'},width:W,height:H,fps:FPS,frame_count:D*FPS,duration_seconds:D,ground:GROUND,brick_bottom:150,hits,impacts,topic_pop_duration:.48,topic_settled:2.88,flag_lowering:[5.6,6.2],brick_fade:[6.24,6.66],title_reveal:[6.72,7.32],brand_hold:[7.32,9.32],reset:[9.32,10.4],sprite_boxes:boxes,sprite_scale:scale,method:'Reused imagegen 16-pose sheet; topic text pop, Canvas timeline and FFmpeg GIF',wechat_verified:false,states},null,2)+'\n');
   fs.writeFileSync(path.join(OUT,'preview.html'),`<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>程序员梦哥 · 像素闯关 v3</title><style>*{box-sizing:border-box}body{margin:0;background:#e9eff2;color:#2b4758;font:15px/1.8 "Microsoft YaHei",sans-serif}main{max-width:1100px;margin:28px auto;padding:28px;background:white;border-radius:16px}h1{font-size:23px;margin:0}h2{font-size:17px;margin-top:26px}p{color:#758995}img{display:block;width:100%}.phone{width:375px;max-width:100%;border:1px solid #e0e8ec}.body{padding:18px 24px}button,a{display:inline-block;margin:12px 8px 0 0;border:1px solid #d2dfe4;border-radius:6px;background:white;padding:7px 12px;color:#3d7089;font:inherit;text-decoration:none}@media(max-width:650px){main{margin:0;padding:18px}}</style><main><h1>GPT Image 2.6 · 主题版</h1><p>两次顶砖弹出 GPT Image 2.6 → 发炮打怪 → 降旗 → 折腾AI、少踩坑，10.4秒循环。</p><img data-loop src="intro.gif" alt="像素人物顶砖弹出GPT Image 2.6，降旗后显示折腾AI、少踩坑"><button onclick="document.querySelectorAll('img[data-loop]').forEach(im=>im.src='intro.gif?t='+Date.now())">从头播放</button><a href="intro.gif" download>下载 GIF</a><h2>375px 文章预览</h2><div class="phone"><img data-loop src="intro.gif" alt="375px片头预览"><div class="body"><b>你好，我是梦哥。</b><p>这里接今天的文章。</p></div></div><h2>十个动作时刻</h2><img src="keyframes.png" alt="打怪、两次顶砖与降旗关键帧"><p>本地候选；复用既有角色、代码制作GIF，公众号后台及真机效果待验收。</p></main></html>`);
   console.log(JSON.stringify({frames:D*FPS,gif_bytes:fs.statSync(path.join(OUT,'intro.gif')).size,duration:D}));
 }

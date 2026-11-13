@@ -105,6 +105,22 @@ class MenggePixelPolishTest(unittest.TestCase):
             if s['title_alpha'] > 0:
                 self.assertEqual(s['brick_alpha'], 0)
 
+    def test_pixel_typography_assets_and_hard_edges(self):
+        m = self.m
+        self.assertEqual(m['typography']['base_px'], 12)
+        self.assertEqual(m['typography']['topic_scale'], 5)
+        self.assertEqual(m['typography']['footer_scale'], 6)
+        font = ART / m['typography']['font_file']
+        source = json.loads((ART / 'fonts/source.json').read_text(encoding='utf8'))
+        self.assertEqual(hashlib.sha256(font.read_bytes()).hexdigest(), source['sha256'])
+        self.assertIn('SIL OPEN FONT LICENSE', (ART / 'fonts/OFL.txt').read_text(encoding='utf8'))
+        # 像素字体的最终PNG应只有天空和实色字形，不含平滑字体的灰边。
+        for filename, box in [('topic.png', (350, 0, 850, 70)),
+                              ('poster.png', (300, 80, 900, 185))]:
+            with Image.open(ART / filename) as im:
+                colors = {color for _, color in im.convert('RGB').crop(box).getcolors()}
+                self.assertEqual(colors, {(155, 216, 255), (25, 61, 114)})
+
 
 if __name__ == '__main__':
     unittest.main()

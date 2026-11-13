@@ -2,6 +2,8 @@
 
 2026-11-13，按用户确认更新为每篇文章可替换主题的v3：砖面去掉dream/coder，不再显示金币；两次顶砖分别弹出「GPT」「Image 2.6」，轻轻回落后停住，组成完整主题。降旗后主题和砖块一起淡出，再平滑渐显「折腾AI、少踩坑」。复用已生成的16姿势动作表、约128px角色和明亮配色。历史样稿可从Git追溯。
 
+同日按用户「字体难看，能否改用像素字体」的反馈，将主题、问号与中文片尾统一为真正的Fusion Pixel 12px比例简体中文像素字体；12px原始字形以整数倍最近邻放大，主题5倍、中文片尾6倍，不再用Consolas和微软雅黑。主题两段间距同步调整。字体来自作者2026.11.10发布包，原文件、SHA256和全部随包授权见`fonts/`；没有安装系统字体。
+
 ## 这版的具体变化
 
 - 内置image_gen参考既有蓝卫衣角色生成透明4×4动作表：8个跑步姿势、4个举炮/瞄准/后坐/恢复姿势、4个蹲下/上升/下落/压缩落地姿势。16格均接入动画，不再依赖旧版的腿部翻转。
@@ -22,4 +24,4 @@
 
 动作表使用内置image_gen生成，工具未返回可核验模型型号，不声称Image 2.6。GIF由Canvas场景与FFmpeg编码完成；没有生成原生GIF或交付SVG。自动检查与关键帧审阅不等于审美或平台验收，用户观感与公众号后台保存重载、真机效果仍待确认。未改Skill、未设为默认片头、未发布。
 
-执行`node build.cjs`重建；依赖既有`../程序员拾梦闯关片头五案-v1/node_modules/@napi-rs/canvas`、FFmpeg与本机微软雅黑/Consolas字体。中间帧`_frames/`忽略。仓库根目录执行`python -m unittest discover -s scripts -p test_mengge_pixel_polish.py`。
+执行`node build.cjs`重建；依赖既有`../程序员拾梦闯关片头五案-v1/node_modules/@napi-rs/canvas`、FFmpeg与随附Fusion Pixel字体。中间帧`_frames/`忽略。仓库根目录执行`python -m unittest discover -s scripts -p test_mengge_pixel_polish.py`。
