@@ -1,0 +1,52 @@
+{
+  "installed": "2026-11-13",
+  "repository": "https://github.com/greensock/gsap-skills",
+  "skills": [
+    {
+      "name": "gsap-core",
+      "path": "C:\\Users\\Administrator\\.codex\\skills\\gsap-core\\SKILL.md",
+      "sha256": "3887b47e050ab5afbe2a9a820f23d39fa02ab785e06a343be44c6f91d84d12b3"
+    },
+    {
+      "name": "gsap-timeline",
+      "path": "C:\\Users\\Administrator\\.codex\\skills\\gsap-timeline\\SKILL.md",
+      "sha256": "1a8b0f39cc4be3ed3d834b89672e4ae2f151b901dc3450bebf10bbc45379fe02"
+    },
+    {
+      "name": "gsap-scrolltrigger",
+      "path": "C:\\Users\\Administrator\\.codex\\skills\\gsap-scrolltrigger\\SKILL.md",
+      "sha256": "9351b6666a4749c0740406ea363aaccb99a087ff45cc5e8b99a0f367facf3ef4"
+    },
+    {
+      "name": "gsap-plugins",
+      "path": "C:\\Users\\Administrator\\.codex\\skills\\gsap-plugins\\SKILL.md",
+      "sha256": "5838b856c74c07fbc9fa99b6dfd1eee34ea554c3e530c30e0d58014b707d70a4"
+    },
+    {
+      "name": "gsap-utils",
+      "path": "C:\\Users\\Administrator\\.codex\\skills\\gsap-utils\\SKILL.md",
+      "sha256": "1927bcc4ea95b38203404ad5ea1d060b15c4a886c65ae53e885ff1793aabe0ba"
+    },
+    {
+      "name": "gsap-react",
+      "path": "C:\\Users\\Administrator\\.codex\\skills\\gsap-react\\SKILL.md",
+      "sha256": "88e2a5312b45e8cc7b3c496637ff5bc9af2ae9c925b555c8b235b34cbc989d74"
+    },
+    {
+      "name": "gsap-performance",
+      "path": "C:\\Users\\Administrator\\.codex\\skills\\gsap-performance\\SKILL.md",
+      "sha256": "cb5408d6fba707aabcbfe3320317a14c1f8fca6070074e5261047930f50d441e"
+    },
+    {
+      "name": "gsap-frameworks",
+      "path": "C:\\Users\\Administrator\\.codex\\skills\\gsap-frameworks\\SKILL.md",
+      "sha256": "842d9d3659ec3ddc8abbdc524708f8facf81f468ac25d0577f48c759c4fa31e6"
+    }
+  ],
+  "used": [
+    "gsap-core",
+    "gsap-timeline",
+    "gsap-performance"
+  ],
+  "method": "official Codex skill-installer helper; global install; no WeChat skill changes"
+}
