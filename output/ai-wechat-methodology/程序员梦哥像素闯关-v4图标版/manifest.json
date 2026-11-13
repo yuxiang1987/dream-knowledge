@@ -1,0 +1,9494 @@
+{
+  "account": "程序员梦哥",
+  "visible_title": "折腾AI、少踩坑",
+  "topic_words": [],
+  "topic_icons": [
+    "codex",
+    "claude"
+  ],
+  "icon_style": "custom pixel terminal badge and Claude-inspired radial star; not official logo assets",
+  "icon_size": 72,
+  "brick_words": [],
+  "typography": {
+    "family": "Fusion Pixel 12px Proportional zh_hans",
+    "base_px": 12,
+    "footer_scale": 6,
+    "font_file": "../程序员梦哥像素闯关-v3/fonts/fusion-pixel-12px-proportional-zh_hans.ttf.woff2"
+  },
+  "width": 1200,
+  "height": 360,
+  "fps": 25,
+  "frame_count": 220,
+  "duration_seconds": 8.8,
+  "ground": 318,
+  "brick_bottom": 150,
+  "hits": [
+    0.64,
+    2.04
+  ],
+  "impacts": [
+    3.16,
+    4.04
+  ],
+  "topic_pop_duration": 0.48,
+  "topic_settled": 2.52,
+  "flag_lowering": [
+    4.8,
+    5.32
+  ],
+  "brick_fade": [
+    5.36,
+    5.68
+  ],
+  "title_reveal": [
+    5.76,
+    6.28
+  ],
+  "brand_hold": [
+    6.28,
+    8.28
+  ],
+  "reset": [
+    8.28,
+    8.8
+  ],
+  "sprite_boxes": [
+    {
+      "x": 56,
+      "y": 27,
+      "w": 170,
+      "h": 307,
+      "anchor": 79.5
+    },
+    {
+      "x": 340,
+      "y": 28,
+      "w": 159,
+      "h": 306,
+      "anchor": 67
+    },
+    {
+      "x": 610,
+      "y": 27,
+      "w": 158,
+      "h": 307,
+      "anchor": 68.5
+    },
+    {
+      "x": 868,
+      "y": 20,
+      "w": 173,
+      "h": 285,
+      "anchor": 82
+    },
+    {
+      "x": 60,
+      "y": 391,
+      "w": 166,
+      "h": 309,
+      "anchor": 75.5
+    },
+    {
+      "x": 340,
+      "y": 393,
+      "w": 159,
+      "h": 307,
+      "anchor": 67
+    },
+    {
+      "x": 613,
+      "y": 394,
+      "w": 156,
+      "h": 302,
+      "anchor": 65.5
+    },
+    {
+      "x": 867,
+      "y": 382,
+      "w": 181,
+      "h": 289,
+      "anchor": 83
+    },
+    {
+      "x": 58,
+      "y": 749,
+      "w": 168,
+      "h": 300,
+      "anchor": 77.5
+    },
+    {
+      "x": 326,
+      "y": 748,
+      "w": 186,
+      "h": 302,
+      "anchor": 81
+    },
+    {
+      "x": 586,
+      "y": 752,
+      "w": 186,
+      "h": 297,
+      "anchor": 92.5
+    },
+    {
+      "x": 869,
+      "y": 748,
+      "w": 160,
+      "h": 301,
+      "anchor": 81
+    },
+    {
+      "x": 38,
+      "y": 1162,
+      "w": 192,
+      "h": 257,
+      "anchor": 97.5
+    },
+    {
+      "x": 333,
+      "y": 1100,
+      "w": 166,
+      "h": 287,
+      "anchor": 74
+    },
+    {
+      "x": 601,
+      "y": 1105,
+      "w": 164,
+      "h": 287,
+      "anchor": 77.5
+    },
+    {
+      "x": 860,
+      "y": 1158,
+      "w": 174,
+      "h": 261,
+      "anchor": 90
+    }
+  ],
+  "sprite_scale": 0.4169381107491857,
+  "method": "Reused imagegen 16-pose sheet; pixel icon pop, Canvas timeline and FFmpeg GIF",
+  "wechat_verified": false,
+  "states": [
+    {
+      "t": 0,
+      "x": 382,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 116,
+          "alpha": 0
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 0.04,
+      "x": 382,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 116,
+          "alpha": 0
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 0.08,
+      "x": 382,
+      "y": 318,
+      "pose": "crouch",
+      "frame": 12,
+      "sx": 1.0007,
+      "sy": 0.9993,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 116,
+          "alpha": 0
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 0.12,
+      "x": 382,
+      "y": 318,
+      "pose": "crouch",
+      "frame": 12,
+      "sx": 1.0054,
+      "sy": 0.9946,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 116,
+          "alpha": 0
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 0.16,
+      "x": 382,
+      "y": 318,
+      "pose": "crouch",
+      "frame": 12,
+      "sx": 1.0125,
+      "sy": 0.9875,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 116,
+          "alpha": 0
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 0.2,
+      "x": 382,
+      "y": 318,
+      "pose": "crouch",
+      "frame": 12,
+      "sx": 1.0196,
+      "sy": 0.9804,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 116,
+          "alpha": 0
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 0.24,
+      "x": 382,
+      "y": 318,
+      "pose": "crouch",
+      "frame": 12,
+      "sx": 1.0243,
+      "sy": 0.9757,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 116,
+          "alpha": 0
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 0.28,
+      "x": 382,
+      "y": 313.0803324099723,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 116,
+          "alpha": 0
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 0.32,
+      "x": 382,
+      "y": 304.0387811634349,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 116,
+          "alpha": 0
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 0.36,
+      "x": 382,
+      "y": 296.06094182825484,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 116,
+          "alpha": 0
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 0.4,
+      "x": 382,
+      "y": 289.1468144044321,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 116,
+          "alpha": 0
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 0.44,
+      "x": 382,
+      "y": 283.29639889196676,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 116,
+          "alpha": 0
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 0.48,
+      "x": 382,
+      "y": 278.50969529085876,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 116,
+          "alpha": 0
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 0.52,
+      "x": 382,
+      "y": 274.786703601108,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 116,
+          "alpha": 0
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 0.56,
+      "x": 382,
+      "y": 272.12742382271466,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 116,
+          "alpha": 0
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 0.6,
+      "x": 382,
+      "y": 270.5318559556787,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 116,
+          "alpha": 0
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 0.64,
+      "x": 382,
+      "y": 270,
+      "pose": "fall",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 116,
+          "alpha": 0
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 0.68,
+      "x": 382,
+      "y": 270.48,
+      "pose": "fall",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 110.92051485004619,
+          "alpha": 0.4445460549712956
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 0.72,
+      "x": 382,
+      "y": 271.92,
+      "pose": "fall",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 103.51851851851852,
+          "alpha": 0.9843519788650102
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 0.76,
+      "x": 382,
+      "y": 274.32,
+      "pose": "fall",
+      "frame": 14,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 94.53800506338834,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 0.8,
+      "x": 382,
+      "y": 277.68,
+      "pose": "fall",
+      "frame": 14,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 84.69045916183266,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 0.84,
+      "x": 382,
+      "y": 282,
+      "pose": "fall",
+      "frame": 14,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 74.64139028380492,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 0.88,
+      "x": 382,
+      "y": 287.28,
+      "pose": "fall",
+      "frame": 14,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 65,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 0.92,
+      "x": 382,
+      "y": 293.52,
+      "pose": "fall",
+      "frame": 14,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 56.312686580101186,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 0.96,
+      "x": 382,
+      "y": 300.71999999999997,
+      "pose": "fall",
+      "frame": 14,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 49.060829532203044,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 1,
+      "x": 382,
+      "y": 308.88,
+      "pose": "fall",
+      "frame": 14,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 43.66300506338833,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 1.04,
+      "x": 382,
+      "y": 318,
+      "pose": "land",
+      "frame": 15,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 40.481481481481474,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 1.08,
+      "x": 382,
+      "y": 318,
+      "pose": "land",
+      "frame": 15,
+      "sx": 1.018561553006147,
+      "sy": 0.9814384469938531,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 39.83255188708323,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 1.12,
+      "x": 382,
+      "y": 318,
+      "pose": "land",
+      "frame": 15,
+      "sx": 1.0175,
+      "sy": 0.9825,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 1.16,
+      "x": 382,
+      "y": 318,
+      "pose": "land",
+      "frame": 15,
+      "sx": 1.0061871843353822,
+      "sy": 0.9938128156646177,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 1.2,
+      "x": 382,
+      "y": 318,
+      "pose": "land",
+      "frame": 15,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 1.24,
+      "x": 396.01911697769685,
+      "y": 318,
+      "pose": "run",
+      "frame": 0,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 1.28,
+      "x": 431.66772872098323,
+      "y": 317,
+      "pose": "run",
+      "frame": 1,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 1.32,
+      "x": 479.3327264451526,
+      "y": 317,
+      "pose": "run",
+      "frame": 1,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 1.36,
+      "x": 529.4010013654986,
+      "y": 314,
+      "pose": "run",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 1.4,
+      "x": 572.2594446973144,
+      "y": 311,
+      "pose": "run",
+      "frame": 3,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 1.44,
+      "x": 598.2949476558945,
+      "y": 311,
+      "pose": "run",
+      "frame": 3,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 1.48,
+      "x": 602,
+      "y": 318,
+      "pose": "crouch",
+      "frame": 12,
+      "sx": 1.0007,
+      "sy": 0.9993,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 1.52,
+      "x": 602,
+      "y": 318,
+      "pose": "crouch",
+      "frame": 12,
+      "sx": 1.0054,
+      "sy": 0.9946,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 1.56,
+      "x": 602,
+      "y": 318,
+      "pose": "crouch",
+      "frame": 12,
+      "sx": 1.0125,
+      "sy": 0.9874999999999999,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 1.6,
+      "x": 602,
+      "y": 318,
+      "pose": "crouch",
+      "frame": 12,
+      "sx": 1.0196,
+      "sy": 0.9803999999999999,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 1.64,
+      "x": 602,
+      "y": 318,
+      "pose": "crouch",
+      "frame": 12,
+      "sx": 1.0243,
+      "sy": 0.9757,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 1.68,
+      "x": 602,
+      "y": 313.08033240997236,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 1.72,
+      "x": 602,
+      "y": 304.0387811634349,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 1.76,
+      "x": 602,
+      "y": 296.06094182825484,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 1.8,
+      "x": 602,
+      "y": 289.1468144044321,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 1.84,
+      "x": 602,
+      "y": 283.29639889196676,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 1.88,
+      "x": 602,
+      "y": 278.50969529085876,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 1.92,
+      "x": 602,
+      "y": 274.78670360110806,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 1.96,
+      "x": 602,
+      "y": 272.1274238227147,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 2,
+      "x": 602,
+      "y": 270.5318559556787,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 2.04,
+      "x": 602,
+      "y": 270,
+      "pose": "fall",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 2.08,
+      "x": 602,
+      "y": 270.48,
+      "pose": "fall",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 110.92051485004619,
+          "alpha": 0.4445460549712956
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 2.12,
+      "x": 602,
+      "y": 271.92,
+      "pose": "fall",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 103.5185185185185,
+          "alpha": 0.9843519788650107
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 2.16,
+      "x": 602,
+      "y": 274.32,
+      "pose": "fall",
+      "frame": 14,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 94.53800506338831,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 2.2,
+      "x": 602,
+      "y": 277.68,
+      "pose": "fall",
+      "frame": 14,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 84.69045916183264,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 2.24,
+      "x": 602,
+      "y": 282,
+      "pose": "fall",
+      "frame": 14,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 74.64139028380484,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 2.28,
+      "x": 602,
+      "y": 287.28,
+      "pose": "fall",
+      "frame": 14,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 65.00000000000006,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 2.32,
+      "x": 602,
+      "y": 293.52,
+      "pose": "fall",
+      "frame": 14,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 56.312686580101236,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 2.36,
+      "x": 602,
+      "y": 300.71999999999997,
+      "pose": "fall",
+      "frame": 14,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 49.060829532203066,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 2.4,
+      "x": 602,
+      "y": 308.88,
+      "pose": "fall",
+      "frame": 14,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 43.66300506338834,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 2.44,
+      "x": 602,
+      "y": 318,
+      "pose": "land",
+      "frame": 15,
+      "sx": 0.9999999999999999,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 40.48148148148148,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 2.48,
+      "x": 602,
+      "y": 318,
+      "pose": "land",
+      "frame": 15,
+      "sx": 1.018561553006147,
+      "sy": 0.9814384469938532,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 39.83255188708323,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 2.52,
+      "x": 602,
+      "y": 318,
+      "pose": "land",
+      "frame": 15,
+      "sx": 1.0175,
+      "sy": 0.9825,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 2.56,
+      "x": 602,
+      "y": 318,
+      "pose": "land",
+      "frame": 15,
+      "sx": 1.0061871843353822,
+      "sy": 0.9938128156646177,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 2.6,
+      "x": 602,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 2.64,
+      "x": 602,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 8,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 2.68,
+      "x": 602,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 8,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 2.72,
+      "x": 602,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 8,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 2.76,
+      "x": 602,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 8,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 2.8,
+      "x": 602,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 9,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 2.84,
+      "x": 602,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 10,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 656,
+          "y": 266
+        }
+      ],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 2.88,
+      "x": 598.4644660940672,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 10,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 666.5,
+          "y": 266
+        }
+      ],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 2.92,
+      "x": 597,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 10,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 677,
+          "y": 266
+        }
+      ],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 2.96,
+      "x": 598.4644660940672,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 10,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 687.5,
+          "y": 266
+        }
+      ],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 3,
+      "x": 602,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 11,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 698,
+          "y": 266
+        }
+      ],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 3.04,
+      "x": 602,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 11,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 708.5,
+          "y": 266
+        }
+      ],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 3.08,
+      "x": 602,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 11,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 719,
+          "y": 266
+        }
+      ],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 3.12,
+      "x": 602,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 11,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 729.5,
+          "y": 266
+        }
+      ],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 3.16,
+      "x": 602,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 11,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 3.2,
+      "x": 602,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 11,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 3.24,
+      "x": 602,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 11,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 3.28,
+      "x": 602,
+      "y": 318,
+      "pose": "run",
+      "frame": 0,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 3.32,
+      "x": 611.1761492944925,
+      "y": 318,
+      "pose": "run",
+      "frame": 0,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 3.36,
+      "x": 634.5097860719162,
+      "y": 317,
+      "pose": "run",
+      "frame": 1,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 3.4,
+      "x": 665.7086936731907,
+      "y": 317,
+      "pose": "run",
+      "frame": 1,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 3.44,
+      "x": 698.4806554392353,
+      "y": 314,
+      "pose": "run",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 3.48,
+      "x": 726.5334547109695,
+      "y": 311,
+      "pose": "run",
+      "frame": 3,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 3.52,
+      "x": 743.5748748293126,
+      "y": 311,
+      "pose": "shoot",
+      "frame": 8,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 3.56,
+      "x": 746,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 8,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 3.6,
+      "x": 746,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 8,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 3.64,
+      "x": 746,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 8,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 3.68,
+      "x": 746,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 9,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 3.72,
+      "x": 746,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 10,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 800,
+          "y": 266
+        }
+      ],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 3.76,
+      "x": 742.4644660940673,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 10,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 809.9999999999999,
+          "y": 266
+        }
+      ],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 3.8,
+      "x": 741,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 10,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 819.9999999999999,
+          "y": 266
+        }
+      ],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 3.84,
+      "x": 742.4644660940672,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 10,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 829.9999999999999,
+          "y": 266
+        }
+      ],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 3.88,
+      "x": 746,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 10,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 840,
+          "y": 266
+        }
+      ],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 3.92,
+      "x": 746,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 11,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 850,
+          "y": 266
+        }
+      ],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 3.96,
+      "x": 746,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 11,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 860,
+          "y": 266
+        }
+      ],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 4,
+      "x": 746,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 11,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 870,
+          "y": 266
+        }
+      ],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 4.04,
+      "x": 746,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 11,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 4.08,
+      "x": 746,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 11,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 4.12,
+      "x": 746,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 11,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 4.16,
+      "x": 746,
+      "y": 318,
+      "pose": "run",
+      "frame": 0,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 4.2,
+      "x": 748.913116568945,
+      "y": 318,
+      "pose": "run",
+      "frame": 0,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 4.24,
+      "x": 757.0909016359834,
+      "y": 317,
+      "pose": "run",
+      "frame": 1,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 4.28,
+      "x": 769.6910082414204,
+      "y": 317,
+      "pose": "run",
+      "frame": 1,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 4.32,
+      "x": 785.8710894255607,
+      "y": 314,
+      "pose": "run",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 4.36,
+      "x": 804.7887982287098,
+      "y": 311,
+      "pose": "run",
+      "frame": 3,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 4.4,
+      "x": 825.6017876911724,
+      "y": 311,
+      "pose": "run",
+      "frame": 3,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 4.44,
+      "x": 847.4677108532536,
+      "y": 318,
+      "pose": "run",
+      "frame": 4,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 4.48,
+      "x": 869.5442207552586,
+      "y": 318,
+      "pose": "run",
+      "frame": 4,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 4.52,
+      "x": 890.988970437492,
+      "y": 317,
+      "pose": "run",
+      "frame": 5,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 4.56,
+      "x": 910.9596129402597,
+      "y": 314,
+      "pose": "run",
+      "frame": 6,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 4.6,
+      "x": 928.6138013038662,
+      "y": 314,
+      "pose": "run",
+      "frame": 6,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 4.64,
+      "x": 943.1091885686169,
+      "y": 311,
+      "pose": "run",
+      "frame": 7,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 4.68,
+      "x": 953.6034277748164,
+      "y": 311,
+      "pose": "run",
+      "frame": 7,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 4.72,
+      "x": 959.2541719627701,
+      "y": 318,
+      "pose": "run",
+      "frame": 0,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 4.76,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 4.8,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 4.84,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 128.32407828857532,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 4.88,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 134.7938097405553,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 4.92,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 144.65543923532093,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 4.96,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 157.15521165225312,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 5,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 171.5393718707329,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 5.04,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 187.0541647701412,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 5.08,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 202.94583522985897,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 5.12,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 218.46062812926726,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 5.16,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 232.844788347747,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 5.2,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 245.34456076467922,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 5.24,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 255.20619025944478,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 5.28,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 261.67592171142473,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 5.32,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 5.36,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 5.4,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0.9570312499999999,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 5.44,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0.8437499999999998,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 5.48,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0.6835937499999996,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 5.52,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0.5000000000000036,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 5.56,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0.3164062500000031,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 5.6,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0.15625000000000233,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 5.64,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0.04296875000000122,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 5.68,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 5.72,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 5.76,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0,
+      "alpha": 1
+    },
+    {
+      "t": 5.8,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0.016841147018661837,
+      "alpha": 1
+    },
+    {
+      "t": 5.84,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0.06372325898953128,
+      "alpha": 1
+    },
+    {
+      "t": 5.88,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0.13518434228493423,
+      "alpha": 1
+    },
+    {
+      "t": 5.92,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0.2257624032771965,
+      "alpha": 1
+    },
+    {
+      "t": 5.96,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0.32999544833864414,
+      "alpha": 1
+    },
+    {
+      "t": 6,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0.44242148384160285,
+      "alpha": 1
+    },
+    {
+      "t": 6.04,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0.5575785161583984,
+      "alpha": 1
+    },
+    {
+      "t": 6.08,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0.6700045516613571,
+      "alpha": 1
+    },
+    {
+      "t": 6.12,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0.7742375967228045,
+      "alpha": 1
+    },
+    {
+      "t": 6.16,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0.8648156577150669,
+      "alpha": 1
+    },
+    {
+      "t": 6.2,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0.9362767410104694,
+      "alpha": 1
+    },
+    {
+      "t": 6.24,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 0.9831588529813386,
+      "alpha": 1
+    },
+    {
+      "t": 6.28,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 6.32,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 6.36,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 6.4,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 6.44,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 6.48,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 6.52,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 6.56,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 6.6,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 6.64,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 6.68,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 6.72,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 6.76,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 6.8,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 6.84,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 6.88,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 6.92,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 6.96,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 7,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 7.04,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 7.08,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 7.12,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 7.16,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 7.2,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 7.24,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 7.28,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 7.32,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 7.36,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 7.4,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 7.44,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 7.48,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 7.52,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 7.56,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 7.6,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 7.64,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 7.68,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 7.72,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 7.76,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 7.8,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 7.84,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 7.88,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 7.92,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 7.96,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 8,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 8.04,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 8.08,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 8.12,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 8.16,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 8.2,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 8.24,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 8.28,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 1
+    },
+    {
+      "t": 8.32,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 0.9259259259259227
+    },
+    {
+      "t": 8.36,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 0.7407407407407403
+    },
+    {
+      "t": 8.4,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 0.49999999999999367
+    },
+    {
+      "t": 8.44,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 0.2592592592592584
+    },
+    {
+      "t": 8.48,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 42,
+          "alpha": 1
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 42,
+          "alpha": 1
+        }
+      ],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 0,
+      "title_alpha": 1,
+      "alpha": 0.0740740740740704
+    },
+    {
+      "t": 0,
+      "x": 382,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 116,
+          "alpha": 0
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 0
+    },
+    {
+      "t": 0,
+      "x": 382,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 116,
+          "alpha": 0
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 0.05539358600583333
+    },
+    {
+      "t": 0,
+      "x": 382,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 116,
+          "alpha": 0
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 0.19825072886297399
+    },
+    {
+      "t": 0,
+      "x": 382,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 116,
+          "alpha": 0
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 0.39358600583090897
+    },
+    {
+      "t": 0,
+      "x": 382,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 116,
+          "alpha": 0
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 0.6064139941690968
+    },
+    {
+      "t": 0,
+      "x": 382,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 116,
+          "alpha": 0
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 0.801749271137031
+    },
+    {
+      "t": 0,
+      "x": 382,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "topic": [
+        {
+          "text": "codex",
+          "x": 420,
+          "y": 116,
+          "alpha": 0
+        },
+        {
+          "text": "claude",
+          "x": 640,
+          "y": 116,
+          "alpha": 0
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "brick_centers": [
+        420,
+        640
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "brick_alpha": 1,
+      "title_alpha": 0,
+      "alpha": 1
+    }
+  ]
+}
