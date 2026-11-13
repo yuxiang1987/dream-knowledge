@@ -1,0 +1,8098 @@
+{
+  "account": "程序员梦哥",
+  "visible_title": "折腾ai，专业踩坑",
+  "brick_words": [
+    "dream",
+    "coder"
+  ],
+  "width": 1200,
+  "height": 360,
+  "fps": 25,
+  "frame_count": 290,
+  "duration_seconds": 11.6,
+  "ground": 318,
+  "brick_bottom": 150,
+  "hits": [
+    3.02,
+    4.82
+  ],
+  "impacts": [
+    1.4,
+    5.86
+  ],
+  "flag_lowering": [
+    7.04,
+    7.64
+  ],
+  "brand_merge": [
+    7.68,
+    8.55
+  ],
+  "brand_hold": [
+    8.55,
+    10.55
+  ],
+  "reset": [
+    10.55,
+    11.6
+  ],
+  "sprite_boxes": [
+    {
+      "x": 56,
+      "y": 27,
+      "w": 170,
+      "h": 307,
+      "anchor": 79.5
+    },
+    {
+      "x": 340,
+      "y": 28,
+      "w": 159,
+      "h": 306,
+      "anchor": 67
+    },
+    {
+      "x": 610,
+      "y": 27,
+      "w": 158,
+      "h": 307,
+      "anchor": 68.5
+    },
+    {
+      "x": 868,
+      "y": 20,
+      "w": 173,
+      "h": 285,
+      "anchor": 82
+    },
+    {
+      "x": 60,
+      "y": 391,
+      "w": 166,
+      "h": 309,
+      "anchor": 75.5
+    },
+    {
+      "x": 340,
+      "y": 393,
+      "w": 159,
+      "h": 307,
+      "anchor": 67
+    },
+    {
+      "x": 613,
+      "y": 394,
+      "w": 156,
+      "h": 302,
+      "anchor": 65.5
+    },
+    {
+      "x": 867,
+      "y": 382,
+      "w": 181,
+      "h": 289,
+      "anchor": 83
+    },
+    {
+      "x": 58,
+      "y": 749,
+      "w": 168,
+      "h": 300,
+      "anchor": 77.5
+    },
+    {
+      "x": 326,
+      "y": 748,
+      "w": 186,
+      "h": 302,
+      "anchor": 81
+    },
+    {
+      "x": 586,
+      "y": 752,
+      "w": 186,
+      "h": 297,
+      "anchor": 92.5
+    },
+    {
+      "x": 869,
+      "y": 748,
+      "w": 160,
+      "h": 301,
+      "anchor": 81
+    },
+    {
+      "x": 38,
+      "y": 1162,
+      "w": 192,
+      "h": 257,
+      "anchor": 97.5
+    },
+    {
+      "x": 333,
+      "y": 1100,
+      "w": 166,
+      "h": 287,
+      "anchor": 74
+    },
+    {
+      "x": 601,
+      "y": 1105,
+      "w": 164,
+      "h": 287,
+      "anchor": 77.5
+    },
+    {
+      "x": 860,
+      "y": 1158,
+      "w": 174,
+      "h": 261,
+      "anchor": 90
+    }
+  ],
+  "sprite_scale": 0.4169381107491857,
+  "method": "Built-in imagegen 16-pose sheet; native Canvas timeline and FFmpeg GIF",
+  "wechat_verified": false,
+  "states": [
+    {
+      "t": 0,
+      "x": 120,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 0.04,
+      "x": 120,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 0.08,
+      "x": 120,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 0.12,
+      "x": 120,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 0.16,
+      "x": 120,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 0.2,
+      "x": 120,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 0.24,
+      "x": 120,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 0.28,
+      "x": 120,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 0.32,
+      "x": 120,
+      "y": 318,
+      "pose": "run",
+      "frame": 0,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 0.36,
+      "x": 121.8176,
+      "y": 318,
+      "pose": "run",
+      "frame": 0,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 0.4,
+      "x": 126.86080000000001,
+      "y": 317,
+      "pose": "run",
+      "frame": 1,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 0.44,
+      "x": 134.5152,
+      "y": 317,
+      "pose": "run",
+      "frame": 1,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 0.48,
+      "x": 144.1664,
+      "y": 314,
+      "pose": "run",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 0.52,
+      "x": 155.20000000000002,
+      "y": 311,
+      "pose": "run",
+      "frame": 3,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 0.56,
+      "x": 167.00160000000002,
+      "y": 311,
+      "pose": "run",
+      "frame": 3,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 0.6,
+      "x": 178.95680000000002,
+      "y": 318,
+      "pose": "run",
+      "frame": 4,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 0.64,
+      "x": 190.45120000000003,
+      "y": 318,
+      "pose": "run",
+      "frame": 4,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 0.68,
+      "x": 200.87040000000002,
+      "y": 317,
+      "pose": "run",
+      "frame": 5,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 0.72,
+      "x": 209.60000000000002,
+      "y": 314,
+      "pose": "run",
+      "frame": 6,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 0.76,
+      "x": 216.0256,
+      "y": 314,
+      "pose": "run",
+      "frame": 6,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 0.8,
+      "x": 219.5328,
+      "y": 311,
+      "pose": "run",
+      "frame": 7,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 0.84,
+      "x": 220,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 0.88,
+      "x": 220,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 8,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 0.92,
+      "x": 220,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 8,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 0.96,
+      "x": 220,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 8,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 1,
+      "x": 220,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 9,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 1.04,
+      "x": 220,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 10,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 270,
+          "y": 266
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 1.08,
+      "x": 216.46446609406726,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 10,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 277.77777777777777,
+          "y": 266
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 1.12,
+      "x": 215,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 10,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 285.5555555555556,
+          "y": 266
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 1.16,
+      "x": 216.46446609406726,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 10,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 293.3333333333333,
+          "y": 266
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 1.2,
+      "x": 220,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 10,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 301.1111111111111,
+          "y": 266
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 1.24,
+      "x": 220,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 11,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 308.8888888888889,
+          "y": 266
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 1.28,
+      "x": 220,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 11,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 316.6666666666667,
+          "y": 266
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 1.32,
+      "x": 220,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 11,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 324.44444444444446,
+          "y": 266
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 1.36,
+      "x": 220,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 11,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 332.2222222222223,
+          "y": 266
+        }
+      ],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 1.4,
+      "x": 220,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 11,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 1.44,
+      "x": 220,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 11,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 1.48,
+      "x": 220,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 1.52,
+      "x": 220.30827385424493,
+      "y": 318,
+      "pose": "run",
+      "frame": 0,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 1.56,
+      "x": 222.68909654395193,
+      "y": 318,
+      "pose": "run",
+      "frame": 0,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 1.6,
+      "x": 227.23257888805412,
+      "y": 317,
+      "pose": "run",
+      "frame": 1,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 1.64,
+      "x": 233.71107250187828,
+      "y": 314,
+      "pose": "run",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 1.68,
+      "x": 241.8969290007513,
+      "y": 314,
+      "pose": "run",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 1.72,
+      "x": 251.5625,
+      "y": 311,
+      "pose": "run",
+      "frame": 3,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 1.76,
+      "x": 262.48013711495116,
+      "y": 318,
+      "pose": "run",
+      "frame": 4,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 1.8,
+      "x": 274.4221919609316,
+      "y": 318,
+      "pose": "run",
+      "frame": 4,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 1.84,
+      "x": 287.1610161532683,
+      "y": 317,
+      "pose": "run",
+      "frame": 5,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 1.88,
+      "x": 300.4689613072877,
+      "y": 317,
+      "pose": "run",
+      "frame": 5,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 1.92,
+      "x": 314.118379038317,
+      "y": 314,
+      "pose": "run",
+      "frame": 6,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 1.96,
+      "x": 327.8816209616829,
+      "y": 311,
+      "pose": "run",
+      "frame": 7,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 2,
+      "x": 341.5310386927123,
+      "y": 311,
+      "pose": "run",
+      "frame": 7,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 2.04,
+      "x": 354.8389838467318,
+      "y": 318,
+      "pose": "run",
+      "frame": 0,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 2.08,
+      "x": 367.57780803906843,
+      "y": 318,
+      "pose": "run",
+      "frame": 0,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 2.12,
+      "x": 379.51986288504884,
+      "y": 317,
+      "pose": "run",
+      "frame": 1,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 2.16,
+      "x": 390.43750000000006,
+      "y": 314,
+      "pose": "run",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 2.2,
+      "x": 400.10307099924876,
+      "y": 314,
+      "pose": "run",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 2.24,
+      "x": 408.2889274981218,
+      "y": 311,
+      "pose": "run",
+      "frame": 3,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 2.28,
+      "x": 414.7674211119459,
+      "y": 311,
+      "pose": "run",
+      "frame": 3,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 2.32,
+      "x": 419.3109034560481,
+      "y": 318,
+      "pose": "run",
+      "frame": 4,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 2.36,
+      "x": 421.69172614575507,
+      "y": 317,
+      "pose": "run",
+      "frame": 5,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 2.4,
+      "x": 422,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 2.44,
+      "x": 422,
+      "y": 318,
+      "pose": "crouch",
+      "frame": 12,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 2.48,
+      "x": 422,
+      "y": 318,
+      "pose": "crouch",
+      "frame": 12,
+      "sx": 1.0026,
+      "sy": 0.9974,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 2.52,
+      "x": 422,
+      "y": 318,
+      "pose": "crouch",
+      "frame": 12,
+      "sx": 1.0088,
+      "sy": 0.9912,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 2.56,
+      "x": 422,
+      "y": 318,
+      "pose": "crouch",
+      "frame": 12,
+      "sx": 1.0162,
+      "sy": 0.9838,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 2.6,
+      "x": 422,
+      "y": 318,
+      "pose": "crouch",
+      "frame": 12,
+      "sx": 1.0224,
+      "sy": 0.9776,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 2.64,
+      "x": 422,
+      "y": 318,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 2.68,
+      "x": 422,
+      "y": 308.42659279778394,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 2.72,
+      "x": 422,
+      "y": 299.9168975069252,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 2.76,
+      "x": 422,
+      "y": 292.4709141274239,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 2.8,
+      "x": 422,
+      "y": 286.0886426592798,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 2.84,
+      "x": 422,
+      "y": 280.7700831024931,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 2.88,
+      "x": 422,
+      "y": 276.51523545706374,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 2.92,
+      "x": 422,
+      "y": 273.3240997229917,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 2.96,
+      "x": 422,
+      "y": 271.196675900277,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 3,
+      "x": 422,
+      "y": 270.13296398891964,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 3.04,
+      "x": 422,
+      "y": 270.12,
+      "pose": "fall",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 3.08,
+      "x": 422,
+      "y": 271.08,
+      "pose": "fall",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 3.12,
+      "x": 422,
+      "y": 273,
+      "pose": "fall",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 3.16,
+      "x": 422,
+      "y": 275.88,
+      "pose": "fall",
+      "frame": 14,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 3.2,
+      "x": 422,
+      "y": 279.72,
+      "pose": "fall",
+      "frame": 14,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 3.24,
+      "x": 422,
+      "y": 284.52000000000004,
+      "pose": "fall",
+      "frame": 14,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 3.28,
+      "x": 422,
+      "y": 290.28,
+      "pose": "fall",
+      "frame": 14,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 3.32,
+      "x": 422,
+      "y": 296.99999999999994,
+      "pose": "fall",
+      "frame": 14,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 3.36,
+      "x": 422,
+      "y": 304.67999999999995,
+      "pose": "fall",
+      "frame": 14,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 3.4,
+      "x": 422,
+      "y": 313.32,
+      "pose": "fall",
+      "frame": 14,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 3.44,
+      "x": 422,
+      "y": 318,
+      "pose": "land",
+      "frame": 15,
+      "sx": 1.0117196801161807,
+      "sy": 0.9882803198838191,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 3.48,
+      "x": 422,
+      "y": 318,
+      "pose": "land",
+      "frame": 15,
+      "sx": 1.0202098647736844,
+      "sy": 0.9797901352263156,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 3.52,
+      "x": 422,
+      "y": 318,
+      "pose": "land",
+      "frame": 15,
+      "sx": 1.0121259188642107,
+      "sy": 0.9878740811357893,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 3.56,
+      "x": 422,
+      "y": 318,
+      "pose": "land",
+      "frame": 15,
+      "sx": 1.0016742400165972,
+      "sy": 0.9983257599834028,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 3.6,
+      "x": 422.6720150380988,
+      "y": 318,
+      "pose": "run",
+      "frame": 0,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 3.64,
+      "x": 427.7822832399047,
+      "y": 318,
+      "pose": "run",
+      "frame": 0,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 3.68,
+      "x": 437.3234198247793,
+      "y": 317,
+      "pose": "run",
+      "frame": 1,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 3.72,
+      "x": 450.5864858514317,
+      "y": 314,
+      "pose": "run",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 3.76,
+      "x": 466.86254237857054,
+      "y": 314,
+      "pose": "run",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 3.8,
+      "x": 485.44265046490534,
+      "y": 311,
+      "pose": "run",
+      "frame": 3,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 3.84,
+      "x": 505.6178711691449,
+      "y": 311,
+      "pose": "run",
+      "frame": 3,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 3.88,
+      "x": 526.6792655499983,
+      "y": 318,
+      "pose": "run",
+      "frame": 4,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 3.92,
+      "x": 547.9178946661742,
+      "y": 317,
+      "pose": "run",
+      "frame": 5,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 3.96,
+      "x": 568.624819576382,
+      "y": 317,
+      "pose": "run",
+      "frame": 5,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 4,
+      "x": 588.0911013393306,
+      "y": 314,
+      "pose": "run",
+      "frame": 6,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 4.04,
+      "x": 605.6078010137289,
+      "y": 311,
+      "pose": "run",
+      "frame": 7,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 4.08,
+      "x": 620.465979658286,
+      "y": 311,
+      "pose": "run",
+      "frame": 7,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 4.12,
+      "x": 631.9566983317109,
+      "y": 318,
+      "pose": "run",
+      "frame": 0,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 4.16,
+      "x": 639.3710180927126,
+      "y": 318,
+      "pose": "run",
+      "frame": 0,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 4.2,
+      "x": 642,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 4.24,
+      "x": 642,
+      "y": 318,
+      "pose": "crouch",
+      "frame": 12,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 4.28,
+      "x": 642,
+      "y": 318,
+      "pose": "crouch",
+      "frame": 12,
+      "sx": 1.0026,
+      "sy": 0.9974,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 4.32,
+      "x": 642,
+      "y": 318,
+      "pose": "crouch",
+      "frame": 12,
+      "sx": 1.0088,
+      "sy": 0.9912,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 4.36,
+      "x": 642,
+      "y": 318,
+      "pose": "crouch",
+      "frame": 12,
+      "sx": 1.0162,
+      "sy": 0.9838,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 4.4,
+      "x": 642,
+      "y": 318,
+      "pose": "crouch",
+      "frame": 12,
+      "sx": 1.0224,
+      "sy": 0.9776,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 4.44,
+      "x": 642,
+      "y": 318,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 4.48,
+      "x": 642,
+      "y": 308.42659279778394,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 4.52,
+      "x": 642,
+      "y": 299.91689750692535,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 4.56,
+      "x": 642,
+      "y": 292.47091412742395,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 4.6,
+      "x": 642,
+      "y": 286.0886426592799,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 4.64,
+      "x": 642,
+      "y": 280.7700831024932,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 4.68,
+      "x": 642,
+      "y": 276.5152354570638,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 4.72,
+      "x": 642,
+      "y": 273.3240997229917,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 4.76,
+      "x": 642,
+      "y": 271.19667590027706,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 4.8,
+      "x": 642,
+      "y": 270.1329639889197,
+      "pose": "rise",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 4.84,
+      "x": 642,
+      "y": 270.12,
+      "pose": "fall",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 4.88,
+      "x": 642,
+      "y": 271.08,
+      "pose": "fall",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 4.92,
+      "x": 642,
+      "y": 273,
+      "pose": "fall",
+      "frame": 13,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 4.96,
+      "x": 642,
+      "y": 275.88,
+      "pose": "fall",
+      "frame": 14,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 5,
+      "x": 642,
+      "y": 279.71999999999997,
+      "pose": "fall",
+      "frame": 14,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 5.04,
+      "x": 642,
+      "y": 284.52,
+      "pose": "fall",
+      "frame": 14,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 5.08,
+      "x": 642,
+      "y": 290.28,
+      "pose": "fall",
+      "frame": 14,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 5.12,
+      "x": 642,
+      "y": 296.99999999999994,
+      "pose": "fall",
+      "frame": 14,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 5.16,
+      "x": 642,
+      "y": 304.67999999999995,
+      "pose": "shoot",
+      "frame": 8,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 5.2,
+      "x": 642,
+      "y": 313.32,
+      "pose": "shoot",
+      "frame": 8,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 5.24,
+      "x": 642,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 8,
+      "sx": 1.0117196801161807,
+      "sy": 0.9882803198838191,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 5.28,
+      "x": 642,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 9,
+      "sx": 1.0202098647736844,
+      "sy": 0.9797901352263156,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 5.32,
+      "x": 642,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 9,
+      "sx": 1.0121259188642107,
+      "sy": 0.9878740811357893,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 5.36,
+      "x": 640.0865828381745,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 10,
+      "sx": 1.0016742400165972,
+      "sy": 0.9983257599834028,
+      "bullets": [
+        {
+          "x": 696.5384615384617,
+          "y": 266
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 5.4,
+      "x": 637.3806023374435,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 10,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 705.6153846153848,
+          "y": 266
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 5.44,
+      "x": 637.3806023374436,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 10,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 714.6923076923078,
+          "y": 266
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 5.48,
+      "x": 640.0865828381746,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 10,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 723.7692307692308,
+          "y": 266
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 5.52,
+      "x": 642,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 11,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 732.8461538461537,
+          "y": 266
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 5.56,
+      "x": 642,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 11,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 741.9230769230768,
+          "y": 266
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 5.6,
+      "x": 642,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 11,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 750.9999999999999,
+          "y": 266
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 5.64,
+      "x": 642,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 11,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 760.076923076923,
+          "y": 266
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 5.68,
+      "x": 642,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 11,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 769.1538461538461,
+          "y": 266
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 5.72,
+      "x": 642,
+      "y": 318,
+      "pose": "shoot",
+      "frame": 11,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 778.2307692307692,
+          "y": 266
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 5.76,
+      "x": 642,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 787.3076923076922,
+          "y": 266
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 5.8,
+      "x": 642,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 796.3846153846152,
+          "y": 266
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 5.84,
+      "x": 642,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [
+        {
+          "x": 805.4615384615383,
+          "y": 266
+        }
+      ],
+      "monster_alive": [
+        false,
+        true
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 5.88,
+      "x": 642,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 5.92,
+      "x": 642,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 5.96,
+      "x": 642,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 6,
+      "x": 642.3619874708822,
+      "y": 318,
+      "pose": "run",
+      "frame": 0,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 6.04,
+      "x": 645.1715855892529,
+      "y": 318,
+      "pose": "run",
+      "frame": 0,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 6.08,
+      "x": 650.5702331682384,
+      "y": 317,
+      "pose": "run",
+      "frame": 1,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 6.12,
+      "x": 658.3277924780061,
+      "y": 314,
+      "pose": "run",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 6.16,
+      "x": 668.2141257887238,
+      "y": 314,
+      "pose": "run",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 6.2,
+      "x": 679.9990953705587,
+      "y": 311,
+      "pose": "run",
+      "frame": 3,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 6.24,
+      "x": 693.4525634936789,
+      "y": 311,
+      "pose": "run",
+      "frame": 3,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 6.28,
+      "x": 708.3443924282516,
+      "y": 318,
+      "pose": "run",
+      "frame": 4,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 6.32,
+      "x": 724.4444444444445,
+      "y": 317,
+      "pose": "run",
+      "frame": 5,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 6.36,
+      "x": 741.5225818124251,
+      "y": 317,
+      "pose": "run",
+      "frame": 5,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 6.4,
+      "x": 759.3486668023611,
+      "y": 314,
+      "pose": "run",
+      "frame": 6,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 6.44,
+      "x": 777.6925616844201,
+      "y": 311,
+      "pose": "run",
+      "frame": 7,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 6.48,
+      "x": 796.3241287287696,
+      "y": 311,
+      "pose": "run",
+      "frame": 7,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 6.52,
+      "x": 815.0132302055767,
+      "y": 318,
+      "pose": "run",
+      "frame": 0,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 6.56,
+      "x": 833.52972838501,
+      "y": 318,
+      "pose": "run",
+      "frame": 0,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 6.6,
+      "x": 851.6434855372365,
+      "y": 317,
+      "pose": "run",
+      "frame": 1,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 6.64,
+      "x": 869.124363932424,
+      "y": 314,
+      "pose": "run",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 6.68,
+      "x": 885.7422258407398,
+      "y": 314,
+      "pose": "run",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 6.72,
+      "x": 901.2669335323517,
+      "y": 311,
+      "pose": "run",
+      "frame": 3,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 6.76,
+      "x": 915.4683492774273,
+      "y": 311,
+      "pose": "run",
+      "frame": 3,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 6.8,
+      "x": 928.1163353461338,
+      "y": 318,
+      "pose": "run",
+      "frame": 4,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 6.84,
+      "x": 938.9807540086392,
+      "y": 317,
+      "pose": "run",
+      "frame": 5,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 6.88,
+      "x": 947.831467535111,
+      "y": 317,
+      "pose": "run",
+      "frame": 5,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 6.92,
+      "x": 954.4383381957166,
+      "y": 314,
+      "pose": "run",
+      "frame": 6,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 6.96,
+      "x": 958.5712282606237,
+      "y": 311,
+      "pose": "run",
+      "frame": 7,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 7,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 7.04,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 7.08,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 127.75822222222223,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 7.12,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 132.7057777777778,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 7.16,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 140.35200000000003,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 7.2,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 150.20622222222227,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 7.24,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 161.77777777777783,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 7.28,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 174.57600000000008,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 7.32,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 188.11022222222232,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 7.36,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 201.8897777777779,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 7.4,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 215.4240000000001,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 7.44,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 228.22222222222234,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 7.48,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 239.7937777777779,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 7.52,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 249.6479999999999,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 7.56,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 257.2942222222222,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 7.6,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 262.24177777777777,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 7.64,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 7.68,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    },
+    {
+      "t": 7.72,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 0.016841147018661837,
+      "brick_centers": [
+        461.04415111515704,
+        679.9663177059626
+      ],
+      "brick_scale": 1.0033682294037323,
+      "brick_y": 82.30314064633592,
+      "alpha": 1
+    },
+    {
+      "t": 7.76,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 0.06372325898953128,
+      "brick_centers": [
+        463.95084205735094,
+        679.872553482021
+      ],
+      "brick_scale": 1.0127446517979062,
+      "brick_y": 83.14701866181156,
+      "alpha": 1
+    },
+    {
+      "t": 7.8,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 0.13518434228493423,
+      "brick_centers": [
+        468.38142922166594,
+        679.7296313154301
+      ],
+      "brick_scale": 1.0270368684569868,
+      "brick_y": 84.43331816112881,
+      "alpha": 1
+    },
+    {
+      "t": 7.84,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 0.2257624032771965,
+      "brick_centers": [
+        473.9972690031862,
+        679.5484751934456
+      ],
+      "brick_scale": 1.0451524806554393,
+      "brick_y": 86.06372325898954,
+      "alpha": 1
+    },
+    {
+      "t": 7.88,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 0.32999544833864414,
+      "brick_centers": [
+        480.45971779699596,
+        679.3400091033227
+      ],
+      "brick_scale": 1.065999089667729,
+      "brick_y": 87.9399180700956,
+      "alpha": 1
+    },
+    {
+      "t": 7.92,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 0.44242148384160285,
+      "brick_centers": [
+        487.4301319981794,
+        679.1151570323168
+      ],
+      "brick_scale": 1.0884842967683206,
+      "brick_y": 89.96358670914886,
+      "alpha": 1
+    },
+    {
+      "t": 7.96,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 0.5575785161583984,
+      "brick_centers": [
+        494.5698680018207,
+        678.8848429676832
+      ],
+      "brick_scale": 1.1115157032316796,
+      "brick_y": 92.03641329085117,
+      "alpha": 1
+    },
+    {
+      "t": 8,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 0.6700045516613571,
+      "brick_centers": [
+        501.54028220300415,
+        678.6599908966773
+      ],
+      "brick_scale": 1.1340009103322715,
+      "brick_y": 94.06008192990443,
+      "alpha": 1
+    },
+    {
+      "t": 8.04,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 0.7742375967228025,
+      "brick_centers": [
+        508.00273099681374,
+        678.4515248065544
+      ],
+      "brick_scale": 1.1548475193445604,
+      "brick_y": 95.93627674101045,
+      "alpha": 1
+    },
+    {
+      "t": 8.08,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 0.8648156577150669,
+      "brick_centers": [
+        513.6185707783342,
+        678.2703686845699
+      ],
+      "brick_scale": 1.1729631315430133,
+      "brick_y": 97.5666818388712,
+      "alpha": 1
+    },
+    {
+      "t": 8.12,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 0.9362767410104681,
+      "brick_centers": [
+        518.049157942649,
+        678.127446517979
+      ],
+      "brick_scale": 1.1872553482020936,
+      "brick_y": 98.85298133818843,
+      "alpha": 1
+    },
+    {
+      "t": 8.16,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 0.9831588529813386,
+      "brick_centers": [
+        520.955848884843,
+        678.0336822940374
+      ],
+      "brick_scale": 1.1966317705962677,
+      "brick_y": 99.6968593536641,
+      "alpha": 1
+    },
+    {
+      "t": 8.2,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 8.24,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 98.5945007036746,
+      "alpha": 1
+    },
+    {
+      "t": 8.28,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 97.36824509624115,
+      "alpha": 1
+    },
+    {
+      "t": 8.32,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 96.47761787257303,
+      "alpha": 1
+    },
+    {
+      "t": 8.36,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 96.03620095292825,
+      "alpha": 1
+    },
+    {
+      "t": 8.4,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 96.10028835127271,
+      "alpha": 1
+    },
+    {
+      "t": 8.44,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 96.66170698511479,
+      "alpha": 1
+    },
+    {
+      "t": 8.48,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 97.64885899083013,
+      "alpha": 1
+    },
+    {
+      "t": 8.52,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 98.93585261773332,
+      "alpha": 1
+    },
+    {
+      "t": 8.56,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 8.6,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 8.64,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 8.68,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 8.72,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 8.76,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 8.8,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 8.84,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 8.88,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 8.92,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 8.96,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 9,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 9.04,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 9.08,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 9.12,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 9.16,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 9.2,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 9.24,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 9.28,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 9.32,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 9.36,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 9.4,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 9.44,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 9.48,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 9.52,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 9.56,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 9.6,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 9.64,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 9.68,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 9.72,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 9.76,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 9.8,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 9.84,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 9.88,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 9.92,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 9.96,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 10,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 10.04,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 10.08,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 10.12,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 10.16,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 10.2,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 10.24,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 10.28,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 10.32,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 10.36,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 10.4,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 10.44,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 10.48,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 10.52,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 1
+    },
+    {
+      "t": 10.56,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 0.998816
+    },
+    {
+      "t": 10.6,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 0.9720000000000012
+    },
+    {
+      "t": 10.64,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 0.9144640000000003
+    },
+    {
+      "t": 10.68,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 0.8323520000000023
+    },
+    {
+      "t": 10.72,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 0.7318080000000002
+    },
+    {
+      "t": 10.76,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 0.6189760000000026
+    },
+    {
+      "t": 10.8,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 0.5
+    },
+    {
+      "t": 10.84,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 0.38102400000000247
+    },
+    {
+      "t": 10.88,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 0.26819199999999976
+    },
+    {
+      "t": 10.92,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 0.1676480000000019
+    },
+    {
+      "t": 10.96,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 0.08553599999999983
+    },
+    {
+      "t": 11,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 0.028000000000000802
+    },
+    {
+      "t": 11.04,
+      "x": 960,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        false,
+        false
+      ],
+      "unlocked": [
+        true,
+        true
+      ],
+      "flag_y": 264,
+      "merge": 1,
+      "brick_centers": [
+        522,
+        678
+      ],
+      "brick_scale": 1.2,
+      "brick_y": 100,
+      "alpha": 0.001184000000000296
+    },
+    {
+      "t": 0,
+      "x": 120,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 0.008601051840720901
+    },
+    {
+      "t": 0,
+      "x": 120,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 0.04447182569496437
+    },
+    {
+      "t": 0,
+      "x": 120,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 0.10399999999999901
+    },
+    {
+      "t": 0,
+      "x": 120,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 0.18256949661908028
+    },
+    {
+      "t": 0,
+      "x": 120,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 0.2755642374154758
+    },
+    {
+      "t": 0,
+      "x": 120,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 0.37836814425243814
+    },
+    {
+      "t": 0,
+      "x": 120,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 0.4863651389932369
+    },
+    {
+      "t": 0,
+      "x": 120,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 0.5949391435011234
+    },
+    {
+      "t": 0,
+      "x": 120,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 0.699474079639368
+    },
+    {
+      "t": 0,
+      "x": 120,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 0.7953538692712219
+    },
+    {
+      "t": 0,
+      "x": 120,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 0.8779624342599543
+    },
+    {
+      "t": 0,
+      "x": 120,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 0.9426836964688189
+    },
+    {
+      "t": 0,
+      "x": 120,
+      "y": 318,
+      "pose": "idle",
+      "frame": 2,
+      "sx": 1,
+      "sy": 1,
+      "bullets": [],
+      "monster_alive": [
+        true,
+        true
+      ],
+      "unlocked": [
+        false,
+        false
+      ],
+      "flag_y": 126,
+      "merge": 0,
+      "brick_centers": [
+        460,
+        680
+      ],
+      "brick_scale": 1,
+      "brick_y": 82,
+      "alpha": 1
+    }
+  ]
+}
