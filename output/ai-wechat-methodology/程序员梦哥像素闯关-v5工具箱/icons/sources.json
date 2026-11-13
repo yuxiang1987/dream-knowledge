@@ -1,0 +1,42 @@
+{
+  "received": "2026-11-13",
+  "source": "user supplied seven attachments; overrides provisional official favicons",
+  "icons": [
+    {
+      "name": "workbuddy",
+      "attachment": "codex-clipboard-f09f01f3-9ac3-4057-91c1-f6fcfafa13b3.png",
+      "sha256": "b195da85a56af34a373a4f91c48d9482b180a3358a0dccbec35415a721cc020d"
+    },
+    {
+      "name": "codex",
+      "attachment": "codex-clipboard-e350c72a-5ffd-4e84-ad4a-ee5647a47bae.png",
+      "sha256": "ac16120e4a1c917b3372feb0da179c001e427637da87d1f93bbcd4f305dd511b"
+    },
+    {
+      "name": "claude",
+      "attachment": "codex-clipboard-5a5e0c98-54c5-47c0-9cf5-200cb55ec4d7.png",
+      "sha256": "4176839ff01569b47b385dd1896c5ec011d7fff4f5231aa3e599533902b2b248"
+    },
+    {
+      "name": "kimi",
+      "attachment": "codex-clipboard-9197153a-4aa0-42d4-b82b-1e52ae7314a8.png",
+      "sha256": "ca2d0fb131637eab36524f24bf551ec3a58193bceca9e2253944ccb33a7f84fa"
+    },
+    {
+      "name": "minimax",
+      "attachment": "codex-clipboard-e2814b5f-76ae-484e-b0cc-81f398cdf781.png",
+      "sha256": "1a1ef7c1603bf49620baf1ad3ac21803cb2c4e21cae11cb76b9d7c99cf59bee3"
+    },
+    {
+      "name": "deepseek",
+      "attachment": "codex-clipboard-53921b20-af94-4428-abf6-3888d14bf655.png",
+      "sha256": "3f6f3f13e0f543674c077754e5a5c7a01b8bb253962a7c1ebc4dab7344b65928"
+    },
+    {
+      "name": "user07",
+      "attachment": "codex-clipboard-39bce97d-f65d-47ec-b713-23f944d0a7fe.png",
+      "sha256": "60423c985b432247420264ebafdb00419014bb03d447d6dfd8beeb4c103b0653"
+    }
+  ],
+  "note": "user07 keeps attachment identity without guessing its product name"
+}
