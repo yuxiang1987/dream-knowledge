@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-13",
+  "source_commit": "608d4055d7db86c23ab7fe6fe6639e0f9e206b53",
+  "scope": "合成输入的脚本验证，不是实际文章写作或独立模型行为验收",
+  "results": [
+    {
+      "skill": "wechat-article-writing",
+      "case": "2499字",
+      "body_characters": 2499,
+      "passed": false,
+      "shortfall": 1,
+      "exit_code": 1
+    },
+    {
+      "skill": "wechat-article-writing",
+      "case": "2500字",
+      "body_characters": 2500,
+      "passed": true,
+      "shortfall": 0,
+      "exit_code": 0
+    },
+    {
+      "skill": "wechat-article-writing",
+      "case": "2501字",
+      "body_characters": 2501,
+      "passed": true,
+      "shortfall": 0,
+      "exit_code": 0
+    },
+    {
+      "skill": "wechat-article-writing",
+      "case": "正文2499加附加内容",
+      "body_characters": 2499,
+      "passed": false,
+      "shortfall": 1,
+      "exit_code": 1
+    },
+    {
+      "skill": "gzh-final-check",
+      "case": "2499字",
+      "body_characters": 2499,
+      "passed": false,
+      "shortfall": 1,
+      "exit_code": 1
+    },
+    {
+      "skill": "gzh-final-check",
+      "case": "2500字",
+      "body_characters": 2500,
+      "passed": true,
+      "shortfall": 0,
+      "exit_code": 0
+    },
+    {
+      "skill": "gzh-final-check",
+      "case": "2501字",
+      "body_characters": 2501,
+      "passed": true,
+      "shortfall": 0,
+      "exit_code": 0
+    },
+    {
+      "skill": "gzh-final-check",
+      "case": "正文2499加附加内容",
+      "body_characters": 2499,
+      "passed": false,
+      "shortfall": 1,
+      "exit_code": 1
+    }
+  ]
+}
