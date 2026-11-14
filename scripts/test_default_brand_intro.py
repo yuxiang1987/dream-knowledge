@@ -71,7 +71,7 @@ class DefaultBrandIntroTest(unittest.TestCase):
         self.assertEqual(fragment.count(bio), 1)
         self.assertNotIn(bio, (DEMO / '默认片头排版示例.md').read_text(encoding='utf8'))
         entry = (SKILL / 'SKILL.md').read_text(encoding='utf8')
-        self.assertIn(bio, entry)
+        self.assertIn('我是梦哥，十年程序员，爱折腾 AI。分享实用 AI 工具、有趣玩法和实操心得，一起把想法做出来。', entry)
         self.assertIn('--no-author-bio', entry)
 
 
