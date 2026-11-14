@@ -3,9 +3,9 @@ title: AI写作案例库
 type: topic
 tags: [公众号, 案例, 实测, 写作]
 status: 进行中
-sources: [raw/article/lurenjiaTM/AI办公智能体增速第一，我给百度搭子出了三道题.md, raw/article/lurenjiaTM/GPT-6 Atsra终于开放，连测12小时！AGI到底有多猛？.md, raw/article/lurenjiaTM/Qwen-Image-3.0实测，国产生图模型这次夯爆了.md, raw/article/lurenjiaTM/WorkBuddy最新教程，看完我奶奶也会用了.md, raw/article/lurenjiaTM/阿里Qwen3.8-27B疯了：笔记本就能跑，能力却直逼Opus4.6.md, raw/article/lurenjiaTM/熬夜猛肝3万星的开源黑马Buzz，多Agent协作最全实操，手把手教会你.md, raw/article/lurenjiaTM/把B站干崩的《凡人修仙传》名场面，我用Pixmax尝试做了一遍.md, raw/article/lurenjiaTM/半夜秃袭，GPT Image2.5真的变强了，草图生图功能确实夯.md, raw/article/lurenjiaTM/不睡觉连肝三小时，deepseek原生harness首批实测来了!.md, raw/article/lurenjiaTM/拆解爆火的天才机甲师：AI短剧进入工业化时代，一个人如何完成机甲大片创作？.md, raw/article/lurenjiaTM/豆包爱学这次，做了个有点浪漫的东西.md, raw/article/lurenjiaTM/还在靠抽卡做视频？我用updream预演台告别抽卡.md, raw/article/lurenjiaTM/全新Qoder实测，阿里这一年的Coding确实没白做.md, raw/article/lurenjiaTM/实测豆包Seed-Evolving，写代码比我预期能打太多了.md, raw/article/lurenjiaTM/手机、电脑无缝衔接跑任务，这才是Vibecoding的完全体.md, raw/article/lurenjiaTM/为了让AI拍完长视频大片，我手搓了个Skill.md, raw/article/lurenjiaTM/我给DeepSeek Harness搭了个插件市场，这篇教你装，也教你做.md, raw/article/lurenjiaTM/我给iPhone Duo手搓了一整套配件，苹果看了都得直摇头.md, raw/article/lurenjiaTM/我让腾讯Miora帮我开了家火锅店，做到最后，我有点膨胀了.md, raw/article/lurenjiaTM/这就是AGI？GPT-6 Astra一夜刷屏，真实效果太夸张了.md, raw/article/lurenjiaTM/只用五分钟，Seko让一条国产AI短剧活了三次.md, raw/article/lurenjiaTM/手把手教你用WorkBuddy做微信小程序并上线，看完就会！（附真实案例）.md, raw/article/lurenjiaTM/最新60篇下载/WorkBuddy打通企微，现在它能自己翻群聊、找文件了！-a5611f15-1824ee778a.md, raw/article/lurenjiaTM/最新60篇下载/企业AI知识库到底是不是伪需求，试了一大圈后我有了答案-07786f97-5bab54eb9a.md, raw/article/lurenjiaTM/最新60篇下载/WorkBuddy又双叒升级了，一部手机就能控制多台电脑干活，用完直呼太香了-31d2048c-1ed26f95bc.md, raw/article/lurenjiaTM/最新60篇下载/Seedance2.5很强，但LibTV这套玩法更有意思-84b00f74-451feceee5.md, raw/article/lurenjiaTM/最新60篇下载/Jev凭什么刷爆AI圈？连夜测完我终于看明白了！-fa7297a8-53ffc74549.md, raw/article/lurenjiaTM/最新60篇下载/实测Qoder新功能！复刻实时联机球球大作战，域名服务器都不用-777f8091-ed666a9960.md, "raw/article/大鼻哥嘚巴嘚/WorkBuddy真香警告，5步做出无AI味PPT.md", "raw/article/大鼻哥嘚巴嘚/肝了2天，扒出WorkBuddy的8个办公必备skills，建议收藏起来慢慢看.md", "raw/article/大鼻哥嘚巴嘚/用豆包复刻100万点赞AI短片，手把手教你制作AI视频全流程（附完整制作流程）.md", "raw/article/大鼻哥嘚巴嘚/保姆级教程  无限token使用GPT-5.6 Sol的方法.md", "raw/article/洛洛AI说/GPT-6：快速上手+横评案例+省Token指南（一篇讲清）.md", "raw/article/洛洛AI说/MiniMax亲自下场做视频Agent，一句话手搓商业大片，这5个场景实力很强.md", "raw/article/洛洛AI说/OiiOii 把 MiniMax H3 打到 0.1 元秒，一天能做8集3D动漫（附全流程 ）.md", "raw/article/洛洛AI说/2分钱秒，1分钟做1集短剧，OiiOii × Fal H3 Max 做视频太太太快了！（附全流程）.md", "raw/article/洛洛AI说/Opus 5.5 视频刷屏外网，10个场景知晓能力上限.md", "raw/article/小林coding/WorkBuddy拿下双榜第一！腾讯这次把Harness玩明白了.md", "raw/article/小林coding/腾讯 WorkBuddy 重大更新来了，夯爆了！.md", "raw/article/小林coding/DeepSeek Harness发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Loop Engineering 已死，Graph Engineering 永生.md", "raw/article/小林coding/我反问面试官：“你知道Codex记忆机制是怎么实现的吗？”，他：“不知道”，我：“我教你，我看过源码”.md", "raw/article/小林coding/梁圣杀回来了！DeepSeek新模型发布，爆肝实测一天，性价比杀穿全场.md", "raw/article/小林coding/Gemini 4 Argon 震撼上线！拳打Opus 5.5，脚踢GPT-6 Astra，再也不是哈基米了。.md", "raw/article/小林coding/GLM-5.3发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Qwen3.8-Flash发布，新斩杀线！熬夜爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/面试官皱眉：“你看过 Claude Opus 5 系统提示词吗？”，我笑了：“刚看过，需要向我请教什么？”，他：“来，开始你的表演”.md", "raw/article/lurenjiaTM/雷达-2026-11-01/发现一个神仙Skill，轻松用WorkBuddy做科普视频，科普一切万物~-549e77ce87.md", "raw/article/lurenjiaTM/雷达-2026-11-01/改稿提速5倍！用OiiOii，10分钟批量跑出N版电商投放素材-715a68945e.md", "raw/article/lurenjiaTM/雷达-2026-11-01/LibTV疯了！三大模型0积分无限用，Seedance2.5低至0.17元_秒-16547a88d9.md", "raw/article/小林coding/雷达-2026-11-01/10亿Token免费薅！纯血国产模型杀到，跑Claude Code实测真香-351737976e.md", "raw/article/卡尔的AI沃茨/雷达-2026-11-01/LibTV悄悄开源破亿AI短片画布，我决定公开拆解这些1人剧组工作流-bbd60e13f4.md", "raw/article/苍何/雷达-2026-11-01/腾讯 Buddy One 来了，办公生态一键打通 WorkBuddy（附教程）-d76451780b.md", "raw/article/郭震AI/雷达-2026-11-01/终于能白嫖MiniMax H3、Wan3生成视频了，在LibTV爽玩到爆！-74af700f02.md", "raw/article/西羊石AI视频/雷达-2026-11-01/连画布都不用开！我用Codex直连LibTV手搓“闪身步”短片，双11三大旗舰0积分把我刷爽了！-b047113219.md"]
+sources: [raw/article/lurenjiaTM/AI办公智能体增速第一，我给百度搭子出了三道题.md, raw/article/lurenjiaTM/GPT-6 Atsra终于开放，连测12小时！AGI到底有多猛？.md, raw/article/lurenjiaTM/Qwen-Image-3.0实测，国产生图模型这次夯爆了.md, raw/article/lurenjiaTM/WorkBuddy最新教程，看完我奶奶也会用了.md, raw/article/lurenjiaTM/阿里Qwen3.8-27B疯了：笔记本就能跑，能力却直逼Opus4.6.md, raw/article/lurenjiaTM/熬夜猛肝3万星的开源黑马Buzz，多Agent协作最全实操，手把手教会你.md, raw/article/lurenjiaTM/把B站干崩的《凡人修仙传》名场面，我用Pixmax尝试做了一遍.md, raw/article/lurenjiaTM/半夜秃袭，GPT Image2.5真的变强了，草图生图功能确实夯.md, raw/article/lurenjiaTM/不睡觉连肝三小时，deepseek原生harness首批实测来了!.md, raw/article/lurenjiaTM/拆解爆火的天才机甲师：AI短剧进入工业化时代，一个人如何完成机甲大片创作？.md, raw/article/lurenjiaTM/豆包爱学这次，做了个有点浪漫的东西.md, raw/article/lurenjiaTM/还在靠抽卡做视频？我用updream预演台告别抽卡.md, raw/article/lurenjiaTM/全新Qoder实测，阿里这一年的Coding确实没白做.md, raw/article/lurenjiaTM/实测豆包Seed-Evolving，写代码比我预期能打太多了.md, raw/article/lurenjiaTM/手机、电脑无缝衔接跑任务，这才是Vibecoding的完全体.md, raw/article/lurenjiaTM/为了让AI拍完长视频大片，我手搓了个Skill.md, raw/article/lurenjiaTM/我给DeepSeek Harness搭了个插件市场，这篇教你装，也教你做.md, raw/article/lurenjiaTM/我给iPhone Duo手搓了一整套配件，苹果看了都得直摇头.md, raw/article/lurenjiaTM/我让腾讯Miora帮我开了家火锅店，做到最后，我有点膨胀了.md, raw/article/lurenjiaTM/这就是AGI？GPT-6 Astra一夜刷屏，真实效果太夸张了.md, raw/article/lurenjiaTM/只用五分钟，Seko让一条国产AI短剧活了三次.md, raw/article/lurenjiaTM/手把手教你用WorkBuddy做微信小程序并上线，看完就会！（附真实案例）.md, raw/article/lurenjiaTM/最新60篇下载/WorkBuddy打通企微，现在它能自己翻群聊、找文件了！-a5611f15-1824ee778a.md, raw/article/lurenjiaTM/最新60篇下载/企业AI知识库到底是不是伪需求，试了一大圈后我有了答案-07786f97-5bab54eb9a.md, raw/article/lurenjiaTM/最新60篇下载/WorkBuddy又双叒升级了，一部手机就能控制多台电脑干活，用完直呼太香了-31d2048c-1ed26f95bc.md, raw/article/lurenjiaTM/最新60篇下载/Seedance2.5很强，但LibTV这套玩法更有意思-84b00f74-451feceee5.md, raw/article/lurenjiaTM/最新60篇下载/Jev凭什么刷爆AI圈？连夜测完我终于看明白了！-fa7297a8-53ffc74549.md, raw/article/lurenjiaTM/最新60篇下载/实测Qoder新功能！复刻实时联机球球大作战，域名服务器都不用-777f8091-ed666a9960.md, "raw/article/大鼻哥嘚巴嘚/WorkBuddy真香警告，5步做出无AI味PPT.md", "raw/article/大鼻哥嘚巴嘚/肝了2天，扒出WorkBuddy的8个办公必备skills，建议收藏起来慢慢看.md", "raw/article/大鼻哥嘚巴嘚/用豆包复刻100万点赞AI短片，手把手教你制作AI视频全流程（附完整制作流程）.md", "raw/article/大鼻哥嘚巴嘚/保姆级教程  无限token使用GPT-5.6 Sol的方法.md", "raw/article/洛洛AI说/GPT-6：快速上手+横评案例+省Token指南（一篇讲清）.md", "raw/article/洛洛AI说/MiniMax亲自下场做视频Agent，一句话手搓商业大片，这5个场景实力很强.md", "raw/article/洛洛AI说/OiiOii 把 MiniMax H3 打到 0.1 元秒，一天能做8集3D动漫（附全流程 ）.md", "raw/article/洛洛AI说/2分钱秒，1分钟做1集短剧，OiiOii × Fal H3 Max 做视频太太太快了！（附全流程）.md", "raw/article/洛洛AI说/Opus 5.5 视频刷屏外网，10个场景知晓能力上限.md", "raw/article/小林coding/WorkBuddy拿下双榜第一！腾讯这次把Harness玩明白了.md", "raw/article/小林coding/腾讯 WorkBuddy 重大更新来了，夯爆了！.md", "raw/article/小林coding/DeepSeek Harness发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Loop Engineering 已死，Graph Engineering 永生.md", "raw/article/小林coding/我反问面试官：“你知道Codex记忆机制是怎么实现的吗？”，他：“不知道”，我：“我教你，我看过源码”.md", "raw/article/小林coding/梁圣杀回来了！DeepSeek新模型发布，爆肝实测一天，性价比杀穿全场.md", "raw/article/小林coding/Gemini 4 Argon 震撼上线！拳打Opus 5.5，脚踢GPT-6 Astra，再也不是哈基米了。.md", "raw/article/小林coding/GLM-5.3发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Qwen3.8-Flash发布，新斩杀线！熬夜爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/面试官皱眉：“你看过 Claude Opus 5 系统提示词吗？”，我笑了：“刚看过，需要向我请教什么？”，他：“来，开始你的表演”.md", "raw/article/lurenjiaTM/雷达-2026-11-01/发现一个神仙Skill，轻松用WorkBuddy做科普视频，科普一切万物~-549e77ce87.md", "raw/article/lurenjiaTM/雷达-2026-11-01/改稿提速5倍！用OiiOii，10分钟批量跑出N版电商投放素材-715a68945e.md", "raw/article/lurenjiaTM/雷达-2026-11-01/LibTV疯了！三大模型0积分无限用，Seedance2.5低至0.17元_秒-16547a88d9.md", "raw/article/小林coding/雷达-2026-11-01/10亿Token免费薅！纯血国产模型杀到，跑Claude Code实测真香-351737976e.md", "raw/article/卡尔的AI沃茨/雷达-2026-11-01/LibTV悄悄开源破亿AI短片画布，我决定公开拆解这些1人剧组工作流-bbd60e13f4.md", "raw/article/苍何/雷达-2026-11-01/腾讯 Buddy One 来了，办公生态一键打通 WorkBuddy（附教程）-d76451780b.md", "raw/article/郭震AI/雷达-2026-11-01/终于能白嫖MiniMax H3、Wan3生成视频了，在LibTV爽玩到爆！-74af700f02.md", "raw/article/西羊石AI视频/雷达-2026-11-01/连画布都不用开！我用Codex直连LibTV手搓“闪身步”短片，双11三大旗舰0积分把我刷爽了！-b047113219.md", "raw/article/lurenjiaTM/雷达-2026-11-14/MiniMax H3 image来了，继续开源，“源神”启动-fc3a5295d6.md", "raw/article/lurenjiaTM/雷达-2026-11-14/谁把这么多模型和免费额度放我豆包工作里了？-1cfd12ad22.md", "raw/article/摸鱼小李/雷达-2026-11-14/实测 Seedance 2.5 Flash 才是做 TVC 的神，3 分钟一条！-80cfbdf4d0.md", "raw/article/卡尔的AI沃茨/雷达-2026-11-14/开源_10秒出4K_超长文本_... 我实测出了MiniMax H3-Image擅长的四类新玩法-2fe6aa36d2.md", "raw/article/洛洛AI说/雷达-2026-11-14/WorkBuddy发福利了，双十一薅羊毛的3种正确姿势-430b44894a.md", "raw/article/西羊石AI视频/雷达-2026-11-14/LibTV首发Seedance2.5 Flash，这回终于能实现AI视频抽卡自由了！-5b42c48a03.md", "raw/article/西羊石AI视频/雷达-2026-11-14/看了影之刃零和持械入宋，我用 MiniMax Code 的 H3-Image 批量出 4K 大图（附提示词）-599aa5f6c8.md"]
 created: 2026-09-29
-updated: 2026-11-13
+updated: 2026-11-14
 ---
 
 # AI写作案例库
@@ -1497,3 +1497,92 @@ updated: 2026-11-13
 - 结果与边界：作者偏好即梦分步流程，认为OiiOii回溯难、金句刻意、部分镜头拖沓；缺完整同预算前后片和新手反馈，媒体未看，不证明小白速通。
 - 出处：[[sources/西羊石即梦短剧剧本预演与修改对照文章拆解]]；`raw/article/西羊石AI视频/雷达-2026-11-13/即梦短剧工作室吐血实测，小白速通AI短剧的最后一公里终于被打通了-2b27a23307.md`。
 - 我们能不能复用：待实操；用原创20秒双人脚本、两位角色与授权声音/座次图；冻结三镜验收，留全轮分镜视频、盲看反馈、版本/时间费用。测试角度和步骤由人填写，未代测，不保证同效果、读者增长或收益。
+
+## 雷达2026-11-14：新增作品的原作者案例设计参考
+
+本批7张卡仅记录作者报告的设计与边界；测试角度和步骤留给人填写，未运行产品、未核看媒体，不是本账号实测或读者效果。
+
+### 案例：同角色跨车辆建筑场景与逐帧动画（路人甲TM，2026-11-11）
+
+- 测什么模型／产品：MiniMax H3 Image网页端；Claude Code调用H3 Image API的逐帧工作流。
+- 测试角度：
+- 步骤：
+- 案例身份：角色、车辆、安全屋、冒险和动画为作者亲测自述；开源、参考图上限和API模式为产品信息转述，第一梯队与十秒出4K未独立核验，不是我们的实测。
+- 输入：紫色墨镜与黄色背包的小女孩设定、首稿和三视图；适配身高的重型工程车、海边安全屋、双人冒险、前帧参考；接API后尝试GTA及钢笔／水彩／毛毡／剪纸风格。完整提示词、种子和调用数未提供，原作元素授权未提供。
+- 原文验收点：角色标记物、适配座椅踏板和出入动线、建筑内外对应、双人尺度动作与水花反馈、定格动画观感；无统一客观评分或逐帧验收表。
+- 结果与边界：作者称角色与场景表现好，明确指出建筑结构不对应、标记物仅摆放、人物尺度和物理反馈不足；GTA风格动画首轮不理想，换风格后称符合预期。未看媒体，未核速度／费用／全部失败；Claude编排与图生图拼接不算模型原生直出GIF，画风致失败只是作者猜测。
+- 出处：[[sources/路人甲TM_H3Image角色世界与定格动画]]；`raw/article/lurenjiaTM/雷达-2026-11-14/MiniMax H3 image来了，继续开源，“源神”启动-fc3a5295d6.md`；raw第13行“海景房”“主线任务”“定格动画”小节。
+- 我们能不能复用：待实操；需自有或授权角色、原创场景、可用API与预算，另核许可证；保存完整输入、约束清单、每轮原图／动画、失败、人工修正和账单。测试角度与步骤由人填写，不继承角色／GTA素材、能力排名、同速同效果或传播收益。
+
+### 案例：同会议三路整理与咖啡调研物料分项记账（路人甲TM，2026-11-14）
+
+- 测什么模型／产品：豆包工作自动模式、DeepSeek V4.1 Flash、Kimi K3.1 Pro高速；物料环节为Seedream与Seedance。
+- 测试角度：
+- 步骤：
+- 案例身份：会议整理、咖啡报告和两图一视频为作者亲测自述；模型倍率、时段优惠、新客订阅和签到为活动规则转述；手机续接、飞书协作未见本文单独验收。不是我们的实测，也不是读者效果。
+- 输入：同一份乱会议记录，要求结论／待办／遗留问题；现制咖啡下沉市场调研任务，续作县城咖啡店秋季新品商品图、开业海报与竖屏视频。原会议记录和完整物料提示词未提供。
+- 原文验收点：会议结论、负责人和截止日期及输出风格；报告交Word、5页和12条引用，两个门店统计口径并列；海报中文与商品图／视频光影一致性。原文无逐条准确率和引用对账表，日期推算正确性未核。
+- 结果与边界：作者报自动模式及DeepSeek免费，Kimi扣14.66但单位未明；报告7分多且消耗栏免费；两图各12积分、视频450积分。媒体与报告文件未核，无完整重试／人工账；不把没充值或赠送额度等于全部零消耗，不由倍率推出同任务150次。多模态不归第三方文字模型独作。
+- 出处：[[sources/路人甲TM_豆包多模型记账与咖啡物料]]；`raw/article/lurenjiaTM/雷达-2026-11-14/谁把这么多模型和免费额度放我豆包工作里了？-1cfd12ad22.md`；raw第13行“模型有高低，合适更重要”“交活，是真的交到底”“怎么算，都是在免费用”。
+- 我们能不能复用：待实操；需获授权脱敏会议、人工真值、自有或授权物料、可用账号及现行额度权限；保留逐项输入输出、负责人／日期核对、引用原文、模式和余额前后记录、失败及人工修订。测试角度与步骤由人填写，不继承免费权益、节时、作品、读者效果或商业收益。
+
+### 案例：Flash六支宣传TVC与前三支正式版对照（摸鱼小李，2026-11-14）
+
+- 测什么模型／产品：LibTV中的Seedance 2.5 Flash与Seedance 2.5正式版。
+- 测试角度：
+- 步骤：
+- 案例身份：6支Flash宣传片、前三支Seedance 2.5对照和选型经验为作者亲测自述；最接近满血版／API价格为产品主张或作者转述；不是我们的实测。剧本中的甲方、老摄影师与母子并非已核现实验收或用户故事。
+- 输入：前三片《再来一次》《候场室》《等待的浪漫》有双版盲猜入口，未见可读统一输入；后三片《说一句，看一版》15镜、《这条，过！》13镜、《今天不飞》13镜，各30秒提示词，含双空间、角色、声音、物理规则、时间码与结尾字卡。完整参数、种子与生成次数未提供。
+- 原文验收点：作者关注Flash观感接近正式版、生成速度及同预算多方案；提示词要求机位／光向／动作声音和字卡，文末以1080P交付或高细节特写作为转正式版条件。无任务级验收表、客户确认或盲猜统计，不补造成片正确率。
+- 结果与边界：作者称6片由Flash生成，前三片另配正式版；标题及SVG可读标记声称3分钟对10分钟、API-34%，正文数字有缺值，无日志与官网核验。图片、SVG动画、九个嵌入视频、声音及互动未核看，不能判两版胜负或观众辨识率。剧中三次改版不是真实重试，3分钟不等于构思至交付总工时，未给全成本。
+- 出处：[[sources/摸鱼小李_Flash六支TVC与双版选型]]；`raw/article/摸鱼小李/雷达-2026-11-14/实测 Seedance 2.5 Flash 才是做 TVC 的神，3 分钟一条！-80cfbdf4d0.md`；raw第13行CASE 01—06、TVC流程与首个SVG的aria-label。
+- 我们能不能复用：待实操；自有产品和原创分镜、授权图像音色、同平台可用版本与预算；固定输入和输出规格，保存每次原视频／参数／计时／费用、失败与人工修改、匿名评价。测试角度与步骤由人填写，不复制原剧本人物，不承诺同速同价、客户认可、读者效果或传播收益。
+
+### 案例：把复杂图像任务拆成四类12组观察点（卡尔的AI沃茨，2026-11-14）
+
+- 测什么模型／产品：MiniMax H3 Image；前置15秒片头与宣传片另接H3视频模型，不能算图像模型独作。
+- 证据身份：四类12组单图及前置双模型视频为作者亲测自述；GoodCase高赞投稿、开头5000字符合同为第三方案例，不并入作者实测；开源、API/Mcode与SOTA是产品状态转述或作者评价。图片、动图、视频和音频未核，本库未复测。
+- 测试角度：
+- 步骤：
+- 输入：分镜五列表格与动作/帧数、随身听十层零件、机甲四视图；复古炼金界面、洪水街区HUD与居酒屋资产图板；双栏菜单、音乐展海报与合同；白模/实景对切、拉面/手绘施工、溪流/水墨。原文有各组详细分区提示，唯合同完整提示语未公开；提示中的8K、尺寸、公差、面数及贴图标签不是实际工程交付。
+- 原文验收点：作者逐组看手稿粗粝感、共轴及机械关系、四视图对齐、界面分区与材质、文字层级/点线/留白，以及风格衔接；合同仅报告小字与表格整齐、未出现大面积乱码，没有逐字符准确率。
+- 结果与边界：作者评价排版与复杂关系稳定，平均10秒出头出原生4K，人像仍有打磨空间；无全轮原图、计时与费用账、挑图比例、失败图、重试/修图记录及同条件模型对照。生成的游戏实机感画面、CAD、线框/PBR是图片，不是可运行游戏或可编辑工程；第三方5000字符不能变成作者测量。仅作测试设计参考，不是我们的实测或本账号读者效果，不推传播因果。
+- 出处：[[sources/卡尔H3Image四类复杂图与长文本验收文章拆解]]；raw `raw/article/卡尔的AI沃茨/雷达-2026-11-14/开源_10秒出4K_超长文本_... 我实测出了MiniMax H3-Image擅长的四类新玩法-2fe6aa36d2.md`；原文P7、P10—P86，发布2026-11-14 12:02。
+- 我们能不能复用：待实操。用自编已校对的中英双语产品说明、真实规格与自摄图，先固定三分区图的文字金标准和验收表；需可用模型入口、素材权限及许可核验，保留完整提示词、全轮原图/元数据、逐字对照、失败修正、实际工时与费用。不搬作者作品或私人成果，测试角度和步骤留人填写。
+
+### 案例：果橙宣传页与多平台口播物料（洛洛AI说，2026-11-13）
+
+- 测什么模型／产品：WorkBuddy、美图开拍连接器、画质修复Skill、口播剪辑专家；Hy4网页为另一个展示，宣传页/口播所用模型未提供。
+- 证据身份：作者亲测自述，不是本账号实测；活动资格、积分、模型排名和远控功能说明不并入效果证据。
+- 测试角度：
+- 步骤：
+- 输入：爱媛果冻橙宣传任务；原始产品图、事实表、口播稿和完整提示词未提供。
+- 原文验收点：作者展示宣传页及一批适合不同平台的口播；未提供正式验收表、平台格式参数、投放回执或转化指标，不补编。
+- 结果与边界：作者报告使用连接器与技能完成宣传页、用专家生成口播；媒体未核，无完整输出、轮次、耗时费用和真实投放效果，不代表读者收益。近6000积分是账户获积分自述而非项目净节约。
+- 出处：[[sources/洛洛WorkBuddy三档福利与日用案例文章拆解]]；`raw/article/洛洛AI说/雷达-2026-11-14/WorkBuddy发福利了，双十一薅羊毛的3种正确姿势-430b44894a.md`；原文第12—13正文文本块。
+- 我们能不能复用：待实操；须自有产品事实、授权图和原创口播，先确认连接器权限/计费，保留全量输入输出、修复对照、人工时间和账单；不能复制作者物料或拿活动规则当实测结果。
+
+### 案例：同镜横评与暗部/耳机首帧单变量修改（西羊石AI视频，2026-11-13）
+
+- 测什么模型／产品：LibTV上的Seedance 2.5 Flash、2.5标准版、2.0 Fast及Flash视频编辑；片段重拍此时明确不支持Flash，不归入已成功工具。
+- 证据身份：具体横评、编辑与粒子生成为作者亲测自述；GTC《Tokens》是第三方灵感，活动价/参考上限为平台主张。不是本账号实测。
+- 测试角度：
+- 步骤：
+- 输入：宴席人物/场景与关键台词，作者称三模型同输入；耳机素材目标为透明机械结构、开盖与悬浮；完整参考图、提示词和参数未提供。
+- 原文验收点：宴席观察空间交代、人物反应、台词及造型；暗部编辑要提细节且保留动作对白；耳机要第一帧可辨充电盒，保留结构和开盖/悬浮衔接。没有观众留存或广告转化验收。
+- 结果与边界：作者称Flash表演自然且仍须逐镜挑选，宴席只改调色暗部，耳机首版太暗、第二版加柔和冷白补光。变身片闪白仅有修正意图及可选路径，不补写实际采用何法或已修好。两条6秒粒子合400积分仅该两镜，720P每秒0.1元为历史活动报价，不是整片总成本。媒体未核，缺全轮候选、计时和账单。
+- 出处：[[sources/西羊石Flash同镜横评与单变量视频编辑文章拆解]]；`raw/article/西羊石AI视频/雷达-2026-11-14/LibTV首发Seedance2.5 Flash，这回终于能实现AI视频抽卡自由了！-5b42c48a03.md`；正文第17—31、44—53块。
+- 我们能不能复用：待实操；用授权产品实拍、原创短脚本和固定参考音，冻结首帧/结构/动作不变清单，核对功能兼容；需全部版本、逐帧差异、失败、权限、人工计时和费用。不复制广告成品，不把候选开头主观选择当读者效果。
+
+### 案例：批量群像、地图机位与角色道具一致性纠错（西羊石AI视频，2026-11-14）
+
+- 测什么模型／产品：H3-Image、MiniMax Code的mcode-tools；Claude Code编排脚本。多工具成果，不是图像模型独自完成；无限画布明确未用，Mini App是以后想试。
+- 证据身份：批量运行、四院群像、地图读图/生图、镖师设定至海报为作者/团队亲测自述；游戏销量/短剧播放是外部转述，开源sota/ComfyUI/接口和优惠是产品或官方主张。本账号未实测。
+- 测试角度：
+- 步骤：
+- 输入：作者收藏角色图、四院原创设定、带红箭头游戏地图、原创镖师提示及逐步确认的角色/场景图。每院4头像加1设定共5参考，16人合影16参考，第三地图机位带地图加前两机位共3参考；素材授权未说明。
+- 原文验收点：群像不漏不重不合并、人物不僵直；地图机位符合朝向/左右，反打不见背后瀑布；角色左义臂、胸前风扇、背部无风扇，跨资产风格与四格中文保持一致。
+- 结果与边界：合影/仪式靠分人动作改善，16人仍漏人重复；反打首轮三张失败，作者人工算左右后改词称转正；瀑布机位有一张多瀑布靠挑选；义臂偶尔换边、风扇多次跑背，靠姿态/胸背约束纠正；分镜漫画风靠写非漫画修正。局部24/36/46秒等仅作者报的生成段，不是整流程；理论10请求乘10张不等于本轮实出100张。4070入角色叙事不证明本地已跑通。媒体未核，无全量原图、完整代码日志、成本与授权。
+- 出处：[[sources/西羊石H3Image批量出图与逐项纠错文章拆解]]；`raw/article/西羊石AI视频/雷达-2026-11-14/看了影之刃零和持械入宋，我用 MiniMax Code 的 H3-Image 批量出 4K 大图（附提示词）-599aa5f6c8.md`；正文第9—98块逐项记录。
+- 我们能不能复用：待实操；用自己的4位授权原创角色、自绘地图和左右/胸背道具清单，先建金标准和日志留存规则；需全部候选、逐人/逐机位核对、失败修正、版本、权限、人工时间和账单。不能移植作者角色、热点播放或效率结论；批量只增加候选，不自动保证正确。
+

@@ -1,0 +1,198 @@
+{
+  "batch": "output/ai-wechat-methodology/雷达-2026-11-14",
+  "stats_dir": "output/ai-wechat-methodology/雷达-2026-11-14/stats-2026-11-14",
+  "incremental_acceptance": {
+    "coverage_file": "coverage.json",
+    "added": 9,
+    "deep": 7,
+    "excluded": 2,
+    "reused": 0,
+    "case_cards": 7,
+    "scope_note": "case_candidates为脚本关键词识别4条，不代表人工通读覆盖；人工确认7张卡。raw_without_source是全库无source引用，不是本轮遗漏；本轮2篇排除已登记作者页。",
+    "baseline_note": "仅新增样本，各号n=1或2，不是日常阅读基线，不能判断传播异常或因果。",
+    "media_note": "媒体与产品未核，非我们的实测或本账号读者效果。"
+  },
+  "baseline": [
+    {
+      "account": "路人甲TM",
+      "n": 2,
+      "median": 4217,
+      "min": 2946,
+      "max": 5488,
+      "median_like": 41,
+      "median_share": 215,
+      "median_comment": 3
+    },
+    {
+      "account": "摸鱼小李",
+      "n": 1,
+      "median": 4378,
+      "min": 4378,
+      "max": 4378,
+      "median_like": 79,
+      "median_share": 221,
+      "median_comment": 27
+    },
+    {
+      "account": "小林coding",
+      "n": 2,
+      "median": 19631,
+      "min": 9141,
+      "max": 30121,
+      "median_like": 31,
+      "median_share": 343,
+      "median_comment": 6
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "n": 1,
+      "median": 11494,
+      "min": 11494,
+      "max": 11494,
+      "median_like": 237,
+      "median_share": 967,
+      "median_comment": 24
+    },
+    {
+      "account": "洛洛AI说",
+      "n": 1,
+      "median": 4112,
+      "min": 4112,
+      "max": 4112,
+      "median_like": 65,
+      "median_share": 70,
+      "median_comment": 35
+    },
+    {
+      "account": "西羊石AI视频",
+      "n": 2,
+      "median": 7479,
+      "min": 6038,
+      "max": 8920,
+      "median_like": 16,
+      "median_share": 165,
+      "median_comment": 4
+    }
+  ],
+  "anomalies": [],
+  "event_clusters": [
+    {
+      "object": "MiniMax H3 Image",
+      "articles": 3,
+      "accounts": [
+        "卡尔的AI沃茨",
+        "西羊石AI视频",
+        "路人甲TM"
+      ],
+      "span_days": 3,
+      "from": "2026-11-11",
+      "to": "2026-11-14"
+    },
+    {
+      "object": "Seedance 2.5 Flash / LibTV",
+      "articles": 2,
+      "accounts": [
+        "摸鱼小李",
+        "西羊石AI视频"
+      ],
+      "span_days": 1,
+      "from": "2026-11-13",
+      "to": "2026-11-14"
+    }
+  ],
+  "raw_without_source": [
+    "raw/article/lurenjiaTM/实测OiiOii最新Skill，这套电商组合堪称双十一王炸！.md",
+    "raw/article/lurenjiaTM/真正的双11来了！天猫预售居然免定金！.md",
+    "raw/article/小林coding/雷达-2026-11-01/Anthropic直接掀桌：Code Review不再留给人-0844cd6d54.md",
+    "raw/article/小林coding/雷达-2026-11-01/淘汰Java岗，中国又一新兴岗位崛起！这将是程序员未来10年最好的方向。-0c8f44d39a.md",
+    "raw/article/小林coding/雷达-2026-11-02/震撼，DeepSeek开源超级 Agent 架构！-73e4b9bcff.md",
+    "raw/article/小林coding/雷达-2026-11-11/Anthropic直接劝退：慎用子 Agent！-e97495c88b.md",
+    "raw/article/小林coding/雷达-2026-11-13/100,000,000 Token 免费薅！爽玩 DeepSeek V4.1 Flash、GLM-5.3 ！-a2e6be742b.md",
+    "raw/article/小林coding/雷达-2026-11-14/Anthropic开源神级项目，专治黑心AI中转站！-1449bc4845.md",
+    "raw/article/小林coding/雷达-2026-11-14/工资到账119587.68元，爱你字节！-d75da9f44e.md",
+    "raw/article/卡尔的AI沃茨/雷达-2026-11-13/一口气看懂黄仁勋辞职的所有瓜！比奥特曼两年前被免职还刺激-3291abd62b.md"
+  ],
+  "case_candidates": [
+    {
+      "article": "MiniMax H3 image来了，继续开源，“源神”启动",
+      "models": [
+        "Seedream",
+        "MiniMax",
+        "Claude",
+        "GPT"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 2,
+        "step_hits": 1
+      },
+      "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-14/MiniMax H3 image来了，继续开源，“源神”启动-fc3a5295d6.md",
+      "source_page": "wiki/sources/路人甲TM_H3Image角色世界与定格动画.md"
+    },
+    {
+      "article": "开源/10秒出4K/超长文本/... 我实测出了MiniMax H3-Image擅长的四类新玩法",
+      "models": [
+        "MiniMax"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 4,
+        "step_hits": 1
+      },
+      "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-14/开源_10秒出4K_超长文本_... 我实测出了MiniMax H3-Image擅长的四类新玩法-2fe6aa36d2.md",
+      "source_page": "wiki/sources/卡尔H3Image四类复杂图与长文本验收文章拆解.md"
+    },
+    {
+      "article": "实测 Seedance 2.5 Flash 才是做 TVC 的神，3 分钟一条！",
+      "models": [
+        "Seedance",
+        "LibTV"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 2,
+        "step_hits": 0
+      },
+      "raw_path": "raw/article/摸鱼小李/雷达-2026-11-14/实测 Seedance 2.5 Flash 才是做 TVC 的神，3 分钟一条！-80cfbdf4d0.md",
+      "source_page": "wiki/sources/摸鱼小李_Flash六支TVC与双版选型.md"
+    },
+    {
+      "article": "LibTV首发Seedance2.5 Flash，这回终于能实现AI视频抽卡自由了！",
+      "models": [
+        "Seedance",
+        "LibTV"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 2,
+        "step_hits": 1
+      },
+      "raw_path": "raw/article/西羊石AI视频/雷达-2026-11-14/LibTV首发Seedance2.5 Flash，这回终于能实现AI视频抽卡自由了！-5b42c48a03.md",
+      "source_page": "wiki/sources/西羊石Flash同镜横评与单变量视频编辑文章拆解.md"
+    }
+  ],
+  "median_by_account": {
+    "路人甲TM": 4217,
+    "摸鱼小李": 4378,
+    "小林coding": 19631,
+    "卡尔的AI沃茨": 11494,
+    "洛洛AI说": 4112,
+    "西羊石AI视频": 7479
+  }
+}

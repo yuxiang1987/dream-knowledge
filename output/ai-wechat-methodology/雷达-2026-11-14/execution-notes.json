@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-14",
+  "daily_runs": 1,
+  "paid_request_attempts": 1,
+  "retry_control": "runpy载入原脚本后仅进程内设置Client.post.__defaults__=(1,)，调用原main执行用户指定daily参数；未改Skill文件",
+  "credentials": "仅原脚本load_key读取环境变量或.local/tikhub.json；未输出或另存凭据",
+  "collection": {
+    "accounts": 9,
+    "checked": 45,
+    "added": 9,
+    "skipped_existing": 35,
+    "failed_body": 1
+  },
+  "stats": {
+    "success": 9,
+    "failed": 0
+  },
+  "failure_boundary": "沉默王二1篇正文失败；fetch-summary未保存失败条目身份与原因，不能补写，未重试",
+  "baseline_boundary": "本轮仅新增文章，各账号n=1或2，不是日常基线；不解释传播因果",
+  "raw_protection": "采集运行期间、任何知识入库编辑前记录558个非本日raw文件指纹，收尾比对；不是采集前快照"
+}

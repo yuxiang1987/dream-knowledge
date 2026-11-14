@@ -1,0 +1,29 @@
+{
+  "result": "PASS",
+  "coverage": {
+    "covered": 9,
+    "deep": 7,
+    "excluded": 2,
+    "reused": 0,
+    "case_cards": 7
+  },
+  "regression_tests": {
+    "command": "python -m unittest discover -s output/ai-wechat-methodology/雷达-2026-11-14 -p test_coverage.py",
+    "passed": 6
+  },
+  "raw_fingerprints": {
+    "unchanged": 558,
+    "snapshot_scope": "非本日raw；采集运行期间且知识入库编辑前记录"
+  },
+  "wiki_lint": {
+    "result": "PASS_WITH_WARNINGS",
+    "pages_including_index_log": 533,
+    "empty_source_warnings": 8
+  },
+  "boundaries": [
+    "媒体、产品及外链产物未核",
+    "未测试本账号读者效果",
+    "正文采集失败1篇未重试",
+    "每个付费请求仅尝试1次"
+  ]
+}

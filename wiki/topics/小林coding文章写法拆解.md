@@ -3,9 +3,9 @@ title: 小林coding文章写法拆解
 type: topic
 tags: [公众号, 对标拆解, 小林coding]
 status: 进行中
-sources: ["raw/article/小林coding/WorkBuddy拿下双榜第一！腾讯这次把Harness玩明白了.md", "raw/article/小林coding/腾讯 WorkBuddy 重大更新来了，夯爆了！.md", "raw/article/小林coding/DeepSeek Harness发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Loop Engineering 已死，Graph Engineering 永生.md", "raw/article/小林coding/我反问面试官：“你知道Codex记忆机制是怎么实现的吗？”，他：“不知道”，我：“我教你，我看过源码”.md", "raw/article/小林coding/梁圣杀回来了！DeepSeek新模型发布，爆肝实测一天，性价比杀穿全场.md", "raw/article/小林coding/Gemini 4 Argon 震撼上线！拳打Opus 5.5，脚踢GPT-6 Astra，再也不是哈基米了。.md", "raw/article/小林coding/GLM-5.3发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Qwen3.8-Flash发布，新斩杀线！熬夜爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/面试官皱眉：“你看过 Claude Opus 5 系统提示词吗？”，我笑了：“刚看过，需要向我请教什么？”，他：“来，开始你的表演”.md", "raw/article/小林coding/雷达-2026-10-27/实测 Kimi K3.1 Pro，依旧是国模一哥，但有点想吐槽！-d89a494af3.md", "raw/article/小林coding/雷达-2026-10-28/豆包工作太好用了，造出来的重力实验室，颠覆了一整代人的物理课。-b3dbe36acc.md", "raw/article/小林coding/雷达-2026-10-29/用了WorkBuddy这个神级插件，我彻底解放双手了-50aad97374.md", "raw/article/小林coding/雷达-2026-11-01/Anthropic直接掀桌：Code Review不再留给人-0844cd6d54.md", "raw/article/小林coding/雷达-2026-11-01/淘汰Java岗，中国又一新兴岗位崛起！这将是程序员未来10年最好的方向。-0c8f44d39a.md", "raw/article/小林coding/雷达-2026-11-01/Opus 5.5 太烧 Token？可能是你的提示词在拖后腿-392246c3e2.md", "raw/article/小林coding/雷达-2026-11-01/10亿Token免费薅！纯血国产模型杀到，跑Claude Code实测真香-351737976e.md"]
+sources: ["raw/article/小林coding/WorkBuddy拿下双榜第一！腾讯这次把Harness玩明白了.md", "raw/article/小林coding/腾讯 WorkBuddy 重大更新来了，夯爆了！.md", "raw/article/小林coding/DeepSeek Harness发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Loop Engineering 已死，Graph Engineering 永生.md", "raw/article/小林coding/我反问面试官：“你知道Codex记忆机制是怎么实现的吗？”，他：“不知道”，我：“我教你，我看过源码”.md", "raw/article/小林coding/梁圣杀回来了！DeepSeek新模型发布，爆肝实测一天，性价比杀穿全场.md", "raw/article/小林coding/Gemini 4 Argon 震撼上线！拳打Opus 5.5，脚踢GPT-6 Astra，再也不是哈基米了。.md", "raw/article/小林coding/GLM-5.3发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Qwen3.8-Flash发布，新斩杀线！熬夜爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/面试官皱眉：“你看过 Claude Opus 5 系统提示词吗？”，我笑了：“刚看过，需要向我请教什么？”，他：“来，开始你的表演”.md", "raw/article/小林coding/雷达-2026-10-27/实测 Kimi K3.1 Pro，依旧是国模一哥，但有点想吐槽！-d89a494af3.md", "raw/article/小林coding/雷达-2026-10-28/豆包工作太好用了，造出来的重力实验室，颠覆了一整代人的物理课。-b3dbe36acc.md", "raw/article/小林coding/雷达-2026-10-29/用了WorkBuddy这个神级插件，我彻底解放双手了-50aad97374.md", "raw/article/小林coding/雷达-2026-11-01/Anthropic直接掀桌：Code Review不再留给人-0844cd6d54.md", "raw/article/小林coding/雷达-2026-11-01/淘汰Java岗，中国又一新兴岗位崛起！这将是程序员未来10年最好的方向。-0c8f44d39a.md", "raw/article/小林coding/雷达-2026-11-01/Opus 5.5 太烧 Token？可能是你的提示词在拖后腿-392246c3e2.md", "raw/article/小林coding/雷达-2026-11-01/10亿Token免费薅！纯血国产模型杀到，跑Claude Code实测真香-351737976e.md", "raw/article/小林coding/雷达-2026-11-14/Anthropic开源神级项目，专治黑心AI中转站！-1449bc4845.md", "raw/article/小林coding/雷达-2026-11-14/工资到账119587.68元，爱你字节！-d75da9f44e.md"]
 created: 2026-10-23
-updated: 2026-11-13
+updated: 2026-11-14
 ---
 
 # 小林coding文章写法拆解
@@ -207,3 +207,16 @@ Fable篇不是单纯发布转述：有自己设计的同题委托与具体制作
 移动云篇含一句明确“我也简单测试”的操作，故不按纯资讯排除；案例卡仅登记这一个轻测，原文未给结果判断，不补成通过。最高1亿要叠加实名、登录与签到，不等于即领；首月价、抵扣系数、会员资格、有效期及DeepSeek型号写法差异必须另核。企业Agent、主机与视频套餐均不是作者测试。
 
 本批可迁移的是“权限/委托身份先交代”“按产物而非夸张总评组织外部案例”“规则与实际用量分账”；不能由两篇概括整号。两篇未见明确单篇合作披露，合作未知；促购与品牌出现不证明付款和预算。无同口径日常传播基线，不从大数字、离谱标题或案例数解释传播。自己的五要素方向在source均标待实操；分片台账见`output/ai-wechat-methodology/雷达-2026-11-13/slice-luren-xiaoli-xiaolin.json`，第三方受托锦鲤与移动云轻测两卡已合入[[topics/AI写作案例库]]，测试角度和步骤留空供人填写。
+
+## 雷达增量入口（2026-11-14）
+
+本轮只处理本日目录2篇：深拆0、排除2、同作品复用0。通读两篇全部可提取HTML正文文字；图片、动图和视频未核看，未联网、运行原文命令或测试产品。按原链接、作者原题及正文核重，未见已有同作品source；不因同为Anthropic话题合并。保留历史正文、来源、创建日期和编号，两条本批raw加入frontmatter；本节不改变此前批次统计。
+
+| 编号 | 原题／时间／直链 | 全部本批raw | 筛选理由与定位锚点 |
+| --- | --- | --- | --- |
+| XL-R1114-01 | 《Anthropic开源神级项目，专治黑心AI中转站！》；2026-11-14 15:26；[原文](https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247566428&idx=1&sn=ec860c65c64adfd163e959f51689124c) | `raw/article/小林coding/雷达-2026-11-14/Anthropic开源神级项目，专治黑心AI中转站！-1449bc4845.md` | 排除、不建source：全文为FlashProve官方研究与文档的发布解读及机制类比，没有小林本人部署、调用或验证输出；P70“Anthropic 在博客里举了个例子。”、P93“Anthropic 自己测过”明确数值实验身份，P62“假设未来 Anthropic 真的给 Claude 接上了这套东西”明确三种作弊演示是假设推演。 |
+| XL-R1114-02 | 《工资到账119587.68元，爱你字节！》；2026-11-13 14:12；[原文](https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247566414&idx=1&sn=d2e60dd021ba6f3bc577b1bbeb47007e) | `raw/article/小林coding/雷达-2026-11-14/工资到账119587.68元，爱你字节！-d75da9f44e.md` | 排除、不建source：主体是薪资转岗与课程咨询推广，不是AI工具实操；P8“为了解决以上问题，我们打造了一个《AI大模型工程师培养计划》”、P11“扫码添加顾问，备注 “咨询课程””定位主交付。 |
+
+定位口径：P号按各raw第13行HTML提取后的非空文字段落顺序，FlashProve为P1—P105、薪资文为P1—P32，可按引文逐字搜索。FlashProve不是凭标题排除：已读完整七节及结尾，其中“我们把能想到的办法挨个试一下”是讲解式转场，后文未给作者实际调用记录；账本为假设类比，三种作弊为未来条件推演，H100、223秒、70—95倍、1024 token及正常回复未过验均属作者转述官方材料，而不是小林实测。即使有技术解释和局限讨论，本篇仍按本轮纯资讯／研究转述口径排除，不产实操案例卡，也不确认当前Claude或中转站已可使用。
+
+薪资和就业数字、退款与保障承诺只作为排除依据，不确认为事实、不当作读者可获收益；可见课程咨询和扫码领取入口不等于已披露付款合作。两篇未见明确单篇付款/佣金披露，合作未知。没有同口径日常传播基线，不由标题、阅读快照或高薪数字推传播因果；本轮不建立自己的实操结果或读者效果。筛选证据及原文件字节哈希见`output/ai-wechat-methodology/雷达-2026-11-14/slice-karl-xiaolin.json`。

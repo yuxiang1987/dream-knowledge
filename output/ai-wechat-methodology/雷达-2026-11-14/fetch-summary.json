@@ -1,0 +1,164 @@
+{
+  "acquired_at": "2026-11-14T23:00:28+08:00",
+  "accounts": [
+    {
+      "account": "路人甲TM",
+      "username": "gh_d516081071ec",
+      "fetched": 5,
+      "added": 2,
+      "skipped_existing": 3,
+      "failed": 0,
+      "directory": "raw/article/lurenjiaTM/雷达-2026-11-14",
+      "added_articles": [
+        {
+          "id": "2247524622:1",
+          "title": "谁把这么多模型和免费额度放我豆包工作里了？",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524622&idx=1&sn=98bc60e78d83866af98e75c4c0236dc1",
+          "published": "2026-11-14 15:47",
+          "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-14/谁把这么多模型和免费额度放我豆包工作里了？-1cfd12ad22.md"
+        },
+        {
+          "id": "2247524437:1",
+          "title": "MiniMax H3 image来了，继续开源，“源神”启动",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524437&idx=1&sn=d9add02812c2a40a6db948cb9765c511",
+          "published": "2026-11-11 19:55",
+          "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-14/MiniMax H3 image来了，继续开源，“源神”启动-fc3a5295d6.md"
+        }
+      ]
+    },
+    {
+      "account": "摸鱼小李",
+      "username": "gh_3923025946c5",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/摸鱼小李/雷达-2026-11-14",
+      "added_articles": [
+        {
+          "id": "2247491808:1",
+          "title": "实测 Seedance 2.5 Flash 才是做 TVC 的神，3 分钟一条！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247491808&idx=1&sn=2c44ccfa7b075d5ae6fa0b9e3a8b5864",
+          "published": "2026-11-14 09:18",
+          "raw_path": "raw/article/摸鱼小李/雷达-2026-11-14/实测 Seedance 2.5 Flash 才是做 TVC 的神，3 分钟一条！-80cfbdf4d0.md"
+        }
+      ]
+    },
+    {
+      "account": "小林coding",
+      "username": "gh_fc46cf2353fc",
+      "fetched": 5,
+      "added": 2,
+      "skipped_existing": 3,
+      "failed": 0,
+      "directory": "raw/article/小林coding/雷达-2026-11-14",
+      "added_articles": [
+        {
+          "id": "2247566428:1",
+          "title": "Anthropic开源神级项目，专治黑心AI中转站！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247566428&idx=1&sn=ec860c65c64adfd163e959f51689124c",
+          "published": "2026-11-14 15:26",
+          "raw_path": "raw/article/小林coding/雷达-2026-11-14/Anthropic开源神级项目，专治黑心AI中转站！-1449bc4845.md"
+        },
+        {
+          "id": "2247566414:1",
+          "title": "工资到账119587.68元，爱你字节！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247566414&idx=1&sn=d2e60dd021ba6f3bc577b1bbeb47007e",
+          "published": "2026-11-13 14:12",
+          "raw_path": "raw/article/小林coding/雷达-2026-11-14/工资到账119587.68元，爱你字节！-d75da9f44e.md"
+        }
+      ]
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "username": "gh_1421d5e48ca9",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/卡尔的AI沃茨/雷达-2026-11-14",
+      "added_articles": [
+        {
+          "id": "2247513928:1",
+          "title": "开源/10秒出4K/超长文本/... 我实测出了MiniMax H3-Image擅长的四类新玩法",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247513928&idx=1&sn=276c09110530706bea1b69bdeaf1c375",
+          "published": "2026-11-14 12:02",
+          "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-14/开源_10秒出4K_超长文本_... 我实测出了MiniMax H3-Image擅长的四类新玩法-2fe6aa36d2.md"
+        }
+      ]
+    },
+    {
+      "account": "苍何",
+      "username": "gh_fdb597c42fa4",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/苍何/雷达-2026-11-14",
+      "added_articles": []
+    },
+    {
+      "account": "沉默王二",
+      "username": "gh_f0ee5948865f",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 4,
+      "failed": 1,
+      "directory": "raw/article/chenmowanger/雷达-2026-11-14",
+      "added_articles": []
+    },
+    {
+      "account": "洛洛AI说",
+      "username": "gh_426cd27710df",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/洛洛AI说/雷达-2026-11-14",
+      "added_articles": [
+        {
+          "id": "2247488823:1",
+          "title": "WorkBuddy发福利了，双十一薅羊毛的3种正确姿势",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247488823&idx=1&sn=3c976f1ca60f597ff9e807ae312c1973",
+          "published": "2026-11-13 20:13",
+          "raw_path": "raw/article/洛洛AI说/雷达-2026-11-14/WorkBuddy发福利了，双十一薅羊毛的3种正确姿势-430b44894a.md"
+        }
+      ]
+    },
+    {
+      "account": "郭震AI",
+      "username": "gh_ce69fa698e90",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/郭震AI/雷达-2026-11-14",
+      "added_articles": []
+    },
+    {
+      "account": "西羊石AI视频",
+      "username": "gh_f5c1e588b297",
+      "fetched": 5,
+      "added": 2,
+      "skipped_existing": 3,
+      "failed": 0,
+      "directory": "raw/article/西羊石AI视频/雷达-2026-11-14",
+      "added_articles": [
+        {
+          "id": "2247545724:1",
+          "title": "看了影之刃零和持械入宋，我用 MiniMax Code 的 H3-Image 批量出 4K 大图（附提示词）",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247545724&idx=1&sn=8faee769fa1798414d288ec946ffbb37",
+          "published": "2026-11-14 09:00",
+          "raw_path": "raw/article/西羊石AI视频/雷达-2026-11-14/看了影之刃零和持械入宋，我用 MiniMax Code 的 H3-Image 批量出 4K 大图（附提示词）-599aa5f6c8.md"
+        },
+        {
+          "id": "2247545678:1",
+          "title": "LibTV首发Seedance2.5 Flash，这回终于能实现AI视频抽卡自由了！",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247545678&idx=1&sn=ed2f465f2ca04778da87b58557dcad2a",
+          "published": "2026-11-13 17:37",
+          "raw_path": "raw/article/西羊石AI视频/雷达-2026-11-14/LibTV首发Seedance2.5 Flash，这回终于能实现AI视频抽卡自由了！-5b42c48a03.md"
+        }
+      ]
+    }
+  ]
+}
