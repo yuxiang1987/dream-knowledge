@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-15",
+  "daily_runs": 1,
+  "request_attempts": 1,
+  "retry_control": "runpy加载原脚本，进程内Client.post.__defaults__=(1,)后调用原main，未修改Skill文件。",
+  "credential_sources": ["TIKHUB_API_KEY", ".local/tikhub.json"],
+  "credentials_written": false,
+  "accounts": 9,
+  "limit_per_account": 5,
+  "added": 1,
+  "skipped_existing": 44,
+  "fetch_failed": 0,
+  "stats_succeeded": 1,
+  "stats_failed": 0,
+  "deep": 1,
+  "excluded": 0,
+  "reused": 0,
+  "case_cards": 0,
+  "media_reviewed": false,
+  "product_tested": false,
+  "raw_protection": "采集进行期间、知识页编辑前，记录567个非本日目录既有raw文件指纹；不是付费采集前快照。",
+  "scope": "只处理本轮fetch-summary新增；不处理全库历史待入库清单。"
+}

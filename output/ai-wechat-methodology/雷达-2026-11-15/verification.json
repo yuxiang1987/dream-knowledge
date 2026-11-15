@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-15",
+  "coverage": {"covered": 1, "deep": 1, "excluded": 0, "reused": 0, "case_cards": 0, "result": "PASS"},
+  "preserved_existing_raw": 567,
+  "regression_tests": {"run": 5, "result": "OK"},
+  "wiki_lint": {"result": "通过，仅有警告", "pages_including_index_log": 534, "warnings": 8, "warning_scope": "既有空sources页面，本轮未新增空来源wiki页"},
+  "paid_daily_runs": 1,
+  "request_attempts": 1,
+  "fetch": {"added": 1, "skipped_existing": 44, "failed": 0},
+  "stats": {"succeeded": 1, "failed": 0},
+  "limits": ["媒体与产品未核验", "仅1条互动快照，不构成日常基线", "未代测本账号读者效果", "未写正文或发布"]
+}

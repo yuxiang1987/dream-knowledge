@@ -1,0 +1,56 @@
+{
+  "batch": "output/ai-wechat-methodology/雷达-2026-11-15",
+  "stats_dir": "output/ai-wechat-methodology/雷达-2026-11-15/stats-2026-11-15",
+  "baseline": [
+    {
+      "account": "沉默王二",
+      "n": 1,
+      "median": 9039,
+      "min": 9039,
+      "max": 9039,
+      "median_like": 11,
+      "median_share": 284,
+      "median_comment": 23
+    }
+  ],
+  "anomalies": [],
+  "event_clusters": [],
+  "raw_without_source": [
+    "raw/article/lurenjiaTM/实测OiiOii最新Skill，这套电商组合堪称双十一王炸！.md",
+    "raw/article/lurenjiaTM/真正的双11来了！天猫预售居然免定金！.md",
+    "raw/article/小林coding/雷达-2026-11-01/Anthropic直接掀桌：Code Review不再留给人-0844cd6d54.md",
+    "raw/article/小林coding/雷达-2026-11-01/淘汰Java岗，中国又一新兴岗位崛起！这将是程序员未来10年最好的方向。-0c8f44d39a.md",
+    "raw/article/小林coding/雷达-2026-11-02/震撼，DeepSeek开源超级 Agent 架构！-73e4b9bcff.md",
+    "raw/article/小林coding/雷达-2026-11-11/Anthropic直接劝退：慎用子 Agent！-e97495c88b.md",
+    "raw/article/小林coding/雷达-2026-11-13/100,000,000 Token 免费薅！爽玩 DeepSeek V4.1 Flash、GLM-5.3 ！-a2e6be742b.md",
+    "raw/article/小林coding/雷达-2026-11-14/Anthropic开源神级项目，专治黑心AI中转站！-1449bc4845.md",
+    "raw/article/小林coding/雷达-2026-11-14/工资到账119587.68元，爱你字节！-d75da9f44e.md",
+    "raw/article/卡尔的AI沃茨/雷达-2026-11-13/一口气看懂黄仁勋辞职的所有瓜！比奥特曼两年前被免职还刺激-3291abd62b.md"
+  ],
+  "case_candidates": [
+    {
+      "article": "真上强度啊，百度上线Token交易所。",
+      "models": [
+        "DeepSeek",
+        "Claude",
+        "Gemini",
+        "Codex"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "人工复核：不建实测案例卡",
+      "review_reason": "全文为官方资料、第三方论文/源码解释和作者设计；Carbon仅启动开发，无完成运行与验收。models只是自动关键词，不代表四模型实测。",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 0
+      },
+      "raw_path": "raw/article/chenmowanger/雷达-2026-11-15/真上强度啊，百度上线Token交易所。-b4b5e57c8a.md",
+      "source_page": "wiki/sources/沉默王二Token交易所架构与核验边界文章拆解.md"
+    }
+  ],
+  "median_by_account": {
+    "沉默王二": 9039
+  }
+}
