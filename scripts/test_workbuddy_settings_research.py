@@ -90,6 +90,18 @@ class WorkBuddySettingsResearchTest(unittest.TestCase):
         self.assertIn("官方文档核对后需要修正的三处", self.topic)
         self.assertIn("本轮实测设计", self.topic)
 
+    def test_storage_plan_preserves_unverified_migration_boundary(self):
+        section = self.topic.split("## 2026-11-16 明日文章规划补充：存储路径", 1)[1].split("## 文章大纲", 1)[0]
+        for marker in ("第七项", "安装目录", "默认工作空间", "后台数据",
+                       "不是已释放空间", "还没有运行迁移 BAT", "回滚改名问题",
+                       "重启后新任务写入位置", "没有移动、删除或清理本机数据"):
+            with self.subTest(marker=marker):
+                self.assertIn(marker, section)
+        self.assertIn("[[topics/WorkBuddy存储迁移选题调研]]", section)
+        self.assertTrue((ROOT / "wiki/topics/WorkBuddy存储迁移选题调研.md").is_file())
+        self.assertIn("规划新增存储路径第七项", self.index)
+        self.assertIn("topic-planning | WorkBuddy设置教程补充存储路径", self.log)
+
     def test_index_and_log_are_updated(self):
         self.assertIn(LINK, self.index)
         count = sum(path.name not in {"index.md", "log.md"}
