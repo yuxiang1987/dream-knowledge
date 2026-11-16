@@ -1,0 +1,40 @@
+{
+  "source": "raw/article/程序员梦哥/WorkBuddy 做好这几个设置，让WorkBuddy越来越懂你.md",
+  "source_snapshot_sha256": "d137473aa7a44e8bd4a8d43cf71124219363945c3dca72daaa6ae7c27e51bdde",
+  "scope": "只优化第二个设置，原稿与其他章节未修改",
+  "draft": "第二个设置-优化稿.md",
+  "original_section": "第二个设置-原文片段.md",
+  "image": {
+    "name": "file-20261116225021232.png",
+    "sha256": "c7e9f55f7b83025c96081b0731f25f03b1c5dae2bd54ffcf01fb14f42c49137f"
+  },
+  "prompt_sha256": "f4ae9011db0bdf32054bfd129e5c72bc5c223d96355d6cf652729b88428d1301",
+  "length": {
+    "body_characters": 477,
+    "minimum": 2500,
+    "passed": false,
+    "shortfall": 2023,
+    "basis": "正文汉字、字母、数字各计1字；不计空白、标点、标题、图片/链接地址、代码/提示词、引用块、参考资料和固定简介"
+  },
+  "full_draft_length": {
+    "body_characters": 1098,
+    "minimum": 2500,
+    "passed": false,
+    "shortfall": 1402,
+    "basis": "正文汉字、字母、数字各计1字；不计空白、标点、标题、图片/链接地址、代码/提示词、引用块、参考资料和固定简介"
+  },
+  "references": [
+    {
+      "url": "https://github.com/uc-ia/karpathy-guidelines/blob/main/SKILL.md",
+      "use": "仅确认存在社区根据Karpathy观察整理的同类规则，不据此断言用户提示词由Karpathy本人编写"
+    },
+    {
+      "url": "https://support.claude.com/en/articles/14553240-give-claude-context-claude-md-and-better-prompts",
+      "use": "CLAUDE.md命名"
+    },
+    {
+      "url": "https://opencode.ai/v1/docs/rules/",
+      "use": "AGENTS.md命名"
+    }
+  ]
+}
