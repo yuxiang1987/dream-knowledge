@@ -1,0 +1,97 @@
+{
+  "batch": "output/ai-wechat-methodology/雷达-2026-11-16",
+  "stats_dir": "output/ai-wechat-methodology/雷达-2026-11-16/stats-2026-11-16",
+  "baseline": [
+    {
+      "account": "摸鱼小李",
+      "n": 1,
+      "median": 1225,
+      "min": 1225,
+      "max": 1225,
+      "median_like": 44,
+      "median_share": 63,
+      "median_comment": 13
+    }
+  ],
+  "anomalies": [],
+  "event_clusters": [],
+  "raw_without_source": [
+    "raw/article/lurenjiaTM/实测OiiOii最新Skill，这套电商组合堪称双十一王炸！.md",
+    "raw/article/lurenjiaTM/真正的双11来了！天猫预售居然免定金！.md",
+    "raw/article/西羊石AI视频/雷达-2026-11-16/卧槽，王者荣耀联名 LibTV 搞大事！这波 AI 视频大赛含金量拉满了-fd633b8192.md",
+    "raw/article/小林coding/雷达-2026-11-01/Anthropic直接掀桌：Code Review不再留给人-0844cd6d54.md",
+    "raw/article/小林coding/雷达-2026-11-01/淘汰Java岗，中国又一新兴岗位崛起！这将是程序员未来10年最好的方向。-0c8f44d39a.md",
+    "raw/article/小林coding/雷达-2026-11-02/震撼，DeepSeek开源超级 Agent 架构！-73e4b9bcff.md",
+    "raw/article/小林coding/雷达-2026-11-11/Anthropic直接劝退：慎用子 Agent！-e97495c88b.md",
+    "raw/article/小林coding/雷达-2026-11-13/100,000,000 Token 免费薅！爽玩 DeepSeek V4.1 Flash、GLM-5.3 ！-a2e6be742b.md",
+    "raw/article/小林coding/雷达-2026-11-14/Anthropic开源神级项目，专治黑心AI中转站！-1449bc4845.md",
+    "raw/article/小林coding/雷达-2026-11-14/工资到账119587.68元，爱你字节！-d75da9f44e.md",
+    "raw/article/卡尔的AI沃茨/雷达-2026-11-13/一口气看懂黄仁勋辞职的所有瓜！比奥特曼两年前被免职还刺激-3291abd62b.md"
+  ],
+  "case_candidates": [
+    {
+      "article": "Gemini 4 Hydrogen首批实测来了！谷歌把速度卷疯了，真不给同行留活路...",
+      "models": [
+        "Gemini",
+        "Sonnet",
+        "Claude",
+        "GPT"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "已补原作者设计参考卡；测试角度与步骤留人填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 2
+      },
+      "raw_path": "raw/article/小林coding/雷达-2026-11-16/Gemini 4 Hydrogen首批实测来了！谷歌把速度卷疯了，真不给同行留活路-d1323532e4.md",
+      "source_page": "wiki/sources/小林GeminiHydrogen分场景对照与修复文章拆解.md"
+    },
+    {
+      "article": "豆包工作接入多家模型，便宜到能随便用",
+      "models": [
+        "DeepSeek",
+        "Seedream",
+        "Kimi",
+        "豆包"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "已补原作者设计参考卡；测试角度与步骤留人填写",
+      "signals": {
+        "case_hits": 2,
+        "step_hits": 2
+      },
+      "raw_path": "raw/article/摸鱼小李/雷达-2026-11-16/豆包工作接入多家模型，便宜到能随便用-75ad3dc199.md",
+      "source_page": "wiki/sources/摸鱼小李_豆包多模型游戏管线与分账.md"
+    }
+  ],
+  "median_by_account": {
+    "摸鱼小李": 1225
+  },
+  "execution_boundary": {
+    "daily_runs": 1,
+    "paid_attempts_per_request": 1,
+    "retry_or_refetch": false,
+    "stats_success": 1,
+    "stats_failed": 3,
+    "stats_failure": "HTTP 400",
+    "baseline_scope": "仅摸鱼小李本轮新增1篇，不是日常基线",
+    "reading_scope": "4篇正文及可提取代码文字；媒体、产品、外链未核",
+    "causality": "不由阅读快照推导标题、结构或产品导致传播；无本账号读者效果实测"
+  },
+  "incremental_analysis": {
+    "covered": 4,
+    "deep": 3,
+    "excluded": 1,
+    "reused": 0,
+    "case_cards": 3,
+    "coverage_file": "coverage.json",
+    "automatic_case_signal_limit": "仅关键词信号；人工另补DeepSeek OCR图文链路设计参考卡，TTS/ASR与赛事第三方视频不认作作者实测",
+    "raw_without_source_scope": "当前全库引用状态；含历史未拆与已登记排除，不等于本轮遗漏"
+  }
+}

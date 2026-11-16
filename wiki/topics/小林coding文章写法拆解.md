@@ -3,9 +3,9 @@ title: 小林coding文章写法拆解
 type: topic
 tags: [公众号, 对标拆解, 小林coding]
 status: 进行中
-sources: ["raw/article/小林coding/WorkBuddy拿下双榜第一！腾讯这次把Harness玩明白了.md", "raw/article/小林coding/腾讯 WorkBuddy 重大更新来了，夯爆了！.md", "raw/article/小林coding/DeepSeek Harness发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Loop Engineering 已死，Graph Engineering 永生.md", "raw/article/小林coding/我反问面试官：“你知道Codex记忆机制是怎么实现的吗？”，他：“不知道”，我：“我教你，我看过源码”.md", "raw/article/小林coding/梁圣杀回来了！DeepSeek新模型发布，爆肝实测一天，性价比杀穿全场.md", "raw/article/小林coding/Gemini 4 Argon 震撼上线！拳打Opus 5.5，脚踢GPT-6 Astra，再也不是哈基米了。.md", "raw/article/小林coding/GLM-5.3发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Qwen3.8-Flash发布，新斩杀线！熬夜爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/面试官皱眉：“你看过 Claude Opus 5 系统提示词吗？”，我笑了：“刚看过，需要向我请教什么？”，他：“来，开始你的表演”.md", "raw/article/小林coding/雷达-2026-10-27/实测 Kimi K3.1 Pro，依旧是国模一哥，但有点想吐槽！-d89a494af3.md", "raw/article/小林coding/雷达-2026-10-28/豆包工作太好用了，造出来的重力实验室，颠覆了一整代人的物理课。-b3dbe36acc.md", "raw/article/小林coding/雷达-2026-10-29/用了WorkBuddy这个神级插件，我彻底解放双手了-50aad97374.md", "raw/article/小林coding/雷达-2026-11-01/Anthropic直接掀桌：Code Review不再留给人-0844cd6d54.md", "raw/article/小林coding/雷达-2026-11-01/淘汰Java岗，中国又一新兴岗位崛起！这将是程序员未来10年最好的方向。-0c8f44d39a.md", "raw/article/小林coding/雷达-2026-11-01/Opus 5.5 太烧 Token？可能是你的提示词在拖后腿-392246c3e2.md", "raw/article/小林coding/雷达-2026-11-01/10亿Token免费薅！纯血国产模型杀到，跑Claude Code实测真香-351737976e.md", "raw/article/小林coding/雷达-2026-11-14/Anthropic开源神级项目，专治黑心AI中转站！-1449bc4845.md", "raw/article/小林coding/雷达-2026-11-14/工资到账119587.68元，爱你字节！-d75da9f44e.md"]
+sources: ["raw/article/小林coding/WorkBuddy拿下双榜第一！腾讯这次把Harness玩明白了.md", "raw/article/小林coding/腾讯 WorkBuddy 重大更新来了，夯爆了！.md", "raw/article/小林coding/DeepSeek Harness发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Loop Engineering 已死，Graph Engineering 永生.md", "raw/article/小林coding/我反问面试官：“你知道Codex记忆机制是怎么实现的吗？”，他：“不知道”，我：“我教你，我看过源码”.md", "raw/article/小林coding/梁圣杀回来了！DeepSeek新模型发布，爆肝实测一天，性价比杀穿全场.md", "raw/article/小林coding/Gemini 4 Argon 震撼上线！拳打Opus 5.5，脚踢GPT-6 Astra，再也不是哈基米了。.md", "raw/article/小林coding/GLM-5.3发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Qwen3.8-Flash发布，新斩杀线！熬夜爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/面试官皱眉：“你看过 Claude Opus 5 系统提示词吗？”，我笑了：“刚看过，需要向我请教什么？”，他：“来，开始你的表演”.md", "raw/article/小林coding/雷达-2026-10-27/实测 Kimi K3.1 Pro，依旧是国模一哥，但有点想吐槽！-d89a494af3.md", "raw/article/小林coding/雷达-2026-10-28/豆包工作太好用了，造出来的重力实验室，颠覆了一整代人的物理课。-b3dbe36acc.md", "raw/article/小林coding/雷达-2026-10-29/用了WorkBuddy这个神级插件，我彻底解放双手了-50aad97374.md", "raw/article/小林coding/雷达-2026-11-01/Anthropic直接掀桌：Code Review不再留给人-0844cd6d54.md", "raw/article/小林coding/雷达-2026-11-01/淘汰Java岗，中国又一新兴岗位崛起！这将是程序员未来10年最好的方向。-0c8f44d39a.md", "raw/article/小林coding/雷达-2026-11-01/Opus 5.5 太烧 Token？可能是你的提示词在拖后腿-392246c3e2.md", "raw/article/小林coding/雷达-2026-11-01/10亿Token免费薅！纯血国产模型杀到，跑Claude Code实测真香-351737976e.md", "raw/article/小林coding/雷达-2026-11-14/Anthropic开源神级项目，专治黑心AI中转站！-1449bc4845.md", "raw/article/小林coding/雷达-2026-11-14/工资到账119587.68元，爱你字节！-d75da9f44e.md", "raw/article/小林coding/雷达-2026-11-16/Gemini 4 Hydrogen首批实测来了！谷歌把速度卷疯了，真不给同行留活路-d1323532e4.md"]
 created: 2026-10-23
-updated: 2026-11-14
+updated: 2026-11-16
 ---
 
 # 小林coding文章写法拆解
@@ -220,3 +220,13 @@ Fable篇不是单纯发布转述：有自己设计的同题委托与具体制作
 定位口径：P号按各raw第13行HTML提取后的非空文字段落顺序，FlashProve为P1—P105、薪资文为P1—P32，可按引文逐字搜索。FlashProve不是凭标题排除：已读完整七节及结尾，其中“我们把能想到的办法挨个试一下”是讲解式转场，后文未给作者实际调用记录；账本为假设类比，三种作弊为未来条件推演，H100、223秒、70—95倍、1024 token及正常回复未过验均属作者转述官方材料，而不是小林实测。即使有技术解释和局限讨论，本篇仍按本轮纯资讯／研究转述口径排除，不产实操案例卡，也不确认当前Claude或中转站已可使用。
 
 薪资和就业数字、退款与保障承诺只作为排除依据，不确认为事实、不当作读者可获收益；可见课程咨询和扫码领取入口不等于已披露付款合作。两篇未见明确单篇付款/佣金披露，合作未知。没有同口径日常传播基线，不由标题、阅读快照或高薪数字推传播因果；本轮不建立自己的实操结果或读者效果。筛选证据及原文件字节哈希见`output/ai-wechat-methodology/雷达-2026-11-14/slice-karl-xiaolin.json`。
+
+## 雷达增量入口（2026-11-16）
+
+本轮仅新增1篇：深拆1、复用0、排除0，[[sources/小林GeminiHydrogen分场景对照与修复文章拆解|Gemini 4 Hydrogen首批实测来了！谷歌把速度卷疯了，真不给同行留活路...]]（2026-11-16 10:46）。新增来源：`raw/article/小林coding/雷达-2026-11-16/Gemini 4 Hydrogen首批实测来了！谷歌把速度卷疯了，真不给同行留活路-d1323532e4.md`；按原题、mid=2247566469及正文核重，未见同作品旧source，与旧Argon第三方案例篇mid=2247565001分别保留；不改历史来源、编号与批次统计。
+
+已通读HTML全部可提取正文P1—P98；图片、动图、内嵌视频、声音及图片里的提示词／情书全文未核看，未运行产品。主分类实操测评，问题是视觉代码、前端及动画任务中速度、观感和可用性怎样取舍。主身份依据P13“这个周末我也爆肝实测了一整天”及逐例计时、截图反馈、试玩自述，记作者亲测自述，不由标题直接认定，也不把旧Argon无权限经历套到本篇。开头AA榜单、官方规格与订阅规则仍属第三方／官方主张整理，未独立核实。
+
+新增写法是“逐题给计时与具体观感—暴露可玩性故障—说明对照集合改变—把审美与信息直达分开—总结后留一题互动”。卡丁车首轮3分钟、截图反馈后另1分钟修复，不能写首轮即能玩；P48移除Sol后，后续仅Hydrogen／Terra，不是全程三模型横评。鱼缸Hydrogen8分钟、Terra7分多，动画两例为9对约5分钟、26对6分钟，“快”和“大部分3—9分钟”不能抹掉慢例及前端劣势。
+
+寻宠主页功能直达不等于审美胜出，后台是模拟需求不是生产故障；科普动画没有儿童注意力或学习效果验证。模型原生视频能力、完整费用、统一档位／计时起止与重试未证；未见明确本文付费合作披露，合作未知，无传播基线，不由标题或对照结构推传播因果。可迁移动作与自己的五要素待实操方向见source；概括案例卡存`output/ai-wechat-methodology/雷达-2026-11-16/slice-li-lin.json`，角度和步骤留空，不认领为本账号测试或读者效果。

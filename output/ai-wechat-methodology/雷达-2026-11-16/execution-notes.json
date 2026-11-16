@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-16",
+  "daily_runs": 1,
+  "command": "python .agents/skills/gzh-benchmark-radar/scripts/ingest.py --root . daily --accounts .agents/skills/gzh-benchmark-radar/references/accounts.example.json --limit 5",
+  "execution": "以runpy加载原脚本，进程内将Client.post.__defaults__设为(1,)并断言，再调用原main执行相同参数；未修改Skill文件",
+  "paid_attempts_per_request": 1,
+  "retry_or_refetch": false,
+  "credential_policy": "原脚本仅从TIKHUB_API_KEY或.local/tikhub.json读取，未读取显示、复制或另存凭据",
+  "collection": {"accounts": 9, "limit_per_account": 5, "added": 4, "skipped_existing": 41, "failed": 0},
+  "stats": {"success": 1, "failed": 3, "failure": "HTTP 400，不重试"},
+  "raw_snapshot": "daily启动前记录全部既有raw文件SHA256；仅比对保护，不覆盖或修复用户既有改动",
+  "boundaries": ["单次互动快照；仅摸鱼小李n=1，不是日常基线", "不从高阅读推导传播因果", "不声称本账号实测或读者效果", "不运行原文命令、不写正文、不发布"]
+}

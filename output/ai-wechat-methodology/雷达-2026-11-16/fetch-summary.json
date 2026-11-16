@@ -1,0 +1,127 @@
+{
+  "acquired_at": "2026-11-16T14:59:14+08:00",
+  "accounts": [
+    {
+      "account": "路人甲TM",
+      "username": "gh_d516081071ec",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/lurenjiaTM/雷达-2026-11-16",
+      "added_articles": []
+    },
+    {
+      "account": "摸鱼小李",
+      "username": "gh_3923025946c5",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/摸鱼小李/雷达-2026-11-16",
+      "added_articles": [
+        {
+          "id": "2247491941:1",
+          "title": "豆包工作接入多家模型，便宜到能随便用",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247491941&idx=1&sn=53323732bfa42c8224c7befedae15abb",
+          "published": "2026-11-16 13:03",
+          "raw_path": "raw/article/摸鱼小李/雷达-2026-11-16/豆包工作接入多家模型，便宜到能随便用-75ad3dc199.md"
+        }
+      ]
+    },
+    {
+      "account": "小林coding",
+      "username": "gh_fc46cf2353fc",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/小林coding/雷达-2026-11-16",
+      "added_articles": [
+        {
+          "id": "2247566469:1",
+          "title": "Gemini 4 Hydrogen首批实测来了！谷歌把速度卷疯了，真不给同行留活路...",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247566469&idx=1&sn=3a1ce3df22edd0627947bb488a680249",
+          "published": "2026-11-16 10:46",
+          "raw_path": "raw/article/小林coding/雷达-2026-11-16/Gemini 4 Hydrogen首批实测来了！谷歌把速度卷疯了，真不给同行留活路-d1323532e4.md"
+        }
+      ]
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "username": "gh_1421d5e48ca9",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/卡尔的AI沃茨/雷达-2026-11-16",
+      "added_articles": []
+    },
+    {
+      "account": "苍何",
+      "username": "gh_fdb597c42fa4",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/苍何/雷达-2026-11-16",
+      "added_articles": []
+    },
+    {
+      "account": "沉默王二",
+      "username": "gh_f0ee5948865f",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/chenmowanger/雷达-2026-11-16",
+      "added_articles": [
+        {
+          "id": "2247551897:1",
+          "title": "DeepSeek 大手笔啊，全家桶 API 正式开放。",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247551897&idx=1&sn=35ac56d2877e25ffd1e53cb94a3e3119",
+          "published": "2026-11-16 14:13",
+          "raw_path": "raw/article/chenmowanger/雷达-2026-11-16/DeepSeek 大手笔啊，全家桶 API 正式开放。-9f93d79993.md"
+        }
+      ]
+    },
+    {
+      "account": "洛洛AI说",
+      "username": "gh_426cd27710df",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/洛洛AI说/雷达-2026-11-16",
+      "added_articles": []
+    },
+    {
+      "account": "郭震AI",
+      "username": "gh_ce69fa698e90",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/郭震AI/雷达-2026-11-16",
+      "added_articles": []
+    },
+    {
+      "account": "西羊石AI视频",
+      "username": "gh_f5c1e588b297",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/西羊石AI视频/雷达-2026-11-16",
+      "added_articles": [
+        {
+          "id": "2247545774:1",
+          "title": "卧槽，王者荣耀联名 LibTV 搞大事！这波 AI 视频大赛含金量拉满了",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247545774&idx=1&sn=c20a94b30fae3a1d36339596fe144866",
+          "published": "2026-11-15 23:57",
+          "raw_path": "raw/article/西羊石AI视频/雷达-2026-11-16/卧槽，王者荣耀联名 LibTV 搞大事！这波 AI 视频大赛含金量拉满了-fd633b8192.md"
+        }
+      ]
+    }
+  ]
+}

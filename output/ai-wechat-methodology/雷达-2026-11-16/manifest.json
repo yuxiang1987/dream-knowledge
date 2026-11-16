@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-16",
+  "scope": "仅本轮新增4篇，不含历史未拆样本",
+  "accounts": [
+    {
+      "requested_name": "摸鱼小李",
+      "articles": [
+        {
+          "id": "2247491941:1",
+          "title": "豆包工作接入多家模型，便宜到能随便用",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247491941&idx=1&sn=53323732bfa42c8224c7befedae15abb",
+          "published": "2026-11-16 13:03",
+          "raw_path": "raw/article/摸鱼小李/雷达-2026-11-16/豆包工作接入多家模型，便宜到能随便用-75ad3dc199.md",
+          "primary_product": "豆包工作"
+        }
+      ]
+    },
+    {
+      "requested_name": "小林coding",
+      "articles": [
+        {
+          "id": "2247566469:1",
+          "title": "Gemini 4 Hydrogen首批实测来了！谷歌把速度卷疯了，真不给同行留活路...",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247566469&idx=1&sn=3a1ce3df22edd0627947bb488a680249",
+          "published": "2026-11-16 10:46",
+          "raw_path": "raw/article/小林coding/雷达-2026-11-16/Gemini 4 Hydrogen首批实测来了！谷歌把速度卷疯了，真不给同行留活路-d1323532e4.md",
+          "primary_product": "Gemini Hydrogen"
+        }
+      ]
+    },
+    {
+      "requested_name": "沉默王二",
+      "articles": [
+        {
+          "id": "2247551897:1",
+          "title": "DeepSeek 大手笔啊，全家桶 API 正式开放。",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247551897&idx=1&sn=35ac56d2877e25ffd1e53cb94a3e3119",
+          "published": "2026-11-16 14:13",
+          "raw_path": "raw/article/chenmowanger/雷达-2026-11-16/DeepSeek 大手笔啊，全家桶 API 正式开放。-9f93d79993.md",
+          "primary_product": "DeepSeek API"
+        }
+      ]
+    },
+    {
+      "requested_name": "西羊石AI视频",
+      "articles": [
+        {
+          "id": "2247545774:1",
+          "title": "卧槽，王者荣耀联名 LibTV 搞大事！这波 AI 视频大赛含金量拉满了",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247545774&idx=1&sn=c20a94b30fae3a1d36339596fe144866",
+          "published": "2026-11-15 23:57",
+          "raw_path": "raw/article/西羊石AI视频/雷达-2026-11-16/卧槽，王者荣耀联名 LibTV 搞大事！这波 AI 视频大赛含金量拉满了-fd633b8192.md",
+          "primary_product": "LibTV王者无界剧场"
+        }
+      ]
+    }
+  ]
+}

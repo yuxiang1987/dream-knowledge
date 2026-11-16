@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-16",
+  "coverage": {"result": "PASS", "covered": 4, "deep": 3, "excluded": 1, "reused": 0, "case_cards": 3},
+  "existing_raw": {"result": "PASS", "protected_files": 568, "snapshot_timing": "daily启动前"},
+  "regressions": {"result": "PASS", "tests": 6, "covers": ["缺篇", "重复覆盖", "原文指纹改变", "虚构锚点", "排除缺理由", "虚构案例卡"]},
+  "wiki_lint": {"result": "PASS_WITH_WARNINGS", "pages_including_index_log": 537, "warnings": 8, "warning_type": "既有页面sources为空"},
+  "commands": ["python output/ai-wechat-methodology/雷达-2026-11-16/validate_coverage.py", "python output/ai-wechat-methodology/雷达-2026-11-16/test_coverage.py", "python scripts/wiki_lint.py"],
+  "limits": ["结构与证据定位验收不是产品能力复测", "媒体、外链、产品和读者效果未验证", "互动HTTP 400失败3篇未重试"]
+}
