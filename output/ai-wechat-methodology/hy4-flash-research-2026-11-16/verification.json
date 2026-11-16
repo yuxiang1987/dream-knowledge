@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checks": {
+    "no_signed_media_keys": true,
+    "official_source": true,
+    "workbuddy_source": true,
+    "specs_from_source": true,
+    "free_deadline_from_source": true,
+    "daily_limit_from_source": true,
+    "discount_arithmetic": true,
+    "both_deadlines_distinguished": true,
+    "benchmark_qualifiers": true,
+    "unmeasured_state": true
+  },
+  "scope": "资料与研究稿的离线一致性检查，不验证模型效果、每日额度数值或实际计费"
+}

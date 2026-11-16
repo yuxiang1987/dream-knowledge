@@ -1,0 +1,17 @@
+{
+  "source": "https://mp.weixin.qq.com/s/PzxUWk2iiJaUsOaaY-z6TQ",
+  "code": 200,
+  "title": "WorkBuddy首发接入混元Hy4 flash，又快又省！",
+  "author": "越来越懂你的",
+  "account": "腾讯WorkBuddy",
+  "published": "2026-11-16 14:04",
+  "text": "今天，腾讯混元最新模型\nHy4 flash 上线，\nWorkBuddy 国内版、国际版同步完成首发接入！\n11月16日-11月30日 23:59 限时免费体验。\n同时，\nHy4 模型限免时间现已结束，\nHy3 模型也将端内下线。\nHy4 flash 模型总参数量为 224B（其中 64B Engram 参数），激活参数仅为 12B，支持多模态和 1M 上下文长度。Hy4 flash\n是迄今为止最高性价比的\nHy\n模型：每百万\nToken\n输入\n0.5\n元、输出\n2\n元，命中缓存时仅需\n0.02\n元，价格相比\nHy4\n大幅降低。\n智能与效率，更优平衡\n为了达到极致的性价比，同时兼顾智能水平和实用性，混元团队做了一系列工作：\n在预训练阶段，\nHy4 flash\n加入了混合注意力、\nLatentMoE\n、\nEngram\n等架构特性，\nKV cache\n大小仅为\nHy3\n的\n1/24\n、\nHy4\n的\n1/6\n，且通过大量\nscaling ladder\n实验确保效果符合预期。\n在后训练阶段，\n通过自蒸馏\nHy4\n获得了较强的综合智能水平，再通过强化学习使端到端任务输出长度降低\n50%\n。\n在评估阶段，\n构建基于\nWorkBuddy\n典型任务的内部评测集\nWorkIndex\n，并结合人评，聚焦日常工作的产物效果、单轮输出长度、端到端用时，而非远离日常工作的公开榜单分数。\n在推理阶段，\n结合\nmegakernel\n、\n4bit\n量化、\nDflash\n等手段极致优化，使\nHy4 flash\n解码速度超过\n150 tps\n，且可以大规模低成本部署运营。\n最终，\nHy4 flash 在综合效果上略优于更大参数的 Hy4 preview\n（总参数为770B，激活参数49B），但成本显著降低。\n按内部评测集\nWorkIndex\n综合测算，Hy4 flash 单任务成本较 Hy4 preview 和 Hy4 显著降低。该评测覆盖 PPT 制作与修改、文档编辑、表格修复、音视频处理及视觉理解等 WorkBuddy 典型任务。\n真实任务，看体验也看效率\n腾讯内部\n85 位 WorkBuddy 用户\n参与\nHy4 flash\n盲测，覆盖\n27 类共 259 个任务\n。在此次盲测中，Hy4 flash 的用户满意度较高，单任务成本显著低于其他参测模型，\n任务时长也最短。\nWorkBuddy内限时免费体验\n针对本次 Hy4 flash 限免，补充两点说明：\n①\nHy4 flash\n是一个具备视觉理解能力的大语言模型，如果用户有特定生成图片与视频的任务，会切换到相应多模态模型完成，因此会按照正常规则产生积分消耗。\n②\n因免费体验参与热度高涨，为保障\nWorkBuddy 客户端内使用的\n每位Buddy都能顺畅体验，我们对每日免费额度做了合理分配；模型触及免费限额后，用户可消耗积分继续使用，同时会在页面提示额度重置的时间。当日资源繁忙时会进入排队。\n喜欢今天的内容就关注我们吧👇\n后续还有更多实用干货持续更新～\n欢迎前往官网下载体验\n亲自感受更多惊喜功能🎉\nwww.workbuddy.cn",
+  "images": [
+    "https://mmbiz.qpic.cn/mmbiz_gif/u0lmmJTuFHgZaOfHW6VwNe0UDbXdibVVJ40XrYFe81kUQ8vghddibjRg9cVHQWjMmibQqpict4WjPI284e6cL9ibgwzQuaI8y488dV5uO0G4Zdc8/640?wx_fmt=gif&from=appmsg",
+    "https://mmbiz.qpic.cn/mmbiz_png/u0lmmJTuFHhE7fFykoQKxw4OGA21c7A61qNbY12uQNzXGeKIkB4XIqFKRGdZgjfb3icliciawpv5uz7TUAR8BeCU3IwVP2YEpD7icjjcM9lojWw/640?wx_fmt=png&from=appmsg",
+    "https://mmbiz.qpic.cn/mmbiz_png/u0lmmJTuFHglKoOYicn545QnicbePjJiale37oyvNHv2NVibkJLJZOWkQMYH7cq4eDOicx1ticevjKiby0icwRnVT3TOT6SX9nOQc5mibacUAWIJnfY8/640?wx_fmt=png&from=appmsg",
+    "https://mmbiz.qpic.cn/sz_mmbiz_png/u0lmmJTuFHhziaRULq4ia8asFeDpfT5TrTNQIkUvkbH55592QYtgaz7b5U2YbN2wEAibz4sGtfdWAXiaAwXWem8fSGVSgtWvK3CXt7FazQGpYQE/640?wx_fmt=png&from=appmsg",
+    "https://mmbiz.qpic.cn/mmbiz_png/u0lmmJTuFHjJG2KHgLBicYuOEhKVEicYbmBG8SHGtibMqWUJz4cW4HzT58vQrCe8wRO31yiafLrGAaza5QrkiawZdDofMcEFBDGa05k94lwT6ptg/640?wx_fmt=png&from=appmsg",
+    "https://mmbiz.qpic.cn/sz_mmbiz_png/u0lmmJTuFHhFTEZUU63A2PWZllxdsYlInePNC9XibRIw0LStgbAufPsGmxxIQAxju9LSg0tn0kMG70DTrCoUG66WcyhCo30ibart7dWMoyt1s/640?wx_fmt=png&from=appmsg"
+  ]
+}
