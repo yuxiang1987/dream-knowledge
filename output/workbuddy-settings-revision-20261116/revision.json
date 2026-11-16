@@ -1,0 +1,32 @@
+{
+  "source": "raw/article/程序员梦哥/WorkBuddy 做好这几个设置，让WorkBuddy越来越懂你.md",
+  "source_sha256": "9c19cbe76cd7314e4fb5e480ec7501142840caba220194f55413fab2fa1db57f",
+  "draft": "开头与存储设置-优化稿.md",
+  "scope": "仅优化开头与第一个设置，非完整正文",
+  "media": [
+    {
+      "name": "file-20261116212958406.png",
+      "sha256": "7d69397d61f588171d0f0c861f2c7d803b7ec550970e5b38dd383788fd2c7ec9"
+    },
+    {
+      "name": "file-20261116213620465.png",
+      "sha256": "37660a39cb80c525f788b1eb48a7c71d0010bc0195359bcce05c46e81f6e4e21"
+    },
+    {
+      "name": "file-20261116214902068.png",
+      "sha256": "127431bc2475a3a8481e72d447b700967aaa6dd4af423ba7e526546ddce42d40"
+    }
+  ],
+  "pending": [
+    "其余六项设置尚未撰写",
+    "系统缓存实际迁移步骤及结果尚未补入",
+    "未核实硬盘价格翻倍，正文仅保留作者自述的涨价经历"
+  ],
+  "length": {
+    "body_characters": 707,
+    "minimum": 2500,
+    "passed": false,
+    "shortfall": 1793,
+    "basis": "正文汉字、字母、数字各计1字；不计空白、标点、标题、图片/链接地址、代码/提示词、引用块、参考资料和固定简介"
+  }
+}
