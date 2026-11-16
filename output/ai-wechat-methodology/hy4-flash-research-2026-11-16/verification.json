@@ -10,7 +10,11 @@
     "discount_arithmetic": true,
     "both_deadlines_distinguished": true,
     "benchmark_qualifiers": true,
-    "unmeasured_state": true
+    "unmeasured_state": true,
+    "benchmark_identity": true,
+    "benchmark_reading_scope": true,
+    "case_sources_and_anchors": true,
+    "case_status_and_acceptance": true
   },
   "scope": "资料与研究稿的离线一致性检查，不验证模型效果、每日额度数值或实际计费"
 }
