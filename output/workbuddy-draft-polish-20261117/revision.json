@@ -1,0 +1,46 @@
+{
+  "source": "raw/article/程序员梦哥/WorkBuddy 做好这几个设置，让WorkBuddy越来越懂你.md",
+  "source_snapshot_sha256": "f2c80d584f0b41608915495f2b2f24f4ba993d22098f0d9eef0e91fc6bf44867",
+  "draft": "WorkBuddy设置-当前三节优化稿.md",
+  "snapshot": "原稿快照.md",
+  "scope": "仅优化当前已写的三节，不扩写其余四节，不改raw",
+  "media": [
+    {
+      "name": "file-20261116212958406.png",
+      "sha256": "7d69397d61f588171d0f0c861f2c7d803b7ec550970e5b38dd383788fd2c7ec9"
+    },
+    {
+      "name": "file-20261116213620465.png",
+      "sha256": "37660a39cb80c525f788b1eb48a7c71d0010bc0195359bcce05c46e81f6e4e21"
+    },
+    {
+      "name": "file-20261116214902068.png",
+      "sha256": "127431bc2475a3a8481e72d447b700967aaa6dd4af423ba7e526546ddce42d40"
+    },
+    {
+      "name": "file-20261116225021232.png",
+      "sha256": "c7e9f55f7b83025c96081b0731f25f03b1c5dae2bd54ffcf01fb14f42c49137f"
+    },
+    {
+      "name": "file-20261117214549904.png",
+      "sha256": "6e4be93f7ede04c0afe9def200493d27a4a8ee20b9195d68a6d4d7892727a754"
+    },
+    {
+      "name": "file-20261117215038827.png",
+      "sha256": "5ac35823c3a16e961813a54a1089e447e3347cf769f7da46e61c57029221b75f"
+    }
+  ],
+  "prompt_sha256": "f4ae9011db0bdf32054bfd129e5c72bc5c223d96355d6cf652729b88428d1301",
+  "length": {
+    "body_characters": 1434,
+    "minimum": 2500,
+    "passed": false,
+    "shortfall": 1066,
+    "basis": "正文汉字、字母、数字各计1字；不计空白、标点、标题、图片/链接地址、代码/提示词、引用块、参考资料和固定简介"
+  },
+  "pending": [
+    "其余四项设置尚未写入本轮原稿",
+    "回复风格未提供实际两档对照，不编造对比结果"
+  ],
+  "basis": "本轮最新原稿、六张现有图片及本聊天已核对的官方资料；无客户端配置或迁移操作"
+}
