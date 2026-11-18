@@ -99,7 +99,8 @@ class WorkBuddySettingsResearchTest(unittest.TestCase):
                 self.assertIn(marker, section)
         self.assertIn("[[topics/WorkBuddy存储迁移选题调研]]", section)
         self.assertTrue((ROOT / "wiki/topics/WorkBuddy存储迁移选题调研.md").is_file())
-        self.assertIn("规划新增存储路径第七项", self.index)
+        self.assertIn("现有六项保留，新增第七项", section)
+        self.assertIn("[[sources/WorkBuddy七处设置教程定稿]]", self.index)
         self.assertIn("topic-planning | WorkBuddy设置教程补充存储路径", self.log)
 
     def test_index_and_log_are_updated(self):

@@ -46,6 +46,37 @@ class WorkBuddyArticleArchiveTest(unittest.TestCase):
             with self.subTest(backstage=backstage):
                 self.assertNotIn(backstage, self.article)
 
+    def test_final_article_and_linked_artifacts_are_retrievable(self):
+        page = ROOT / "wiki/sources/WorkBuddy七处设置教程定稿.md"
+        text = page.read_text(encoding="utf-8")
+        original = ROOT / "raw/article/程序员梦哥/WorkBuddy 做好这几个设置，让WorkBuddy越来越懂你.md"
+        self.assertIn(f'sources: ["{original.relative_to(ROOT).as_posix()}"]', text)
+        markdown = original.read_text(encoding="utf-8")
+        headers = re.findall(r"^## (.*)$", markdown, re.M)
+        self.assertEqual(len(headers[:-1]), 7)
+        self.assertEqual(headers[-1], "写在最后")
+        references = re.findall(r"!\[\[([^\]]+)\]\]", markdown)
+        self.assertEqual(len(references), 12)
+        self.assertEqual(len(references), len(set(references)))
+        for file in references:
+            self.assertTrue((original.parent / "assets" / original.stem / file).is_file())
+        targets = re.findall(r"\]\(<([^>]+)>\)", text)
+        self.assertEqual(len(targets), 5)
+        for target in targets:
+            self.assertTrue((page.parent / target).is_file(), target)
+
+    def test_final_article_is_indexed_with_validation_boundaries(self):
+        source = "[[sources/WorkBuddy七处设置教程定稿]]"
+        for path in ("wiki/index.md", "wiki/topics/WorkBuddy设置技巧文章.md",
+                     "wiki/topics/公众号内容生产线.md", "wiki/log.md"):
+            with self.subTest(path=path):
+                self.assertIn(source, (ROOT / path).read_text(encoding="utf-8"))
+        final = (ROOT / "wiki/sources/WorkBuddy七处设置教程定稿.md").read_text(encoding="utf-8")
+        self.assertIn("已定稿、已排版", final)
+        self.assertIn("公众号发布链接和发布效果未核实", final)
+        self.assertIn("不能证明实际迁移", final)
+        self.assertIn("整篇粘贴及保存后播放未核实", final)
+
     def test_index_page_count_and_official_links(self):
         index = (ROOT / "wiki/index.md").read_text(encoding="utf-8")
         count = sum(path.name not in {"index.md", "log.md"}
