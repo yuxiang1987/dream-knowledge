@@ -6,6 +6,12 @@ import { themes, buildStyles } from '../assets/upstream/themes.js';
 import { blueJournal } from './blue-journal.mjs';
 import { renderMarkdown, stripPreviewMeta, setImageResolver } from '../assets/upstream/renderer.js';
 
+const brandIntroAsset = new URL('../assets/brand-intro/intro-wechat.gif', import.meta.url);
+const originalBrandIntroAsset = new URL('../assets/brand-intro/intro.gif', import.meta.url);
+const gifDataUri = bytes => `data:image/gif;base64,${bytes.toString('base64')}`;
+
+const authorBioText = '我是梦哥，十年程序员，爱折腾 AI。分享实用 AI 工具、有趣玩法和实操心得，一起把想法做出来。';
+
 const aliases = { '青山绿水': 'cyan-scape', '青绿山水': 'cyan-scape', '薄荷气泡': 'mint-soda', '雾蓝': 'mist-blue', '雾蓝气泡': 'mist-blue', '晴蓝手记': 'blue-journal', '洛洛蓝': 'blue-journal' };
 const mime = { '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.gif': 'image/gif', '.webp': 'image/webp' };
 const escape = s => s.replace(/[&<>"']/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
@@ -40,14 +46,14 @@ export function normalizeObsidian(source, warnings = []) {
   return source.replace(/\u0000CODE(\d+)\u0000/g, (_, i) => protectedParts[Number(i)]);
 }
 
-export function convert(input, { theme = 'blue-journal', vault, fontSize = 15, linkFootnotes = false, codeMaxHeight = 320, avoidOrphans = false } = {}) {
+export function convert(input, { theme = 'blue-journal', vault, fontSize = 15, linkFootnotes = false, codeMaxHeight = 320, avoidOrphans = false, brandIntro = true, authorBio = true } = {}) {
   const mistBlue = (aliases[theme] || theme) === 'mist-blue';
   const selected = [...themes, blueJournal].find(t => t.id === (mistBlue ? 'mint-soda' : (aliases[theme] || theme)));
   if (!selected || !['cyan-scape', 'mint-soda', 'blue-journal'].includes(selected.id)) throw new Error(`不支持的主题：${theme}`);
   if (!Number.isFinite(fontSize) || fontSize < 12 || fontSize > 24) throw new Error('字号须为 12–24');
   if (!Number.isFinite(codeMaxHeight) || codeMaxHeight < 0) throw new Error('代码窗口高度须为非负数，0表示完整展开');
   const warnings = [];
-  const source = normalizeObsidian(fs.readFileSync(input, 'utf8'), warnings);
+  let source = normalizeObsidian(fs.readFileSync(input, 'utf8'), warnings);
   const root = vault ? path.resolve(vault) : null;
   let files;
   function inventory(dir) {
@@ -82,6 +88,16 @@ export function convert(input, { theme = 'blue-journal', vault, fontSize = 15, l
   }
   // Pre-resolve every image so missing attachments cannot silently produce broken output.
   const tokens = new MarkdownIt({ linkify: true }).parse(source, {});
+  // 已有独立简介段落时，只在导出副本补Markdown分隔线。
+  const lastInline = tokens.at(-2);
+  if (authorBio && tokens.at(-3)?.type === 'paragraph_open' && tokens.at(-3).level === 0
+      && lastInline?.type === 'inline'
+      && lastInline.children.map(token => token.content).join('').trim() === authorBioText
+      && tokens.at(-4)?.type !== 'hr') {
+    const lines = source.split('\n');
+    lines.splice(tokens.at(-3).map[0], 0, '---', '');
+    source = lines.join('\n');
+  }
   function visit(items) { for (const token of items) { if (token.type === 'image') image(token.attrGet('src')); if (token.children) visit(token.children); } }
   visit(tokens);
   setImageResolver(image);
@@ -138,6 +154,13 @@ export function convert(input, { theme = 'blue-journal', vault, fontSize = 15, l
     // body copy; only an explicit Markdown blockquote should become a card.
     if (/\$\$|\$[^\n$]+\$/.test(source)) warnings.push('数学公式未转换为图片，请检查预览。');
     if (selected.id === 'mint-soda') html = html.replace(/<(th|td) style="([^"]*)">/g, '<$1 style="$2min-width:5.5em;">');
+    // 个人简介仅加在导出末尾，保留用户原文；已有同一句结尾时不重复。
+    if (authorBio && !html.replace(/<[^>]*>/g, '').trim().endsWith(authorBioText)) {
+      const separator = base.hrHtml || `<hr style="${escape(base.hr)}"/>`;
+      const hasSeparator = html.replace(/<\/section>\s*$/, '').trimEnd().endsWith(separator);
+      const closing = `${hasSeparator ? '' : separator}<p style="${custom.p}margin:0;">${escape(authorBioText)}</p>`;
+      html = html.replace(/<\/section>\s*$/, closing + '</section>');
+    }
     if (mistBlue) {
       const family = "font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif;";
       html = html.replace(/<(section|p|h[1-6]|blockquote|th|td|span)\b([^>]*?)style="([^"]*)"/g, (tag, element, attrs, style) => {
@@ -152,15 +175,25 @@ export function convert(input, { theme = 'blue-journal', vault, fontSize = 15, l
         return `<p style="${clean};background-color:#f0f5fa;border:1px dashed #b8cee2;border-radius:6px;padding:12px 16px;">`;
       });
     }
+    // 兼容版及原版均视为同一片头，源稿已插入时不再添加。
+    if (brandIntro) {
+      const src = gifDataUri(fs.readFileSync(brandIntroAsset));
+      if (!html.includes(src) && !html.includes(gifDataUri(fs.readFileSync(originalBrandIntroAsset)))) {
+        const opening = `<section style="margin:0 0 24px;padding:0;text-align:center;font-size:0;line-height:0;"><img src="${src}" alt="程序员梦哥：分享AI、少踩坑" width="1000" height="300" style="display:inline-block;width:100%;max-width:100%;height:auto;vertical-align:middle;${imageFinish}"></section>`;
+        html = html.replace(/^<section\b[^>]*>/, tag => tag + opening);
+      }
+      warnings.push('已启用像素粒子片头；粘贴后检查微信转存和动画播放。片头失败时，仅单独插入随预览导出的 GIF。');
+    }
     return { html, theme: mistBlue ? '雾蓝气泡' : selected.name, warnings: [...new Set(warnings)] };
   } finally { setImageResolver(null); }
 }
 
-export function preview(html, title, warnings) {
+export function preview(html, title, warnings, introFile) {
+  const introLink = introFile ? ` <a href="${escape(encodeURIComponent(path.basename(introFile)))}" download>单独下载片头 GIF</a>` : '';
   return `<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escape(title)}</title>
 <style>body{margin:0;background:#f3f5f4;font-family:system-ui}header{position:sticky;top:0;background:white;padding:16px;z-index:1;border-bottom:1px solid #ddd}button{padding:10px 18px;cursor:pointer}article{max-width:677px;margin:24px auto;background:white;padding:24px}aside{max-width:720px;margin:auto;color:#765b16;font-size:14px}</style>
 <style>article section[style*="max-height:"][style*="overflow:auto"]{scrollbar-gutter:stable;scrollbar-color:#8bb7d7 #edf5fa}article section[style*="max-height:"][style*="overflow:auto"]::-webkit-scrollbar{width:8px}article section[style*="max-height:"][style*="overflow:auto"]::-webkit-scrollbar-track{background:#edf5fa}article section[style*="max-height:"][style*="overflow:auto"]::-webkit-scrollbar-thumb{background:#8bb7d7;border-radius:4px}</style>
-<header><button id="copy">复制完整公众号排版</button> <span id="status">复制保留全文与内联样式；图片、滚动效果需在微信粘贴后确认</span></header>
+<header><button id="copy">复制完整公众号排版</button> <span id="status">复制保留全文与内联样式；图片、滚动效果需在微信粘贴后确认</span>${introLink}</header>
 <aside><details><summary>排版提示（${warnings.length}项）</summary>${warnings.map(w => `<p>${escape(w)}</p>`).join('')}</details></aside><article id="content">${html}</article>
 <script>
 document.getElementById('copy').onclick=async()=>{
@@ -177,12 +210,14 @@ function main() {
   const args = process.argv.slice(2);
   const input = args.shift();
   if (!input || input === '--help') {
-    console.log('node scripts/render.mjs article.md [--theme 雾蓝气泡|青山绿水|薄荷气泡|晴蓝手记] [--vault 库目录] [--out 输出目录] [--font-size 15] [--code-max-height 320] [--avoid-orphans] [--link-footnotes]'); return;
+    console.log('node scripts/render.mjs article.md [--theme 雾蓝气泡|青山绿水|薄荷气泡|晴蓝手记] [--vault 库目录] [--out 输出目录] [--font-size 15] [--code-max-height 320] [--avoid-orphans] [--link-footnotes] [--no-brand-intro] [--no-author-bio]'); return;
   }
   const options = {};
   let out = path.join(path.dirname(path.resolve(input)), 'wechat-output');
   while (args.length) {
     const key = args.shift();
+    if (key === '--no-author-bio') { options.authorBio = false; continue; }
+    if (key === '--no-brand-intro') { options.brandIntro = false; continue; }
     if (key === '--avoid-orphans') { options.avoidOrphans = true; continue; }
     if (key === '--keep-links') { options.linkFootnotes = false; continue; }
     if (key === '--link-footnotes') { options.linkFootnotes = true; continue; }
@@ -200,10 +235,12 @@ function main() {
   const fragment = path.join(out, `${name}.wechat.html`);
   const page = path.join(out, `${name}.preview.html`);
   const report = path.join(out, `${name}.report.json`);
+  const introGif = options.brandIntro === false ? null : path.join(out, `${name}.intro.gif`);
+  if (introGif) fs.copyFileSync(brandIntroAsset, introGif);
   fs.writeFileSync(fragment, result.html);
-  fs.writeFileSync(page, preview(result.html, `${name} · ${result.theme}`, result.warnings));
-  fs.writeFileSync(report, JSON.stringify({ input: path.resolve(input), theme: result.theme, fragment, preview: page, warnings: result.warnings }, null, 2));
-  console.log(JSON.stringify({ theme: result.theme, fragment, preview: page, report, warnings: result.warnings }, null, 2));
+  fs.writeFileSync(page, preview(result.html, `${name} · ${result.theme}`, result.warnings, introGif));
+  fs.writeFileSync(report, JSON.stringify({ input: path.resolve(input), theme: result.theme, fragment, preview: page, introGif, warnings: result.warnings }, null, 2));
+  console.log(JSON.stringify({ theme: result.theme, fragment, preview: page, report, introGif, warnings: result.warnings }, null, 2));
 }
 if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
   try { main(); } catch (error) { console.error(error.message); process.exitCode = 1; }

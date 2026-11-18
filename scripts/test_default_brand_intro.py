@@ -58,9 +58,33 @@ class DefaultBrandIntroTest(unittest.TestCase):
         text = (SKILL / 'SKILL.md').read_text(encoding='utf8')
         self.assertIn('默认在正文最前面', text)
         self.assertIn('--no-brand-intro', text)
-        self.assertIn('不是翻转版', text)
+        self.assertIn('像素粒子消散版GIF', text)
+        self.assertIn('单独下载片头 GIF', text)
         report = json.loads((DEMO / '默认片头排版示例.report.json').read_text(encoding='utf8'))
         self.assertTrue(any('检查微信转存和动画播放' in w for w in report['warnings']))
+
+    def test_workbuddy_export_uses_the_same_compact_gif_in_both_forms(self):
+        asset = SKILL / 'assets/brand-intro/intro-wechat.gif'
+        gif = asset.read_bytes()
+        digest = '1e04800d9c5b3e1fc79e302e9c9b704953d0448f3920b3b36c2487f52ba2887f'
+        self.assertEqual(hashlib.sha256(gif).hexdigest(), digest)
+        manifest = json.loads((ROOT / 'scripts/installed_skills.json').read_text(encoding='utf8'))
+        self.assertEqual(manifest['sha256']['md-wechat-layout/assets/brand-intro/intro-wechat.gif'], digest)
+        folder = ROOT / 'output/workbuddy-wechat-layout-20261118'
+        title = 'WorkBuddy 做好这几个设置，让WorkBuddy越来越懂你'
+        fragment = (folder / (title + '.wechat.html')).read_text(encoding='utf8')
+        preview = (folder / (title + '.preview.html')).read_text(encoding='utf8')
+        parser = Images()
+        parser.feed(fragment)
+        self.assertEqual(len(parser.srcs), 13)
+        self.assertTrue(parser.srcs[0].startswith('data:image/gif;base64,'))
+        self.assertEqual(base64.b64decode(parser.srcs[0].split(',', 1)[1]), gif)
+        self.assertEqual((folder / (title + '.intro.gif')).read_bytes(), gif)
+        self.assertLess(fragment.index('最近我发现'), fragment.index(parser.srcs[1]))
+        self.assertLess(fragment.index(parser.srcs[1]), fragment.index('更有意思的是'))
+        self.assertLess(preview.index('单独下载片头 GIF'), preview.index('<article id="content">'))
+        self.assertNotIn('单独下载片头 GIF', fragment)
+        self.assertIn('<article id="content">'+fragment+'</article>', preview)
 
     def test_user_bio_is_the_exact_final_paragraph(self):
         bio = '我是梦哥，十年程序员，爱折腾 AI。分享实用工具、有趣玩法和实操心得，一起把想法做出来。'
