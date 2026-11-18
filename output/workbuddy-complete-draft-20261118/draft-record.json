@@ -1,0 +1,79 @@
+{
+  "source": "raw/article/程序员梦哥/WorkBuddy 做好这几个设置，让WorkBuddy越来越懂你.md",
+  "source_sha256": "2d2a448171a7cce6964fb22e6e4cf6310d806305645ab7bc9b5730fa66ed94c1",
+  "draft": "WorkBuddy设置-完整草稿-v1.md",
+  "snapshot": "用户原稿快照.md",
+  "benchmark": "raw/article/爱ai的大刘/WorkBuddy 可以直接复制的简单设置，立刻让你的 WorkBuddy 比别人聪明百倍。（附提示词）.md",
+  "benchmark_sha256": "84729fa388d134aaf14c49b1127003a74fc2b0cd94affb7e785e8458ecda8997",
+  "benchmark_use": "参考入口、按任务选择和可复制规则的组织方法，不照搬措辞、旧参数或作者体验；正文不出现对标策划过程",
+  "prompt_sha256": "f4ae9011db0bdf32054bfd129e5c72bc5c223d96355d6cf652729b88428d1301",
+  "original_media": [
+    "file-20261116212958406.png",
+    "file-20261116213620465.png",
+    "file-20261116214902068.png",
+    "file-20261116225021232.png",
+    "file-20261117214549904.png",
+    "file-20261117215038827.png"
+  ],
+  "media": [
+    {
+      "name": "file-20261116212958406.png",
+      "sha256": "7d69397d61f588171d0f0c861f2c7d803b7ec550970e5b38dd383788fd2c7ec9"
+    },
+    {
+      "name": "file-20261116213620465.png",
+      "sha256": "37660a39cb80c525f788b1eb48a7c71d0010bc0195359bcce05c46e81f6e4e21"
+    },
+    {
+      "name": "file-20261116214902068.png",
+      "sha256": "127431bc2475a3a8481e72d447b700967aaa6dd4af423ba7e526546ddce42d40"
+    },
+    {
+      "name": "file-20261116225021232.png",
+      "sha256": "c7e9f55f7b83025c96081b0731f25f03b1c5dae2bd54ffcf01fb14f42c49137f"
+    },
+    {
+      "name": "file-20261117214549904.png",
+      "sha256": "6e4be93f7ede04c0afe9def200493d27a4a8ee20b9195d68a6d4d7892727a754"
+    },
+    {
+      "name": "file-20261117215038827.png",
+      "sha256": "5ac35823c3a16e961813a54a1089e447e3347cf769f7da46e61c57029221b75f"
+    },
+    {
+      "name": "memory-and-skills.png",
+      "sha256": "5f723fb00d5f6308d0de63eceec85ae3a12ff4e49519a2d56e90fb9e7394037d"
+    },
+    {
+      "name": "personalization-memory.png",
+      "sha256": "5a92412d80215da15b8b4ae5ed57a436cbe926f0f81f7c55525c9f8d112e802b"
+    },
+    {
+      "name": "agent-economy.png",
+      "sha256": "bbb96d20e396db1b5663e33c8292c6100fce6b7010e6068ee74edaf3722fadbb"
+    },
+    {
+      "name": "safety-backup.png",
+      "sha256": "f8a4fddc06ec3bdc11b6fded01d1b72578a2a862e03199f4db08a61eadf32f16"
+    }
+  ],
+  "length": {
+    "body_characters": 3371,
+    "minimum": 2500,
+    "passed": true,
+    "shortfall": 0,
+    "basis": "正文汉字、字母、数字各计1字；不计空白、标点、标题、图片/链接地址、代码/提示词、引用块、参考资料和固定简介"
+  },
+  "pending": [
+    "实际Skill保存与换材料复用结果",
+    "当前模型面板截图",
+    "实际文件恢复验证",
+    "新增完整设置截图包含无关侧栏及个人记忆/日志，发布配图前需要选取相关区域"
+  ],
+  "scope": "完整七项教程讨论稿；不展开云端记忆、不新增数据导入教程，不修改raw或客户端设置",
+  "source_urls": [
+    "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Practice-Cases/Practice-Eight",
+    "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Model",
+    "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Permission-Modes"
+  ]
+}
