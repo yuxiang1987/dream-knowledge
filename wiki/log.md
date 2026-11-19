@@ -1784,3 +1784,8 @@
 
 - 在 `output/ai-wechat-methodology/mengge-workbuddy-label-trio/` 增加标签常驻、大字聚焦、逐站留名三款 SVG 与同屏对比。沿用定稿顺序和同一光点时间轴，让短标签解释图标，不在片头加入段落。
 - 验证 375 像素宽下标签边界、七项出现顺序和同步重播。未改排版 Skill、默认片头、文章或旧样片。
+
+## [2026-11-19] asset | WorkBuddy 七项设置原创动效三案
+
+- 在 `output/ai-wechat-methodology/mengge-workbuddy-creative-trio/` 交付三套独立 SVG/SMIL：暗夜轨道用扫描针和七个节点串联，一纸七变用同一矢量轮廓连续形变，组件着陆用飞入与回弹拼出设置面板。都保留七项短名称，未改旧片头或排版 Skill。
+- Chrome 验证雷达扫描、路径补间、组件依次落位及同步定格重播；核看 375 像素宽的四组实际定格。
