@@ -1774,3 +1774,8 @@
 
 - 参照摸鱼小李课件篇的连续动作设计，独立制作 `output/ai-wechat-methodology/mengge-workbuddy-switchyard/`：口号退场后，一条下划线伸长并弯成轨道，同一颗光点经过拨杆后沿新支线前进，新任务进入 D 盘，旧任务留在 C 盘。
 - Chrome 核看定格并测试轨道补间、光点与文件夹路径、旧任务位置和重播；故事板展示默认路径设置，不代表实际迁移。未修改排版 Skill、默认片头或旧样片。
+
+## [2026-11-19] asset | WorkBuddy 七项设置少字片头
+
+- 按 [[sources/WorkBuddy七处设置教程定稿]] 的章节顺序，制作 `output/ai-wechat-methodology/mengge-workbuddy-seven-settings/` 独立 SVG/SMIL 片头。同一颗光点依次触发七个图标，片内只保留品牌亮相文字，图例放在预览页动画外。
+- Chrome 验证光点与进度线同步、七站顺序、定格及重播；核看 375 像素宽画面。未调整排版 Skill、默认片头、旧样片或文章。
