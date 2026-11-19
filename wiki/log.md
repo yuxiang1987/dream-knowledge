@@ -1789,3 +1789,8 @@
 
 - 在 `output/ai-wechat-methodology/mengge-workbuddy-creative-trio/` 交付三套独立 SVG/SMIL：暗夜轨道用扫描针和七个节点串联，一纸七变用同一矢量轮廓连续形变，组件着陆用飞入与回弹拼出设置面板。都保留七项短名称，未改旧片头或排版 Skill。
 - Chrome 验证雷达扫描、路径补间、组件依次落位及同步定格重播；核看 375 像素宽的四组实际定格。
+
+## [2026-11-19] asset | 组件着陆片头校准人物与标题
+
+- 独立导出 `output/ai-wechat-methodology/mengge-workbuddy-assembly-v2/`；从默认 v8 片头所用动作表无损裁出同一站姿，替换旧版简化像素人物，移除「七项设置」总标题，保留 WorkBuddy 和七块组件的动作及短标签。
+- 查验 Chrome 收尾画面、裁剪像素与源图一致、原第三版可按原样重建。未修改排版 Skill 或默认片头。

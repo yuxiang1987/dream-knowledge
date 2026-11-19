@@ -129,15 +129,16 @@ def shape_shifter():
     return bg + actor + opener('#665d4e', INK) + stage(body)
 
 
-def assembly():
+def assembly(brand_actor=None, *, heading='七项设置'):
     bg = rect(0, 0, 1000, 292, 0, '#f0eafe')
     bg += path('M0 230L1000 171V292H0Z', 'none', fill='#e5ddfa')
     bg += rect(23, 20, 954, 249, 22, '#f8f4ff', '#d9cef1')
     coords = ((332,78),(514,78),(696,78),(878,78),(422,206),(604,206),(786,206))
     frame = path('M259 139H947M352 252H859', '#ddd1f1', 2)
-    frame += lettering(56, 132, '七项设置', 37, '#4c347a')
-    frame += lettering(57, 171, 'WorkBuddy', 24, '#756492', False)
-    actor = place(avatar(), 60, 10, .42)
+    if heading:
+        frame += lettering(56, 132, heading, 37, '#4c347a')
+    frame += lettering(57, 171 if brand_actor is None else 221, 'WorkBuddy', 24, '#756492', False)
+    scene_actor = place(avatar(), 60, 10, .42) if brand_actor is None else ''
     tiles = []
     for i, ((x,y),t) in enumerate(zip(coords,TIMES)):
         offset = (-119 if i % 2 == 0 else 112)
@@ -150,7 +151,8 @@ def assembly():
         tile += lettering(-len(LABELS[i]) * size/2, 39, LABELS[i], size, '#3d2f58')
         tiles.append(place(group(opacity + landing + group(tilt + tile), ident=f'tile-{i}', opacity=0), x, y))
     seal = group(track('opacity', [(5.90, 0), (6.21, 1)]) + path('M38 30V15h18M963 30V15h-18M38 252v16h18M963 252v16h-18', '#8f6ec4', 4), ident='lock', opacity=0)
-    return bg + opener('#6a5189', '#412765', 245, 105) + stage(frame + actor + ''.join(tiles) + seal)
+    return (bg + (brand_actor or '') + opener('#6a5189', '#412765', 245, 105)
+            + stage(frame + scene_actor + ''.join(tiles) + seal))
 
 
 VARIANTS = (
