@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>程序员梦哥 · WorkBuddy 片头三案</title>
+<style>
+  :root { color-scheme: light; font-family: system-ui, sans-serif; color: #172f4e; background: #f4f7fb; }
+  body { max-width: 76rem; margin: 0 auto; padding: 1.5rem clamp(.75rem, 3vw, 2rem); }
+  h1 { font-size: 1.45rem; margin: 0 0 .45rem; }
+  h2 { font-size: 1.06rem; margin: 0 0 .65rem; }
+  p { font-size: .9rem; color: #506885; line-height: 1.5; }
+  .tools { display: flex; flex-wrap: wrap; gap: .55rem; align-items: center; margin: 1rem 0; }
+  button, a { color: #2460d6; font: inherit; }
+  button { background: white; padding: .38rem .7rem; border: 1px solid #c5d8ee; border-radius: .45rem; cursor: pointer; }
+  button[aria-pressed="true"] { color: white; background: #2460d6; border-color: #2460d6; }
+  .samples { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 335px), 1fr)); gap: .9rem; }
+  article { background: white; border: 1px solid #dce6f3; padding: .8rem; border-radius: .7rem; }
+  svg { display: block; width: 100%; height: auto; border: 1px solid #dce6f3; border-radius: .45rem; box-sizing: border-box; }
+</style>
+<body>
+<h1>程序员梦哥 · WorkBuddy 片头三案</h1>
+<p>原生 SVG/SMIL 动画 · 6.4 秒循环 · 动作示意，不是产品录屏</p>
+<div class="tools" aria-label="对比播放控制">
+  <button type="button" id="replay">同步重播</button>
+  <button type="button" id="slow" aria-pressed="false">0.5× 慢放</button>
+  <button type="button" data-frame="1.45">定格：转场</button>
+  <button type="button" data-frame="2.75">定格：动作</button>
+  <button type="button" data-frame="4.35">定格：结果</button>
+</div>
+<main class="samples">
+<!-- samples -->
+</main>
+<script>
+  const art = [...document.querySelectorAll('.samples svg')];
+  const slow = document.querySelector('#slow');
+  let animationFrame;
+  function stopSlow() {
+    cancelAnimationFrame(animationFrame);
+    slow.setAttribute('aria-pressed', 'false');
+  }
+  document.querySelector('#replay').addEventListener('click', () => {
+    stopSlow();
+    art.forEach(svg => { svg.setCurrentTime(0); svg.unpauseAnimations(); });
+  });
+  slow.addEventListener('click', () => {
+    if (slow.getAttribute('aria-pressed') === 'true') {
+      stopSlow();
+      art.forEach(svg => svg.unpauseAnimations());
+      return;
+    }
+    slow.setAttribute('aria-pressed', 'true');
+    art.forEach(svg => { svg.pauseAnimations(); svg.setCurrentTime(0); });
+    let start;
+    const step = now => {
+      start ??= now;
+      art.forEach(svg => svg.setCurrentTime((now - start) / 2000 % 6.4));
+      animationFrame = requestAnimationFrame(step);
+    };
+    animationFrame = requestAnimationFrame(step);
+  });
+  document.querySelectorAll('[data-frame]').forEach(button => button.addEventListener('click', () => {
+    stopSlow();
+    art.forEach(svg => { svg.pauseAnimations(); svg.setCurrentTime(Number(button.dataset.frame)); });
+  }));
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    document.querySelector('[data-frame="4.35"]').click();
+  }
+</script>
+</body>
+</html>
