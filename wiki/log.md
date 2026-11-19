@@ -1794,3 +1794,8 @@
 
 - 独立导出 `output/ai-wechat-methodology/mengge-workbuddy-assembly-v2/`；从默认 v8 片头所用动作表无损裁出同一站姿，替换旧版简化像素人物，移除「七项设置」总标题，保留 WorkBuddy 和七块组件的动作及短标签。
 - 查验 Chrome 收尾画面、裁剪像素与源图一致、原第三版可按原样重建。未修改排版 Skill 或默认片头。
+
+## [2026-11-19] asset | GPT Image 鲁班皮肤创意片头三案
+
+- 在 `output/ai-wechat-methodology/mengge-gpt-luban-trio/` 增加深海换装、只改鲸鱼帽、深海放映机三款独立 SVG/SMIL；分别采用水滴开舷窗、蓝橙原图擦拭、四段胶片滑移。复用已归档原画与动图单帧，不改写模型测试结论。
+- Chrome 核看同屏画面，验证舷窗半径、擦拭进度、胶片位移及重播；未修改排版 Skill、默认片头或文章。
