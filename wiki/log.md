@@ -1769,3 +1769,8 @@
 
 - 以 [[topics/WorkBuddy存储迁移选题调研]] 的独立文章方向制作三款原生 SVG/SMIL：磁盘扫描、新旧分流、搬后验收。产物和同屏预览位于 `output/ai-wechat-methodology/mengge-workbuddy-storage-trio/`。
 - 区分默认工作空间与既有后台数据迁移；片头是概念示意，不承诺释放空间或已迁移成功。新增 Chrome 动效与独立文件验收，不改原文、旧样片、排版 Skill 或默认片头。
+
+## [2026-11-19] asset | WorkBuddy 路径改道连续动效
+
+- 参照摸鱼小李课件篇的连续动作设计，独立制作 `output/ai-wechat-methodology/mengge-workbuddy-switchyard/`：口号退场后，一条下划线伸长并弯成轨道，同一颗光点经过拨杆后沿新支线前进，新任务进入 D 盘，旧任务留在 C 盘。
+- Chrome 核看定格并测试轨道补间、光点与文件夹路径、旧任务位置和重播；故事板展示默认路径设置，不代表实际迁移。未修改排版 Skill、默认片头或旧样片。
