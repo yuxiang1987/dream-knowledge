@@ -1,0 +1,166 @@
+{
+  "acquired_at": "2026-11-19T10:17:48+08:00",
+  "accounts": [
+    {
+      "account": "路人甲TM",
+      "username": "gh_d516081071ec",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 3,
+      "failed": 1,
+      "directory": "raw/article/lurenjiaTM/雷达-2026-11-19",
+      "added_articles": [
+        {
+          "id": "2247524647:1",
+          "title": "网易来做慈善了，此等神仙AI工具居然永久免费？",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524647&idx=1&sn=20f7279f0d361e131a6b5aeb17dab782",
+          "published": "2026-11-16 20:21",
+          "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-19/网易来做慈善了，此等神仙AI工具居然永久免费？-0c170f2d37.md"
+        }
+      ]
+    },
+    {
+      "account": "摸鱼小李",
+      "username": "gh_3923025946c5",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/摸鱼小李/雷达-2026-11-19",
+      "added_articles": []
+    },
+    {
+      "account": "小林coding",
+      "username": "gh_fc46cf2353fc",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 3,
+      "failed": 1,
+      "directory": "raw/article/小林coding/雷达-2026-11-19",
+      "added_articles": [
+        {
+          "id": "2247566537:1",
+          "title": "GPT-6.2 全量上线！首批实测来了，结果好失望啊。。。",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247566537&idx=1&sn=1ae071ac6065ea9750076a49c05cf5c6",
+          "published": "2026-11-18 19:56",
+          "raw_path": "raw/article/小林coding/雷达-2026-11-19/GPT-6.2 全量上线！首批实测来了，结果好失望啊。。。-1b7470283c.md"
+        }
+      ]
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "username": "gh_1421d5e48ca9",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/卡尔的AI沃茨/雷达-2026-11-19",
+      "added_articles": [
+        {
+          "id": "2247513973:1",
+          "title": "我把监控全网免费Token的网站覆盖到了图像和视频类，今天上线",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247513973&idx=1&sn=6bf93c6227db562bbf1e387a80114c80",
+          "published": "2026-11-18 10:00",
+          "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-19/我把监控全网免费Token的网站覆盖到了图像和视频类，今天上线-1d7ae91aab.md"
+        }
+      ]
+    },
+    {
+      "account": "苍何",
+      "username": "gh_fdb597c42fa4",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/苍何/雷达-2026-11-19",
+      "added_articles": [
+        {
+          "id": "2247500828:1",
+          "title": "豆包终于想通了...",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500828&idx=1&sn=6cf8115da6d0794deb4d3d69c6028c25",
+          "published": "2026-11-16 15:08",
+          "raw_path": "raw/article/苍何/雷达-2026-11-19/豆包终于想通了-57f84318a2.md"
+        }
+      ]
+    },
+    {
+      "account": "沉默王二",
+      "username": "gh_f0ee5948865f",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 3,
+      "failed": 1,
+      "directory": "raw/article/chenmowanger/雷达-2026-11-19",
+      "added_articles": [
+        {
+          "id": "2247552011:1",
+          "title": "腾讯这波上大分，Hy4 flash值得你猛蹬。",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247552011&idx=1&sn=c690555361053a10b75c5fe9a21e6725",
+          "published": "2026-11-18 21:10",
+          "raw_path": "raw/article/chenmowanger/雷达-2026-11-19/腾讯这波上大分，Hy4 flash值得你猛蹬。-329a97c0e7.md"
+        }
+      ]
+    },
+    {
+      "account": "洛洛AI说",
+      "username": "gh_426cd27710df",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 2,
+      "failed": 2,
+      "directory": "raw/article/洛洛AI说/雷达-2026-11-19",
+      "added_articles": [
+        {
+          "id": "2247489206:1",
+          "title": "豆包、微信、网易3家热门语音输入法，哪款才是夯中之夯？",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247489206&idx=1&sn=8a8f1dde5bc551be9c8d1284b626f2df",
+          "published": "2026-11-18 09:00",
+          "raw_path": "raw/article/洛洛AI说/雷达-2026-11-19/豆包、微信、网易3家热门语音输入法，哪款才是夯中之夯？-c8a986db60.md"
+        }
+      ]
+    },
+    {
+      "account": "郭震AI",
+      "username": "gh_ce69fa698e90",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 3,
+      "failed": 1,
+      "directory": "raw/article/郭震AI/雷达-2026-11-19",
+      "added_articles": [
+        {
+          "id": "2247526200:1",
+          "title": "实测腾讯混元 Hy4 flash：同一批活换着模型跑，我算了一笔速度和成本的账",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247526200&idx=1&sn=3ce2a88d3b4714bbca6b6f8297be4f88",
+          "published": "2026-11-17 21:48",
+          "raw_path": "raw/article/郭震AI/雷达-2026-11-19/实测腾讯混元 Hy4 flash：同一批活换着模型跑，我算了一笔速度和成本的账-2485bd80bd.md"
+        }
+      ]
+    },
+    {
+      "account": "西羊石AI视频",
+      "username": "gh_f5c1e588b297",
+      "fetched": 5,
+      "added": 2,
+      "skipped_existing": 2,
+      "failed": 1,
+      "directory": "raw/article/西羊石AI视频/雷达-2026-11-19",
+      "added_articles": [
+        {
+          "id": "2247546362:1",
+          "title": "直出8K！Kling Image 4.0 实测，可灵图像模型这次真能上桌吃饭了",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247546362&idx=1&sn=75fb6e3fa29ee45a170a4441352a3fa5",
+          "published": "2026-11-18 08:00",
+          "raw_path": "raw/article/西羊石AI视频/雷达-2026-11-19/直出8K！Kling Image 4.0 实测，可灵图像模型这次真能上桌吃饭了-60ac6f654f.md"
+        },
+        {
+          "id": "2247545850:1",
+          "title": "花几千块死磕Seedance 2.5 flash：2.0的价格打出2.5的效果！（附10种硬核玩法）",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247545850&idx=1&sn=e4ab9570d07fd98fb3966fe2b0ecd010",
+          "published": "2026-11-16 17:16",
+          "raw_path": "raw/article/西羊石AI视频/雷达-2026-11-19/花几千块死磕Seedance 2.5 flash：2.0的价格打出2.5的效果！（附10种硬核玩法）-91f9a67ddc.md"
+        }
+      ]
+    }
+  ]
+}

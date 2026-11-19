@@ -3,9 +3,9 @@ title: 小林coding文章写法拆解
 type: topic
 tags: [公众号, 对标拆解, 小林coding]
 status: 进行中
-sources: ["raw/article/小林coding/WorkBuddy拿下双榜第一！腾讯这次把Harness玩明白了.md", "raw/article/小林coding/腾讯 WorkBuddy 重大更新来了，夯爆了！.md", "raw/article/小林coding/DeepSeek Harness发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Loop Engineering 已死，Graph Engineering 永生.md", "raw/article/小林coding/我反问面试官：“你知道Codex记忆机制是怎么实现的吗？”，他：“不知道”，我：“我教你，我看过源码”.md", "raw/article/小林coding/梁圣杀回来了！DeepSeek新模型发布，爆肝实测一天，性价比杀穿全场.md", "raw/article/小林coding/Gemini 4 Argon 震撼上线！拳打Opus 5.5，脚踢GPT-6 Astra，再也不是哈基米了。.md", "raw/article/小林coding/GLM-5.3发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Qwen3.8-Flash发布，新斩杀线！熬夜爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/面试官皱眉：“你看过 Claude Opus 5 系统提示词吗？”，我笑了：“刚看过，需要向我请教什么？”，他：“来，开始你的表演”.md", "raw/article/小林coding/雷达-2026-10-27/实测 Kimi K3.1 Pro，依旧是国模一哥，但有点想吐槽！-d89a494af3.md", "raw/article/小林coding/雷达-2026-10-28/豆包工作太好用了，造出来的重力实验室，颠覆了一整代人的物理课。-b3dbe36acc.md", "raw/article/小林coding/雷达-2026-10-29/用了WorkBuddy这个神级插件，我彻底解放双手了-50aad97374.md", "raw/article/小林coding/雷达-2026-11-01/Anthropic直接掀桌：Code Review不再留给人-0844cd6d54.md", "raw/article/小林coding/雷达-2026-11-01/淘汰Java岗，中国又一新兴岗位崛起！这将是程序员未来10年最好的方向。-0c8f44d39a.md", "raw/article/小林coding/雷达-2026-11-01/Opus 5.5 太烧 Token？可能是你的提示词在拖后腿-392246c3e2.md", "raw/article/小林coding/雷达-2026-11-01/10亿Token免费薅！纯血国产模型杀到，跑Claude Code实测真香-351737976e.md", "raw/article/小林coding/雷达-2026-11-14/Anthropic开源神级项目，专治黑心AI中转站！-1449bc4845.md", "raw/article/小林coding/雷达-2026-11-14/工资到账119587.68元，爱你字节！-d75da9f44e.md", "raw/article/小林coding/雷达-2026-11-16/Gemini 4 Hydrogen首批实测来了！谷歌把速度卷疯了，真不给同行留活路-d1323532e4.md"]
+sources: ["raw/article/小林coding/WorkBuddy拿下双榜第一！腾讯这次把Harness玩明白了.md", "raw/article/小林coding/腾讯 WorkBuddy 重大更新来了，夯爆了！.md", "raw/article/小林coding/DeepSeek Harness发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Loop Engineering 已死，Graph Engineering 永生.md", "raw/article/小林coding/我反问面试官：“你知道Codex记忆机制是怎么实现的吗？”，他：“不知道”，我：“我教你，我看过源码”.md", "raw/article/小林coding/梁圣杀回来了！DeepSeek新模型发布，爆肝实测一天，性价比杀穿全场.md", "raw/article/小林coding/Gemini 4 Argon 震撼上线！拳打Opus 5.5，脚踢GPT-6 Astra，再也不是哈基米了。.md", "raw/article/小林coding/GLM-5.3发布，爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/Qwen3.8-Flash发布，新斩杀线！熬夜爆肝实测一天，夯爆了还是拉完了？.md", "raw/article/小林coding/面试官皱眉：“你看过 Claude Opus 5 系统提示词吗？”，我笑了：“刚看过，需要向我请教什么？”，他：“来，开始你的表演”.md", "raw/article/小林coding/雷达-2026-10-27/实测 Kimi K3.1 Pro，依旧是国模一哥，但有点想吐槽！-d89a494af3.md", "raw/article/小林coding/雷达-2026-10-28/豆包工作太好用了，造出来的重力实验室，颠覆了一整代人的物理课。-b3dbe36acc.md", "raw/article/小林coding/雷达-2026-10-29/用了WorkBuddy这个神级插件，我彻底解放双手了-50aad97374.md", "raw/article/小林coding/雷达-2026-11-01/Anthropic直接掀桌：Code Review不再留给人-0844cd6d54.md", "raw/article/小林coding/雷达-2026-11-01/淘汰Java岗，中国又一新兴岗位崛起！这将是程序员未来10年最好的方向。-0c8f44d39a.md", "raw/article/小林coding/雷达-2026-11-01/Opus 5.5 太烧 Token？可能是你的提示词在拖后腿-392246c3e2.md", "raw/article/小林coding/雷达-2026-11-01/10亿Token免费薅！纯血国产模型杀到，跑Claude Code实测真香-351737976e.md", "raw/article/小林coding/雷达-2026-11-14/Anthropic开源神级项目，专治黑心AI中转站！-1449bc4845.md", "raw/article/小林coding/雷达-2026-11-14/工资到账119587.68元，爱你字节！-d75da9f44e.md", "raw/article/小林coding/雷达-2026-11-16/Gemini 4 Hydrogen首批实测来了！谷歌把速度卷疯了，真不给同行留活路-d1323532e4.md", "raw/article/小林coding/雷达-2026-11-19/GPT-6.2 全量上线！首批实测来了，结果好失望啊。。。-1b7470283c.md"]
 created: 2026-10-23
-updated: 2026-11-16
+updated: 2026-11-19
 ---
 
 # 小林coding文章写法拆解
@@ -230,3 +230,13 @@ Fable篇不是单纯发布转述：有自己设计的同题委托与具体制作
 新增写法是“逐题给计时与具体观感—暴露可玩性故障—说明对照集合改变—把审美与信息直达分开—总结后留一题互动”。卡丁车首轮3分钟、截图反馈后另1分钟修复，不能写首轮即能玩；P48移除Sol后，后续仅Hydrogen／Terra，不是全程三模型横评。鱼缸Hydrogen8分钟、Terra7分多，动画两例为9对约5分钟、26对6分钟，“快”和“大部分3—9分钟”不能抹掉慢例及前端劣势。
 
 寻宠主页功能直达不等于审美胜出，后台是模拟需求不是生产故障；科普动画没有儿童注意力或学习效果验证。模型原生视频能力、完整费用、统一档位／计时起止与重试未证；未见明确本文付费合作披露，合作未知，无传播基线，不由标题或对照结构推传播因果。可迁移动作与自己的五要素待实操方向见source；概括案例卡存`output/ai-wechat-methodology/雷达-2026-11-16/slice-li-lin.json`，角度和步骤留空，不认领为本账号测试或读者效果。
+
+## 雷达增量入口（2026-11-19）
+
+本轮本号仅新增1篇，深拆1、复用0、排除0；完整通读HTML可提取正文P1—P104，媒体、声音、外链、代码和执行日志未核看，未联网、运行产品或原文指令。原题、mid=2247566537与油画／清明图内容核重未见同作品旧source；题目沿用不是整篇再发，历史来源、创建日期、编号与统计保留。
+
+- [[sources/小林GPT6.2视觉代码对照与过程验收文章拆解|GPT-6.2 全量上线！首批实测来了，结果好失望啊。。。]]；2026-11-18 19:56；实操测评：视觉代码任务的细节、运动、过程与覆盖范围分别怎样。新增raw：`raw/article/小林coding/雷达-2026-11-19/GPT-6.2 全量上线！首批实测来了，结果好失望啊。。。-1b7470283c.md`。
+
+P6与逐例操作支持本轮新Astra、Opus为作者亲测自述，但未测发布介绍里的Sol。旧Fable锦鲤依既有source仍是朋友受托运行，本篇简称“实测”不改变身份；不同参照集合、工具和素材不构成严格统一横评。可迁移动作为“同题沿用但注明证据身份—从终图追查过程—逐轴给判断”；保留新Astra鹈鹕和建模正例，也保留鱼转弯、揭底图式油画、清明图仅虹桥／静态问题，未见修复不编通过。
+
+模型名称、发布、榜单分数均按原文主张／转述；厂商科研／编程投入和IPO动机是作者解释／猜测。约1小时是写实鹈鹕例、10分钟是油画播放时长，不能混成速度；80%与20%是不同任务集的周额度份额，不是受控Token降本。未见本文明确付费／赠额／佣金披露，合作未知；没有传播基线和本账号读者效果。自己的方向待实操：用原创需求与公开可用代码先冻结版本、工具与逐笔验收，留全提示、代码、轨迹、原速视频、全轮返工和费用。概括案例卡见`output/ai-wechat-methodology/雷达-2026-11-19/slice-lu-lin-karl.json`，测试角度、步骤留人填写，旧Fable不重复计新测。

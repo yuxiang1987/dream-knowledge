@@ -1,0 +1,10 @@
+{
+  "result": "PASS",
+  "covered": 9,
+  "deep": 9,
+  "excluded": 0,
+  "reused": 0,
+  "case_cards": 9,
+  "preserved_raw_files": 591,
+  "scope": "Offline coverage, hashes, exact anchors, source ownership, author/index navigation, case cards and final report; not product or reader-effect verification."
+}

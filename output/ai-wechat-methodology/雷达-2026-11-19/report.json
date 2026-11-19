@@ -1,0 +1,255 @@
+{
+  "batch": "output/ai-wechat-methodology/雷达-2026-11-19",
+  "stats_dir": "output/ai-wechat-methodology/雷达-2026-11-19/stats-2026-11-19",
+  "baseline": [
+    {
+      "account": "卡尔的AI沃茨",
+      "n": 1,
+      "median": 8704,
+      "min": 8704,
+      "max": 8704,
+      "median_like": 139,
+      "median_share": 874,
+      "median_comment": 31
+    },
+    {
+      "account": "苍何",
+      "n": 1,
+      "median": 16376,
+      "min": 16376,
+      "max": 16376,
+      "median_like": 32,
+      "median_share": 394,
+      "median_comment": 48
+    },
+    {
+      "account": "沉默王二",
+      "n": 1,
+      "median": 4171,
+      "min": 4171,
+      "max": 4171,
+      "median_like": 9,
+      "median_share": 95,
+      "median_comment": 10
+    },
+    {
+      "account": "郭震AI",
+      "n": 1,
+      "median": 3058,
+      "min": 3058,
+      "max": 3058,
+      "median_like": 15,
+      "median_share": 54,
+      "median_comment": 8
+    },
+    {
+      "account": "西羊石AI视频",
+      "n": 1,
+      "median": 5124,
+      "min": 5124,
+      "max": 5124,
+      "median_like": 23,
+      "median_share": 170,
+      "median_comment": 18
+    }
+  ],
+  "anomalies": [],
+  "event_clusters": [
+    {
+      "object": "Hy4 flash",
+      "articles": 2,
+      "accounts": [
+        "沉默王二",
+        "郭震AI"
+      ],
+      "span_days": 1,
+      "from": "2026-11-17",
+      "to": "2026-11-18"
+    }
+  ],
+  "raw_without_source": [
+    "raw/article/lurenjiaTM/实测OiiOii最新Skill，这套电商组合堪称双十一王炸！.md",
+    "raw/article/lurenjiaTM/真正的双11来了！天猫预售居然免定金！.md",
+    "raw/article/西羊石AI视频/雷达-2026-11-16/卧槽，王者荣耀联名 LibTV 搞大事！这波 AI 视频大赛含金量拉满了-fd633b8192.md",
+    "raw/article/小林coding/雷达-2026-11-01/Anthropic直接掀桌：Code Review不再留给人-0844cd6d54.md",
+    "raw/article/小林coding/雷达-2026-11-01/淘汰Java岗，中国又一新兴岗位崛起！这将是程序员未来10年最好的方向。-0c8f44d39a.md",
+    "raw/article/小林coding/雷达-2026-11-02/震撼，DeepSeek开源超级 Agent 架构！-73e4b9bcff.md",
+    "raw/article/小林coding/雷达-2026-11-11/Anthropic直接劝退：慎用子 Agent！-e97495c88b.md",
+    "raw/article/小林coding/雷达-2026-11-13/100,000,000 Token 免费薅！爽玩 DeepSeek V4.1 Flash、GLM-5.3 ！-a2e6be742b.md",
+    "raw/article/小林coding/雷达-2026-11-14/Anthropic开源神级项目，专治黑心AI中转站！-1449bc4845.md",
+    "raw/article/小林coding/雷达-2026-11-14/工资到账119587.68元，爱你字节！-d75da9f44e.md",
+    "raw/article/卡尔的AI沃茨/雷达-2026-11-13/一口气看懂黄仁勋辞职的所有瓜！比奥特曼两年前被免职还刺激-3291abd62b.md"
+  ],
+  "case_candidates": [
+    {
+      "article": "腾讯这波上大分，Hy4 flash值得你猛蹬。",
+      "models": [
+        "WorkBuddy",
+        "DeepSeek"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 0
+      },
+      "raw_path": "raw/article/chenmowanger/雷达-2026-11-19/腾讯这波上大分，Hy4 flash值得你猛蹬。-329a97c0e7.md",
+      "source_page": "wiki/sources/沉默王二Hy4Flash首轮横评与增量验收文章拆解.md"
+    },
+    {
+      "article": "网易来做慈善了，此等神仙AI工具居然永久免费？",
+      "models": [
+        "WorkBuddy",
+        "Claude",
+        "Codex",
+        "豆包"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 2
+      },
+      "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-19/网易来做慈善了，此等神仙AI工具居然永久免费？-0c170f2d37.md",
+      "source_page": "wiki/sources/路人甲TM_叭哥说场景整理与语义保真.md"
+    },
+    {
+      "article": "我把监控全网免费Token的网站覆盖到了图像和视频类，今天上线",
+      "models": [
+        "Claude",
+        "Gemini",
+        "Opus",
+        "GPT"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 2,
+        "step_hits": 0
+      },
+      "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-19/我把监控全网免费Token的网站覆盖到了图像和视频类，今天上线-1d7ae91aab.md",
+      "source_page": "wiki/sources/卡尔免费额度分层与网页渲染改造文章拆解.md"
+    },
+    {
+      "article": "GPT-6.2 全量上线！首批实测来了，结果好失望啊。。。",
+      "models": [
+        "Claude",
+        "Codex",
+        "Opus",
+        "GPT"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 0
+      },
+      "raw_path": "raw/article/小林coding/雷达-2026-11-19/GPT-6.2 全量上线！首批实测来了，结果好失望啊。。。-1b7470283c.md",
+      "source_page": "wiki/sources/小林GPT6.2视觉代码对照与过程验收文章拆解.md"
+    },
+    {
+      "article": "豆包、微信、网易3家热门语音输入法，哪款才是夯中之夯？",
+      "models": [
+        "Codex",
+        "豆包"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 0
+      },
+      "raw_path": "raw/article/洛洛AI说/雷达-2026-11-19/豆包、微信、网易3家热门语音输入法，哪款才是夯中之夯？-c8a986db60.md",
+      "source_page": "wiki/sources/洛洛三款语音输入五场景与返工边界文章拆解.md"
+    },
+    {
+      "article": "直出8K！Kling Image 4.0 实测，可灵图像模型这次真能上桌吃饭了",
+      "models": [
+        "Nano Banana",
+        "GPT",
+        "可灵"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 5,
+        "step_hits": 2
+      },
+      "raw_path": "raw/article/西羊石AI视频/雷达-2026-11-19/直出8K！Kling Image 4.0 实测，可灵图像模型这次真能上桌吃饭了-60ac6f654f.md",
+      "source_page": "wiki/sources/西羊石KlingImage四版组图与文字验收文章拆解.md"
+    },
+    {
+      "article": "花几千块死磕Seedance 2.5 flash：2.0的价格打出2.5的效果！（附10种硬核玩法）",
+      "models": [
+        "Seedance",
+        "即梦"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 0
+      },
+      "raw_path": "raw/article/西羊石AI视频/雷达-2026-11-19/花几千块死磕Seedance 2.5 flash：2.0的价格打出2.5的效果！（附10种硬核玩法）-91f9a67ddc.md",
+      "source_page": "wiki/sources/西羊石Flash十场景对照与参考分工文章拆解.md"
+    },
+    {
+      "article": "实测腾讯混元 Hy4 flash：同一批活换着模型跑，我算了一笔速度和成本的账",
+      "models": [
+        "WorkBuddy",
+        "DeepSeek",
+        "Claude"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 6,
+        "step_hits": 0
+      },
+      "raw_path": "raw/article/郭震AI/雷达-2026-11-19/实测腾讯混元 Hy4 flash：同一批活换着模型跑，我算了一笔速度和成本的账-2485bd80bd.md",
+      "source_page": "wiki/sources/郭震Hy4Flash同任务计时与标价折算文章拆解.md"
+    }
+  ],
+  "median_by_account": {
+    "卡尔的AI沃茨": 8704,
+    "苍何": 16376,
+    "沉默王二": 4171,
+    "郭震AI": 3058,
+    "西羊石AI视频": 5124
+  },
+  "analysis_scope": {
+    "covered": 9,
+    "deep": 9,
+    "excluded": 0,
+    "reused": 0,
+    "case_cards": 9,
+    "coverage_file": "coverage.json",
+    "case_candidates_limit": "8条为词表启发式线索，非实际卡数；人工逐篇阅读确认9篇均有具体实操自述，最终9张卡见coverage.json及AI写作案例库。",
+    "pending_limit": "raw_without_source为全库11篇历史资料，不是本轮遗漏；含已按题材登记排除和当前用户工作区资料，本轮不扩展处理。",
+    "baseline_limit": "5个账号各仅1篇有效互动快照，不是日常基线；无传播因果或读者效果验证。"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-19",
+  "accounts_file": ".agents/skills/gzh-benchmark-radar/references/accounts.example.json",
+  "limit_per_account": 5,
+  "daily_invocations": 1,
+  "paid_request_attempts": 1,
+  "collection_result": {"added": 9, "skipped_existing": 29, "failed": 7},
+  "interaction_result": {"success": 5, "failed": 4},
+  "failure_limit": "正文失败仅保存账号汇总，原脚本没有记录失败文章身份和具体原因；不猜测，不补采。互动失败为3次HTTP 400及1次连接失败或超时。",
+  "retry_control": "通过runpy加载用户指定ingest.py，在调用相同main参数前将Client.post.__defaults__设为(1,)并断言；不修改Skill文件，不补采重试。",
+  "credential_policy": "仅由原脚本读取TIKHUB_API_KEY或.local/tikhub.json，不输出或复制凭据。",
+  "existing_worktree_policy": "保留执行前已有Skill、raw及日志改动，仅提交本轮新增及本轮写入的知识页和日志行。",
+  "raw_preservation": "preexisting-raw-sha256.json记录运行前全部现有raw文件指纹，收尾离线核验。",
+  "scope": "一次daily后，对fetch-summary中added_articles逐篇筛选并增量入库；不写公众号正文、不发布、不运行原文命令。"
+}
