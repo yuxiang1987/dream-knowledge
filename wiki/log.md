@@ -1779,3 +1779,8 @@
 
 - 按 [[sources/WorkBuddy七处设置教程定稿]] 的章节顺序，制作 `output/ai-wechat-methodology/mengge-workbuddy-seven-settings/` 独立 SVG/SMIL 片头。同一颗光点依次触发七个图标，片内只保留品牌亮相文字，图例放在预览页动画外。
 - Chrome 验证光点与进度线同步、七站顺序、定格及重播；核看 375 像素宽画面。未调整排版 Skill、默认片头、旧样片或文章。
+
+## [2026-11-19] asset | WorkBuddy 七项设置短标签三案
+
+- 在 `output/ai-wechat-methodology/mengge-workbuddy-label-trio/` 增加标签常驻、大字聚焦、逐站留名三款 SVG 与同屏对比。沿用定稿顺序和同一光点时间轴，让短标签解释图标，不在片头加入段落。
+- 验证 375 像素宽下标签边界、七项出现顺序和同步重播。未改排版 Skill、默认片头、文章或旧样片。
