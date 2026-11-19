@@ -1764,3 +1764,8 @@
 
 - 在 `output/ai-wechat-methodology/mengge-workbuddy-svg-trio/` 交付三套独立 SVG/SMIL：回复结论先行、指令卡入槽、任务进度接力。沿用自有像素人物并转为矢量路径；统一品牌转场，场景分别用压缩回弹、位移叠加旋转和路径描边。三案均为示意，不是产品录屏。
 - Chrome 核看同屏预览与约 375 像素宽的时间定格；浏览器测试验证补间、交接、回环与播放控制。未验证公众号编辑器或手机微信；未修改排版 Skill、默认 GIF 或原文。
+
+## [2026-11-19] asset | WorkBuddy 存储路径专题片头三案
+
+- 以 [[topics/WorkBuddy存储迁移选题调研]] 的独立文章方向制作三款原生 SVG/SMIL：磁盘扫描、新旧分流、搬后验收。产物和同屏预览位于 `output/ai-wechat-methodology/mengge-workbuddy-storage-trio/`。
+- 区分默认工作空间与既有后台数据迁移；片头是概念示意，不承诺释放空间或已迁移成功。新增 Chrome 动效与独立文件验收，不改原文、旧样片、排版 Skill 或默认片头。
