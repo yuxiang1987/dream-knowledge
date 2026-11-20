@@ -5,7 +5,7 @@ tags: [公众号, 对标拆解, 洛洛AI说]
 status: 进行中
 sources: ["raw/article/洛洛AI说/GPT-6：快速上手+横评案例+省Token指南（一篇讲清）.md", "raw/article/洛洛AI说/MiniMax亲自下场做视频Agent，一句话手搓商业大片，这5个场景实力很强.md", "raw/article/洛洛AI说/OiiOii 把 MiniMax H3 打到 0.1 元秒，一天能做8集3D动漫（附全流程 ）.md", "raw/article/洛洛AI说/2分钱秒，1分钟做1集短剧，OiiOii × Fal H3 Max 做视频太太太快了！（附全流程）.md", "raw/article/洛洛AI说/Opus 5.5 视频刷屏外网，10个场景知晓能力上限.md", "raw/article/洛洛AI说/终于找到适合做孕期管理的AI助理，还免费！-a524a52c-dc3919423e.md", "raw/article/洛洛AI说/AI 长剧的春天来了，RunningHub AIGC 大赛116 部入围作品全网曝光破10亿-344e3b12-1b67446857.md", "raw/article/洛洛AI说/Fotor Agent能做带MG动画的商业视频和自媒体视频，效果顶还便宜-3b0d0e97-d31dcc498d.md", "raw/article/洛洛AI说/Opus 5.5 视频刷屏外网，10个场景知晓能力上限-28efd240-838cd3fa9d.md", "raw/article/洛洛AI说/从电商选品到引流，豆包Seed-2.1-pro升级后全给我包了-2a05cce6-2c337a0b57.md", "raw/article/洛洛AI说/GPT-6：快速上手+横评案例+省Token指南（一篇讲清）-7517842e-e9b745697b.md", "raw/article/洛洛AI说/Running Hub发起全球首个AIGC长片大赛，单项奖金高达百万-9293782e-8de5ad1c22.md", "raw/article/洛洛AI说/2分钱_秒，1分钟做1集短剧，OiiOii × Fal H3 Max 做视频太太太快了！（附全流程）-4f0a7a42-585b145047.md", "raw/article/洛洛AI说/豆包只会聊天？用上豆包工作，我效率直接炸了-06098661-d0e77f02df.md", "raw/article/洛洛AI说/10分钟复刻大片经典动作，LibTV这两个新功能太顶了！-bafe602a-a592618d54.md", "raw/article/洛洛AI说/终于找到最懂设计师 AI 了，用过去1_10时间搞定宠物品牌全案（保姆级教程）-9fdca859-132d281230.md", "raw/article/洛洛AI说/实测 Kimi K3、DeepSeek‑V4‑Pro、GLM‑5.3 三款国产顶流，DeepSeek竟是倒数第一？-97ffbfa7-3159cd8d6e.md", "raw/article/洛洛AI说/爆火的《八仙》AI漫剧赛道，我用 Seedance2.5 特调版闯进去了！（附全流程）-67de303a-d527a90cf2.md", "raw/article/洛洛AI说/别只盯着 Seedance2.5！批量做商业视频该选谁？（顶流视频模型横评）-720cf535-7b3fe8a2e4.md", "raw/article/洛洛AI说/MiniMax亲自下场做视频Agent，一句话手搓商业大片，这5个场景实力很强-266502ef-9016ebd9a2.md", "raw/article/洛洛AI说/实测 Sd2.5｜普通人也能AI造星了：拍戏、打歌、做账号再接代言（附全流程）-fa235315-8139a0c463.md", "raw/article/洛洛AI说/实测全网最低价！在RunningHub用满血Sd2.5，0基础1天搞定顶级国风漫剧（保姆级教程）-26612e0c-5289adda86.md", "raw/article/洛洛AI说/OiiOii 把 MiniMax H3 打到 0.1 元_秒，一天能做8集3D动漫（附全流程 ）-39233b2b-037d4b1403.md", "raw/article/洛洛AI说/MiniMax H3 杀疯了，能力对标 Seedance 2.5，“白菜价”0.23 元_秒-cd114e68-fbc1bda4a2.md", "raw/article/洛洛AI说/Agent卷到视频生成领域了，LibTV支持100+Skill ！-c7ed96e6-e5b3bf6faf.md", "raw/article/洛洛AI说/7月最新汇总：国内外Token羊毛大合集（建议收藏）！-758b409a-23071880e1.md", "raw/article/洛洛AI说/告别千篇一律的AI脸，这或许才是短剧创作者的第一选择-a49ed849-aa89066ee6.md", "raw/article/洛洛AI说/横评4大顶流模型，哪个更适合办公室白领？-b9c77a30-f126614475.md", "raw/article/洛洛AI说/万亿智谱，实力如何？ GLM-5.2 横评 Claude Opus 4.8、GPT-5.5 、 DeepSeek V4 pro、Kimi 2.7 Code-a3c29b5d-a45dfdf50e.md", "raw/article/洛洛AI说/6月额度翻倍！连肝24小时的 Kimi Work 帮了我大忙-1f6c0f13-5cc5935b9a.md", "raw/article/洛洛AI说/百度办公Agent实测：成本降了75%，能力依旧在线-81a8766f-51a53957e1.md", "raw/article/洛洛AI说/实测办公小浣熊桌面端2.0，打工人必备神器！-90df86e2-865ee3c536.md", "raw/article/洛洛AI说/AI 看得越多越焦虑？6 本书 + 3 门课，帮你把认知一次补齐-114d15b7-3b4b6a97c5.md", "raw/article/洛洛AI说/国内六大顶流大模型，谁是第一？DeepSeek竟成倒数（万字长文）-da46df22-20ea21009c.md", "raw/article/洛洛AI说/马斯克、哈萨比斯都绕不开的15部AI影片，看完聊AI不再外行（建议收藏）-25011f2b-ce5021fe93.md", "raw/article/洛洛AI说/雷达-2026-10-27/我花了4亿token横测K3.1，开源大模王仍需加勉-3312cb0085.md", "raw/article/洛洛AI说/雷达-2026-11-14/WorkBuddy发福利了，双十一薅羊毛的3种正确姿势-430b44894a.md", "raw/article/洛洛AI说/雷达-2026-11-19/豆包、微信、网易3家热门语音输入法，哪款才是夯中之夯？-c8a986db60.md"]
 created: 2026-10-23
-updated: 2026-11-19
+updated: 2026-11-20
 ---
 
 # 洛洛AI说文章写法拆解
@@ -171,3 +171,10 @@ OiiOii两篇的0.1元/秒与0.02元/秒对应不同时间、版本、分辨率�
 正文以编程／重办公任务引出网易叭哥说的结构化、润色、词库和翻译，结尾免费及下载建议为可见入口；未见明确付费／佣金披露，合作未知。不把正向倾向当付款，不推传播因果；邮件“松手直接发送”不免除事实、收件人和意图审核。
 
 **待实操**：目标读者为语音写AI需求与办公草稿的创作者，用自己脱敏口述／改口清单／模拟邮件及双金标准；第一步冻结设备、版本、开关、词库和计时起止，在草稿区留三款同源完整输出。观察否定词、术语、步骤、误删、分段、插入和修改工时；需授权音频、完整录屏输出、错误标注、复试、条款与权限记录。翻译单列语言范围和审校，不直接自动发送。交1张作者设计参考卡，测试角度／步骤留空，未代测、未写正文、未发布，不声明本账号读者效果。
+
+## 雷达增量入口（2026-11-20）
+
+- [[sources/洛洛Pavo白模返工与镜头可控文章拆解]]：直出和白模都可能错，重做预演、重新渲染及剪辑裁除分别记。
+- [[sources/洛洛小浣熊活动物料母版与跨端返工文章拆解]]：以活动首屏作母版，数字重叠修订和移动端改稿是可核的作者自述线索。
+
+2 篇入库；媒体、产品、文件及优惠资格未核。案例见 [[topics/AI写作案例库]]。

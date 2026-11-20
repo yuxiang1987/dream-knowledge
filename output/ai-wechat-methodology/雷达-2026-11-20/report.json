@@ -1,0 +1,251 @@
+{
+  "batch": "output/ai-wechat-methodology/雷达-2026-11-20",
+  "stats_dir": "output/ai-wechat-methodology/雷达-2026-11-20/stats-2026-11-20",
+  "baseline": [
+    {
+      "account": "路人甲TM",
+      "n": 2,
+      "median": 6470,
+      "min": 2232,
+      "max": 10709,
+      "median_like": 40,
+      "median_share": 170,
+      "median_comment": 8
+    },
+    {
+      "account": "小林coding",
+      "n": 1,
+      "median": 9309,
+      "min": 9309,
+      "max": 9309,
+      "median_like": 20,
+      "median_share": 329,
+      "median_comment": 22
+    },
+    {
+      "account": "沉默王二",
+      "n": 2,
+      "median": 15958,
+      "min": 6652,
+      "max": 25264,
+      "median_like": 13,
+      "median_share": 273,
+      "median_comment": 38
+    },
+    {
+      "account": "洛洛AI说",
+      "n": 2,
+      "median": 4734,
+      "min": 4666,
+      "max": 4803,
+      "median_like": 118,
+      "median_share": 191,
+      "median_comment": 34
+    },
+    {
+      "account": "郭震AI",
+      "n": 1,
+      "median": 6307,
+      "min": 6307,
+      "max": 6307,
+      "median_like": 21,
+      "median_share": 180,
+      "median_comment": 12
+    },
+    {
+      "account": "西羊石AI视频",
+      "n": 1,
+      "median": 9645,
+      "min": 9645,
+      "max": 9645,
+      "median_like": 35,
+      "median_share": 665,
+      "median_comment": 10
+    }
+  ],
+  "anomalies": [],
+  "event_clusters": [],
+  "raw_without_source": [
+    "raw/article/lurenjiaTM/实测OiiOii最新Skill，这套电商组合堪称双十一王炸！.md",
+    "raw/article/lurenjiaTM/真正的双11来了！天猫预售居然免定金！.md",
+    "raw/article/西羊石AI视频/雷达-2026-11-16/卧槽，王者荣耀联名 LibTV 搞大事！这波 AI 视频大赛含金量拉满了-fd633b8192.md",
+    "raw/article/小林coding/雷达-2026-11-01/Anthropic直接掀桌：Code Review不再留给人-0844cd6d54.md",
+    "raw/article/小林coding/雷达-2026-11-01/淘汰Java岗，中国又一新兴岗位崛起！这将是程序员未来10年最好的方向。-0c8f44d39a.md",
+    "raw/article/小林coding/雷达-2026-11-02/震撼，DeepSeek开源超级 Agent 架构！-73e4b9bcff.md",
+    "raw/article/小林coding/雷达-2026-11-11/Anthropic直接劝退：慎用子 Agent！-e97495c88b.md",
+    "raw/article/小林coding/雷达-2026-11-13/100,000,000 Token 免费薅！爽玩 DeepSeek V4.1 Flash、GLM-5.3 ！-a2e6be742b.md",
+    "raw/article/小林coding/雷达-2026-11-14/Anthropic开源神级项目，专治黑心AI中转站！-1449bc4845.md",
+    "raw/article/小林coding/雷达-2026-11-14/工资到账119587.68元，爱你字节！-d75da9f44e.md",
+    "raw/article/卡尔的AI沃茨/雷达-2026-11-13/一口气看懂黄仁勋辞职的所有瓜！比奥特曼两年前被免职还刺激-3291abd62b.md"
+  ],
+  "case_candidates": [
+    {
+      "article": "Gemini 牛啊，这下给我用爽了。",
+      "models": [
+        "Gemini",
+        "Claude",
+        "Opus",
+        "GPT"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 5,
+        "step_hits": 0
+      },
+      "raw_path": "raw/article/chenmowanger/雷达-2026-11-20/Gemini 牛啊，这下给我用爽了。-e9d6ba35fe.md",
+      "source_page": "wiki/sources/沉默王二GeminiNeon演示身份与离线实验室文章拆解.md"
+    },
+    {
+      "article": "别折腾了，千问办公已经实现模型自由了",
+      "models": [
+        "DeepSeek",
+        "MiniMax",
+        "Kimi",
+        "Qwen"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 4,
+        "step_hits": 2
+      },
+      "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-20/别折腾了，千问办公已经实现模型自由了-70f4c71a45.md",
+      "source_page": "wiki/sources/路人甲TM_千问办公首轮交付与按用途选模型.md"
+    },
+    {
+      "article": "手把手教你用千问办公接管浏览器，把电商选品和算账的活全交出去",
+      "models": [],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 2
+      },
+      "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-20/手把手教你用千问办公接管浏览器，把电商选品和算账的活全交出去-4d525a189d.md",
+      "source_page": "wiki/sources/路人甲TM_千问办公浏览器取证与模拟利润.md"
+    },
+    {
+      "article": "Gemini 史上最强模型来了！爆肝实测一天，性价比斩杀 Opus 5.5。",
+      "models": [
+        "Gemini",
+        "Claude",
+        "Codex",
+        "Opus"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 1
+      },
+      "raw_path": "raw/article/小林coding/雷达-2026-11-20/Gemini 史上最强模型来了！爆肝实测一天，性价比斩杀 Opus 5.5。-87a6752bd4.md",
+      "source_page": "wiki/sources/小林GeminiNeon动态验收与工具归因文章拆解.md"
+    },
+    {
+      "article": "用 WorkBuddy + Hy4 flash 做 3D 互动课件（附提示词）",
+      "models": [
+        "WorkBuddy"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 5,
+        "step_hits": 3
+      },
+      "raw_path": "raw/article/摸鱼小李/雷达-2026-11-20/用 WorkBuddy + Hy4 flash 做 3D 互动课件（附提示词）-b737ff9881.md",
+      "source_page": "wiki/sources/摸鱼小李_互动课件蓝图与备课验收.md"
+    },
+    {
+      "article": "AI视频创作不烧心，一套工具搞定全流程",
+      "models": [],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 0
+      },
+      "raw_path": "raw/article/洛洛AI说/雷达-2026-11-20/AI视频创作不烧心，一套工具搞定全流程-96e7c58572.md",
+      "source_page": "wiki/sources/洛洛Pavo白模返工与镜头可控文章拆解.md"
+    },
+    {
+      "article": "免费羊毛来啦！商汤小浣熊搞定全套活动设计交付",
+      "models": [
+        "Qwen"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 2
+      },
+      "raw_path": "raw/article/洛洛AI说/雷达-2026-11-20/免费羊毛来啦！商汤小浣熊搞定全套活动设计交付-c172af20e0.md",
+      "source_page": "wiki/sources/洛洛小浣熊活动物料母版与跨端返工文章拆解.md"
+    },
+    {
+      "article": "别再死磕财报了！用豆包工作金融工作台，给自己配个AI首席研究员，10分钟跑通行业研究",
+      "models": [
+        "豆包"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 2,
+        "step_hits": 1
+      },
+      "raw_path": "raw/article/西羊石AI视频/雷达-2026-11-20/别再死磕财报了！用豆包工作金融工作台，给自己配个AI首席研究员，10分钟跑通行业研究-c468d2499b.md",
+      "source_page": "wiki/sources/西羊石豆包财报取证六步与口径文章拆解.md"
+    },
+    {
+      "article": "豆包工作接入 Kimi、GLM、DeepSeek，我跑了 8 个真实任务，摸清了怎么选最省",
+      "models": [
+        "DeepSeek",
+        "Kimi",
+        "豆包"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 2,
+        "step_hits": 2
+      },
+      "raw_path": "raw/article/郭震AI/雷达-2026-11-20/豆包工作接入 Kimi、GLM、DeepSeek，我跑了 8 个真实任务，摸清了怎么选最省-83cda796b7.md",
+      "source_page": "wiki/sources/郭震豆包工作分档消耗与口径接力文章拆解.md"
+    }
+  ],
+  "median_by_account": {
+    "路人甲TM": 6470,
+    "小林coding": 9309,
+    "沉默王二": 15958,
+    "洛洛AI说": 4734,
+    "郭震AI": 6307,
+    "西羊石AI视频": 9645
+  }
+}

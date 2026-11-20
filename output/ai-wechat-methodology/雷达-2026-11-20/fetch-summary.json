@@ -1,0 +1,172 @@
+{
+  "acquired_at": "2026-11-20T08:55:35+08:00",
+  "accounts": [
+    {
+      "account": "路人甲TM",
+      "username": "gh_d516081071ec",
+      "fetched": 5,
+      "added": 2,
+      "skipped_existing": 3,
+      "failed": 0,
+      "directory": "raw/article/lurenjiaTM/雷达-2026-11-20",
+      "added_articles": [
+        {
+          "id": "2247524691:1",
+          "title": "手把手教你用千问办公接管浏览器，把电商选品和算账的活全交出去",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524691&idx=1&sn=a28f297d1f0adce7272a0e2ba1bdd171",
+          "published": "2026-11-19 21:28",
+          "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-20/手把手教你用千问办公接管浏览器，把电商选品和算账的活全交出去-4d525a189d.md"
+        },
+        {
+          "id": "2247524668:1",
+          "title": "别折腾了，千问办公已经实现模型自由了",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524668&idx=1&sn=d87f95b5898b049a4a5a51a0f18e1657",
+          "published": "2026-11-18 12:50",
+          "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-20/别折腾了，千问办公已经实现模型自由了-70f4c71a45.md"
+        }
+      ]
+    },
+    {
+      "account": "摸鱼小李",
+      "username": "gh_3923025946c5",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/摸鱼小李/雷达-2026-11-20",
+      "added_articles": [
+        {
+          "id": "2247492164:1",
+          "title": "用 WorkBuddy + Hy4 flash 做 3D 互动课件（附提示词）",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247492164&idx=1&sn=c04fe5f084a619d9e1f9b3d8359da187",
+          "published": "2026-11-19 18:07",
+          "raw_path": "raw/article/摸鱼小李/雷达-2026-11-20/用 WorkBuddy + Hy4 flash 做 3D 互动课件（附提示词）-b737ff9881.md"
+        }
+      ]
+    },
+    {
+      "account": "小林coding",
+      "username": "gh_fc46cf2353fc",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/小林coding/雷达-2026-11-20",
+      "added_articles": [
+        {
+          "id": "2247566617:1",
+          "title": "Gemini 史上最强模型来了！爆肝实测一天，性价比斩杀 Opus 5.5。",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247566617&idx=1&sn=a0ff78ad23a956fb1c18765062d0da2f",
+          "published": "2026-11-19 21:46",
+          "raw_path": "raw/article/小林coding/雷达-2026-11-20/Gemini 史上最强模型来了！爆肝实测一天，性价比斩杀 Opus 5.5。-87a6752bd4.md"
+        }
+      ]
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "username": "gh_1421d5e48ca9",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/卡尔的AI沃茨/雷达-2026-11-20",
+      "added_articles": []
+    },
+    {
+      "account": "苍何",
+      "username": "gh_fdb597c42fa4",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/苍何/雷达-2026-11-20",
+      "added_articles": []
+    },
+    {
+      "account": "沉默王二",
+      "username": "gh_f0ee5948865f",
+      "fetched": 5,
+      "added": 2,
+      "skipped_existing": 3,
+      "failed": 0,
+      "directory": "raw/article/chenmowanger/雷达-2026-11-20",
+      "added_articles": [
+        {
+          "id": "2247552045:1",
+          "title": "Gemini 牛啊，这下给我用爽了。",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247552045&idx=1&sn=b3d1d4348b9894d01312cef7139f1af3",
+          "published": "2026-11-19 14:47",
+          "raw_path": "raw/article/chenmowanger/雷达-2026-11-20/Gemini 牛啊，这下给我用爽了。-e9d6ba35fe.md"
+        },
+        {
+          "id": "2247551930:1",
+          "title": "阿里太猛了，Qwen4-Max再次惊艳到我。",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247551930&idx=1&sn=0eaddff7c2937482bb363ab9afffe54c",
+          "published": "2026-11-17 14:39",
+          "raw_path": "raw/article/chenmowanger/雷达-2026-11-20/阿里太猛了，Qwen4-Max再次惊艳到我。-fab0b529eb.md"
+        }
+      ]
+    },
+    {
+      "account": "洛洛AI说",
+      "username": "gh_426cd27710df",
+      "fetched": 5,
+      "added": 2,
+      "skipped_existing": 3,
+      "failed": 0,
+      "directory": "raw/article/洛洛AI说/雷达-2026-11-20",
+      "added_articles": [
+        {
+          "id": "2247489167:1",
+          "title": "AI视频创作不烧心，一套工具搞定全流程",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247489167&idx=1&sn=dbe9036bfe321f0731986dc06ba947c0",
+          "published": "2026-11-17 12:58",
+          "raw_path": "raw/article/洛洛AI说/雷达-2026-11-20/AI视频创作不烧心，一套工具搞定全流程-96e7c58572.md"
+        },
+        {
+          "id": "2247489166:1",
+          "title": "免费羊毛来啦！商汤小浣熊搞定全套活动设计交付",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247489166&idx=1&sn=75b5b219d9e96edf36cfb0fa7aec8382",
+          "published": "2026-11-17 09:20",
+          "raw_path": "raw/article/洛洛AI说/雷达-2026-11-20/免费羊毛来啦！商汤小浣熊搞定全套活动设计交付-c172af20e0.md"
+        }
+      ]
+    },
+    {
+      "account": "郭震AI",
+      "username": "gh_ce69fa698e90",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/郭震AI/雷达-2026-11-20",
+      "added_articles": [
+        {
+          "id": "2247526204:1",
+          "title": "豆包工作接入 Kimi、GLM、DeepSeek，我跑了 8 个真实任务，摸清了怎么选最省",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247526204&idx=1&sn=b067d4fa460511c1ea059bb2765826ec",
+          "published": "2026-11-18 19:48",
+          "raw_path": "raw/article/郭震AI/雷达-2026-11-20/豆包工作接入 Kimi、GLM、DeepSeek，我跑了 8 个真实任务，摸清了怎么选最省-83cda796b7.md"
+        }
+      ]
+    },
+    {
+      "account": "西羊石AI视频",
+      "username": "gh_f5c1e588b297",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/西羊石AI视频/雷达-2026-11-20",
+      "added_articles": [
+        {
+          "id": "2247545878:1",
+          "title": "别再死磕财报了！用豆包工作金融工作台，给自己配个AI首席研究员，10分钟跑通行业研究",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247545878&idx=1&sn=42c45f007779dd162a0fb73705dce905",
+          "published": "2026-11-17 20:56",
+          "raw_path": "raw/article/西羊石AI视频/雷达-2026-11-20/别再死磕财报了！用豆包工作金融工作台，给自己配个AI首席研究员，10分钟跑通行业研究-c468d2499b.md"
+        }
+      ]
+    }
+  ]
+}

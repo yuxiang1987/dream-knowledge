@@ -1,0 +1,262 @@
+[
+  {
+    "account": "路人甲TM",
+    "id": "2247524691:1",
+    "title": "手把手教你用千问办公接管浏览器，把电商选品和算账的活全交出去",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524691&idx=1&sn=a28f297d1f0adce7272a0e2ba1bdd171",
+    "published": "2026-11-19 21:28",
+    "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-20/手把手教你用千问办公接管浏览器，把电商选品和算账的活全交出去-4d525a189d.md",
+    "raw_sha256": "c40ac1a9b50ace6685553c52d18a6654881b9a5175a7358caf6c0bfbdff5e1ba",
+    "body_sha256": "4d525a189d60080f05ab36437e22ffabf86379a0a51fc47712a9d1f8e1460a69",
+    "disposition": "deep",
+    "reason": "有真实榜单取证、条件价与模拟利润步骤，不是产品资讯。",
+    "anchors": [
+      "榜单名字、排名位置和精确到分钟的采集时间",
+      "价格 + 优惠前提条件 + 当前选中规格",
+      "我全部用了自己单独准备的模拟数据来演示",
+      "没有提供的成本先留空并提示我补充，不自动填成零"
+    ],
+    "anchor_blocks": [
+      23,
+      34,
+      46,
+      53
+    ],
+    "source_path": "wiki/sources/路人甲TM_千问办公浏览器取证与模拟利润.md",
+    "author_path": "wiki/topics/路人甲TM文章经营全景.md",
+    "case_card": "案例：同榜规格条件与利润下调（路人甲TM）"
+  },
+  {
+    "account": "路人甲TM",
+    "id": "2247524668:1",
+    "title": "别折腾了，千问办公已经实现模型自由了",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524668&idx=1&sn=d87f95b5898b049a4a5a51a0f18e1657",
+    "published": "2026-11-18 12:50",
+    "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-20/别折腾了，千问办公已经实现模型自由了-70f4c71a45.md",
+    "raw_sha256": "c0004572ad3591756c1f69830be67e2634f1c0ad63705f2aab9eb4be427a5a63",
+    "body_sha256": "70f4c71a45e4a714947cc5132fdd1f10ce06a6f1e17a2d43631f7bbfe0bff7ee",
+    "disposition": "deep",
+    "reason": "有明确首轮三任务十单及分项验收，不是上新转述。",
+    "anchors": [
+      "同一句指令原封不动地发出去，只看第一次交付",
+      "指令要四列，它自己加了个序号列，变成五列",
+      "模型旁边标的身价是单价，不是这份活的账单总价",
+      "链接是一手还是二手、数字要不要复核"
+    ],
+    "anchor_blocks": [
+      13,
+      24,
+      49,
+      79
+    ],
+    "source_path": "wiki/sources/路人甲TM_千问办公首轮交付与按用途选模型.md",
+    "author_path": "wiki/topics/路人甲TM文章经营全景.md",
+    "case_card": "案例：首轮报价计算器边界（路人甲TM）"
+  },
+  {
+    "account": "摸鱼小李",
+    "id": "2247492164:1",
+    "title": "用 WorkBuddy + Hy4 flash 做 3D 互动课件（附提示词）",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247492164&idx=1&sn=c04fe5f084a619d9e1f9b3d8359da187",
+    "published": "2026-11-19 18:07",
+    "raw_path": "raw/article/摸鱼小李/雷达-2026-11-20/用 WorkBuddy + Hy4 flash 做 3D 互动课件（附提示词）-b737ff9881.md",
+    "raw_sha256": "fa900f9913f7873d0a2fcf891104ca7e305c91543e09f4333f72ce5ff6c53d41",
+    "body_sha256": "b737ff9881a83b5de4d7301948ac7519f8a8f1acdc31d1a34742d5fe6756b197",
+    "disposition": "deep",
+    "reason": "有裸跑、3D 资产改版和备课案例，不是仅发模型新闻。",
+    "anchors": [
+      "关掉本地记忆和自建 Skill，只给一份高中化学《甲烷》的教案需求",
+      "这里换成一张图，学员会不会少学到东西",
+      "打开成品从头翻到尾，每个互动都操作一遍",
+      "先问按 72 分排还是补齐到 100 分"
+    ],
+    "anchor_blocks": [
+      9,
+      82,
+      119,
+      733
+    ],
+    "source_path": "wiki/sources/摸鱼小李_互动课件蓝图与备课验收.md",
+    "author_path": "wiki/topics/摸鱼小李文章写法拆解.md",
+    "case_card": "案例：裸跑和换资产的互动课件（摸鱼小李）"
+  },
+  {
+    "account": "小林coding",
+    "id": "2247566617:1",
+    "title": "Gemini 史上最强模型来了！爆肝实测一天，性价比斩杀 Opus 5.5。",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247566617&idx=1&sn=a0ff78ad23a956fb1c18765062d0da2f",
+    "published": "2026-11-19 21:46",
+    "raw_path": "raw/article/小林coding/雷达-2026-11-20/Gemini 史上最强模型来了！爆肝实测一天，性价比斩杀 Opus 5.5。-87a6752bd4.md",
+    "raw_sha256": "ea3ebf048561aea013d340f579c47e856c177794e67ffcf8f9942d049024351b",
+    "body_sha256": "87a6752bd4b2b5d0bda24003db8ab93d9c4309a481fc66be096b57999b20f98a",
+    "disposition": "deep",
+    "reason": "有六场景实操横评；同作者前批 Astra 作是历史比较，不是同作品再发。",
+    "anchors": [
+      "围绕鹈鹕骑车、锦鲤鱼塘、3D《清明上河图》、2D 格斗、3D 解谜和 3D 建模",
+      "GPT-6.2 Astra 画里的人全是定住的",
+      "两边压根不在一条起跑线上",
+      "主角科考船做得有点简陋"
+    ],
+    "anchor_blocks": [
+      10,
+      39,
+      50,
+      73
+    ],
+    "source_path": "wiki/sources/小林GeminiNeon动态验收与工具归因文章拆解.md",
+    "author_path": "wiki/topics/小林coding文章写法拆解.md",
+    "case_card": "案例：把格斗卖相和操作反馈分开（小林coding）"
+  },
+  {
+    "account": "沉默王二",
+    "id": "2247552045:1",
+    "title": "Gemini 牛啊，这下给我用爽了。",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247552045&idx=1&sn=b3d1d4348b9894d01312cef7139f1af3",
+    "published": "2026-11-19 14:47",
+    "raw_path": "raw/article/chenmowanger/雷达-2026-11-20/Gemini 牛啊，这下给我用爽了。-e9d6ba35fe.md",
+    "raw_sha256": "82a4edb440add4d6b6b000ec6bb5ad0e2902d4e7f523adc888a679f2376785ac",
+    "body_sha256": "e9d6ba35fe65ea0576546c2e588b31f4d3f92ff6c960a2ecacf27d17146f4411",
+    "disposition": "deep",
+    "reason": "包含作者自己的离线实验室任务及具体提示，不纯转述；媒体未核，正文未证明验收通过。",
+    "anchors": [
+      "谷歌在官方展示中让 Gemini 4 Neon",
+      "干脆就让 Gemini 4 Neon 从零搭建一座 3D 实验室",
+      "分别截取 4 张关键状态图"
+    ],
+    "anchor_blocks": [
+      19,
+      31,
+      58
+    ],
+    "source_path": "wiki/sources/沉默王二GeminiNeon演示身份与离线实验室文章拆解.md",
+    "author_path": "wiki/topics/沉默王二文章写法拆解.md",
+    "case_card": "案例：离线交互实验室四状态检查（沉默王二）"
+  },
+  {
+    "account": "沉默王二",
+    "id": "2247551930:1",
+    "title": "阿里太猛了，Qwen4-Max再次惊艳到我。",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247551930&idx=1&sn=0eaddff7c2937482bb363ab9afffe54c",
+    "published": "2026-11-17 14:39",
+    "raw_path": "raw/article/chenmowanger/雷达-2026-11-20/阿里太猛了，Qwen4-Max再次惊艳到我。-fab0b529eb.md",
+    "raw_sha256": "a5e423210f3d998c2e7be26ffaf33f2f8dfe6587c772faf96d6388081fa5158a",
+    "body_sha256": "fab0b529eb93a12ee86c80dc8411455625eaf04e4d0c344e56775e603b6711c3",
+    "disposition": "deep",
+    "reason": "有四项作者自述编码案例；露娜是初版，不是上一批既有工程改造。",
+    "anchors": [
+      "也不允许调用外部的生图接口",
+      "需求是我让 Grok bot 整理了一版，然后让 Codex 审查了一版",
+      "给同一套背景换九种滤镜颜色是糊弄不过去的"
+    ],
+    "anchor_blocks": [
+      9,
+      16,
+      43
+    ],
+    "source_path": "wiki/sources/沉默王二Qwen4Max纯代码和需求协作文章拆解.md",
+    "author_path": "wiki/topics/沉默王二文章写法拆解.md",
+    "case_card": "案例：跨画风转场与动作不变量（沉默王二）"
+  },
+  {
+    "account": "洛洛AI说",
+    "id": "2247489167:1",
+    "title": "AI视频创作不烧心，一套工具搞定全流程",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247489167&idx=1&sn=dbe9036bfe321f0731986dc06ba947c0",
+    "published": "2026-11-17 12:58",
+    "raw_path": "raw/article/洛洛AI说/雷达-2026-11-20/AI视频创作不烧心，一套工具搞定全流程-96e7c58572.md",
+    "raw_sha256": "c132ff386e8481c410bc0b3a5f950a65cb43717d0651099b39f2485cf8db7aea",
+    "body_sha256": "96e7c58572a8f8b9fac046dc0e79edb1d6ae0d4bbda92b42d81108c34442e1d4",
+    "disposition": "deep",
+    "reason": "有作者同镜失败、修订与剪辑，不只是功能新闻。",
+    "anchors": [
+      "书盾的位置出现错误，跑到了晚萤和守阁人中间",
+      "我修改提示词，重新调整白模",
+      "把异常片段裁掉，只保留有效画面"
+    ],
+    "anchor_blocks": [
+      25,
+      28,
+      47
+    ],
+    "source_path": "wiki/sources/洛洛Pavo白模返工与镜头可控文章拆解.md",
+    "author_path": "wiki/topics/洛洛AI说文章写法拆解.md",
+    "case_card": "案例：先在白模发现站位错误（洛洛AI说）"
+  },
+  {
+    "account": "洛洛AI说",
+    "id": "2247489166:1",
+    "title": "免费羊毛来啦！商汤小浣熊搞定全套活动设计交付",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247489166&idx=1&sn=75b5b219d9e96edf36cfb0fa7aec8382",
+    "published": "2026-11-17 09:20",
+    "raw_path": "raw/article/洛洛AI说/雷达-2026-11-20/免费羊毛来啦！商汤小浣熊搞定全套活动设计交付-c172af20e0.md",
+    "raw_sha256": "49075e3c81180051eaef21ae60551a3e35c99538703a13adb5cac5c5d3d7515d",
+    "body_sha256": "c172af20e071e9f4a3fdd48b5cac875dd902fb952666a42efa44a8a42d9d0e97",
+    "disposition": "deep",
+    "reason": "有母版实操、海报数字误差与移动端接续，不是优惠搬运。",
+    "anchors": [
+      "先让它输出多套不同方向的视觉概念方案供团队比选定调",
+      "首轮直出的效果，数字有重复",
+      "顺手把画幅比例调成 3:5"
+    ],
+    "anchor_blocks": [
+      12,
+      30,
+      36
+    ],
+    "source_path": "wiki/sources/洛洛小浣熊活动物料母版与跨端返工文章拆解.md",
+    "author_path": "wiki/topics/洛洛AI说文章写法拆解.md",
+    "case_card": "案例：以首屏母版衍生物料并跨端改单（洛洛AI说）"
+  },
+  {
+    "account": "郭震AI",
+    "id": "2247526204:1",
+    "title": "豆包工作接入 Kimi、GLM、DeepSeek，我跑了 8 个真实任务，摸清了怎么选最省",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247526204&idx=1&sn=b067d4fa460511c1ea059bb2765826ec",
+    "published": "2026-11-18 19:48",
+    "raw_path": "raw/article/郭震AI/雷达-2026-11-20/豆包工作接入 Kimi、GLM、DeepSeek，我跑了 8 个真实任务，摸清了怎么选最省-83cda796b7.md",
+    "raw_sha256": "039efafd6c41466bf09030f858993d736ad5caeb38f11cf4767416b4e75dee67",
+    "body_sha256": "83cda796b7a49ba5e5eef93aa17207b959fc22eb49c919b00cc02156b7245a0f",
+    "disposition": "deep",
+    "reason": "有五类八单和作者核对，不是模型接入资讯。",
+    "anchors": [
+      "换着模型跑了 8 单",
+      "不拿估算冒充实际数据",
+      "发现一处脚本标签写错会导致页面打不开",
+      "必须带上的事实和禁用说法"
+    ],
+    "anchor_blocks": [
+      7,
+      28,
+      39,
+      45
+    ],
+    "source_path": "wiki/sources/郭震豆包工作分档消耗与口径接力文章拆解.md",
+    "author_path": "wiki/topics/郭震AI文章写法拆解.md",
+    "case_card": "案例：同素材对照周报交付和用量（郭震AI）"
+  },
+  {
+    "account": "西羊石AI视频",
+    "id": "2247545878:1",
+    "title": "别再死磕财报了！用豆包工作金融工作台，给自己配个AI首席研究员，10分钟跑通行业研究",
+    "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247545878&idx=1&sn=42c45f007779dd162a0fb73705dce905",
+    "published": "2026-11-17 20:56",
+    "raw_path": "raw/article/西羊石AI视频/雷达-2026-11-20/别再死磕财报了！用豆包工作金融工作台，给自己配个AI首席研究员，10分钟跑通行业研究-c468d2499b.md",
+    "raw_sha256": "b30cd5d79657e6ceff884b37b8e908f5cbbb7a66dd43d7451e5bbe2cdb8d38f2",
+    "body_sha256": "c468d2499b10c1cebe989dcce3e123a36fcfd67b996a40c8f160b799c30f14cc",
+    "disposition": "deep",
+    "reason": "有脱敏六步工作台操作及文件交付自述，不是纯资讯或投资结论。",
+    "anchors": [
+      "我用以下这6步，让AI提取并整理财报中和市场公开的数据",
+      "全文做了脱敏处理",
+      "豆包生成的xlsx文件都可以直接编辑"
+    ],
+    "anchor_blocks": [
+      20,
+      22,
+      48
+    ],
+    "source_path": "wiki/sources/西羊石豆包财报取证六步与口径文章拆解.md",
+    "author_path": "wiki/topics/西羊石AI视频文章写法拆解.md",
+    "case_card": "案例：从脱敏财报到对照表和风险汇总（西羊石AI视频）"
+  }
+]
