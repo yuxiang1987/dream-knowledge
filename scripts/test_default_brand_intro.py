@@ -11,7 +11,8 @@ from PIL import Image
 ROOT = Path(__file__).resolve().parents[1]
 SKILL = ROOT / '.agents/skills/md-wechat-layout'
 DEMO = ROOT / 'output/ai-wechat-methodology/默认粒子片头排版验收'
-SHA = '8e2946f77888873814187b6525c2e8d5925d2d49a042eb9f476e28eda17d64d6'
+SHA = 'b75cb025527976a3182fdeef3cae6f305dc40693c59c084fe33e4353423c4d34'
+COMPACT_SHA = '01a3000a59713fdbb0242e833bf7a96aa1d06a0b143b5118682101dacd10080f'
 
 
 class Images(HTMLParser):
@@ -45,7 +46,7 @@ class DefaultBrandIntroTest(unittest.TestCase):
         self.assertEqual(len(parser.srcs), 1)
         self.assertTrue(parser.srcs[0].startswith('data:image/gif;base64,'))
         data = base64.b64decode(parser.srcs[0].split(',', 1)[1])
-        self.assertEqual(hashlib.sha256(data).hexdigest(), SHA)
+        self.assertEqual(hashlib.sha256(data).hexdigest(), COMPACT_SHA)
         self.assertLess(fragment.index('<img'), fragment.index('<h1'))
         self.assertIn('<article id="content">'+fragment+'</article>', page)
         self.assertIn('这是一份排版功能示例', fragment)
@@ -66,7 +67,7 @@ class DefaultBrandIntroTest(unittest.TestCase):
     def test_workbuddy_export_uses_the_same_compact_gif_in_both_forms(self):
         asset = SKILL / 'assets/brand-intro/intro-wechat.gif'
         gif = asset.read_bytes()
-        digest = '1e04800d9c5b3e1fc79e302e9c9b704953d0448f3920b3b36c2487f52ba2887f'
+        digest = COMPACT_SHA
         self.assertEqual(hashlib.sha256(gif).hexdigest(), digest)
         manifest = json.loads((ROOT / 'scripts/installed_skills.json').read_text(encoding='utf8'))
         self.assertEqual(manifest['sha256']['md-wechat-layout/assets/brand-intro/intro-wechat.gif'], digest)
@@ -87,7 +88,7 @@ class DefaultBrandIntroTest(unittest.TestCase):
         self.assertIn('<article id="content">'+fragment+'</article>', preview)
 
     def test_user_bio_is_the_exact_final_paragraph(self):
-        bio = '我是梦哥，十年程序员，爱折腾 AI。分享实用工具、有趣玩法和实操心得，一起把想法做出来。'
+        bio = '我是梦哥，十年程序员，爱折腾 AI。分享实用 AI 工具、有趣玩法和实操心得，一起把想法做出来。'
         fragment = (DEMO / '默认片头排版示例.wechat.html').read_text(encoding='utf8')
         parser = Images()
         parser.feed(fragment)

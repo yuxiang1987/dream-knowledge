@@ -21,7 +21,7 @@ class PixelDissolveTest(unittest.TestCase):
             self.assertEqual((ART / f'{name}-pixel.png').read_bytes(), (PREV / f'{name}-pixel.png').read_bytes())
         self.assertFalse(self.m['combat'])
         self.assertEqual(self.m['hits'], [1.9])
-        self.assertEqual(self.m['visible_title'], '分享AI、少踩坑')
+        self.assertEqual(self.m['visible_title'], '程序员梦哥，分享AI少踩坑')
         for s in self.m['states']:
             self.assertEqual((s['bullets'], s['monster_alive']), ([], []))
 

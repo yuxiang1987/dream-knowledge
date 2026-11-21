@@ -1,15 +1,53 @@
 const fs=require('fs'),path=require('path'),{spawnSync}=require('child_process');
 const {createCanvas,loadImage,GlobalFonts}=require('../程序员拾梦闯关片头五案-v1/node_modules/@napi-rs/canvas');
 const OUT=__dirname,W=1200,H=360,FPS=50,D=9,GROUND=318;
-const TAGLINE='分享AI、少踩坑',TOPIC=['codex','claude','workbuddy','kimi','user07','minimax','deepseek'];
+const TAGLINE='程序员梦哥，分享AI少踩坑',TOPIC=['codex','claude','workbuddy','kimi','user07','minimax','deepseek'];
 const clamp=x=>Math.max(0,Math.min(1,x));
 const ease=x=>{x=clamp(x);return x*x*(3-2*x);};
+const easeOutBack=x=>{x=clamp(x);const c1=1.70158,c3=c1+1;return 1+c3*Math.pow(x-1,3)+c1*Math.pow(x-1,2);};
 const hits=[1.9],impacts=[];
 const {state,engine,labels,targets,order}=require('./motion.cjs');
 const {makeParticles,sample:sampleParticle,START,END}=require('./particles.cjs');
+
+function buildDotMatrixSloganGroups(){
+  GlobalFonts.registerFromPath('C:/Windows/Fonts/msyhbd.ttc','MengBold');
+  const gw=196,gh=24,cvs=createCanvas(gw,gh),ctx=cvs.getContext('2d');
+  ctx.clearRect(0,0,gw,gh);ctx.font='bold 14.5px MengBold';ctx.textBaseline='middle';
+  const part1='程序员梦哥，',part2='分享AI少踩坑';
+  ctx.fillStyle='#1E293B';ctx.fillText(part1,2,12);
+  const w1=ctx.measureText(part1).width,splitX=4+w1;
+  ctx.fillStyle='#155EEF';ctx.fillText(part2,splitX,12);
+  const imgData=ctx.getImageData(0,0,gw,gh).data;
+  let minX=gw,maxX=0,minY=gh,maxY=0;const rawCells=[];
+  for(let y=0;y<gh;y++)for(let x=0;x<gw;x++){
+    const idx=(y*gw+x)*4;
+    if(imgData[idx+3]>115){minX=Math.min(minX,x);maxX=Math.max(maxX,x);minY=Math.min(minY,y);maxY=Math.max(maxY,y);rawCells.push({x,y,isBlue:x>=splitX-1});}
+  }
+  const step=4.25,cell=3.65,totalW=(maxX-minX+1)*step,totalH=(maxY-minY+1)*step;
+  const ox=Math.round(505-totalW/2),oy=Math.round(132-totalH/2),cols=8,rows=2,groups=[];
+  for(let r=0;r<rows;r++)for(let c=0;c<cols;c++)groups.push({r,c,cells:[]});
+  const spanX=Math.max(1,maxX-minX+1),spanY=Math.max(1,maxY-minY+1);
+  for(const rc of rawCells){
+    const px=ox+(rc.x-minX)*step,py=oy+(rc.y-minY)*step;
+    const c=Math.min(cols-1,Math.floor(((rc.x-minX)/spanX)*cols)),r=(rc.y-minY)<spanY/2?0:1;
+    groups[r*cols+c].cells.push({px,py,isBlue:rc.isBlue});
+  }
+  groups.forEach((grp,idx)=>{
+    if(!grp.cells.length)return;
+    grp.cx=grp.cells.reduce((s,p)=>s+p.px,0)/grp.cells.length;
+    grp.cy=grp.cells.reduce((s,p)=>s+p.py,0)/grp.cells.length;
+    const angle=((idx*137.5)%360)*Math.PI/180;
+    grp.srcX=grp.cx+Math.cos(angle)*68+(grp.c-3.5)*14;
+    grp.srcY=grp.cy-26+(grp.r===0?-24:22);
+    grp.delay=grp.c*0.018+grp.r*0.015;
+    grp.particleColor=grp.c>=3?'#155EEF':'#1E293B';
+  });
+  return {groups,cell};
+}
 async function main(){
   const fontFile=path.join(OUT,'../程序员梦哥像素闯关-v3/fonts/fusion-pixel-12px-proportional-zh_hans.ttf.woff2');
   if(!GlobalFonts.registerFromPath(fontFile,'Pixel'))throw Error('Pixel font registration failed');
+  const {groups:sloganGroups,cell:sloganCell}=buildDotMatrixSloganGroups();
   const sheet=await loadImage(path.join(OUT,'../程序员梦哥像素闯关-v3/action-sheet.png'));
   const src=createCanvas(sheet.width,sheet.height),scrop=src.getContext('2d');scrop.drawImage(sheet,0,0);
   const pixels=scrop.getImageData(0,0,sheet.width,sheet.height).data,boxes=[];
@@ -94,15 +132,43 @@ async function main(){
       c.restore();
     }
   }
+  function drawNewDotMatrixSlogan(t){
+    if(t<6.04)return;
+    const settled=t>=6.56,totalSpan=6.56-6.04;
+    for(const grp of sloganGroups){
+      if(!grp.cells.length)continue;
+      let gx=grp.cx,gy=grp.cy,gScale=1,gAlpha=1,sqAlpha=0;
+      if(!settled){
+        const localDur=totalSpan-0.16,p=clamp((t-6.04-grp.delay)/localDur);
+        if(p<=0)continue;
+        const ep=easeOutBack(p);
+        gx=grp.srcX+(grp.cx-grp.srcX)*ease(p);
+        gy=grp.srcY+(grp.cy-grp.srcY)*ep;
+        gScale=0.22+0.78*ep;
+        gAlpha=clamp(p*1.6);
+        sqAlpha=p<0.45?Math.sin((p/0.45)*Math.PI)*0.9:0;
+      }
+      if(sqAlpha>0.02){c.save();c.globalAlpha*=sqAlpha;r(gx-5,gy-5,10,10,grp.particleColor);c.restore();}
+      c.save();c.globalAlpha*=gAlpha;
+      for(const cell of grp.cells){
+        const px=gx+(cell.px-grp.cx)*gScale,py=gy+(cell.py-grp.cy)*gScale,sz=Math.max(1,sloganCell*gScale);
+        c.fillStyle='rgba(255,255,255,0.78)';
+        c.fillRect(Math.round(px)+1,Math.round(py)+2,Math.round(sz),Math.round(sz));
+        c.fillStyle=cell.isBlue?'#155EEF':'#1E293B';
+        c.fillRect(Math.round(px),Math.round(py),Math.round(sz),Math.round(sz));
+      }
+      c.restore();
+    }
+  }
   function scene(time){
     const s=state(time);c.globalAlpha=1;r(0,0,W,H,'#9bd8ff');
     cloud(42,75,.72);cloud(1004,39,.68);cloud(756,205,.43);
     hill(-36,44,180);hill(358,34,192);hill(725,46,180);hill(1093,57,150);
-    // 像素图标从砖内弹出、轻轻回落后停住，降旗后与砖一起退场。
+    // 像素图标从砖内弹出、轻轻回落后停住，降旗后与砖一起退场，粒子汇聚为双色点阵口号。
     c.save();c.globalAlpha=s.alpha;
     if(s.t<START)drawContent(s);
     else if(s.t<END)drawParticles(s.particle_elapsed);
-    c.save();c.globalAlpha*=s.title_alpha;text(TAGLINE,600,130+s.title_offset,70,'#193d72');c.restore();
+    drawNewDotMatrixSlogan(s.t);
     flag(s);
     r(s.x-19,GROUND-2,38,4,'#70b365');hero(s);
     for(const land of [2.3]){const p=(s.t-land)/.2;if(p>=0&&p<1){c.save();c.globalAlpha*=1-p;r(s.x-24-p*12,GROUND-5,7,4,'#ffe3a0');r(s.x+20+p*12,GROUND-5,7,4,'#ffe3a0');c.restore();}}
@@ -117,7 +183,7 @@ async function main(){
   const contact=createCanvas(1200,5*180),sc=contact.getContext('2d');[0,1.9,3.1,5.44,5.6,5.78,5.96,6.08,6.24,6.6].forEach((t,i)=>{scene(t);sc.drawImage(canvas,(i%2)*600,Math.floor(i/2)*180,600,180);});fs.writeFileSync(path.join(OUT,'keyframes.png'),contact.toBuffer('image/png'));
   const mobile=createCanvas(375,113);scene(6.6);mobile.getContext('2d').drawImage(canvas,0,0,375,112.5);fs.writeFileSync(path.join(OUT,'mobile.png'),mobile.toBuffer('image/png'));
   scene(3.1);mobile.getContext('2d').drawImage(canvas,0,0,375,112.5);fs.writeFileSync(path.join(OUT,'mobile-topic.png'),mobile.toBuffer('image/png'));
-  const run=spawnSync('ffmpeg',['-y','-v','error','-framerate',String(FPS),'-i',path.join(frames,'%04d.png'),'-filter_complex','[0:v]split[a][b];[a]palettegen=max_colors=256:stats_mode=full[p];[b][p]paletteuse=dither=bayer:bayer_scale=3','-frames:v',String(Math.round(D*FPS)),'-loop','0',path.join(OUT,'intro.gif')],{encoding:'utf8'});if(run.status!==0)throw Error(run.stderr);
+  const run=spawnSync('ffmpeg',['-y','-v','error','-framerate',String(FPS),'-i',path.join(frames,'%04d.png'),'-filter_complex','[0:v]split[a][b];[a]palettegen=max_colors=192:stats_mode=full[p];[b][p]paletteuse=dither=bayer:bayer_scale=4','-frames:v',String(Math.round(D*FPS)),'-loop','0',path.join(OUT,'intro.gif')],{encoding:'utf8'});if(run.status!==0)throw Error(run.stderr);
   fs.writeFileSync(path.join(OUT,'manifest.json'),JSON.stringify({account:'程序员梦哥',visible_title:TAGLINE,topic_words:[],topic_icons:TOPIC,icon_style:'hand plotted integer pixel geometry, no screenshot or source image sampling',combat:false,approach:[.04,1.3],walk_to_flag:[3.14,4.66],icon_size:72,brick_words:[],typography:{family:'Fusion Pixel 12px Proportional zh_hans',base_px:12,footer_scale:6,font_file:'../程序员梦哥像素闯关-v3/fonts/fusion-pixel-12px-proportional-zh_hans.ttf.woff2'},width:W,height:H,fps:FPS,frame_count:Math.round(D*FPS),duration_seconds:D,ground:GROUND,brick_bottom:150,hits,impacts,topic_pop_duration:.82,icon_stagger:.045,icon_order:order,icon_targets:targets,topic_settled:3.01,flag_lowering:[4.8,5.44],brick_fade:[5.46,6.16],particle_dissolve:{start:START,end:END,count:particles.length,cell_px:8,seed:'fixed cell-coordinate hash',source:'original icon and brick layer'},title_reveal:[6.04,6.56],brand_hold:[6.56,8.56],reset:[8.56,9],animation_engine:{name:'GSAP',version:engine,labels},sprite_boxes:boxes,sprite_scale:scale,method:'Reused imagegen character poses; original pixel icons; GSAP paused timelines, deterministic pixel-fragment dissolve, Canvas and FFmpeg GIF',wechat_verified:false,states},null,2)+'\n');
   fs.writeFileSync(path.join(OUT,'preview.html'),`<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>程序员梦哥 · 像素闯关 v8粒子转场</title><style>*{box-sizing:border-box}body{margin:0;background:#e9eff2;color:#2b4758;font:15px/1.8 "Microsoft YaHei",sans-serif}main{max-width:1100px;margin:28px auto;padding:28px;background:white;border-radius:16px}h1{font-size:23px;margin:0}h2{font-size:17px;margin-top:26px}p{color:#758995}img{display:block;width:100%}.phone{width:375px;max-width:100%;border:1px solid #e0e8ec}.body{padding:18px 24px}button,a{display:inline-block;margin:12px 8px 0 0;border:1px solid #d2dfe4;border-radius:6px;background:white;padding:7px 12px;color:#3d7089;font:inherit;text-decoration:none}@media(max-width:650px){main{margin:0;padding:18px}}</style><main><h1>像素粒子消散 · 平滑呈现口号</h1><p>人物从左侧走入 → 顶中砖 → 七枚原绘像素图标散开 → 降旗 → 图标与砖化为像素粒子消散 → 分享AI、少踩坑，9秒循环，50fps。图标从中心向两侧依次抛出、回落停稳。</p><img data-loop src="intro.gif" alt="像素人物从左侧走入顶中砖弹出七枚原绘图标，降旗后像素粒子消散并显示分享AI、少踩坑"><button onclick="document.querySelectorAll('img[data-loop]').forEach(im=>im.src='intro.gif?t='+Date.now());document.querySelectorAll('img[data-loop-old]').forEach(im=>im.src='../程序员梦哥像素闯关-v7入场版/intro.gif?t='+Date.now())">从头播放</button><a href="intro.gif" download>下载 GIF</a><h2>375px 文章预览</h2><div class="phone"><img data-loop src="intro.gif" alt="375px片头预览"><div class="body"><b>你好，我是梦哥。</b><p>这里接今天的文章。</p></div></div><h2>原绘像素图标</h2><img src="icons-preview.png" alt="七枚按整数像素形状重新绘制的图标"><h2>上一版对照</h2><img data-loop-old src="../程序员梦哥像素闯关-v7入场版/intro.gif" alt="上一版动效"><h2>粒子转场关键帧</h2><img src="keyframes.png" alt="降旗、像素粒子消散与口号出现关键帧"><p>本地候选；复用既有角色、代码制作GIF，公众号后台及真机效果待验收。</p></main></html>`);
   console.log(JSON.stringify({frames:Math.round(D*FPS),gif_bytes:fs.statSync(path.join(OUT,'intro.gif')).size,duration:D}));

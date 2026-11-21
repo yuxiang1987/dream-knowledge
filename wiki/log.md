@@ -1845,3 +1845,10 @@
 - 完成《WorkBuddy 做好这几个设置，让WorkBuddy越来越懂你》（三卡带落槽调校舱 + 大黄机器人挤压点亮 7 格设置柱）与《实测 Kimi K3.1 Pro，国模一哥，有惊喜也有槽点！》（复古 KIMI 电脑连续抛物线弹出布料模拟/云海古城 3D/卡丁车竞速/纯代码 MV 四张动态卡 + 右侧 5 小时用量 `76.29%` 额度肉疼面板）两版验证后，按用户要求抽取为独立公众号技能 `gzh-svg-intro`。
 - `gzh-svg-intro` 包含 `SKILL.md`、`agents/openai.yaml`、`assets/brand-opener.svg.frag`（预烘焙像素梦哥 + 16 组点阵口号坍缩母版）、`references/storyboard-dna.md`、`scripts/build_svg_intro.py`（内置零依赖纯 Python TrueType 文字转曲引擎 `FontEngine`、SMIL 缓动原语、`console-3act` 与 `showcase-4card` 模板及微信合规校验器）与 `tests/`；同时为 `md-wechat-layout` 新增 `--intro-svg` 参数，支持将定制 SVG+SMIL 片头直接内嵌到排版正文开头并替换默认 GIF。
 - 源码仓库 `dream-skills` 提交 `2d9c36766134d095827b3124f778aa4c96b4fa74` 已通过全部单元测试（`test_editorial_resources.py` 3 项、`test_build_svg_intro.py` 4 项、`md-wechat-layout` 36 项 Node 测试）并推送到 GitHub；同步更新本知识库 `.agents/skills/` 安装副本、`scripts/installed_skills.json`、`scripts/test_installed_skills.py`、`README.md`、[[topics/摸鱼小李文章片头动画实现]]、[[topics/公众号内容生产线]] 与 `wiki/index.md`。
+
+## [2026-11-21] skill | 优化 md-wechat-layout 默认开头 GIF 片尾为双色粒子汇聚点阵口号
+
+- 按用户反馈「保留马里奥闯关前半段（走入→顶中砖→七枚原绘 AI 图标散开→降旗→图标与砖块化为像素粒子消散），将片尾的『分享AI、少踩坑』旧字体与平淡浮现动效升级为新版双色带网格缝隙点阵口号『程序员梦哥，分享AI少踩坑』」，修改 `output/ai-wechat-methodology/程序员梦哥像素闯关-v8粒子转场/build.cjs`。
+- 新片尾在 `6.04s – 6.56s` 将「程序员梦哥，分享AI少踩坑」（深灰黑 `#1E293B` + 品牌蓝 `#155EEF`，留 0.6px 网格缝隙并带白色立体底影）切为 16 个点阵区块，伴随引导粒子块从消散区沿弧线带 `easeOutBack` 过冲弹性汇聚成形，`6.56s – 8.56s` 完整静止定格 2 秒。
+- 重新导出原版 `intro.gif`（1200×360、450 帧、9 秒、1,941,085 字节，SHA256 `b75cb025527976a3182fdeef3cae6f305dc40693c59c084fe33e4353423c4d34`）与微信兼容版 `intro-wechat.gif`（1000×300、165 帧、9 秒、640,636 字节，SHA256 `01a3000a59713fdbb0242e833bf7a96aa1d06a0b143b5118682101dacd10080f`）。
+- 同步更新 `dream-skills` 仓库 `md-wechat-layout` 资源、说明与测试并提交推送（`2c3fbd5e962b9107d114732a89671f5fdda38ff6`）；同步本库 `.agents/skills/md-wechat-layout/`、`scripts/installed_skills.json`、`scripts/test_mengge_pixel_dissolve.py`、`scripts/test_default_brand_intro.py` 及示例导出，`md-wechat-layout` 36 项 Node 测试与知识库 Python 回归测试、体验 `wiki_lint.py` 全部通过。
