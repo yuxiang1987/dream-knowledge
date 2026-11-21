@@ -39,6 +39,7 @@
 - `wechat-article-writing`：公众号案例策划、正文写作和改稿。
 - `gzh-final-check`：最终定稿检查。
 - `gzh-webchat-cover`：公众号横版封面。
+- `gzh-svg-intro`：公众号纯内嵌 SVG+SMIL 开头动画（1246×220，8秒循环，零 text/image/script/defs），输出可一键复制粘贴到公众号后台的预览页，也可通过 `--intro-svg` 传给 `md-wechat-layout` 替换默认 GIF。
 - `md-wechat-layout`：Markdown 转微信公众号富文本排版；首次使用前在技能目录运行 `npm ci` 安装依赖。
 - `gzh-topic-planning`：选题编辑，六类来源＋八类切入点，至多3候选推荐1个。
 - `gzh-benchmark-deconstruct`：对标文章拆解，逐篇 source＋案例卡，默认增量入库。

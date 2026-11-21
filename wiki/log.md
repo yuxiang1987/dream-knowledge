@@ -1,5 +1,11 @@
 # 操作日志
 
+## [2026-11-19] 产品设计 | 梳理戒烟宠物应用
+
+- 将选题对话延伸为 [[topics/戒烟宠物产品设计]]，记录陪伴倒计时、吸烟日记、宠物能量、触发场景、统计口径及原型验收，更新索引。
+- 依据用户先前的宠物能量构想、当前对话和 Smokefree.gov 的触发场景及重新开始资料。两分钟、能量和版本分期为产品提案，待实现和试用。
+- 增加产品设计主题页的索引、日志、关键规则与验收场景检查。
+
 ## [2026-11-13] skill-vfx | 调研鲁班四技能并制作大鱼主题动图
 
 - 用户要求调研鲁班七号被动和三个主动技能后生成相应动图。读取官网技能介绍并交叉核对，只采用技能名称与动作机制，避免混用旧数值、加点页错误标签及旧攻略眩晕说法。
@@ -1755,6 +1761,13 @@
 - 更新索引、案例库与本批简报，保留fetch-summary、stats、manifest、report及执行记录；入库后仅本地刷新报告，Hy4 flash两账号归一个同题候选，历史11篇无source另列，不扩展本轮处理。已有raw和用户工作区改动保留，按运行前指纹离线核验；仅提交本轮文件及日志新增行，验证和推送结果随交付如实报告。
 - 验证通过：8项隔离离线回归、9篇覆盖及逐字锚点/来源唯一归属/导航/案例卡校验、运行前591个raw文件字节指纹保护、最终报告状态核对；wiki_lint通过，页面547（含索引和日志），保留8项既有空来源警告。验证不等于产品能力或读者效果复测。
 
+## [2026-11-19] benchmark-visual | 研究摸鱼小李文章片头动画实现
+
+- 直接检查已有归档HTML，筛得27个正文前1246×220的SVG片头；逐文件来源、字节SHA256、片头节点及动画时长写入output/ai-wechat-methodology/moyu-intro-research-20261119/metrics.json，没有修改或重新采集raw。
+- 在浏览器本地复现11-13 Seedream、11-14 Seedance Flash、11-16豆包多模型三个片头，核看0.5／1.8／5秒画面。确认统一像素人物与口号、文字粒子过渡与主题场景；记录内嵌SVG/SMIL、嵌套变换、曲线与反馈动作，区别设计推断、作者工具未知、后台及真机未验收。
+- 新增[[topics/摸鱼小李文章片头动画实现]]并更新索引。公开排版仓库只作联名合作依据，不推定为片头生成工具；未改公众号默认片头、Skill或文章。新增分析程序及三项离线回归，知识库检查、提交与推送结果随本轮交付如实报告。
+- 本轮验证：三项离线回归全部通过，wiki_lint通过（549页，保留9项既有空来源警告），本次索引／日志diff空白检查通过。Git写入对象数据库时被权限限制拒绝（.git/objects不可写），未能完成暂存、提交或推送，已有暂存区保持为空。
+
 ## [2026-11-19] asset | 程序员梦哥 WorkBuddy 主题片头样片
 
 - 在 `output/ai-wechat-methodology/mengge-workbuddy-intro-v1/` 独立制作 5.4 秒 GIF、手机正文宽度预览及生成与验收脚本。左侧复用既有像素梦哥，右侧从品牌口号粒子过渡到 WorkBuddy「高效务实」的回复风格示意；示例回复不是产品实录。
@@ -1813,8 +1826,22 @@
 - 新增路人甲TM 2、摸鱼小李 1、小林coding 1、沉默王二 2、洛洛AI说 2、郭震AI 1、西羊石AI视频 1；卡尔的AI沃茨、苍何无新增。全部逐篇过题材：10 个来源页、0 篇排除、0 篇同作品复用，逐篇指纹与锚点见 `output/ai-wechat-methodology/雷达-2026-11-20/coverage.json`。
 - 写入 7 个作者页增量入口、[[topics/AI写作案例库]] 10 张参考卡及索引。只读可提取文字；测试角度与步骤留给人，媒体、原交付、费用和产品未核。临时小样本中位数不当作日常阅读基线，不推传播因果或本账号读者效果；未写正文、未发布。
 
+## [2026-11-20] tutorial-analysis | 3D 生物课件 PPT 制作步骤与风格
+
+- 通读用户《生物课件.mp4》的逐秒可见字幕并核看课件画面，对照四张上传提示词，新增 [[topics/3D生物课件PPT制作流程]]，更新索引。
+- 区分深色神经元与浅色动物细胞成品、PPT 视觉与视频包装；整理五页内容、四段截图原提示词、Morph 转场和循环粒子视频步骤，补充提示词单独标明。未取得原 PPTX、GLB 和配套资源，未声称已复现。
+- 增加 scripts/test_3d_biology_courseware.py，核验时间轴、原提示词与补充写法边界、风格覆盖和验收项目；运行该测试及 wiki_lint.py。sources 留空的原因和上传视频依据已写明。未改动 raw/ 或 Skill。
+- 三项专项测试通过，wiki_lint.py 通过（仅有来源为空警告，上传材料的依据已在正文说明）。尝试写入 Git 对象时提示 .git/objects 权限不足，未能创建 Commit 或推送；既有未提交改动未纳入此次操作。
+
 ## [2026-11-21] asset | 制作鲁班大肥鱼皮肤篇纯 SVG+SMIL 定制片头样片
 
 - 选取用户文章 `raw/article/程序员梦哥/GPT Image 叒叒叒更新了，我用它手搓了一套鲁班皮肤.md`，参考 [[topics/摸鱼小李文章片头动画实现]] 的 1246×220 纯内嵌 SVG+SMIL 架构，在 `output/ai-wechat-methodology/mengge-luban-svg-intro-v1/` 制作 8 秒循环定制片头样片（含 `intro.svg`、`intro.wechat.html`、712KB `intro.gif` 兜底版、6 张关键帧快照与多时间点定格预览台 `preview.html`）。
 - 左侧将既有像素梦哥立绘量化提取为纯矢量 `<path>`（2.4s 异步呼吸），全片中文转曲为独立 `<path>`，零 `<text>`、零 `<image>`、零 `<script>`、零外链；右侧编排「品牌口号逐字坍缩为 36 枚海洋粒子 → 插入大肥鱼灵感卡生成蓝帽鲁班 → 虚线选框锁定局部改珊瑚粉帽 → 鲸鱼水炮后坐发射展开四技能 GIF/CAD 拆解/12 张表情包三卡并弹出完成对勾」五幕动作。
 - 更新 [[topics/摸鱼小李文章片头动画实现]] 与 `wiki/index.md`，新增 `scripts/test_mengge_luban_svg_intro.py` 三项自动化验证；未修改 raw/、未替换排版 Skill 默认片头，公众号后台粘贴与真机微信播放待验收。
+
+## [2026-11-21] skill | 抽取公众号纯 SVG+SMIL 开头动画技能 gzh-svg-intro 并联动排版
+
+- 核查摸鱼小李近期 15 篇文章的正文首元素 `1246×220` 纯内嵌 SVG+SMIL 片头，总结出「左侧像素人物异步呼吸眨眼 + 16 组点阵字同步坍缩为粒子 + 零大框纯道具舞台 + 标题定主角、正文给 2–4 个真实案例与数字、物理过冲回弹 + 绿勾收尾」的分镜法则。
+- 完成《WorkBuddy 做好这几个设置，让WorkBuddy越来越懂你》（三卡带落槽调校舱 + 大黄机器人挤压点亮 7 格设置柱）与《实测 Kimi K3.1 Pro，国模一哥，有惊喜也有槽点！》（复古 KIMI 电脑连续抛物线弹出布料模拟/云海古城 3D/卡丁车竞速/纯代码 MV 四张动态卡 + 右侧 5 小时用量 `76.29%` 额度肉疼面板）两版验证后，按用户要求抽取为独立公众号技能 `gzh-svg-intro`。
+- `gzh-svg-intro` 包含 `SKILL.md`、`agents/openai.yaml`、`assets/brand-opener.svg.frag`（预烘焙像素梦哥 + 16 组点阵口号坍缩母版）、`references/storyboard-dna.md`、`scripts/build_svg_intro.py`（内置零依赖纯 Python TrueType 文字转曲引擎 `FontEngine`、SMIL 缓动原语、`console-3act` 与 `showcase-4card` 模板及微信合规校验器）与 `tests/`；同时为 `md-wechat-layout` 新增 `--intro-svg` 参数，支持将定制 SVG+SMIL 片头直接内嵌到排版正文开头并替换默认 GIF。
+- 源码仓库 `dream-skills` 提交 `2d9c36766134d095827b3124f778aa4c96b4fa74` 已通过全部单元测试（`test_editorial_resources.py` 3 项、`test_build_svg_intro.py` 4 项、`md-wechat-layout` 36 项 Node 测试）并推送到 GitHub；同步更新本知识库 `.agents/skills/` 安装副本、`scripts/installed_skills.json`、`scripts/test_installed_skills.py`、`README.md`、[[topics/摸鱼小李文章片头动画实现]]、[[topics/公众号内容生产线]] 与 `wiki/index.md`。
