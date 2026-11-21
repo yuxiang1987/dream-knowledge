@@ -1,0 +1,130 @@
+[
+  {
+    "account": "路人甲TM",
+    "id": "2247524710:1",
+    "title": "一起抓马！LibTV抓马剧场扶持计划上线，爆款最高30万元等你来拿",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524710&idx=1&sn=6aac01f8d64548e527ac0672b50f4a11",
+    "published": "2026-11-20 21:53",
+    "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-21/一起抓马！LibTV抓马剧场扶持计划上线，爆款最高30万元等你来拿-d8559ae414.md",
+    "raw_sha256": "6c9df4aaf04fab5e20e2640e741bb326d3151b3635d6f7069d7d62b4a3e11432",
+    "body_sha256": "d8559ae414e8509080873daca396d1140fef61a95424487c1effc7f62507b538",
+    "disposition": "excluded",
+    "reason": "纯活动资讯：只转述平台活动规则、资格和激励，未见作者申报或制作测试。",
+    "anchors": [
+      "最高档15万元现金加15万元等值积分",
+      "限制的是机构报名，不是作品制作、上线或者达标的截止日"
+    ],
+    "anchor_blocks": [
+      28,
+      50
+    ],
+    "source_path": null,
+    "author_path": "wiki/topics/路人甲TM文章经营全景.md",
+    "case_card": null
+  },
+  {
+    "account": "小林coding",
+    "id": "2247566619:1",
+    "title": "临近年终，后端招聘市场已经疯掉了。。",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247566619&idx=1&sn=a2556b18a865fb33396003cfc81a85e0",
+    "published": "2026-11-20 11:46",
+    "raw_path": "raw/article/小林coding/雷达-2026-11-21/临近年终，后端招聘市场已经疯掉了。。-5189109d8f.md",
+    "raw_sha256": "a664b7ed8783b5f6af2fe09a4d996ee464fd6b631b274d183643e264950eec08",
+    "body_sha256": "5189109d8fec0435147d61eccf8f16602594d87286deec5ef53d60d29e1a42c5",
+    "disposition": "reused",
+    "reason": "薪资求职推广仅登记；与旧题平台 ID 不同，但同作者的 50 个正文块逐段相同。",
+    "anchors": [
+      "我们打造了一个《就业保薪班》",
+      "在职人员承诺最低涨幅40%-50%"
+    ],
+    "anchor_blocks": [
+      11,
+      42
+    ],
+    "source_path": "wiki/sources/小林Agent就业保薪课程推广文章拆解.md",
+    "author_path": "wiki/topics/小林coding文章写法拆解.md",
+    "case_card": null,
+    "original_raw_path": "raw/article/小林coding/今年后端这工资是认真的吗？-e33a0df3-7a7e6cdf58.md"
+  },
+  {
+    "account": "卡尔的AI沃茨",
+    "id": "2247514036:1",
+    "title": "5大场景实测Kling Image 4.0，一句话直出电商长图+原生8K",
+    "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247514036&idx=1&sn=eb280c4a17d5edaf71fb3ec28cc17608",
+    "published": "2026-11-20 20:26",
+    "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-21/5大场景实测Kling Image 4.0，一句话直出电商长图+原生8K-d324d6fef5.md",
+    "raw_sha256": "68031e6587dc70b1d67b296f7d290c7235aea977fb052831a8771cf2fd3f9f30",
+    "body_sha256": "d324d6fef573abe08fc2247ebd3177b9ebbb8b34ffeaedd1190a4ec934cd25d7",
+    "disposition": "deep",
+    "reason": "有多类实操自述与局部改字轮次，不是上新转述。",
+    "anchors": [
+      "在参数栏选好清晰度和页面长度",
+      "我对着成图连做了两次局部智能改字",
+      "直接看这两组秋冬女装商拍和局部裁切图",
+      "上传的草图只用于确定低机位"
+    ],
+    "anchor_blocks": [
+      13,
+      34,
+      56,
+      94
+    ],
+    "source_path": "wiki/sources/卡尔KlingImage整页交付与局部改字文章拆解.md",
+    "author_path": "wiki/topics/卡尔的AI沃茨文章写法拆解.md",
+    "case_card": "案例：详情页生成后能否精确改字（卡尔的AI沃茨）"
+  },
+  {
+    "account": "沉默王二",
+    "id": "2247552099:1",
+    "title": "Gemini 桌面版，干活有点猛啊。",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247552099&idx=1&sn=d66b7368593c3af6b28956e0f8a8af37",
+    "published": "2026-11-20 15:13",
+    "raw_path": "raw/article/chenmowanger/雷达-2026-11-21/Gemini 桌面版，干活有点猛啊。-37de58c641.md",
+    "raw_sha256": "55c06567b63fcf9b7ccb420324db74542a427b19d62a88114ce11a8472e92d65",
+    "body_sha256": "37de58c641132d3af421dbd928bdfdf62d8175f2d778a3633c4a1589fa07c8e5",
+    "disposition": "deep",
+    "reason": "按工程阶段给工作流选择、互动练习和操作口径；没有可确认的作者实测案例。",
+    "anchors": [
+      "只负责派活、验收结果和决策",
+      "它们最核心的区别在于执行位置",
+      "执行路径确定、需要按文件列表批量分发并严格校验汇总结构的任务",
+      "我平时更习惯把 /plan 和 /grill-me 放在一起用"
+    ],
+    "anchor_blocks": [
+      16,
+      33,
+      65,
+      81
+    ],
+    "source_path": "wiki/sources/沉默王二Antigravity工程阶段与验收文章拆解.md",
+    "author_path": "wiki/topics/沉默王二文章写法拆解.md",
+    "case_card": null
+  },
+  {
+    "account": "洛洛AI说",
+    "id": "2247489445:1",
+    "title": "20分钟手搓，搓出大厂级孕期管家应用",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247489445&idx=1&sn=e9432945fae5eab549b14caccad82f90",
+    "published": "2026-11-20 16:46",
+    "raw_path": "raw/article/洛洛AI说/雷达-2026-11-21/20分钟手搓，搓出大厂级孕期管家应用-1a130e403e.md",
+    "raw_sha256": "86ae3e383d53721845198e3d3ef3928b19bcc701993c7152795b2f92a2b9a72d",
+    "body_sha256": "1a130e403e3e45492c8da82d5ad7b532f59e4f49a6cc2152466a658b7355755c",
+    "disposition": "deep",
+    "reason": "有资料整理、另行导入和追加共享功能的作者实操自述。",
+    "anchors": [
+      "图上没有的不要编造",
+      "最开始出来的第一版按照我的要求没有同步个人数据",
+      "它会完整保留现有的数据库和已填记录",
+      "不构成任何医疗建议，不能替代产科医生医嘱"
+    ],
+    "anchor_blocks": [
+      15,
+      33,
+      48,
+      12
+    ],
+    "source_path": "wiki/sources/洛洛千问Go个人应用资料保真与协作文章拆解.md",
+    "author_path": "wiki/topics/洛洛AI说文章写法拆解.md",
+    "case_card": "案例：先不猜填，再导入与加协作（洛洛AI说）"
+  }
+]

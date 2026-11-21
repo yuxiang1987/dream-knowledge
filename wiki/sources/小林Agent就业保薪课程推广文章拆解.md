@@ -3,12 +3,18 @@ title: "小林Agent就业保薪课程推广文章拆解"
 type: source
 tags: [公众号, 对标拆解, 小林coding]
 status: 稳定
-sources: ["raw/article/小林coding/今年后端这工资是认真的吗？-e33a0df3-7a7e6cdf58.md"]
+sources: ["raw/article/小林coding/今年后端这工资是认真的吗？-e33a0df3-7a7e6cdf58.md", "raw/article/小林coding/雷达-2026-11-21/临近年终，后端招聘市场已经疯掉了。。-5189109d8f.md"]
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-11-21
 ---
 
 # 小林Agent就业保薪课程推广文章拆解
+
+## 2026-11-21 重发登记（不深拆）
+
+新题《临近年终，后端招聘市场已经疯掉了。。》，2026-11-20 11:46，[本次原文](https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247566619&idx=1&sn=a2556b18a865fb33396003cfc81a85e0)。和下方 10 月版标题、文章 ID 因再发而异，去除 HTML 结构与空白后正文 50 段逐段相同；保留两版原文，不另建 source。
+
+题材仅登记：正文以招聘焦虑和匿名学员薪资推广保薪课程，不是 AI 工具或工作流测试。旧拆解保留，无新增验证、案例卡或读者效果结论。
 
 ## 2026-10-26 SLOW全文增量拆解
 

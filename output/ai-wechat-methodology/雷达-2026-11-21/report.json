@@ -1,0 +1,112 @@
+{
+  "batch": "output/ai-wechat-methodology/雷达-2026-11-21",
+  "stats_dir": "output/ai-wechat-methodology/雷达-2026-11-21/stats-2026-11-21",
+  "baseline": [
+    {
+      "account": "小林coding",
+      "n": 1,
+      "median": 15010,
+      "min": 15010,
+      "max": 15010,
+      "median_like": 6,
+      "median_share": 99,
+      "median_comment": 0
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "n": 1,
+      "median": 9575,
+      "min": 9575,
+      "max": 9575,
+      "median_like": 308,
+      "median_share": 765,
+      "median_comment": 24
+    },
+    {
+      "account": "沉默王二",
+      "n": 1,
+      "median": 24950,
+      "min": 24950,
+      "max": 24950,
+      "median_like": 72,
+      "median_share": 791,
+      "median_comment": 43
+    },
+    {
+      "account": "洛洛AI说",
+      "n": 1,
+      "median": 4482,
+      "min": 4482,
+      "max": 4482,
+      "median_like": 122,
+      "median_share": 194,
+      "median_comment": 30
+    }
+  ],
+  "anomalies": [],
+  "event_clusters": [],
+  "raw_without_source": [
+    "raw/article/lurenjiaTM/实测OiiOii最新Skill，这套电商组合堪称双十一王炸！.md",
+    "raw/article/lurenjiaTM/真正的双11来了！天猫预售居然免定金！.md",
+    "raw/article/西羊石AI视频/雷达-2026-11-16/卧槽，王者荣耀联名 LibTV 搞大事！这波 AI 视频大赛含金量拉满了-fd633b8192.md",
+    "raw/article/小林coding/雷达-2026-11-01/Anthropic直接掀桌：Code Review不再留给人-0844cd6d54.md",
+    "raw/article/小林coding/雷达-2026-11-01/淘汰Java岗，中国又一新兴岗位崛起！这将是程序员未来10年最好的方向。-0c8f44d39a.md",
+    "raw/article/小林coding/雷达-2026-11-02/震撼，DeepSeek开源超级 Agent 架构！-73e4b9bcff.md",
+    "raw/article/小林coding/雷达-2026-11-11/Anthropic直接劝退：慎用子 Agent！-e97495c88b.md",
+    "raw/article/小林coding/雷达-2026-11-13/100,000,000 Token 免费薅！爽玩 DeepSeek V4.1 Flash、GLM-5.3 ！-a2e6be742b.md",
+    "raw/article/小林coding/雷达-2026-11-14/Anthropic开源神级项目，专治黑心AI中转站！-1449bc4845.md",
+    "raw/article/小林coding/雷达-2026-11-14/工资到账119587.68元，爱你字节！-d75da9f44e.md",
+    "raw/article/lurenjiaTM/雷达-2026-11-21/一起抓马！LibTV抓马剧场扶持计划上线，爆款最高30万元等你来拿-d8559ae414.md"
+  ],
+  "case_candidates": [
+    {
+      "article": "5大场景实测Kling Image 4.0，一句话直出电商长图+原生8K",
+      "models": [
+        "可灵"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 5,
+        "step_hits": 2
+      },
+      "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-21/5大场景实测Kling Image 4.0，一句话直出电商长图+原生8K-d324d6fef5.md",
+      "source_page": "wiki/sources/卡尔KlingImage整页交付与局部改字文章拆解.md"
+    },
+    {
+      "article": "20分钟手搓，搓出大厂级孕期管家应用",
+      "models": ["千问 Go!（产品；具体模型未披露）"],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 1
+      },
+      "raw_path": "raw/article/洛洛AI说/雷达-2026-11-21/20分钟手搓，搓出大厂级孕期管家应用-1a130e403e.md",
+      "source_page": "wiki/sources/洛洛千问Go个人应用资料保真与协作文章拆解.md"
+    }
+  ],
+  "analysis_scope": {
+    "covered": 5,
+    "deep": 3,
+    "registration_only": 2,
+    "excluded_without_source": 1,
+    "reused": 1,
+    "case_cards": 2,
+    "batch_unreviewed": 0,
+    "coverage": "coverage.json",
+    "note": "raw_without_source 保留历史未匹配及本批故意不建来源页的 LibTV 活动；它不是未处理。Antigravity 命中自动实测信号，但人工核定内容为演示和练习，不建案例卡。各有效账号只统计到一篇，非日常基线；跨号算法无对象映射，不据此认定没有同题。"
+  },
+  "median_by_account": {
+    "小林coding": 15010,
+    "卡尔的AI沃茨": 9575,
+    "沉默王二": 24950,
+    "洛洛AI说": 4482
+  }
+}

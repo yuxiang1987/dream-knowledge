@@ -1,0 +1,135 @@
+{
+  "acquired_at": "2026-11-21T09:31:09+08:00",
+  "accounts": [
+    {
+      "account": "路人甲TM",
+      "username": "gh_d516081071ec",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/lurenjiaTM/雷达-2026-11-21",
+      "added_articles": [
+        {
+          "id": "2247524710:1",
+          "title": "一起抓马！LibTV抓马剧场扶持计划上线，爆款最高30万元等你来拿",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524710&idx=1&sn=6aac01f8d64548e527ac0672b50f4a11",
+          "published": "2026-11-20 21:53",
+          "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-21/一起抓马！LibTV抓马剧场扶持计划上线，爆款最高30万元等你来拿-d8559ae414.md"
+        }
+      ]
+    },
+    {
+      "account": "摸鱼小李",
+      "username": "gh_3923025946c5",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/摸鱼小李/雷达-2026-11-21",
+      "added_articles": []
+    },
+    {
+      "account": "小林coding",
+      "username": "gh_fc46cf2353fc",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/小林coding/雷达-2026-11-21",
+      "added_articles": [
+        {
+          "id": "2247566619:1",
+          "title": "临近年终，后端招聘市场已经疯掉了。。",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247566619&idx=1&sn=a2556b18a865fb33396003cfc81a85e0",
+          "published": "2026-11-20 11:46",
+          "raw_path": "raw/article/小林coding/雷达-2026-11-21/临近年终，后端招聘市场已经疯掉了。。-5189109d8f.md"
+        }
+      ]
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "username": "gh_1421d5e48ca9",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/卡尔的AI沃茨/雷达-2026-11-21",
+      "added_articles": [
+        {
+          "id": "2247514036:1",
+          "title": "5大场景实测Kling Image 4.0，一句话直出电商长图+原生8K",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247514036&idx=1&sn=eb280c4a17d5edaf71fb3ec28cc17608",
+          "published": "2026-11-20 20:26",
+          "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-21/5大场景实测Kling Image 4.0，一句话直出电商长图+原生8K-d324d6fef5.md"
+        }
+      ]
+    },
+    {
+      "account": "苍何",
+      "username": "gh_fdb597c42fa4",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/苍何/雷达-2026-11-21",
+      "added_articles": []
+    },
+    {
+      "account": "沉默王二",
+      "username": "gh_f0ee5948865f",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/chenmowanger/雷达-2026-11-21",
+      "added_articles": [
+        {
+          "id": "2247552099:1",
+          "title": "Gemini 桌面版，干活有点猛啊。",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247552099&idx=1&sn=d66b7368593c3af6b28956e0f8a8af37",
+          "published": "2026-11-20 15:13",
+          "raw_path": "raw/article/chenmowanger/雷达-2026-11-21/Gemini 桌面版，干活有点猛啊。-37de58c641.md"
+        }
+      ]
+    },
+    {
+      "account": "洛洛AI说",
+      "username": "gh_426cd27710df",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/洛洛AI说/雷达-2026-11-21",
+      "added_articles": [
+        {
+          "id": "2247489445:1",
+          "title": "20分钟手搓，搓出大厂级孕期管家应用",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247489445&idx=1&sn=e9432945fae5eab549b14caccad82f90",
+          "published": "2026-11-20 16:46",
+          "raw_path": "raw/article/洛洛AI说/雷达-2026-11-21/20分钟手搓，搓出大厂级孕期管家应用-1a130e403e.md"
+        }
+      ]
+    },
+    {
+      "account": "郭震AI",
+      "username": "gh_ce69fa698e90",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/郭震AI/雷达-2026-11-21",
+      "added_articles": []
+    },
+    {
+      "account": "西羊石AI视频",
+      "username": "gh_f5c1e588b297",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/西羊石AI视频/雷达-2026-11-21",
+      "added_articles": []
+    }
+  ]
+}

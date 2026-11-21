@@ -1,0 +1,42 @@
+[
+  {
+    "account": "小林coding",
+    "n": 1,
+    "median": 15010,
+    "min": 15010,
+    "max": 15010,
+    "median_like": 6,
+    "median_share": 99,
+    "median_comment": 0
+  },
+  {
+    "account": "卡尔的AI沃茨",
+    "n": 1,
+    "median": 9575,
+    "min": 9575,
+    "max": 9575,
+    "median_like": 308,
+    "median_share": 765,
+    "median_comment": 24
+  },
+  {
+    "account": "沉默王二",
+    "n": 1,
+    "median": 24950,
+    "min": 24950,
+    "max": 24950,
+    "median_like": 72,
+    "median_share": 791,
+    "median_comment": 43
+  },
+  {
+    "account": "洛洛AI说",
+    "n": 1,
+    "median": 4482,
+    "min": 4482,
+    "max": 4482,
+    "median_like": 122,
+    "median_share": 194,
+    "median_comment": 30
+  }
+]
