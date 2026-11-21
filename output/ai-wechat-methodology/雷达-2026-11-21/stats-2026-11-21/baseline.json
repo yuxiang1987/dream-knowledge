@@ -1,5 +1,15 @@
 [
   {
+    "account": "路人甲TM",
+    "n": 1,
+    "median": 6705,
+    "min": 6705,
+    "max": 6705,
+    "median_like": 44,
+    "median_share": 195,
+    "median_comment": 22
+  },
+  {
     "account": "小林coding",
     "n": 1,
     "median": 15010,

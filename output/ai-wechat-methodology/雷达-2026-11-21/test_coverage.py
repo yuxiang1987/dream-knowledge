@@ -52,7 +52,7 @@ class DailyEvidence(unittest.TestCase):
         self.assertCountEqual(actual, expected)
         self.assertEqual(len(actual), len({r[3] for r in actual}))
         self.assertCountEqual([r["disposition"] for r in self.rows],
-                              ["excluded", "reused", "deep", "deep", "deep"])
+                              ["excluded", "reused", "deep", "deep", "deep", "deep"])
 
     def test_anchored_evidence_and_only_one_source_owner(self):
         sources = {p.relative_to(ROOT).as_posix(): read(p).split("---", 2)[1]

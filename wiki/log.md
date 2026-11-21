@@ -1852,3 +1852,9 @@
 - 新片尾在 `6.04s – 6.56s` 将「程序员梦哥，分享AI少踩坑」（深灰黑 `#1E293B` + 品牌蓝 `#155EEF`，留 0.6px 网格缝隙并带白色立体底影）切为 16 个点阵区块，伴随引导粒子块从消散区沿弧线带 `easeOutBack` 过冲弹性汇聚成形，`6.56s – 8.56s` 完整静止定格 2 秒。
 - 重新导出原版 `intro.gif`（1200×360、450 帧、9 秒、1,941,085 字节，SHA256 `b75cb025527976a3182fdeef3cae6f305dc40693c59c084fe33e4353423c4d34`）与微信兼容版 `intro-wechat.gif`（1000×300、165 帧、9 秒、640,636 字节，SHA256 `01a3000a59713fdbb0242e833bf7a96aa1d06a0b143b5118682101dacd10080f`）。
 - 同步更新 `dream-skills` 仓库 `md-wechat-layout` 资源、说明与测试并提交推送（`2c3fbd5e962b9107d114732a89671f5fdda38ff6`）；同步本库 `.agents/skills/md-wechat-layout/`、`scripts/installed_skills.json`、`scripts/test_mengge_pixel_dissolve.py`、`scripts/test_default_brand_intro.py` 及示例导出，`md-wechat-layout` 36 项 Node 测试与知识库 Python 回归测试、体验 `wiki_lint.py` 全部通过。
+
+## [2026-11-21] benchmark-analysis | 定时任务试跑与雷达日报晚间增量（路人甲TM 新增 1 篇）
+
+- 创建「对标雷达日报入库」定时自动化（`CRON_TZ=Asia/Shanghai 0 10 * * *`）并执行一次完整试跑：`python .agents/skills/gzh-benchmark-radar/scripts/ingest.py --root . daily --accounts .agents/skills/gzh-benchmark-radar/references/accounts.example.json --limit 5`。9 号各查 5 篇，本轮仅路人甲TM 新增 1 篇《日活破千万，WorkBuddy比我想象中跑得更快》（`2247524718:1`），其余 44 条已存在跳过，采集失败 0；新增篇互动统计成功 1（阅读 6705、点赞 44、在看 115、转发 195、收藏 15、评论 22），未重试。
+- 按 `gzh-benchmark-deconstruct` 默认增量路径完成第二段入库：该篇含身边用户付费反差、多模型产品策略与 ima 知识库协同的作者观点与经验复盘，非纯资讯转述，新建 [[sources/路人甲TM_WorkBuddy千万日活与多模型知识库观点]]，更新 [[topics/路人甲TM文章经营全景]] 本批入口与 `wiki/index.md`；全文无具体操作步骤或对照产物，不立实测案例卡。
+- 将晚间新增与同日 `output/ai-wechat-methodology/雷达-2026-11-21/` 上午批次合并维护（当日累计新增 6 篇：4 篇深拆、1 篇活动资讯仅登记、1 篇薪资推广重发复用），更新 `fetch-summary.json`、`stats-2026-11-21/`、`report.json`、`coverage.json`、`雷达简报-2026-11-21.md` 与 `test_coverage.py`。未修改任何既有 `raw/` 原文，不把单次阅读快照当日常基线或传播因果，未声称已实测本账号读者效果，不写正文、不发布。

@@ -384,3 +384,4 @@ AI Agent（能调用工具推进任务的AI系统）与Coding（用AI开发和�
 ## 2026-11-21 雷达增量
 
 - **仅登记｜纯活动资讯**：《一起抓马！LibTV抓马剧场扶持计划上线，爆款最高30万元等你来拿》，2026-11-20 21:53，[微信原文](https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524710&idx=1&sn=6aac01f8d64548e527ac0672b50f4a11)，`raw/article/lurenjiaTM/雷达-2026-11-21/一起抓马！LibTV抓马剧场扶持计划上线，爆款最高30万元等你来拿-d8559ae414.md`。正文转述平台活动的激励、资格与报名条件，无作者申报或制作测试，不深拆。
+- [[sources/路人甲TM_WorkBuddy千万日活与多模型知识库观点|日活破千万，WorkBuddy比我想象中跑得更快]]：2026-11-21 12:02，[微信原文](https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524718&idx=1&sn=b59233df580e248bd8a912711d648adf)，`raw/article/lurenjiaTM/雷达-2026-11-21/日活破千万，WorkBuddy比我想象中跑得更快-433de95a21.md`。主分类产品观点；从日活千万与 ARR 传闻切入朋友充会员的四类用途、三个月迭代、Harness 多模型选择策略、Skill 变现与 ima 知识库配合，末尾自述腾讯股东立场并吐槽腾讯文档。全文无具体操作步骤或对照产物，不立实测案例卡；日活与 ARR 未核官方出处，单篇合作披露未见（保留股东自白与账号级背景）。

@@ -23,6 +23,33 @@
     "case_card": null
   },
   {
+    "account": "路人甲TM",
+    "id": "2247524718:1",
+    "title": "日活破千万，WorkBuddy比我想象中跑得更快",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524718&idx=1&sn=b59233df580e248bd8a912711d648adf",
+    "published": "2026-11-21 12:02",
+    "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-21/日活破千万，WorkBuddy比我想象中跑得更快-433de95a21.md",
+    "raw_sha256": "9474b0f42e6c38327e78a9187f1dc2d29a5a878d9f0664d49368388d4d0612bc",
+    "body_sha256": "433de95a211ec7cd255c82646cb3888234b78daa5c4e46443ef7ea56216217e7",
+    "disposition": "deep",
+    "reason": "有身边用户付费反差、多模型产品策略与ima知识库协同的作者观点与经验复盘，非纯资讯转述；无具体实操步骤，不立案例卡。",
+    "anchors": [
+      "其实刚开始让他们用的时候，他们都是怀疑的态度，也不是特别愿意去用，结果我就一直催着他们用，前几天当我们聚餐的时候，我又问了一下，现在他们已经离不开WorkBuddy，而且都充成了会员。",
+      "那么如果我用一个Harness，你只限定我是用一种模型，这就是很奇怪的事情。",
+      "我们之前用AI写文章，没有知识库和有知识库出来完全是两回事。",
+      "最后，不停的推荐WorkBuddy还有一些私心，毕竟我是腾讯坚定不移的股东，哈哈哈。"
+    ],
+    "anchor_blocks": [
+      7,
+      26,
+      41,
+      44
+    ],
+    "source_path": "wiki/sources/路人甲TM_WorkBuddy千万日活与多模型知识库观点.md",
+    "author_path": "wiki/topics/路人甲TM文章经营全景.md",
+    "case_card": null
+  },
+  {
     "account": "小林coding",
     "id": "2247566619:1",
     "title": "临近年终，后端招聘市场已经疯掉了。。",

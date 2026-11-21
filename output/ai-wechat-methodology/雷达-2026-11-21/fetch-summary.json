@@ -1,11 +1,11 @@
 {
-  "acquired_at": "2026-11-21T09:31:09+08:00",
+  "acquired_at": "2026-11-21T21:36:39+08:00",
   "accounts": [
     {
       "account": "路人甲TM",
       "username": "gh_d516081071ec",
       "fetched": 5,
-      "added": 1,
+      "added": 2,
       "skipped_existing": 4,
       "failed": 0,
       "directory": "raw/article/lurenjiaTM/雷达-2026-11-21",
@@ -16,6 +16,13 @@
           "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524710&idx=1&sn=6aac01f8d64548e527ac0672b50f4a11",
           "published": "2026-11-20 21:53",
           "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-21/一起抓马！LibTV抓马剧场扶持计划上线，爆款最高30万元等你来拿-d8559ae414.md"
+        },
+        {
+          "id": "2247524718:1",
+          "title": "日活破千万，WorkBuddy比我想象中跑得更快",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524718&idx=1&sn=b59233df580e248bd8a912711d648adf",
+          "published": "2026-11-21 12:02",
+          "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-21/日活破千万，WorkBuddy比我想象中跑得更快-433de95a21.md"
         }
       ]
     },

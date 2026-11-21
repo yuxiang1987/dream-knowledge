@@ -3,6 +3,16 @@
   "stats_dir": "output/ai-wechat-methodology/雷达-2026-11-21/stats-2026-11-21",
   "baseline": [
     {
+      "account": "路人甲TM",
+      "n": 1,
+      "median": 6705,
+      "min": 6705,
+      "max": 6705,
+      "median_like": 44,
+      "median_share": 195,
+      "median_comment": 22
+    },
+    {
       "account": "小林coding",
       "n": 1,
       "median": 15010,
@@ -56,6 +66,7 @@
     "raw/article/小林coding/雷达-2026-11-13/100,000,000 Token 免费薅！爽玩 DeepSeek V4.1 Flash、GLM-5.3 ！-a2e6be742b.md",
     "raw/article/小林coding/雷达-2026-11-14/Anthropic开源神级项目，专治黑心AI中转站！-1449bc4845.md",
     "raw/article/小林coding/雷达-2026-11-14/工资到账119587.68元，爱你字节！-d75da9f44e.md",
+    "raw/article/卡尔的AI沃茨/雷达-2026-11-13/一口气看懂黄仁勋辞职的所有瓜！比奥特曼两年前被免职还刺激-3291abd62b.md",
     "raw/article/lurenjiaTM/雷达-2026-11-21/一起抓马！LibTV抓马剧场扶持计划上线，爆款最高30万元等你来拿-d8559ae414.md"
   ],
   "case_candidates": [
@@ -78,7 +89,9 @@
     },
     {
       "article": "20分钟手搓，搓出大厂级孕期管家应用",
-      "models": ["千问 Go!（产品；具体模型未披露）"],
+      "models": [
+        "千问 Go!（产品；具体模型未披露）"
+      ],
       "angle": "",
       "steps": "",
       "inputs": "",
@@ -93,17 +106,18 @@
     }
   ],
   "analysis_scope": {
-    "covered": 5,
-    "deep": 3,
+    "covered": 6,
+    "deep": 4,
     "registration_only": 2,
     "excluded_without_source": 1,
     "reused": 1,
     "case_cards": 2,
     "batch_unreviewed": 0,
     "coverage": "coverage.json",
-    "note": "raw_without_source 保留历史未匹配及本批故意不建来源页的 LibTV 活动；它不是未处理。Antigravity 命中自动实测信号，但人工核定内容为演示和练习，不建案例卡。各有效账号只统计到一篇，非日常基线；跨号算法无对象映射，不据此认定没有同题。"
+    "note": "raw_without_source 保留历史未匹配及本批故意不建来源页的 LibTV 活动；它不是未处理。Antigravity 命中自动实测信号，但人工核定内容为演示和练习，不建案例卡；路人甲TM《日活破千万，WorkBuddy比我想象中跑得更快》为产品观点与身边用户反馈复盘，无具体操作步骤或对照产物，不建案例卡。各有效账号只统计到一篇，非日常基线；跨号算法无对象映射，不据此认定没有同题。"
   },
   "median_by_account": {
+    "路人甲TM": 6705,
     "小林coding": 15010,
     "卡尔的AI沃茨": 9575,
     "沉默王二": 24950,

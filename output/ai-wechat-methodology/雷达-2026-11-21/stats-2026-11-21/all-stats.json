@@ -6,6 +6,20 @@
     "error": "请求未完成：wechat_mp/v2/fetch_article_stats HTTP 400"
   },
   {
+    "account": "路人甲TM",
+    "id": "2247524718:1",
+    "title": "日活破千万，WorkBuddy比我想象中跑得更快",
+    "published": null,
+    "read_num": 6705,
+    "like_count": 44,
+    "old_like_count": 115,
+    "share_count": 195,
+    "collect_count": 15,
+    "comment_count": 22,
+    "request_id": "26163637-335e-4505-b09c-b391f3b9a61a",
+    "ratio": 1.0
+  },
+  {
     "account": "小林coding",
     "id": "2247566619:1",
     "title": "临近年终，后端招聘市场已经疯掉了。。",
