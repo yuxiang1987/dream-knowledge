@@ -5,7 +5,7 @@ tags: [WorkBuddy, Agent, 公众号, 设置教程]
 status: 稳定
 sources: ["raw/article/程序员梦哥/WorkBuddy 做好这几个设置，让WorkBuddy越来越懂你.md"]
 created: 2026-11-18
-updated: 2026-11-18
+updated: 2026-11-22
 ---
 
 # WorkBuddy七处设置教程定稿
@@ -40,6 +40,11 @@ updated: 2026-11-18
 - [正文 HTML](<../../output/workbuddy-wechat-layout-20261118/WorkBuddy 做好这几个设置，让WorkBuddy越来越懂你.wechat.html>)
 - [公众号封面 PNG](<../../output/workbuddy-wechat-layout-20261118/WorkBuddy-公众号封面.png>)
 - [独立片头 GIF](<../../output/workbuddy-wechat-layout-20261118/WorkBuddy 做好这几个设置，让WorkBuddy越来越懂你.intro.gif>)
+
+## 投放与运营记录
+
+- **2026-11-22**：用户确认《WorkBuddy 做好这几个设置，让WorkBuddy越来越懂你》「增加 1000 加热」。
+  - 未核实项：「1000」的计价单位（元或加热豆/曝光量）、此前是否已有加热及累计投入、最终发布时间，以及加热前后的阅读、点赞、转发、收藏与新增关注数据均尚未提供。当前数据若后续补录，需按「自然与付费混合」口径登记，不直接用于推算自然流量或投流 ROI。
 
 ## 相关页面
 
