@@ -1,0 +1,119 @@
+{
+  "acquired_at": "2026-11-23T10:00:55+08:00",
+  "accounts": [
+    {
+      "account": "路人甲TM",
+      "username": "gh_d516081071ec",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/lurenjiaTM/雷达-2026-11-23",
+      "added_articles": []
+    },
+    {
+      "account": "摸鱼小李",
+      "username": "gh_3923025946c5",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/摸鱼小李/雷达-2026-11-23",
+      "added_articles": []
+    },
+    {
+      "account": "小林coding",
+      "username": "gh_fc46cf2353fc",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/小林coding/雷达-2026-11-23",
+      "added_articles": [
+        {
+          "id": "2247566640:1",
+          "title": "重磅！Anthropic首次公开Claude记忆架构！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247566640&idx=1&sn=4cc9a9c63511ba8fc44b3cb86f40f900",
+          "published": "2026-11-22 15:16",
+          "raw_path": "raw/article/小林coding/雷达-2026-11-23/重磅！Anthropic首次公开Claude记忆架构！-7900785d14.md"
+        }
+      ]
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "username": "gh_1421d5e48ca9",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/卡尔的AI沃茨/雷达-2026-11-23",
+      "added_articles": []
+    },
+    {
+      "account": "苍何",
+      "username": "gh_fdb597c42fa4",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/苍何/雷达-2026-11-23",
+      "added_articles": [
+        {
+          "id": "2247500855:1",
+          "title": "用 OiiOii Motion + Opus 5.5 做动画视频，效果猛的离谱",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500855&idx=1&sn=5b7a563fb49d99321e04247397da1b7d",
+          "published": "2026-11-23 09:08",
+          "raw_path": "raw/article/苍何/雷达-2026-11-23/用 OiiOii Motion + Opus 5.5 做动画视频，效果猛的离谱-14cd6b2adb.md"
+        }
+      ]
+    },
+    {
+      "account": "沉默王二",
+      "username": "gh_f0ee5948865f",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/chenmowanger/雷达-2026-11-23",
+      "added_articles": []
+    },
+    {
+      "account": "洛洛AI说",
+      "username": "gh_426cd27710df",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/洛洛AI说/雷达-2026-11-23",
+      "added_articles": []
+    },
+    {
+      "account": "郭震AI",
+      "username": "gh_ce69fa698e90",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/郭震AI/雷达-2026-11-23",
+      "added_articles": [
+        {
+          "id": "2247526243:1",
+          "title": "终于断网也能用的知识库来了，开箱即用，几万个文件拔了网线照样问！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247526243&idx=1&sn=a5481496569ed8fc57d23ebd71103b96",
+          "published": "2026-11-22 11:10",
+          "raw_path": "raw/article/郭震AI/雷达-2026-11-23/终于断网也能用的知识库来了，开箱即用，几万个文件拔了网线照样问！-0c054742fa.md"
+        }
+      ]
+    },
+    {
+      "account": "西羊石AI视频",
+      "username": "gh_f5c1e588b297",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/西羊石AI视频/雷达-2026-11-23",
+      "added_articles": []
+    }
+  ]
+}

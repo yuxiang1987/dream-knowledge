@@ -1,0 +1,81 @@
+[
+  {
+    "account": "小林coding",
+    "id": "2247566640:1",
+    "title": "重磅！Anthropic首次公开Claude记忆架构！",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247566640&idx=1&sn=4cc9a9c63511ba8fc44b3cb86f40f900",
+    "published": "2026-11-22 15:16",
+    "raw_path": "raw/article/小林coding/雷达-2026-11-23/重磅！Anthropic首次公开Claude记忆架构！-7900785d14.md",
+    "raw_sha256": "931105a29dd6fce7dccbe4fff80f81251374eb99446a03f140fbdc2b7f8dcdb5",
+    "body_sha256": "7900785d14240bdacb213796ce5c937f111a2c47be60d6b3771ebdf86ce3424a",
+    "disposition": "excluded",
+    "reason": "纯资讯转述：全文转述并类比拆解 Anthropic 官方工程博客《The components of agent memory》的记忆架构与实验，未展示作者本人部署、测试或记忆改造实操，只登记不深拆，不建 source 与案例卡。",
+    "anchors": [
+      "最近 Anthropic 工程团队发了一篇硬核博客《The components of agent memory》，就把这件事彻底拆了一遍。",
+      "Anthropic 挑的测试场特别接地气，让不同版本的 Claude 去玩《宝可梦红》。",
+      "读完 Anthropic 这篇博客，不管你是自己动手搭 Agent，还是日常重度使用 AI 编程工具，其实有 3 条很实在的经验，今天就能直接用上。"
+    ],
+    "anchor_blocks": [
+      3,
+      50,
+      140
+    ],
+    "source_path": null,
+    "author_path": "wiki/topics/小林coding文章写法拆解.md",
+    "case_card": null
+  },
+  {
+    "account": "苍何",
+    "id": "2247500855:1",
+    "title": "用 OiiOii Motion + Opus 5.5 做动画视频，效果猛的离谱",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzU4NTE1Mjg4MA%3D%3D&mid=2247500855&idx=1&sn=5b7a563fb49d99321e04247397da1b7d",
+    "published": "2026-11-23 09:08",
+    "raw_path": "raw/article/苍何/雷达-2026-11-23/用 OiiOii Motion + Opus 5.5 做动画视频，效果猛的离谱-14cd6b2adb.md",
+    "raw_sha256": "d88ec23f4f530dc5d47dfa43e8a199b594ad0c91ecea62938cdf14092ec735fb",
+    "body_sha256": "14cd6b2adba48818597b247988779c86afbd641e65c250aab21fa3ddc60d48f1",
+    "disposition": "deep",
+    "reason": "包含四条成品展示、DeepSeek 与 Opus 5.5 对比及科普视频完整复刻步骤与人工纠偏，非纯资讯转述。",
+    "anchors": [
+      "Motion 则是让大模型输出代码，精确计算每个元素的坐标、字号和动画曲线，再做确定性渲染，所以文字天然清晰、图表数值天然对得上，而且代码本身就是可编辑的中间产物，改文案不用重新生成整条。",
+      "然后艺术总监帮我定位到去年的谷歌频发大模型时间段去了，为了防止对不上，我先在 Grok 把谷歌发的新模型对应事件直接复制过来了。",
+      "我同时选择了 DeepSeek 和 Opus 5.5，我发现 DeepSeek 出的视频会更像是 PPT，且声音不同分镜是对不上的。",
+      "我也报名了，获得了一些算力，然后做了一些好玩的视频去发视频号去了。"
+    ],
+    "anchor_blocks": [
+      14,
+      28,
+      29,
+      48
+    ],
+    "source_path": "wiki/sources/苍何OiiOiiMotion与Opus5.5动画视频文章拆解.md",
+    "author_path": "wiki/topics/苍何文章写法拆解.md",
+    "case_card": "案例：参考视频复刻知识科普动画与局部替换（苍何，2026-11-23）"
+  },
+  {
+    "account": "郭震AI",
+    "id": "2247526243:1",
+    "title": "终于断网也能用的知识库来了，开箱即用，几万个文件拔了网线照样问！",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247526243&idx=1&sn=a5481496569ed8fc57d23ebd71103b96",
+    "published": "2026-11-22 11:10",
+    "raw_path": "raw/article/郭震AI/雷达-2026-11-23/终于断网也能用的知识库来了，开箱即用，几万个文件拔了网线照样问！-0c054742fa.md",
+    "raw_sha256": "5b59475715b331ede947081bd1c14b83bca098088edbf7712b314cca8639b797",
+    "body_sha256": "0c054742fada35065aea811b07d8b861dd78117c6feb796054f48e77a8ab4aff",
+    "disposition": "deep",
+    "reason": "DeepLocals V4.1 独立新版本更新，含断网模式、DeepSeek Harness 对比演示及 400 题自测数据与长对话更新。",
+    "anchors": [
+      "今天跟大家汇报下 DeepLocals 最新 V4.1 升级情况，最大更新是：新增断网模式。",
+      "如下DeepSeek Harness中提问，接近9分钟过去，无任何反应：",
+      "上线前，我们实测了400道知识检索题目，实测显示使用在线模式Qwen3.8:27B，回答问题准确率：91.25%",
+      "第一，长对话评测总分从 29.4 提到 95.6："
+    ],
+    "anchor_blocks": [
+      2,
+      7,
+      24,
+      41
+    ],
+    "source_path": "wiki/sources/郭震DeepLocals4.1断网模式与长对话更新文章拆解.md",
+    "author_path": "wiki/topics/郭震AI文章写法拆解.md",
+    "case_card": "案例：断网模式本地知识库检索与 400 题准确率对照（郭震AI，2026-11-22）"
+  }
+]

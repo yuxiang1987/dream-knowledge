@@ -1,0 +1,109 @@
+{
+  "batch": "output/ai-wechat-methodology/雷达-2026-11-23",
+  "stats_dir": "output/ai-wechat-methodology/雷达-2026-11-23/stats-2026-11-23",
+  "baseline": [
+    {
+      "account": "小林coding",
+      "n": 1,
+      "median": 21493,
+      "min": 21493,
+      "max": 21493,
+      "median_like": 206,
+      "median_share": 1467,
+      "median_comment": 18
+    },
+    {
+      "account": "苍何",
+      "n": 1,
+      "median": 1382,
+      "min": 1382,
+      "max": 1382,
+      "median_like": 14,
+      "median_share": 121,
+      "median_comment": 14
+    },
+    {
+      "account": "郭震AI",
+      "n": 1,
+      "median": 5717,
+      "min": 5717,
+      "max": 5717,
+      "median_like": 42,
+      "median_share": 433,
+      "median_comment": 29
+    }
+  ],
+  "anomalies": [],
+  "event_clusters": [],
+  "raw_without_source": [
+    "raw/article/lurenjiaTM/实测OiiOii最新Skill，这套电商组合堪称双十一王炸！.md",
+    "raw/article/lurenjiaTM/真正的双11来了！天猫预售居然免定金！.md",
+    "raw/article/西羊石AI视频/雷达-2026-11-16/卧槽，王者荣耀联名 LibTV 搞大事！这波 AI 视频大赛含金量拉满了-fd633b8192.md",
+    "raw/article/小林coding/雷达-2026-11-01/Anthropic直接掀桌：Code Review不再留给人-0844cd6d54.md",
+    "raw/article/小林coding/雷达-2026-11-01/淘汰Java岗，中国又一新兴岗位崛起！这将是程序员未来10年最好的方向。-0c8f44d39a.md",
+    "raw/article/小林coding/雷达-2026-11-02/震撼，DeepSeek开源超级 Agent 架构！-73e4b9bcff.md",
+    "raw/article/小林coding/雷达-2026-11-11/Anthropic直接劝退：慎用子 Agent！-e97495c88b.md",
+    "raw/article/小林coding/雷达-2026-11-13/100,000,000 Token 免费薅！爽玩 DeepSeek V4.1 Flash、GLM-5.3 ！-a2e6be742b.md",
+    "raw/article/小林coding/雷达-2026-11-14/Anthropic开源神级项目，专治黑心AI中转站！-1449bc4845.md",
+    "raw/article/小林coding/雷达-2026-11-14/工资到账119587.68元，爱你字节！-d75da9f44e.md",
+    "raw/article/小林coding/雷达-2026-11-23/重磅！Anthropic首次公开Claude记忆架构！-7900785d14.md",
+    "raw/article/卡尔的AI沃茨/雷达-2026-11-13/一口气看懂黄仁勋辞职的所有瓜！比奥特曼两年前被免职还刺激-3291abd62b.md",
+    "raw/article/lurenjiaTM/雷达-2026-11-21/一起抓马！LibTV抓马剧场扶持计划上线，爆款最高30万元等你来拿-d8559ae414.md"
+  ],
+  "case_candidates": [
+    {
+      "article": "用 OiiOii Motion + Opus 5.5 做动画视频，效果猛的离谱",
+      "models": [
+        "OiiOii Motion",
+        "Opus 5.5",
+        "DeepSeek",
+        "DeepSeek V4.1 Flash"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "manual_review": "作者分步演示复刻科普动画并对比 DeepSeek 与 Opus 5.5"
+      },
+      "raw_path": "raw/article/苍何/雷达-2026-11-23/用 OiiOii Motion + Opus 5.5 做动画视频，效果猛的离谱-14cd6b2adb.md",
+      "source_page": "wiki/sources/苍何OiiOiiMotion与Opus5.5动画视频文章拆解.md"
+    },
+    {
+      "article": "终于断网也能用的知识库来了，开箱即用，几万个文件拔了网线照样问！",
+      "models": [
+        "DeepLocals V4.1",
+        "Qwen3.8:27B",
+        "9B本地模型",
+        "DeepSeek Harness"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "manual_review": "团队内部 400 题在线/断网对比评测、3万+文件查询 GIF 与 DeepSeek Harness 对照"
+      },
+      "raw_path": "raw/article/郭震AI/雷达-2026-11-23/终于断网也能用的知识库来了，开箱即用，几万个文件拔了网线照样问！-0c054742fa.md",
+      "source_page": "wiki/sources/郭震DeepLocals4.1断网模式与长对话更新文章拆解.md"
+    }
+  ],
+  "analysis_scope": {
+    "covered": 3,
+    "deep": 2,
+    "registration_only": 1,
+    "excluded_without_source": 1,
+    "reused": 0,
+    "case_cards": 2,
+    "batch_unreviewed": 0,
+    "coverage": "coverage.json",
+    "note": "raw_without_source 包含历史未匹配及本批故意不建来源页的小林coding《重磅！Anthropic首次公开Claude记忆架构！》；它不是未处理。该篇仅因转述 Anthropic 博客出现实测与模型关键词被脚本自动命中，人工核定为纯资讯转述，不建 source 与案例卡。各有效账号只统计到一篇（n=1），非日常基线；跨号事件簇为空不代表全网无同题。"
+  },
+  "median_by_account": {
+    "小林coding": 21493,
+    "苍何": 1382,
+    "郭震AI": 5717
+  }
+}

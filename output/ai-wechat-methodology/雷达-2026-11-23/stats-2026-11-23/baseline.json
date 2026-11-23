@@ -1,0 +1,32 @@
+[
+  {
+    "account": "小林coding",
+    "n": 1,
+    "median": 21493,
+    "min": 21493,
+    "max": 21493,
+    "median_like": 206,
+    "median_share": 1467,
+    "median_comment": 18
+  },
+  {
+    "account": "苍何",
+    "n": 1,
+    "median": 1382,
+    "min": 1382,
+    "max": 1382,
+    "median_like": 14,
+    "median_share": 121,
+    "median_comment": 14
+  },
+  {
+    "account": "郭震AI",
+    "n": 1,
+    "median": 5717,
+    "min": 5717,
+    "max": 5717,
+    "median_like": 42,
+    "median_share": 433,
+    "median_comment": 29
+  }
+]
