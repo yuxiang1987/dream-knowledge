@@ -1938,3 +1938,8 @@
 
 - 通过 TikHub 抓取「摸鱼小李」第 31–80 篇（6 篇 HTTP 400、1 篇正文过短，实得 43 篇，全部含首部 `<svg>`），汇总于 `output/moyu-svg-research-2026-11-25/index_next50.json` 与 `gallery_next50.html`。
 - 完整还原三代片头演进（前 SVG 时代 → 第一代 `345×660` 竖版金句卡片 → 第二代 `1246×220` 纯矢量无限循环），从第一代 15 篇中提炼 `ripple_pulse`（`animate:r` 波纹扩散）与 `smil_motion`（`<animateMotion>` 轨迹运动）加入 `dream-skills`（commit 待同步）与 `gzh-svg-intro`，并更新 `wiki/topics/摸鱼小李文章片头动画实现.md`。
+
+## [2026-11-25] asset | 生成《实测 DeepSeek V4.1 Flash-1017：许愿式编程》无卡片 SVG 开头动画
+
+- 依据 `raw/article/程序员拾梦/实测DeepSeek V4.1 Flash-1017：许愿式编程，还真有点东西.md` 的 4 个实测项目，使用升级后的 `gzh-svg-intro`（`smil_motion`、`ripple_pulse`、`particle_fountain`、双向 `smil_stroke_draw` 等）生成定制片头：`output/ai-wechat-methodology/deepseek-v41-flash-intro-20261125/intro.svg` 与 `preview.html`（`6s` 循环，57 个 `<animate>`、57 个 `<animateTransform>`，通过微信 SVG 合规校验）。
+- 分镜设计：左侧 DeepSeek V4.1 Flash 许愿星芒喷出星尘并沿贝塞尔曲线飞过画布，依次通过波纹扩散点亮 4 个无卡片实测道具——红蓝错位 `OFFSET` 15s 动效、冒热气「深夜拉面」碗、零件左右炸开吸合的「3D 复古收音机」、亮灯下雨的「苔溪镇 3D」微缩小镇，最后弹出绿勾与「4 个愿望 · 全可玩」。
