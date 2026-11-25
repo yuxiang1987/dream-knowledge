@@ -1933,3 +1933,8 @@
 - 进一步拆解「摸鱼小李」`[02]`、`[04]`、`[08]`、`[12]`、`[18]`、`[19]` 等代表作的关键帧时序与缓动曲线，提炼三段式物理发射、双向 `stroke-dashoffset` 转场、多段抛物线粒子喷泉、快速切帧→炸开→波浪队列弹跳及四大黄金曲线分工。
 - 在 `dream-skills`（commit `033687a35f08720922045ed06f523bf74e6e93`）新增 `launch_recoil`、`particle_fountain`、`stagger_bounce` 与双向 `smil_stroke_draw` 原语，同步更新 `references/storyboard-dna.md` 与 `tests/test_build_svg_intro.py`（6 项测试通过）。
 - 更新知识库 `.agents/skills/gzh-svg-intro/`、`scripts/installed_skills.json` 与 `wiki/topics/摸鱼小李文章片头动画实现.md`。
+
+## [2026-11-25] skill-sync | 扩展抓取摸鱼小李第 31–80 篇（实得 43 篇）并补全三代片头演进蒸馏
+
+- 通过 TikHub 抓取「摸鱼小李」第 31–80 篇（6 篇 HTTP 400、1 篇正文过短，实得 43 篇，全部含首部 `<svg>`），汇总于 `output/moyu-svg-research-2026-11-25/index_next50.json` 与 `gallery_next50.html`。
+- 完整还原三代片头演进（前 SVG 时代 → 第一代 `345×660` 竖版金句卡片 → 第二代 `1246×220` 纯矢量无限循环），从第一代 15 篇中提炼 `ripple_pulse`（`animate:r` 波纹扩散）与 `smil_motion`（`<animateMotion>` 轨迹运动）加入 `dream-skills`（commit 待同步）与 `gzh-svg-intro`，并更新 `wiki/topics/摸鱼小李文章片头动画实现.md`。
