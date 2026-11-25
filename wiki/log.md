@@ -2025,3 +2025,9 @@
 
 - 按用户反馈“先暂时用我们蒸馏完摸鱼小李所有开头后的那个版本，没有原来的效果好”，在 `dream-skills` 回退 `gzh-svg-intro` 至 `1cfee2c` 状态（提交 `fc1d03094f2b393f82c5c8a6ba76360af2e2cd36`，移除后续新增的 `style-catalog.md`、`svg_props.py`、`test_svg_props.py` 与 GSAP/Anime.js 试验原语，保留摸鱼小李 80 篇蒸馏的全部非卡片模板与物理/粒子/波纹/轨迹原语）。
 - 同步清理 `.agents/skills/gzh-svg-intro/` 并更新 `scripts/installed_skills.json`，全部单元测试、`test_installed_skills.py`、`test_repository_rules.py` 与 `wiki_lint.py` 均通过。
+
+## [2026-11-25] asset | 制作 WorkBuddy 折纸手机创意片头样片
+
+- 按用户要求将“先创意分镜，再绘制专属道具”的方法落地为一版样片：需求纸展开成红黑网格、自然绿留白、炭黑青柠三套原型，选中正文方案 C；纸张侧翼与顶角依次折合为手机；手指按下按钮后能量环增长，跑步角色出现，最后弹出对勾。
+- 输出 `output/ai-wechat-methodology/workbuddy-origami-intro-v1/`：1246×220、8 秒循环纯 SVG+SMIL、公众号内嵌片段、带复制与定格的动态预览页、同时间轴 160 帧 GIF（约 2.98MB）、六张关键帧、转场检查图、浏览器预览截图、分镜记录与复现脚本。复用 `gzh-svg-intro` 的品牌母版和基础动作，主题道具与分镜为本篇定制；未修改技能、raw 原稿或既有文章排版。
+- 5 项交付测试通过：纯内嵌 SVG 结构与复制片段一致、关键帧时间与缓动合法、点击先于能量环激活、原稿 SHA256 不变、GIF 时长及六处关键帧与浏览器输出的像素误差。桌面浏览器多时间点检查与转场检查完成，`wiki_lint.py` 通过（仅有既有来源为空警告）。公众号后台粘贴、保存重载与手机微信播放尚未验收；画面为创意示意，不以折纸过程或示意界面冒充真实产品录屏。
