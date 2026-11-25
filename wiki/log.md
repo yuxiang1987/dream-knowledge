@@ -2020,3 +2020,8 @@
   2. 右侧依次通过 `bounce_drop` 弹性落下 3 个高精细拟物道具：`prop_clapperboard`（东方巨物短剧 · 4段）、`prop_gamepad` + 微缩战机子弹（太空射击 · 吸装备）、`prop_retro_pc`（`QWERTY / WPM 英语` · 打字背单词 · 0元）；
   3. 最右侧弹出「免费够用!」与过冲绿勾。
 - 已通过内置浏览器定格检查 `2.4s`、`3.4s`、`6.2s` 关键帧，确认无遮挡无裁切。
+
+## [2026-11-25] skill-sync | 按用户反馈将 gzh-svg-intro 回退至「摸鱼小李全量蒸馏基线」（1cfee2c）
+
+- 按用户反馈“先暂时用我们蒸馏完摸鱼小李所有开头后的那个版本，没有原来的效果好”，在 `dream-skills` 回退 `gzh-svg-intro` 至 `1cfee2c` 状态（提交 `fc1d03094f2b393f82c5c8a6ba76360af2e2cd36`，移除后续新增的 `style-catalog.md`、`svg_props.py`、`test_svg_props.py` 与 GSAP/Anime.js 试验原语，保留摸鱼小李 80 篇蒸馏的全部非卡片模板与物理/粒子/波纹/轨迹原语）。
+- 同步清理 `.agents/skills/gzh-svg-intro/` 并更新 `scripts/installed_skills.json`，全部单元测试、`test_installed_skills.py`、`test_repository_rules.py` 与 `wiki_lint.py` 均通过。

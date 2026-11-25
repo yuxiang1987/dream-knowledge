@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/yuxiang1987/dream-skills",
-  "commit": "ae908d9094bf96c587727d1c0948fdf45215ee7d",
+  "commit": "fc1d03094f2b393f82c5c8a6ba76360af2e2cd36",
   "skills": [
     "gzh-webchat-cover",
     "md-wechat-layout",
@@ -89,13 +89,10 @@
     "gzh-svg-intro/agents/openai.yaml": "236cc9787b983d5accf1b234f49f88e83c96e92396319e144c5dcc357383ee83",
     "gzh-svg-intro/assets/brand-opener.svg.frag": "e79e2399011b57e9a5ca0e3c7fe8981c54337838aa48fc71a27bba6b182b89a1",
     "gzh-svg-intro/references/storyboard-dna.md": "3787b948c87cde9a7faaefe44837949ccceeca9db70e62ee972c266ca7804613",
-    "gzh-svg-intro/references/style-catalog.md": "ac352fcfc42ee28404be84f2633753fbb930032800005187a3a4bb4246020eda",
-    "gzh-svg-intro/scripts/build_svg_intro.py": "ba76247e76fa3f24e246b28419695fd4ac3c58ee7c0f7a5e0bd0cdf01ac9f8d2",
-    "gzh-svg-intro/scripts/svg_props.py": "e28477d7fc5f650d904683e135de698d9508331043d71577d1ac92567159b0f3",
-    "gzh-svg-intro/SKILL.md": "af82a6547f49a8f8009c4bd8e54f564d2a11b0e2b5b01e12fbb976adbb19b916",
+    "gzh-svg-intro/scripts/build_svg_intro.py": "2ec05a8e43a5224c38738e1dbf2aa3458270cc0777fd4a2ed4e7eda07bce2123",
+    "gzh-svg-intro/SKILL.md": "db039b69e271ff9a50b0edd625740d569e7d5c72a6bf9d76a5223b67e58bccc1",
     "gzh-svg-intro/tests/intro-cases.md": "f05bc2c4b4a313958eeed9878bbd125dcdcb5dce583936adc5a63579196cda51",
-    "gzh-svg-intro/tests/test_build_svg_intro.py": "b17c8695c9ec1ea9eb23d2d2ca314fa6f432ce5f7abe5e81c5c519ec725cc82c",
-    "gzh-svg-intro/tests/test_svg_props.py": "510f6ac66e4bb4a900431823e5742b4e397bceac62b52cc22a2f17a454e16360"
+    "gzh-svg-intro/tests/test_build_svg_intro.py": "db1d1861f4e973bd2252d1581d1d23e4c6fffe716c1c97d2d2547621a994431d"
   },
   "skill_commits": {
     "md-wechat-layout": "57507759ae10ce6884d250536c1eab5a88cd04df",
@@ -105,6 +102,6 @@
     "gzh-benchmark-deconstruct": "e78e17df181682500b6725707bcddd2b3c0968d0",
     "gzh-benchmark-radar": "3c8f02fdf7e224312f6b1df2f9a4fbe784ed3667",
     "gzh-webchat-cover": "f824d1054d2353c89a3ddf51adfe2a9f0ddca608",
-    "gzh-svg-intro": "ae908d9094bf96c587727d1c0948fdf45215ee7d"
+    "gzh-svg-intro": "fc1d03094f2b393f82c5c8a6ba76360af2e2cd36"
   }
 }
