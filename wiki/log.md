@@ -2012,3 +2012,11 @@
 - 按用户反馈彻底移除 3 张卡片外框，重做 `output/ai-wechat-methodology/gpt-image-25-intro-20261125/intro.svg` 与 `preview.html`（`8s` 循环，119,674 字节，54 个 `<animate>`、43 个 `<animateTransform>`）：
   - 铅笔直接在白底勾勒 `@Sketch` 火柴人 → 原地变身并穿戴银黑发光战甲，轰出贯穿画布的蓝色冲击波与碎石粒子 → 悬浮大字「发射！」切换为蓝色「下班！」→ 右侧能量冲击点亮 `+50% 生成提速` 圆徽章与绿勾。
 - 已通过内置浏览器定格检查 `2.5s`、`3.6s`、`5.4s` 关键帧，确认零卡片框、无遮挡无裁切。
+
+## [2026-11-25] asset | 生成《GPT-6 Astra太费Token，我找了个免费替补》SVG 开头动画
+
+- 依据 `raw/article/程序员拾梦/GPT-6 Astra太费Token，我找了个免费替补.md`，调用 `svg_props.py` 高精细道具库生成定制片头 `output/ai-wechat-methodology/agnes-ai-intro-20261125/intro.svg` 与 `preview.html`（`8s` 循环，136,653 字节，44 个 `<animate>`、45 个 `<animateTransform>`）：
+  1. 左侧 `GPT-6 Astra` 红色进度条见底后切换为绿色 `Agnes AI · 免费替补`；
+  2. 右侧依次通过 `bounce_drop` 弹性落下 3 个高精细拟物道具：`prop_clapperboard`（东方巨物短剧 · 4段）、`prop_gamepad` + 微缩战机子弹（太空射击 · 吸装备）、`prop_retro_pc`（`QWERTY / WPM 英语` · 打字背单词 · 0元）；
+  3. 最右侧弹出「免费够用!」与过冲绿勾。
+- 已通过内置浏览器定格检查 `2.4s`、`3.4s`、`6.2s` 关键帧，确认无遮挡无裁切。
