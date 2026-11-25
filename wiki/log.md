@@ -1922,3 +1922,8 @@
   1. `scripts/build_svg_intro.py` 新增 `smil_attr`、`smil_stroke_draw`、`rotate_around`、`skew_around`、`perspective_grid` 原语及主循环 `dur` 自适应支持；
   2. 新增 3 套非卡片舞台模板：`pipeline-nodes`（无卡片节点连线与光点传输）、`viewport-3d`（3D 透视视口 + `animate:points` 旋转立方体 + 2.5D `skewY` 图层炸开）、`split-editor`（单视口左文右对话就地改写）；
   3. 更新 `SKILL.md`、`references/storyboard-dna.md`、`tests/intro-cases.md` 与 `tests/test_build_svg_intro.py`（6 项单元测试全部通过）。
+
+## [2026-11-25] asset | 生成《WorkBuddy + huashu skill 手搓健身小程序》无卡片 SVG 开头动画
+
+- 依据 `raw/article/程序员梦哥/WorkBuddy + huashu skill 手搓健身小程序（附提示词）.md` 的真实流程与视觉风格，使用升级后的 `gzh-svg-intro` 生成无卡片定制片头：`output/ai-wechat-methodology/workbuddy-miniprogram-intro-20261125/intro.svg` 与 `preview.html`（`6s` 循环，43 个 `<animate>`、41 个 `<animateTransform>`，通过微信 SVG 合规校验）。
+- 分镜设计：左侧 `huashu-design` 三套原型选中方案 C（暖墨深底 + 青柠高亮），光点沿贝塞尔虚线依次点亮「01 _design 规范」「02 云端 + 步数」「03 扫码真机测」三个无框圆形节点，最终充能点亮右侧「梦动健身」手机真机青柠能量环，弹出绿勾与「0行代码·真机可用」。
