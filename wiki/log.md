@@ -1963,3 +1963,8 @@
   3. `bounce_drop`（GSAP `CustomBounce` 风格多段衰减落地弹跳）；
   4. 新增 `test_gsap_inspired_primitives` 单元测试并通过全部 7 项测试。
 - 同步至工作空间 `.agents/skills/gzh-svg-intro/` 与 `scripts/installed_skills.json`。
+
+## [2026-11-25] skill-sync | gzh-svg-intro 补充 Anime.js v4 精密表盘、矩阵辐射波与弹簧阻尼原语
+
+- 浏览器实看 `https://animejs.com/` 后，提炼 3 种精密仪器流派（精密表盘与 8 色霓虹弧、中心辐射矩阵波、CAD 工程线框爆炸图）写入 `.agents/skills/gzh-svg-intro/references/style-catalog.md`。
+- 在 `dream-skills` 为 `gzh-svg-intro` 新增 `grid_stagger`、`radial_dial`、`spring_oscillate` 三个纯 SMIL 原语及 `test_animejs_inspired_primitives` 单元测试（8 项全过），并同步至工作空间 `.agents/skills/gzh-svg-intro/` 与 `scripts/installed_skills.json`。
