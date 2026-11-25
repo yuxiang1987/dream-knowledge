@@ -1880,10 +1880,12 @@
 - 按 `gzh-benchmark-deconstruct` 默认增量路径逐篇过筛并入库：小林coding《重磅！Anthropic首次公开Claude记忆架构！》属 Anthropic 官方工程博客与实验转述，无作者本人部署或实测，仅在 [[topics/小林coding文章写法拆解]] 登记排除理由与 3 处逐字锚点，不建 source 与案例卡（修正 `report.json` 关键词误命中）；苍何《用 OiiOii Motion + Opus 5.5 做动画视频，效果猛的离谱》新建 [[sources/苍何OiiOiiMotion与Opus5.5动画视频文章拆解]]（含报名“OiiOii × 观猹”获算力支持披露，外部付费合作未知）；郭震AI《终于断网也能用的知识库来了，开箱即用，几万个文件拔了网线照样问！》新建 [[sources/郭震DeepLocals4.1断网模式与长对话更新文章拆解]]（保留 V4.1 独立新文、团队自研关系与 400 题自测边界）。
 - 更新 [[topics/小林coding文章写法拆解]]、[[topics/苍何文章写法拆解]]、[[topics/郭震AI文章写法拆解]]、[[topics/AI写作案例库]]（补苍何与郭震AI 2 张原作者案例设计参考卡，测试角度与步骤留空待人填）、`wiki/index.md`（564 页知识页、583 篇 raw）与批次产物 `output/ai-wechat-methodology/雷达-2026-11-23/`（`coverage.json`、`report.json`、`雷达简报-2026-11-23.md`、`test_coverage.py`）。仅读可提取正文，图片、动图、内嵌视频、代码与官网 400 题明细未核；每号仅 1 篇互动快照，不作日常基线或传播因果，未实测本账号读者效果，不写正文、不发布。
 
-## [2026-11-25] skill-sync | md-wechat-layout 修复连续加粗解析、加粗简介配两端收细流光蓝横线及 SVG 片头圆角蓝框
+## [2026-11-25] skill-sync | md-wechat-layout 修复连续加粗解析、英文词自动加粗、2px 实心收尖流光蓝横线、SVG 圆角蓝框与内置浏览器自动预览
 
-- 同步 `dream-skills` 提交 `f4e6e49a7bf685c0bdf9fa37dbad248dcb637d4d`（含 `191d0fa`）的 `md-wechat-layout` 更新，解决三项实际排版与视觉需求：
+- 同步 `dream-skills` 提交 `5c3bbde5cbf45b026f69c6fcbc96d8876d957338`（含 `191d0fa`、`f4e6e49`、`78b56ca`）的 `md-wechat-layout` 更新，完成五项优化：
   1. 修复 `normalizeObsidian` 中紧贴中文闭合加粗补空格正则跨顿号误匹配 `**、**` 导致同行后续 `**加粗**` 残留星号失效的问题；
-  2. 末尾固定人物简介默认统一输出「单条主题分隔横线 + 整句普通加粗段落」（晴蓝手记分隔线升级为双层椭圆径向渐变的两端收细丝滑科技蓝流光横线），源稿末尾若已有普通段、加粗段或 `>` 引用块同句简介均自动归并去卡片化且不重复生成横线；
-  3. `--intro-svg` 自定义 SVG+SMIL 开头动画外层容器增加蓝色圆角边框（`border:1.5px solid #7ec8ff; border-radius:12px`）与呼吸内边距。
+  2. 正文行内英文单词与技术标识符（≥2 字母，如 `WorkBuddy`、`huashu-design`、`_design`）默认自动加粗，跳过围栏代码、各级标题、已有加粗块、URL 与 HTML 实体；
+  3. 末尾固定人物简介默认统一输出「单条主题分隔横线 + 整句普通加粗段落」（晴蓝手记分隔线精修为 `height:2px` 实心不镂空、两端自然收细的科技蓝径向流光横线），源稿末尾若已有普通段、加粗段或 `>` 引用块同句简介均自动归并去卡片化且不重复生成横线；
+  4. `--intro-svg` 自定义 SVG+SMIL 开头动画外层容器增加蓝色圆角边框（`border:1.5px solid #7ec8ff; border-radius:12px`）与呼吸内边距；
+  5. `SKILL.md` 新增排版后默认通过本地 `127.0.0.1` HTTP 静态服务在内置浏览器（`browser` 子智能体）直接打开 `.preview.html` 供用户一键复制的约定。
 - `dream-skills` 与本库安装副本 `md-wechat-layout` 全部 36 项单元测试通过，更新 `scripts/installed_skills.json` 快照哈希，并重新导出《WorkBuddy + huashu skill 手搓健身小程序（附提示词）》完整微信排版预览（原稿只读未改）。
