@@ -1988,3 +1988,8 @@
   2. 中央 `梦动健身` 云端手机工坊（下沉 `6px` 回弹、槽口 4 颗火花飞溅、`0.03s` 闪白切屏，连接左侧蓝色 `云端库` 圆柱并充能青柠 `5.0km` 能量环 + 按压「开始运动」）；
   3. 右侧弹出带二维码矩阵、跑步小人与双进度条的实测面板，顶部弹出「WorkBuddy + huashu 实战」与过冲绿勾。
 - 通过内置浏览器定格检查 `2.8s` 与 `6.2s` 关键帧，确认构图饱满、间距均衡、文字清晰无遮挡。
+
+## [2026-11-25] skill-sync | gzh-svg-intro 新增第一批 8 个高精细拟物矢量道具库 svg_props.py
+
+- 在 `dream-skills`（`gzh-svg-intro/scripts/svg_props.py`）构建第一批 8 个可复用高精细拟物矢量道具：`prop_gamepad`（游戏手柄）、`prop_console`（掌机）、`prop_rocket`（火箭）、`prop_coffee_cup`（咖啡杯）、`prop_retro_pc`（复古电脑）、`prop_clapperboard`（场记板）、`prop_phone`（手机真机）、`prop_robot`（伙伴机器人），并新增 `tests/test_svg_props.py`。
+- 生成 `output/ai-wechat-methodology/props-gallery-20261125.html` 并经浏览器截图视觉验收，修正机器人胸口 `AI` 标签位置后全部 9 项单元测试、清单校验、仓库规范与 `wiki_lint.py` 均通过，同步至 `.agents/skills/gzh-svg-intro/` 与 `scripts/installed_skills.json`。
