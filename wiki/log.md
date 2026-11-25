@@ -1953,3 +1953,13 @@
 
 - 按用户反馈“避免连续多篇都用线条串珠”，重做 `output/ai-wechat-methodology/space-bunny-intro-20261125/intro.svg` 与 `preview.html`（`6s` 循环，49 个 `<animate>`、46 个 `<animateTransform>`，零虚线串珠）：左侧 3D 透视月面网格 + 戴圆眼镜太空兔主基地 + 橙色巡视车撞石回弹；中间「十一游北京」双层视差长卷推进；右侧「落沙物理沙盒」金沙落蓝水、绿酸液蚀墙出缺口。
 - 在 `dream-skills`（`gzh-svg-intro/SKILL.md`）明确「避免全员卡片化也避免全员线条串珠化」的选型规范，同步至 `.agents/skills/gzh-svg-intro/` 与 `scripts/installed_skills.json`。
+
+## [2026-11-25] skill-sync | gzh-svg-intro 新增 GSAP 级动态排版/形状变形/衰减弹跳原语与多流派灵感库
+
+- 浏览器实看 `https://gsap.com/showcase/` 后，提炼 5 种适合微信纯 SVG+SMIL 的视觉流派，连同摸鱼小李 7 种空间构图一并沉淀为 `.agents/skills/gzh-svg-intro/references/style-catalog.md`。
+- 在 `dream-skills` 升级 `gzh-svg-intro`：
+  1. `FontEngine.chars` + `split_text_stagger`（GSAP `SplitText` 风格逐字错峰 `pop`/`rise`/`wave`）；
+  2. `resample_ring` + `morph_d`（GSAP `MorphSVG` 风格预对齐锚点 `d` 液态/轮廓变形）；
+  3. `bounce_drop`（GSAP `CustomBounce` 风格多段衰减落地弹跳）；
+  4. 新增 `test_gsap_inspired_primitives` 单元测试并通过全部 7 项测试。
+- 同步至工作空间 `.agents/skills/gzh-svg-intro/` 与 `scripts/installed_skills.json`。

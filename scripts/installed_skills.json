@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/yuxiang1987/dream-skills",
-  "commit": "1cfee2c7481c9ddbf4dc66ba8363a05aef41e4f3",
+  "commit": "486d8d00c51fe7b6b91b6815c1c7d77ae7743f45",
   "skills": [
     "gzh-webchat-cover",
     "md-wechat-layout",
@@ -89,10 +89,11 @@
     "gzh-svg-intro/agents/openai.yaml": "236cc9787b983d5accf1b234f49f88e83c96e92396319e144c5dcc357383ee83",
     "gzh-svg-intro/assets/brand-opener.svg.frag": "e79e2399011b57e9a5ca0e3c7fe8981c54337838aa48fc71a27bba6b182b89a1",
     "gzh-svg-intro/references/storyboard-dna.md": "3787b948c87cde9a7faaefe44837949ccceeca9db70e62ee972c266ca7804613",
-    "gzh-svg-intro/scripts/build_svg_intro.py": "2ec05a8e43a5224c38738e1dbf2aa3458270cc0777fd4a2ed4e7eda07bce2123",
-    "gzh-svg-intro/SKILL.md": "db039b69e271ff9a50b0edd625740d569e7d5c72a6bf9d76a5223b67e58bccc1",
+    "gzh-svg-intro/references/style-catalog.md": "e757b096b6b7e94b41eba0096c93c73aede75546fc631961dd955155243e88e1",
+    "gzh-svg-intro/scripts/build_svg_intro.py": "3c09f9d383443cc5a704eac2fe6ca7c1e9948d78da8519aed5f59ac9af3121c0",
+    "gzh-svg-intro/SKILL.md": "90c4ea3cba368f0fa94577448cfc3e2b098b5ca0b69df6bab0611fc5b6eadca1",
     "gzh-svg-intro/tests/intro-cases.md": "f05bc2c4b4a313958eeed9878bbd125dcdcb5dce583936adc5a63579196cda51",
-    "gzh-svg-intro/tests/test_build_svg_intro.py": "db1d1861f4e973bd2252d1581d1d23e4c6fffe716c1c97d2d2547621a994431d"
+    "gzh-svg-intro/tests/test_build_svg_intro.py": "550d55d6199b9547bc8d91e2f9492e6c51d772d54ede9aeff6a902a46fc05efb"
   },
   "skill_commits": {
     "md-wechat-layout": "57507759ae10ce6884d250536c1eab5a88cd04df",
@@ -102,6 +103,6 @@
     "gzh-benchmark-deconstruct": "e78e17df181682500b6725707bcddd2b3c0968d0",
     "gzh-benchmark-radar": "3c8f02fdf7e224312f6b1df2f9a4fbe784ed3667",
     "gzh-webchat-cover": "f824d1054d2353c89a3ddf51adfe2a9f0ddca608",
-    "gzh-svg-intro": "1cfee2c7481c9ddbf4dc66ba8363a05aef41e4f3"
+    "gzh-svg-intro": "486d8d00c51fe7b6b91b6815c1c7d77ae7743f45"
   }
 }
