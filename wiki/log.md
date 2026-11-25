@@ -1914,3 +1914,11 @@
 
 - 按用户反馈，将主文案改为「不用敲一行代码 / 做微信小程序」，副文案改为「WorkBuddy · 从原型到手机真能用」，直接对应标题的开发门槛、任务与成果；沿用原有无字底图，生成 `output/ai-wechat-methodology/workbuddy-miniprogram-cover-20261125/cover-v2.png` 与 `thumbnail-v2.png`，保留第一版。
 - 更新排字入口、交付验证和设计说明；尺寸格式、完整两行标题、文字安全边界与原稿未改动检查通过，人工检查完整图和缩略图。未修改 raw 原稿或技能。
+
+## [2026-11-25] skill-sync | gzh-svg-intro 升级非卡片舞台模板与 SMIL 线稿/3D/2.5D 原语
+
+- 通过 TikHub 抓取「摸鱼小李」(`gh_3923025946c5`) 最新 30 篇文章（成功获取 25 篇带内嵌 SVG 的正文，快照与分析保存在 Git 忽略目录 `output/moyu-svg-research-2026-11-25/`），拆解其动效元素、动画效果与排版规律。
+- 在 `dream-skills`（提交 `c47d6c9685330526afe0518236f34c3eb76f3fde`）升级 `gzh-svg-intro` 并同步至工作空间 `.agents/skills/gzh-svg-intro/` 与 `scripts/installed_skills.json`：
+  1. `scripts/build_svg_intro.py` 新增 `smil_attr`、`smil_stroke_draw`、`rotate_around`、`skew_around`、`perspective_grid` 原语及主循环 `dur` 自适应支持；
+  2. 新增 3 套非卡片舞台模板：`pipeline-nodes`（无卡片节点连线与光点传输）、`viewport-3d`（3D 透视视口 + `animate:points` 旋转立方体 + 2.5D `skewY` 图层炸开）、`split-editor`（单视口左文右对话就地改写）；
+  3. 更新 `SKILL.md`、`references/storyboard-dna.md`、`tests/intro-cases.md` 与 `tests/test_build_svg_intro.py`（6 项单元测试全部通过）。

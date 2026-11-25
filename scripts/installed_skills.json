@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/yuxiang1987/dream-skills",
-  "commit": "57507759ae10ce6884d250536c1eab5a88cd04df",
+  "commit": "c47d6c9685330526afe0518236f34c3eb76f3fde",
   "skills": [
     "gzh-webchat-cover",
     "md-wechat-layout",
@@ -86,13 +86,13 @@
     "gzh-final-check/scripts/check_article_length.py": "d2a2a929a573c787b78de36a7b290f9a6d30559dfe42abb27d8ea85d35c238e7",
     "gzh-final-check/tests/test_article_length.py": "dab37504615f3cc0058ef0aa8c7908517d73b7e21285dceb9a5d7145be40be50",
     "md-wechat-layout/assets/brand-intro/intro-wechat.gif": "01a3000a59713fdbb0242e833bf7a96aa1d06a0b143b5118682101dacd10080f",
-    "gzh-svg-intro/agents/openai.yaml": "971e6374766ac6cc6216c23d7d7c239e221374c9c2686a73041490c2d8b66261",
+    "gzh-svg-intro/agents/openai.yaml": "236cc9787b983d5accf1b234f49f88e83c96e92396319e144c5dcc357383ee83",
     "gzh-svg-intro/assets/brand-opener.svg.frag": "e79e2399011b57e9a5ca0e3c7fe8981c54337838aa48fc71a27bba6b182b89a1",
-    "gzh-svg-intro/references/storyboard-dna.md": "ad6d95c491b6257d2c65aea98b8d127d4d9e301eb6442ac647f4713fc2b81d85",
-    "gzh-svg-intro/scripts/build_svg_intro.py": "09ac52c1fade27276922403bf5d9cc1b695f44d418a0969c031e07b561c4fe64",
-    "gzh-svg-intro/SKILL.md": "7a1cc860fda6d39bf1d816f3dc049a368ca2b61c4992db3a18650a493207dc5b",
-    "gzh-svg-intro/tests/intro-cases.md": "dd45eea3f18520bd5519347cfd207a65ea780d5da282a99d1f72c5e11846333b",
-    "gzh-svg-intro/tests/test_build_svg_intro.py": "ae3d27257e3681140d0b16e50e24af07ba58f720ef17ac741f126d829c91bc03"
+    "gzh-svg-intro/references/storyboard-dna.md": "79668aee96889b6772fc96dc27141671b7a7ded6ef32e35c47536443f173cbe0",
+    "gzh-svg-intro/scripts/build_svg_intro.py": "5ce03d5ca854b5c5595788c741b26df51c83a50e9bdd4dd261f19fd44ade8840",
+    "gzh-svg-intro/SKILL.md": "cfb54764d891d711750f5ff67377ca11355aec6ccf845b22b0d41c9881502e55",
+    "gzh-svg-intro/tests/intro-cases.md": "f05bc2c4b4a313958eeed9878bbd125dcdcb5dce583936adc5a63579196cda51",
+    "gzh-svg-intro/tests/test_build_svg_intro.py": "12bebf553a6ca5d1a00145b74a8c49f9dd067c92d07283a471d384999b5334ea"
   },
   "skill_commits": {
     "md-wechat-layout": "57507759ae10ce6884d250536c1eab5a88cd04df",
@@ -102,6 +102,6 @@
     "gzh-benchmark-deconstruct": "e78e17df181682500b6725707bcddd2b3c0968d0",
     "gzh-benchmark-radar": "3c8f02fdf7e224312f6b1df2f9a4fbe784ed3667",
     "gzh-webchat-cover": "f824d1054d2353c89a3ddf51adfe2a9f0ddca608",
-    "gzh-svg-intro": "2d9c36766134d095827b3124f778aa4c96b4fa74"
+    "gzh-svg-intro": "c47d6c9685330526afe0518236f34c3eb76f3fde"
   }
 }
