@@ -14,8 +14,9 @@ class Samples(HTMLParser):
     def handle_endtag(self, tag):
         if tag == "section": self.current = None
 root = Path(__file__).resolve().parent
-parser = Samples()
-parser.feed((root/"compare.html").read_text(encoding="utf-8-sig"))
-assert len(parser.groups) == 4 and len({tuple(g) for g in parser.groups}) == 1
-image = Image.open(root/"compare.jpg").convert("RGB")
-assert image.width >= 650 and image.height > 300 and image.getextrema()[0][0] < 50
+for name, count in (("compare", 4), ("ten", 10)):
+    parser = Samples()
+    parser.feed((root / f"{name}.html").read_text(encoding="utf-8-sig"))
+    assert len(parser.groups) == count and len({tuple(g) for g in parser.groups}) == 1
+    image = Image.open(root / f"{name}.jpg").convert("RGB")
+    assert image.width >= 650 and image.height > 300 and image.getextrema()[0][0] < 50

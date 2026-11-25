@@ -2045,3 +2045,7 @@
 ## [2026-11-25] asset | 行内代码四种蓝色标记对照
 
 - 使用同一句教程正文对比短胶囊、微圆角纸签、键帽与半高荧光笔。独立选样页和浏览器截图在 `output/ai-wechat-methodology/inline-code-style-study/`，四案文字一致性及截图检查通过。
+
+## [2026-11-25] asset | 行内标记十款创意选样
+
+- 在同一句 WorkBuddy 教程中展示十款蓝色行内标记，涵盖手绘、像素、游戏与纸品风格。可多选的网页和截图位于 `output/ai-wechat-methodology/inline-code-style-study/`。
