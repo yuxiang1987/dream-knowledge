@@ -1,0 +1,387 @@
+{
+  "batch": "output/ai-wechat-methodology/雷达-2026-11-25",
+  "stats_dir": "output/ai-wechat-methodology/雷达-2026-11-25/stats-2026-11-25",
+  "baseline": [
+    {
+      "account": "路人甲TM",
+      "n": 4,
+      "median": 7074,
+      "min": 2743,
+      "max": 7444,
+      "median_like": 67,
+      "median_share": 600,
+      "median_comment": 14
+    },
+    {
+      "account": "摸鱼小李",
+      "n": 1,
+      "median": 31624,
+      "min": 31624,
+      "max": 31624,
+      "median_like": 155,
+      "median_share": 611,
+      "median_comment": 54
+    },
+    {
+      "account": "小林coding",
+      "n": 2,
+      "median": 20443,
+      "min": 18765,
+      "max": 22121,
+      "median_like": 59,
+      "median_share": 802,
+      "median_comment": 28
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "n": 1,
+      "median": 14040,
+      "min": 14040,
+      "max": 14040,
+      "median_like": 339,
+      "median_share": 1239,
+      "median_comment": 39
+    },
+    {
+      "account": "沉默王二",
+      "n": 2,
+      "median": 25912,
+      "min": 5207,
+      "max": 46618,
+      "median_like": 30,
+      "median_share": 386,
+      "median_comment": 43
+    },
+    {
+      "account": "洛洛AI说",
+      "n": 1,
+      "median": 6543,
+      "min": 6543,
+      "max": 6543,
+      "median_like": 110,
+      "median_share": 649,
+      "median_comment": 26
+    },
+    {
+      "account": "郭震AI",
+      "n": 2,
+      "median": 2135,
+      "min": 1236,
+      "max": 3034,
+      "median_like": 11,
+      "median_share": 106,
+      "median_comment": 6
+    },
+    {
+      "account": "西羊石AI视频",
+      "n": 1,
+      "median": 15737,
+      "min": 15737,
+      "max": 15737,
+      "median_like": 37,
+      "median_share": 304,
+      "median_comment": 11
+    }
+  ],
+  "anomalies": [],
+  "event_clusters": [],
+  "raw_without_source": [
+    "raw/article/lurenjiaTM/实测OiiOii最新Skill，这套电商组合堪称双十一王炸！.md",
+    "raw/article/lurenjiaTM/真正的双11来了！天猫预售居然免定金！.md",
+    "raw/article/西羊石AI视频/雷达-2026-11-16/卧槽，王者荣耀联名 LibTV 搞大事！这波 AI 视频大赛含金量拉满了-fd633b8192.md",
+    "raw/article/小林coding/雷达-2026-11-01/Anthropic直接掀桌：Code Review不再留给人-0844cd6d54.md",
+    "raw/article/小林coding/雷达-2026-11-01/淘汰Java岗，中国又一新兴岗位崛起！这将是程序员未来10年最好的方向。-0c8f44d39a.md",
+    "raw/article/小林coding/雷达-2026-11-02/震撼，DeepSeek开源超级 Agent 架构！-73e4b9bcff.md",
+    "raw/article/小林coding/雷达-2026-11-11/Anthropic直接劝退：慎用子 Agent！-e97495c88b.md",
+    "raw/article/小林coding/雷达-2026-11-13/100,000,000 Token 免费薅！爽玩 DeepSeek V4.1 Flash、GLM-5.3 ！-a2e6be742b.md",
+    "raw/article/小林coding/雷达-2026-11-14/Anthropic开源神级项目，专治黑心AI中转站！-1449bc4845.md",
+    "raw/article/小林coding/雷达-2026-11-14/工资到账119587.68元，爱你字节！-d75da9f44e.md",
+    "raw/article/小林coding/雷达-2026-11-23/重磅！Anthropic首次公开Claude记忆架构！-7900785d14.md",
+    "raw/article/卡尔的AI沃茨/雷达-2026-11-13/一口气看懂黄仁勋辞职的所有瓜！比奥特曼两年前被免职还刺激-3291abd62b.md",
+    "raw/article/lurenjiaTM/雷达-2026-11-21/一起抓马！LibTV抓马剧场扶持计划上线，爆款最高30万元等你来拿-d8559ae414.md"
+  ],
+  "case_candidates": [
+    {
+      "article": "马斯克说xAI要推倒重建，SpaceX后来在招股书里怎么写？我用lumimax把原文一份份对了回来",
+      "models": [
+        "lumimax",
+        "WorkBuddy",
+        "DeepSeek",
+        "ChatGPT"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 2,
+        "step_hits": 1
+      },
+      "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-25/马斯克说xAI要推倒重建，SpaceX后来在招股书里怎么写？我用lumimax把原文一份份对了回来-3311678318.md",
+      "source_page": "wiki/sources/路人甲TM_lumimaxSpaceX招股书溯源实测.md"
+    },
+    {
+      "article": "又一个神级功能，让WorkBuddy可以像真人一样接管你的电脑",
+      "models": [
+        "WorkBuddy"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "manual_review": "作者实测 WorkBuddy Computer Use 操作 JS Paint 与 Blender 圣诞树/宝塔动画"
+      },
+      "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-25/又一个神级功能，让WorkBuddy可以像真人一样接管你的电脑-c2ec46fadc.md",
+      "source_page": "wiki/sources/路人甲TM_WorkBuddy电脑操控与数据导入实测.md"
+    },
+    {
+      "article": "AI 的“自我进化”，到底进化了什么？深扒开源框架 Agnes Harness",
+      "models": [
+        "Agnes Harness",
+        "Codex"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 5
+      },
+      "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-25/AI 的“自我进化”，到底进化了什么？深扒开源框架 Agnes Harness-d35d6d2135.md",
+      "source_page": "wiki/sources/路人甲TM_AgnesHarness双系统与自进化拆解.md"
+    },
+    {
+      "article": "92w赞的科普动画，0基础20分钟用OiiOii复刻出来了，自媒体人泪目！",
+      "models": [
+        "OiiOii Motion",
+        "Opus 5.5",
+        "DeepSeek 4.1 Flash"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "manual_review": "作者上传 92w 赞参考片在 OiiOii Motion 复刻战鼓科普动画并进工程台三轮修改"
+      },
+      "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-25/92w赞的科普动画，0基础20分钟用OiiOii复刻出来了，自媒体人泪目！-bf79aa202e.md",
+      "source_page": "wiki/sources/路人甲TM_OiiOiiMotion战鼓科普复刻拆解.md"
+    },
+    {
+      "article": "实测 MAGI-2，追平 Seedance 2.5 ！",
+      "models": [
+        "MAGI-2",
+        "Seedance",
+        "LibTV"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 4,
+        "step_hits": 0
+      },
+      "raw_path": "raw/article/摸鱼小李/雷达-2026-11-25/实测 MAGI-2，追平 Seedance 2.5 ！-f7f6dfab52.md",
+      "source_page": "wiki/sources/摸鱼小李_MAGI2六例TVC与游戏渲染实测.md"
+    },
+    {
+      "article": "6 个真实病例，实测百灵开源的健康大模型会不会「看病」",
+      "models": [
+        "LingSante-3.1-air-VL",
+        "LingSante-3.1-flash",
+        "Claude Opus 5.5"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 4,
+        "step_hits": 1
+      },
+      "raw_path": "raw/article/摸鱼小李/雷达-2026-11-25/6 个真实病例，实测百灵开源的健康大模型会不会「看病」-425ead183f.md",
+      "source_page": "wiki/sources/摸鱼小李_百灵健康大模型六病例对照实测.md"
+    },
+    {
+      "article": "又一个 Harness 开源了，真·FDE 落地神器！",
+      "models": [
+        "Agnes Harness",
+        "Agnes 3.0 Flash"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 4,
+        "step_hits": 1
+      },
+      "raw_path": "raw/article/小林coding/雷达-2026-11-25/又一个 Harness 开源了，真·FDE 落地神器！-271460b596.md",
+      "source_page": "wiki/sources/小林AgnesHarness本地部署与FDE插件复用文章拆解.md"
+    },
+    {
+      "article": "阿里版Codex，给我用爽了！",
+      "models": [
+        "Qoder CN",
+        "Qwen3.8-Max",
+        "DeepSeek"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 2
+      },
+      "raw_path": "raw/article/小林coding/雷达-2026-11-25/阿里版Codex，给我用爽了！-d621b44559.md",
+      "source_page": "wiki/sources/小林QoderCN通用模式Office与自动化福利文章拆解.md"
+    },
+    {
+      "article": "分享一个OiiOii Motion的新代码动画工作流，Opus和DeepSeek 都能用上了",
+      "models": [
+        "OiiOii Motion",
+        "DeepSeek V4.1 Flash",
+        "Opus 5.5"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 1
+      },
+      "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-25/分享一个OiiOii Motion的新代码动画工作流，Opus和DeepSeek 都能用上了-821424a6a3.md",
+      "source_page": "wiki/sources/卡尔OiiOiiMotion代码动画五类场景工作流文章拆解.md"
+    },
+    {
+      "article": "赶在老黄回归前，GLM-5.4 发布了。",
+      "models": [
+        "GLM-5.4",
+        "ZCode",
+        "Codex"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 5,
+        "step_hits": 2
+      },
+      "raw_path": "raw/article/chenmowanger/雷达-2026-11-25/赶在老黄回归前，GLM-5.4 发布了。-31703f9e30.md",
+      "source_page": "wiki/sources/沉默王二GLM5.4泛Coding精灵小镇与Loop架构文章拆解.md"
+    },
+    {
+      "article": "批量做带货视频，每月副业多挣上万块，开拍xWorkBuddy太牛了",
+      "models": [
+        "WorkBuddy",
+        "美图开拍",
+        "Hy4",
+        "GLM-5.2"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 2,
+        "step_hits": 2
+      },
+      "raw_path": "raw/article/洛洛AI说/雷达-2026-11-25/批量做带货视频，每月副业多挣上万块，开拍xWorkBuddy太牛了-047d609523.md",
+      "source_page": "wiki/sources/洛洛开拍xWorkBuddy爱媛橙电商工作流文章拆解.md"
+    },
+    {
+      "article": "Qoder 上了个神秘模型，直接免费用，实测能力强大！",
+      "models": [
+        "HungerG",
+        "Qoder"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 3,
+        "step_hits": 0
+      },
+      "raw_path": "raw/article/郭震AI/雷达-2026-11-25/Qoder 上了个神秘模型，直接免费用，实测能力强大！-6218ae54f0.md",
+      "source_page": "wiki/sources/郭震Qoder神秘模型HungerG四任务实测文章拆解.md"
+    },
+    {
+      "article": "实测豆包工作新上的工作台：出方案、做海报，全给我包了",
+      "models": [
+        "豆包 2.1 Pro",
+        "Seedream 5.0 Pro"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 2,
+        "step_hits": 0
+      },
+      "raw_path": "raw/article/郭震AI/雷达-2026-11-25/实测豆包工作新上的工作台：出方案、做海报，全给我包了-5ab08d1bf4.md",
+      "source_page": "wiki/sources/郭震豆包工作营销工作台全案海报实测文章拆解.md"
+    },
+    {
+      "article": "豆包工作终于想通了！接入 Kimi、DeepSeek 后怎么选？4 大办公场景深度实测（附提示词）",
+      "models": [
+        "Kimi K3.1 Pro",
+        "DeepSeek V4.1 Flash",
+        "豆包 2.1 Pro",
+        "GLM 5.3"
+      ],
+      "angle": "",
+      "steps": "",
+      "inputs": "",
+      "checks": "",
+      "status": "待填写",
+      "signals": {
+        "case_hits": 2,
+        "step_hits": 1
+      },
+      "raw_path": "raw/article/西羊石AI视频/雷达-2026-11-25/豆包工作终于想通了！接入 Kimi、DeepSeek 后怎么选？4 大办公场景深度实测（附提示词）-2e10c09026.md",
+      "source_page": "wiki/sources/西羊石豆包工作接入多模型四场景实测文章拆解.md"
+    }
+  ],
+  "analysis_scope": {
+    "covered": 15,
+    "deep": 15,
+    "registration_only": 0,
+    "excluded_without_source": 0,
+    "reused": 0,
+    "case_cards": 14,
+    "batch_unreviewed": 0,
+    "coverage": "coverage.json",
+    "note": "本轮 15 篇均非面试/薪资/八卦/纯资讯转述，全部深拆新建 source 页；沉默王二《谷歌真争气啊，这下可以爽用Gemini了。》5 个 Neon 案例为外网第三方演示，其余为 agy 文档规则，故不立作者实测案例卡，另补入路人甲TM WorkBuddy Computer Use 与 OiiOii Motion 战鼓 2 篇实测，合计 14 张案例设计参考卡。摸鱼小李 MAGI-2 互动返回 null，各号有效样本 n=1–4 不构成日常基线。"
+  },
+  "median_by_account": {
+    "路人甲TM": 7074,
+    "摸鱼小李": 31624,
+    "小林coding": 20443,
+    "卡尔的AI沃茨": 14040,
+    "沉默王二": 25912,
+    "洛洛AI说": 6543,
+    "郭震AI": 2135,
+    "西羊石AI视频": 15737
+  }
+}

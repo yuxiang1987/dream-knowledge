@@ -1,0 +1,208 @@
+{
+  "acquired_at": "2026-11-25T10:00:33+08:00",
+  "accounts": [
+    {
+      "account": "路人甲TM",
+      "username": "gh_d516081071ec",
+      "fetched": 5,
+      "added": 4,
+      "skipped_existing": 1,
+      "failed": 0,
+      "directory": "raw/article/lurenjiaTM/雷达-2026-11-25",
+      "added_articles": [
+        {
+          "id": "2247524842:1",
+          "title": "马斯克说xAI要推倒重建，SpaceX后来在招股书里怎么写？我用lumimax把原文一份份对了回来",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524842&idx=1&sn=26ef5fd18a99d6a7d4877399a7f8c754",
+          "published": "2026-11-24 22:09",
+          "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-25/马斯克说xAI要推倒重建，SpaceX后来在招股书里怎么写？我用lumimax把原文一份份对了回来-3311678318.md"
+        },
+        {
+          "id": "2247524841:1",
+          "title": "又一个神级功能，让WorkBuddy可以像真人一样接管你的电脑",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524841&idx=1&sn=ae4edef7d17ccdc6022cc29d4dbe04fa",
+          "published": "2026-11-24 20:43",
+          "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-25/又一个神级功能，让WorkBuddy可以像真人一样接管你的电脑-c2ec46fadc.md"
+        },
+        {
+          "id": "2247524813:1",
+          "title": "AI 的“自我进化”，到底进化了什么？深扒开源框架 Agnes Harness",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524813&idx=1&sn=ed72a0216b30c9a3d0acf00ddd2081f0",
+          "published": "2026-11-23 23:20",
+          "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-25/AI 的“自我进化”，到底进化了什么？深扒开源框架 Agnes Harness-d35d6d2135.md"
+        },
+        {
+          "id": "2247524769:1",
+          "title": "92w赞的科普动画，0基础20分钟用OiiOii复刻出来了，自媒体人泪目！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524769&idx=1&sn=4ddc6bac95f9d0a11b239eca785f82b6",
+          "published": "2026-11-23 12:00",
+          "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-25/92w赞的科普动画，0基础20分钟用OiiOii复刻出来了，自媒体人泪目！-bf79aa202e.md"
+        }
+      ]
+    },
+    {
+      "account": "摸鱼小李",
+      "username": "gh_3923025946c5",
+      "fetched": 5,
+      "added": 2,
+      "skipped_existing": 2,
+      "failed": 1,
+      "directory": "raw/article/摸鱼小李/雷达-2026-11-25",
+      "added_articles": [
+        {
+          "id": "2247492298:1",
+          "title": "实测 MAGI-2，追平 Seedance 2.5 ！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247492298&idx=1&sn=727500f89689b8eb0bf2ceccaeb49bb2",
+          "published": "2026-11-25 08:45",
+          "raw_path": "raw/article/摸鱼小李/雷达-2026-11-25/实测 MAGI-2，追平 Seedance 2.5 ！-f7f6dfab52.md"
+        },
+        {
+          "id": "2247492243:1",
+          "title": "6 个真实病例，实测百灵开源的健康大模型会不会「看病」",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247492243&idx=1&sn=8a7b5df49116a5efec380be9871b1d41",
+          "published": "2026-11-24 11:30",
+          "raw_path": "raw/article/摸鱼小李/雷达-2026-11-25/6 个真实病例，实测百灵开源的健康大模型会不会「看病」-425ead183f.md"
+        }
+      ]
+    },
+    {
+      "account": "小林coding",
+      "username": "gh_fc46cf2353fc",
+      "fetched": 5,
+      "added": 2,
+      "skipped_existing": 3,
+      "failed": 0,
+      "directory": "raw/article/小林coding/雷达-2026-11-25",
+      "added_articles": [
+        {
+          "id": "2247566721:1",
+          "title": "又一个 Harness 开源了，真·FDE 落地神器！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247566721&idx=1&sn=bfcbfcccab64000764114b03f0941cc5",
+          "published": "2026-11-24 16:36",
+          "raw_path": "raw/article/小林coding/雷达-2026-11-25/又一个 Harness 开源了，真·FDE 落地神器！-271460b596.md"
+        },
+        {
+          "id": "2247566662:1",
+          "title": "阿里版Codex，给我用爽了！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247566662&idx=1&sn=3fc266c2363ee19415050842a51aa23c",
+          "published": "2026-11-23 15:16",
+          "raw_path": "raw/article/小林coding/雷达-2026-11-25/阿里版Codex，给我用爽了！-d621b44559.md"
+        }
+      ]
+    },
+    {
+      "account": "卡尔的AI沃茨",
+      "username": "gh_1421d5e48ca9",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/卡尔的AI沃茨/雷达-2026-11-25",
+      "added_articles": [
+        {
+          "id": "2247514084:1",
+          "title": "分享一个OiiOii Motion的新代码动画工作流，Opus和DeepSeek 都能用上了",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247514084&idx=1&sn=d2ece78f940498f06f3da2fd31e228c3",
+          "published": "2026-11-23 17:36",
+          "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-25/分享一个OiiOii Motion的新代码动画工作流，Opus和DeepSeek 都能用上了-821424a6a3.md"
+        }
+      ]
+    },
+    {
+      "account": "苍何",
+      "username": "gh_fdb597c42fa4",
+      "fetched": 5,
+      "added": 0,
+      "skipped_existing": 5,
+      "failed": 0,
+      "directory": "raw/article/苍何/雷达-2026-11-25",
+      "added_articles": []
+    },
+    {
+      "account": "沉默王二",
+      "username": "gh_f0ee5948865f",
+      "fetched": 5,
+      "added": 2,
+      "skipped_existing": 3,
+      "failed": 0,
+      "directory": "raw/article/chenmowanger/雷达-2026-11-25",
+      "added_articles": [
+        {
+          "id": "2247552153:1",
+          "title": "赶在老黄回归前，GLM-5.4 发布了。",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247552153&idx=1&sn=be6f566a9f9f65995abf7c71ac2bd8bc",
+          "published": "2026-11-24 14:15",
+          "raw_path": "raw/article/chenmowanger/雷达-2026-11-25/赶在老黄回归前，GLM-5.4 发布了。-31703f9e30.md"
+        },
+        {
+          "id": "2247552124:1",
+          "title": "谷歌真争气啊，这下可以爽用Gemini了。",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247552124&idx=1&sn=8b80f505e627fc7d36f9d6d1ec44a4d0",
+          "published": "2026-11-23 14:13",
+          "raw_path": "raw/article/chenmowanger/雷达-2026-11-25/谷歌真争气啊，这下可以爽用Gemini了。-7dc4f902e2.md"
+        }
+      ]
+    },
+    {
+      "account": "洛洛AI说",
+      "username": "gh_426cd27710df",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/洛洛AI说/雷达-2026-11-25",
+      "added_articles": [
+        {
+          "id": "2247489525:1",
+          "title": "批量做带货视频，每月副业多挣上万块，开拍xWorkBuddy太牛了",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247489525&idx=1&sn=db00445b0c4d53f0ca94bec06d9cd6d5",
+          "published": "2026-11-23 14:00",
+          "raw_path": "raw/article/洛洛AI说/雷达-2026-11-25/批量做带货视频，每月副业多挣上万块，开拍xWorkBuddy太牛了-047d609523.md"
+        }
+      ]
+    },
+    {
+      "account": "郭震AI",
+      "username": "gh_ce69fa698e90",
+      "fetched": 5,
+      "added": 2,
+      "skipped_existing": 3,
+      "failed": 0,
+      "directory": "raw/article/郭震AI/雷达-2026-11-25",
+      "added_articles": [
+        {
+          "id": "2247526365:1",
+          "title": "Qoder 上了个神秘模型，直接免费用，实测能力强大！",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247526365&idx=1&sn=1efdbb631ab0acdf9d222c03250b1aa5",
+          "published": "2026-11-24 12:36",
+          "raw_path": "raw/article/郭震AI/雷达-2026-11-25/Qoder 上了个神秘模型，直接免费用，实测能力强大！-6218ae54f0.md"
+        },
+        {
+          "id": "2247526259:1",
+          "title": "实测豆包工作新上的工作台：出方案、做海报，全给我包了",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247526259&idx=1&sn=9ac02e6273bbcf50d03c687f53154a3a",
+          "published": "2026-11-23 15:51",
+          "raw_path": "raw/article/郭震AI/雷达-2026-11-25/实测豆包工作新上的工作台：出方案、做海报，全给我包了-5ab08d1bf4.md"
+        }
+      ]
+    },
+    {
+      "account": "西羊石AI视频",
+      "username": "gh_f5c1e588b297",
+      "fetched": 5,
+      "added": 1,
+      "skipped_existing": 4,
+      "failed": 0,
+      "directory": "raw/article/西羊石AI视频/雷达-2026-11-25",
+      "added_articles": [
+        {
+          "id": "2247546440:1",
+          "title": "豆包工作终于想通了！接入 Kimi、DeepSeek 后怎么选？4 大办公场景深度实测（附提示词）",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247546440&idx=1&sn=e4629cac4e8ff2c540a7f28e0a600632",
+          "published": "2026-11-23 17:42",
+          "raw_path": "raw/article/西羊石AI视频/雷达-2026-11-25/豆包工作终于想通了！接入 Kimi、DeepSeek 后怎么选？4 大办公场景深度实测（附提示词）-2e10c09026.md"
+        }
+      ]
+    }
+  ]
+}

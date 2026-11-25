@@ -1,0 +1,311 @@
+[
+  {
+    "account": "路人甲TM",
+    "id": "2247524842:1",
+    "title": "马斯克说xAI要推倒重建，SpaceX后来在招股书里怎么写？我用lumimax把原文一份份对了回来",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524842&idx=1&sn=26ef5fd18a99d6a7d4877399a7f8c754",
+    "published": "2026-11-24 22:09",
+    "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-25/马斯克说xAI要推倒重建，SpaceX后来在招股书里怎么写？我用lumimax把原文一份份对了回来-3311678318.md",
+    "raw_sha256": "1411d255dabf30637dff1faf27318c6009bf6a652098ab95d7e9d4b7019ccc29",
+    "body_sha256": "33116783180c685e11400c7ad1e182599d77a5b19d28877e5fde7c17e2290717",
+    "disposition": "deep",
+    "reason": "作者截取 7 份 SpaceX/SEC 与 X 原帖文件分两批建库溯源，对照关联网 DeepSeek 与开联网 ChatGPT，含笼统追问漏版与 WorkBuddy MCP 实操。",
+    "anchors": [
+      "先交代材料：库里一共7个文件，5段是我从美国证监会（SEC）官网原文截取的，共约2,000个英文单词，另2张是马斯克的原帖截图。这不是整套上市材料，一份完整招股书就有二十多万个单词。",
+      "同样7个文件、同样的问题，我也交给了DeepSeek（网页版，关闭联网，11月12日）。说实话它答得也不错，原文对得上，文件里没有的也说没有。只问一次的话，本次实测没看出准确度上的差距。",
+      "不过，笼统问「前后改了哪些」时，它漏了6月1日那一版；我再点名问「6月1日那版比5月20日那版多了哪一句」，它找到了新增的那句：部分算力客户可能还没有正向现金流，要靠外部融资来付钱给SpaceX。",
+      "如果你也有要反复看的复杂文档，可以去lumimax官网注册并上传资料建立知识库，现在注册可获得限时赠送积分。"
+    ],
+    "source_path": "wiki/sources/路人甲TM_lumimaxSpaceX招股书溯源实测.md",
+    "author_path": "wiki/topics/路人甲TM文章经营全景.md",
+    "case_card": "案例：多版本 SEC 招股书片段跨文件建库溯源与通用 AI 对照（路人甲TM，2026-11-24）"
+  },
+  {
+    "account": "路人甲TM",
+    "id": "2247524841:1",
+    "title": "又一个神级功能，让WorkBuddy可以像真人一样接管你的电脑",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524841&idx=1&sn=ae4edef7d17ccdc6022cc29d4dbe04fa",
+    "published": "2026-11-24 20:43",
+    "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-25/又一个神级功能，让WorkBuddy可以像真人一样接管你的电脑-c2ec46fadc.md",
+    "raw_sha256": "dd3316157a0908f0414e590b820ac1b36eb140857e5a301e29ad34fcc6a70b33",
+    "body_sha256": "c2ec46fadc6fd3a78e365c9458fc7da6c9aee65db98236108768032bc7362cb4",
+    "disposition": "deep",
+    "reason": "作者使用 WorkBuddy 5.11.0+ Computer Use 操控 JS Paint 与 Blender（圣诞树/宝塔动画），含同软件独占、权限设置及跨电脑数据导入。",
+    "anchors": [
+      "WorkBuddy先出了一张静帧。三维这东西，建模、材质、灯光、相机，哪一步崩了，最后都是一团糊，先看一张图最省事。",
+      "它正在用的那个软件，同一时间只能有一方操作，我想进去点两下，得先让它停。",
+      "碰到登录、授权、支付这类敏感操作也一样。它负责把前面的准备都做完，最后一步由我确认，不会自己一路点到底。",
+      "它不再要求我学它的语言，而是自己睁开眼，看软件界面，然后直接点鼠标动手，要知道，这些老古董软件，过去只有专业的人来了才能操作"
+    ],
+    "source_path": "wiki/sources/路人甲TM_WorkBuddy电脑操控与数据导入实测.md",
+    "author_path": "wiki/topics/路人甲TM文章经营全景.md",
+    "case_card": "案例：无接口桌面软件（JS Paint 与 Blender）Computer Use 操控（路人甲TM，2026-11-24）"
+  },
+  {
+    "account": "路人甲TM",
+    "id": "2247524813:1",
+    "title": "AI 的“自我进化”，到底进化了什么？深扒开源框架 Agnes Harness",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524813&idx=1&sn=ed72a0216b30c9a3d0acf00ddd2081f0",
+    "published": "2026-11-23 23:20",
+    "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-25/AI 的“自我进化”，到底进化了什么？深扒开源框架 Agnes Harness-d35d6d2135.md",
+    "raw_sha256": "72497c9d253ce29ce60d28582d0821c31c26a1965ff3833efe9431356a303c2f",
+    "body_sha256": "d35d6d213575147881d91c3667908b5e6f2b7d6cfa5a015c6a222ed2da5f5697",
+    "disposition": "deep",
+    "reason": "作者自建两口灶 12 单小餐馆环境运行 Agnes Harness 并对比 Codex（10s vs 近 6 分钟），结合官方报告拆解 Sys1、TTT、RSI 与 MHS。",
+    "anchors": [
+      "最后，餐厅在第27个模拟分钟收工：12单全部处理完，11单准时出餐，1单缺货取消，没有无效操作。",
+      "Agnes Harness完成这项任务只花了10秒，作为对比的Codex花了接近六分钟，这中间的差距到底在什么地方？",
+      "所以简单来说，TTT改的是这次请求里的少量模型参数，RSI改的是系统做事的方法。",
+      "比如在侧重单点代码编辑的aider-python评测上，Agnes Harness拿到了83.33% 的通过率，就低于报告中Codex组合的91.67%；而在TraceTrial-Bench上以71.8排在第二（略低于CC的72.5）。"
+    ],
+    "source_path": "wiki/sources/路人甲TM_AgnesHarness双系统与自进化拆解.md",
+    "author_path": "wiki/topics/路人甲TM文章经营全景.md",
+    "case_card": "案例：自建两口灶小餐馆 12 单调度与 Codex 速度对照（路人甲TM，2026-11-23）"
+  },
+  {
+    "account": "路人甲TM",
+    "id": "2247524769:1",
+    "title": "92w赞的科普动画，0基础20分钟用OiiOii复刻出来了，自媒体人泪目！",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA%3D%3D&mid=2247524769&idx=1&sn=4ddc6bac95f9d0a11b239eca785f82b6",
+    "published": "2026-11-23 12:00",
+    "raw_path": "raw/article/lurenjiaTM/雷达-2026-11-25/92w赞的科普动画，0基础20分钟用OiiOii复刻出来了，自媒体人泪目！-bf79aa202e.md",
+    "raw_sha256": "9c2a70c4fa7df44613b2f7030292e1f89e0be9154bcd0b08896462b387c114d7",
+    "body_sha256": "bf79aa202e16f65fcab20cc8feeec5889962c59b0959ef8ce8a354134af9799b",
+    "disposition": "deep",
+    "reason": "作者上传 92w 赞参考片在 OiiOii Motion 复刻古代战鼓 MG 科普并演示工程文件局部改稿与三遍返修。",
+    "anchors": [
+      "而且在生成的时候Agent会自动搜索和校对内容，像 “闻鼓则进，闻金则退” 这种典故，还帮我标了出处，还是很严谨的，我一开始还担心他会一本正经地给我瞎编知识点，现在看来我的担心是多余的。",
+      "嘿，这点做的挺好，他没有直接给我一个成片，他给我一个还能继续打开、继续编辑的工程文件。找到画布上的剪辑节点，点击打开剪辑的按钮，画面就直接跳转。",
+      "做出来觉得丑也没关系，我改三遍才满意，你改八遍也行。"
+    ],
+    "source_path": "wiki/sources/路人甲TM_OiiOiiMotion战鼓科普复刻拆解.md",
+    "author_path": "wiki/topics/路人甲TM文章经营全景.md",
+    "case_card": "案例：上传 92w 赞参考片复刻“战鼓”MG 科普动画并局部改工程（路人甲TM，2026-11-23）"
+  },
+  {
+    "account": "摸鱼小李",
+    "id": "2247492298:1",
+    "title": "实测 MAGI-2，追平 Seedance 2.5 ！",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247492298&idx=1&sn=727500f89689b8eb0bf2ceccaeb49bb2",
+    "published": "2026-11-25 08:45",
+    "raw_path": "raw/article/摸鱼小李/雷达-2026-11-25/实测 MAGI-2，追平 Seedance 2.5 ！-f7f6dfab52.md",
+    "raw_sha256": "c4744f15d7a8237b288363f4854bdbd8c34758e171b7fe250ad8dcca3379174b",
+    "body_sha256": "f7f6dfab52d2002b2b7c45f38e00506ce1d828b92ab0edadd4062bdaaf87e117",
+    "disposition": "deep",
+    "reason": "作者在 LibTV 上用 MAGI-2 实跑 6 支 30 秒高复杂度 TVC 与游戏实机 HUD 脚本（含三路盲猜与完整提示词），并梳理 Sand.ai 模型路线。",
+    "anchors": [
+      "价格：便宜到可以放开，Seedance 2.5 价格的十分之一",
+      "也有短板：画面很能打，但音效和配音的质感还差点意思",
+      "这是个实际渲染，整体的细节，UI交互逻辑关系处理的都很不错",
+      "测完 MAGI-2，我觉得它已经把水搅动了：效果够得上第一梯队，价格却只要零头。但我更期待的，是它开源的那一天"
+    ],
+    "source_path": "wiki/sources/摸鱼小李_MAGI2六例TVC与游戏渲染实测.md",
+    "author_path": "wiki/topics/摸鱼小李文章写法拆解.md",
+    "case_card": "案例：6 支 30 秒细粒度分镜与游戏 HUD 实机提示词测试（摸鱼小李，2026-11-25）"
+  },
+  {
+    "account": "摸鱼小李",
+    "id": "2247492243:1",
+    "title": "6 个真实病例，实测百灵开源的健康大模型会不会「看病」",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzA5OTIzMTE1OA%3D%3D&mid=2247492243&idx=1&sn=8a7b5df49116a5efec380be9871b1d41",
+    "published": "2026-11-24 11:30",
+    "raw_path": "raw/article/摸鱼小李/雷达-2026-11-25/6 个真实病例，实测百灵开源的健康大模型会不会「看病」-425ead183f.md",
+    "raw_sha256": "8a3f3d46d85ea8cc61b65b0b281c563f8ee268164d60acf5bda4064fcd9690ad",
+    "body_sha256": "425ead183f4cd37ae5797cf8a6bece5d7148169bb1845fab66acebe35b295fd8",
+    "disposition": "deep",
+    "reason": "作者通过蚂蚁数科 MaaS 接口跑 6 个脱敏真实病例（前 3 题对照 Claude Opus 5.5），给出临床五步自评表与疑难病例差距。",
+    "anchors": [
+      "为了保证测试的真实性，找了几个医学朋友，提供了脱敏的几个病例，从易到难跑了一遍。其中 3 道，拿我的Claude Opus 5.5 也测了下",
+      "用蚂蚁数科 MaaS 平台的 OpenAI 兼容接口，接到我自己搭的一个本地测试工作台",
+      "常见到复杂一点的病例都跟得上，但遇到不典型的疑难病例，最后一步还是差一点。当然，它不是医生，也不能和不会代替医生，最后的诊断和治疗还得交给医院",
+      "和 Claude Opus 5.5 对照的 3 道题，最后的判断都一样，差距主要在一些推理和细节上，客观上是存在差距的"
+    ],
+    "source_path": "wiki/sources/摸鱼小李_百灵健康大模型六病例对照实测.md",
+    "author_path": "wiki/topics/摸鱼小李文章写法拆解.md",
+    "case_card": "案例：6 个脱敏真实病例多轮问诊与读片五步临床推理评测（摸鱼小李，2026-11-24）"
+  },
+  {
+    "account": "小林coding",
+    "id": "2247566721:1",
+    "title": "又一个 Harness 开源了，真·FDE 落地神器！",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247566721&idx=1&sn=bfcbfcccab64000764114b03f0941cc5",
+    "published": "2026-11-24 16:36",
+    "raw_path": "raw/article/小林coding/雷达-2026-11-25/又一个 Harness 开源了，真·FDE 落地神器！-271460b596.md",
+    "raw_sha256": "c6fff125f4bd4c0707adb7187bcc7b578e7dc23fb79362605e3e58cafd25a19e",
+    "body_sha256": "271460b59663377b0f0d6ff86ad904b0a14beddbf8a4b7709d489784de831246",
+    "disposition": "deep",
+    "reason": "作者本地源码构建 Agnes Harness 跑通“茶屿奶茶”退款核对并抽成沙箱插件复用到“麦穗里烘焙店”，验证升级后旧会话 0.1.0 版本隔离。",
+    "anchors": [
+      "Agnes Harness 现在还是开发者预览版，官方还没出安装包，得从源码构建，Mac 和 Linux 都行，Node 要 24.10 以上。",
+      "那这样子，一个最简单的 FDE 的某个客户例子就算交付了，简历上又能多写一行：服务过奶茶行业客户，虽然客户是我自己演的哈哈",
+      "插件的版本页写得很清楚，烘焙店那个会话还保留着 0.1.0，新版本要是出了问题，也能一键回滚。",
+      "这一套后端同学应该很眼熟，跟滚动发布一个意思，新版本只给新会话，跑到一半的会话继续用旧代码。这样就能保障版本的隔离性"
+    ],
+    "source_path": "wiki/sources/小林AgnesHarness本地部署与FDE插件复用文章拆解.md",
+    "author_path": "wiki/topics/小林coding文章写法拆解.md",
+    "case_card": "案例：Agnes Harness 本地部署与茶屿奶茶/麦穗里烘焙 FDE 插件复用（小林coding，2026-11-24）"
+  },
+  {
+    "account": "小林coding",
+    "id": "2247566662:1",
+    "title": "阿里版Codex，给我用爽了！",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ%3D%3D&mid=2247566662&idx=1&sn=3fc266c2363ee19415050842a51aa23c",
+    "published": "2026-11-23 15:16",
+    "raw_path": "raw/article/小林coding/雷达-2026-11-25/阿里版Codex，给我用爽了！-d621b44559.md",
+    "raw_sha256": "7ebcfde542728396e001f21ec6b195fcc1cef5244eb4aede155fdd8830dd18dc",
+    "body_sha256": "d621b44559c955236dbb6a913069a6d186e00c795e134bc5ebf36baa3dc22fde",
+    "disposition": "deep",
+    "reason": "作者实操 Qoder CN 通用模式产出 90 页 Word、20 页 PPT（41.57 Credits）、GitHub 早报（18.67 Credits）及数据导入，并梳理新人双卡福利。",
+    "anchors": [
+      "结果它反手甩给我一份 90 页、3.6 万字的文档，整整十一章，架构、业务链路、API 全理得明明白白。",
+      "注意 Qoder 分国内版和国际版，这波福利是国内版专属，别下错了。",
+      "你们猜做完这一整份 20 页带图的 PPT 花了多少积分？只消耗了 41.57 Credits。",
+      "更离谱的是，跑完这一整套抓取加排版，只花了 18.67 Credits，每天领的那 100 积分拿来跑这活，够跑 5 回了。"
+    ],
+    "source_path": "wiki/sources/小林QoderCN通用模式Office与自动化福利文章拆解.md",
+    "author_path": "wiki/topics/小林coding文章写法拆解.md",
+    "case_card": "案例：Qoder CN 通用模式 Office 交付、定时早报与积分记账（小林coding，2026-11-23）"
+  },
+  {
+    "account": "卡尔的AI沃茨",
+    "id": "2247514084:1",
+    "title": "分享一个OiiOii Motion的新代码动画工作流，Opus和DeepSeek 都能用上了",
+    "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247514084&idx=1&sn=d2ece78f940498f06f3da2fd31e228c3",
+    "published": "2026-11-23 17:36",
+    "raw_path": "raw/article/卡尔的AI沃茨/雷达-2026-11-25/分享一个OiiOii Motion的新代码动画工作流，Opus和DeepSeek 都能用上了-821424a6a3.md",
+    "raw_sha256": "3c1b24c1b047260098d53ba901a2decaf64af35fccce8923af136751a4079088",
+    "body_sha256": "821424a6a3547f109e92321517c45b1eda12e0e0fc7c1c25cdac911744409af3",
+    "disposition": "deep",
+    "reason": "作者跑通 awesome-seedance 对照、“打喷嚏×10”全流程修改（含 -1.6dB 质检与 0.6s 误输纠偏）及 4 类场景成片，明确对比 Opus 与 Flash。",
+    "anchors": [
+      "更让我有点意外的是它交付前还会自己做一轮质检验收与自动纠偏。比如在把成片端出来之前，它自己在后台按时间线试混了一遍，查出来音爆和爆炸声叠在一起容易破音，就主动把响度压低到负一点六分贝防爆音，还顺手核验了旁白没有吞字杂音，把重叠但听着自然的地方主动跟我报备了一声。",
+      "比如说我看完初版的时候，想在第 6 秒鸽子被喷嚏吓飞的地方补一个翅膀扑棱的音效，结果敲字太快手滑打成了在第 0.6 秒处增加翅膀扑腾的音效。我发出去才发现打错了，但Agent自己去查了一遍画面和时间线，回来告诉我 0.6 秒还是片头标题，既没喷嚏也没鸟，它看了一眼第 1 级打喷嚏在 5.8 秒、鸽子在 6.0 秒起飞，直接帮我把音效精准落在了第 6 秒上。",
+      "关于使用模型，说实话DeepSeek V4.1 Flash肯定是没有Opus 5.5那么厉害的，遇到复杂多阶段推演或者立体交互大概只有 Opus 七成左右的效果，但它实在太便宜了，价格只有 Opus 5.5 的二十分之一，平时拿来套模板或者跑日常扁平科普，成本低到几乎不心疼。"
+    ],
+    "source_path": "wiki/sources/卡尔OiiOiiMotion代码动画五类场景工作流文章拆解.md",
+    "author_path": "wiki/topics/卡尔的AI沃茨文章写法拆解.md",
+    "case_card": "案例：OiiOii Motion 代码动画“打喷嚏×10”编剧/自检/纠偏与四类场景实跑（卡尔的AI沃茨，2026-11-23）"
+  },
+  {
+    "account": "沉默王二",
+    "id": "2247552153:1",
+    "title": "赶在老黄回归前，GLM-5.4 发布了。",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247552153&idx=1&sn=be6f566a9f9f65995abf7c71ac2bd8bc",
+    "published": "2026-11-24 14:15",
+    "raw_path": "raw/article/chenmowanger/雷达-2026-11-25/赶在老黄回归前，GLM-5.4 发布了。-31703f9e30.md",
+    "raw_sha256": "7ffe531aab78966baaba7935716afffbcfc7d841181b3bda1d7b88a69e2a06b7",
+    "body_sha256": "31703f9e3065a633ad222e04f786db3c53a08e35935a64532594e4ac39824e47",
+    "disposition": "deep",
+    "reason": "除泛 Coding 与 Loop Transformer 架构解读外，作者在 ZCode 3.19.1 跑了两轮 WebGL2《精灵小镇》实测并梳理 ZCode 4.0.0 分流方案。",
+    "anchors": [
+      "我让 Codex 控制 macOS 上的 ZCode 3.19.1 桌面端，在项目里选中 GLM-5.4，要求它在不依赖任何外部库的前提下，从完成了一个可离线运行的 WebGL2 交互演示《精灵小镇》。",
+      "上一轮把村庄铺成方格地图，房屋墙面像层层纸板，街景看不见坦克和巡逻人物，烟囱上方出现白色光球。",
+      "前面测《精灵小镇》第一轮时，开着最高档位，光思考就花了将近 20 分钟。",
+      "整个底座共 78 层，前 26 层做前置处理，中间第 27 到 54 层这 28 层跑两轮循环，最后 24 层负责收尾。算下来，参数量几乎没有增加，模型单次前向推理的等效深度却从 78 层提升到了 106 层。"
+    ],
+    "source_path": "wiki/sources/沉默王二GLM5.4泛Coding精灵小镇与Loop架构文章拆解.md",
+    "author_path": "wiki/topics/沉默王二文章写法拆解.md",
+    "case_card": "案例：《精灵小镇》零依赖 WebGL2 两轮开发与首轮视觉瑕疵精修（沉默王二，2026-11-24）"
+  },
+  {
+    "account": "沉默王二",
+    "id": "2247552124:1",
+    "title": "谷歌真争气啊，这下可以爽用Gemini了。",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIxNzQwNjM3NA%3D%3D&mid=2247552124&idx=1&sn=8b80f505e627fc7d36f9d6d1ec44a4d0",
+    "published": "2026-11-23 14:13",
+    "raw_path": "raw/article/chenmowanger/雷达-2026-11-25/谷歌真争气啊，这下可以爽用Gemini了。-7dc4f902e2.md",
+    "raw_sha256": "07218fd5f376e52a239221756a54cf14e2049f1cdb4f301fcc3a0c08620ac097",
+    "body_sha256": "7dc4f902e26bf106d00f1b6949c636b09cee0da4a465293f980bdd326eca4ad6",
+    "disposition": "deep",
+    "reason": "整理黑五折扣评论、5 个外网 Neon 作品及 Antigravity/agy CLI 省 Token 与规则预算指南；因无作者本人实测案例交付，深拆建 source 但不立实测案例卡。",
+    "anchors": [
+      "后面还会推出重置卡，虽然我对重置一直很抵触，这玩意就是纯营销，对 500 刀订阅的我来说，就是伤害。",
+      "他把同一条提示词发给 Gemini 4 Neon 和 Claude Opus 5.5，两边都开到各自最高的推理档位。Neon 跑了 20 分钟，花费约 $3.5；Opus 5.5 跑了 18 分钟，花费约 $7.2。",
+      "第一，规则文件里引用外部文档时，写成 @[标签](路径) 会把目标文件的全文内联进规则里，每一轮都要占用固定的输入额度；写成 @filename 则不会内联内容，只会解析成工作区里的绝对路径，等模型需要时再主动去读。"
+    ],
+    "source_path": "wiki/sources/沉默王二GeminiNeon第三方案例与agy省Token指南文章拆解.md",
+    "author_path": "wiki/topics/沉默王二文章写法拆解.md",
+    "case_card": null
+  },
+  {
+    "account": "洛洛AI说",
+    "id": "2247489525:1",
+    "title": "批量做带货视频，每月副业多挣上万块，开拍xWorkBuddy太牛了",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzY0MDM2MTExNQ%3D%3D&mid=2247489525&idx=1&sn=db00445b0c4d53f0ca94bec06d9cd6d5",
+    "published": "2026-11-23 14:00",
+    "raw_path": "raw/article/洛洛AI说/雷达-2026-11-25/批量做带货视频，每月副业多挣上万块，开拍xWorkBuddy太牛了-047d609523.md",
+    "raw_sha256": "7d7ea7a5d8c9af1c8632e62a3afbff1741a3450f656fd78c264a712c6aa3ea0b",
+    "body_sha256": "047d6095234d0b3b7c150e00a3f3ccbbcb0ed322708338382686974aadc048cd",
+    "disposition": "deep",
+    "reason": "作者在 Mac 版 WorkBuddy 接入美图开拍技能、专家与连接器，跑通爱媛果冻橙修图、口播、6 条混剪及主图详情页五步工作流。",
+    "anchors": [
+      "第一张试了一下感觉效果不错，我又用同样的处理方法，批量处理了8张图片。",
+      "10分钟左右，口播的文案和画面都规划好了，我只需要输入【确认生成】，WorkBuddy就直接调用开拍帮我干活了。7分钟左右，一条完整的口播视频就做好了。",
+      "有客源的情况下，搞个电商副业也好，帮家里卖卖水果也好，一年多赚十几万，真的是挺香的。"
+    ],
+    "source_path": "wiki/sources/洛洛开拍xWorkBuddy爱媛橙电商工作流文章拆解.md",
+    "author_path": "wiki/topics/洛洛AI说文章写法拆解.md",
+    "case_card": "案例：美图开拍 × WorkBuddy 爱媛果冻橙五步电商素材流水线（洛洛AI说，2026-11-23）"
+  },
+  {
+    "account": "郭震AI",
+    "id": "2247526365:1",
+    "title": "Qoder 上了个神秘模型，直接免费用，实测能力强大！",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247526365&idx=1&sn=1efdbb631ab0acdf9d222c03250b1aa5",
+    "published": "2026-11-24 12:36",
+    "raw_path": "raw/article/郭震AI/雷达-2026-11-25/Qoder 上了个神秘模型，直接免费用，实测能力强大！-6218ae54f0.md",
+    "raw_sha256": "e02168f9ae3c39e5746eaf66b948c49c9b435a14abaf8763135982e3d7dd128c",
+    "body_sha256": "6218ae54f009f4e28b4c8f1d3047403ac377678f0ef080a6aa56d6755719ab63",
+    "disposition": "deep",
+    "reason": "作者在 Qoder 桌面端用匿名模型 HungerG 实测 54 万行电商 HTML 报告（另写脚本验算）、摆线动画（公式核对）、含坑资料 PPT（自修打开故障）与 3D 四季。",
+    "anchors": [
+      "我另外写程序核对了一遍，净销售额 826.5 万英镑、订单 18402 张、客户 4334 位，和它的结果都一致。",
+      "难点在于，资料里我故意放了几处问题，比如单位不一致、有一个月缺数据、有一行重复，看它能不能发现。",
+      "修改图表时，文件有一次打不开了，这次是Qoder自己发现的，没有直接交付给我，继续去排查：",
+      "11 月 23 日 24:00 到 11 月 30 日 24:00，Qoder 桌面端个人账号可以使用 HungerG 的每日免费额度。"
+    ],
+    "source_path": "wiki/sources/郭震Qoder神秘模型HungerG四任务实测文章拆解.md",
+    "author_path": "wiki/topics/郭震AI文章写法拆解.md",
+    "case_card": "案例：Qoder 匿名模型 HungerG 四类长任务交付与程序/埋坑验算（郭震AI，2026-11-24）"
+  },
+  {
+    "account": "郭震AI",
+    "id": "2247526259:1",
+    "title": "实测豆包工作新上的工作台：出方案、做海报，全给我包了",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTkyMjA4NA%3D%3D&mid=2247526259&idx=1&sn=9ac02e6273bbcf50d03c687f53154a3a",
+    "published": "2026-11-23 15:51",
+    "raw_path": "raw/article/郭震AI/雷达-2026-11-25/实测豆包工作新上的工作台：出方案、做海报，全给我包了-5ab08d1bf4.md",
+    "raw_sha256": "5b409f160491463e9b04dfff2d472974e3336f5494d2b9d253ca2d10113459be",
+    "body_sha256": "5ab08d1bf4408c007aff4cc0670a627389b464f5ef3b5017281fbe3f8d2ca2e4",
+    "disposition": "deep",
+    "reason": "作者用虚构品牌“咖途 KATU”实测豆包工作营销工作台，从 11 页 Word 全案到同对话 `/海报`（Seedream 5.0 Pro）改图并留存物理穿帮边界。",
+    "anchors": [
+      "结论先放这：工作台不是\"更强的 Agent\"，它是把一个行业要用的几十个专业技能预先打包、调好，放进一个带工作环境的台子里。",
+      "简单讲：框架和结构基本能直接用，数字需要人工复核。",
+      "第一版多了一个虚化杯体，要改一下；终版里杯子平放着，杯口却在冒热气，细看有点矛盾，追求完美的话可以让它去掉热气。"
+    ],
+    "source_path": "wiki/sources/郭震豆包工作营销工作台全案海报实测文章拆解.md",
+    "author_path": "wiki/topics/郭震AI文章写法拆解.md",
+    "case_card": "案例：豆包工作“营销工作台”从全案 Word 到同对话海报改图闭环（郭震AI，2026-11-23）"
+  },
+  {
+    "account": "西羊石AI视频",
+    "id": "2247546440:1",
+    "title": "豆包工作终于想通了！接入 Kimi、DeepSeek 后怎么选？4 大办公场景深度实测（附提示词）",
+    "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDU5MTk3OA%3D%3D&mid=2247546440&idx=1&sn=e4629cac4e8ff2c540a7f28e0a600632",
+    "published": "2026-11-23 17:42",
+    "raw_path": "raw/article/西羊石AI视频/雷达-2026-11-25/豆包工作终于想通了！接入 Kimi、DeepSeek 后怎么选？4 大办公场景深度实测（附提示词）-2e10c09026.md",
+    "raw_sha256": "1c7d798249832b827b3c8e47babcd85b7cc4f7ee5a824ce1336dd823aefa8277",
+    "body_sha256": "2e10c0902615bbf8214d4ab98c5effce904153b1dc9de13aa8467b18298ad816",
+    "disposition": "deep",
+    "reason": "作者附 4 组完整提示词，分别用 Kimi K3.1 Pro 做 PPT、DeepSeek 0.01x 追热点、豆包 2.1 Pro 看图拆卡片、GLM 5.3 写收藏夹 HTML 并留存初版问题。",
+    "anchors": [
+      "刚开始就算你用国产设计审美最好的Kimi模型，默认生成的效果也不一定能直接满足你的要求，看上去总是还有一股AI味。",
+      "但是联网整理最怕链接是编的。跑完我随手点开了几条核对，发现基本上没什么问题。",
+      "第一版往往能跑，但不一定好用，不一定好看。我这一个版本就有点丑，非常经典的蓝紫霓虹渐变，AI感很重。。"
+    ],
+    "source_path": "wiki/sources/西羊石豆包工作接入多模型四场景实测文章拆解.md",
+    "author_path": "wiki/topics/西羊石AI视频文章写法拆解.md",
+    "case_card": "案例：豆包工作接入多模型（Kimi/DeepSeek/豆包/GLM）四类办公场景单任务分工（西羊石AI视频，2026-11-23）"
+  }
+]
