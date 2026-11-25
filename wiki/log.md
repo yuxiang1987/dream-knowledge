@@ -1903,3 +1903,9 @@
   3. 取消正文英文单词与技术标识符自动加粗，改为同字号、同基线的淡蓝色下划虚线（`border-bottom:1.5px dashed #7ec8ff;padding-bottom:1px;`）；
   4. `SKILL.md` 明确对原稿裸 ` ```prompt ` 块在排版临时副本中补齐真实语义标题（不改 `raw/` 原稿），本次健身小程序排版副本的四段提示词分别标注为 `《高保真原型》提示词`、`《设计交付包》提示词`、`《小程序开发》提示词`、`《上线前自查》提示词`。
 - `dream-skills` 与本库安装副本全部 36 项 Node 单元测试、`test_installed_skills.py`、`wiki_lint.py` 通过，同步更新 `scripts/installed_skills.json` 并刷新内置浏览器预览。
+
+## [2026-11-25] asset | 生成 WorkBuddy 健身小程序教程封面
+
+- 按用户指定调用 `gzh-webchat-cover`，读取《WorkBuddy + huashu skill 手搓健身小程序（附提示词）》及其配图，将长标题压缩为「WorkBuddy / 聊出微信小程序」，副标题「从高保真原型，到手机真能用」。
+- 使用内置 `imagegen` 生成炭黑与青柠绿无字底图，以线框走向实体手机表现从原型到可用成果；手机界面为抽象示意，不作实际截图或正式上线证据。通过技能排字脚本输出 `output/ai-wechat-methodology/workbuddy-miniprogram-cover-20261125/cover.png`（900×383 RGB PNG），保留底图、缩略图、设计说明、完整提示词与可复现排字入口；未修改技能和 raw 原稿。
+- 新增本次交付验证脚本，检查成品尺寸与格式、明确两行标题完整性、文字安全边界及原稿 SHA256 不变；人工检查完整封面与 450×192 缩略图。交付验证及 `wiki_lint.py` 通过（仅有既有来源为空警告），未验证微信各展示位裁剪。
