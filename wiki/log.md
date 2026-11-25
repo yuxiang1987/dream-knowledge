@@ -1889,3 +1889,8 @@
   4. `--intro-svg` 自定义 SVG+SMIL 开头动画外层容器增加蓝色圆角边框（`border:1.5px solid #7ec8ff; border-radius:12px`）与呼吸内边距；
   5. `SKILL.md` 新增排版后默认通过本地 `127.0.0.1` HTTP 静态服务在内置浏览器（`browser` 子智能体）直接打开 `.preview.html` 供用户一键复制的约定。
 - `dream-skills` 与本库安装副本 `md-wechat-layout` 全部 36 项单元测试通过，更新 `scripts/installed_skills.json` 快照哈希，并重新导出《WorkBuddy + huashu skill 手搓健身小程序（附提示词）》完整微信排版预览（原稿只读未改）。
+
+## [2026-11-25] skill-sync | md-wechat-layout 晴蓝手记新增蓝色系像素风 PROMPT 提示词卡片样式
+
+- 参考摸鱼小李可滚动提示词卡片结构并结合「程序员梦哥」像素品牌视觉与晴蓝手记配色，升级 `md-wechat-layout` 晴蓝手记主题下的 `prompt` / `提示词` 围栏块（支持附带自定义标题如 ` ```prompt 《片头》提示词 `）：采用 `2px` 亮天蓝硬边外框与 `4px` 零模糊像素阶梯投影、冰蓝顶栏左侧立体像素蓝 `PROMPT` 徽章 + 加粗标题、限高滚动模式下右侧像素键帽式 `上下滑动 ↕` 提示（`--code-max-height 0` 全展开时自动隐藏），正文保留微蓝底色、舒适中文无衬线行距与段落空行紧凑留白；普通编程语言代码块继续保持浅蓝底 Mac 三色信号灯窗口。
+- 同步 `dream-skills` 仓库提交 `b552e2a20e1d6583a5b8cb0ef6310b3b3932f7f0` 并推送到 GitHub，更新本库 `.agents/skills/md-wechat-layout/` 与 `scripts/installed_skills.json` 哈希；`md-wechat-layout` 36 项单元测试、`test_installed_skills.py` 与 `wiki_lint.py` 全部通过，重新生成健身小程序文章排版预览并刷新内置浏览器预览页。
