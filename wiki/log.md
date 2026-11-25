@@ -1975,3 +1975,8 @@
   1. `output/ai-wechat-methodology/workbuddy-miniprogram-intro-20261125/intro.svg`：改为「Anime.js 精密表盘 + `grid_stagger` 矩阵波 + `split_text_stagger` + `bounce_drop` 青柠能量环真机」（56 个 `<animate>`、74 个 `<animateTransform>`）；
   2. `output/ai-wechat-methodology/deepseek-v41-flash-intro-20261125/intro.svg`：改为「GSAP 瑞士网格 + `SplitText` 逐字上浮 + `morph_d` 许愿星/方框/小屋液态变形 + `spring_oscillate` 3D 收音机拆装」（53 个 `<animate>`、42 个 `<animateTransform>`）；
   3. 汇总三篇不同流派同屏对比页：`output/ai-wechat-methodology/intro-showcase-20261125.html`。
+
+## [2026-11-25] asset | 按摸鱼小李极简立体风精修《WorkBuddy 健身小程序》片头并完成浏览器截图验收
+
+- 采纳减法构图与大留白原则，重做 `output/ai-wechat-methodology/workbuddy-miniprogram-intro-20261125/intro.svg` 与 `preview.html`（`6s` 循环，41 个 `<animate>`、40 个 `<animateTransform>`）：仅保留「`huashu-design` 原型板选中方案 C」→「青柠光球飞入」→「`梦动健身` 深色青柠能量环手机真机」→「`0 行代码 · 聊出小程序` 绿勾气泡」，统一 `#DCE4EE` 立体底影与 `#8291A5` 描边。
+- 通过内置浏览器打开 `preview.html` 定格检查 `2.0s` 与 `4.6s` 关键帧，确认文字清晰无遮挡、无裁切，同步更新 `output/ai-wechat-methodology/intro-showcase-20261125.html`。
