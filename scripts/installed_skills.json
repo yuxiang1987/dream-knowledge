@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/yuxiang1987/dream-skills",
-  "commit": "191d0fabe48c3d8291c5c4f803bce2b544df7e95",
+  "commit": "f4e6e49a7bf685c0bdf9fa37dbad248dcb637d4d",
   "skills": [
     "gzh-webchat-cover",
     "md-wechat-layout",
@@ -63,15 +63,15 @@
     "gzh-webchat-cover/tests/test_compose_cover.py": "c855c96ca2028a31d580128618554e3daecc83a8bd7742246c3cf174507b513c",
     "md-wechat-layout/package-lock.json": "3bde6ac3194a701b2ec2a039c8df51b75c7183b562159a032546c7724ff767f7",
     "md-wechat-layout/package.json": "44a0afb8597f6297dfc25017e57d93a40e6641244b57a8a07e8a3492165fadb5",
-    "md-wechat-layout/SKILL.md": "5ec3cf124e0cf0ad0fa0396186ac037fe15edfbf5b53170a798af3a2d09bb592",
+    "md-wechat-layout/SKILL.md": "1f2535a339c510e5cdec5314b97e8fca5675b843ead34b995caaa6fdd7b59054",
     "md-wechat-layout/agents/openai.yaml": "57f447cbf2e07ebe0c6d181a32b36a219b24f196f22f6845e47a608d118ed8f9",
     "md-wechat-layout/assets/blue-journal-demo.md": "e5c44345994a1835576e21fa6dc836cd4a572dfc3909dcdc6c09edd9eab386fb",
-    "md-wechat-layout/references/blue-journal.md": "a7b16397e03a468f284b04aafa87dbff6498f9df53696b677d95c891441565b6",
+    "md-wechat-layout/references/blue-journal.md": "a29ab2c2394da67a3cf4d3fe165bcd592e0924040dd81cc5816bafa79791b77c",
     "md-wechat-layout/references/upstream.md": "34f0c7ce0203455346d128003533e482e610815a7c2b764aafb4219a622a63df",
-    "md-wechat-layout/scripts/blue-journal.mjs": "dd57de4404322655b950ae0ac549e39e59ad764e9095491e7a49c87082dfee16",
+    "md-wechat-layout/scripts/blue-journal.mjs": "87b273749aac60e6f8863719287a37baa87961552431f16972c4f45821a9ac69",
     "md-wechat-layout/scripts/render.mjs": "ae799109325c03ced74ac4dae7eaf55e736946cafef7eaacfb6b50b5066378ab",
-    "md-wechat-layout/tests/blue-journal.test.mjs": "09a20481f0446374bb40b4c23f1f6b8251f1e60628b5c08a8398275ad725b185",
-    "md-wechat-layout/tests/copy-layout.test.mjs": "bc441e4e2fce6e4e5ac39d4512c3287c1bffe10ec3db286e591aeb62705c6434",
+    "md-wechat-layout/tests/blue-journal.test.mjs": "dec1109470b70020d2aeb0e2d1fb4b7e5fbba48cbabb9bd640b42755f7a22767",
+    "md-wechat-layout/tests/copy-layout.test.mjs": "cc03c4b3f4657eb26eae7449a53c66c5409e8764d0f4a584f7a91ab217365edb",
     "md-wechat-layout/tests/reading-typography.test.mjs": "feae576ad4181ae41b62f3c37aa9660d509cd9dfbc9b24cfeab63c87d628f4fb",
     "md-wechat-layout/tests/render.test.mjs": "2e5f626c3c222e3b56cf163db3bf3498f11e9d2438e4d2a3e3f06c81bc452b36",
     "md-wechat-layout/assets/upstream/LICENSE": "1de0cbe909c44265daf7ec79c69204df11d003d4fad3f82a33e7a8aa1d38ae45",
@@ -95,7 +95,7 @@
     "gzh-svg-intro/tests/test_build_svg_intro.py": "ae3d27257e3681140d0b16e50e24af07ba58f720ef17ac741f126d829c91bc03"
   },
   "skill_commits": {
-    "md-wechat-layout": "191d0fabe48c3d8291c5c4f803bce2b544df7e95",
+    "md-wechat-layout": "f4e6e49a7bf685c0bdf9fa37dbad248dcb637d4d",
     "wechat-article-writing": "fea56a8ef7b7f68ae2d38e4f31b602c60bb6e80a",
     "gzh-final-check": "fea56a8ef7b7f68ae2d38e4f31b602c60bb6e80a",
     "gzh-topic-planning": "e78e17df181682500b6725707bcddd2b3c0968d0",
