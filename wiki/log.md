@@ -1948,3 +1948,8 @@
 
 - 依据 `raw/article/程序员拾梦/匿名“太空兔”冲上用量榜第一，我给它出了三道题.md` 的 3 道实测题，使用 `gzh-svg-intro` 生成定制片头：`output/ai-wechat-methodology/space-bunny-intro-20261125/intro.svg` 与 `preview.html`（`6s` 循环，49 个 `<animate>`、45 个 `<animateTransform>`，通过微信 SVG 合规校验）。
 - 分镜设计：左侧戴圆眼镜的 Space Bunny 太空兔放出光点沿贝塞尔曲线（`smil_motion`）依次波纹点亮（`ripple_pulse`）三道实测题：巡视车撞石轻轻回弹的「月球基地 · 44分」、长城与天坛视差推进的「北京网页 · 1次过」、金沙入蓝水且绿酸液蚀墙出缺口的「落沙物理沙盒」，最后弹出绿勾与「3 道题 · 兔子过关」。
+
+## [2026-11-25] asset | 重做《太空兔三道题》为实景多维舞台并强化 gzh-svg-intro 反单一套路规范
+
+- 按用户反馈“避免连续多篇都用线条串珠”，重做 `output/ai-wechat-methodology/space-bunny-intro-20261125/intro.svg` 与 `preview.html`（`6s` 循环，49 个 `<animate>`、46 个 `<animateTransform>`，零虚线串珠）：左侧 3D 透视月面网格 + 戴圆眼镜太空兔主基地 + 橙色巡视车撞石回弹；中间「十一游北京」双层视差长卷推进；右侧「落沙物理沙盒」金沙落蓝水、绿酸液蚀墙出缺口。
+- 在 `dream-skills`（`gzh-svg-intro/SKILL.md`）明确「避免全员卡片化也避免全员线条串珠化」的选型规范，同步至 `.agents/skills/gzh-svg-intro/` 与 `scripts/installed_skills.json`。
