@@ -1968,3 +1968,10 @@
 
 - 浏览器实看 `https://animejs.com/` 后，提炼 3 种精密仪器流派（精密表盘与 8 色霓虹弧、中心辐射矩阵波、CAD 工程线框爆炸图）写入 `.agents/skills/gzh-svg-intro/references/style-catalog.md`。
 - 在 `dream-skills` 为 `gzh-svg-intro` 新增 `grid_stagger`、`radial_dial`、`spring_oscillate` 三个纯 SMIL 原语及 `test_animejs_inspired_primitives` 单元测试（8 项全过），并同步至工作空间 `.agents/skills/gzh-svg-intro/` 与 `scripts/installed_skills.json`。
+
+## [2026-11-25] asset | 用三种不同流派重测《WorkBuddy 健身小程序》《DeepSeek V4.1》并生成三篇同屏对比页
+
+- 按 Anime.js v4 与 GSAP Showcase 新流派重做前两篇片头，彻底消除“线条串珠”同质化：
+  1. `output/ai-wechat-methodology/workbuddy-miniprogram-intro-20261125/intro.svg`：改为「Anime.js 精密表盘 + `grid_stagger` 矩阵波 + `split_text_stagger` + `bounce_drop` 青柠能量环真机」（56 个 `<animate>`、74 个 `<animateTransform>`）；
+  2. `output/ai-wechat-methodology/deepseek-v41-flash-intro-20261125/intro.svg`：改为「GSAP 瑞士网格 + `SplitText` 逐字上浮 + `morph_d` 许愿星/方框/小屋液态变形 + `spring_oscillate` 3D 收音机拆装」（53 个 `<animate>`、42 个 `<animateTransform>`）；
+  3. 汇总三篇不同流派同屏对比页：`output/ai-wechat-methodology/intro-showcase-20261125.html`。
