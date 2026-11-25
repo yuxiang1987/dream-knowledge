@@ -1894,3 +1894,12 @@
 
 - 参考摸鱼小李可滚动提示词卡片结构并结合「程序员梦哥」像素品牌视觉与晴蓝手记配色，升级 `md-wechat-layout` 晴蓝手记主题下的 `prompt` / `提示词` 围栏块（支持附带自定义标题如 ` ```prompt 《片头》提示词 `）：采用 `2px` 亮天蓝硬边外框与 `4px` 零模糊像素阶梯投影、冰蓝顶栏左侧立体像素蓝 `PROMPT` 徽章 + 加粗标题、限高滚动模式下右侧像素键帽式 `上下滑动 ↕` 提示（`--code-max-height 0` 全展开时自动隐藏），正文保留微蓝底色、舒适中文无衬线行距与段落空行紧凑留白；普通编程语言代码块继续保持浅蓝底 Mac 三色信号灯窗口。
 - 同步 `dream-skills` 仓库提交 `b552e2a20e1d6583a5b8cb0ef6310b3b3932f7f0` 并推送到 GitHub，更新本库 `.agents/skills/md-wechat-layout/` 与 `scripts/installed_skills.json` 哈希；`md-wechat-layout` 36 项单元测试、`test_installed_skills.py` 与 `wiki_lint.py` 全部通过，重新生成健身小程序文章排版预览并刷新内置浏览器预览页。
+
+## [2026-11-25] skill-sync | md-wechat-layout 精修提示词无阴影细边框与隐藏滚动条、英文单词改淡蓝下划虚线
+
+- 按用户审阅反馈继续精修 `md-wechat-layout`（`dream-skills` 提交 `57507759ae10ce6884d250536c1eab5a88cd04df`）：
+  1. 晴蓝手记 `PROMPT` 提示词卡片去除全部内外阴影，外框收细为 `1px solid #c2e0ff`、圆角 `8px`，顶栏右侧 `上下滑动 ↕` 改为无边框轻量提示文字；
+  2. 提示词正文保留 `max-height` 上下滚动能力，同时通过内联 `scrollbar-width:none;-ms-overflow-style:none;` 与预览页 `::-webkit-scrollbar{display:none}` 隐藏右侧滚动条显示；
+  3. 取消正文英文单词与技术标识符自动加粗，改为同字号、同基线的淡蓝色下划虚线（`border-bottom:1.5px dashed #7ec8ff;padding-bottom:1px;`）；
+  4. `SKILL.md` 明确对原稿裸 ` ```prompt ` 块在排版临时副本中补齐真实语义标题（不改 `raw/` 原稿），本次健身小程序排版副本的四段提示词分别标注为 `《高保真原型》提示词`、`《设计交付包》提示词`、`《小程序开发》提示词`、`《上线前自查》提示词`。
+- `dream-skills` 与本库安装副本全部 36 项 Node 单元测试、`test_installed_skills.py`、`wiki_lint.py` 通过，同步更新 `scripts/installed_skills.json` 并刷新内置浏览器预览。
