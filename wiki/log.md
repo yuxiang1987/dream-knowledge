@@ -1980,3 +1980,11 @@
 
 - 采纳减法构图与大留白原则，重做 `output/ai-wechat-methodology/workbuddy-miniprogram-intro-20261125/intro.svg` 与 `preview.html`（`6s` 循环，41 个 `<animate>`、40 个 `<animateTransform>`）：仅保留「`huashu-design` 原型板选中方案 C」→「青柠光球飞入」→「`梦动健身` 深色青柠能量环手机真机」→「`0 行代码 · 聊出小程序` 绿勾气泡」，统一 `#DCE4EE` 立体底影与 `#8291A5` 描边。
 - 通过内置浏览器打开 `preview.html` 定格检查 `2.0s` 与 `4.6s` 关键帧，确认文字清晰无遮挡、无裁切，同步更新 `output/ai-wechat-methodology/intro-showcase-20261125.html`。
+
+## [2026-11-25] asset | 完成《WorkBuddy 健身小程序》高精细拟物小剧场 v4 并通过浏览器视觉验收
+
+- 按用户选择的“高精细拟物道具 + 物理小剧场”标准重做 `output/ai-wechat-methodology/workbuddy-miniprogram-intro-20261125/intro.svg` 与 `preview.html`（`8s` 循环，169,143 字节，51 个 `<animate>`、48 个 `<animateTransform>`）：
+  1. 左侧 `huashu-design · 3套原型` 斜架画板台（三色工具点 + `A 网格`/`B 留白`/`C 青柠` 三套微缩原型依次抬起，方案 C 飞出）；
+  2. 中央 `梦动健身` 云端手机工坊（下沉 `6px` 回弹、槽口 4 颗火花飞溅、`0.03s` 闪白切屏，连接左侧蓝色 `云端库` 圆柱并充能青柠 `5.0km` 能量环 + 按压「开始运动」）；
+  3. 右侧弹出带二维码矩阵、跑步小人与双进度条的实测面板，顶部弹出「WorkBuddy + huashu 实战」与过冲绿勾。
+- 通过内置浏览器定格检查 `2.8s` 与 `6.2s` 关键帧，确认构图饱满、间距均衡、文字清晰无遮挡。
