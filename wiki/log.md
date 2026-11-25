@@ -1927,3 +1927,9 @@
 
 - 依据 `raw/article/程序员梦哥/WorkBuddy + huashu skill 手搓健身小程序（附提示词）.md` 的真实流程与视觉风格，使用升级后的 `gzh-svg-intro` 生成无卡片定制片头：`output/ai-wechat-methodology/workbuddy-miniprogram-intro-20261125/intro.svg` 与 `preview.html`（`6s` 循环，43 个 `<animate>`、41 个 `<animateTransform>`，通过微信 SVG 合规校验）。
 - 分镜设计：左侧 `huashu-design` 三套原型选中方案 C（暖墨深底 + 青柠高亮），光点沿贝塞尔虚线依次点亮「01 _design 规范」「02 云端 + 步数」「03 扫码真机测」三个无框圆形节点，最终充能点亮右侧「梦动健身」手机真机青柠能量环，弹出绿勾与「0行代码·真机可用」。
+
+## [2026-11-25] skill-sync | 深度蒸馏摸鱼小李 25 篇片头物理/粒子技法并沉淀至知识库与 gzh-svg-intro
+
+- 进一步拆解「摸鱼小李」`[02]`、`[04]`、`[08]`、`[12]`、`[18]`、`[19]` 等代表作的关键帧时序与缓动曲线，提炼三段式物理发射、双向 `stroke-dashoffset` 转场、多段抛物线粒子喷泉、快速切帧→炸开→波浪队列弹跳及四大黄金曲线分工。
+- 在 `dream-skills`（commit `033687a35f08720922045ed06f523bf74e6e93`）新增 `launch_recoil`、`particle_fountain`、`stagger_bounce` 与双向 `smil_stroke_draw` 原语，同步更新 `references/storyboard-dna.md` 与 `tests/test_build_svg_intro.py`（6 项测试通过）。
+- 更新知识库 `.agents/skills/gzh-svg-intro/`、`scripts/installed_skills.json` 与 `wiki/topics/摸鱼小李文章片头动画实现.md`。
