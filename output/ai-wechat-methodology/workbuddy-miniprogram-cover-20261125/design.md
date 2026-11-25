@@ -3,11 +3,11 @@
 - 日期：2026-11-25。
 - 原稿：`raw/article/程序员梦哥/WorkBuddy + huashu skill 手搓健身小程序（附提示词）.md`，只读。
 - 文章标题：不用敲一行代码！手把手教你用 WorkBuddy 做微信小程序，从高保真原型到手机真机能用（附全套提示词）。
-- 主标题：`WorkBuddy` / `聊出微信小程序`；副标题：`从高保真原型，到手机真能用`。
-- 命题：通过对话把原型变成可用的小程序。炭黑与青柠绿沿用正文方案 C 的颜色，右侧从线框走向实体手机，能量环呼应健身案例。
+- 当前主标题：`不用敲一行代码` / `做微信小程序`；副标题：`WorkBuddy · 从原型到手机真能用`。按用户反馈，直接提取文章标题中的开发门槛、任务与可用成果，增强封面与标题的关联。
+- 命题：不用敲代码，也能把小程序从原型做到手机可用。炭黑与青柠绿沿用正文方案 C 的颜色，右侧从线框走向实体手机，能量环呼应健身案例。
 - 底图：内置 `imagegen` 生成无字示意画面；手机界面为抽象视觉，不是产品实际截图。不含正式上线、免审核长期可用等主张。
 - 排字：调用 `gzh-webchat-cover/scripts/compose_cover.py`，本目录包装脚本仅增加明确换行；微软雅黑粗体，保留产品官方大小写。
-- 交付：`cover.png`，900×383，RGB PNG。`background.png` 为无字底图；`thumbnail.png` 为缩略检查图。
+- 当前交付：`cover-v2.png`，900×383，RGB PNG；`thumbnail-v2.png` 为缩略检查图。`background.png` 为沿用的无字底图，未重新生图。保留第一版 `cover.png` 与 `thumbnail.png` 供对照。
 - 验证：`python output/ai-wechat-methodology/workbuddy-miniprogram-cover-20261125/verify_delivery.py`；人工检查完整图及缩略图。未验证公众号各展示位的裁剪。
 
 ## 最终底图提示词

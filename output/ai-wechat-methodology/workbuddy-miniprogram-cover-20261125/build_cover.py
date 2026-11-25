@@ -18,8 +18,8 @@ cover.wrap = lambda draw, text, font, width: [
 
 if __name__ == "__main__":
     sys.argv = [str(__file__), "--background", str(HERE / "background.png"),
-                "--output", str(HERE / "cover.png"),
-                "--title", "WorkBuddy\n聊出微信小程序",
-                "--subtitle", "从高保真原型，到手机真能用",
+                "--output", str(HERE / "cover-v2.png"),
+                "--title", "不用敲一行代码\n做微信小程序",
+                "--subtitle", "WorkBuddy · 从原型到手机真能用",
                 "--accent", "#C6F24E", "--overlay", "0.15"]
     cover.main()
