@@ -1998,3 +1998,11 @@
 
 - 在 `dream-skills`（`gzh-svg-intro/scripts/svg_props.py`）新增第二批 8 个道具：`prop_telescope`（望远镜）、`prop_stethoscope`（听诊器）、`prop_gpu_box`（本地算力盒）、`prop_monitor`（导演监视器）、`prop_filmstrip`（胶片条）、`prop_lightbulb`（发光灯泡）、`prop_globe`（地球）、`prop_doc_file`（折角文档）。
 - 经浏览器截图验收发现并修正 `prop_gpu_box` 风扇与 `LOCAL` 文字重叠、`prop_doc_file` 折角底影露边及 `prop_filmstrip` 齿孔居中问题；全部 10 项技能单元测试、`test_installed_skills.py`、`test_repository_rules.py` 与 `wiki_lint.py` 全部通过，并同步提交推送至 `dream-skills` 与 `dream-knowledge`。
+
+## [2026-11-25] asset | 生成《OpenAI又放大招，GPT image 2.5来了，这次有点夯！》SVG 开头动画
+
+- 依据 `raw/article/程序员拾梦/OpenAI又放大招，GPT image 2.5来了，这次有点夯！.md` 的三轮实测，生成定制片头 `output/ai-wechat-methodology/gpt-image-25-intro-20261125/intro.svg` 与 `preview.html`（`8s` 循环，150,668 字节，53 个 `<animate>`、40 个 `<animateTransform>`）：
+  1. 左侧 `@Sketch 手绘草图` 画板用 `smil_stroke_draw` 实时画出火柴人放大招；
+  2. 中央深色主画布依次演绎：小人轰出蓝色冲击能量波与碎石粒子并亮出「发射！」→ 闪白切入「标注：增加战甲」穿上银黑发光战甲 → 「评论：发射改下班」就地将左上角改为蓝色描边「下班！」；
+  3. 右侧弹出 `GPT Image 2.5 实测`（`生成速度 +50%`、`三轮编辑一致`、`草图 -> 大招 -> 战甲 · 确实夯`）与过冲绿勾。
+- 已通过内置浏览器定格检查 `2.6s`、`4.2s`、`6.2s` 关键帧，确认文字清晰、无遮挡无裁切。
