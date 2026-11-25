@@ -1943,3 +1943,8 @@
 
 - 依据 `raw/article/程序员拾梦/实测DeepSeek V4.1 Flash-1017：许愿式编程，还真有点东西.md` 的 4 个实测项目，使用升级后的 `gzh-svg-intro`（`smil_motion`、`ripple_pulse`、`particle_fountain`、双向 `smil_stroke_draw` 等）生成定制片头：`output/ai-wechat-methodology/deepseek-v41-flash-intro-20261125/intro.svg` 与 `preview.html`（`6s` 循环，57 个 `<animate>`、57 个 `<animateTransform>`，通过微信 SVG 合规校验）。
 - 分镜设计：左侧 DeepSeek V4.1 Flash 许愿星芒喷出星尘并沿贝塞尔曲线飞过画布，依次通过波纹扩散点亮 4 个无卡片实测道具——红蓝错位 `OFFSET` 15s 动效、冒热气「深夜拉面」碗、零件左右炸开吸合的「3D 复古收音机」、亮灯下雨的「苔溪镇 3D」微缩小镇，最后弹出绿勾与「4 个愿望 · 全可玩」。
+
+## [2026-11-25] asset | 生成《匿名“太空兔”冲上用量榜第一，我给它出了三道题》SVG 开头动画
+
+- 依据 `raw/article/程序员拾梦/匿名“太空兔”冲上用量榜第一，我给它出了三道题.md` 的 3 道实测题，使用 `gzh-svg-intro` 生成定制片头：`output/ai-wechat-methodology/space-bunny-intro-20261125/intro.svg` 与 `preview.html`（`6s` 循环，49 个 `<animate>`、45 个 `<animateTransform>`，通过微信 SVG 合规校验）。
+- 分镜设计：左侧戴圆眼镜的 Space Bunny 太空兔放出光点沿贝塞尔曲线（`smil_motion`）依次波纹点亮（`ripple_pulse`）三道实测题：巡视车撞石轻轻回弹的「月球基地 · 44分」、长城与天坛视差推进的「北京网页 · 1次过」、金沙入蓝水且绿酸液蚀墙出缺口的「落沙物理沙盒」，最后弹出绿勾与「3 道题 · 兔子过关」。
