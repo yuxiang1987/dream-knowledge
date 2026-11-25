@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/yuxiang1987/dream-skills",
-  "commit": "22ad013095cde07d54cb33ca1aeaf50f3a0ce3f4",
+  "commit": "ae908d9094bf96c587727d1c0948fdf45215ee7d",
   "skills": [
     "gzh-webchat-cover",
     "md-wechat-layout",
@@ -91,11 +91,11 @@
     "gzh-svg-intro/references/storyboard-dna.md": "3787b948c87cde9a7faaefe44837949ccceeca9db70e62ee972c266ca7804613",
     "gzh-svg-intro/references/style-catalog.md": "ac352fcfc42ee28404be84f2633753fbb930032800005187a3a4bb4246020eda",
     "gzh-svg-intro/scripts/build_svg_intro.py": "ba76247e76fa3f24e246b28419695fd4ac3c58ee7c0f7a5e0bd0cdf01ac9f8d2",
-    "gzh-svg-intro/scripts/svg_props.py": "8af521fbf1549da83db242e38d6c1a622bf85d1bf207d75b0a884236f5a8c25c",
-    "gzh-svg-intro/SKILL.md": "450a3d1e300e5c3a5b1e484feca8c9ca3e1899a43aa83539aea858c5a63dd4bb",
+    "gzh-svg-intro/scripts/svg_props.py": "e28477d7fc5f650d904683e135de698d9508331043d71577d1ac92567159b0f3",
+    "gzh-svg-intro/SKILL.md": "af82a6547f49a8f8009c4bd8e54f564d2a11b0e2b5b01e12fbb976adbb19b916",
     "gzh-svg-intro/tests/intro-cases.md": "f05bc2c4b4a313958eeed9878bbd125dcdcb5dce583936adc5a63579196cda51",
     "gzh-svg-intro/tests/test_build_svg_intro.py": "b17c8695c9ec1ea9eb23d2d2ca314fa6f432ce5f7abe5e81c5c519ec725cc82c",
-    "gzh-svg-intro/tests/test_svg_props.py": "81d4c94e6e059a96331e29aa96f571897d7db5709ba58bf722dccb5e617788bd"
+    "gzh-svg-intro/tests/test_svg_props.py": "510f6ac66e4bb4a900431823e5742b4e397bceac62b52cc22a2f17a454e16360"
   },
   "skill_commits": {
     "md-wechat-layout": "57507759ae10ce6884d250536c1eab5a88cd04df",
@@ -105,6 +105,6 @@
     "gzh-benchmark-deconstruct": "e78e17df181682500b6725707bcddd2b3c0968d0",
     "gzh-benchmark-radar": "3c8f02fdf7e224312f6b1df2f9a4fbe784ed3667",
     "gzh-webchat-cover": "f824d1054d2353c89a3ddf51adfe2a9f0ddca608",
-    "gzh-svg-intro": "22ad013095cde07d54cb33ca1aeaf50f3a0ce3f4"
+    "gzh-svg-intro": "ae908d9094bf96c587727d1c0948fdf45215ee7d"
   }
 }

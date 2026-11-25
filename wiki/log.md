@@ -1993,3 +1993,8 @@
 
 - 在 `dream-skills`（`gzh-svg-intro/scripts/svg_props.py`）构建第一批 8 个可复用高精细拟物矢量道具：`prop_gamepad`（游戏手柄）、`prop_console`（掌机）、`prop_rocket`（火箭）、`prop_coffee_cup`（咖啡杯）、`prop_retro_pc`（复古电脑）、`prop_clapperboard`（场记板）、`prop_phone`（手机真机）、`prop_robot`（伙伴机器人），并新增 `tests/test_svg_props.py`。
 - 生成 `output/ai-wechat-methodology/props-gallery-20261125.html` 并经浏览器截图视觉验收，修正机器人胸口 `AI` 标签位置后全部 9 项单元测试、清单校验、仓库规范与 `wiki_lint.py` 均通过，同步至 `.agents/skills/gzh-svg-intro/` 与 `scripts/installed_skills.json`。
+
+## [2026-11-25] skill-sync | 补齐摸鱼小李第二批 8 个高精细矢量道具（共 16 项）并完成视觉验收
+
+- 在 `dream-skills`（`gzh-svg-intro/scripts/svg_props.py`）新增第二批 8 个道具：`prop_telescope`（望远镜）、`prop_stethoscope`（听诊器）、`prop_gpu_box`（本地算力盒）、`prop_monitor`（导演监视器）、`prop_filmstrip`（胶片条）、`prop_lightbulb`（发光灯泡）、`prop_globe`（地球）、`prop_doc_file`（折角文档）。
+- 经浏览器截图验收发现并修正 `prop_gpu_box` 风扇与 `LOCAL` 文字重叠、`prop_doc_file` 折角底影露边及 `prop_filmstrip` 齿孔居中问题；全部 10 项技能单元测试、`test_installed_skills.py`、`test_repository_rules.py` 与 `wiki_lint.py` 全部通过，并同步提交推送至 `dream-skills` 与 `dream-knowledge`。
