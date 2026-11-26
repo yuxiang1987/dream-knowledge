@@ -2049,3 +2049,7 @@
 ## [2026-11-25] asset | 行内标记十款创意选样
 
 - 在同一句 WorkBuddy 教程中展示十款蓝色行内标记，涵盖手绘、像素、游戏与纸品风格。可多选的网页和截图位于 `output/ai-wechat-methodology/inline-code-style-study/`。
+
+## [2026-11-26] asset | 行内标记二十四款总览
+
+- 新增 11–20 十款蓝色行内标记，将上一轮 01–10 和基础四款 A–D 放入同一张选样页，统一中英文例句。网页支持跨组多选，并附完整截图。文件在 `output/ai-wechat-methodology/inline-code-style-study/`。

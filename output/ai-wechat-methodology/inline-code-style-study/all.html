@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>晴蓝手记 · 行内标记 24 款</title>
+<style>
+* { box-sizing:border-box }
+body { margin:0; color:#16334a; background:#f3f6f7; font:15px/1.6 "Microsoft YaHei",sans-serif }
+main { max-width:1440px; margin:auto; padding:24px clamp(14px,3vw,44px) 32px }
+header { display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap; gap:6px 20px; border-bottom:2px solid #213e56; padding-bottom:10px }
+h1,h2,h3,p { margin:0 }
+h1 { font-size:clamp(22px,3vw,32px); letter-spacing:-.04em }
+h2 { font-size:17px; margin:18px 0 8px }
+#picked,small { color:#566b79; font-size:12px }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr)); gap:8px }
+section { background:white; border:1px solid #d3dfe5; border-radius:8px; padding:12px 14px }
+section:has([aria-pressed=true]) { border-color:#397bad; outline:1px solid #397bad }
+.head { display:flex; align-items:center; gap:8px }
+.num { color:#376797; font:600 13px Consolas,monospace }
+h3 { font-size:15px }
+button { margin-left:auto; background:white; border:1px solid #b9cbd7; border-radius:5px; padding:3px 8px; font-family:inherit; font-size:12px; line-height:1.45; cursor:pointer; color:#425b70 }
+button[aria-pressed=true] { background:#e1f2ff; color:#174c74 }
+p { margin-top:10px; font-size:15px; line-height:1.85; color:#202934 }
+u { text-decoration:none; border-bottom:1px dashed #87bedc }
+code { font:inherit; position:relative; isolation:isolate; padding:0 .28em; box-decoration-break:clone; -webkit-box-decoration-break:clone }
+.pen{border:1.5px solid #427c99;border-radius:49% 43% 45% 39% / 34% 46% 42% 52%;background:#f2faff;padding:0 .48em}.pen::before{content:"";position:absolute;inset:1px -2px -2px 1px;border:1px solid #82adc1;border-top-color:transparent;border-radius:48%;transform:rotate(-2deg)}
+.chalk::before{content:"";position:absolute;inset:34% -.08em 1% -.06em;z-index:-1;background:repeating-linear-gradient(-9deg,#addbef 0 1px,#c3e9f8 1px 3px,#b6e1f3 3px 5px);clip-path:polygon(0 14%,94% 0,100% 14%,97% 31%,100% 51%,96% 91%,2% 100%,4% 74%,0 81%,2% 43%)}
+.paper{background:#deeff5;clip-path:polygon(2% 6%,96% 0,99% 16%,97% 35%,100% 52%,97% 73%,99% 92%,2% 100%,4% 76%,0 55%,3% 30%,0 15%);padding:1px .55em}
+.stamp{border:1.5px dashed #517e9f;border-radius:2px;background:#f0f7fa;color:#244e6e;padding:0 .34em}
+.pixel{background:#dbf2ff;box-shadow:2px 0 #356590,-2px 0 #356590,0 2px #356590,0 -2px #356590;padding:0 .3em;color:#24445e}
+.retro{color:#e1f7ff;background:#273e60;border:1px solid #192e49;box-shadow:2px 2px #91adcb;padding:0 .35em}.retro::before{content:"";display:inline-block;width:6px;height:8px;margin-right:5px;background:#89dcf6;clip-path:polygon(0 0,33% 0,33% 25%,66% 25%,66% 40%,100% 40%,100% 60%,66% 60%,66% 75%,33% 75%,33% 100%,0 100%)}
+.slot{background:#eff6fb;border:1px solid #7296b9;box-shadow:inset 2px 2px #b6cbdf,inset -2px -2px white;border-radius:3px;padding:1px .38em}
+.hud{background:linear-gradient(#3081a7,#3081a7) left top/6px 2px,linear-gradient(#3081a7,#3081a7) left top/2px 6px,linear-gradient(#3081a7,#3081a7) right bottom/6px 2px,linear-gradient(#3081a7,#3081a7) right bottom/2px 6px,#e3f4fa;background-repeat:no-repeat;padding:1px .42em;color:#205269}
+.fold{background:linear-gradient(225deg,white 0 4px,#8fb8ce 4px 8px,transparent 8px) top right/10px 10px no-repeat,#dceef6;border-radius:2px;padding:1px .55em 1px .3em}
+.index{background:#e6f2f9;border-left:3px solid #438bd0;border-radius:0 4px 4px 0;padding:0 .38em}
+code.soft{background:#e1f3ff;border-radius:6px}code.strip{background:#e8f5ff;border-radius:2px}code.key{background:#f4faff;border:1px solid #b7d9ed;border-bottom-width:2px;border-radius:4px}code.stroke{border-radius:2px;background:linear-gradient(transparent 53%,#cfeaff 53%);padding:0 .13em}
+.glaze { padding:0 .55em; border-radius:1em; background:linear-gradient(#f7fcff,#dbf1ff 55%,#c8e5f7); border:1px solid #a1c9df; color:#194b66 }
+.route { padding:0 .5em 1px .95em; border-bottom:2px solid #5b9cb9; background:radial-gradient(circle at .48em 55%, white 2px,#3884a7 2.5px 4px,transparent 4.5px),#eff8fc; border-radius:4px }
+.graph { background-color:#e6f4fb; background-image:linear-gradient(#aacdd04a 1px,transparent 1px),linear-gradient(90deg,#8eb7ce63 1px,transparent 1px); background-size:5px 5px; padding:1px .4em; border-radius:3px }
+.wave { background:#f0f9fc; border-radius:4px; text-decoration:underline wavy #569cc9; text-underline-offset:3px; text-decoration-thickness:1px }
+.film { color:white; padding:2px .5em; border-radius:2px; background:repeating-linear-gradient(90deg,#c6e9f8 0 3px,transparent 3px 8px) 3px 1px/100% 2px no-repeat,repeating-linear-gradient(90deg,#c6e9f8 0 3px,transparent 3px 8px) 3px calc(100% - 1px)/100% 2px no-repeat,#304f67 }
+.offset { background:#e7f6ff; border:1px solid #639ac2; border-radius:3px; box-shadow:2px 2px #aacfe4,-1px -1px #d1eaff; padding:0 .36em }
+.ticket { padding:1px .85em 1px .45em; background:radial-gradient(circle at 0 50%,white 2.7px,transparent 3.2px),radial-gradient(circle at 100% 50%,white 2.7px,transparent 3.2px),#cce6f4; border-radius:3px }
+.ticket::after { content:""; position:absolute; right:.55em; top:12%; height:76%; border-right:1px dashed #5188a6 }
+.stitch { color:white; padding:1px .53em; border:2px solid #466e8a; outline:1px dashed #b8daed; outline-offset:-3px; background:#466e8a; border-radius:4px }
+.wash { padding:1px .5em; background:radial-gradient(ellipse at 32% 56%,#aed8ef 0 30%,transparent 65%),radial-gradient(ellipse at 70% 47%,#c4e9f0 10% 38%,transparent 72%); color:#23495e }
+.bracket { padding:0 .55em; background:#eff7ff; border-radius:3px }
+.bracket::before,.bracket::after { content:""; position:absolute; top:14%; bottom:14%; width:3px; border-block:1.5px solid #4182b7 }
+.bracket::before { left:1px; border-left:2px solid #4182b7 }
+.bracket::after { right:1px; border-right:2px solid #4182b7 }
+</style>
+<main>
+<header><h1>行内标记 · 24 款选样</h1><span id="picked" aria-live="polite">点「备选」可同时记下多个编号</span></header>
+<h2>本轮新增 · 11–20</h2>
+<div class="grid">
+  <section><div class="head"><span class="num">11</span><h3>蓝瓷药丸</h3><small>瓷釉</small><button type="button" aria-label="备选蓝瓷药丸" aria-pressed="false" data-id="11">备选</button></div><p>在 <u>WorkBuddy</u> 中调用 <code class="glaze">huashu-design</code>，选 <code class="glaze">方案 C</code>。</p></section>
+  <section><div class="head"><span class="num">12</span><h3>航线站点</h3><small>线路图</small><button type="button" aria-label="备选航线站点" aria-pressed="false" data-id="12">备选</button></div><p>在 <u>WorkBuddy</u> 中调用 <code class="route">huashu-design</code>，选 <code class="route">方案 C</code>。</p></section>
+  <section><div class="head"><span class="num">13</span><h3>格纸标签</h3><small>手帐</small><button type="button" aria-label="备选格纸标签" aria-pressed="false" data-id="13">备选</button></div><p>在 <u>WorkBuddy</u> 中调用 <code class="graph">huashu-design</code>，选 <code class="graph">方案 C</code>。</p></section>
+  <section><div class="head"><span class="num">14</span><h3>书页波浪线</h3><small>校对</small><button type="button" aria-label="备选书页波浪线" aria-pressed="false" data-id="14">备选</button></div><p>在 <u>WorkBuddy</u> 中调用 <code class="wave">huashu-design</code>，选 <code class="wave">方案 C</code>。</p></section>
+  <section><div class="head"><span class="num">15</span><h3>胶片齿孔</h3><small>胶片</small><button type="button" aria-label="备选胶片齿孔" aria-pressed="false" data-id="15">备选</button></div><p>在 <u>WorkBuddy</u> 中调用 <code class="film">huashu-design</code>，选 <code class="film">方案 C</code>。</p></section>
+  <section><div class="head"><span class="num">16</span><h3>蓝墨套印</h3><small>印刷</small><button type="button" aria-label="备选蓝墨套印" aria-pressed="false" data-id="16">备选</button></div><p>在 <u>WorkBuddy</u> 中调用 <code class="offset">huashu-design</code>，选 <code class="offset">方案 C</code>。</p></section>
+  <section><div class="head"><span class="num">17</span><h3>检票口</h3><small>票券</small><button type="button" aria-label="备选检票口" aria-pressed="false" data-id="17">备选</button></div><p>在 <u>WorkBuddy</u> 中调用 <code class="ticket">huashu-design</code>，选 <code class="ticket">方案 C</code>。</p></section>
+  <section><div class="head"><span class="num">18</span><h3>缝线布标</h3><small>织物</small><button type="button" aria-label="备选缝线布标" aria-pressed="false" data-id="18">备选</button></div><p>在 <u>WorkBuddy</u> 中调用 <code class="stitch">huashu-design</code>，选 <code class="stitch">方案 C</code>。</p></section>
+  <section><div class="head"><span class="num">19</span><h3>水彩晕染</h3><small>手绘</small><button type="button" aria-label="备选水彩晕染" aria-pressed="false" data-id="19">备选</button></div><p>在 <u>WorkBuddy</u> 中调用 <code class="wash">huashu-design</code>，选 <code class="wash">方案 C</code>。</p></section>
+  <section><div class="head"><span class="num">20</span><h3>排字方括号</h3><small>程序员</small><button type="button" aria-label="备选排字方括号" aria-pressed="false" data-id="20">备选</button></div><p>在 <u>WorkBuddy</u> 中调用 <code class="bracket">huashu-design</code>，选 <code class="bracket">方案 C</code>。</p></section>
+</div>
+<h2>上一轮 · 01–10</h2>
+<div class="grid">
+  <section><div class="head"><span class="num">01</span><h3>钢笔圈注</h3><small>手绘</small><button type="button" aria-label="备选钢笔圈注" aria-pressed="false" data-id="01">备选</button></div><p>在 <u>WorkBuddy</u> 中调用 <code class="pen">huashu-design</code>，选 <code class="pen">方案 C</code>。</p></section>
+  <section><div class="head"><span class="num">02</span><h3>像素阶梯框</h3><small>像素</small><button type="button" aria-label="备选像素阶梯框" aria-pressed="false" data-id="02">备选</button></div><p>在 <u>WorkBuddy</u> 中调用 <code class="pixel">huashu-design</code>，选 <code class="pixel">方案 C</code>。</p></section>
+  <section><div class="head"><span class="num">03</span><h3>蓝铅笔涂痕</h3><small>手绘</small><button type="button" aria-label="备选蓝铅笔涂痕" aria-pressed="false" data-id="03">备选</button></div><p>在 <u>WorkBuddy</u> 中调用 <code class="chalk">huashu-design</code>，选 <code class="chalk">方案 C</code>。</p></section>
+  <section><div class="head"><span class="num">04</span><h3>街机选择光标</h3><small>游戏</small><button type="button" aria-label="备选街机选择光标" aria-pressed="false" data-id="04">备选</button></div><p>在 <u>WorkBuddy</u> 中调用 <code class="retro">huashu-design</code>，选 <code class="retro">方案 C</code>。</p></section>
+  <section><div class="head"><span class="num">05</span><h3>手撕纸胶带</h3><small>手帐</small><button type="button" aria-label="备选手撕纸胶带" aria-pressed="false" data-id="05">备选</button></div><p>在 <u>WorkBuddy</u> 中调用 <code class="paper">huashu-design</code>，选 <code class="paper">方案 C</code>。</p></section>
+  <section><div class="head"><span class="num">06</span><h3>掌机装备槽</h3><small>游戏</small><button type="button" aria-label="备选掌机装备槽" aria-pressed="false" data-id="06">备选</button></div><p>在 <u>WorkBuddy</u> 中调用 <code class="slot">huashu-design</code>，选 <code class="slot">方案 C</code>。</p></section>
+  <section><div class="head"><span class="num">07</span><h3>虚齿邮票</h3><small>纸品</small><button type="button" aria-label="备选虚齿邮票" aria-pressed="false" data-id="07">备选</button></div><p>在 <u>WorkBuddy</u> 中调用 <code class="stamp">huashu-design</code>，选 <code class="stamp">方案 C</code>。</p></section>
+  <section><div class="head"><span class="num">08</span><h3>瞄准角标</h3><small>游戏</small><button type="button" aria-label="备选瞄准角标" aria-pressed="false" data-id="08">备选</button></div><p>在 <u>WorkBuddy</u> 中调用 <code class="hud">huashu-design</code>，选 <code class="hud">方案 C</code>。</p></section>
+  <section><div class="head"><span class="num">09</span><h3>折角便签</h3><small>纸品</small><button type="button" aria-label="备选折角便签" aria-pressed="false" data-id="09">备选</button></div><p>在 <u>WorkBuddy</u> 中调用 <code class="fold">huashu-design</code>，选 <code class="fold">方案 C</code>。</p></section>
+  <section><div class="head"><span class="num">10</span><h3>蓝边索引签</h3><small>编辑标注</small><button type="button" aria-label="备选蓝边索引签" aria-pressed="false" data-id="10">备选</button></div><p>在 <u>WorkBuddy</u> 中调用 <code class="index">huashu-design</code>，选 <code class="index">方案 C</code>。</p></section>
+</div>
+<h2>最初四款 · A–D</h2>
+<div class="grid">
+  <section><div class="head"><span class="num">A</span><h3>柔蓝短胶囊</h3><small>基础</small><button type="button" aria-label="备选柔蓝短胶囊" aria-pressed="false" data-id="A">备选</button></div><p>在 <u>WorkBuddy</u> 中调用 <code class="soft">huashu-design</code>，选 <code class="soft">方案 C</code>。</p></section>
+  <section><div class="head"><span class="num">B</span><h3>淡蓝纸签</h3><small>基础</small><button type="button" aria-label="备选淡蓝纸签" aria-pressed="false" data-id="B">备选</button></div><p>在 <u>WorkBuddy</u> 中调用 <code class="strip">huashu-design</code>，选 <code class="strip">方案 C</code>。</p></section>
+  <section><div class="head"><span class="num">C</span><h3>蓝边键帽</h3><small>基础</small><button type="button" aria-label="备选蓝边键帽" aria-pressed="false" data-id="C">备选</button></div><p>在 <u>WorkBuddy</u> 中调用 <code class="key">huashu-design</code>，选 <code class="key">方案 C</code>。</p></section>
+  <section><div class="head"><span class="num">D</span><h3>半高荧光笔</h3><small>基础</small><button type="button" aria-label="备选半高荧光笔" aria-pressed="false" data-id="D">备选</button></div><p>在 <u>WorkBuddy</u> 中调用 <code class="stroke">huashu-design</code>，选 <code class="stroke">方案 C</code>。</p></section>
+</div>
+</main>
+<script>
+const buttons = [...document.querySelectorAll('button[data-id]')];
+const statusLine = document.querySelector('#picked');
+const hint = statusLine.textContent;
+for (const button of buttons) {
+  button.addEventListener('click', () => {
+    const selected = button.getAttribute('aria-pressed') !== 'true';
+    button.setAttribute('aria-pressed', String(selected));
+    button.textContent = selected ? '已选' : '备选';
+    const ids = buttons.filter(item => item.getAttribute('aria-pressed') === 'true').map(item => item.dataset.id);
+    statusLine.textContent = ids.length ? '已选 ' + ids.join('、') : hint;
+  });
+}
+</script>
+</html>
